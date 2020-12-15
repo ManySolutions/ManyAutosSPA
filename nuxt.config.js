@@ -22,7 +22,10 @@ export default {
   css: [
     '@mdi/font/css/materialdesignicons.css',
 
+    '@/assets/css/bootstrap-utilities.min.css',
+
     '@/assets/scss/style.scss',
+
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -94,5 +97,10 @@ export default {
     display: 'swap',
 
     preload: true,
+  },
+
+
+  env: {
+    CURRENCY_SYMBOL: '£'
   }
 }
