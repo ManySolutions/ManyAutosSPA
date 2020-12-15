@@ -4,15 +4,19 @@
     <v-main>
       <nuxt></nuxt>
     </v-main>
+
+    <mini-cart></mini-cart>
   </v-app>
 </template>
 
 <script>
-import navbar from './__components/navbar';
+import Navbar from './__components/navbar';
+import MiniCart from '~/components/func-components/mini-cart';
 
 export default {
   components: {
-    navbar,
+    Navbar,
+    MiniCart,
   },
   data () {
     return {

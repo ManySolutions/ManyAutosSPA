@@ -71,6 +71,7 @@ export default {
         },
         light: {
           primary: '#00b4d8',
+          secondary: '#06d6a0'
         },
       }
     },

@@ -4,16 +4,18 @@
       <v-col>
         <h1 class='heading__title text-center pb-lg-5'>
           <span class='font-weight-light'>
-            Choose
+            Which
           </span>
-            MOT
-          <span class='font-weight-light text-lowercase'>or</span>
-          Servicing
+            Exterior
+          <span class='font-weight-light'>
+            part need to repaire
+          </span>
+          <br>
           <span class='font-weight-light'>For Your</span>
           <br>
           <span class='text-primary'>
             {{ 'Ford' }}
-            {{ 'Fista' }}
+            {{ 'Fista' }}?
           </span>
         </h1>
       </v-col>
@@ -82,7 +84,12 @@ export default {
         href: 'services'
       },
       {
-        text: 'Mot & Servicing',
+        text: 'Part\'s Categories',
+        disabled: true,
+        href: '#'
+      },
+      {
+        text: 'Exterior',
         disabled: true,
         href: '#'
       },
