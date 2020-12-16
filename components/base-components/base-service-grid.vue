@@ -29,6 +29,7 @@
       <v-btn
         color='primary'
         large block
+        :to="url || '/'"
       >
         <strong>
           {{ btnTitle }}
@@ -41,6 +42,7 @@
 <script>
 export default {
   props: {
+    url: String,
     title: String,
     subTitle: String,
     price: String,

@@ -23,13 +23,18 @@
         <v-card>
           <v-card-subtitle>Part's Groups List</v-card-subtitle>
           <v-card-text>
-            <v-list>
+            <v-skeleton-loader
+              v-if='isLoading'
+              type='list-item, list-item, list-item, list-item, list-item'
+            ></v-skeleton-loader>
+            <v-list v-else>
               <v-list-item-group>
                 <v-list-item
-                  v-for="item in items"
-                  :key="item.title"
+                  v-for="group in groups"
+                  :key="group.GroupCode"
+                  :to='"./parts/" + group.GroupCode'
                 >
-                  <v-list-item-title v-text="item.title"></v-list-item-title>
+                  <v-list-item-title v-text="group.Group"></v-list-item-title>
                   <v-list-item-icon>
                     <v-icon>
                       mdi-chevron-right
@@ -46,31 +51,43 @@
 </template>
 
 <script>
+import { getPartsGroup } from '~/api/vehicle';
 export default {
   components: {
   },
+
+  props: ['vehicleName', 'motPrice', 'modelId'],
 
   data: () => ({
     breadcrumbs: [
       {
         text: 'Services',
         disabled: false,
-        href: '../services'
+        to: '../services'
       },
       {
-        text: 'Categories',
+        text: 'Part\'s Categories',
         disabled: true,
-        href: '#'
       },
     ],
-    items: [
-      {
-        title: 'Exterior',
-      },
-      {
-        title: 'Interior',
-      },
-    ],
-  })
+
+    groups: [],
+    isLoading: true,
+  }),
+
+  mounted() {
+    this.fetch();
+  },
+
+  methods: {
+    fetch() {
+      this.isLoading = true;
+
+      getPartsGroup(this.modelId)
+        .then(res => {
+          this.groups = res.partsGroup
+        }).finally(() => this.isLoading = false)
+    }
+  }
 }
 </script>

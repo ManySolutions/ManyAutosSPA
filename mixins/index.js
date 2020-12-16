@@ -1,7 +1,8 @@
 export default {
   data: () => ({
     assetsURL: 'https://manyautosltd.com/assets/',
-    appTitle: 'Many Autos LTD'
+    appTitle: 'Many Autos LTD',
+    currencySymbol: process.env.CURRENCY_SYMBOL
   }),
 
   methods: {

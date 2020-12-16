@@ -126,6 +126,7 @@ export default {
   }),
 
   mounted() {
+    
   },
 
   methods: {
@@ -135,9 +136,16 @@ export default {
 
       getVehicleDetails(this.reg)
         .then(res => {
-          if (!res.status) {
+          if (res.status && res.status == false) {
             this.error = true;
             this.errorMessage = res.message;
+          } else {
+            this.$store.commit('booking/REGISTER_VEHICLE', {
+              vehicle: res.vehicle,
+              modelId: res.vehicle.Model_ID
+            });
+
+            this.$router.push('/booking/create/services');
           }
         }).finally(() => this.isLoading = false);
     }

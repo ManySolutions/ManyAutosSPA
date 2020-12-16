@@ -6,14 +6,11 @@
           <span class='font-weight-light'>
             Choose
           </span>
-            MOT
-          <span class='font-weight-light text-lowercase'>or</span>
-          Servicing
+            Diagnostics
           <span class='font-weight-light'>For Your</span>
           <br>
           <span class='text-primary'>
-            {{ 'Ford' }}
-            {{ 'Fista' }}
+            {{ vehicleName }}
           </span>
         </h1>
       </v-col>
@@ -34,31 +31,25 @@
           elevation="1"
         >
           <v-card-text>
+            <template v-if='isLoading'>
+              <base-service-item
+                v-for='n in 4'
+                :key='n'
+                :loading='isLoading'
+                :title='""'
+                :price='""'
+                :id='""'
+                :ind='[]'
+              ></base-service-item>
+            </template>
             <base-service-item
-              :title='`MOT`'
-              :price='64.33'
-              :id='`MOT`'
-              :ind='["Free Retest", "Emissions and exhaust test", "Collection and delivery"]'
-            ></base-service-item>
-            <base-service-item
-              :title='`Interim Service`'
-              :price='120'
-              :id='`INTERIM_SERVICE`'
-              :ind='[
-                "Oil and Oil Filter", 
-                "50 point vehicle check", 
-                "Collection and delivery"
-              ]'
-            ></base-service-item>
-            <base-service-item
-              :title='`Full Service`'
-              :price='130'
-              :id='`FULL_SERVICE`'
-              :ind='[
-                "70 point vehicle checks", 
-                "Drive and Test", 
-                "Collection and delivery"
-              ]'
+              v-else
+              v-for='(diagnostic, i) in diagnostics'
+              :key='i'
+              :title='diagnostic.name'
+              :price='diagnostic.price'
+              :id='diagnostic.key'
+              :ind='diagnostic.attributes.info'
             ></base-service-item>
           </v-card-text>
         </v-card>
@@ -68,25 +59,45 @@
 </template>
 
 <script>
+import { getServices } from '~/api/vehicle';
 import BaseServiceItem from '~/components/base-components/base-service-item.vue'
 export default {
   components: {
     BaseServiceItem
   },
+  
+  props: ['vehicleName', 'motPrice', 'modelId'],
 
   data: () => ({
     breadcrumbs: [
       {
         text: 'Services',
         disabled: false,
-        href: 'services'
+        to: './services'
       },
       {
-        text: 'Mot & Servicing',
+        text: 'Diagnostics',
         disabled: true,
-        href: '#'
       },
-    ]
-  })
+    ],
+
+    isLoading: true,
+    diagnostics: {},
+  }),
+
+  mounted() {
+    this.fetch();
+  },
+
+  methods: {
+    fetch() {
+      this.isLoading = true;
+
+      getServices(this.modelId)
+        .then(res => {
+          this.diagnostics = res.diagnostics
+        }).finally(() => this.isLoading = false)
+    }
+  }
 }
 </script>

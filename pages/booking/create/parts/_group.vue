@@ -36,31 +36,24 @@
           elevation="1"
         >
           <v-card-text>
+            <template v-if='isLoading'>
+              <base-service-item
+                v-for='n in 4'
+                :key='n'
+                :loading='isLoading'
+                :title='""'
+                :price='""'
+                :id='""'
+                :ind='[]'
+              ></base-service-item>
+            </template>
             <base-service-item
-              :title='`MOT`'
-              :price='64.33'
-              :id='`MOT`'
-              :ind='["Free Retest", "Emissions and exhaust test", "Collection and delivery"]'
-            ></base-service-item>
-            <base-service-item
-              :title='`Interim Service`'
-              :price='120'
-              :id='`INTERIM_SERVICE`'
-              :ind='[
-                "Oil and Oil Filter", 
-                "50 point vehicle check", 
-                "Collection and delivery"
-              ]'
-            ></base-service-item>
-            <base-service-item
-              :title='`Full Service`'
-              :price='130'
-              :id='`FULL_SERVICE`'
-              :ind='[
-                "70 point vehicle checks", 
-                "Drive and Test", 
-                "Collection and delivery"
-              ]'
+              v-for="(operation, j) in components"
+              :key='j'
+              :title='operation.Operation'
+              :price='parseFloat(operation.Price) + parseFloat(operation.LabourCost)'
+              :id='operation.PartNo.trim() + "-" + operation.ItemID'
+              :ind='[operation.IND0, operation.IND1, operation.IND2, operation.IND3, operation.IND4]'
             ></base-service-item>
           </v-card-text>
         </v-card>
@@ -70,30 +63,51 @@
 </template>
 
 <script>
-import BaseServiceItem from '~/components/base-components/base-service-item.vue'
+import { getPartsByGroupCode } from '~/api/vehicle';
 export default {
   components: {
-    BaseServiceItem
   },
+
+  props: ['vehicleName', 'motPrice', 'modelId'],
 
   data: () => ({
     breadcrumbs: [
       {
         text: 'Services',
         disabled: false,
-        href: 'services'
+        to: '/booking/create/services',
+        exact: true,
       },
       {
         text: 'Part\'s Categories',
-        disabled: true,
-        href: '#'
+        disabled: false,
+        to: '/booking/create/parts',
+        exact: true,
       },
       {
-        text: 'Exterior',
+        text: 'Categories',
         disabled: true,
-        href: '#'
       },
-    ]
-  })
+    ],
+
+    components: [],
+    isLoading: true,
+  }),
+
+  mounted() {
+    this.fetch();
+  },
+
+  methods: {
+    fetch() {
+      this.isLoading = true;
+      const { group } = this.$route.params;
+
+      getPartsByGroupCode(this.modelId, group)
+        .then(res => {
+          this.components = res;
+        }).finally(() => this.isLoading = false)
+    }
+  }
 }
 </script>

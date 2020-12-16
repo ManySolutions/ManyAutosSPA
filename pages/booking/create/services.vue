@@ -8,8 +8,7 @@
           </span>
           <br>
           <span class='text-primary'>
-            {{ 'Ford' }}
-            {{ 'Fista' }}
+            {{ vehicleName }}
           </span>
         </h1>
       </v-col>
@@ -21,11 +20,13 @@
           title='MOT & Servicing'
           btn-title='MOT & Servicing'
           icon='car-service.png'
+          url='./mot-and-servicing'
         >
           Book your MOT for<br>
           only 
-          <strong>
-            {{ '60' }}
+          <strong style='font-size: 20px'>
+            {{ currencySymbol }}
+            {{ motPrice }}
           </strong>
           or select servicing  for your 
           {{ 'Ford' }}
@@ -36,6 +37,7 @@
           title='Repairs'
           btn-title='Repair other parts'
           icon='car-repair.png'
+          url='./parts'
         >
           Get a quote for anyother repairs required for your car.
         </base-service-grid>
@@ -45,6 +47,7 @@
           title='Diagnostic'
           btn-title='Diagnostic'
           icon='diagnostic.png'
+          url='./diagnostics'
         >
           Having problems? Book a diagnostic and we will 
           find the problem and give you a report of what your car needs
@@ -60,6 +63,8 @@ import BaseServiceGrid from '@/components/base-components/base-service-grid';
 export default {
   components: {
     BaseServiceGrid
-  } 
+  },
+  
+  props: ['motPrice', 'vehicleName'],
 }
 </script>

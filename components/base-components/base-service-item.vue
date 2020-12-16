@@ -1,79 +1,153 @@
 <template>
   <div class='service-item'>
-    <div class="si-sec">
-      <div class="">
-        <h2 class='ma-si-heading'>
-          {{ title }}
-        </h2>
+    <v-skeleton-loader
+      v-if='loading'
+      type='article, button'
+    ></v-skeleton-loader>
+    <div v-else>
+      <div class="si-sec">
+        <div class="">
+          <h2 class='ma-si-heading'>
+            {{ title }}
+          </h2>
+        </div>
+        <div class="">
+          <span class='ma-si-price'>
+            {{ currencySymbol }}
+            {{ priceFormatted || '00.00' }}
+          </span>
+        </div>
+        <div class="">
+          <!-- <mot-alert
+            v-if='id == "MOT"'
+            :mb='0'
+            theme='info' 
+          /> -->
+        </div>
       </div>
-      <div class="">
-        <span class='ma-si-price'>
-          {{ currencySymbol }}
-          {{ priceFormatted || '00.00' }}
-        </span>
+
+      <div class="si-sec" v-if='description'>
+        <p class="my-0">
+          {{ description }}
+        </p>
       </div>
-      <div class="">
-        <!-- <mot-alert
-          v-if='id == "MOT"'
-          :mb='0'
-          theme='info' 
-        /> -->
+
+      <div class="si-sec" v-if='ind && ind.length'>
+        <ul class="list-group list-group-flush">
+          <template v-for='i in ind'>
+            <li class="list-group-item"
+              :key='i'
+              v-if='i'  
+            >
+              <img :src="assets('frontend/check-icon.png')" alt="Check icon">
+              {{ i }}
+            </li>
+          </template>
+        </ul>
       </div>
-    </div>
 
-    <div class="si-sec" v-if='description'>
-      <p class="my-0">
-        {{ description }}
-      </p>
+      <v-btn
+        v-if='isInCart'
+        text
+        :color='!isHover ? "success" : "error"'
+        small
+        class='mt-10'
+        @mouseover="isHover = true"
+        @click="handleRemove()"
+        @mouseleave="isHover = false"
+        :loading='isLoading'
+      >
+        <v-icon class='mr-2' small>
+          {{ isHover ? 'mdi-close-circle' : 'mdi-check-circle-outline' }}
+        </v-icon>
+        <strong>
+          Added in cart
+        </strong>
+      </v-btn>
+      <v-btn
+        v-else
+        color='primary'
+        block
+        large
+        class='mt-5'
+        :loading='isLoading'
+        @click='handleAdd'
+      >
+        <strong>
+          Add to services
+        </strong>
+      </v-btn>
     </div>
-
-    <div class="si-sec" v-if='ind && ind.length'>
-      <ul class="list-group list-group-flush">
-        <template v-for='i in ind'>
-          <li class="list-group-item"
-            :key='i'
-            v-if='i'  
-          >
-            <img :src="assets('frontend/check-icon.png')" alt="Check icon">
-            {{ i }}
-          </li>
-        </template>
-      </ul>
-    </div>
-
-    <v-btn
-      color='primary'
-      block
-      large
-      class='mt-5'
-    >
-      <strong>
-        Add to services
-      </strong>
-    </v-btn>
   </div>
 </template>
 
 <script>
+import {mapState} from 'vuex';
+
 export default {
   props: [
     'title', 'price', 'id', 'description', 'btntext',
-    'ind',
+    'ind', 'loading'
   ],
   data: () => ({
     INDKeys: ['IND0', 'IND1', 'IND2', 'IND3', 'IND4'],
     currencySymbol: process.env.CURRENCY_SYMBOL,
+    isLoading: false,
+    isHover: false,
   }),
   computed: {
+    ...mapState('booking', ['cart']),
+
     priceFormatted() {
       return parseFloat(this.price).toFixed(2);
-    }
+    },
+
+    isInCart() {
+      return this.cart.includes(this.id);
+    },
+    
+    cartIndex() {
+      let i;
+
+      for (i = 0; i < this.cart.length; i++) {
+        let elem = this.cart[i];
+
+        if (elem == this.id) return i;
+      }
+
+      return null;
+    },
+  },
+  methods: {
+    handleAdd() {
+      this.isLoading = true;
+
+      setTimeout(() => {
+        this.$store.commit('booking/ADD_TO_CART', this.id);
+
+        this.isLoading = false;
+      },500)
+    },
+    handleRemove() {
+      this.isLoading = true;
+      if (this.cartIndex == null) return;
+
+      setTimeout(() => {
+        this.$store.commit('booking/REMOVE_FROM_CART', this.cartIndex);
+
+        this.isLoading = false;
+      },200)
+    },
   },
 }
 </script>
 
 <style lang="scss" scoped>
 .service-item {
+  &::v-deep .v-skeleton-loader__button {
+    margin-left: 20px;
+  }
+
   padding: 30px 20px;
   @media (min-width:720px) {
     padding: 40px;

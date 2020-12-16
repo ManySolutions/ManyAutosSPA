@@ -12,8 +12,7 @@
           <span class='font-weight-light'>For Your</span>
           <br>
           <span class='text-primary'>
-            {{ 'Ford' }}
-            {{ 'Fista' }}
+            {{ vehicleName }}
           </span>
         </h1>
       </v-col>
@@ -35,14 +34,16 @@
         >
           <v-card-text>
             <base-service-item
+              :loading='isLoading'
               :title='`MOT`'
-              :price='64.33'
+              :price='motPrice'
               :id='`MOT`'
               :ind='["Free Retest", "Emissions and exhaust test", "Collection and delivery"]'
             ></base-service-item>
             <base-service-item
+              :loading='isLoading'
               :title='`Interim Service`'
-              :price='120'
+              :price='services.INTERIM_SERVICE ? services.INTERIM_SERVICE.price : "00.00"'
               :id='`INTERIM_SERVICE`'
               :ind='[
                 "Oil and Oil Filter", 
@@ -51,8 +52,9 @@
               ]'
             ></base-service-item>
             <base-service-item
+              :loading='isLoading'
               :title='`Full Service`'
-              :price='130'
+              :price='services.FULL_SERVICE ? services.FULL_SERVICE.price : "00.00"'
               :id='`FULL_SERVICE`'
               :ind='[
                 "70 point vehicle checks", 
@@ -68,25 +70,45 @@
 </template>
 
 <script>
+import { getServices } from '~/api/vehicle';
 import BaseServiceItem from '~/components/base-components/base-service-item.vue'
 export default {
   components: {
     BaseServiceItem
   },
+  
+  props: ['vehicleName', 'motPrice', 'modelId'],
 
   data: () => ({
     breadcrumbs: [
       {
         text: 'Services',
         disabled: false,
-        href: 'services'
+        to: './services'
       },
       {
         text: 'Mot & Servicing',
         disabled: true,
-        href: '#'
       },
-    ]
-  })
+    ],
+
+    isLoading: true,
+    services: {},
+  }),
+
+  mounted() {
+    this.fetch();
+  },
+
+  methods: {
+    fetch() {
+      this.isLoading = true;
+
+      getServices(this.modelId)
+        .then(res => {
+          this.services = res.services
+        }).finally(() => this.isLoading = false)
+    }
+  }
 }
 </script>
