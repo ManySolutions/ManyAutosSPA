@@ -1,0 +1,14 @@
+<template>
+  <div>
+    <v-btn
+      color="secondary"
+      dark
+      fixed
+      bottom
+      right
+      fab
+    >
+      <v-icon>mdi-cart</v-icon>
+    </v-btn>
+  </div>
+</template>
