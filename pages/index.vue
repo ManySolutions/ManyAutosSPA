@@ -87,18 +87,23 @@
       </v-col>
      </v-row>
      <index-how-it-works></index-how-it-works>
+     <index-our-services></index-our-services>
+     <index-car-parts></index-car-parts>
   </v-container>
 </template>
 
 <script>
 // import $ from 'jquery';
 import BaseTextSlider from '~/components/base-components/base-text-slider.vue';
-// import HowItWorks from '~/components/base-components/how-it-works.vue';
 import IndexHowItWorks from '~/pages/__components/index-how-it-works.vue';
+import IndexOurServices from '~/pages/__components/index-our-services.vue';
+import IndexCarParts from '~/pages/__components/index-car-parts.vue';
 export default {
   components: {
     BaseTextSlider,
     IndexHowItWorks,
+    IndexOurServices,
+    IndexCarParts,
   },
 
   mounted() {
