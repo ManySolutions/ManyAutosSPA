@@ -13,11 +13,11 @@
         </span>
       </div>
       <div class="">
-        <mot-alert
+        <!-- <mot-alert
           v-if='id == "MOT"'
           :mb='0'
           theme='info' 
-        />
+        /> -->
       </div>
     </div>
 

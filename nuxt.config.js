@@ -102,6 +102,9 @@ export default {
 
 
   env: {
-    CURRENCY_SYMBOL: '£'
+    ENVIRONMENT: 'development',
+    CURRENCY_SYMBOL: '£',
+    LOCAL_API_URL: 'http://manyautos.local/api/v2/c/',
+    API_URL: '', 
   }
 }

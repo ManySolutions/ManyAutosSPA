@@ -28,19 +28,29 @@
               <strong>Book with us now</strong>
             </v-card-title>
             <v-card-text>
-              <v-text-field
-                label="Your car reg i.e LB51TVW"
-                outlined
-                hide-details
-                class='mb-2'
-              ></v-text-field>
-              <v-btn
-                color='primary'
-                block
-                large
-              >
-                Get instant quote
-              </v-btn>
+              <v-form @submit.prevent="handleSubmit()">
+                <v-text-field
+                  label="Your car reg i.e LB51TVW"
+                  outlined
+                  hide-details
+                  class='mb-2'
+                  v-model='reg'
+                ></v-text-field>
+                <small v-if='error' class='red--text'>
+                  {{ errorMessage }}
+                  please try using 
+                  <NuxtLink to="/">Manual Search</NuxtLink>
+                </small>
+                <v-btn
+                  color='primary'
+                  block
+                  large
+                  type='submit'
+                  :loading='isLoading'
+                >
+                  Get instant quote
+                </v-btn>
+              </v-form>
             </v-card-text>
             <v-card-actions
               class='pr-4'
@@ -98,6 +108,8 @@ import BaseTextSlider from '~/components/base-components/base-text-slider.vue';
 import IndexHowItWorks from '~/pages/__components/index-how-it-works.vue';
 import IndexOurServices from '~/pages/__components/index-our-services.vue';
 import IndexCarParts from '~/pages/__components/index-car-parts.vue';
+import { getVehicleDetails } from '~/api/vehicle';
+
 export default {
   components: {
     BaseTextSlider,
@@ -106,7 +118,29 @@ export default {
     IndexCarParts,
   },
 
+  data: () => ({
+    reg: '',
+    isLoading: false,
+    error: false,
+    errorMessage: null,
+  }),
+
   mounted() {
+  },
+
+  methods: {
+    handleSubmit() {
+      this.error = false;
+      this.isLoading = true;
+
+      getVehicleDetails(this.reg)
+        .then(res => {
+          if (!res.status) {
+            this.error = true;
+            this.errorMessage = res.message;
+          }
+        }).finally(() => this.isLoading = false);
+    }
   }
 }
 </script>

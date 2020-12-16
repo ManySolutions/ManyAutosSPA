@@ -7,8 +7,117 @@
       bottom
       right
       fab
+      @click='drawer = true'
     >
-      <v-icon>mdi-cart</v-icon>
+      <v-badge
+        color="primary"
+        overlap
+        content="4"
+        offset-x="0"
+        offset-y="0"
+      >
+        <v-icon>mdi-cart</v-icon>
+      </v-badge>
     </v-btn>
+
+    <v-navigation-drawer
+      v-model="drawer"
+      fixed
+      bottom
+      temporary
+    >
+      <v-card
+        elevation="0"
+      >
+        <v-card-title>
+          Your services list
+        </v-card-title>
+        <v-card-text>
+          <v-simple-table>
+            <template #default>
+              <thead>
+                <tr>
+                  <th>Item Name</th>
+                  <th>Price</th>
+                  <th class='text-center'>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for='(item, i) in items'
+                  :key='i'
+                >
+                  <td>
+                    {{ item.name }}
+                  </td>
+                  <td>
+                    {{ currencySymbol }}
+                    {{ item.price }}
+                  </td>
+                  <td class='text-center'>
+                    <v-btn
+                      color='error'
+                      small
+                      icon
+                    >
+                      <v-icon>
+                        mdi-delete
+                      </v-icon>
+                    </v-btn>
+                  </td>
+                </tr>
+              </tbody>
+            </template>
+          </v-simple-table>
+        </v-card-text>
+        <v-card-actions>
+          <v-btn
+            color='secondary'
+            block large
+            dark
+          >
+            <strong>
+              Book now
+            </strong>
+            <v-icon
+              right
+              dark
+            >
+              mdi-chevron-right
+            </v-icon>
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-navigation-drawer>
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    drawer: false,
+    items: [
+      {
+        name: 'MOT',
+        price: '20.00'
+      },
+      {
+        name: 'Interim Service',
+        price: '120.00'
+      },
+      {
+        name: 'Oil and Gas',
+        price: '34.00'
+      },
+      {
+        name: 'Full service',
+        price: '134.00'
+      },
+    ],
+    currencySymbol: process.env.CURRENCY_SYMBOL
+  })
+}
+</script>
+
+<style lang="scss" scoped>
+
+</style>
