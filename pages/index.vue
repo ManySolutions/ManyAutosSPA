@@ -85,17 +85,20 @@
           </p>
         </div>
       </v-col>
-    </v-row>
+     </v-row>
+     <index-how-it-works></index-how-it-works>
   </v-container>
 </template>
 
 <script>
 // import $ from 'jquery';
 import BaseTextSlider from '~/components/base-components/base-text-slider.vue';
-
+// import HowItWorks from '~/components/base-components/how-it-works.vue';
+import IndexHowItWorks from '~/pages/__components/index-how-it-works.vue';
 export default {
   components: {
     BaseTextSlider,
+    IndexHowItWorks,
   },
 
   mounted() {
