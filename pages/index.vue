@@ -99,6 +99,9 @@
      <index-how-it-works></index-how-it-works>
      <index-our-services></index-our-services>
      <index-car-parts></index-car-parts>
+     <index-reviews></index-reviews>
+     <index-faq></index-faq>
+     <index-footer></index-footer>
   </v-container>
 </template>
 
@@ -109,6 +112,9 @@ import IndexHowItWorks from '~/pages/__components/index-how-it-works.vue';
 import IndexOurServices from '~/pages/__components/index-our-services.vue';
 import IndexCarParts from '~/pages/__components/index-car-parts.vue';
 import { getVehicleDetails } from '~/api/vehicle';
+import IndexReviews from '~/pages/__components/index-reviews.vue';
+import IndexFaq from '~/pages/__components/index-faq.vue';
+import IndexFooter from '~/pages/__components/index-footer.vue';
 
 export default {
   components: {
@@ -116,6 +122,9 @@ export default {
     IndexHowItWorks,
     IndexOurServices,
     IndexCarParts,
+    IndexReviews,
+    IndexFaq,
+    IndexFooter,
   },
 
   data: () => ({
