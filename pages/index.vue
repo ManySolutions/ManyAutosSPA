@@ -89,6 +89,9 @@
      <index-how-it-works></index-how-it-works>
      <index-our-services></index-our-services>
      <index-car-parts></index-car-parts>
+     <index-reviews></index-reviews>
+     <index-faq></index-faq>
+     <index-footer></index-footer>
   </v-container>
 </template>
 
@@ -98,12 +101,18 @@ import BaseTextSlider from '~/components/base-components/base-text-slider.vue';
 import IndexHowItWorks from '~/pages/__components/index-how-it-works.vue';
 import IndexOurServices from '~/pages/__components/index-our-services.vue';
 import IndexCarParts from '~/pages/__components/index-car-parts.vue';
+import IndexReviews from '~/pages/__components/index-reviews.vue';
+import IndexFaq from '~/pages/__components/index-faq.vue';
+import IndexFooter from '~/pages/__components/index-footer.vue';
 export default {
   components: {
     BaseTextSlider,
     IndexHowItWorks,
     IndexOurServices,
     IndexCarParts,
+    IndexReviews,
+    IndexFaq,
+    IndexFooter,
   },
 
   mounted() {

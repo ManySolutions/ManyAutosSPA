@@ -13,7 +13,9 @@
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "vue-owl-carousel": "file:vue-owl-carousel",
+    "vue-owl-carousel2": "^2.0.7"
   },
   "devDependencies": {
     "@mdi/font": "^5.8.55",
