@@ -8,7 +8,7 @@
               <i class="checkmark secondary--text">✓</i>
             </div>
             <h1 class='mt-10 secondary--text'>Success!</h1> 
-            <p class='my-7'>We received your car repair booking request;<br/><br /> we'll be in touch shortly!</p>
+            <p class='my-7'>We received your car repair job request.<br/><br /> we'll be in touch shortly!</p>
             <v-btn
               color='primary'
               text
