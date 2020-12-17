@@ -14,6 +14,8 @@ import Navbar from './__components/navbar';
 import MiniCart from '~/components/func-components/mini-cart';
 
 export default {
+  name: 'default',
+  
   components: {
     Navbar,
     MiniCart,

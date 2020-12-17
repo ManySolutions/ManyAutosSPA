@@ -14,8 +14,12 @@
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
     "nuxt": "^2.14.6",
+<<<<<<< HEAD
     "vue-owl-carousel": "file:vue-owl-carousel",
     "vue-owl-carousel2": "^2.0.7"
+=======
+    "vuejs-auto-complete": "^0.9.0"
+>>>>>>> 77a69d325f29b7848755c53f9ee2c3b6ebc20620
   },
   "devDependencies": {
     "@mdi/font": "^5.8.55",

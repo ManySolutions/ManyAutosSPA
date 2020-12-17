@@ -66,6 +66,7 @@
             :src="assets('/customer-v2/logo-default.png')" 
             :alt="appTitle"
             class='logo'
+            @click='$router.push("/")'
           >
         </v-col>
         <v-col
@@ -129,6 +130,8 @@ import mixins from '@/mixins';
 Vue.mixin(mixins);
 
 export default {
+  name: 'navbar',
+
   data: () => ({
     drawer: false,
     group: null,
@@ -138,7 +141,7 @@ export default {
 
 <style lang="scss" scoped>
 .text-large {
-  font-size: 20px;
+  font-size: 18px;
 }
 .logo {
   max-width: 100%;
