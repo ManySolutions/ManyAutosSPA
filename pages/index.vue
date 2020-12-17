@@ -111,13 +111,10 @@ import BaseTextSlider from '~/components/base-components/base-text-slider.vue';
 import IndexHowItWorks from '~/pages/__components/index-how-it-works.vue';
 import IndexOurServices from '~/pages/__components/index-our-services.vue';
 import IndexCarParts from '~/pages/__components/index-car-parts.vue';
-
+import { getVehicleDetails } from '~/api/vehicle';
 import IndexReviews from '~/pages/__components/index-reviews.vue';
 import IndexFaq from '~/pages/__components/index-faq.vue';
 import IndexFooter from '~/pages/__components/index-footer.vue';
-
-import { getVehicleDetails } from '~/api/vehicle';
-
 
 export default {
   components: {
