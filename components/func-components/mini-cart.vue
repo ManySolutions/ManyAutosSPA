@@ -12,7 +12,8 @@
       <v-badge
         color="primary"
         overlap
-        content="4"
+        :content="cartCount"
+        :value="cartCount"
         offset-x="0"
         offset-y="0"
       >
@@ -92,6 +93,9 @@
 </template>
 
 <script>
+import { mapState, mapGetters } from 'vuex';
+import { getCartInstance } from '~/api/cart';
+
 export default {
   data: () => ({
     drawer: false,
@@ -114,7 +118,34 @@ export default {
       },
     ],
     currencySymbol: process.env.CURRENCY_SYMBOL
-  })
+  }),
+
+  computed: {
+    ...mapState('booking', ['cart', 'modelId']),
+
+    ...mapGetters('booking', ['cartCount']),
+  },
+
+  watch: {
+    drawer(drawer) {
+      if (!drawer) return;
+
+      this.fetch();
+    }
+  },
+
+  mounted() {
+
+  },
+
+  methods: {
+    fetch() {
+      getCartInstance(this.modelId, this.cart)
+        .then(res => {
+          console.log('res', res);
+        })
+    }
+  }
 }
 </script>
 

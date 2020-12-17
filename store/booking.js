@@ -18,7 +18,7 @@ export const mutations = {
 
   REMOVE_FROM_CART(state, index) {
     console.log('index', index);
-    
+
     state.cart.splice(index, 1);
   }
 }
@@ -29,5 +29,9 @@ export const getters = {
     return state.vehicle
       ? state.vehicle.Mfr + ' ' + state.vehicle.Range
       : null
+  },
+
+  cartCount(state) {
+    return state.cart.length || 0;
   }
 }
