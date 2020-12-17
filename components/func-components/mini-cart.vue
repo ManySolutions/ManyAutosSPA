@@ -1,99 +1,167 @@
 <template>
-  <div>
-    <v-btn
-      color="secondary"
-      dark
-      fixed
-      bottom
-      right
-      fab
-      @click='drawer = true'
-    >
-      <v-badge
-        color="primary"
-        overlap
-        :content="cartCount"
-        :value="cartCount"
-        offset-x="0"
-        offset-y="0"
+  <div class='mini-cart'>
+    <template v-if='!isCartEmpty'>
+      <v-btn
+        color="secondary"
+        dark
+        fixed
+        bottom
+        right
+        fab
+        @click='drawer = true'
       >
-        <v-icon>mdi-cart</v-icon>
-      </v-badge>
-    </v-btn>
+        <v-badge
+          color="primary"
+          overlap
+          :content="cartCount"
+          :value="cartCount"
+          offset-x="0"
+          offset-y="0"
+        >
+          <v-icon>mdi-cart</v-icon>
+        </v-badge>
+      </v-btn>
 
-    <v-navigation-drawer
-      v-model="drawer"
-      fixed
-      bottom
-      temporary
-    >
-      <v-card
-        elevation="0"
+      <v-navigation-drawer
+        v-model="drawer"
+        fixed
+        bottom
+        temporary
       >
-        <v-card-title>
-          Your services list
-        </v-card-title>
-        <v-card-text>
-          <v-simple-table>
-            <template #default>
-              <thead>
-                <tr>
-                  <th>Item Name</th>
-                  <th>Price</th>
-                  <th class='text-center'>Actions</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for='(item, i) in items'
-                  :key='i'
-                >
-                  <td>
-                    {{ item.name }}
-                  </td>
-                  <td>
-                    {{ currencySymbol }}
-                    {{ item.price }}
-                  </td>
-                  <td class='text-center'>
-                    <v-btn
-                      color='error'
-                      small
-                      icon
-                    >
-                      <v-icon>
-                        mdi-delete
-                      </v-icon>
-                    </v-btn>
-                  </td>
-                </tr>
-              </tbody>
-            </template>
-          </v-simple-table>
-        </v-card-text>
-        <v-card-actions>
-          <v-btn
-            color='secondary'
-            block large
-            dark
-          >
-            <strong>
-              Book now
-            </strong>
-            <v-icon
-              right
-              dark
+        <v-alert
+          color='red'
+          type='error'
+          dense
+          text
+          outlined
+          v-if='cartError'
+          class='mt-5 mx-5'
+        >
+          Cart Received a critical error
+          Please consult with administrator
+        </v-alert>
+        <v-card
+          elevation="0"
+          v-else
+        >
+          <v-card-title>
+            Your services list
+          </v-card-title>
+          <v-card-text>
+            <v-skeleton-loader
+              v-if='isCartLoading'
+              type='list-item, list-item, list-item'
+            ></v-skeleton-loader>
+            <v-simple-table v-else>
+              <template #default>
+                <thead>
+                  <tr>
+                    <th>Item Name</th>
+                    <th>Price</th>
+                    <th class='text-center'>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for='(item, i) in cartContent.cart_details'
+                    :key='i'
+                  >
+                    <td>
+                      {{ item.name }}
+                    </td>
+                    <td>
+                      {{ currencySymbol + item.price }}
+                    </td>
+                    <td class='text-center'>
+                      <v-btn
+                        color='error'
+                        small
+                        icon
+                        @click='handleRemove(i)'
+                      >
+                        <v-icon>
+                          mdi-delete
+                        </v-icon>
+                      </v-btn>
+                    </td>
+                  </tr>
+                </tbody>
+              </template>
+            </v-simple-table>
+            <!-- / items list ended -->
+
+            <v-card 
+              outlined 
+              class='px-4 mt-4' 
+              v-if='!isCartLoading'
             >
-              mdi-chevron-right
-            </v-icon>
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-navigation-drawer>
+              <v-row>
+                <v-col class='pb-0'>
+                  Total Cost
+                </v-col>
+                <v-col class='text-right pb-0'>
+                  <span class='font-weight-700'>
+                    {{ currencySymbol }}
+                    {{ cartContent.cart_total }}
+                  </span>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-col class='pb-0'>
+                  Tax (i.e VAT)
+                </v-col>
+                <v-col class='text-right pb-0'>
+                  <span class='font-weight-700'>
+                    {{ currencySymbol }}
+                    {{ parseFloat(cartContent.cart_subtotal - cartContent.cart_total).toFixed(2) }}
+                  </span>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-col class=''>
+                  Subtotal Cost
+                </v-col>
+                <v-col class='text-right '>
+                  <span class='font-weight-700'>
+                    {{ currencySymbol }}
+                    {{ cartContent.cart_subtotal }}
+                  </span>
+                </v-col>
+              </v-row>
+            </v-card>
+            <!-- /total costs -->
+
+          </v-card-text>
+          <v-card-actions>
+            <v-skeleton-loader
+              v-if='isCartLoading'
+              type='button'
+            ></v-skeleton-loader>
+            <v-btn
+              v-else
+              color='secondary'
+              block large
+              dark
+              to='/booking/create/collection-info'
+            >
+              <strong>
+                Book now
+              </strong>
+              <v-icon
+                right
+                dark
+              >
+                mdi-chevron-right
+              </v-icon>
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-navigation-drawer>
+    </template>
   </div>
 </template>
 
 <script>
-import { mapState, mapGetters } from 'vuex';
+import { mapState, mapGetters, mapActions } from 'vuex';
 import { getCartInstance } from '~/api/cart';
 
 export default {
@@ -121,34 +189,64 @@ export default {
   }),
 
   computed: {
-    ...mapState('booking', ['cart', 'modelId']),
+    ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError']),
 
     ...mapGetters('booking', ['cartCount']),
+
+    isCartEmpty() {
+      return this.cartCount > 0 ? false : true;
+    }
   },
 
   watch: {
     drawer(drawer) {
       if (!drawer) return;
 
-      this.fetch();
+      this.getCart();
+    },
+
+    isCartEmpty(isCartEmpty) {
+      if (isCartEmpty) {
+        this.drawer = false;
+      }
     }
   },
 
   mounted() {
-
   },
 
   methods: {
-    fetch() {
-      getCartInstance(this.modelId, this.cart)
-        .then(res => {
-          console.log('res', res);
-        })
-    }
+    ...mapActions('booking', ['getCart']),
+
+    handleRemove(key) {
+      const cartIndex = this._cartIndex(key);
+      console.log(cartIndex);
+      if (cartIndex == null) return;
+
+      this.$store.commit('booking/REMOVE_FROM_CART', cartIndex);
+
+      this.getCart();
+    },
+
+    _cartIndex(item) {
+      let i;
+
+      for (i = 0; i < this.cart.length; i++) {
+        let elem = this.cart[i];
+
+        if (elem == item) return i;
+      }
+
+      return null;
+    },
   }
 }
 </script>
 
 <style lang="scss" scoped>
-
+.mini-cart {
+  &::v-deep .v-skeleton-loader__button {
+    margin-left: 20px;
+  }
+}
 </style>

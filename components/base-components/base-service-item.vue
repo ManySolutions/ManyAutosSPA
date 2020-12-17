@@ -72,6 +72,7 @@
         class='mt-5'
         :loading='isLoading'
         @click='handleAdd'
+        :disabled='isCartLoading'
       >
         <strong>
           Add to services
@@ -96,7 +97,7 @@ export default {
     isHover: false,
   }),
   computed: {
-    ...mapState('booking', ['cart']),
+    ...mapState('booking', ['cart', 'isCartLoading']),
 
     priceFormatted() {
       return parseFloat(this.price).toFixed(2);

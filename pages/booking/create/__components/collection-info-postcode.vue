@@ -1,19 +1,37 @@
 <template>
-  <div>
-    <v-autocomplete
-      v-model="model"
-      :items="items"
+  <div class='postcode-search'>
+    <v-text-field
+      v-model="search"
       :loading="isLoading"
-      :search-input.sync="search"
       label="Your Postcode"
-      item-text='text'
-      item-value='value'
       placeholder="Enter your postcode i.e RG28UF"
       filled
       rounded
-      return-object
     >
-    </v-autocomplete>
+    </v-text-field>
+
+    <p v-if='postcode'>
+      Showing result for: 
+      <strong>
+        {{ postcode }}
+      </strong>
+    </p>
+    <div class='entries-container' v-if='entries && entries.length'>
+      <v-list-item-group
+        v-model="model"
+      >
+        <v-list-item
+          v-for='(entry, i) in entries'
+          :key='i' 
+        >
+          <v-list-item-content>
+            <v-list-item-title>
+              {{ entry.formatted_address.join(' ') }}
+            </v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list-item-group>
+    </div>
   </div>
 </template>
 
@@ -28,24 +46,23 @@ export default {
     isLoading: false,
     search: null,
     ticker: null,
+    postcode: null,
+    lat: null,
+    lng: null,
   }),
 
   computed: {
-    items() {
-      if (!this.entries) return [];
-
-      return this.entries.map(function(entry) {
-        return {
-          text: entry.formatted_address.join(' '),
-          value: JSON.stringify(entry)
-        }
-      })
-    }
   },
 
   watch: {
     search (val) {
-      if (this.entries.length) return;
+      if (val.length < 2) return;
+
+      this.entries = [];
+      this.postcode = null
+      this.lat = null
+      this.lng = null
+      this.model = null;
 
       clearTimeout(this.ticker);
 
@@ -56,6 +73,9 @@ export default {
         getAddress(this.search)
           .then(res => {
             this.entries = res.addresses;
+            this.postcode = res.postcode;
+            this.lat = res.latitude;
+            this.lng = res.longitude;
           })
           .catch(err => {
             console.log(err)
@@ -65,8 +85,31 @@ export default {
     },
 
     model(val) {
-      this.$emit('selected', val);
+      const { entries } = this;
+
+      if (val == null || typeof entries == 'undefined') return;
+
+      const { postcode, lat, lng } = this;
+      const address = entries[val];
+
+      this.$emit('selected', {
+        postcode, lat, lng, address
+      });
     }
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.entries-container {
+  max-height: 350px;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+
+.postcode-search {
+  &::v-deep .v-list-item__title, .v-list-item__subtitle {
+    white-space: initial;
+  }
+}
+</style>

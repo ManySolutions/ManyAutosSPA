@@ -5,7 +5,9 @@
       <nuxt></nuxt>
     </v-main>
 
-    <mini-cart></mini-cart>
+    <client-only>
+      <mini-cart></mini-cart>
+    </client-only>
   </v-app>
 </template>
 

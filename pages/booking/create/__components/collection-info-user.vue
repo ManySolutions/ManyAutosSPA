@@ -1,6 +1,13 @@
 <template>
   <div>
     <v-text-field
+      v-model='name'
+      label="Full Name"
+      placeholder="John doe"
+      filled
+      rounded
+    ></v-text-field>
+    <v-text-field
       v-model='email'
       label="Your Email"
       placeholder="example@xyz.com"
@@ -26,7 +33,7 @@
       item-value='code'
     ></v-select>
     <v-text-field
-      v-model='mobile_no'
+      v-model='mobileNo'
       label="Mobile No."
       placeholder="71928974001"
       filled
@@ -42,9 +49,38 @@ export default {
   data: () => ({
     email: '',
     password: '',
-    mobile_no: '',
+    mobileNo: '',
     countryList,
     countryCode: '44',
-  })
+    name: '',
+  }),
+
+  computed: {
+    isFormValid() {
+      const { email, password, mobileNo, countryCode, name} = this;
+
+      return ( email && password && mobileNo && countryCode && name );
+    }
+  },
+
+  watch: {
+    $data: {
+      handler(data) {
+        const { isFormValid } = this;
+
+        if (!isFormValid) {
+          this.$emit('invalid');
+        }
+        
+        const { email, password, mobileNo, countryCode, name} = data;
+
+        this.$emit('user', {
+          email, password, mobileNo, countryCode, name
+        });
+      },
+      
+      deep: true,
+    }
+  }
 }
 </script>

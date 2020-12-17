@@ -17,6 +17,12 @@ export default {
   data: () => ({
     note: '',
     attachments: null,
-  })
+  }),
+
+  watch: {
+    note(note) {
+      this.$emit('change', this.$data);
+    }
+  }
 }
 </script>

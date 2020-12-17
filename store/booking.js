@@ -1,8 +1,14 @@
+import { getCartInstance } from "~/api/cart";
+
 export const state = () => ({
   vehicle: null,
   modelId: null,
   cart: [],
   cartUpdatedAt: null,
+  cartReceivedAt: null,
+  cartContent: [],
+  cartError: null,
+  isCartLoading: false,
 })
 
 export const mutations = {
@@ -13,13 +19,28 @@ export const mutations = {
 
   ADD_TO_CART(state, key) {
     state.cart.push(key)
-    state.cartUpdatedAt = new Date().toISOString().substr(0, 10);
+    state.cartUpdatedAt = new Date().getTime();
   },
 
   REMOVE_FROM_CART(state, index) {
-    console.log('index', index);
-
     state.cart.splice(index, 1);
+    state.cartUpdatedAt = new Date().getTime();
+  },
+
+  UPDATE_CART_CONTENT(state, contents) {
+    state.cartContent = contents;
+    state.cartReceivedAt = new Date().getTime();
+  },
+
+  CLEAR_CART(state) {
+    state.cart = [];
+    state.cartUpdatedAt= null;
+    state.cartReceivedAt= null;
+    state.cartContent= [];
+  },
+
+  SET_CART_LOADING(state, isLoading) {
+    state.isCartLoading = isLoading
   }
 }
 
@@ -33,5 +54,38 @@ export const getters = {
 
   cartCount(state) {
     return state.cart.length || 0;
+  },
+
+  isCartEmpty(state) {
+    return !(state.cart.length)
   }
+}
+
+
+export const actions = {
+  getCart({ state, commit }) {
+    const { modelId, cart, cartUpdatedAt, cartReceivedAt } = state;
+
+    if (cartUpdatedAt < cartReceivedAt) {
+      return null;
+    }
+
+    commit('SET_CART_LOADING', true);
+    state.cartError = false;
+
+    getCartInstance(modelId, cart)
+      .then(res => {
+        commit('UPDATE_CART_CONTENT', res);
+      }).catch(err => {
+        console.error('Some error occured while getting cart', err)
+        state.cartError = err;
+      }).finally(res => commit('SET_CART_LOADING', false))
+  },
+  /* **** */
+
+
+  clearCart({ commit }) {
+    commit('CLEAR_CART');
+  },
+  /* **** */
 }

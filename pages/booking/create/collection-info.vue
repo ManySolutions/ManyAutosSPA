@@ -19,7 +19,9 @@
 
     <v-row>
       <v-col>
-        <v-form>
+        <v-form
+          @submit.prevent="handleSubmit"
+        >
           <v-stepper
             v-model="step"
             vertical
@@ -41,6 +43,7 @@
               <v-btn
                 color="secondary"
                 @click="step = 2"
+                :disabled='!isStep1Valid'
               >
                 Next
               </v-btn>
@@ -56,7 +59,16 @@
             </v-stepper-step>
 
             <v-stepper-content step="2">
-              <collection-info-postcode></collection-info-postcode>
+              <collection-info-postcode
+                @selected='handlePostcodeChange'
+              ></collection-info-postcode>
+              <v-alert
+                color='success'
+                type="success"
+                v-if='Object.keys(form.address).length'
+              >
+                {{ form.address.formatted_address.join(' ') }}
+              </v-alert>
               <v-btn
                 @click="step = 1"
               >
@@ -65,6 +77,7 @@
               <v-btn
                 color="secondary"
                 @click="step = 3"
+                :disabled='!isStep2Valid'
               >
                 Next
               </v-btn>
@@ -80,7 +93,10 @@
             </v-stepper-step>
 
             <v-stepper-content step="3">
-              <collection-info-user></collection-info-user>
+              <collection-info-user
+                @invalid='handleInvalidUser'
+                @user='handleUser'
+              ></collection-info-user>
               <v-btn
                 @click="step = 2"
               >
@@ -89,6 +105,7 @@
               <v-btn
                 color="secondary"
                 @click="step = 4"
+                :disabled='!isStep3Valid'
               >
                 Next
               </v-btn>
@@ -104,7 +121,9 @@
             </v-stepper-step>
 
             <v-stepper-content step="4">
-              <collection-info-other></collection-info-other>
+              <collection-info-other
+                @change='handleOtherChange'
+              ></collection-info-other>
               <v-row>
                 <v-col cols=4>
                   <v-btn
@@ -119,6 +138,9 @@
                     color="primary"
                     @click="''"
                     block large
+                    :disabled='!isFormValid'
+                    :loading='isLoading'
+                    type='submit'
                   >
                     Finish
                   </v-btn>
@@ -136,22 +158,26 @@
 </template>
 
 <script>
+import { mapGetters, mapState } from 'vuex';
+import toastr from 'toastr';
 import collectionInfoDatePicker from './__components/collection-info-date-picker.vue'
 import CollectionInfoOther from './__components/collection-info-other.vue';
 import CollectionInfoPostcode from './__components/collection-info-postcode.vue';
 import CollectionInfoUser from './__components/collection-info-user';
+import { createBooking } from '~/api/booking';
+
 export default {
   components: { 
     collectionInfoDatePicker, CollectionInfoPostcode,
     CollectionInfoUser,
     CollectionInfoOther
-    },
+  },
   data: () => ({
     breadcrumbs: [
       {
         text: 'Services',
         disabled: false,
-        href: 'services'
+        to: '/booking/create/'
       },
       {
         text: 'Collection information',
@@ -162,24 +188,119 @@ export default {
 
     form: {
       collection_date: new Date().toISOString().substr(0, 10),
-      postcode: '',
+      postcode: null,
       address: {},
-      latitude: null,
-      longitude: null,
+      lat: null,
+      lng: null,
       note: '',
-      user: {
-        email: '',
-        password: '',
-      }
+      user: {},
     },
 
-    step: 4,
+    step: 1,
+
+    isLoading: false,
   }),
+
+  computed: {
+    ...mapGetters('booking', ['isCartEmpty']),
+    ...mapState('booking', ['cartContent', 'modelId']),
+
+    isStep1Valid() {
+      const { collection_date } = this.form;
+
+      return collection_date
+        && new Date(collection_date).getTime() >= new Date().getTime()
+    },
+    isStep2Valid() {
+      const { postcode, lat, lng, address } = this.form;
+
+      return !!( postcode && lat && lng && Object.keys(address).length );
+    },
+    isStep3Valid() {
+      const { user } = this.form;
+
+      return ( Object.keys(user).length >= 4 );
+    },
+    isFormValid() {
+      const { isStep1Valid, isStep2Valid, isStep3Valid } = this;
+
+      return ( isStep1Valid && isStep2Valid && isStep3Valid );
+    },
+  },
+
+  watch: {
+    isCartEmpty(isCartEmpty) {
+      if (isCartEmpty) this.$router.push('/booking/create')
+    },
+
+    isStep1Valid(isValid) {
+      if (isValid) this.step = 2;
+    },
+    isStep2Valid(isValid) {
+      if (isValid) this.step = 3;
+    },
+  },
+
+  mounted() {
+    const { isCartEmpty } = this;
+
+    if (isCartEmpty) this.$router.push('/booking/create')
+  },
 
   methods: {
     handleCollectionDateChange(date) {
       this.form.collection_date = date;
-      this.step = 2;
+    },
+    handlePostcodeChange({ postcode, lat, lng, address}) {
+      this.form = {
+        ...this.form,
+        postcode, lat, lng, address
+      };
+    },
+    handleInvalidUser() {
+      this.form.user = {};
+    },
+    handleUser({ email, password, mobileNo, countryCode, name }) {
+      this.form.user = {
+        ...this.form.user,
+        email,
+        password,
+        name,
+        mobile_no: mobileNo,
+        country_code: countryCode,
+      };
+    },
+    handleOtherChange({ note }) {
+      this.form.note = note;
+    },
+    handleSubmit() {
+      if (!this.isFormValid) return
+
+      this.isLoading = false;
+      const { form, cartContent, modelId } = this;
+
+      createBooking({
+        ...form,
+        cart: cartContent.cart_details,
+        model_id: modelId
+      }).then(res => res.data)
+        .then(data => {
+          const { status, message } = data;
+
+          if (!status) {
+            toastr.error('Failed: ' + message);
+          } else {
+            toastr.success(message);
+
+            setTimeout(() => {
+              this.$router.push({ name: 'booking-create-success'})
+            }, 500);
+
+            this.$store.dispatch('booking/clearCart');
+          }
+        })
+        .catch(err => toastr.error(err))
+        .finally(() => this.isLoading = false);
     }
   }
 }
