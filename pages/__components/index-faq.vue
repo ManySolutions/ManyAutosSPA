@@ -1,4 +1,3 @@
-
 <template>
   <v-row justify="center" style="margin-bottom:55px;">
     <h1 class="heading-title heading-title-bar">

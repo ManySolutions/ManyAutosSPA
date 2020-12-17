@@ -50,12 +50,24 @@
               </div>
             </div>
             <ul>
-              <li><a href="https://manyautosltd.com/abs">ABS</a></li>
-              <li><a href="https://manyautosltd.com/air-filter-replacement">Air Filter Replacement</a></li>
-              <li><a href="https://manyautosltd.com/brake-service">Brake Service</a></li>
-              <li><a href="https://manyautosltd.com/car-service">Car Service</a></li>
-              <li><a href="https://manyautosltd.com/suspension-arm">Suspension Arm</a></li>
-              <li><a href="https://manyautosltd.com/wheel-alignment-and-tracking">Wheel Alignment</a></li>
+              <li><v-icon>
+                    mdi-chevron-right
+                  </v-icon><a href="https://manyautosltd.com/abs">ABS</a></li>
+              <li><v-icon>
+                    mdi-chevron-right
+                  </v-icon><a href="https://manyautosltd.com/air-filter-replacement">Air Filter Replacement</a></li>
+              <li><v-icon>
+                    mdi-chevron-right
+                  </v-icon><a href="https://manyautosltd.com/brake-service">Brake Service</a></li>
+              <li><v-icon>
+                    mdi-chevron-right
+                  </v-icon><a href="https://manyautosltd.com/car-service">Car Service</a></li>
+              <li><v-icon>
+                    mdi-chevron-right
+                  </v-icon><a href="https://manyautosltd.com/suspension-arm">Suspension Arm</a></li>
+              <li><v-icon>
+                    mdi-chevron-right
+                  </v-icon><a href="https://manyautosltd.com/wheel-alignment-and-tracking">Wheel Alignment</a></li>
             </ul>
           </div>
         </div>
@@ -268,6 +280,7 @@ font-weight: 400;
 }
 .footer-top .widget .widget-post-bx .widget-post .dlab-post-header a{
     color: #1ea5c7;
+    text-decoration: none;
 }
 .footer-top .widget .widget-post-bx .widget-post .dlab-post-header a:hover{
     color:#06D6A0;
@@ -279,14 +292,18 @@ font-weight: 400;
         text-decoration: none;
 }
 
-.footer-top .widget_services ul li::before {
-    content: "\f105";
-    position: absolute;
-    left: 0;
-    top: 10px;
-    display: block;
-    font-family: FontAwesome;
-    color: #d8d8d8;
+// .footer-top .widget_services ul li::before {
+//     content: "\f105";
+//     position: absolute;
+//     left: 0;
+//     top: 10px;
+//     display: block;
+//     font-family: FontAwesome;
+//     color: #d8d8d8;
+// }
+.footer-top .widget_services .v-icon {
+
+    margin-left: -23px;
 }
 .footer-top .widget_services ul li{
     border-bottom: 1px dashed #d8d8d8;
@@ -307,6 +324,7 @@ font-weight: 400;
 
     font-size: 14px;
     font-weight: 400;
+    text-decoration: none;
 }
 .footer-top .widget_getintuch strong {
     color: #d8d8d8;
