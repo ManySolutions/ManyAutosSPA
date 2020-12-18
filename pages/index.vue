@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container fluid class='pt-0'>
     <v-row class='home-top'>
       <v-col>
         <div class="home-sec-1">
@@ -83,7 +83,7 @@
     <!-- /first section for registration -->
     <v-row
       :style='`background-image: url(${assets("customer-v2/alex-suprun.jpg")})`'
-      class='has-bg-overlay home-sec-gaps home-sec-2'
+      class='has-bg-overlay home-sec-2'
     >
       <v-col>
         <div class='sec-2 home-sec-between-gaps'>
@@ -208,7 +208,20 @@ export default {
   color: white;
 }
 .home-top {
-  height: calc(100vh - 160px);
+  padding-bottom: 70px;
+  background: url('~static/imgs/88246.png')  center bottom;
+  background-size: cover;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(255 255 255 / 59%);
+  }
+  & > * {
+    z-index: 1;
+  }
 }
 .home-sec-2 {
   background-size: cover;
