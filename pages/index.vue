@@ -50,6 +50,10 @@
                 >
                   Get instant quote
                 </v-btn>
+                <client-only>
+                  <index-active-car>
+                  </index-active-car>
+                </client-only>
               </v-form>
             </v-card-text>
             <v-card-actions
@@ -115,6 +119,7 @@ import { getVehicleDetails } from '~/api/vehicle';
 import IndexReviews from '~/pages/__components/index-reviews.vue';
 import IndexFaq from '~/pages/__components/index-faq.vue';
 import IndexFooter from '~/pages/__components/index-footer.vue';
+import IndexActiveCar from './__components/index-active-car.vue';
 
 export default {
   components: {
@@ -125,6 +130,7 @@ export default {
     IndexReviews,
     IndexFaq,
     IndexFooter,
+    IndexActiveCar,
   },
 
   data: () => ({

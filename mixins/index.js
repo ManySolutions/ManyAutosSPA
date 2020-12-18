@@ -1,4 +1,4 @@
-import { mapState } from 'vuex';
+import { mapState, mapGetters } from 'vuex';
 import http from '~/utils/http';
 
 export default {
@@ -10,8 +10,9 @@ export default {
 
   computed: {
     ...mapState('user', ['accessToken']),
+    ...mapGetters('user', ['isAuth']),
 
-    $http() {
+    http() {
       const { accessToken } = this;
 
       http.interceptors.request.use(config => {
