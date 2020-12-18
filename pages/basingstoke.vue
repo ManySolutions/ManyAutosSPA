@@ -1,52 +1,54 @@
 <template>
-  <page-layout title='Aldershot' heading-bg='customer-v2/static-pages/allpics/aldershot1.jpg'>
+  <page-layout title='Basingstoke' heading-bg='customer-v2/static-pages/allpics/basingstoke1.jpg'>
     <div class="container">
       <div class="row">
         <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
           <div class="row">
             <div class="col-12">
-              <p class="text-teal text-18 justify">We cover the Aldershot area for all car servicing, MOT and repair
-                needs. Full Service includes a comprehensive 70-point check, Interim Service has a 50-point check. At
-                Many Autos we use the latest equipment, allowing our qualified technicians and mechanics to diagnose any
-                problems quickly and efficiently. Forgetting to service the vehicle as per manufacturer schedule can
-                cause airborne debris such as leaves and dust to find their way into the engine, in particular the
-                cylinders. This grime can then mix with the engine oil, which, when moves around the engine can slowly
-                wear away engine components due to its abrasive nature. If left for a while clogged filters can cause
-                serious damage to engine, reducing its performance and costing you more money than the cost of a normal
-                service. At Many Autos we keep a range of different service parts in stock for every make and model, so
-                you can get the service you need to keep the vehicle engine running at the highest possible standard.
-                For more information please visit our<a href="https://www.manyautosltd.com/car-service"> website for car
-                  service and repairs</a> or live chat support open from 9am to 5pm Monday to Saturday you can email us
-                on <a href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
+              <p class="text-teal text-18 justify" style="padding-top: 30px;">We cover the Basingstoke area for all car
+                servicing, MOT and repair needs. Full Service includes a comprehensive 70-point check, Interim Service
+                has a 50-point check. At Many Autos we use the latest equipment, allowing our qualified technicians and
+                mechanics to diagnose any problems quickly and efficiently. Forgetting to service the vehicle as per
+                manufacturer schedule can cause airborne debris such as leaves and dust to find their way into the
+                engine, in particular the cylinders. This grime can then mix with the engine oil, which, when moves
+                around the engine can slowly wear away engine components due to its abrasive nature. If left for a while
+                clogged filters can cause serious damage to engine, reducing its performance and costing you more money
+                than the cost of a normal service. At Many Autos we keep a range of different service parts in stock for
+                every make and model, so you can get the service you need to keep the vehicle engine running at the
+                highest possible standard. For more information please visit our<a
+                  href="https://www.manyautosltd.com/car-service"> website for car service and repairs</a> or live chat
+                support open from 9am to 5pm Monday to Saturday you can email us on <a
+                  href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
                 <strong>01189876300</strong> our team is very happy to help.</p>
             </div>
           </div>
           <v-expansion-panels popout>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Do you offer free collection and delivery from Aldershot?
+                Do you offer free collection and delivery from Basingstoke?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Yes, we believe that we offer a valuable product with our Free Collection and Delivery Service from
-                Aldershot, we can collect either from your place of work or from your home address. If you are unsure
-                about whether the address you are considering having your vehicle collected from is within our range,
-                then please do contact us. Many Autos operate a fleet of pool cars with a dedicated driver, so wherever
-                we are collecting from, we need to be able to leave one of our pool vehicles either in your work car
-                park / parking space, or if in a residential area, we would need to be able to leave our car either at
-                your house or on the road with a permit if required. We would be grateful if you could bear this in mind
-                when booking to use our free Collection and delivery service. For more information please visit out <a
-                  href="https://www.manyautosltd.com/collection-and-delivery"> Collection & Delivery page</a> or live
-                chat support open from 9am to 5pm Monday to Saturday you can email us on <a
-                  href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
-                <strong>01189876300</strong> our team is very happy to help.
+                <p class="text-teal text-18 justify">Yes, we believe that we offer a valuable product with our Free
+                  Collection and Delivery Service from Basingstoke, we can collect either from your place of work or
+                  from your home address. If you are unsure about whether the address you are considering having your
+                  vehicle collected from is within our range, then please do contact us. Many Autos operate a fleet of
+                  pool cars with a dedicated driver, so wherever we are collecting from, we need to be able to leave one
+                  of our pool vehicles either in your work car park / parking space, or if in a residential area, we
+                  would need to be able to leave our car either at your house or on the road with a permit if required.
+                  We would be grateful if you could bear this in mind when booking to use our free Collection and
+                  delivery service. For more information please visit out <a
+                    href="https://www.manyautosltd.com/collection-and-delivery"> Collection & Delivery page</a> or live
+                  chat support open from 9am to 5pm Monday to Saturday you can email us on <a
+                    href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
+                  <strong>01189876300</strong> our team is very happy to help.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                How does collection and delivery work from Aldershot?
+                How does collection and delivery work from Basingstoke?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Many Autos operate a fleet of pool cars with a dedicated driver, so wherever in Aldershot we are
+                Many Autos operate a fleet of pool cars with a dedicated driver, so wherever in Basingstoke we are
                 collecting from, we need to be able to leave one of our pool vehicles either in your work car park /
                 parking space, or if in a residential area, we would need to be able to leave our car either at your
                 house or on the road with a permit if required. We would be grateful if you could bear this in mind when
@@ -59,18 +61,18 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you provide finance for cars repair in Aldershot?
+                Do you provide finance for cars repair in Basingstoke?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 Yes, you can pay for all or some of your car repair bill with car service and repair finance if you are
-                from Aldershot. From replacing car parts to a full transmission, engine, repair, service, mot repair
+                from Basingstoke. From replacing car parts to a full transmission, engine, repair, service, mot repair
                 maintaining your vehicle can get costly. If you need help paying for routine service or urgent repairs,
                 Many Autos car service and repair could be the answer.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                On what services is finance available from Aldershot?
+                On what services is finance available from Basingstoke?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">Alternator Anti Roll Bar Link Air Suspension Brakes Cv Joint Car
@@ -88,10 +90,10 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you do clutch repairs for cars in Aldershot?
+                Do you do clutch repairs for cars in Basingstoke?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">A lot of happy customers from Aldershot have found out how Many
+                <p class="text-teal text-18 justify">A lot of happy customers from Basingstoke have found out how Many
                   Autos can eliminate the time and trouble of shopping around for the best clutch repair price. So,
                   donâ€™t wait and sign up to our vehicle health check today and we can make you aware of any potential
                   issue with your vehicle clutch. Clutch plate replacement and associated repairs are best left to an
@@ -104,14 +106,15 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Do you offer MOT tests in Aldershot?
+                Do you offer MOT tests in Basingstoke?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">MOT testing is required by law on all vehicles in the UK that are 3
                   years old or more. The annual inspection follows strict criteria set out by the DVSA that determines
                   if your car is fit for purpose and in roadworthy condition. The MOT test covers a broad range of
                   vehicle safety checks including lights, tyres, seatbelts and emissions and can only be carried out by
-                  a MOT garage with DVSA-approved examiners. So if you are in Aldershot and require an MOT test, give us
+                  a MOT garage with DVSA-approved examiners. So if you are in Basingstoke and require an MOT test, give
+                  us
                   a call or book online now! For more information please visit our <a
                     href="https://www.manyautosltd.com/mot">MOT page</a> or live chat support open from 9am to 5pm
                   Monday to Saturday you can email us on <a
@@ -122,11 +125,12 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you provide alternator repair and replacement service for Aldershot?
+                Do you provide alternator repair and replacement service for Basingstoke?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">We provide full alternator repair and replacement services in
-                  Aldershot. An automotive charging system is made up of three major components the battery, the voltage
+                  Basingstoke. An automotive charging system is made up of three major components the battery, the
+                  voltage
                   regulator and an alternator. The alternator works with the battery to generate power for the
                   electrical components of a vehicle, like the interior and exterior lights, and the instrument panel.
                   An alternator gets its name from the term alternating current (AC). Alternators are typically found
@@ -141,14 +145,14 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you provide Timing Belt/Cambelt changing service for Aldershot?
+                Do you provide Timing Belt/Cambelt changing service for Basingstoke?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">Timing Belt/Cambelt replacement according to your car manufacturer
                   schedule is essential. A snapped Timing belt can cause serious damage to the engine. It is often
                   cost-effective to replace your Water Pump at the same time so don't be surprised if we suggest it. We
                   are able to check and replace timing belts/cambelts for all makes and models of vehicles in the
-                  Aldershot area. For more information please visit our <a
+                  Basingstoke area. For more information please visit our <a
                     href="https://www.manyautosltd.com/timing-belt">Timing belt page</a> or live chat support open from
                   9am to 5pm Monday to Saturday you can email us on <a
                     href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
@@ -157,10 +161,11 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Can you do repairs to the head gasket if I am based in Aldershot?
+                Can you do repairs to the head gasket if I am based in Basingstoke?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">We do head gasket repairs and replacements for the Aldershot area.
+                <p class="text-teal text-18 justify">We do head gasket repairs and replacements for the Basingstoke
+                  area.
                   Once the head gasket blows or becomes damaged, your car will officially become a time bomb of serious
                   mechanical destruction. The longer your vehicle is operated with a blown head gasket, the more damage
                   is likely to occur to the engine. Once the head gasket blows there will be an immediate loss of
@@ -186,17 +191,17 @@
                 How do we do this?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                  <p class="text-teal text-18 justify">All our service, repair and diagnostic work is carried out to the
-                    highest of standards using only OE (original equipment) parts and engine oil. We maintain a strict
-                    standard of work that means we can carry out service and repair work even if your vehicle is within
-                    its manufacturer warranty. This saves you a trip to the manufacturer for the service and saves you a
-                    lot of money. Not only do we have highly skilled technicians in the workshop, we also have all the
-                    latest servicing, wheel alignment, diagnostic and hybrid car servicing equipment. There are several
-                    car maintenances measures that you must do to keep your car at its best, it is important to bring
-                    your car to the nearest Many Autos Centre and have it checked. For more information please visit our
-                    <a href="https://www.manyautosltd.com/">website</a> or live chat support open from 9am to 5pm Monday
-                    to Saturday you can email us on <a href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or
-                    call us on <strong>01189876300</strong> our team is very happy to help.</p>
+                <p class="text-teal text-18 justify">All our service, repair and diagnostic work is carried out to the
+                  highest of standards using only OE (original equipment) parts and engine oil. We maintain a strict
+                  standard of work that means we can carry out service and repair work even if your vehicle is within
+                  its manufacturer warranty. This saves you a trip to the manufacturer for the service and saves you a
+                  lot of money. Not only do we have highly skilled technicians in the workshop, we also have all the
+                  latest servicing, wheel alignment, diagnostic and hybrid car servicing equipment. There are several
+                  car maintenances measures that you must do to keep your car at its best, it is important to bring
+                  your car to the nearest Many Autos Centre and have it checked. For more information please visit our
+                  <a href="https://www.manyautosltd.com/">website</a> or live chat support open from 9am to 5pm Monday
+                  to Saturday you can email us on <a href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or
+                  call us on <strong>01189876300</strong> our team is very happy to help.</p>
 
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -220,20 +225,20 @@ export default {
   },
 
   head: {
-    title: 'Aldershot',
+    title: 'Basingstoke',
 
     meta: [
       {
         name: 'description', 
-        content: 'We repair and Service all makes and models off vehicle in Aldershot, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Aldershot.'
+        content: 'We repair and Service all makes and models off vehicle in Basingstoke, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Basingstoke.'
       },
       {
         name: 'keywords', 
-        content: 'MOT and car repair services in Aldershot ,Car services in Aldershot , collection and delivery from Aldershot, finance for cars repair in Aldershot, clutch repairs in Aldershot, MOT tests in Aldershot, alternator repair and replacement in Aldershot, Cambelt changing service in Aldershot, head gasket repair in  Aldershot'
+        content: 'MOT and car repair services in Basingstoke ,Car services in Basingstoke , collection and delivery from Basingstoke, finance for cars repair in Basingstoke, clutch repairs in Basingstoke, MOT tests in Basingstoke, alternator repair and replacement in Basingstoke, Cambelt changing service in Basingstoke, head gasket repair in  Basingstoke'
       },
       {
         property: "og:title", 
-        content: "Aldershot | ManyAutos LTD"
+        content: "Basingstoke | ManyAutos LTD"
       },
       {
         property: "og:type", 
@@ -253,7 +258,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "We repair and Service all makes and models off vehicle in Aldershot, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Aldershot."
+        content: "We repair and Service all makes and models off vehicle in Basingstoke, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Basingstoke."
       },
       {
         name: "twitter:card", 
@@ -261,11 +266,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Aldershot | ManyAutos LTD"
+        content: "Basingstoke | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and Service all makes and models off vehicle in Aldershot, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Aldershot."
+        content: "We repair and Service all makes and models off vehicle in Basingstoke, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Basingstoke."
       },
       {
         name: "twitter:image", 
