@@ -5,7 +5,7 @@
 <script>
 export default {
   mounted() {
-    this.$router.push('./create/services')
+    this.$router.push({name: 'booking-create-services'})
   }
 }
 </script>

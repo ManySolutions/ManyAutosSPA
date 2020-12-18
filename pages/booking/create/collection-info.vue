@@ -177,7 +177,8 @@ export default {
       {
         text: 'Services',
         disabled: false,
-        to: '/booking/create/'
+        to: {name: 'booking-create'},
+        exact: true,
       },
       {
         text: 'Collection information',
@@ -276,7 +277,7 @@ export default {
     handleSubmit() {
       if (!this.isFormValid) return
 
-      this.isLoading = false;
+      this.isLoading = true;
       const { form, cartContent, modelId } = this;
 
       createBooking({
@@ -285,19 +286,28 @@ export default {
         model_id: modelId
       }).then(res => res.data)
         .then(data => {
-          const { status, message } = data;
+          const { status, message, access_token, user } = data;
 
           if (!status) {
             toastr.error('Failed: ' + message);
-          } else {
-            toastr.success(message);
 
-            setTimeout(() => {
-              this.$router.push({ name: 'booking-create-success'})
-            }, 500);
-
-            this.$store.dispatch('booking/clearCart');
+            return data;
           }
+
+          this.$store.dispatch('booking/clearCart');
+          
+          if (access_token) {
+            this.$store.dispatch('user/authorize', {
+              accessToken: access_token, 
+              user
+            });
+          }
+
+          toastr.success(message);
+
+          setTimeout(() => {
+            this.$router.push({ name: 'booking-create-success'})
+          }, 500);
         })
         .catch(err => toastr.error(err))
         .finally(() => this.isLoading = false);

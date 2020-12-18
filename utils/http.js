@@ -12,7 +12,7 @@ http.interceptors.response.use(response => {
 }, error => {
   // nprogress.done();
 
-  if (error.response.status == 401) {
+  if (error.response && error.response.status == 401) {
 
     // store.dispatch('user/logout');
     throw 401;
