@@ -13,9 +13,7 @@ export const countryList = [
   },
   { 
     code: '359', 
-    name: 'Bulgaria', 
-    two_letter: 'BG', 
-    three_letter: 'BGR' 
+    name: 'Bulgaria' 
   },
   { 
     code: '385', 
@@ -311,4 +309,163 @@ export const countryList = [
     two_letter: 'VA', 
     three_letter: 'VAT' 
   },
+]
+export const carsList = [
+  { 
+    code: 'car-service', 
+    name: 'Service Guide Home' 
+  },
+  {
+    code: 'audi-service', 
+    name: 'Audi' 
+  },
+  { 
+    code: 'bmw-service', 
+    name: 'BMW' 
+  },
+  { 
+    code: 'citroen-service', 
+    name: 'Citroen' 
+  },
+  { 
+    code: 'daewoo-service', 
+    name: 'Daewoo' 
+  },
+  { 
+    code: 'fiat-service', 
+    name: 'Fiat' 
+  },
+  { 
+    code: 'ford-service', 
+    name: 'Ford'
+  },
+  { 
+    code: 'honda-service', 
+    name: 'Honda' 
+  },
+  { 
+    code: 'kia-service', 
+    name: 'Kia' 
+  },
+  { 
+    code: 'land-rover-service', 
+    name: 'Land Rover' 
+  },
+  {
+    code: 'lexus-service', 
+    name: 'Lexus' 
+  },
+  { 
+    code: 'mazda-service', 
+    name: 'Mazda' 
+  },
+  { 
+    code: 'mercedes-service', 
+    name: 'Mercedes' 
+  },
+  { 
+    code: 'mini-service', 
+    name: 'Mini' 
+  },
+  { 
+    code: 'mitsubishi-service', 
+    name: 'Mitsubishi' 
+  },
+  { 
+    code: 'renault-service', 
+    name: 'Renault'
+  },
+  { 
+    code: 'saab-service', 
+    name: 'Saab' 
+  },
+  {
+    code: 'seat-service', 
+    name: 'Seat' 
+  },
+  { 
+    code: 'toyota-service', 
+    name: 'Toyota' 
+  },
+  { 
+    code: 'vauxhall-service', 
+    name: 'Vauxhall' 
+  },
+  { 
+    code: 'volvo-service', 
+    name: 'Volvo' 
+  },
+  { 
+    code: 'peugeot-service', 
+    name: 'Peugeot' 
+  },
+  { 
+    code: 'chevrolet-service', 
+    name: 'Chevrolet' 
+  },
+  { 
+    code: 'chrysler-service', 
+    name: 'Chrysler' 
+  },
+  { 
+    code: 'ds-service', 
+    name: 'Ds' 
+  },
+  {
+    code: 'dacia-service', 
+    name: 'Dacia' 
+  },
+  { 
+    code: 'nissan-service', 
+    name: 'Nissan' 
+  },
+  { 
+    code: 'vw-service', 
+    name: 'VW' 
+  },
+  { 
+    code: 'jeep-service', 
+    name: 'Jeep' 
+  },
+  { 
+    code: 'infiniti-service', 
+    name: 'Infiniti' 
+  },
+  { 
+    code: 'lotus-service', 
+    name: 'Lotus'
+  },
+  { 
+    code: 'mg-service', 
+    name: 'Mg' 
+  },
+  { 
+    code: 'hyundai-service', 
+    name: 'Hyundai' 
+  },
+  { 
+    code: 'jaguar-service', 
+    name: 'Jaguar' 
+  },
+  {
+    code: 'skoda-service', 
+    name: 'Skoda' 
+  },
+  { 
+    code: 'smart-service', 
+    name: 'Smart' 
+  },
+  { 
+    code: 'ssangyong-service', 
+    name: 'Ssangyong' 
+  },
+  { 
+    code: 'subaru-service', 
+    name: 'Subaru Service' 
+  },
+  { 
+    code: 'suzuki-service', 
+    name: 'Suzuki' 
+  },
+  
 ]
