@@ -9,6 +9,9 @@
           :headers="headers"
           :items="bookings"
           :items-per-page="10"
+          :options.sync="options"
+          :loading='isLoading'
+          :server-items-length="totalBookings"
           class="elevation-1"
         >
           <template #item.actions='{ item }'>
@@ -28,11 +31,11 @@
 export default {
   data: () => ({
     headers: [
-      { text: 'Order ID#', value: 'id' },
-      { text: 'Car Collection Date', value: 'booking_date' },
-      { text: 'Services', value: 'services' },
-      { text: 'Total Cost', value: 'total_cost' },
-      { text: 'Actions', value: 'actions' },
+      { text: 'Order ID#', value: 'id', sortable: false },
+      { text: 'Car Collection Date', value: 'booking_date', sortable: false },
+      { text: 'Services', value: 'services', sortable: false },
+      { text: 'Total Cost', value: 'total_cost', sortable: false },
+      { text: 'Actions', value: 'actions', sortable: false },
     ],
 
     bookings: [
@@ -43,8 +46,20 @@ export default {
         total_cost: '138.11',
         status: 'in-progress'
       }
-    ]
+    ],
 
-  })
+    options: {},
+    isLoading: false,
+    totalBookings: 30,
+  }),
+
+  watch: {
+    options: {
+      handler(options) {
+        console.log(options)
+      },
+      deep: true
+    }
+  }
 }
 </script>
