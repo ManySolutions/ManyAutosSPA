@@ -7,7 +7,6 @@
 
     <client-only>
       <mini-cart></mini-cart>
-      <default-authorize></default-authorize>
     </client-only>
   </v-app>
 </template>
@@ -15,7 +14,6 @@
 <script>
 import Navbar from './__components/navbar';
 import MiniCart from '~/components/func-components/mini-cart';
-import DefaultAuthorize from './__components/default-authorize.vue';
 
 export default {
   name: 'default',
@@ -23,7 +21,6 @@ export default {
   components: {
     Navbar,
     MiniCart,
-    DefaultAuthorize,
   },
   data () {
     return {
