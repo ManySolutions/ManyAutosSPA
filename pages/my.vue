@@ -8,6 +8,14 @@ export default {
     if (!this.isAuth) {
       this.$router.push({ name: 'index' });
     }
+  },
+
+  watch: {
+    isAuth(isAuth) {
+      if (!isAuth) {
+        this.$router.push({ name: 'index' });
+      }
+    }
   }
 }
 </script>
