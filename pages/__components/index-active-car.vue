@@ -1,5 +1,5 @@
 <template>
-  <div class='text-center'>
+  <div class='text-center' v-if='isActive'>
     <slot name='before'></slot>
     
     <v-btn
@@ -28,6 +28,12 @@ import { mapState } from 'vuex';
 export default {
   computed: {
     ...mapState('booking', ['modelId', 'vehicle']),
+
+    isActive() {
+      const { modelId, vehicle } = this;
+      
+      return modelId && Object.keys(vehicle).length
+    }
   }
 }
 </script>

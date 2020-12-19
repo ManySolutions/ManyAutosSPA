@@ -1,10 +1,10 @@
 <template>
   <v-container class='booking-single'>
-    <h4 class='text-h5 text-center'>
-      
-    </h4>
-
-    <v-card>
+    <v-skeleton-loader
+      v-if='isLoading'
+      type='card-heading, list-item-three-line, list-item-three-line, list-item-three-line'
+    ></v-skeleton-loader>
+    <v-card v-else-if='booking'>
       <v-card-title>
         <span>
           Booking 
@@ -13,6 +13,15 @@
         </span>
       </v-card-title>
       <v-spacer></v-spacer>
+
+      <v-card-text v-if='Object.keys(booking.requests).length'>
+        <my-booking-additional-requests
+          :items='booking.requests'
+          :order-id='bookingId'
+        ></my-booking-additional-requests>
+      </v-card-text>
+      <!-- /additional requests -->
+
       <v-card-subtitle>
         Collection Information
       </v-card-subtitle>
@@ -22,15 +31,15 @@
             <tbody>
               <tr>
                 <td class='align-top font-weight-600'>Address</td>
-                <td>15 Cresswell Close Reading Berkshire</td>
+                <td>{{ booking.info.address }}</td>
               </tr>
               <tr>
                 <td class='font-weight-600'>Postcode</td>
-                <td>RG28UF</td>
+                <td>{{ booking.info.postcode }}</td>
               </tr>
               <tr>
                 <td class='font-weight-600'>Collection Date</td>
-                <td>Nov 11 2020</td>
+                <td>{{ booking.info.collection_date }}</td>
               </tr>
             </tbody>
           </template>
@@ -48,19 +57,25 @@
             <tbody>
               <tr>
                 <td class='align-top font-weight-600'>Reg. Number</td>
-                <td>HY59XOO</td>
+                <td>{{ booking.vehicle.RegistrationNumber }}</td>
               </tr>
               <tr>
                 <td class='font-weight-600'>Name</td>
-                <td class='blue--text'>Ford Fiesta 2009</td>
+                <td :class='`${color}--text`'>
+                  {{ vehicleName }}
+                </td>
               </tr>
               <tr>
                 <td class='font-weight-600'>Fuel Type</td>
-                <td>Petrol</td>
+                <td>
+                  {{ booking.vehicle.Fuel }}
+                </td>
               </tr>
               <tr>
                 <td class='font-weight-600'>Modal year</td>
-                <td>2009</td>
+                <td>
+                  {{ booking.vehicle.Year }}
+                </td>
               </tr>
             </tbody>
           </template>
@@ -75,8 +90,8 @@
       <v-card-text>
         <v-data-table
           :headers='headers'
-          :items='services'
-          :items-per-page="1"
+          :items='Object.keys(booking.services).map(key => booking.services[key])'
+          :items-per-page="5"
           disable-sort
           disable-filtering
         ></v-data-table>
@@ -86,7 +101,11 @@
   </v-container>
 </template>
 <script>
+import toastr from 'toastr';
+import { getSingleBooking } from '~/api/booking';
+import myBookingAdditionalRequests from '~/components/func-components/my-booking-additional-requests.vue';
 export default {
+  components: { myBookingAdditionalRequests },
   data: () => ({
     headers: [
       { text: 'Service Name', value: 'name', sortable: false },
@@ -95,18 +114,41 @@ export default {
       { text: 'Total Cost (inc Yax)', value: 'total_cost', sortable: false },
     ],
 
-    services: [
-      {
-        name: 'MOT',
-        price: '11.22',
-        labour_cost: 'N/A',
-        total_cost: '11.22',
-      }
-    ],
+    booking: null,
+    isLoading: false,
   }),
   computed: {
     bookingId() {
       return this.$route.params.booking;
+    },
+    color() {
+      const {booking} = this;
+
+      return booking.vehicle
+        ? (booking.vehicle.Colour).toLowerCase()
+        : null;
+    },
+    vehicleName() {
+      const {booking} = this;
+
+      return booking.vehicle
+        ? booking.vehicle.Manufacturer + ' ' + booking.vehicle.Model
+        : null;
+    },
+  },
+  mounted () {
+    this.fetch();
+  },
+  methods: {
+    fetch() {
+      this.isLoading = true;
+
+      getSingleBooking(this.bookingId, this.http)
+        .then(res => {
+          this.booking = res;
+        })
+        .catch(err => toastr.error('Error while fetching records: '+ err ))
+        .finally(() => this.isLoading = false)
     }
   }
 }

@@ -9,17 +9,25 @@
           :headers="headers"
           :items="bookings"
           :items-per-page="10"
-          :options.sync="options"
           :loading='isLoading'
-          :server-items-length="totalBookings"
           class="elevation-1"
         >
           <template #item.actions='{ item }'>
-            <v-btn
-              color='primary'
+            <v-badge
+              :content='item.requests_count'
+              :value='item.requests_count'
+              color='error'
+              offset-x="10"
+              offset-y="10"
             >
-              Details
-            </v-btn>
+              <v-btn
+                color='primary'
+                :to='`/my/booking/${item.id}`'
+                exact
+              >
+                Details
+              </v-btn>
+            </v-badge>
           </template>
         </v-data-table>
       </v-col>
@@ -28,6 +36,7 @@
 </template>
 
 <script>
+import { getBookings } from '~/api/booking';
 export default {
   data: () => ({
     headers: [
@@ -38,17 +47,7 @@ export default {
       { text: 'Actions', value: 'actions', sortable: false },
     ],
 
-    bookings: [
-      {
-        id: '389201',
-        booking_date: '27 Nov 2020',
-        services: 'MOT, Interim Service',
-        total_cost: '138.11',
-        status: 'in-progress'
-      }
-    ],
-
-    options: {},
+    bookings: [],
     isLoading: false,
     totalBookings: 30,
   }),
@@ -60,6 +59,20 @@ export default {
       },
       deep: true
     }
-  }
+  },
+
+  mounted() {
+    this.fetch();
+  },
+  
+  methods: {
+    fetch() {
+      this.isLoading = true;
+
+      getBookings(this.http).then(res => {
+        this.bookings = res;
+      }).finally(() => this.isLoading = false);
+    }
+  },
 }
 </script>
