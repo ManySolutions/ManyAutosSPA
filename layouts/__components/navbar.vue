@@ -62,16 +62,6 @@
         no-gutters
       >
         <v-col>
-          <img 
-            :src="assets('/customer-v2/logo-default.png')" 
-            :alt="appTitle"
-            class='logo'
-            @click='$router.push("/")'
-          >
-        </v-col>
-        <v-col
-          class='text-right'
-        >
           <v-btn
             text
             dark
@@ -85,56 +75,50 @@
             </v-icon>
           </v-btn>
         </v-col>
+        <v-col
+          cols=6
+          class='text-center'
+        >
+          <img 
+            :src="assets('/customer-v2/logo-default.png')" 
+            :alt="appTitle"
+            class='logo'
+            @click='$router.push("/")'
+          >
+        </v-col>
+        <v-col
+          class='text-right'
+        >
+          <navbar-user-menu></navbar-user-menu>
+        </v-col>
       </v-row>
     </v-card>
 
-    <v-navigation-drawer
-      v-model="drawer"
-      absolute
-      left
-      temporary
-    >
-      <v-list
-        nav
-        dense
-      >
-        <v-list-item-group
-          v-model="group"
-          active-class="deep-purple--text text--accent-4"
-        >
-          <v-list-item>
-            <v-list-item-title>Foo</v-list-item-title>
-          </v-list-item>
-
-          <v-list-item>
-            <v-list-item-title>Bar</v-list-item-title>
-          </v-list-item>
-
-          <v-list-item>
-            <v-list-item-title>Fizz</v-list-item-title>
-          </v-list-item>
-
-          <v-list-item>
-            <v-list-item-title>Buzz</v-list-item-title>
-          </v-list-item>
-        </v-list-item-group>
-      </v-list>
-    </v-navigation-drawer>
+    <navbar-drawer-left 
+      :is-open='drawer'
+      @close='drawer = false'
+    ></navbar-drawer-left>
   </div>
 </template>
 
 <script>
 import Vue from 'vue';
 import mixins from '@/mixins';
+import NavbarDrawerLeft from './navbar-drawer-left.vue';
+import NavbarUserMenu from './navbar-user-menu.vue';
 
 Vue.mixin(mixins);
 
 export default {
   name: 'navbar',
 
+  components: {
+    NavbarDrawerLeft,
+    NavbarUserMenu,
+  },
+
   data: () => ({
     drawer: false,
-    group: null,
   })
 }
 </script>

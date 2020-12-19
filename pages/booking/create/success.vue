@@ -13,7 +13,7 @@
               color='primary'
               text
               outlined
-              :to='{name: "booking-my-all"}'
+              :to='{name: "my-booking"}'
             >
               <strong>
                 See Your Bookings
