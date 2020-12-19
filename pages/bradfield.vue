@@ -1,6 +1,6 @@
 <template>
   <page-layout
-    title='Bracknell'
+    title='Bradfield'
     heading-bg='customer-v2/static-pages/allpics/bradfield1.jpg'
   >
     <div class="container">
@@ -8,7 +8,7 @@
         <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
           <div class="row">
             <div class="col-12">
-              <p class="text-teal text-18 justify" style="padding-top: 30px;">We cover the Bracknell area for all car
+              <p class="text-teal text-18 justify" style="padding-top: 30px;">We cover the Bradfield area for all car
                 servicing, MOT and repair needs. Full Service includes a comprehensive 70-point check, Interim Service
                 has a 50-point check. At Many Autos we use the latest equipment, allowing our qualified technicians and
                 mechanics to diagnose any problems quickly and efficiently. Forgetting to service the vehicle as per
@@ -28,11 +28,11 @@
           <v-expansion-panels popout>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Do you offer free collection and delivery from Bracknell?
+                Do you offer free collection and delivery from Bradfield?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">Yes, we believe that we offer a valuable product with our Free
-                  Collection and Delivery Service from Bracknell, we can collect either from your place of work or
+                  Collection and Delivery Service from Bradfield, we can collect either from your place of work or
                   from your home address. If you are unsure about whether the address you are considering having your
                   vehicle collected from is within our range, then please do contact us. Many Autos operate a fleet of
                   pool cars with a dedicated driver, so wherever we are collecting from, we need to be able to leave one
@@ -48,10 +48,10 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                How does collection and delivery work from Bracknell?
+                How does collection and delivery work from Bradfield?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Many Autos operate a fleet of pool cars with a dedicated driver, so wherever in Bracknell we are
+                Many Autos operate a fleet of pool cars with a dedicated driver, so wherever in Bradfield we are
                 collecting from, we need to be able to leave one of our pool vehicles either in your work car park /
                 parking space, or if in a residential area, we would need to be able to leave our car either at your
                 house or on the road with a permit if required. We would be grateful if you could bear this in mind when
@@ -64,18 +64,18 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you provide finance for cars repair in Bracknell?
+                Do you provide finance for cars repair in Bradfield?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 Yes, you can pay for all or some of your car repair bill with car service and repair finance if you are
-                from Bracknell. From replacing car parts to a full transmission, engine, repair, service, mot repair
+                from Bradfield. From replacing car parts to a full transmission, engine, repair, service, mot repair
                 maintaining your vehicle can get costly. If you need help paying for routine service or urgent repairs,
                 Many Autos car service and repair could be the answer.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                On what services is finance available from Bracknell?
+                On what services is finance available from Bradfield?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">Alternator Anti Roll Bar Link Air Suspension Brakes Cv Joint Car
@@ -93,10 +93,10 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you do clutch repairs for cars in Bracknell?
+                Do you do clutch repairs for cars in Bradfield?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">A lot of happy customers from Bracknell have found out how Many
+                <p class="text-teal text-18 justify">A lot of happy customers from Bradfield have found out how Many
                   Autos can eliminate the time and trouble of shopping around for the best clutch repair price. So,
                   donâ€™t wait and sign up to our vehicle health check today and we can make you aware of any potential
                   issue with your vehicle clutch. Clutch plate replacement and associated repairs are best left to an
@@ -109,14 +109,14 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Do you offer MOT tests in Bracknell?
+                Do you offer MOT tests in Bradfield?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">MOT testing is required by law on all vehicles in the UK that are 3
                   years old or more. The annual inspection follows strict criteria set out by the DVSA that determines
                   if your car is fit for purpose and in roadworthy condition. The MOT test covers a broad range of
                   vehicle safety checks including lights, tyres, seatbelts and emissions and can only be carried out by
-                  a MOT garage with DVSA-approved examiners. So if you are in Bracknell and require an MOT test, give
+                  a MOT garage with DVSA-approved examiners. So if you are in Bradfield and require an MOT test, give
                   us
                   a call or book online now! For more information please visit our <a
                     href="https://www.manyautosltd.com/mot">MOT page</a> or live chat support open from 9am to 5pm
@@ -128,11 +128,11 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you provide alternator repair and replacement service for Bracknell?
+                Do you provide alternator repair and replacement service for Bradfield?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">We provide full alternator repair and replacement services in
-                  Bracknell. An automotive charging system is made up of three major components the battery, the
+                  Bradfield. An automotive charging system is made up of three major components the battery, the
                   voltage
                   regulator and an alternator. The alternator works with the battery to generate power for the
                   electrical components of a vehicle, like the interior and exterior lights, and the instrument panel.
@@ -148,14 +148,14 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you provide Timing Belt/Cambelt changing service for Bracknell?
+                Do you provide Timing Belt/Cambelt changing service for Bradfield?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">Timing Belt/Cambelt replacement according to your car manufacturer
                   schedule is essential. A snapped Timing belt can cause serious damage to the engine. It is often
                   cost-effective to replace your Water Pump at the same time so don't be surprised if we suggest it. We
                   are able to check and replace timing belts/cambelts for all makes and models of vehicles in the
-                  Bracknell area. For more information please visit our <a
+                  Bradfield area. For more information please visit our <a
                     href="https://www.manyautosltd.com/timing-belt">Timing belt page</a> or live chat support open from
                   9am to 5pm Monday to Saturday you can email us on <a
                     href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
@@ -164,10 +164,10 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Can you do repairs to the head gasket if I am based in Bracknell?
+                Can you do repairs to the head gasket if I am based in Bradfield?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">We do head gasket repairs and replacements for the Bracknell
+                <p class="text-teal text-18 justify">We do head gasket repairs and replacements for the Bradfield
                   area.
                   Once the head gasket blows or becomes damaged, your car will officially become a time bomb of serious
                   mechanical destruction. The longer your vehicle is operated with a blown head gasket, the more damage
@@ -228,20 +228,20 @@ export default {
   },
 
   head: {
-    title: 'Bracknell',
+    title: 'Bradfield',
 
     meta: [
       {
         name: 'description', 
-        content: 'We repair and Service all makes and models off vehicle in Bracknell, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Bracknell.'
+        content: 'We repair and Service all makes and models off vehicle in Bradfield, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Bradfield.'
       },
       {
         name: 'keywords', 
-        content: 'MOT and car repair services inBracknell ,Car services in Bracknell , collection and delivery from Bracknell, finance for cars repair in Bracknell, clutch repairs in Bracknell, MOT tests in Bracknell, alternator repair and replacement in Bracknell, Cambelt changing service in Bracknell, head gasket repair in  Bracknell'
+        content: 'MOT and car repair services inBradfield ,Car services in Bradfield , collection and delivery from Bradfield, finance for cars repair in Bradfield, clutch repairs in Bradfield, MOT tests in Bradfield, alternator repair and replacement in Bradfield, Cambelt changing service in Bradfield, head gasket repair in  Bradfield'
       },
       {
         property: "og:title", 
-        content: "Bracknell | ManyAutos LTD"
+        content: "Bradfield | ManyAutos LTD"
       },
       {
         property: "og:type", 
@@ -261,7 +261,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "We repair and Service all makes and models off vehicle in Bracknell, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Bracknell."
+        content: "We repair and Service all makes and models off vehicle in Bradfield, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Bradfield."
       },
       {
         name: "twitter:card", 
@@ -269,11 +269,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Bracknell | ManyAutos LTD"
+        content: "Bradfield | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and Service all makes and models off vehicle in Bracknell, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Bracknell."
+        content: "We repair and Service all makes and models off vehicle in Bradfield, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Bradfield."
       },
       {
         name: "twitter:image", 
