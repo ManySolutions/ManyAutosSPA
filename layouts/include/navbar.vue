@@ -12,6 +12,7 @@
             text 
             color='primary'
             class='pl-0'
+            href='tel:01189876300'
           >
             <v-icon 
               dark 
@@ -104,8 +105,8 @@
 <script>
 import Vue from 'vue';
 import mixins from '@/mixins';
-import NavbarDrawerLeft from './navbar-drawer-left.vue';
-import NavbarUserMenu from './navbar-user-menu.vue';
+import NavbarDrawerLeft from './__components/navbar-drawer-left.vue';
+import NavbarUserMenu from './__components/navbar-user-menu.vue';
 
 Vue.mixin(mixins);
 
