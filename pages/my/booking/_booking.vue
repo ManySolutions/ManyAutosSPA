@@ -15,10 +15,10 @@
       <v-spacer></v-spacer>
 
       <v-card-text v-if='Object.keys(booking.requests).length'>
-        <my-booking-additional-requests
+        <booking-additional-requests
           :items='booking.requests'
           :order-id='bookingId'
-        ></my-booking-additional-requests>
+        ></booking-additional-requests>
       </v-card-text>
       <!-- /additional requests -->
 
@@ -103,9 +103,9 @@
 <script>
 import toastr from 'toastr';
 import { getSingleBooking } from '~/api/booking';
-import myBookingAdditionalRequests from '~/components/func-components/my-booking-additional-requests.vue';
+import BookingAdditionalRequests from './__components/booking-additional-requests.vue';
 export default {
-  components: { myBookingAdditionalRequests },
+  components: { BookingAdditionalRequests },
   data: () => ({
     headers: [
       { text: 'Service Name', value: 'name', sortable: false },

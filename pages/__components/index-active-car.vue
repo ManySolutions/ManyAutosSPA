@@ -6,9 +6,12 @@
       color='secondary'
       class='text-capitalize mt-1'
       :to='{name: "booking-create"}'
-      dense
-      block
-      text
+      :dense='dense'
+      :block='block'
+      :text='textBtn'
+      :outlined='!textBtn'
+      :small='small'
+      elevation="0"
     >
       <span>
         <strong>
@@ -26,6 +29,25 @@
 import { mapState } from 'vuex';
 
 export default {
+  props: {
+    textBtn: {
+      type: Boolean,
+      default: true
+    },
+    dense: {
+      type: Boolean,
+      default: true
+    },
+    block: {
+      type: Boolean,
+      default: true
+    },
+    small: {
+      type: Boolean,
+      default: false
+    },
+  },
+  
   computed: {
     ...mapState('booking', ['modelId', 'vehicle']),
 
@@ -34,6 +56,6 @@ export default {
       
       return modelId && Object.keys(vehicle).length
     }
-  }
+  },
 }
 </script>

@@ -1,19 +1,25 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 mb-0 text-center pb-lg-5">
-        <!-- heading -->
+  <v-container 
+    fluid
+    class='mb-5'
+  >
+    <v-row>
+      <v-col cols=12 class="text-center mt-10 mb-7 pb-lg-5">
         <h1 class='heading__title heading__title--bar' style="font-weight:lighter">
           Our <span class='font-weight-bold'>Services</span>
         </h1>
-      </div>
-    </div>
-    <div class="row justify-content-center home-our-service">
-      <div class="col-12 col-lg-6 order-lg-2 align-self-center">
-        <img :src="assets('/customer-v2/011.png')" alt="">
-      </div>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols=12>
+        <img 
+          :src="assets('/customer-v2/011.png')" 
+          alt="Our Services at ManyAutos LTD"
+          class='pb-5 pt-4'
+        >
+      </v-col>
 
-      <div class="col-11 col-lg-3 order-lg-1">
+      <v-col cols=12>
         <div class="media text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end justify-content-lg-end text-center">
@@ -37,9 +43,9 @@
             </p>
           </div>
         </div>
-      </div>
+      </v-col>
 
-      <div class="col-11 col-lg-3 order-lg-3">
+      <v-col cols=12 class="pt-0">
         <div class="media text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end text-center">
@@ -63,9 +69,9 @@
             </p>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 <style lang="scss" scoped>
 .heading__title--bar:after {
@@ -86,6 +92,10 @@
     margin-bottom: 0.9em;
     font-family: inherit;
     text-transform: uppercase;
+    i {
+      font-size: 40px;
+      vertical-align: sub;
+    }
 }
 .media-body {
 
