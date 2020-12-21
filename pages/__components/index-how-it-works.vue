@@ -1,7 +1,7 @@
 <template>
   <v-container 
     fluid
-    class='mb-5'
+    class='mb-10'
   >
     <v-row>
       <div class="col-12 text-center mt-10 mb-7 pb-lg-5">
