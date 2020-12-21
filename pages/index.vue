@@ -67,6 +67,7 @@
                   color='primary'
                   class='py-0 px-0'
                   style='height: auto'
+                  href='tel:01189876300'
                 >
                   <v-icon 
                     dark 
@@ -99,13 +100,17 @@
           </p>
         </div>
       </v-col>
-     </v-row>
-     <index-how-it-works></index-how-it-works>
-     <index-our-services></index-our-services>
-     <index-car-parts></index-car-parts>
-     <index-reviews></index-reviews>
-     <index-faq></index-faq>
-     <index-footer></index-footer>
+    </v-row>
+    <v-row>
+      <index-how-it-works></index-how-it-works>
+      <car-reg-form has-bg-image></car-reg-form>
+      <index-our-services></index-our-services>
+      <index-car-parts></index-car-parts>
+      <car-reg-form></car-reg-form>
+      <index-reviews></index-reviews>
+      <index-faq></index-faq>
+      <index-footer></index-footer>
+    </v-row>
   </v-container>
 </template>
 
@@ -120,6 +125,7 @@ import IndexReviews from '~/pages/__components/index-reviews.vue';
 import IndexFaq from '~/pages/__components/index-faq.vue';
 import IndexFooter from '~/pages/__components/index-footer.vue';
 import IndexActiveCar from './__components/index-active-car.vue';
+import CarRegForm from '~/components/func-components/car-reg-form.vue';
 
 export default {
   components: {
@@ -131,6 +137,7 @@ export default {
     IndexFaq,
     IndexFooter,
     IndexActiveCar,
+    CarRegForm,
   },
 
   data: () => ({

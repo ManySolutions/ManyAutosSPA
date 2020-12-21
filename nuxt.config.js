@@ -26,6 +26,9 @@ export default {
 
     '@/assets/scss/style.scss',
 
+    '@/assets/vendor/icomoon/style.css',
+    '@/assets/vendor/icomoon-2/style.css',
+
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)

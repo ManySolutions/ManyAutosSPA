@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Navbar from './__components/navbar';
+import Navbar from './include/navbar';
 import MiniCart from '~/components/func-components/mini-cart';
 
 export default {
