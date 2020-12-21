@@ -59,7 +59,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
+        <div class="col-lg-3 col-md-6 col-sm-6 footer-col-4 mt-5" style="margin-bottom:55px;">
           <div class="widget widget_getintuch" style="margin-left:9px;">
             <h4 class="m-b15 text-uppercase">Contact us</h4>
             <div class="dlab-separator-outer m-b10">
@@ -222,23 +222,10 @@ font-weight: 400;
     display: inline;
     margin-right: 5px;
 }
-.widget_getintuch .headerr .dlab-social-icon.dez-border li a{
-    border: 1px solid rgba(255,255,255,.2);
-}
 .widget_getintuch .headerr .dlab-social-icon.dez-border li .v-icon{
     border: 1px solid rgba(255,255,255,.2);
 }
 
- .widget_getintuch .headerr .dlab-social-icon li a{
-    display: inline-block;
-    width: 34px;
-    height: 30px;
-    padding: 4px;
-    text-decoration: none;
-    margin-right: 30px;
-    margin-top: 15px;
-    font-size: 20px;
-}
  .widget_getintuch .headerr .dlab-social-icon li .v-icon:hover{
     color: #06D6A0;
 }
@@ -420,9 +407,8 @@ font-weight: 400;
   }
   .footer-top .footer-bottom {
     background-color: #394f52;
-    padding: 5px 0;
+    // padding: 5px 0;
     font-size: 12px;
-    margin-top: 55px;
 }
 .footer-top .footer-line {
     position: relative;
