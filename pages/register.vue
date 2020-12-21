@@ -15,15 +15,15 @@
               </v-text-field>
               <v-select
               class="select mt-8 mb-8"
-          v-model="e1"
-          :items="states"
-          menu-props="auto"
-          label="Select"
-          hide-details
-          prepend-icon="mdi-map"
-          single-line
-          outlined
-        ></v-select>
+              v-model="e1"
+              :items="states"
+              menu-props="auto"
+              label="Select"
+              hide-details
+              prepend-icon="mdi-map"
+              single-line
+              outlined>
+            </v-select>
               <v-text-field label="Mobile No." placeholder="+44 7700 ***796" outlined hide-details="">
               </v-text-field>    
               <v-checkbox v-model="ex4" label="Notifictaion Via SMS" color="primary" value="primary" hide-details></v-checkbox>
@@ -50,27 +50,17 @@
     data () {
       return {
         e1: 'United Kingdom (+44)',
-        e3: null,
-        e4: null,
-        items: [
-          { text: 'State 1' },
-          { text: 'State 2' },
-          { text: 'State 3' },
-          { text: 'State 4' },
-          { text: 'State 5' },
-          { text: 'State 6' },
-          { text: 'State 7' },
-        ],
+
         states: [
-          'Alabama', 'Alaska', 'American Samoa', 'Arizona',
-          'Arkansas', 'California', 'Colorado', 'Connecticut',
-          'Delaware', 'District of Columbia', 'Federated States of Micronesia',
-          'Florida', 'Georgia', 'Guam', 'Hawaii', 'Idaho',
-          'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky',
-          'Louisiana', 'Maine', 'Marshall Islands', 'Maryland',
-          'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi',
-          'Missouri', 'Montana', 'Nebraska', 'Nevada',
-          'New Hampshire', 'New Jersey', 'New Mexico', 'New York',
+          'Austria (+43)', 'Belgium (+32)', 'Bulgaria (+359)', 'Croatia (+385)',
+          'Cyprus (+357)', 'Czech Republic (+420)', 'Denmark (+45)', 'Estonia (+372)',
+          'Finland (+358)', 'France (+33)', 'Germany (+49)',
+          'Greece (+30)', 'Hungary (+36)', 'Ireland (+353)', 'Italy (+39)', 'Latvia (+371)',
+          'Lithuania (+370)', 'Luxembourg (+352)', 'Malta (+356)', 'Netherlands (+31)', 'Poland (+48)',
+          'Portugal (+351)', 'Romania (+40)', 'Slovakia (+421)', 'Slovenia (+386)',
+          'Spain (+34)', 'Sweden (+46)', 'Albania (+355)', 'Andorra (+376)',
+          'Armenia (+374)', 'Belarus (+375)', 'Bosnia and Herzegovina (+387)', 'Faroe Islands (+298)',
+          'Georgia (+995)', 'Gibraltar (+350)', 'Iceland (+354)', 'New York',
           'North Carolina', 'North Dakota', 'Northern Mariana Islands', 'Ohio',
           'Oklahoma', 'Oregon', 'Palau', 'Pennsylvania', 'Puerto Rico',
           'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee',
