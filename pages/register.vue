@@ -52,7 +52,7 @@
                 v-model="form.country_code"
                 :items="countryList"
                 menu-props="auto"
-                label="Select"
+                label="Country Code"
                 prepend-icon="mdi-map"
                 single-line
                 outlined
