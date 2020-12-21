@@ -99,13 +99,15 @@
           </p>
         </div>
       </v-col>
-     </v-row>
-     <index-how-it-works></index-how-it-works>
-     <index-our-services></index-our-services>
-     <index-car-parts></index-car-parts>
-     <index-reviews></index-reviews>
-     <index-faq></index-faq>
-     <index-footer></index-footer>
+    </v-row>
+    <v-row>
+      <index-how-it-works></index-how-it-works>
+      <index-our-services></index-our-services>
+      <index-car-parts></index-car-parts>
+      <index-reviews></index-reviews>
+      <index-faq></index-faq>
+      <index-footer></index-footer>
+    </v-row>
   </v-container>
 </template>
 

@@ -1,15 +1,18 @@
 <template>
-  <div class="container home-sec-gap">
-    <div class="row mb-55 pb-lg-5">
-      <div class="col-12">
+  <v-container
+    fluid
+    class='home-car-parts pb-10'
+  >
+    <v-row cols=12>
+      <v-col class="mt-10 mb-7">
         <h1 class='heading__title heading__title--bar text-center' style="font-weight:lighter;">
           A Huge Range of
           <br>
           <span class='font-weight-bold'>Car Parts</span>
         </h1>
-      </div>
-    </div>
-    <div class="row c-mb-53 c-mb-lg-0 text-center">
+      </v-col>
+    </v-row>
+    <v-row class="text-center">
       <div class="col-12 col-md-6 col-lg-4">
         <div class="steps mb-5 pb-3 pb-lg-5">
           <img :src="assets('/customer-v2/icons/brake-disc.png')" alt="">
@@ -80,11 +83,13 @@
           </div>
         </div>
       </div>
-
-    </div>
-  </div>
+    </v-row>
+  </v-container>
 </template>
 <style lang="scss" scoped>
+.home-car-parts {
+  background-color: #f8fafc;
+}
 .mb-55 {
   margin-bottom: 55px;
 }
@@ -105,10 +110,5 @@
     letter-spacing: 0;
     font-family: inherit;
     text-transform: uppercase;
-}
-.home-sec-gap {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #F8FAFC;
 }
 </style>

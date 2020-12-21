@@ -1,77 +1,85 @@
 <template>
-  <div class="review">
-    <div class='container'>
-      <div class="row">
-        <div class="col-12 mb-55 pb-lg-5">
-          <h1 class='heading__title heading__title--bar text-white text-center' style="font-weight:lighter;">
-            Our <span class='font-weight-bold'>Happy Customers</span>
-          </h1>
-        </div>
-        <div class="col-12">
-          <div class="owl-carousel owl-theme owl-loaded owl-drag">
-            <div class="owl-stage-outer">
-              <div class="owl-stage">
-                <div class="owl-item cloned" style="width: 290px; margin-right: 10px;">
-                  <div class="item">
-                    <div class="card m-auto">
-                      <div class="card-body">
-                        <p class="card-text">
-                          "Really happy with the service. Very professional and friendly team.
-                          I originally took my car to another mechanic who didn’t do a good job
-                          so I brought it to these guys. I find them very honest."
-                        </p>
-                        <h5 class="card-title">
-                          Mrs Maria
-                          <small>Nov 13 2019</small>
-                        </h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item cloned" style="width: 290px; margin-right: 10px;">
-                  <div class="item">
-                    <div class="card m-auto">
-                      <div class="card-body">
-                        <p class="card-text">
-                          "Called as drivers window wouldn’t go up. Said to come right away
-                          fixed within an hour. Excellent service and company!!
-                          Really recommend!!"
-                        </p>
-                        <h5 class="card-title">
-                          Gollette Gardner
-                          <small>Mar 10 2020</small>
-                        </h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- <carousel :autoplay="true" :nav="false">
-
-    <template slot="prev"><span class="prev">prev</span></template>
-
-</carousel> -->
-  </div>
-
+  <v-container 
+    fluid
+    class='mb-5 review'
+  >
+    <v-row>
+      <v-col cols=12 class="mt-10 mb-7">
+        <h1 class='heading__title heading__title--bar text-center text-white font-weight-300'>
+          Our <span class='font-weight-bold'>Happy Customers</span>
+        </h1>
+      </v-col>
+      <v-col 
+        cols=12
+        class='mb-4'
+      >
+        <v-carousel 
+          v-model="model"
+          :show-arrows="false"
+          hide-delimiter-background
+          delimiter-icon="mdi-minus"
+          height="300"
+        >
+          <v-carousel-item
+            v-for="(review, i) in reviews"
+            :key="i"
+          >
+            <v-sheet
+              height="100%"
+              class='py-4'
+              color="blue-grey darken-2"
+            >
+              <v-row
+                justify="center"
+                align="center"
+                class='fill-height'
+              >
+                <v-col>
+                  <p class='text-center px-3 font-weight-300'>
+                    "{{ review.content }}" 
+                  </p>
+                  <h5 class="text-h6 card-title text-center">
+                    <span class='text-primary'>
+                      {{ review.name }}
+                    </span>
+                    <small>
+                      {{ review.date }}
+                    </small>
+                  </h5>
+                </v-col>
+              </v-row>
+            </v-sheet>
+          </v-carousel-item>
+        </v-carousel>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
- <!-- <script> 
- import carousel from 'vue-owl-carousel2'
 
- export default {
-     components: { 
-         carousel
-          },
+<script>
+export default {
+  data: () => ({
+    model: 0,
+    reviews: [
+      {
+        content: `Really happy with the service. Very professional and friendly team. 
+          I originally took my car to another mechanic who didn’t do a good job 
+          so I brought it`,
+        name: 'Mrs Maria',
+        date: 'Nov 13 2019',
+      },
+      {
+        content: `Called as drivers window wouldn’t go up. Said to come right away 
+          fixed within an hour. Excellent service and company!! 
+          Really recommend!!`,
+        name: 'Gollette Gardner',
+        date: 'Mar 10 2020',
+      },
+    ],
+  })
+}
+</script>
 
-  mounted() {
-   }
- }
-
- </script>-->
 <style lang="scss" scoped>
 .container {
     width: 100%;
@@ -86,8 +94,8 @@
     background-image: url("https://manyautosltd.com/assets/customer-v2/rowen-smith.jpg");
     background-size: cover;
     background-position: center center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
     position: relative;
 }
 .review:before {

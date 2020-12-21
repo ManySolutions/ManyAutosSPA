@@ -1,68 +1,70 @@
 <template>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-55 pb-lg-5">
+  <v-container 
+    fluid
+    class='mb-5'
+  >
+    <v-row>
+      <div class="col-12 text-center mt-10 mb-7 pb-lg-5">
         <h1 class="heading__title heading__title--bar" style="font-weight:lighter;">
           How <span class='font-weight-bold'>We Work</span>
         </h1>
       </div>
-    </div>
-    <div class="row c-mb-53 c-mb-lg-0 text-center">
-      <div class="col-12 col-md-6 col-lg-3">
+    </v-row>
+    <v-row class="text-center">
+      <v-col cols="12">
         <div class="steps mb-5 pb-3">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits'>1</em>
             <img :src="assets('/customer-v2/img1.jpg')" alt="">
           </span>
           <div class="step-content">
-            <h6 class="fw-600 mb-3 mt-4 mb-lg-3 mt-lg-5">BOOKING</h6>
+            <h6 class="fw-600 my-3">BOOKING</h6>
             <p class="color-dark mb-0">Book your Vehicle online or by phone</p>
           </div>
         </div>
-      </div>
+      </v-col>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <v-col cols="12">
         <div class="steps mb-5 pb-3">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits'>2</em>
             <img :src="assets('/customer-v2/img2.jpg')" alt="">
           </span>
           <div class="step-content">
-            <h6 class="fw-600 mb-3 mt-4 mb-lg-3 mt-lg-5">COLLECTION</h6>
+            <h6 class="fw-600 my-3">COLLECTION</h6>
             <p class="color-dark mb-0">Have your car collected from wherever convenient</p>
           </div>
         </div>
-      </div>
+      </v-col>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <v-col cols="12">
         <div class="steps mb-5 pb-3">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits'>3</em>
             <img :src="assets('/customer-v2/img3.jpg')" alt="">
           </span>
           <div class="step-content">
-            <h6 class="fw-600 mb-3 mt-4 mb-lg-3 mt-lg-5">SERVICE</h6>
+            <h6 class="fw-600 my-3">SERVICE</h6>
             <p class="color-dark mb-0">Sit back,relax and let us do the work.We will keep you informed every step of the
               way.</p>
           </div>
         </div>
-      </div>
+      </v-col>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <v-col cols="12">
         <div class="steps">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits'>4</em>
             <img :src="assets('/customer-v2/img4.jpg')" alt="">
           </span>
           <div class="step-content">
-            <h6 class="fw-600 mb-3 mt-4 mb-lg-3 mt-lg-5">DELIVERY</h6>
+            <h6 class="fw-600 my-3">DELIVERY</h6>
             <p class="color-dark mb-0">Have your car delivered and enjoy.</p>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
  <style lang="scss" scoped>
 .mb-55 {

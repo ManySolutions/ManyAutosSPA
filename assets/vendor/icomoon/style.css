@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'icomoon-ma';
+  src:  url('icomoon.eot?scgqpa');
+  src:  url('icomoon.eot?scgqpa#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?scgqpa') format('truetype'),
+    url('icomoon.woff?scgqpa') format('woff'),
+    url('icomoon.svg?scgqpa#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ico-ma-"], [class*=" ico-ma-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-ma' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-ma-back:before {
+  content: "\e918";
+}
+.ico-ma-bars:before {
+  content: "\e91b";
+}
+.ico-ma-th:before {
+  content: "\e91c";
+}
+.ico-ma-shopping-bag:before {
+  content: "\e919";
+}
+.ico-ma-user-alt:before {
+  content: "\e91a";
+}
+.ico-ma-check-circle:before {
+  content: "\e917";
+}
+.ico-ma-trash:before {
+  content: "\e916";
+}
+.ico-ma-check:before {
+  content: "\e915";
+}
+.ico-ma-user:before {
+  content: "\e900";
+}
+.ico-ma-tow-truck-alt:before {
+  content: "\e901";
+}
+.ico-ma-tow-truck:before {
+  content: "\e902";
+}
+.ico-ma-play-button:before {
+  content: "\e903";
+}
+.ico-ma-placeholder:before {
+  content: "\e904";
+}
+.ico-ma-phone-call:before {
+  content: "\e905";
+}
+.ico-ma-painting:before {
+  content: "\e906";
+}
+.ico-ma-next:before {
+  content: "\e907";
+}
+.ico-ma-motorcycle:before {
+  content: "\e908";
+}
+.ico-ma-mechanic:before {
+  content: "\e909";
+}
+.ico-ma-map:before {
+  content: "\e90a";
+}
+.ico-ma-comments-alt:before {
+  content: "\e90b";
+}
+.ico-ma-clock-alt:before {
+  content: "\e90c";
+}
+.ico-ma-clock:before {
+  content: "\e90d";
+}
+.ico-ma-car-wash:before {
+  content: "\e90e";
+}
+.ico-ma-car-alt:before {
+  content: "\e90f";
+}
+.ico-ma-car:before {
+  content: "\e910";
+}
+.ico-ma-call:before {
+  content: "\e911";
+}
+.ico-ma-breakdown:before {
+  content: "\e912";
+}
+.ico-ma-accident:before {
+  content: "\e913";
+}
+.ico-ma-email:before {
+  content: "\e914";
+}
