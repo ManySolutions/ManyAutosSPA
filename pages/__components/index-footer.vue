@@ -18,7 +18,7 @@
                 <div class="bold-line"></div>
               </div>
             </div>
-            <div class="widget-post-bx">
+            <div class="widget-post-bx" style="margin-top:-7px;">
               <div class="widget-post clearfix">
                 <div class="dlab-post-header">
                   <h6 class="post-title text-uppercase"><a href="javascript:void(0);">Title of first blog</a>
@@ -41,7 +41,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
+        <div class="col-lg-3 col-md-6 col-sm-6 footer-col-4 mt-5">
           <div class="widget widget_services" style="margin-left:9px;">
             <h4 class="m-b15 text-uppercase">Our services</h4>
             <div class="dlab-separator-outer m-b10">
@@ -49,25 +49,13 @@
                 <div class="bold-line"></div>
               </div>
             </div>
-            <ul>
-              <li><v-icon>
-                    mdi-chevron-right
-                  </v-icon><a href="https://manyautosltd.com/abs">ABS</a></li>
-              <li><v-icon>
-                    mdi-chevron-right
-                  </v-icon><a href="https://manyautosltd.com/air-filter-replacement">Air Filter Replacement</a></li>
-              <li><v-icon>
-                    mdi-chevron-right
-                  </v-icon><a href="https://manyautosltd.com/brake-service">Brake Service</a></li>
-              <li><v-icon>
-                    mdi-chevron-right
-                  </v-icon><a href="https://manyautosltd.com/car-service">Car Service</a></li>
-              <li><v-icon>
-                    mdi-chevron-right
-                  </v-icon><a href="https://manyautosltd.com/suspension-arm">Suspension Arm</a></li>
-              <li><v-icon>
-                    mdi-chevron-right
-                  </v-icon><a href="https://manyautosltd.com/wheel-alignment-and-tracking">Wheel Alignment</a></li>
+            <ul style="margin-top:-20px; padding-left: 0px;">
+              <li><a href="https://manyautosltd.com/abs">ABS</a></li>
+              <li><a href="https://manyautosltd.com/air-filter-replacement">AIR FILTER REPLACEMENT</a></li>
+              <li><a href="https://manyautosltd.com/brake-service">BRAKE SERVICE</a></li>
+              <li><a href="https://manyautosltd.com/car-service">CAR SERVCIE</a></li>
+              <li><a href="https://manyautosltd.com/suspension-arm">SUSPENSION ARM</a></li>
+              <li><a href="https://manyautosltd.com/wheel-alignment-and-tracking">WHEEL ALIGNMENT</a></li>
             </ul>
           </div>
         </div>
@@ -81,18 +69,48 @@
             </div>
             <div class="headerr">
               <ul>
-                <i class="fas fa-mobile-alt"></i>
+                <v-icon medium >
+                  mdi-cellphone
+                </v-icon>
                 <li class="" style="padding-bottom:30px; top:18px; left:21px;"><strong>phone</strong> 01189876300</li>
-                <i class="far fa-envelope"></i>
+                <v-icon medium >
+                  mdi-email
+                </v-icon>
                 <li class="" style="top:18px; left:21px;"><strong>email</strong> Team@manyautos.co.uk</li>
               </ul>
               <ul class="dlab-social-icon dez-border">
-                <li><a class="fa fa-youtube"
-                    href="https://www.youtube.com/channel/UCj5peOCn-mwfKkOplGkrD4w/featured?disable_polymer=true"></a>
+                <!-- <li>
+                  <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCj5peOCn-mwfKkOplGkrD4w/featured?disable_polymer=true"></a>
                 </li>
-                <li><a class="fa fa-twitter" href="https://twitter.com/manyautos"></a></li>
-                <li><a class="fa fa-linkedin" href="https://www.linkedin.com/feed/"></a></li>
-                <li><a class="fa fa-facebook" href="https://www.facebook.com/manyautos.co.uk/"></a></li>
+              <li>
+                  <a class="fa fa-twitter" href="https://twitter.com/manyautos"></a>
+                </li>
+                <li>
+                  <a class="fa fa-linkedin" href="https://www.linkedin.com/feed/"></a>
+                </li>
+                <li>
+                  <a class="fa fa-facebook" href="https://www.facebook.com/manyautos.co.uk/"></a>
+                </li> -->
+                   <li>
+                  <v-icon class="social-icons" style="margin-left:-26px;">
+                  mdi-youtube
+                </v-icon>
+                </li>
+              <li>
+                  <v-icon class="social-icons" style="margin-left:20px;">
+                  mdi-twitter
+                </v-icon>
+                </li>
+                <li>
+                  <v-icon class="social-icons" style="margin-left:65px;">
+                  mdi-linkedin
+                </v-icon>
+                </li>
+                <li>
+                  <v-icon class="social-icons" style="margin-left:110px;">
+                  mdi-facebook
+                </v-icon>
+                </li>
               </ul>
             </div>
           </div>
@@ -163,7 +181,7 @@
 background:#394f52;
 background-size: cover;
 background-position: center;
-padding: 50px 0 20px 0;
+// padding: 50px 0 20px 0;
 color: #444;
 font-weight: 400;
 }
@@ -207,18 +225,32 @@ font-weight: 400;
 .widget_getintuch .headerr .dlab-social-icon.dez-border li a{
     border: 1px solid rgba(255,255,255,.2);
 }
- .widget_getintuch .headerr .dlab-social-icon li a {
+.widget_getintuch .headerr .dlab-social-icon.dez-border li .v-icon{
+    border: 1px solid rgba(255,255,255,.2);
+}
+
+ .widget_getintuch .headerr .dlab-social-icon li a{
     display: inline-block;
     width: 34px;
     height: 30px;
     padding: 4px;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 30px;
     margin-top: 15px;
     font-size: 20px;
 }
- .widget_getintuch .headerr .dlab-social-icon li a:hover{
+ .widget_getintuch .headerr .dlab-social-icon li .v-icon:hover{
     color: #06D6A0;
+}
+ .widget_getintuch .headerr .dlab-social-icon li .v-icon {
+    display: inline-block;
+    width: 36px;
+    height: 35px;
+    padding: 0px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 25px;
 }
 .dlab-social-icon {
     display: inline-block;
@@ -231,13 +263,13 @@ font-weight: 400;
 @media (max-width: 576px){
     .dlab-social-icon{
 
-    margin-left: 4px;
-    margin-top: 23px;
+    margin-left: 55px;
+    // margin-top: 23px;
     }
   }
-.footer-top .widget .m-b15 {
-    margin-bottom: 15px;
-}
+// .footer-top .widget .m-b15 {
+//     margin-bottom: 15px;
+// }
 .footer-top .widget h4{
     color: #fff;
     font-size: 18px;
@@ -246,7 +278,7 @@ font-weight: 400;
 }
 .dlab-separator.style-skew {
     width: 15px;
-    height: 10px;
+    // height: 10px;
     margin-left: 1px;
     margin-right: 1px;
     transform: skewX(-10deg);
@@ -258,23 +290,26 @@ font-weight: 400;
     margin-bottom: 10px;
     position: relative;
 }
-.footer-top .widget .m-b10{
+// .footer-top .widget .m-b10{
 
-    margin-bottom: 10px;
+//     margin-bottom: 10px;
+// }
+.widget.widget_getintuch {
+    margin-top: 7px;
 }
 .footer-top .widget .m-b10 .bold-line{
 
     /* margin-left: 20px; */
     background-color: #fff;
-    margin-top: 5px;
+    // margin-top: 5px;
     width: 80px;
     height: 2px;
     left: 20px;
     transform: translateY(-50%) skewX(-10deg);
 }
-.footer-top .widget .widget-post-bx{
-    margin-top: 24px;
-}
+// .footer-top .widget .widget-post-bx{
+//     margin-top: 24px;
+// }
 .footer-top .widget .widget-post-bx .widget-post .dlab-post-header{
     padding-bottom: 5px;
 }
@@ -306,14 +341,15 @@ font-weight: 400;
     margin-left: -23px;
 }
 .footer-top .widget_services ul li{
-    border-bottom: 1px dashed #d8d8d8;
-    padding-bottom: 18px;
+    // border-bottom: 1px dashed #d8d8d8;
+    // padding-bottom: 18px;
     position: relative;
-    padding: 10px 10px 10px 15px;
+    padding: 10px 0px 0px 2px;
     margin-bottom: 0;
     line-height: 20px;
     list-style-type: none;
     width: 65%;
+    margin-top: -5px;
 }
 .footer-top .widget_services ul li a:hover{
 
@@ -342,7 +378,7 @@ font-weight: 400;
     /* padding-left: 40px; */
 }
 .footer-top .widget_getintuch .headerr {
-    margin-top: -7px;
+    margin-top: -25px;
 }
 .footer-top .widget_getintuch .headerr ul i{
     position: absolute;
@@ -350,7 +386,7 @@ font-weight: 400;
     font-size: 22px;
     width: 30px;
     line-height: 30px;
-    margin-top: 19px;
+    margin-top: 18px;
     color: #d8d8d8;
 }
 .footer-top .widget_getintuch .headerr ul li {
@@ -364,7 +400,7 @@ font-weight: 400;
   @media (max-width: 576px){
     .footer-top .widget_getintuch .headerr ul i{
 
-    left: 7px;
+    left: 14px;
     }
   }
   @media (min-width:992px){
@@ -386,6 +422,7 @@ font-weight: 400;
     background-color: #394f52;
     padding: 5px 0;
     font-size: 12px;
+    margin-top: 55px;
 }
 .footer-top .footer-line {
     position: relative;
