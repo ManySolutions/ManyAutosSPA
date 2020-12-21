@@ -109,6 +109,6 @@ export default {
     ENVIRONMENT: 'development',
     CURRENCY_SYMBOL: '£',
     LOCAL_API_URL: 'http://manyautos.local/api/v2/c/',
-    API_URL: '', 
+    PRODUCTION_API_URL: 'https://manyautosltd.com/api/v2/c/',
   }
 }

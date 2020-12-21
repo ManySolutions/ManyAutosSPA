@@ -1,8 +1,16 @@
 import axios from 'axios';
 // import nprogress from 'nprogress';
 
+let baseURL = null;
+
+if (process.client) {
+  baseURL = window.location.hostname == 'localhost'
+    ? process.env.LOCAL_API_URL
+    : process.env.PRODUCTION_API_URL
+}
+
 const http = axios.create({
-  baseURL: 'http://manyautos.local/api/v2/c/',
+  baseURL,
 });
 
 http.interceptors.response.use(response => {
