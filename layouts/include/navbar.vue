@@ -7,16 +7,16 @@
       <v-row
         class=''
       >
-        <v-col>
+        <v-col cols=5>
           <v-btn 
             text 
-            color='primary'
+            color='teal lighten-6'
             class='pl-0'
             href='tel:01189876300'
           >
             <v-icon 
-              dark 
-              class='mr-2'
+              dark
+              class='mr-1'
             >
               mdi-cellphone-basic
             </v-icon>
@@ -26,28 +26,42 @@
           </v-btn>
         </v-col>
         <v-col
-          class='text-right'
+          class='text-right top-social'
         >
           <v-btn
-            color='teal lighten-6'
-            dark
+            text
             elevation='0'
             style='min-width: 0px'
-            class='px-2'
+            class='px-1'
+            href='https://wa.me/+4401189876300'
+            target="_blank"
           >
-            <v-icon>
+            <v-icon color='teal lighten-6'>
               mdi-whatsapp
             </v-icon>
           </v-btn>
           <v-btn
-            color='blue darken-1'
-            dark
+            text
             elevation='0'
             style='min-width: 0px'
-            class='px-2'
+            class='px-1'
+            href='http://m.me/manyautos.co.uk?ref=contact_from_website'
+            target="_blank"
           >
-            <v-icon>
-              mdi-facebook
+            <v-icon color='blue darken-1'>
+              mdi-facebook-messenger
+            </v-icon>
+          </v-btn>
+          <v-btn
+            text
+            elevation='0'
+            style='min-width: 0px'
+            class='px-1'
+            href='https://wa.me/+4401189876300'
+            target="_blank"
+          >
+            <v-icon color='red darken-1'>
+              mdi-instagram
             </v-icon>
           </v-btn>
         </v-col>
@@ -131,5 +145,17 @@ export default {
 .logo {
   max-width: 100%;
   max-height: 37px;
+}
+.instagram {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.top-social {
+  .v-icon.v-icon {
+    font-size: 29px;
+  }
 }
 </style>
