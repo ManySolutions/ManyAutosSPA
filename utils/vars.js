@@ -313,7 +313,8 @@ export const countryList = [
 export const carsList = [
   { 
     code: 'car-service', 
-    name: 'Service Guide Home' 
+    // name: 'Service Guide Home' 
+    name: 'Car Service'
   },
   {
     code: 'audi-service', 
