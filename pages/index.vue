@@ -57,10 +57,10 @@
               </v-form>
             </v-card-text>
             <v-card-actions
-              class='pr-4'
+              class='px-4'
             >
               <v-spacer></v-spacer>
-              <span>
+              <span class='text-center'>
                 or call us to book
                 <v-btn
                   text

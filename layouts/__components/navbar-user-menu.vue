@@ -26,7 +26,7 @@
         <v-list-item-title>{{ item.name }}</v-list-item-title>
       </v-list-item>
       <v-divider></v-divider>
-      <v-list-item @click="logout()">
+      <v-list-item @click="handleLogout()">
         <v-list-item-title>
           <v-icon small class='mr-2'>mdi-logout</v-icon>  
           {{ 'Logout' }}
@@ -43,6 +43,7 @@
           color='primary'
           text
           class='text-capitalize'
+          :to='{name: "login"}'
         >
           Login
         </v-btn>
@@ -52,6 +53,7 @@
           color='secondary'
           text
           class='text-capitalize'
+          :to='{name: "register"}'
         >
           Create new account
         </v-btn>
@@ -62,6 +64,7 @@
 
 <script>
 import { mapActions } from 'vuex';
+import { logoutUser } from '~/api/user';
 
 export default {
   data: () => ({
@@ -74,7 +77,12 @@ export default {
   }),
 
   methods: {
-    ...mapActions('user', ['logout']), 
+    ...mapActions('user', ['logout']),
+
+    handleLogout() {
+      logoutUser(this.http);
+      this.logout();
+    }
   }
 }
 </script>
