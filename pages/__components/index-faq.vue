@@ -60,7 +60,15 @@
               We only ask that you give us a minimum of 24 hours notice were possible.
             </v-expansion-panel-content>
           </v-expansion-panel>
-          <NuxtLink to="/" class="nuxt-link">More frequently asked questions ></NuxtLink>
+          <v-btn
+            color='primary'
+            text
+            class='text-capitalize mt-3'
+            to='/faq'
+          >
+            More frequently asked questions
+            <v-icon>mdi-chevron-right</v-icon>
+          </v-btn>
         </v-expansion-panels>
       </v-col>
     </v-row>
