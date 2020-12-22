@@ -69,8 +69,9 @@
               >
                     Reset
               </v-btn>
-              <v-btn color="primary">
-                Send Message
+              <v-btn 
+                    color="primary">
+                    Send Message
                 </v-btn>
               </div>
               <span>
@@ -209,6 +210,7 @@ strong{
     color: #212529;
 }
 .text{
+    
     color: #0c0b0b;
 }
 </style>

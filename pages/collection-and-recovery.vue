@@ -53,7 +53,7 @@
                     01189 876300</a> via our Contact page for more information on our full range of services and see
                   what we can do for you. We look forward to hearing from you!
                 </p>
-              </div><!-- .entry-content -->
+              </div>
             </article>
           </div>
           <div class="clearfix"></div>
