@@ -1,9 +1,8 @@
 <template>
   <page-layout title='Vehicle Collection And Recovery Service'
     heading-bg='customer-v2/static-pages/allpics/collectionandrecovery1.jpg'>
+    
     <div class="container">
-
-      <!-- Services Detail -->
       <div class="exc-section">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-12">

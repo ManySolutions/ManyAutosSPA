@@ -1,14 +1,14 @@
 <template>
   <page-layout
-    title='Henley-On-Thames'
-    heading-bg='customer-v2/static-pages/allpics/henley-on-thames1.jpg'
+    title='Pangbourne'
+    heading-bg='customer-v2/static-pages/allpics/pangbourne1.jpg'
   >
         <div class="container">
       <div class="row">
         <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
           <div class="row">
             <div class="col-12">
-              <p class="text-teal text-18 justify" style="padding-top: 30px;">We cover the Henley-On-Thames area for all car
+              <p class="text-teal text-18 justify" style="padding-top: 30px;">We cover the Pangbourne area for all car
                 servicing, MOT and repair needs. Full Service includes a comprehensive 70-point check, Interim Service
                 has a 50-point check. At Many Autos we use the latest equipment, allowing our qualified technicians and
                 mechanics to diagnose any problems quickly and efficiently. Forgetting to service the vehicle as per
@@ -28,11 +28,11 @@
           <v-expansion-panels popout>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Do you offer free collection and delivery from Henley-On-Thames?
+                Do you offer free collection and delivery from Pangbourne?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">Yes, we believe that we offer a valuable product with our Free
-                  Collection and Delivery Service from Henley-On-Thames, we can collect either from your place of work or
+                  Collection and Delivery Service from Pangbourne, we can collect either from your place of work or
                   from your home address. If you are unsure about whether the address you are considering having your
                   vehicle collected from is within our range, then please do contact us. Many Autos operate a fleet of
                   pool cars with a dedicated driver, so wherever we are collecting from, we need to be able to leave one
@@ -48,10 +48,10 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                How does collection and delivery work from Henley-On-Thames?
+                How does collection and delivery work from Pangbourne?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Many Autos operate a fleet of pool cars with a dedicated driver, so wherever in Henley-On-Thames we are
+                Many Autos operate a fleet of pool cars with a dedicated driver, so wherever in Pangbourne we are
                 collecting from, we need to be able to leave one of our pool vehicles either in your work car park /
                 parking space, or if in a residential area, we would need to be able to leave our car either at your
                 house or on the road with a permit if required. We would be grateful if you could bear this in mind when
@@ -64,18 +64,18 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you provide finance for cars repair in Henley-On-Thames?
+                Do you provide finance for cars repair in Pangbourne?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 Yes, you can pay for all or some of your car repair bill with car service and repair finance if you are
-                from Henley-On-Thames. From replacing car parts to a full transmission, engine, repair, service, mot repair
+                from Pangbourne. From replacing car parts to a full transmission, engine, repair, service, mot repair
                 maintaining your vehicle can get costly. If you need help paying for routine service or urgent repairs,
                 Many Autos car service and repair could be the answer.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                On what services is finance available from Henley-On-Thames?
+                On what services is finance available from Pangbourne?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">Alternator Anti Roll Bar Link Air Suspension Brakes Cv Joint Car
@@ -93,10 +93,10 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you do clutch repairs for cars in Henley-On-Thames?
+                Do you do clutch repairs for cars in Pangbourne?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">A lot of happy customers from Henley-On-Thames have found out how Many
+                <p class="text-teal text-18 justify">A lot of happy customers from Pangbourne have found out how Many
                   Autos can eliminate the time and trouble of shopping around for the best clutch repair price. So,
                   donâ€™t wait and sign up to our vehicle health check today and we can make you aware of any potential
                   issue with your vehicle clutch. Clutch plate replacement and associated repairs are best left to an
@@ -109,14 +109,14 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Do you offer MOT tests in Henley-On-Thames?
+                Do you offer MOT tests in Pangbourne?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">MOT testing is required by law on all vehicles in the UK that are 3
                   years old or more. The annual inspection follows strict criteria set out by the DVSA that determines
                   if your car is fit for purpose and in roadworthy condition. The MOT test covers a broad range of
                   vehicle safety checks including lights, tyres, seatbelts and emissions and can only be carried out by
-                  a MOT garage with DVSA-approved examiners. So if you are in Henley-On-Thames and require an MOT test, give
+                  a MOT garage with DVSA-approved examiners. So if you are in Pangbourne and require an MOT test, give
                   us
                   a call or book online now! For more information please visit our <a
                     href="https://www.manyautosltd.com/mot">MOT page</a> or live chat support open from 9am to 5pm
@@ -128,11 +128,11 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you provide alternator repair and replacement service for Henley-On-Thames?
+                Do you provide alternator repair and replacement service for Pangbourne?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">We provide full alternator repair and replacement services in
-                  Henley-On-Thames. An automotive charging system is made up of three major components the battery, the
+                  Pangbourne. An automotive charging system is made up of three major components the battery, the
                   voltage
                   regulator and an alternator. The alternator works with the battery to generate power for the
                   electrical components of a vehicle, like the interior and exterior lights, and the instrument panel.
@@ -148,14 +148,14 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do you provide Timing Belt/Cambelt changing service for Henley-On-Thames?
+                Do you provide Timing Belt/Cambelt changing service for Pangbourne?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify">Timing Belt/Cambelt replacement according to your car manufacturer
                   schedule is essential. A snapped Timing belt can cause serious damage to the engine. It is often
                   cost-effective to replace your Water Pump at the same time so don't be surprised if we suggest it. We
                   are able to check and replace timing belts/cambelts for all makes and models of vehicles in the
-                  Henley-On-Thames area. For more information please visit our <a
+                  Pangbourne area. For more information please visit our <a
                     href="https://www.manyautosltd.com/timing-belt">Timing belt page</a> or live chat support open from
                   9am to 5pm Monday to Saturday you can email us on <a
                     href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
@@ -164,10 +164,10 @@
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Can you do repairs to the head gasket if I am based in Henley-On-Thames?
+                Can you do repairs to the head gasket if I am based in Pangbourne?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">We do head gasket repairs and replacements for the Henley-On-Thames
+                <p class="text-teal text-18 justify">We do head gasket repairs and replacements for the Pangbourne
                   area.
                   Once the head gasket blows or becomes damaged, your car will officially become a time bomb of serious
                   mechanical destruction. The longer your vehicle is operated with a blown head gasket, the more damage
@@ -228,20 +228,20 @@ export default {
   },
 
   head: {
-    title: 'Henley-On-Thames',
+    title: 'Pangbourne',
 
     meta: [
       {
         name: 'description', 
-        content: 'We repair and Service all makes and models off vehicle in Henley-On-Thames, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Henley-On-Thames.'
+        content: 'We repair and Service all makes and models off vehicle in Pangbourne, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Pangbourne.'
       },
       {
         name: 'keywords', 
-        content: 'MOT and car repair services inHenley-On-Thames ,Car services in Henley-On-Thames , collection and delivery from Henley-On-Thames, finance for cars repair in Henley-On-Thames, clutch repairs in Henley-On-Thames, MOT tests in Henley-On-Thames, alternator repair and replacement in Henley-On-Thames, Cambelt changing service in Henley-On-Thames, head gasket repair in  Henley-On-Thames'
+        content: 'MOT and car repair services inPangbourne ,Car services in Pangbourne , collection and delivery from Pangbourne, finance for cars repair in Pangbourne, clutch repairs in Pangbourne, MOT tests in Pangbourne, alternator repair and replacement in Pangbourne, Cambelt changing service in Pangbourne, head gasket repair in  Pangbourne'
       },
       {
         property: "og:title", 
-        content: "Henley-On-Thames | ManyAutos LTD"
+        content: "Pangbourne | ManyAutos LTD"
       },
       {
         property: "og:type", 
@@ -261,7 +261,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "We repair and Service all makes and models off vehicle in Henley-On-Thames, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Henley-On-Thames."
+        content: "We repair and Service all makes and models off vehicle in Pangbourne, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Pangbourne."
       },
       {
         name: "twitter:card", 
@@ -269,11 +269,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Henley-On-Thames | ManyAutos LTD"
+        content: "Pangbourne | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and Service all makes and models off vehicle in Henley-On-Thames, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Henley-On-Thames."
+        content: "We repair and Service all makes and models off vehicle in Pangbourne, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Pangbourne."
       },
       {
         name: "twitter:image", 
