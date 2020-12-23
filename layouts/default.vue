@@ -8,12 +8,15 @@
     <client-only>
       <mini-cart></mini-cart>
     </client-only>
+
+    <default-footer></default-footer>
   </v-app>
 </template>
 
 <script>
 import Navbar from './include/navbar';
 import MiniCart from '~/components/func-components/mini-cart';
+import DefaultFooter from './include/default-footer.vue';
 
 export default {
   name: 'default',
@@ -21,6 +24,7 @@ export default {
   components: {
     Navbar,
     MiniCart,
+    DefaultFooter,
   },
   data () {
     return {

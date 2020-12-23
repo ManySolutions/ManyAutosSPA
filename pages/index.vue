@@ -130,7 +130,6 @@
       <car-reg-form></car-reg-form>
       <index-reviews></index-reviews>
       <index-faq></index-faq>
-      <index-footer></index-footer>
     </v-row>
   </v-container>
 </template>
@@ -144,7 +143,6 @@ import IndexCarParts from '~/pages/__components/index-car-parts.vue';
 import { getVehicleDetails } from '~/api/vehicle';
 import IndexReviews from '~/pages/__components/index-reviews.vue';
 import IndexFaq from '~/pages/__components/index-faq.vue';
-import IndexFooter from '~/pages/__components/index-footer.vue';
 import IndexActiveCar from './__components/index-active-car.vue';
 import CarRegForm from '~/components/func-components/car-reg-form.vue';
 
@@ -156,7 +154,6 @@ export default {
     IndexCarParts,
     IndexReviews,
     IndexFaq,
-    IndexFooter,
     IndexActiveCar,
     CarRegForm,
   },
