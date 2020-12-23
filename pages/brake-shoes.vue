@@ -151,9 +151,7 @@
               </v-expansion-panel-content>
             </v-expansion-panel>
           </v-expansion-panels>
-
         </section>
-
       </div>
     </div>
   </page-layout>

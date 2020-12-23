@@ -9,47 +9,50 @@
               <div class="row">
                 <div class="col-sm-4">
                   <h5 class="starts-from position-relative same-icon">
-                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon> Non Drivable
-                    Vehicle
-                    Collection from <br> £40.00
+                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon> Anti Roll Bar
+                    Link
+                    From<br> £19.99
                   </h5>
                 </div>
                 <div class="col-sm-4">
                   <h5 class="starts-from position-relative same-icon">
-                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon>Collection Free
-                    if
-                    drivable
+                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon> Suspension
+                    Arms
+                    From<br> £57.99
                   </h5>
                 </div>
                 <div class="col-sm-4">
                   <h5 class="starts-from position-relative same-icon">
-                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon>Drop off at
-                    your
-                    convenience
+                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon> Shock
+                    Absorbers
+                    From<br> £57.99
                   </h5>
                 </div>
-                <div class="entry-content">
-                  <p>
-                    Our technicians are ready to vary the ride height of your automobile by lowering the suspension
-                    exploitation one among the kits accessible from the sports and performance market. We're happy to
-                    provide components.
-                  </p>
-                  <p>
-                    The suspension has the following benefits:
-                    <br>
-                    1) Looks - The lowered look is great
-                    <br>
-                    2) Lowering the centre of gravity of the vehicle improves the handling
-                  </p>
-                  <p>
-                    Call us today on <a href="tel:01189876300" class="Bold"> 01189 876300</a>or visit our garage in the
-                    UK and leave your suspension issues in our hands. Many Autos trained technicians are specialists in
-                    car suspension repair.
-                  </p>
-                </div>
+
+              </div>
+              <div class="clearfix"></div>
+              <div class="entry-content mt-12">
+                <p>
+                  Our technicians are ready to vary the ride height of your automobile by lowering the suspension
+                  exploitation one among the kits accessible from the sports and performance market. We're happy to
+                  provide components.
+                </p>
+                <p>
+                  The suspension has the following benefits:
+                  <br>
+                  1) Looks - The lowered look is great
+                  <br>
+                  2) Lowering the centre of gravity of the vehicle improves the handling
+                </p>
+                <p>
+                  Call us today on <a href="tel:01189876300" class="Bold"> 01189 876300</a>or visit our garage
+                  in the UK and leave your suspension issues in our hands. Many Autos trained technicians are
+                  specialists in car suspension repair.
+                </p>
               </div>
             </article>
           </div>
+          <div class="clearfix"></div>
         </div>
       </div>
     </div>

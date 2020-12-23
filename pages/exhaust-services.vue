@@ -25,7 +25,7 @@
                   <h5 class="starts-from position-relative same-icon">
                     <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon>Exhaust Flexi
                     Pipe
-                    From <br> £39.99
+                    From £39.99
                   </h5>
                 </div>
 

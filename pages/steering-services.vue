@@ -9,23 +9,20 @@
               <div class="row">
                 <div class="col-sm-4">
                   <h5 class="starts-from position-relative same-icon">
-                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon> Non Drivable
-                    Vehicle
-                    Collection from <br> £40.00
+                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon> Steering Fluid
+                    from <br> £48.99
                   </h5>
                 </div>
                 <div class="col-sm-4">
                   <h5 class="starts-from position-relative same-icon">
-                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon>Collection Free
-                    if
-                    drivable
+                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon>Steering Racks
+                  from £149.99
                   </h5>
                 </div>
                 <div class="col-sm-4">
                   <h5 class="starts-from position-relative same-icon">
-                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon>Drop off at
-                    your
-                    convenience
+                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon>Track Rods
+                  from <br> £99.99
                   </h5>
                 </div>
               </div>
