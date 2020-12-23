@@ -5,7 +5,7 @@
         <div class="home-sec-1">
           <h1 class='text-center py-5'>
             <span class='text-lg'>We offer</span>
-            <base-text-slider
+            <!-- <base-text-slider
               :options='[
                 "MOT", 
                 "Repairs", 
@@ -13,7 +13,7 @@
                 "Full Service", 
                 "Diagnostic"
               ]'
-            ></base-text-slider>
+            ></base-text-slider> -->
             <small class='text-sm'>
               for your car maintenance
             </small>
@@ -82,6 +82,27 @@
               </span>
             </v-card-actions>
           </v-card>
+
+          <v-row class="top-h-icons">
+            <v-col cols='12' class="top-hi">
+              <span class=''>
+                <v-icon>mdi-tow-truck</v-icon>
+                FREE COLLECTION AND DELIVERY
+              </span>
+            </v-col>
+            <v-col cols='12' class="top-hi">
+              <span class=''>
+                <v-icon>mdi-quality-high</v-icon>
+                TRUSTED HIGH QUALITY GARAGES
+              </span>
+            </v-col>
+            <v-col cols='12' class="top-hi">
+              <span class=''>
+                <v-icon>mdi-security</v-icon>
+                12 MONTH WARRANTY AND GUARANTEE
+              </span>
+            </v-col>
+          </v-row>
         </div>
       </v-col>
     </v-row>
@@ -221,7 +242,7 @@ export default {
   color: white;
 }
 .home-top {
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   background: url('~static/imgs/88246.png')  center bottom;
   background-size: cover;
   position: relative;
@@ -239,5 +260,23 @@ export default {
 .home-sec-2 {
   background-size: cover;
   background-position: center;
+}
+
+.top-h-icons {
+  padding-top: 30px;
+}
+.top-hi {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.top-hi span {
+  font-size: 12px;
+  display: block;
+  max-width: 280px;
+  margin: 0px auto;
+}
+.top-hi span i {
+  margin-right: 10px;
+  font-size: 20px;
 }
 </style>

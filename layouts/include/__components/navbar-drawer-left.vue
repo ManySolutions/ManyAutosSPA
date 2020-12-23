@@ -144,7 +144,6 @@ export default {
 <style lang="scss" scoped>
 .main-menu {
   transition-duration: .3s;
-  transition-delay: .4s;
   width: 100%;
   &.hide-main-menu {
     transition-duration: .4s;
@@ -163,7 +162,7 @@ export default {
     display: block;
     opacity: 1;
     transition-duration: .6s;
-    transition-delay: .5s;
+    transition-delay: .2s;
     z-index: 1;
     transform: scale(1);
   }

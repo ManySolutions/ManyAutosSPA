@@ -15,10 +15,11 @@
           overlap
           :content="cartCount"
           :value="cartCount"
-          offset-x="0"
-          offset-y="0"
+          offset-x="-10"
+          offset-y="-10"
         >
-          <v-icon>mdi-cart</v-icon>
+          <v-icon class='arrow-anim arrow-slide-up'>mdi-cart</v-icon>
+          <v-icon class='arrow-anim-next arrow-slide-down'>mdi-arrow-right</v-icon>
         </v-badge>
       </v-btn>
 
@@ -161,6 +162,7 @@
 </template>
 
 <script>
+import $ from 'jquery';
 import { mapState, mapGetters, mapActions } from 'vuex';
 import { getCartInstance } from '~/api/cart';
 
@@ -185,7 +187,10 @@ export default {
         price: '134.00'
       },
     ],
-    currencySymbol: process.env.CURRENCY_SYMBOL
+    currencySymbol: process.env.CURRENCY_SYMBOL,
+    switchIcon: 10000,
+    beforeCartSize: 0,
+    showNextIco: false,
   }),
 
   computed: {
@@ -209,10 +214,34 @@ export default {
       if (isCartEmpty) {
         this.drawer = false;
       }
+    },
+
+    cart(cart) {
+      if (cart.length > this.beforeCartSize) {
+        this.showNextIco = true;
+      }
+    },
+
+    showNextIco(showNextIco) {
+      if (showNextIco) {
+        $('.arrow-anim').removeClass('arrow-slide-up').addClass('arrow-slide-down');
+        $('.arrow-anim-next').removeClass('arrow-slide-down').addClass('arrow-slide-up');
+        
+        this.switchIcon = 5000;
+      } else {
+        $('.arrow-anim').removeClass('arrow-slide-down').addClass('arrow-slide-up');
+        $('.arrow-anim-next').removeClass('arrow-slide-up').addClass('arrow-slide-down');
+
+        this.switchIcon = 10000;
+      }
     }
   },
 
   mounted() {
+    setInterval(() => {
+      console.log('in interval', this.showNextIco, this.switchIcon);
+      this.showNextIco = !this.showNextIco
+    }, this.switchIcon);
   },
 
   methods: {
@@ -248,5 +277,24 @@ export default {
   &::v-deep .v-skeleton-loader__button {
     margin-left: 20px;
   }
+}
+i.arrow-slide-up {
+  opacity: 1;
+  transition-duration: .3s;
+  transition-delay: .2s;
+  font-size: 24px;
+}
+i.arrow-slide-up, i.arrow-slide-down {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+i.arrow-slide-down {
+  opacity: 0;
+  transition-duration: .3s;
+}
+i.arrow-anim {
+  font-size: 0px;
 }
 </style>
