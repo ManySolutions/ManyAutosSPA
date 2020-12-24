@@ -75,34 +75,4 @@
   </v-container>
 </template>
 <style lang="scss" scoped>
-.heading-title-bar::after {
-    content: "";
-    background: #CAF0F8;
-    position: absolute;
-    height: 3px;
-    width: 70px;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.heading-title-bar{
-    padding-bottom: 10px;
-}
-
-.card-header{
-    background-color:#2d97ad;
-    color: #ffffff;
-    padding: 18px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: normal;
-}
-.card-header-body{
-    background-color: #f6f6f6;
-    padding-top: 16px;
-}
-.nuxt-link{
-    margin-top: 15px;
-    text-decoration: none;
-}
 </style>
