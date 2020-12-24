@@ -111,5 +111,7 @@ export default {
     CURRENCY_SYMBOL: '£',
     LOCAL_API_URL: 'http://manyautos.local/api/v2/c/',
     PRODUCTION_API_URL: 'https://staging-v32020.manyautos.co.uk/api/v2/c/',
+    LOCAL_ASSETS_URL: 'http://manyautos.local/assets/',
+    PRODUCTION_ASSETS_URL: 'https://staging-v32020.manyautos.co.uk/assets/',
   }
 }

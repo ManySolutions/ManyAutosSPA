@@ -2,6 +2,7 @@
   <v-container 
     fluid
     class='mb-5 review'
+    :style='`background-image: url(${assets("/customer-v2/rowen-smith.jpg")})`'
   >
     <v-row>
       <v-col cols=12 class="mt-10 mb-7">
@@ -19,6 +20,7 @@
           hide-delimiter-background
           delimiter-icon="mdi-minus"
           height="300"
+          multiple
         >
           <v-carousel-item
             v-for="(review, i) in reviews"
@@ -59,7 +61,7 @@
 <script>
 export default {
   data: () => ({
-    model: 0,
+    model: [0, 1],
     reviews: [
       {
         content: `Really happy with the service. Very professional and friendly team. 
@@ -90,8 +92,6 @@ export default {
     
 }
 .review {
-
-    background-image: url("https://manyautosltd.com/assets/customer-v2/rowen-smith.jpg");
     background-size: cover;
     background-position: center center;
     // padding-top: 60px;
