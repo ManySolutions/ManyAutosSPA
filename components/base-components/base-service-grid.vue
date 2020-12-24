@@ -9,17 +9,17 @@
         <i class="fa fa-exclamation-triangle mr-1"></i>
         Attention! MOT Expired
       </span>
-      <v-row class="mx-0 px-0 text-md-center px-md-1">
-        <v-col cols=4>
+      <v-row class="mx-0 px-0 text-lg-center">
+        <v-col cols=4 md=12>
           <img 
             :src="assets('customer-v2/icons/' + icon)" 
             :alt="title"
             class='d-inline-block'
           >
         </v-col>
-        <v-col cols=8>
+        <v-col cols=8 md=12>
           <h2 class=''>{{ title }}</h2>
-          <p class='mt-0'>
+          <p class='mt-0 rep-text'>
             <slot></slot>
           </p>
         </v-col>
@@ -30,6 +30,7 @@
         color='primary'
         large block
         :to="url || '/'"
+        class='services-btn'
       >
         <strong>
           {{ btnTitle }}
@@ -61,8 +62,8 @@ export default {
     margin-bottom: 20px;
   }
 
-  @media (min-width:768px) {
-    min-height: 365px;
+  @media (min-width:960px) {
+    min-height: 370px;
   }
 
   &.mot-expired {
@@ -72,7 +73,7 @@ export default {
     height: auto;
     width: 100%;
     max-width: 70px;
-    @media (min-width: 768px) {
+    @media (min-width: 960px) {
       height: 100%;
       width: auto;
       max-height: 70px;
@@ -103,6 +104,11 @@ export default {
     font-weight: 700;
     border-radius: 4px;
     font-size: 12px;
+  }
+  @media (min-width: 960px) {
+    .rep-text {
+      min-height: 110px;
+    }
   }
 }
 </style>

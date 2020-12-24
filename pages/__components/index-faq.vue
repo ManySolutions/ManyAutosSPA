@@ -1,10 +1,10 @@
 <template>
   <v-container
-    class='mb-10'
+    class='home-sec-gaps home-r-in'
   >
     <v-row justify="center">
       <v-col cols=12 class="">
-        <h1 class="heading-title heading-title-bar text-center">
+        <h1 class="heading__title heading__title-bar text-center">
           <span class="font-weight-bold">FAQ</span>
         </h1>
       </v-col>
@@ -75,4 +75,27 @@
   </v-container>
 </template>
 <style lang="scss" scoped>
+.card-header{
+    background-color:#2d97ad;
+    color: #ffffff;
+    padding: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+}
+.card-header-body{
+    background-color: #f6f6f6;
+    padding-top: 16px;
+}
+
+@media (min-width: 960px) {
+  .home-r-in {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heading__title {
+    margin-bottom: 60px;
+  }
+}
 </style>

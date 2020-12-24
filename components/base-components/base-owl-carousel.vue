@@ -39,8 +39,8 @@ export default {
       $(".owl-carousel").owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
-        dot: true,
+        nav:false,
+        dots: false,
         autoheight: true,
         responsive:{
             0:{
