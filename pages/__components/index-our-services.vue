@@ -1,17 +1,16 @@
 <template>
   <v-container 
-    fluid
     class='home-sec-gaps'
   >
     <v-row>
-      <v-col cols=12 class="text-center mt-10 mb-7 pb-lg-5">
+      <v-col cols=12 class="text-center mb-7 pb-lg-5">
         <h1 class='heading__title heading__title--bar' style="font-weight:lighter">
           Our <span class='font-weight-bold'>Services</span>
         </h1>
       </v-col>
     </v-row>
-    <v-row>
-      <v-col cols=12>
+    <v-row justify="center">
+      <v-col cols=12 lg=6 xl='4' order-lg=2>
         <img 
           :src="assets('/customer-v2/011.png')" 
           alt="Our Services at ManyAutos LTD"
@@ -19,7 +18,7 @@
         >
       </v-col>
 
-      <v-col cols=12 md=4>
+      <v-col cols=12 lg=3 order-lg=1>
         <div class="media text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end justify-content-lg-end text-center">
@@ -45,7 +44,7 @@
         </div>
       </v-col>
 
-      <v-col cols=12 class="pt-0">
+      <v-col cols=12 lg=3 order-lg=3 class="pt-0">
         <div class="media text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end text-center">
@@ -81,8 +80,7 @@
     padding-bottom: 10px;
 }
 .home-our-service img {
-
-        margin: 50px auto;
+  margin: 50px auto;
 }
 .media .media-body h6 {
     color: #06182d;
@@ -98,7 +96,12 @@
     }
 }
 .media-body {
-
     margin-bottom: 60px;
+}
+
+@media (min-width: 960px) {
+  .heading__title {
+    margin-bottom: 60px;
+  }
 }
 </style>
