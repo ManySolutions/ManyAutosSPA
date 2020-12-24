@@ -129,6 +129,10 @@ export default {
     -webkit-transform: translateY(60px);
     -ms-transform: translateY(60px);
     transform: translateY(60px);
+    
+    @media (min-width: 960px) {
+      font-size: 45px;
+    }
   }
 
   & ::v-deep .slide-in {

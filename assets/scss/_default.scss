@@ -26,8 +26,12 @@ p {
 }
 
 .home-sec-gaps {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  @media (min-width: 960px) {
+    margin-top: 110px;
+    margin-bottom: 110px;
+  }
 }
 .home-sec-between-gaps {
   padding-top: 30px;

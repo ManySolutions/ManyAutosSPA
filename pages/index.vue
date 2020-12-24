@@ -5,7 +5,7 @@
         <div class="home-sec-1">
           <h1 class='text-center py-5'>
             <span class='text-lg'>We offer</span>
-            <!-- <base-text-slider
+            <base-text-slider
               :options='[
                 "MOT", 
                 "Repairs", 
@@ -13,93 +13,37 @@
                 "Full Service", 
                 "Diagnostic"
               ]'
-            ></base-text-slider> -->
+            ></base-text-slider>
             <small class='text-sm'>
               for your car maintenance
             </small>
           </h1>
 
-          <v-card
-            class='reg-card'
-          >
-            <v-card-title
-              class='text-center'
-            >
-              <strong>Book with us now</strong>
-            </v-card-title>
-            <v-card-text>
-              <v-form @submit.prevent="handleSubmit()">
-                <v-text-field
-                  label="Your car reg i.e LB51TVW"
-                  outlined
-                  hide-details
-                  class='mb-2'
-                  v-model='reg'
-                ></v-text-field>
-                <small v-if='error' class='red--text'>
-                  {{ errorMessage }}
-                  please try using 
-                  <NuxtLink to="/">Manual Search</NuxtLink>
-                </small>
-                <v-btn
-                  color='primary'
-                  block
-                  large
-                  type='submit'
-                  :loading='isLoading'
-                >
-                  Get instant quote
-                </v-btn>
-                <client-only>
-                  <index-active-car>
-                  </index-active-car>
-                </client-only>
-              </v-form>
-            </v-card-text>
-            <v-card-actions
-              class='px-4'
-            >
-              <v-spacer></v-spacer>
-              <span class='text-center'>
-                or call us to book
-                <v-btn
-                  text
-                  color='primary'
-                  class='py-0 px-0'
-                  style='height: auto'
-                  href='tel:01189876300'
-                >
-                  <v-icon 
-                    dark 
-                    class='mr-1'
-                  >
-                    mdi-cellphone-basic
-                  </v-icon>
-                  <span class="text-large">
-                    01189 876300
-                  </span>
-                </v-btn>
-              </span>
-            </v-card-actions>
-          </v-card>
+          <car-reg-form-card></car-reg-form-card>
 
           <v-row class="top-h-icons">
-            <v-col cols='12' class="top-hi">
-              <span class=''>
+            <v-col cols='4' class="top-hi">
+              <span class='d-block'>
                 <v-icon>mdi-tow-truck</v-icon>
-                FREE COLLECTION AND DELIVERY
+                <span>
+                  FREE COLLECTION AND DELIVERY
+                </span>
               </span>
             </v-col>
-            <v-col cols='12' class="top-hi">
-              <span class=''>
+            <v-col cols='4' class="top-hi">
+              <span class='d-block'>
                 <v-icon>mdi-quality-high</v-icon>
-                TRUSTED HIGH QUALITY GARAGES
+                <span>
+                  TRUSTED HIGH QUALITY GARAGES
+                </span>
               </span>
             </v-col>
-            <v-col cols='12' class="top-hi">
-              <span class=''>
+            <v-col cols='4' class="top-hi">
+              <span class='d-block'>
                 <v-icon>mdi-security</v-icon>
-                12 MONTH WARRANTY AND GUARANTEE
+                <span>
+                  12 MONTH WARRANTY AND GUARANTEE
+                </span>
               </span>
             </v-col>
           </v-row>
@@ -140,11 +84,10 @@ import BaseTextSlider from '~/components/base-components/base-text-slider.vue';
 import IndexHowItWorks from '~/pages/__components/index-how-it-works.vue';
 import IndexOurServices from '~/pages/__components/index-our-services.vue';
 import IndexCarParts from '~/pages/__components/index-car-parts.vue';
-import { getVehicleDetails } from '~/api/vehicle';
 import IndexReviews from '~/pages/__components/index-reviews.vue';
 import IndexFaq from '~/pages/__components/index-faq.vue';
-import IndexActiveCar from './__components/index-active-car.vue';
 import CarRegForm from '~/components/func-components/car-reg-form.vue';
+import CarRegFormCard from '~/components/func-components/car-reg-form-card.vue';
 
 export default {
   components: {
@@ -154,41 +97,16 @@ export default {
     IndexCarParts,
     IndexReviews,
     IndexFaq,
-    IndexActiveCar,
     CarRegForm,
+    CarRegFormCard,
   },
 
-  data: () => ({
-    reg: '',
-    isLoading: false,
-    error: false,
-    errorMessage: null,
-  }),
+  data: () => ({ }),
 
   mounted() {
-    
   },
 
   methods: {
-    handleSubmit() {
-      this.error = false;
-      this.isLoading = true;
-
-      getVehicleDetails(this.reg)
-        .then(res => {
-          if (res.status && res.status == false) {
-            this.error = true;
-            this.errorMessage = res.message;
-          } else {
-            this.$store.commit('booking/REGISTER_VEHICLE', {
-              vehicle: res.vehicle,
-              modelId: res.vehicle.Model_ID
-            });
-
-            this.$router.push('/booking/create/services');
-          }
-        }).finally(() => this.isLoading = false);
-    }
   }
 }
 </script>
@@ -196,21 +114,22 @@ export default {
 <style lang="scss" scoped>
 .text-lg {
   font-size: 34px;
-  // text-transform: uppercase;
   letter-spacing: 1px;
+  @media (min-width: 960px) {
+    font-size: 44px;
+  }
 }
 .text-sm {
   font-weight: 400;
   font-size: 18px;
-  // text-transform: uppercase;
   max-width: 90%;
   display: block;
   margin: auto;
   text-align: center;
-}
-.reg-card {
-  width: 90%;
-  margin: auto;
+  @media (min-width: 960px) {
+    margin-top: 10px;
+    font-size: 22px;
+  }
 }
 .has-bg-overlay {
   position: relative;
@@ -240,7 +159,7 @@ export default {
 }
 .home-top {
   padding-bottom: 20px;
-  background: url('~static/imgs/88246.png')  center bottom;
+  background: url('~static/imgs/88246.png')  top center;
   background-size: cover;
   position: relative;
   &:before {
@@ -249,10 +168,18 @@ export default {
     width: 100%;
     height: 100%;
     background: rgb(255 255 255 / 59%);
+    top: 0;
   }
   & > * {
     z-index: 1;
   }
+  @media (min-width: 960px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.home-sec-1 {
+  padding-bottom: 30px;
 }
 .home-sec-2 {
   background-size: cover;
@@ -261,19 +188,35 @@ export default {
 
 .top-h-icons {
   padding-top: 30px;
-}
-.top-hi {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.top-hi span {
-  font-size: 12px;
-  display: block;
-  max-width: 280px;
+  max-width: 500px;
   margin: 0px auto;
+  .top-hi {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    &:not(:last-child):after {
+      content: "";
+      position: absolute;
+      right: 0;
+      height: 70%;
+      width: 1px;
+      background: #3636361a;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    span {
+      font-size: 12px;
+      display: block;
+      max-width: 280px;
+      margin: 0px auto;
+    }
+    span i {
+      margin-bottom: 20px;
+      font-size: 31px;
+    }
+  }
 }
-.top-hi span i {
-  margin-right: 10px;
-  font-size: 20px;
-}
+
+
 </style>

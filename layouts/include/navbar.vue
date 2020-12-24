@@ -145,6 +145,7 @@ export default {
 .logo {
   max-width: 100%;
   max-height: 37px;
+  cursor: pointer;
 }
 .instagram {
   background: #f09433; 

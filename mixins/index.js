@@ -1,11 +1,14 @@
+import $ from 'jquery';
 import { mapState, mapGetters } from 'vuex';
+import { isSmallDevice } from '~/utils/helpers';
 import http from '~/utils/http';
 
 export default {
   data: () => ({
     assetsURL: 'https://manyautosltd.com/assets/',
     appTitle: 'Many Autos LTD',
-    currencySymbol: process.env.CURRENCY_SYMBOL
+    currencySymbol: process.env.CURRENCY_SYMBOL,
+    isMinDevice: false,
   }),
 
   computed: {
@@ -24,7 +27,7 @@ export default {
       });
 
       return http;
-    }
+    },
   },
 
   watch: {
@@ -34,5 +37,13 @@ export default {
     assets(url) {
       return this.assetsURL + url;
     },
-  }
+  },
+
+  mounted() {
+    this.isMinDevice = isSmallDevice();
+
+    $(window).resize(() => {
+      this.isMinDevice = isSmallDevice();
+    });
+  },
 }

@@ -34,7 +34,7 @@
               type='submit'
               :loading='isLoading'
             >
-              Fix
+              {{ isMinDevice ? 'Fix' : 'Get instant quote' }}
             </v-btn>
           </v-col>
           <v-col
@@ -119,6 +119,16 @@ export default {
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
+  
+  @media (min-width: 600px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  form {
+    max-width: 500px;
+    margin: 0px auto;
+  }
 
   &.reg-bg-image {
     background-position: center;

@@ -1,7 +1,7 @@
 <template>
   <v-container 
     fluid
-    class='mb-5'
+    class='home-sec-gaps'
   >
     <v-row>
       <v-col cols=12 class="text-center mt-10 mb-7 pb-lg-5">
@@ -19,7 +19,7 @@
         >
       </v-col>
 
-      <v-col cols=12>
+      <v-col cols=12 md=4>
         <div class="media text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end justify-content-lg-end text-center">

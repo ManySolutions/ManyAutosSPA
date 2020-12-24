@@ -13,6 +13,7 @@
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
+    "mobile-device-detect": "^0.4.3",
     "nuxt": "^2.14.6",
     "run": "^1.4.0",
     "toastr": "^2.1.4",

@@ -3,7 +3,7 @@
     <slot name='before'></slot>
     
     <v-btn
-      color='secondary'
+      color='primary'
       class='text-capitalize mt-1'
       :to='{name: "booking-create"}'
       :dense='dense'
