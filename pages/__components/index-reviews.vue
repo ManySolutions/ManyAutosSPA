@@ -20,7 +20,6 @@
           hide-delimiter-background
           delimiter-icon="mdi-minus"
           height="300"
-          multiple
         >
           <v-carousel-item
             v-for="(review, i) in reviews"
@@ -61,7 +60,7 @@
 <script>
 export default {
   data: () => ({
-    model: [0, 1],
+    model: 0,
     reviews: [
       {
         content: `Really happy with the service. Very professional and friendly team. 

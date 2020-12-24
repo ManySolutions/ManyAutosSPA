@@ -36,8 +36,9 @@ export default {
     assets(url) {
       let baseURL = process.env.LOCAL_ASSETS_URL;
 
-      if (process.client && window.location.hostname != 'localhost') {
-        baseURL = process.env.PRODUCTION_ASSETS_URL
+      if (process.client) {
+        if ( window.location.hostname != 'localhost' )
+          baseURL = process.env.PRODUCTION_ASSETS_URL
       }
 
       return baseURL + url;
