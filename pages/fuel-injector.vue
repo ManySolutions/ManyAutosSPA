@@ -1,128 +1,122 @@
 <template>
-  <page-layout title='Brake Shoes' heading-bg='customer-v2/static-pages/allpics/brakeshoes1.jpg'>
+  <page-layout title='Injectors, Free Collection & Delivery'
+    heading-bg='customer-v2/static-pages/allpics/fuelinjector1.jpg'>
     <div class="container">
       <div class="row">
         <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
           <div class="row">
-            <div class="col-12">
-              <p class="text-teal text-18 justify">A worn or damaged brake shoe is a safety risk to yourself and other
-                road users, and should be replaced every 50,000 miles. The job of the brake shoe is to produce the
-                friction needed to slow and stop the car. It consists of a curved surface of steel covered on one side
-                with an abrasive lining material. Brake shoes are to drum brakes what brake pads are to disc brakes.
-                Disc brake systems can cope with higher temperatures than drum brake systems, but brake shoes are
-                cheaper than brake pads. While brake pads can be bought with a choice of friction materials to suit
-                different driving habits, brake shoes use a generic material and will perish more quickly if you are
-                prone to excessive or hard braking. It’s advisable to replace your brake shoes in sets to ensure even
-                wear.</p>
-            </div>
           </div>
           <v-expansion-panels popout>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Brake Shoes Replacement
+                What does Fuel Injectors do?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                A brake shoe is the part of a braking system which carries the brake lining in the drum brakes used on
-                vehicles.
+                The fuel injectors are part of the fuel supply system of the engine (provided it is a petrol engine),
+                they usually inject the fuel directly into the cylinders, but in some cars the injectors are situated in
+                the inlet manifold. The injectors diffuse the fuel, which then mixes with the air being let into the
+                engine by the inlet valves and, in turn, the spark plugs will ignite the mixture to combust.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Brake Shoes
+                When should you consider a fuel injector replacement?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Brake shoes are used in drum brake systems, with the lined shoe pressing against the inside of the drum
-                to stop it moving. The drum is attached to the wheel, making it a pretty clever way of getting the car
-                to stop. Brakes are something which can't be neglected - they're by far the least painful way of
-                stopping from speed, so you need to make sure they're kept in good working order. We're here to help
-                make the process of getting replacement parts easy, with a wide choice of brake shoes and drum brakes
-                for a wide selection of car makes and models.
+                Over time, the fuel injectors can be affected by dirty fuel which will mean that the injectors can clog
+                up in turn the injectors will not be able to diffuse the fuel optimally. In most cases it means that the
+                fuel lines or fuel tank have started to corrode. Alternatively, it can be that the fuel filter has
+                become ineffective, not filtering out debris as it should. All of this leads to engine misfires and
+                therefore an engine that does not run smoothly. Should you experience problems with the fuel supply,
+                then it is advisable to have the fuel supply system and the fuel injectors inspected and, if necessary,
+                have the fuel injectors replaced. Seeing that the fuel injectors are especially prone to deterioration
+                over time they should always be replaced as and when stipulated in the guidelines set out by your car's
+                manufacturer.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                What does a Brake shoe do?
+                How can you tell if you got a bad fuel injector?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                If your car has brake drums (usually older cars have drums at the rear), it will have brake shoes which
-                are situated inside the drum. The brake shoes will press against the inside of the drums when braking,
-                causing friction and eventually slowing the car down.
+                Since these are a part of the fuel system, it's important to watch for these symptoms to determine if
+                the fuel injector is bad or failing. 1 Engine Performance Issues. 2 Check Engine Light Comes On. 3
+                Vehicle Won't Start or Struggles When Starting. 4 Vehicle Misfires. 5 Poor Idle. 6 Engine doesn't Reach
+                Its full RPM. 7 Smell of Fuel.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                How do you know there is something wrong with a Brake Shoe?
+                What causes fuel injectors to go bad?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">When the hand brake does not work properly. When there is a
-                  squeaking noise coming from a corner of the car (provided that wheel has a drum brake.</p>
+                <p class="text-teal text-18 justify">Diagnosing a clogged injector is not always easy because it acts
+                  the same as a broken spark plug wire or a bad spark plug. One or more cylinders are not firing. Old
+                  fuel, carbon and residue inside the fuel cause fuel injectors and or their filter baskets to become
+                  clogged.</p>
                 <ul class="list mt-2 mb-2">
-                  <li>When the car pulls to the right or left under braking. </li>
-                  <li>When the car becomes unstable under braking.</li>
-                  <li>When the 'brake warning' light is on.</li>
-                  <li>Service Engine Light.</li>
+                  <li>How do you know there is something wrong with a Fuel Injector?</li>
+                  <li>The engine runs rough, with abrupt power peaks.</li>
+                  <li>There are wet patches around the injectors on the outside of the engine.</li>
+                  <li>The 'Check Engine' light on the car's dashboard is on.</li>
+                  <li>The car doesn't perform as well as usual under acceleration.</li>
+                  <li>There is a strong smell of fuel in the engine bay.</li>
+                  <li>The car's fuel consumption is higher than usual.</li>
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                When should you consider replacing a Brake Shoe?
+                What happens when an injector goes bad?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Over time, the brake shoes can wear out due to the friction that it has to endure each time you brake.
-                Brake shoes can wear to such an extent that the rivets holding the friction plate to the rest of the
-                shoe can get exposed. Each time you brake in this scenario the rivets can potentially score the contact
-                surface inside the drum. Thus, damaging the brake drum as well, which in that case would have to be
-                replaced too to ensure effective braking. Servicing the brake shoes is therefore key to ensure a long
-                lifespan for the brakes. Always service the brakes as and when stipulated in the guidelines set out by
-                your car's manufacturer. In cases that the brake shoes are damaged or have worn out prematurely it is
-                important you have the shoes (and the brake drums) inspected and, if necessary, replaced as soon as
-                possible.
+                One of the most common symptoms of faulty fuel injectors is an extremely violent or rough engine idle.
+                If fuel is not properly provided to the engine cylinder, it will result in a choppy engine, when the car
+                is in idle. Fuel injector can crack or break, which will cause a gas leak.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Are brake pads and shoes the same thing?
+                Can dirty fuel injectors cause check engine light?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                The main difference between the two different types of brake pads and shoes is their position in the
-                vehicle. The brake shoes are designed to fit inside your drum-style brakes, while brake shoes are placed
-                on top of disk brakes, and serve to pressurize these discs when you apply the brakes.
+                The fuel injectors can become clogged with dirt and oil, which means the fuel isn't getting to the
+                engine properly. If it's faulty, you will probably be getting bad fuel mileage, or you'll notice it's
+                hard for the car to pick up speed. A faulty sensor will also make the Check Engine light turn on.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do I need brake shoes or pads?
+                Can a bad fuel injector cause your car not to start?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                When using drum brakes, you need to have a rear or four-wheel drive if you have front wheel drive cars,
-                then you'll typically need to have brake pads disc than shoes. If you have drum brakes then you can't
-                use brake pads, nor can you use brake shoes with disc brakes.
+                A faulty fuel injector can cause the vehicle to experience misfires, a loss in power and acceleration, a
+                reduction in fuel efficiency, and in severe cases can cause stalling or prevent the engine from running
+                at all.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Are brake shoes sold in pairs?
+                How often should you replace fuel injectors?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                All the pads I've ever bought are sold in sets four pads or shoes for front or rear. Brake pads are not
-                sold in pairs they are sold in sets of 4 pads enough to do 1 axle. Disc (and drums) are sold per each as
-                it may not be necessary to replace both.
+                We recommend cleaning fuel injectors at least every 36 months or 45,000 miles.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                What are brake shoes for?
+                Why does my car hesitate when I step on gas?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                When the brake is applied, the shoe moves and presses the lining against the inside of the drum. The
-                friction between lining and drum provides the braking effort. Energy is dissipated as heat. Modern cars
-                have disc brakes all round, or discs at the front and drums at the rear.
+                Sometimes, the worst part of getting your car fixed is having to bring it to the garage We are therefore
+                happy to offer our customers a collection and delivery service If you prearrange a collection, we will
+                pick your car up from your home or place of work and drive it to our premises, carry out all the
+                necessary work (having consulted you) and deliver it back to you at the end of the day.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Brake shoes Replacement Free Collection and Delivery
+                Fuel Injector Replacement Free Collection and Delivery
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
@@ -151,7 +145,9 @@
               </v-expansion-panel-content>
             </v-expansion-panel>
           </v-expansion-panels>
+
         </section>
+
       </div>
     </div>
   </page-layout>
@@ -168,20 +164,20 @@ export default {
   },
 
   head: {
-    title: 'Brake Shoes',
+    title: 'Injectors, Free Collection & Delivery',
 
     meta: [
       {
         name: 'description', 
-        content: 'We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'We repair and replace Injectors for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
-        content: 'brake shoes, rear brake shoes, handbrake brake shoes, handbrake, new brake shoes, brake shoes repair, brake shoes replace, brake shoes replacement'
+        content: 'injectors, fuel injector, new injectors, injectors repair, injectors replace, injectors replacement, injectors in reading, fuel injector in reading, new injectors in reading, injectors repair in reading, injectors replace in reading, injectors replacement in reading'
       },
       {
         property: "og:title", 
-        content: "Brake Shoes | ManyAutos LTD"
+        content: "Injectors, Free Collection & Delivery | ManyAutos LTD"
       },
       {
         property: "og:type", 
@@ -201,7 +197,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Injectors for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -209,11 +205,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Shoes | ManyAutos LTD"
+        content: "Injectors, Free Collection & Delivery | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Injectors for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 

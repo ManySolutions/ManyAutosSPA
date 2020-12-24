@@ -1,128 +1,92 @@
 <template>
-  <page-layout title='Brake Shoes' heading-bg='customer-v2/static-pages/allpics/brakeshoes1.jpg'>
-    <div class="container">
+  <page-layout
+    title='Glow Plug'
+    heading-bg='customer-v2/static-pages/allpics/glowplug1.jpg'
+  >
+        <div class="container">
       <div class="row">
         <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
           <div class="row">
             <div class="col-12">
-              <p class="text-teal text-18 justify">A worn or damaged brake shoe is a safety risk to yourself and other
-                road users, and should be replaced every 50,000 miles. The job of the brake shoe is to produce the
-                friction needed to slow and stop the car. It consists of a curved surface of steel covered on one side
-                with an abrasive lining material. Brake shoes are to drum brakes what brake pads are to disc brakes.
-                Disc brake systems can cope with higher temperatures than drum brake systems, but brake shoes are
-                cheaper than brake pads. While brake pads can be bought with a choice of friction materials to suit
-                different driving habits, brake shoes use a generic material and will perish more quickly if you are
-                prone to excessive or hard braking. It’s advisable to replace your brake shoes in sets to ensure even
-                wear.</p>
+              <p class="text-teal text-18 justify">Glow plugs are standard fare in diesel engines and are designed to act like small electric heaters. They glow and emit heat in the combustion chamber, warming the engine block and helping the engine to start within a few seconds. Also known as diesel spark plugs, a glow plug takes the place of spark plugs which are only used in petrol engines. This is because diesel combusts in hot high-pressure air rather than under a spark. If you're after new glow plugs for your diesel vehicle, we've got everything you need. Speak to a member of our team who'll be able to point you in the right direction. Glow plugs look very similar to spark plugs, but a glow plug functions by adding additional energy to heat and start a diesel engine. Unlike petrol engines, which use a spark to ignite the fuel mixture, diesel engines rely solely on cylinder pressures to ignite the diesel fuel mixture. If there are problems with your glow plugs, it is important to get them replaced as it will affect how your vehicle starts. On cold wintery mornings, fully functioning glow plugs are essential for a successful ignition. In case your glow plugs fail, and you get stuck in the cold with an engine that will not start.</p>
             </div>
           </div>
           <v-expansion-panels popout>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Brake Shoes Replacement
+                How do you know there is something wrong with the glow plugs?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                A brake shoe is the part of a braking system which carries the brake lining in the drum brakes used on
-                vehicles.
+                Glow plugs start your car and remain hot to keep the engine working. A problem with the glow plugs will usually mean you can't start your vehicle, or the engine is less efficient. This depends on the number of cylinders affected, but you will notice a loss in miles per gallon and higher emissions.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Brake Shoes
+               When should you consider a glow plugs replacement?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Brake shoes are used in drum brake systems, with the lined shoe pressing against the inside of the drum
-                to stop it moving. The drum is attached to the wheel, making it a pretty clever way of getting the car
-                to stop. Brakes are something which can't be neglected - they're by far the least painful way of
-                stopping from speed, so you need to make sure they're kept in good working order. We're here to help
-                make the process of getting replacement parts easy, with a wide choice of brake shoes and drum brakes
-                for a wide selection of car makes and models.
+                Glow plugs, like spark plugs, should be maintained according to the manufacturer recommended service schedule. This will mean that the glow plugs are usually replaced every few years, and it will help keep the rest of your vehicle running just as smoothly.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                What does a Brake shoe do?
+                What are the symptoms of bad glow plugs?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                If your car has brake drums (usually older cars have drums at the rear), it will have brake shoes which
-                are situated inside the drum. The brake shoes will press against the inside of the drums when braking,
-                causing friction and eventually slowing the car down.
+                In a nutshell, slow starting, and complete failure to start. Once the vehicle does start, missing, rough idle, hesitation, and lots of white smoke until the engine warms. If you have a four-cylinder, one glow plug bad will cause slight hard starting and a miss. Two will cause a very hard start and very rough operation.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                How do you know there is something wrong with a Brake Shoe?
+                When Do I need to change my glow plugs?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">When the hand brake does not work properly. When there is a
-                  squeaking noise coming from a corner of the car (provided that wheel has a drum brake.</p>
-                <ul class="list mt-2 mb-2">
-                  <li>When the car pulls to the right or left under braking. </li>
-                  <li>When the car becomes unstable under braking.</li>
-                  <li>When the 'brake warning' light is on.</li>
-                  <li>Service Engine Light.</li>
-                </ul>
+                The glow plugs on a diesel engine will usually last around 40,000 miles but can fail before then. The following are some of the signs that you will notice when it is time to have your glow plugs replaced. The diesel vehicle is hard to start during cold weather. There is more smoke coming from the vehicle than normal.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                When should you consider replacing a Brake Shoe?
+               What does glow plug warning light mean?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Over time, the brake shoes can wear out due to the friction that it has to endure each time you brake.
-                Brake shoes can wear to such an extent that the rivets holding the friction plate to the rest of the
-                shoe can get exposed. Each time you brake in this scenario the rivets can potentially score the contact
-                surface inside the drum. Thus, damaging the brake drum as well, which in that case would have to be
-                replaced too to ensure effective braking. Servicing the brake shoes is therefore key to ensure a long
-                lifespan for the brakes. Always service the brakes as and when stipulated in the guidelines set out by
-                your car's manufacturer. In cases that the brake shoes are damaged or have worn out prematurely it is
-                important you have the shoes (and the brake drums) inspected and, if necessary, replaced as soon as
-                possible.
+               Your diesel vehicle is equipped with glow plugs, and with a Glow Plug Light that will either come on and stay on, or flash or blink when a fault is detected by the ECU (engine management unit). When the Glow Plug Light comes on, the ECU stores information about the condition that has caused it to come on.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Are brake pads and shoes the same thing?
+                Are glow plugs only used for starting?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                The main difference between the two different types of brake pads and shoes is their position in the
-                vehicle. The brake shoes are designed to fit inside your drum-style brakes, while brake shoes are placed
-                on top of disk brakes, and serve to pressurize these discs when you apply the brakes.
+                Glow plugs in model engines differ from those in full size diesel engines. Full size engines only use the glow plug for starting. Model engines use a glow plug as an integral part of the ignition system because of the catalytic effect of the platinum wire, on the methanol base fuel they are designed to run on.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do I need brake shoes or pads?
+                Why do glow plugs fail?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                When using drum brakes, you need to have a rear or four-wheel drive if you have front wheel drive cars,
-                then you'll typically need to have brake pads disc than shoes. If you have drum brakes then you can't
-                use brake pads, nor can you use brake shoes with disc brakes.
+                Instead of using spark plugs to incite combustion, diesel engines rely on cylinder pressure and temperature to ignite the fuel mixture. Usually a bad or failing glow plug will produce a few symptoms that can alert the driver of a potential issue.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Are brake shoes sold in pairs?
+                How long to let glow plugs warm up?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                All the pads I've ever bought are sold in sets four pads or shoes for front or rear. Brake pads are not
-                sold in pairs they are sold in sets of 4 pads enough to do 1 axle. Disc (and drums) are sold per each as
-                it may not be necessary to replace both.
+                Heating the glow plugs takes up to 15 seconds. The "wait to start" light won't go out until the glow plugs are ready. During cold weather, the glow plugs will take longer to heat. Check the glow plugs or intake heater before the cold weather season to ensure your car will start during cold days. Can glow plugs affect performance? Engine misfires or decrease in power and acceleration. If the glow plugs malfunction they will not provide the additional heat that aids in diesel combustion, which may cause the engine to experience misfires. The misfires may cause a loss in power, acceleration, and even fuel efficiency.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                What are brake shoes for?
+                Do glow plugs wear out?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                When the brake is applied, the shoe moves and presses the lining against the inside of the drum. The
-                friction between lining and drum provides the braking effort. Energy is dissipated as heat. Modern cars
-                have disc brakes all round, or discs at the front and drums at the rear.
+               Usually, the glow plugs on a diesel engine will last around 60,000 miles, but in some cases will wear out before then. The continuous use that these plugs get is a major factor in why they will usually burn out quickly. Due to the location of the glow plugs, it can be a bit difficult to check them.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Brake shoes Replacement Free Collection and Delivery
+                Glow Plugs Replacement Free Collection and Delivery
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
@@ -151,7 +115,9 @@
               </v-expansion-panel-content>
             </v-expansion-panel>
           </v-expansion-panels>
+
         </section>
+
       </div>
     </div>
   </page-layout>
@@ -168,20 +134,20 @@ export default {
   },
 
   head: {
-    title: 'Brake Shoes',
+    title: 'Glow Plug',
 
     meta: [
       {
         name: 'description', 
-        content: 'We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'We repair and replace Glow Plug for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
-        content: 'brake shoes, rear brake shoes, handbrake brake shoes, handbrake, new brake shoes, brake shoes repair, brake shoes replace, brake shoes replacement'
+        content: 'glow plug, new glow plug, new glow plug sensor, glow plug repair, glow plug replace, glow plug replacement'
       },
       {
         property: "og:title", 
-        content: "Brake Shoes | ManyAutos LTD"
+        content: "Glow Plug | ManyAutos LTD"
       },
       {
         property: "og:type", 
@@ -201,7 +167,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Glow Plug for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -209,11 +175,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Shoes | ManyAutos LTD"
+        content: "Glow Plug | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Glow Plug for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 

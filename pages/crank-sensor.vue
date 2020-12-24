@@ -1,128 +1,129 @@
 <template>
-  <page-layout title='Brake Shoes' heading-bg='customer-v2/static-pages/allpics/brakeshoes1.jpg'>
+  <page-layout title='Crank Sensor' heading-bg='customer-v2/static-pages/allpics/cranksensor1.jpg'>
     <div class="container">
       <div class="row">
         <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
           <div class="row">
             <div class="col-12">
-              <p class="text-teal text-18 justify">A worn or damaged brake shoe is a safety risk to yourself and other
-                road users, and should be replaced every 50,000 miles. The job of the brake shoe is to produce the
-                friction needed to slow and stop the car. It consists of a curved surface of steel covered on one side
-                with an abrasive lining material. Brake shoes are to drum brakes what brake pads are to disc brakes.
-                Disc brake systems can cope with higher temperatures than drum brake systems, but brake shoes are
-                cheaper than brake pads. While brake pads can be bought with a choice of friction materials to suit
-                different driving habits, brake shoes use a generic material and will perish more quickly if you are
-                prone to excessive or hard braking. It’s advisable to replace your brake shoes in sets to ensure even
-                wear.</p>
+              <p class="text-teal text-18 justify">Crankshaft converts reciprocating motion to rotational motion. It is
+                how you get your car to move. If you know how an engine operates, the piston reciprocates as fuel burns
+                and the gases are emitted. The piston is connected to the crankshaft via a connecting rod.</p>
             </div>
           </div>
           <v-expansion-panels popout>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Brake Shoes Replacement
+                What happens when your crankshaft sensor goes bad?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                A brake shoe is the part of a braking system which carries the brake lining in the drum brakes used on
-                vehicles.
+                Intermittent stalling If the crankshaft position sensor or its wiring have any issues, it can cause the
+                crankshaft signal to be cut off while the engine is running, which can cause the engine to stall. This
+                is usually a symptom of a wiring problem, however a bad crankshaft position sensor can also produce this
+                symptom.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Brake Shoes
+                How do I know if my camshaft sensor is bad?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Brake shoes are used in drum brake systems, with the lined shoe pressing against the inside of the drum
-                to stop it moving. The drum is attached to the wheel, making it a pretty clever way of getting the car
-                to stop. Brakes are something which can't be neglected - they're by far the least painful way of
-                stopping from speed, so you need to make sure they're kept in good working order. We're here to help
-                make the process of getting replacement parts easy, with a wide choice of brake shoes and drum brakes
-                for a wide selection of car makes and models.
+                Symptoms of a Bad Camshaft Position Sensor. On some vehicles, a failing camshaft sensor may lock the
+                transmission in a single gear until you turn off and restart the engine. If the sensor begins to fail
+                while your car is moving, you may feel the car jerking while losing power. You may experience a
+                noticeable loss of engine power.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                What does a Brake shoe do?
+                Will I have spark with a bad crank sensor?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                If your car has brake drums (usually older cars have drums at the rear), it will have brake shoes which
-                are situated inside the drum. The brake shoes will press against the inside of the drums when braking,
-                causing friction and eventually slowing the car down.
+                If there's a spark when the engine is cranked, it has ignition. The problem is either fuel or
+                compression. RPM signal from the Crankshaft Position sensor while cranking the engine. A bad Crankshaft
+                Position sensor is a common cause of no starts.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                How do you know there is something wrong with a Brake Shoe?
+                What are the symptoms of a bad crankshaft?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">When the hand brake does not work properly. When there is a
-                  squeaking noise coming from a corner of the car (provided that wheel has a drum brake.</p>
+                <p class="text-teal text-18 justify">Read ahead to see what we at are the most common symptoms of a bad
+                  crankshaft position sensor.</p>
                 <ul class="list mt-2 mb-2">
-                  <li>When the car pulls to the right or left under braking. </li>
-                  <li>When the car becomes unstable under braking.</li>
-                  <li>When the 'brake warning' light is on.</li>
-                  <li>Service Engine Light.</li>
+                  <li>Your “Check Engine” Light is Blinking.</li>
+                  <li>It's Difficult to Get Your Vehicle to Start.</li>
+                  <li>Your Vehicle is Stalling and or Backfiring.</li>
+                  <li>The Engine is Making Your Vehicle Vibrate.</li>
+                  <li>Reduced Horsepower.</li>
+                  <li>Symptoms of a bad crankshaft position sensor?</li>
+                  <li>Acceleration Problems. As the engine speeds up, there needs to be adjustments to spark timing and
+                    fuel injection.</li>
+                  <li>Reduced Gas Mileage..</li>
+                  <li>Engine Misfires. </li>
+                  <li>Stalling..</li>
+                  <li>Rough Idling.</li>
+                  <li>Difficult Starting or No Starting.</li>
+                  <li>Black Smoke or Flames Exiting the Exhaust.</li>
+                  <li>Check Engine Light.</li>
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                When should you consider replacing a Brake Shoe?
+                What is the difference between camshaft and crankshaft?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Over time, the brake shoes can wear out due to the friction that it has to endure each time you brake.
-                Brake shoes can wear to such an extent that the rivets holding the friction plate to the rest of the
-                shoe can get exposed. Each time you brake in this scenario the rivets can potentially score the contact
-                surface inside the drum. Thus, damaging the brake drum as well, which in that case would have to be
-                replaced too to ensure effective braking. Servicing the brake shoes is therefore key to ensure a long
-                lifespan for the brakes. Always service the brakes as and when stipulated in the guidelines set out by
-                your car's manufacturer. In cases that the brake shoes are damaged or have worn out prematurely it is
-                important you have the shoes (and the brake drums) inspected and, if necessary, replaced as soon as
-                possible.
+                I would just add that the purpose of the two mechanical devices is different in an internal combustion
+                engine. The crankshaft is used to convert power from a piston to rotational energy. The camshaft is a
+                control device. In diesel engines, a camshaft can be used to pump fuel into the cylinders.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Are brake pads and shoes the same thing?
+                Can a crankshaft break?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                The main difference between the two different types of brake pads and shoes is their position in the
-                vehicle. The brake shoes are designed to fit inside your drum-style brakes, while brake shoes are placed
-                on top of disk brakes, and serve to pressurize these discs when you apply the brakes.
+                A broken crankshaft is not a common occurrence. Very seldom do you here of a crankshaft breaking.
+                Usually a crank will break because of another failure. In an engine the amount torque created during a
+                failure such as a spun bearing can cause a crank to snap.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do I need brake shoes or pads?
+                What does a crank sensor control?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                When using drum brakes, you need to have a rear or four-wheel drive if you have front wheel drive cars,
-                then you'll typically need to have brake pads disc than shoes. If you have drum brakes then you can't
-                use brake pads, nor can you use brake shoes with disc brakes.
+                A crank sensor is an electronic device used in an internal combustion engine, both petrol and diesel, to
+                monitor the position or rotational speed of the crankshaft. This information is used by engine
+                management systems to control the fuel injection or the ignition system timing and other engine
+                parameters.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Are brake shoes sold in pairs?
+                Does crankshaft sensor affect fuel pump?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                All the pads I've ever bought are sold in sets four pads or shoes for front or rear. Brake pads are not
-                sold in pairs they are sold in sets of 4 pads enough to do 1 axle. Disc (and drums) are sold per each as
-                it may not be necessary to replace both.
+                Incorrect readings will also affect fuel injection and cause your engine to sputter. Engine Stall:
+                Crankshaft sensor problems can also make your engine stall at low speeds and the car will have
+                difficulty while starting. In extreme cases of a failed sensor, the engine will completely fail to
+                start.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                What are brake shoes for?
+                Can a car run without a crankshaft position sensor?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                When the brake is applied, the shoe moves and presses the lining against the inside of the drum. The
-                friction between lining and drum provides the braking effort. Energy is dissipated as heat. Modern cars
-                have disc brakes all round, or discs at the front and drums at the rear.
+                The crankshaft position sensor is the most important of all engine management sensors, and the engine
+                will not run without it. Many systems are smart enough to try guessing should this sensor fail and allow
+                the engine to run without it. In your case, a magnetic crankshaft positioning sensor is used.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Brake shoes Replacement Free Collection and Delivery
+                Crankshaft sensor Replacement Free Collection and Delivery
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
@@ -151,7 +152,9 @@
               </v-expansion-panel-content>
             </v-expansion-panel>
           </v-expansion-panels>
+
         </section>
+
       </div>
     </div>
   </page-layout>
@@ -168,20 +171,20 @@ export default {
   },
 
   head: {
-    title: 'Brake Shoes',
+    title: 'Crank Sensor',
 
     meta: [
       {
         name: 'description', 
-        content: 'We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'We repair and replace Crank Shaft Sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
-        content: 'brake shoes, rear brake shoes, handbrake brake shoes, handbrake, new brake shoes, brake shoes repair, brake shoes replace, brake shoes replacement'
+        content: 'crank sensor, new crank sensor, crank sensor repair, crank sensor replace, crank sensor replacement, crank sensor in reading, new crank sensor in reading, crank sensor repair in reading, crank sensor replace in reading, crank sensor replacement in reading'
       },
       {
         property: "og:title", 
-        content: "Brake Shoes | ManyAutos LTD"
+        content: "Crank Sensor | ManyAutos LTD"
       },
       {
         property: "og:type", 
@@ -201,7 +204,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Crank Shaft Sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -209,11 +212,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Shoes | ManyAutos LTD"
+        content: "Crank Sensor | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Crank Shaft Sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 

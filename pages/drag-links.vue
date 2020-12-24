@@ -1,128 +1,112 @@
 <template>
-  <page-layout title='Brake Shoes' heading-bg='customer-v2/static-pages/allpics/brakeshoes1.jpg'>
+  <page-layout title='Drag Links' heading-bg='customer-v2/static-pages/allpics/draglinks1.jpg'>
     <div class="container">
       <div class="row">
         <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
           <div class="row">
             <div class="col-12">
-              <p class="text-teal text-18 justify">A worn or damaged brake shoe is a safety risk to yourself and other
-                road users, and should be replaced every 50,000 miles. The job of the brake shoe is to produce the
-                friction needed to slow and stop the car. It consists of a curved surface of steel covered on one side
-                with an abrasive lining material. Brake shoes are to drum brakes what brake pads are to disc brakes.
-                Disc brake systems can cope with higher temperatures than drum brake systems, but brake shoes are
-                cheaper than brake pads. While brake pads can be bought with a choice of friction materials to suit
-                different driving habits, brake shoes use a generic material and will perish more quickly if you are
-                prone to excessive or hard braking. It’s advisable to replace your brake shoes in sets to ensure even
-                wear.</p>
+              <p class="text-teal text-18 justify">A crucial part of a car’s steering system, having a functional and
+                reliable centre drag link will help keep you safe when you’re on the road. Connected to both the Pitman
+                and idler arms at either end, the centre drag link (also known as the centre link) is joined to the
+                inner tie rods. The job of centre drag links is to manoeuvre inner tie rod ends such that a vehicle’s
+                wheels turn properly when the steering wheel is moved. If your steering feels like it has a mind of its
+                own, is wandering or feeling generally wrong, there’s a chance that your centre drag link may need
+                replacing. If it fails, your steering could fail a very dangerous situation if it occurs when you’re on
+                the go.</p>
             </div>
           </div>
           <v-expansion-panels popout>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Brake Shoes Replacement
+                What is a drag link?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                A brake shoe is the part of a braking system which carries the brake lining in the drum brakes used on
-                vehicles.
+                An alternate steering mechanism is a rack and pinion, a three-bar linkage that eliminates the drag link
+                by directly moving a centre link. The drag link connects the pitman arm to the steering arm, or in some
+                applications it connects to the tie rod assembly.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Brake Shoes
+                Is a drag link the same as a tie rod?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Brake shoes are used in drum brake systems, with the lined shoe pressing against the inside of the drum
-                to stop it moving. The drum is attached to the wheel, making it a pretty clever way of getting the car
-                to stop. Brakes are something which can't be neglected - they're by far the least painful way of
-                stopping from speed, so you need to make sure they're kept in good working order. We're here to help
-                make the process of getting replacement parts easy, with a wide choice of brake shoes and drum brakes
-                for a wide selection of car makes and models.
+                The drag link connects the pitman arm to the steering arm, or in some applications it connects to the
+                tie rod assembly. Unlike a centre link, the drag link does not connect to an idler arm and has no inner
+                tie rod ends attached to it. Drag links can be a solid one-piece design or an adjustable design.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                What does a Brake shoe do?
+                What is a drag link on a vehicle?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                If your car has brake drums (usually older cars have drums at the rear), it will have brake shoes which
-                are situated inside the drum. The brake shoes will press against the inside of the drums when braking,
-                causing friction and eventually slowing the car down.
+                A drag link is a suspension linkage component that is found in vehicles equipped with steering gear type
+                steering systems. Drag links are most commonly found on larger vehicles and vans and serve as the
+                component that links the vehicle's steering gear box to the tie rod ends.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                How do you know there is something wrong with a Brake Shoe?
+                What does a centre link do?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">When the hand brake does not work properly. When there is a
-                  squeaking noise coming from a corner of the car (provided that wheel has a drum brake.</p>
-                <ul class="list mt-2 mb-2">
-                  <li>When the car pulls to the right or left under braking. </li>
-                  <li>When the car becomes unstable under braking.</li>
-                  <li>When the 'brake warning' light is on.</li>
-                  <li>Service Engine Light.</li>
-                </ul>
+                The term is commonly used in automotive technology for the link in steering linkage that converts
+                rotation of a pitman arm to a steering arm and eventually to tie rod links which pivot the wheels to be
+                steered. On these applications the drag link connects to the steering arm located at the wheel.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                When should you consider replacing a Brake Shoe?
+                What does the drag link connect to?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Over time, the brake shoes can wear out due to the friction that it has to endure each time you brake.
-                Brake shoes can wear to such an extent that the rivets holding the friction plate to the rest of the
-                shoe can get exposed. Each time you brake in this scenario the rivets can potentially score the contact
-                surface inside the drum. Thus, damaging the brake drum as well, which in that case would have to be
-                replaced too to ensure effective braking. Servicing the brake shoes is therefore key to ensure a long
-                lifespan for the brakes. Always service the brakes as and when stipulated in the guidelines set out by
-                your car's manufacturer. In cases that the brake shoes are damaged or have worn out prematurely it is
-                important you have the shoes (and the brake drums) inspected and, if necessary, replaced as soon as
-                possible.
+                The drag link connects the pitman arm to the steering arm, or in some applications it connects to the
+                tie rod assembly. Unlike a centre link, the drag link does not connect to an idler arm and has no inner
+                tie rod ends attached to it.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Are brake pads and shoes the same thing?
+                What is a car linkage?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                The main difference between the two different types of brake pads and shoes is their position in the
-                vehicle. The brake shoes are designed to fit inside your drum-style brakes, while brake shoes are placed
-                on top of disk brakes, and serve to pressurize these discs when you apply the brakes.
+                A steering linkage is the part of an automotive steering system that connects to the front wheels.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do I need brake shoes or pads?
+                What transfers movement from the steering box to the centre link?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                When using drum brakes, you need to have a rear or four-wheel drive if you have front wheel drive cars,
-                then you'll typically need to have brake pads disc than shoes. If you have drum brakes then you can't
-                use brake pads, nor can you use brake shoes with disc brakes.
+                The pitman arm attaches to the steering gear output shaft which is also commonly called the pitman
+                shaft. The pitman arm attaches to the centre link and is moved by turning the steering wheel. The centre
+                link transfers the movement from the pitman arm and pitman shaft to the idler arm on the passenger side.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Are brake shoes sold in pairs?
+                What's a steering rack?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                All the pads I've ever bought are sold in sets four pads or shoes for front or rear. Brake pads are not
-                sold in pairs they are sold in sets of 4 pads enough to do 1 axle. Disc (and drums) are sold per each as
-                it may not be necessary to replace both.
+                The steering rack is composed of a rack enclosed with a steering pinion. It is connected to the steering
+                wheel through the set of shafts and U-joints. A power steering rack utilizes an engine-driven pump to
+                supply high-pressure hydraulic fluid to the steering rack when the wheel is turned.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                What are brake shoes for?
+                What's a steering pinion?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                When the brake is applied, the shoe moves and presses the lining against the inside of the drum. The
-                friction between lining and drum provides the braking effort. Energy is dissipated as heat. Modern cars
-                have disc brakes all round, or discs at the front and drums at the rear.
+                A rack and pinion gear set is enclosed in a metal tube, with each end of the rack protruding from the
+                tube. A rod, called a tie rod, connects to each end of the rack. The pinion gear is attached to the
+                steering shaft. When you turn the steering wheel, the gear spins, moving the rack.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Brake shoes Replacement Free Collection and Delivery
+                Drag Links Replacement Free Collection and Delivery
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
@@ -151,7 +135,9 @@
               </v-expansion-panel-content>
             </v-expansion-panel>
           </v-expansion-panels>
+
         </section>
+
       </div>
     </div>
   </page-layout>
@@ -168,20 +154,20 @@ export default {
   },
 
   head: {
-    title: 'Brake Shoes',
+    title: 'Drag Links',
 
     meta: [
       {
         name: 'description', 
-        content: 'We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'We repair and replace Drag Links for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
-        content: 'brake shoes, rear brake shoes, handbrake brake shoes, handbrake, new brake shoes, brake shoes repair, brake shoes replace, brake shoes replacement'
+        content: 'drag links , new drag links , drag links repair, drag link replacement, drag link end ball joint, drag links in reading, new drag links in reading, drag links repair in reading, drag link replacement in reading, drag link end ball joint in reading'
       },
       {
         property: "og:title", 
-        content: "Brake Shoes | ManyAutos LTD"
+        content: "Drag Links | ManyAutos LTD"
       },
       {
         property: "og:type", 
@@ -201,7 +187,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Drag Links for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -209,11 +195,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Shoes | ManyAutos LTD"
+        content: "Drag Links | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Drag Links for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 

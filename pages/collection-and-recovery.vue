@@ -1,35 +1,35 @@
 <template>
   <page-layout title='Vehicle Collection And Recovery Service'
     heading-bg='customer-v2/static-pages/allpics/collectionandrecovery1.jpg'>
+    
     <div class="container">
-
-      <!-- Services Detail -->
       <div class="exc-section">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-12">
             <article class="services-detail" style="padding-top: 90px;">
               <div class="row">
                 <div class="col-sm-4">
-                  <h4 class="starts-from position-relative same-icon">
-                    <v-icon>mdi-tag</v-icon> Non Drivable Vehicle
-                    Collection <br>from £40.00
-                  </h4>
+                  <h5 class="starts-from position-relative same-icon">
+                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon> Non Drivable Vehicle
+                    Collection from <br> £40.00
+                  </h5>
                 </div>
                 <div class="col-sm-4">
-                  <h4 class="starts-from position-relative same-icon">
-                    <i class="fa fa-tags MoveFaLeft position-absolute " aria-hidden="true"></i>Collection <br>Free if
+                  <h5 class="starts-from position-relative same-icon">
+                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon>Collection Free if
                     drivable
-                  </h4>
+                  </h5>
                 </div>
                 <div class="col-sm-4">
-                  <h4 class="starts-from position-relative same-icon">
-                    <i class="fa fa-tags MoveFaLeft position-absolute " aria-hidden="true"></i>Drop off <br>at your
+                  <h5 class="starts-from position-relative same-icon">
+                    <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon>Drop off at your
                     convenience
-                  </h4>
+                  </h5>
                 </div>
+                
               </div>
               <div class="clearfix"></div>
-              <div class="entry-content">
+              <div class="entry-content mt-12">
                 <p>
                   Many Autos LTD company is based in Reading, but we're operating throughout the surrounding area. We
                   cover all aspects of car maintenance and offer <b class="text-bold text-primary"> collection and
@@ -52,7 +52,7 @@
                     01189 876300</a> via our Contact page for more information on our full range of services and see
                   what we can do for you. We look forward to hearing from you!
                 </p>
-              </div><!-- .entry-content -->
+              </div>
             </article>
           </div>
           <div class="clearfix"></div>
@@ -145,9 +145,9 @@ export default {
     padding-top: 0px;
 }
 }
-.exc-section .services-detail .same-icon .v-icon{
+.exc-section .services-detail .same-icon{
 
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 700;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -156,11 +156,11 @@ export default {
 }
 .exc-section .services-detail .same-icon .v-icon{
 
-    top:3px;
+    top:4px;
     left: 0px;
 }
 
- h4{
+ h5{
     color: #00B4D8;
 }
 </style>

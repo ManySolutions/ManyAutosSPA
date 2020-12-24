@@ -1,128 +1,100 @@
 <template>
-  <page-layout title='Brake Shoes' heading-bg='customer-v2/static-pages/allpics/brakeshoes1.jpg'>
-    <div class="container">
+  <page-layout
+    title='Suspension Arm'
+    heading-bg='customer-v2/static-pages/allpics/suspensionarm1.jpg'
+  >
+        <div class="container">
       <div class="row">
         <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
           <div class="row">
             <div class="col-12">
-              <p class="text-teal text-18 justify">A worn or damaged brake shoe is a safety risk to yourself and other
-                road users, and should be replaced every 50,000 miles. The job of the brake shoe is to produce the
-                friction needed to slow and stop the car. It consists of a curved surface of steel covered on one side
-                with an abrasive lining material. Brake shoes are to drum brakes what brake pads are to disc brakes.
-                Disc brake systems can cope with higher temperatures than drum brake systems, but brake shoes are
-                cheaper than brake pads. While brake pads can be bought with a choice of friction materials to suit
-                different driving habits, brake shoes use a generic material and will perish more quickly if you are
-                prone to excessive or hard braking. It’s advisable to replace your brake shoes in sets to ensure even
-                wear.</p>
+              <p class="text-teal text-18 justify">In automotive suspension, a control arm, also known as an A-arm, is a hinged suspension link between the chassis and the suspension upright or hub that carries the wheel. The inboard (chassis) end of a control arm is attached by a single pivot, usually a rubber bushing.</p>
             </div>
           </div>
           <v-expansion-panels popout>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Brake Shoes Replacement
+                What is a suspension arm pin bush
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                A brake shoe is the part of a braking system which carries the brake lining in the drum brakes used on
-                vehicles.
+                Suspension arm Bushings are cushions made of rubber, polyurethane (often shortened to "poly" or "urethane") or other materials. They're mounted on car suspension and steering joints to absorb road bumps, control the amount of movement in the joints and reduce noise and vibration
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Brake Shoes
+                Is it OK to drive with bad suspension arm bushings?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Brake shoes are used in drum brake systems, with the lined shoe pressing against the inside of the drum
-                to stop it moving. The drum is attached to the wheel, making it a pretty clever way of getting the car
-                to stop. Brakes are something which can't be neglected - they're by far the least painful way of
-                stopping from speed, so you need to make sure they're kept in good working order. We're here to help
-                make the process of getting replacement parts easy, with a wide choice of brake shoes and drum brakes
-                for a wide selection of car makes and models.
+                Suspension arm In case of extreme damage, when the rubber bushing is completely worn out, the metal sleeves of the control arm will begin to rattle, resulting in an unpleasant 'clunking' noise from the front end, especially while turning or reversing. Moreover, the wheel with a damaged bushing will begin to wobble while driving.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                What does a Brake shoe do?
+                What are the symptoms of a bad lower suspension arm?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                If your car has brake drums (usually older cars have drums at the rear), it will have brake shoes which
-                are situated inside the drum. The brake shoes will press against the inside of the drums when braking,
-                causing friction and eventually slowing the car down.
+                Usually a problematic suspension arm assembly will produce a few symptoms that can alert the driver of a potential problem that should be serviced. Steering wheel vibration. One of the first symptoms commonly associated with bad control arms is steering wheel vibrations. Steering wandering. Clunking noises.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                How do you know there is something wrong with a Brake Shoe?
+                How dangerous is a bad suspension arm?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                <p class="text-teal text-18 justify">When the hand brake does not work properly. When there is a
-                  squeaking noise coming from a corner of the car (provided that wheel has a drum brake.</p>
-                <ul class="list mt-2 mb-2">
-                  <li>When the car pulls to the right or left under braking. </li>
-                  <li>When the car becomes unstable under braking.</li>
-                  <li>When the 'brake warning' light is on.</li>
-                  <li>Service Engine Light.</li>
-                </ul>
+                While a bad suspension arm bushing is not dangerous, it can still hamper your driving experience. One such component is the control arm, which is mostly found in the front wheels, though some trucks and cars have it in the rear ones too. It connects the front suspension of the vehicle to its frame.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                When should you consider replacing a Brake Shoe?
+               Is it dangerous to drive with a bad upper suspension arm?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                Over time, the brake shoes can wear out due to the friction that it has to endure each time you brake.
-                Brake shoes can wear to such an extent that the rivets holding the friction plate to the rest of the
-                shoe can get exposed. Each time you brake in this scenario the rivets can potentially score the contact
-                surface inside the drum. Thus, damaging the brake drum as well, which in that case would have to be
-                replaced too to ensure effective braking. Servicing the brake shoes is therefore key to ensure a long
-                lifespan for the brakes. Always service the brakes as and when stipulated in the guidelines set out by
-                your car's manufacturer. In cases that the brake shoes are damaged or have worn out prematurely it is
-                important you have the shoes (and the brake drums) inspected and, if necessary, replaced as soon as
-                possible.
+                While a bad suspension arm bushing is not dangerous, it can still hamper your driving experience. One such component is the control arm, which is mostly found in the front wheels, though some trucks and cars have it in the rear ones too. It connects the front suspension of the vehicle to its frame
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
               <v-expansion-panel-header class="card-header">
-                Are brake pads and shoes the same thing?
+                What happens if your suspension arm breaks?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                The main difference between the two different types of brake pads and shoes is their position in the
-                vehicle. The brake shoes are designed to fit inside your drum-style brakes, while brake shoes are placed
-                on top of disk brakes, and serve to pressurize these discs when you apply the brakes.
+                Suspension arms can bend or break when driving over large potholes or bumps, while brushings can also wear out on their own. Many Autos say other common signs the control arm assembly needs to be replaced is if steering wheel is vibrating or there is banging noise while driving over bumps.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Do I need brake shoes or pads?
+                When should a suspension arm be replaced?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                When using drum brakes, you need to have a rear or four-wheel drive if you have front wheel drive cars,
-                then you'll typically need to have brake pads disc than shoes. If you have drum brakes then you can't
-                use brake pads, nor can you use brake shoes with disc brakes.
+                Worn out or torn suspension arm bushings is another reason a suspension arm may need to be replaced. In some cars, suspension arm bushings can be replaced separately, but it involves more labour and could cost more. For this reason, the whole control arm is usually replaced if the bushings are worn out.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Are brake shoes sold in pairs?
+                Do suspension arm go bad?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                All the pads I've ever bought are sold in sets four pads or shoes for front or rear. Brake pads are not
-                sold in pairs they are sold in sets of 4 pads enough to do 1 axle. Disc (and drums) are sold per each as
-                it may not be necessary to replace both.
+               Over time, the suspension arm assembly can become worn or bent. This will aid in a smoother drive because your vehicle will not vibrate while it is driving due to a bad suspension arm assembly or a poor suspension. Since the suspension arm assembly will go bad over time, it is important that you can recognize the symptoms.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                What are brake shoes for?
+                What do lower suspension arm do?
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
-                When the brake is applied, the shoe moves and presses the lining against the inside of the drum. The
-                friction between lining and drum provides the braking effort. Energy is dissipated as heat. Modern cars
-                have disc brakes all round, or discs at the front and drums at the rear.
+                Many Auto experts say suspension arm connect the car's suspension to the actual vehicle frame. They are connected to the frame through a component called brushings, while they attach to the suspension through the ball joint. That allows the vehicle to turn its wheel and pivot, connecting the tire to the car's suspension.
               </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header class="card-header">
-                Brake shoes Replacement Free Collection and Delivery
+                Is it safe to drive with worn suspension arm bushes?
+              </v-expansion-panel-header>
+              <v-expansion-panel-content class="card-header-body">
+                Drivers of a vehicle with worn suspension bushes may experience a lack of control in steering, as well as feeling a bumpier ride and less responsive breaking. Not only does this affect the driving experience, but it can also be dangerous to the driver.
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+                 <v-expansion-panel v-for="(item,i) in 1" :key="i">
+              <v-expansion-panel-header class="card-header">
+                Suspension arm
               </v-expansion-panel-header>
               <v-expansion-panel-content class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
@@ -151,7 +123,9 @@
               </v-expansion-panel-content>
             </v-expansion-panel>
           </v-expansion-panels>
+
         </section>
+
       </div>
     </div>
   </page-layout>
@@ -168,20 +142,20 @@ export default {
   },
 
   head: {
-    title: 'Brake Shoes',
+    title: 'Suspension Arm',
 
     meta: [
       {
         name: 'description', 
-        content: 'We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'We repair and replace suspension arm for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
-        content: 'brake shoes, rear brake shoes, handbrake brake shoes, handbrake, new brake shoes, brake shoes repair, brake shoes replace, brake shoes replacement'
+        content: 'suspension arm, suspension bush , wishbone Arm , lower arm , suspension arm bush, suspension pin  bush,'
       },
       {
         property: "og:title", 
-        content: "Brake Shoes | ManyAutos LTD"
+        content: "Suspension Arm | ManyAutos LTD"
       },
       {
         property: "og:type", 
@@ -201,7 +175,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace suspension arm for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -209,11 +183,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Shoes | ManyAutos LTD"
+        content: "Suspension Arm | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace suspension arm for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 
