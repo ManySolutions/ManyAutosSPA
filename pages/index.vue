@@ -5,7 +5,7 @@
         <div class="home-sec-1">
           <h1 class='text-center py-5'>
             <span class='text-lg'>We offer</span>
-            <base-text-slider
+            <!-- <base-text-slider
               :options='[
                 "MOT", 
                 "Repairs", 
@@ -13,7 +13,7 @@
                 "Full Service", 
                 "Diagnostic"
               ]'
-            ></base-text-slider>
+            ></base-text-slider> -->
             <small class='text-sm'>
               for your car maintenance
             </small>
@@ -82,6 +82,27 @@
               </span>
             </v-card-actions>
           </v-card>
+
+          <v-row class="top-h-icons">
+            <v-col cols='12' class="top-hi">
+              <span class=''>
+                <v-icon>mdi-tow-truck</v-icon>
+                FREE COLLECTION AND DELIVERY
+              </span>
+            </v-col>
+            <v-col cols='12' class="top-hi">
+              <span class=''>
+                <v-icon>mdi-quality-high</v-icon>
+                TRUSTED HIGH QUALITY GARAGES
+              </span>
+            </v-col>
+            <v-col cols='12' class="top-hi">
+              <span class=''>
+                <v-icon>mdi-security</v-icon>
+                12 MONTH WARRANTY AND GUARANTEE
+              </span>
+            </v-col>
+          </v-row>
         </div>
       </v-col>
     </v-row>
@@ -109,7 +130,6 @@
       <car-reg-form></car-reg-form>
       <index-reviews></index-reviews>
       <index-faq></index-faq>
-      <index-footer></index-footer>
     </v-row>
   </v-container>
 </template>
@@ -123,7 +143,6 @@ import IndexCarParts from '~/pages/__components/index-car-parts.vue';
 import { getVehicleDetails } from '~/api/vehicle';
 import IndexReviews from '~/pages/__components/index-reviews.vue';
 import IndexFaq from '~/pages/__components/index-faq.vue';
-import IndexFooter from '~/pages/__components/index-footer.vue';
 import IndexActiveCar from './__components/index-active-car.vue';
 import CarRegForm from '~/components/func-components/car-reg-form.vue';
 
@@ -135,7 +154,6 @@ export default {
     IndexCarParts,
     IndexReviews,
     IndexFaq,
-    IndexFooter,
     IndexActiveCar,
     CarRegForm,
   },
@@ -221,7 +239,7 @@ export default {
   color: white;
 }
 .home-top {
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   background: url('~static/imgs/88246.png')  center bottom;
   background-size: cover;
   position: relative;
@@ -239,5 +257,23 @@ export default {
 .home-sec-2 {
   background-size: cover;
   background-position: center;
+}
+
+.top-h-icons {
+  padding-top: 30px;
+}
+.top-hi {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.top-hi span {
+  font-size: 12px;
+  display: block;
+  max-width: 280px;
+  margin: 0px auto;
+}
+.top-hi span i {
+  margin-right: 10px;
+  font-size: 20px;
 }
 </style>

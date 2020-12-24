@@ -60,6 +60,7 @@ export default {
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
+    treeShake: true,
     customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: false,
@@ -109,6 +110,6 @@ export default {
     ENVIRONMENT: 'development',
     CURRENCY_SYMBOL: '£',
     LOCAL_API_URL: 'http://manyautos.local/api/v2/c/',
-    PRODUCTION_API_URL: 'https://manyautosltd.com/api/v2/c/',
+    PRODUCTION_API_URL: 'https://staging-v32020.manyautos.co.uk/api/v2/c/',
   }
 }
