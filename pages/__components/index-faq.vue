@@ -1,10 +1,10 @@
 <template>
   <v-container
-    class='mb-10'
+    class='home-sec-gaps home-r-in'
   >
     <v-row justify="center">
       <v-col cols=12 class="">
-        <h1 class="heading-title heading-title-bar text-center">
+        <h1 class="heading__title heading__title-bar text-center">
           <span class="font-weight-bold">FAQ</span>
         </h1>
       </v-col>
@@ -75,20 +75,6 @@
   </v-container>
 </template>
 <style lang="scss" scoped>
-.heading-title-bar::after {
-    content: "";
-    background: #CAF0F8;
-    position: absolute;
-    height: 3px;
-    width: 70px;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.heading-title-bar{
-    padding-bottom: 10px;
-}
-
 .card-header{
     background-color:#2d97ad;
     color: #ffffff;
@@ -101,8 +87,15 @@
     background-color: #f6f6f6;
     padding-top: 16px;
 }
-.nuxt-link{
-    margin-top: 15px;
-    text-decoration: none;
+
+@media (min-width: 960px) {
+  .home-r-in {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heading__title {
+    margin-bottom: 60px;
+  }
 }
 </style>

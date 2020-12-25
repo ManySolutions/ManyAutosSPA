@@ -239,7 +239,6 @@ export default {
 
   mounted() {
     setInterval(() => {
-      console.log('in interval', this.showNextIco, this.switchIcon);
       this.showNextIco = !this.showNextIco
     }, this.switchIcon);
   },

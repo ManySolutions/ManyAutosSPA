@@ -26,11 +26,11 @@ p {
 }
 
 .home-sec-gaps {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
   @media (min-width: 960px) {
-    margin-top: 110px;
-    margin-bottom: 110px;
+    padding-top: 110px !important;
+    padding-bottom: 110px !important;
   }
 }
 .home-sec-between-gaps {
@@ -90,4 +90,10 @@ h1.heading__title {
   }
 }
 
+.font-19 {
+  font-size: 19px;
+}
 
+.container-1400 {
+  max-width: 1400px;
+}

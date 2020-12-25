@@ -87,6 +87,14 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    loaders: {
+      vue: {
+        prettify: false
+      }
+    },
+    parallel: true,
+    cache: true,
+    hardSource: true,
   },
 
   googleFonts: {
@@ -111,5 +119,7 @@ export default {
     CURRENCY_SYMBOL: '£',
     LOCAL_API_URL: 'http://manyautos.local/api/v2/c/',
     PRODUCTION_API_URL: 'https://staging-v32020.manyautos.co.uk/api/v2/c/',
+    LOCAL_ASSETS_URL: 'http://manyautos.local/assets/',
+    PRODUCTION_ASSETS_URL: 'https://staging-v32020.manyautos.co.uk/assets/',
   }
 }

@@ -1,33 +1,27 @@
 <template>
-  <v-container 
-    fluid
-    class='mb-5 review'
+  <div
+    class='home-sec-gaps home-reviews w-100'
+    :style='`background-image: url(${assets("/customer-v2/rowen-smith.jpg")})`'
   >
-    <v-row>
-      <v-col cols=12 class="mt-10 mb-7">
-        <h1 class='heading__title heading__title--bar text-center text-white font-weight-300'>
-          Our <span class='font-weight-bold'>Happy Customers</span>
-        </h1>
-      </v-col>
-      <v-col 
-        cols=12
-        class='mb-4'
-      >
-        <v-carousel 
-          v-model="model"
-          :show-arrows="false"
-          hide-delimiter-background
-          delimiter-icon="mdi-minus"
-          height="300"
+    <v-container class='home-r-in'>
+      <v-row>
+        <v-col cols=12 class="mb-7">
+          <h1 class='heading__title heading__title--bar text-center text-white font-weight-300'>
+            Our <span class='font-weight-bold'>Happy Customers</span>
+          </h1>
+        </v-col>
+        <v-col 
+          cols=12
+          class='mb-4'
         >
-          <v-carousel-item
-            v-for="(review, i) in reviews"
-            :key="i"
-          >
+          <base-owl-carousel>
             <v-sheet
+              v-for="(review, i) in reviews"
+              :key="i"
               height="100%"
               class='py-4'
               color="blue-grey darken-2"
+              dark
             >
               <v-row
                 justify="center"
@@ -35,7 +29,7 @@
                 class='fill-height'
               >
                 <v-col>
-                  <p class='text-center px-3 font-weight-300'>
+                  <p class='text-center px-3 font-weight-300 font-19'>
                     "{{ review.content }}" 
                   </p>
                   <h5 class="text-h6 card-title text-center">
@@ -49,15 +43,17 @@
                 </v-col>
               </v-row>
             </v-sheet>
-          </v-carousel-item>
-        </v-carousel>
-      </v-col>
-    </v-row>
-  </v-container>
+          </base-owl-carousel>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
 </template>
 
 <script>
+import baseOwlCarousel from '~/components/base-components/base-owl-carousel.vue'
 export default {
+  components: { baseOwlCarousel },
   data: () => ({
     model: 0,
     reviews: [
@@ -75,30 +71,32 @@ export default {
         name: 'Gollette Gardner',
         date: 'Mar 10 2020',
       },
+      {
+        content: `C Called as drivers window wouldn’t go up. Said to come right away 
+          fixed within an hour. Excellent service and company!! 
+          Really recommend!!`,
+        name: 'Gollette Gardner',
+        date: 'Mar 10 2020',
+      },
+      {
+        content: `D Called as drivers window wouldn’t go up. Said to come right away 
+          fixed within an hour. Excellent service and company!! 
+          Really recommend!!`,
+        name: 'Gollette Gardner',
+        date: 'Mar 10 2020',
+      },
     ],
   })
 }
 </script>
 
 <style lang="scss" scoped>
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-.review {
-
-    background-image: url("https://manyautosltd.com/assets/customer-v2/rowen-smith.jpg");
-    background-size: cover;
-    background-position: center center;
-    // padding-top: 60px;
-    // padding-bottom: 60px;
-    position: relative;
-}
-.review:before {
+.home-reviews {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  
+  &:before {
     content: "";
     position: absolute;
     left: 0;
@@ -106,49 +104,17 @@ export default {
     width: 100%;
     height: 100%;
     background: #000000a6;
-}
-.mb-55{
-    margin-bottom: 55px;
-}
-h1.heading__title {
-    font-size: 28px;
-    /* position: relative; */
-}
-.heading__title--bar {
-    padding-bottom: 10px;
-}
-.heading__title--bar:after {
-    background: #CAF0F8;
-}
-.owl-carousel .owl-stage-outer {
-    position: relative;
-    overflow: hidden;
-    // -webkit-transform: translate3d(0,0,0);
-}
-.owl-carousel .owl-stage-outer .owl-stage {
-    transition: all 0.25s ease 0s;
-    width: 1800px;
-}
- .owl-carousel .owl-stage-outer .owl-stage .owl-item .card {
-    background: #394f52;
-    color: white;
-    padding: 5px;
-}
-.card p {
-    font-weight: 500;
-    font-size: 18px;
-}
-.card-body {
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1.25rem;
-}
-.card h5 {
-    color: #1ea5c7;
-    font-weight: 600;
-}
-.card-title {
-    margin-bottom: 0.75rem;
+  }
+  @media (min-width: 960px) {
+    .home-r-in {
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .heading__title {
+      margin-bottom: 60px;
+    }
+  }
 }
 </style>
 
