@@ -2,7 +2,7 @@
   <footer class="footer-main">
     <v-container fluid>
       <v-row>
-        <v-col cols='12'>
+        <v-col cols='12' md="6" lg="3" order-md="3">
           <div class="logo-footer ml-0">
             <img :src="assets('/customer-v2/logo-default.png')" alt="">
           </div>
@@ -13,7 +13,7 @@
             tation. sit amet, consec tetuer.ipsum dolor sit amet, consectetuer.
           </p>
         </v-col>
-        <v-col cols='12'>
+        <v-col cols='12' md="6" lg="3" order-md="1">
           <h4 class="text-white text-uppercase">
             Popular Car Services
           </h4>
@@ -25,29 +25,31 @@
               :key='i'
               :to="service.url"
               class='text-capitalize pl-0'
+              block
             >
               {{ service.title }}
             </v-btn>
           </div>
         </v-col>
-        <v-col cols='12'>
+        <v-col cols='12' md="6" lg="3" order-md="2">
           <h4 class="text-white text-uppercase">
-            Our Service
+           Meet ManyAutos
           </h4>
           <div>
             <v-btn
               text
               color='primary'
-              v-for='(service, i) in popularServices'
+              v-for='(service, i) in meetManyautos'
               :key='i'
               :to="service.url"
               class='text-capitalize pl-0'
+              block
             >
               {{ service.title }}
             </v-btn>
           </div>
         </v-col>
-        <v-col cols='12'>
+        <v-col cols='12' md="6" lg="3" order-md="4">
           <h4 class="text-white text-uppercase">
             Contact Us
           </h4>
@@ -117,9 +119,25 @@ export default {
   data: () => ({
     popularServices: [
       {title: 'Car Services', url: '/car-services'},
+      {title: 'Front brake pads replacement', url: '/car-services'},
+      {title: 'Rear brake pads replacement', url: '/car-services'},
+      {title: 'Front brake discs & pads replacement', url: '/car-services'},
+      {title: 'Rear brake discs & pads replacement', url: '/car-services'},
+      {title: 'Timing belt replacement', url: '/car-services'},
+      {title: 'Diagnostic inspection', url: '/car-services'},
+      {title: 'Clutch kit replacement', url: '/car-services'},
+      {title: 'Car battery replacement and fitting', url: '/car-services'},
+      {title: 'Air conditioning regas', url: '/car-services'},
+      {title: 'Water pump replacement', url: '/car-services'},
     ],
     meetManyautos: [
-      {title: 'Register Your Garage', url: '/car-services'},
+      {title: 'About Us', url: '/about'},
+      {title: 'Terms of services', url: '/terms-and-conditions'},
+      {title: 'Privacy Policy', url: '/privacy-policy'},
+      {title: 'Contact Us', url: '/contact'},
+      {title: 'Site Map', url: '/car-services'},
+      {title: 'Register as Garage', url: '/car-services'},
+      {title: 'Book a service', url: '/service-booking'},
     ],
     contacts: [
       { content: '01189 876300', url: 'tel:+441189876300', title: 'Phone', icon: 'mdi-cellphone-basic'},
@@ -196,6 +214,10 @@ export default {
     background: #233234;
     padding-top: 0;
     padding-bottom: 0;
+  }
+  &::v-deep span.v-btn__content {
+    display: block;
+
   }
 }
 

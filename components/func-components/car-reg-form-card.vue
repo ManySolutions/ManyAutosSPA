@@ -52,7 +52,7 @@ import IndexActiveCar from '~/pages/__components/index-active-car.vue';
 export default {
   components: {
     IndexActiveCar,
-  },
+  }, 
   data: () => ({
     reg: '',
     isLoading: false,
