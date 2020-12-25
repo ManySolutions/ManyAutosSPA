@@ -6,7 +6,7 @@
     </v-main>
 
     <client-only>
-      <mini-cart></mini-cart>
+      <mini-cart v-if='isDevice.xs'></mini-cart>
     </client-only>
 
     <default-footer></default-footer>
@@ -20,6 +20,14 @@ import DefaultFooter from './include/default-footer.vue';
 
 export default {
   name: 'default',
+
+  head: {
+    script: [
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'
+      },
+    ]
+  },
   
   components: {
     Navbar,

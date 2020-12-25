@@ -169,24 +169,6 @@ import { getCartInstance } from '~/api/cart';
 export default {
   data: () => ({
     drawer: false,
-    items: [
-      {
-        name: 'MOT',
-        price: '20.00'
-      },
-      {
-        name: 'Interim Service',
-        price: '120.00'
-      },
-      {
-        name: 'Oil and Gas',
-        price: '34.00'
-      },
-      {
-        name: 'Full service',
-        price: '134.00'
-      },
-    ],
     currencySymbol: process.env.CURRENCY_SYMBOL,
     switchIcon: 10000,
     beforeCartSize: 0,

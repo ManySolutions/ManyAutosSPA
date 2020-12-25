@@ -30,6 +30,7 @@
           v-model="date"
           no-title
           scrollable
+          :allowed-dates="allowedDates"
         >
           <v-spacer></v-spacer>
           <v-btn
@@ -53,6 +54,8 @@
 </template>
 
 <script>
+import moment from 'moment';
+
 export default {
   data: () => ({
     menu: false,
@@ -62,6 +65,38 @@ export default {
   watch: {
     date(date) {
       this.$emit('change', date);
+    }
+  },
+
+  methods: {
+    allowedDates(val) {
+      const day = moment().format('dddd').toLowerCase();
+      const hour = moment().hour();
+      let addDays = 1;
+
+      if (day == 'friday') {
+        if ( hour <= 12 ) {
+          addDays = 3;
+        } else {
+          addDays = 4;
+        }
+      } else if (day == 'saturday') {
+        addDays = 3;
+      } else if (day == 'sunday') {
+        addDays = 2;
+      } else if (day == 'thursday' && hour >= 12) {
+        addDays = 4;
+      } else {
+        if (hour >= 12) {
+          addDays = 2;
+        } else {
+          addDays = 1;
+        }
+      }
+
+      const dateToStart = moment().add(addDays, 'days').format('YYYY-MM-DD');
+
+      return moment(val).isSameOrAfter(dateToStart);
     }
   }
 }
