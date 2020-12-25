@@ -83,7 +83,13 @@
           <collection-info-user
             @invalid='handleInvalidUser'
             @user='handleUser'
+            :errors='errors'
+            v-if='!isAuth'
           ></collection-info-user>
+          <v-alert v-else type='success'>
+            You booking will be create as 
+            <strong>{{ info ? info.email : '' }}</strong>
+          </v-alert>
           <v-btn
             @click="step = 2"
           >
@@ -111,8 +117,8 @@
           <collection-info-other
             @change='handleOtherChange'
           ></collection-info-other>
-          <v-row>
-            <v-col cols=4>
+          <v-row justify="end">
+            <v-col cols=4 md=3 lg=2>
               <v-btn
                 @click="step = 3"
                 large
@@ -187,10 +193,14 @@ export default {
     step: 1,
 
     isLoading: false,
+
+    errors: {},
   }),
 
   computed: {
     ...mapGetters('booking', ['isCartEmpty']),
+    ...mapGetters('user', ['isAuth']),
+    ...mapState('user', ['info']),
     ...mapState('booking', ['cartContent', 'modelId']),
 
     isStep1Valid() {
@@ -207,7 +217,7 @@ export default {
     isStep3Valid() {
       const { user } = this.form;
 
-      return ( Object.keys(user).length >= 4 );
+      return ( Object.keys(user).length >= 4 || this.isAuth );
     },
     isFormValid() {
       const { isStep1Valid, isStep2Valid, isStep3Valid } = this;
@@ -271,12 +281,13 @@ export default {
         ...form,
         cart: cartContent.cart_details,
         model_id: modelId
-      }).then(res => res.data)
+      }, this.http).then(res => res.data)
         .then(data => {
-          const { status, message, access_token, user } = data;
+          const { status, message, access_token, user, errors } = data;
 
           if (!status) {
             toastr.error('Failed: ' + message);
+            this.errors = errors;
 
             return data;
           }

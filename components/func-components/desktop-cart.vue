@@ -145,7 +145,11 @@ export default {
   watch: {
     cart() {
       this.getCart();
-    }
+    },
+  },
+
+  mounted() {
+    console.log(this.$route);
   },
 
   methods: {

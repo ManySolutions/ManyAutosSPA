@@ -1,7 +1,7 @@
 import http from "~/utils/http";
 
-export async function createBooking(data) {
-  return (await http.post(`/create_order`, data))
+export async function createBooking(data, $http=null) {
+  return (await ($http || http).post(`/create_order`, data))
 }
 
 

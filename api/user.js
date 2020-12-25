@@ -9,5 +9,5 @@ export async function registerUser(data) {
 }
 
 export async function logoutUser(http) {
-  return (await http.get(`logout/user`)).data
+  return (await http.get(`/auth/logout/user`)).data
 }

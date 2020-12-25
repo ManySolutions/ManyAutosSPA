@@ -80,8 +80,11 @@ export default {
     ...mapActions('user', ['logout']),
 
     handleLogout() {
-      logoutUser(this.http);
-      this.logout();
+      logoutUser(this.http).then(res => {
+        this.logout();
+        window.location.reload();
+      })
+      
     }
   }
 }

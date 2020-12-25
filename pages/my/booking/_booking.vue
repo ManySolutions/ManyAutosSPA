@@ -1,5 +1,14 @@
 <template>
   <v-container class='booking-single'>
+    <v-row>
+      <v-col>
+        <v-breadcrumbs
+          :items='breadcrumbs'
+        ></v-breadcrumbs>
+      </v-col>
+    </v-row>
+    <!-- /breadcrumb -->
+
     <v-skeleton-loader
       v-if='isLoading'
       type='card-heading, list-item-three-line, list-item-three-line, list-item-three-line'
@@ -22,66 +31,72 @@
       </v-card-text>
       <!-- /additional requests -->
 
-      <v-card-subtitle>
-        Collection Information
-      </v-card-subtitle>
-      <v-card-text>
-        <v-simple-table>
-          <template #default>
-            <tbody>
-              <tr>
-                <td class='align-top font-weight-600'>Address</td>
-                <td>{{ booking.info.address }}</td>
-              </tr>
-              <tr>
-                <td class='font-weight-600'>Postcode</td>
-                <td>{{ booking.info.postcode }}</td>
-              </tr>
-              <tr>
-                <td class='font-weight-600'>Collection Date</td>
-                <td>{{ booking.info.collection_date }}</td>
-              </tr>
-            </tbody>
-          </template>
-        </v-simple-table>
-      </v-card-text>
-      <!-- /collection details -->
+      <v-row>
+        <v-col md=6>
+          <v-card-subtitle>
+            Collection Information
+          </v-card-subtitle>
+          <v-card-text>
+            <v-simple-table>
+              <template #default>
+                <tbody>
+                  <tr>
+                    <td class='align-top font-weight-600'>Address</td>
+                    <td>{{ booking.info.address }}</td>
+                  </tr>
+                  <tr>
+                    <td class='font-weight-600'>Postcode</td>
+                    <td>{{ booking.info.postcode }}</td>
+                  </tr>
+                  <tr>
+                    <td class='font-weight-600'>Collection Date</td>
+                    <td>{{ booking.info.collection_date }}</td>
+                  </tr>
+                </tbody>
+              </template>
+            </v-simple-table>
+          </v-card-text>
+          <!-- /collection details -->
+        </v-col>
+        <v-col md=6>
+          <v-spacer></v-spacer>
+          <v-card-subtitle>
+            Vehicle Details
+          </v-card-subtitle>
+          <v-card-text>
+            <v-simple-table>
+              <template #default>
+                <tbody>
+                  <tr>
+                    <td class='align-top font-weight-600'>Reg. Number</td>
+                    <td>{{ booking.vehicle.RegistrationNumber }}</td>
+                  </tr>
+                  <tr>
+                    <td class='font-weight-600'>Name</td>
+                    <td :class='`${color}--text`'>
+                      {{ vehicleName }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class='font-weight-600'>Fuel Type</td>
+                    <td>
+                      {{ booking.vehicle.Fuel }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class='font-weight-600'>Modal year</td>
+                    <td>
+                      {{ booking.vehicle.Year }}
+                    </td>
+                  </tr>
+                </tbody>
+              </template>
+            </v-simple-table>
+          </v-card-text>
+          <!-- /vehicle info -->
+        </v-col>
 
-      <v-spacer></v-spacer>
-      <v-card-subtitle>
-        Vehicle Details
-      </v-card-subtitle>
-      <v-card-text>
-        <v-simple-table>
-          <template #default>
-            <tbody>
-              <tr>
-                <td class='align-top font-weight-600'>Reg. Number</td>
-                <td>{{ booking.vehicle.RegistrationNumber }}</td>
-              </tr>
-              <tr>
-                <td class='font-weight-600'>Name</td>
-                <td :class='`${color}--text`'>
-                  {{ vehicleName }}
-                </td>
-              </tr>
-              <tr>
-                <td class='font-weight-600'>Fuel Type</td>
-                <td>
-                  {{ booking.vehicle.Fuel }}
-                </td>
-              </tr>
-              <tr>
-                <td class='font-weight-600'>Modal year</td>
-                <td>
-                  {{ booking.vehicle.Year }}
-                </td>
-              </tr>
-            </tbody>
-          </template>
-        </v-simple-table>
-      </v-card-text>
-      <!-- /vehicle info -->
+      </v-row>
 
       <v-spacer></v-spacer>
       <v-card-subtitle>
@@ -116,6 +131,15 @@ export default {
 
     booking: null,
     isLoading: false,
+
+    breadcrumbs: [
+      {
+        text: 'Bookings',
+        disabled: false,
+        to: {name: 'my-booking'},
+        exact: true,
+      },
+    ],
   }),
   computed: {
     bookingId() {
@@ -138,6 +162,12 @@ export default {
   },
   mounted () {
     this.fetch();
+
+    this.breadcrumbs = [...this.breadcrumbs, {
+      text: 'Booking #' + this.bookingId,
+      disabled: true,
+      href: '#'
+    }];
   },
   methods: {
     fetch() {

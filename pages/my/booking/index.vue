@@ -68,7 +68,7 @@ export default {
   methods: {
     fetch() {
       this.isLoading = true;
-
+      
       getBookings(this.http).then(res => {
         this.bookings = res;
       }).finally(() => this.isLoading = false);
