@@ -113,6 +113,7 @@
       :is-open='drawer'
       @close='drawer = false'
     ></navbar-drawer-left>
+<app-bar></app-bar>
   </div>
 </template>
 
@@ -121,6 +122,7 @@ import Vue from 'vue';
 import mixins from '@/mixins';
 import NavbarDrawerLeft from './__components/navbar-drawer-left.vue';
 import NavbarUserMenu from './__components/navbar-user-menu.vue';
+import AppBar from './__components/app-bar.vue';
 
 Vue.mixin(mixins);
 
@@ -130,12 +132,19 @@ export default {
   components: {
     NavbarDrawerLeft,
     NavbarUserMenu,
+    AppBar,
   },
 
   data: () => ({
     drawer: false,
-  })
-}
+     items: [
+        { title: 'Click Me' },
+        { title: 'Click Me 2' },
+      ],
+   
+    })
+  }
+ 
 </script>
 
 <style lang="scss" scoped>
@@ -159,4 +168,5 @@ export default {
     font-size: 29px;
   }
 }
+
 </style>
