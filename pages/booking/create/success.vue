@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <v-row>
-      <v-col>
+    <v-row justify="center">
+      <v-col cols=12 md=8 lg=6 xl=5>
         <v-card>
           <v-card-text class='text-center'>
             <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">

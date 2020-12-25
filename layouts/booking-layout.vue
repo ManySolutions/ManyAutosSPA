@@ -1,0 +1,59 @@
+<template>
+  <div
+    class='booking-layout-page home-sec-gaps pt-5'
+    :style='`background-image: url(${assets("/frontend/bg-overlay.png")})`'
+  >
+    <v-container>
+      <v-row justify="center">
+        <v-col>
+          <h1 class='heading__title text-center pb-lg-5'>
+            <slot name='title'></slot>
+          </h1>
+        </v-col>
+      </v-row>
+      
+      <v-row justify="center">
+        <v-col cols=12 lg=8 xl=6>
+          <v-breadcrumbs
+            :items='breadcrumbs'
+          ></v-breadcrumbs>
+        </v-col>
+        <v-col
+          v-if='isDevice.md'
+          cols=12 lg=4 xl=3
+          class='d-none d-md-block'
+        ></v-col>
+      </v-row>
+
+      <v-row justify="center">
+        <v-col cols=12 lg=8 xl=6>
+          <slot></slot>
+        </v-col>
+        <v-col
+          v-if='isDevice.md'
+          cols=12 lg=4 xl=3
+          class='d-none d-md-block'
+        >
+          <desktop-cart></desktop-cart>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
+</template>
+<script>
+import desktopCart from '~/components/func-components/desktop-cart.vue'
+export default {
+  components: { desktopCart },
+  props: {
+    breadcrumbs: [Array, Object],
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.booking-layout-page {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+</style>

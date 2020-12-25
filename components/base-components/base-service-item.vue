@@ -5,18 +5,27 @@
       type='article, button'
     ></v-skeleton-loader>
     <div v-else>
-      <div class="si-sec">
-        <div class="">
+      <v-row class="si-sec">
+        <v-col 
+          class='py-0' 
+          cols=12 
+          md=6
+        >
           <h2 class='ma-si-heading'>
             {{ title }}
           </h2>
-        </div>
-        <div class="">
+        </v-col>
+        <v-col 
+          class='py-0'
+          :class='isDevice.md ? "text-right": ""' 
+          cols=12 
+          md=6
+        >
           <span class='ma-si-price'>
             {{ currencySymbol }}
             {{ priceFormatted || '00.00' }}
           </span>
-        </div>
+        </v-col>
         <div class="">
           <!-- <mot-alert
             v-if='id == "MOT"'
@@ -24,7 +33,7 @@
             theme='info' 
           /> -->
         </div>
-      </div>
+      </v-row>
 
       <div class="si-sec" v-if='description'>
         <p class="my-0">
@@ -67,7 +76,7 @@
       <v-btn
         v-else
         color='primary'
-        block
+        :block='isMinDevice'
         large
         class='mt-5'
         :loading='isLoading'
