@@ -1,7 +1,7 @@
 <template>
   <page-layout
-    title='Hyundai Service'
-    heading-bg='customer-v2/static-pages/allpics/Hyundai.jpg'
+    title='Mazda Service'
+    heading-bg='customer-v2/static-pages/allpics/Mazda.jpg'
   >
     <div class="container landing-page-container">
 <div class="row">
@@ -16,7 +16,7 @@
 <v-expansion-panels popout>
   <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
     <v-expansion-panel-header class="card-header">
-      Hyundai Service
+      Mazda Service
     </v-expansion-panel-header>
     <v-expansion-panel-content class="card-header-body">
       Full Service includes a comprehensive 70-point check, Interim Service has a 50-point check. At Many Autos we use
@@ -67,7 +67,7 @@
       <p class="text-teal text-18 justify">The grade and type of engine oil used can also impact the car's economy and
         emissions, so it is essential to use the correct grade engine oil. Unlike blood, engine oils don't self-cleanse
         and after a short amount of time will start to degrade and become progressively dirtier and less efficient.</p>
-      <p class="text-teal text-18 justify">At Many Autos we cater for all models within the Hyundai range.
+      <p class="text-teal text-18 justify">At Many Autos we cater for all models within the Mazda range.
         If you do not see your vehicle in the list below, please call us and we will give you a quote for your car
         service accordingly.</p>
     </v-expansion-panel-content>
@@ -100,7 +100,7 @@
   <v-expansion-panels popout>
     <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
       <v-expansion-panel-header class="card-header">
-        Hyundai vehicle initial checks
+        Mazda vehicle initial checks
       </v-expansion-panel-header>
       <v-expansion-panel-content class="card-header-body">
         <div class="col-12 check-point-table">
@@ -221,7 +221,7 @@
   <v-expansion-panels popout>
     <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
       <v-expansion-panel-header class="card-header">
-        Hyundai vehicle on ground checks
+        Mazda vehicle on ground checks
       </v-expansion-panel-header>
       <v-expansion-panel-content class="card-header-body">
         <div class="col-12 check-point-table">
@@ -591,7 +591,7 @@
 <v-expansion-panels popout>
   <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
     <v-expansion-panel-header class="card-header">
-      Hyundai vehicle raised / off the ground checks
+      Mazda vehicle raised / off the ground checks
     </v-expansion-panel-header>
     <v-expansion-panel-content class="card-header-body">
       <div class="col-12 check-point-table">
@@ -896,7 +896,7 @@
  <v-expansion-panels popout>
    <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
      <v-expansion-panel-header class="card-header">
-       Hyundai vehicle final checks
+       Mazda vehicle final checks
      </v-expansion-panel-header>
      <v-expansion-panel-content class="card-header-body">
        <div class="col-12 check-point-table">
@@ -975,7 +975,7 @@
            <v-expansion-panels popout>
              <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
                <v-expansion-panel-header class="card-header">
-                 Hyundai Brake fluid Service
+                 Mazda Brake fluid Service
                </v-expansion-panel-header>
                <v-expansion-panel-content class="card-header-body">
                  Over time, the brake fluid in your car becomes less effective as it absorbs moisture from the
@@ -985,17 +985,17 @@
              </v-expansion-panel>
              <v-expansion-panel v-for="(item,i) in 1" :key="i">
                <v-expansion-panel-header class="card-header">
-                 Hyundai Transmission Service
+                 Mazda Transmission Service
                </v-expansion-panel-header>
                <v-expansion-panel-content class="card-header-body">
-                 Hyundai Transmission Service Your transmission oil plays a vital role as both a lubricant and
+                 Mazda Transmission Service Your transmission oil plays a vital role as both a lubricant and
                  coolant. As it’s subjected to more and more gear changes, it gradually becomes thinner and needs to be
                  replaced. Your Service Schedule recommends.
                </v-expansion-panel-content>
              </v-expansion-panel>
              <v-expansion-panel v-for="(item,i) in 1" :key="i">
                <v-expansion-panel-header class="card-header">
-                 Hyundai Engine Coolant Service
+                 Mazda Engine Coolant Service
                </v-expansion-panel-header>
                <v-expansion-panel-content class="card-header-body">
                  The engine coolant circulates through the car's cooling system, it serves to keep the engine at an
@@ -1021,12 +1021,12 @@
              </v-expansion-panel>
              <v-expansion-panel v-for="(item,i) in 1" :key="i">
                <v-expansion-panel-header class="card-header">
-                 Hyundai Air Conditioning Service important
+                 Mazda Air Conditioning Service important
                </v-expansion-panel-header>
                <v-expansion-panel-content class="card-header-body">
-                 In short, a Hyundai Air Conditioning Service enables you to maintain the perfect climate when
+                 In short, a Mazda Air Conditioning Service enables you to maintain the perfect climate when
                  driving. However, the perfect climate isn’t just limited to the temperature. Providing an enjoyable
-                 cabin that is dust and allergen free is one of the key roles of your Hyundai s air conditioning
+                 cabin that is dust and allergen free is one of the key roles of your Mazda s air conditioning
                  system. To keep your air conditioning working perfectly, we recommend operating the system often, as
                  well as ensuring you have it examined and receive one of our air conditioning service options completed
                  by our expert Technicians, regularly.
@@ -1034,25 +1034,25 @@
              </v-expansion-panel>
              <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
                <v-expansion-panel-header class="card-header">
-                 Hyundai Air Conditioning Recharge.
+                 Mazda Air Conditioning Recharge.
                </v-expansion-panel-header>
                <v-expansion-panel-content class="card-header-body">
                  If you find that you are unable to achieve a comfortable temperature or de-fog your windscreen on a
-                 cold morning, your car may need an air conditioning recharge. A Hyundai Recharge Service is the
+                 cold morning, your car may need an air conditioning recharge. A Mazda Recharge Service is the
                  perfect fix and includes full system checks for both pressure and leaks, as well as a complete drain
-                 and refilling of refrigerant and lubricants. And as to be expected, the Hyundai Air Conditioning
+                 and refilling of refrigerant and lubricants. And as to be expected, the Mazda Air Conditioning
                  Recharge Service comes with a level of expertise only.
 
                </v-expansion-panel-content>
              </v-expansion-panel>
              <v-expansion-panel v-for="(item,i) in 1" :key="i">
                <v-expansion-panel-header class="card-header">
-                 Hyundai Air Conditioning Refresh.
+                 Mazda Air Conditioning Refresh.
                </v-expansion-panel-header>
                <v-expansion-panel-content class="card-header-body">
-                 Is your Hyundai starting to lose that new car smell? It may be time for a refresh service. We want
+                 Is your Mazda starting to lose that new car smell? It may be time for a refresh service. We want
                  your drive to be as comfortable as possible and we have the expertise to make that happen we recommend
-                 you take your Hyundai to your local Many Autos Hyundai Centre so a highly trained Hyundai
+                 you take your Mazda to your local Many Autos Mazda Centre so a highly trained Mazda
                  technician can clean and disinfect the evaporator and air duct systems, as well as treat the air vents
                  and the interior to keep that new car smell for a little longer.
 
@@ -1060,12 +1060,12 @@
              </v-expansion-panel>
              <v-expansion-panel v-for="(item,i) in 1" :key="i">
                <v-expansion-panel-header class="card-header">
-                 Hyundai Digital Service Schedule
+                 Mazda Digital Service Schedule
                </v-expansion-panel-header>
                <v-expansion-panel-content class="card-header-body">
-                 Hyundai entire service history is now stored electronically in a secure Hyundai database. This
+                 Mazda entire service history is now stored electronically in a secure Mazda database. This
                  gives us a simple way to access information and guard against details being lost, as well as to protect
-                 buyers from forgery. Of course, when you have your Hyundai serviced, we’ll also provide you with a
+                 buyers from forgery. Of course, when you have your Mazda serviced, we’ll also provide you with a
                  convenient printout of any work done or recommended.
                </v-expansion-panel-content>
              </v-expansion-panel>
@@ -1087,39 +1087,39 @@
             <v-expansion-panels popout>
               <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
                 <v-expansion-panel-header class="card-header">
-                  Hyundai Oil Leaks or Burning Oil Smell
+                  Mazda Oil Leaks or Burning Oil Smell
                 </v-expansion-panel-header>
                 <v-expansion-panel-content class="card-header-body">
-                  It is known that Hyundai engines commonly leak form the valve covers or tensioner gasket seals.
+                  It is known that Mazda engines commonly leak form the valve covers or tensioner gasket seals.
                   This can be a highly hazardous as there is a risk of leaking oil hitting the exhaust which will in
                   turn cause the oil to burn. Engine oil also destroys wiring if it comes into contact which is why you
-                  may face electrical faults as a result of leaking oil in your Hyundai. If your engine oil is
-                  leaking in your Hyundai, a mechanic will be sure to find it during a full service as there are a
+                  may face electrical faults as a result of leaking oil in your Mazda. If your engine oil is
+                  leaking in your Mazda, a mechanic will be sure to find it during a full service as there are a
                   number of tell-tale signs. It would be hard not to miss as the liquid would be likely to be dripping
                   form the undercarriage of the car..
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel v-for="(item,i) in 1" :key="i">
                 <v-expansion-panel-header class="card-header">
-                  Clunking or Clicking when Turning your Hyundai
+                  Clunking or Clicking when Turning your Mazda
                 </v-expansion-panel-header>
                 <v-expansion-panel-content class="card-header-body">
-                  If the axle joint on an Hyundai dries out, you are likely to hear a clunking or clicking sound when
+                  If the axle joint on an Mazda dries out, you are likely to hear a clunking or clicking sound when
                   making sharp turns. This happens when the CV boot has been torn and grease has been split into the
                   interior engine. The axle joint needs grease to operate properly and so when there isn’t any
-                  available, you’re going to face problems. During an Hyundai full service, a mechanic will be likely
+                  available, you’re going to face problems. During an Mazda full service, a mechanic will be likely
                   to check on the health of the CV boot and axle joint if you have been hearing strange noises coming
                   from your car.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel v-for="(item,i) in 1" :key="i">
                 <v-expansion-panel-header class="card-header">
-                  Hyundai Exhaust Leak – Unhealthy Sound
+                  Mazda Exhaust Leak – Unhealthy Sound
                 </v-expansion-panel-header>
                 <v-expansion-panel-content class="card-header-body">
-                  Many Hyundai models have a flexible joint in the exhaust between the down-pipe and the catalytic
+                  Many Mazda models have a flexible joint in the exhaust between the down-pipe and the catalytic
                   converters. This joint is prone to weathering and often begins to leak. While the deeper exhaust note
-                  can sound cool for a while, the results can be very expensive. There are a range of other Hyundai
+                  can sound cool for a while, the results can be very expensive. There are a range of other Mazda
                   specific problems which may be picked up during a full service, here are just a few more of the other
                   common issues.
 
@@ -1197,20 +1197,20 @@ export default {
   },
 
   head: {
-    title: 'Hyundai Service',
+    title: 'Mazda Service',
 
     meta: [
       {
         name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Hyundai service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Mazda service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
       },
       {
         name: 'keywords', 
-        content: 'hyundai service, hyundai service deal in Reading, hyundai full services,hyundai full services  in Reading, hyundai interim service, hyundai major service deal in Reading, hyundai servicing in Reading, car service, car servicing, car services'
+        content: 'mazda service, mazda service deal in Reading, mazda full services,mazda full services  in Reading, mazda interim service, mazda major service deal in Reading, mazda servicing in Reading, car service, car servicing, car services'
       },
       {
         property: "og:title", 
-        content: "Hyundai Service | ManyAutos LTD"
+        content: "Mazda Service | ManyAutos LTD"
       },
       {
         property: "og:type", 
@@ -1230,7 +1230,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Hyundai service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Mazda service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
       },
       {
         name: "twitter:card", 
@@ -1238,11 +1238,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Hyundai Service | ManyAutos LTD"
+        content: "Mazda Service | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Hyundai service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Mazda service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
       },
       {
         name: "twitter:image", 
