@@ -70,11 +70,11 @@ export default {
 
   methods: {
     assets(url) {
-      let baseURL = process.env.LOCAL_ASSETS_URL;
+      let baseURL = process.env.PRODUCTION_ASSETS_URL;
 
       if (process.client) {
-        if ( window.location.hostname != 'localhost' )
-          baseURL = process.env.PRODUCTION_ASSETS_URL
+        if ( window.location.hostname == 'localhost' )
+          baseURL = process.env.LOCAL_ASSETS_URL
       }
 
       return baseURL + url;

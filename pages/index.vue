@@ -51,21 +51,7 @@
       </v-col>
     </v-row>
     <!-- /first section for registration -->
-    <v-row
-      :style='`background-image: url(${assets("customer-v2/alex-suprun.jpg")})`'
-      class='has-bg-overlay home-sec-2'
-    >
-      <v-col>
-        <div class='sec-2 home-sec-between-gaps'>
-          <h1 class='text-white heading__title mb-5 font-weight-300'>
-            ATTENTION! Our pricing is <span class='text-primary font-weight-500'>fixed & fair</span>
-          </h1>
-          <p class='font-weight-300'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, saepe dolores! Officia ullam deserunt iste velit, minima cum et ad exercitationem quaerat praesentium beatae facere eum aliquid? Dolorem, incidunt quibusdam.
-          </p>
-        </div>
-      </v-col>
-    </v-row>
+    <index-section-2></index-section-2>
     <v-row>
       <index-how-it-works></index-how-it-works>
       <car-reg-form has-bg-image></car-reg-form>
@@ -88,6 +74,7 @@ import IndexReviews from '~/pages/__components/index-reviews.vue';
 import IndexFaq from '~/pages/__components/index-faq.vue';
 import CarRegForm from '~/components/func-components/car-reg-form.vue';
 import CarRegFormCard from '~/components/func-components/car-reg-form-card.vue';
+import IndexSection2 from './__components/index-section-2.vue';
 
 export default {
   components: {
@@ -99,6 +86,7 @@ export default {
     IndexFaq,
     CarRegForm,
     CarRegFormCard,
+    IndexSection2,
   },
 
   data: () => ({ }),
@@ -131,32 +119,7 @@ export default {
     font-size: 22px;
   }
 }
-.has-bg-overlay {
-  position: relative;
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #0da8c757;
-  }
-  &:after {
-    background: rgba(51,51,51,.63);
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-}
-.sec-2 {
-  position: relative;
-  z-index: 1;
-  color: white;
-}
+
 .home-top {
   padding-bottom: 20px;
   background: url('~static/imgs/88246.png')  top center;
@@ -180,10 +143,6 @@ export default {
 }
 .home-sec-1 {
   padding-bottom: 30px;
-}
-.home-sec-2 {
-  background-size: cover;
-  background-position: center;
 }
 
 .top-h-icons {

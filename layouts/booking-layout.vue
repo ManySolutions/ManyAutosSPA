@@ -26,12 +26,12 @@
       </v-row>
 
       <v-row justify="center">
-        <v-col cols=12 lg=8 xl=6>
+        <v-col cols=12 md=8 xl=6>
           <slot></slot>
         </v-col>
         <v-col
           v-if='isDevice.md'
-          cols=12 lg=4 xl=3
+          cols=12 md=4 xl=3
           class='d-none d-md-block'
         >
           <desktop-cart></desktop-cart>
