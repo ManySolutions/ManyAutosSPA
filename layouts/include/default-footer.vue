@@ -1,8 +1,8 @@
 <template>
-  <footer class="footer-main">
+  <footer class="footer-main pl-7">
     <v-container fluid>
       <v-row>
-        <v-col cols='12' md="6" lg="3" order-md="3">
+        <v-col class="section" cols='12' md="6" lg="3" order-md="3" order-lg="1">
           <div class="logo-footer ml-0">
             <img :src="assets('/customer-v2/logo-default.png')" alt="">
           </div>
@@ -13,7 +13,7 @@
             tation. sit amet, consec tetuer.ipsum dolor sit amet, consectetuer.
           </p>
         </v-col>
-        <v-col cols='12' md="6" lg="3" order-md="1">
+        <v-col cols='12' md="6" lg="3" order-md="1" order-lg="2">
           <h4 class="text-white text-uppercase">
             Popular Car Services
           </h4>
@@ -31,7 +31,7 @@
             </v-btn>
           </div>
         </v-col>
-        <v-col cols='12' md="6" lg="3" order-md="2">
+        <v-col cols='12' md="6" lg="3" order-md="2" order-lg="3">
           <h4 class="text-white text-uppercase">
            Meet ManyAutos
           </h4>
@@ -49,7 +49,7 @@
             </v-btn>
           </div>
         </v-col>
-        <v-col cols='12' md="6" lg="3" order-md="4">
+        <v-col cols='12' md="6" lg="3" order-md="4" order-lg="4">
           <h4 class="text-white text-uppercase">
             Contact Us
           </h4>
