@@ -1,5 +1,5 @@
 <template>
-  <div class="page static-page" :class='cls'>
+  <div class="page static-page home-sec-gaps pt-0" :class='cls'>
     <div class="static-page-heading" style=''>
       <template v-if='headingBg'>
         <div 
@@ -15,6 +15,7 @@
           <v-btn
             color='secondary'
             large
+            to='/service-booking'
           >
             <span class="">{{ 'Get an instant Quote' }}</span>
             <v-icon>
@@ -46,6 +47,9 @@ export default {
 <style lang="scss" scoped>
 .page {
   &.static-page {
+    > .container > .row {
+      justify-content: center;
+    }
     .panel-heading {
       background: whitesmoke;
       border: 1px solid #ececec;
@@ -83,17 +87,13 @@ export default {
       background: rgb(69 90 100);
       color: white;
       padding-top: 90px;
-      // @media(min-width: $lg) {
-      //   padding-top: 110px;
-      //   padding-bottom: 60px;
-      // }
 
       h1 {
         font-size: 28px;
         text-align: center;
-        // @media(min-width: $lg) {
-        //   font-size: 34px;
-        // }
+        @media (min-width: 960px) {
+          font-size: 38px;
+        }
       }
 
       & + div {
@@ -109,8 +109,12 @@ export default {
     position: relative;
     padding-bottom: 120px;
     padding-top: 50px;
+    @media (min-width: 960px) {
+      padding-bottom: 200px;
+      padding-top: 110px;
+    }
     .slantdiv {
-      background: #f8fafc;
+      background: #ffffff;
       width: 100%;
       height: 100px;
       position: absolute;

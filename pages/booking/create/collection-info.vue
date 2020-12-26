@@ -304,7 +304,7 @@ export default {
           toastr.success(message);
 
           setTimeout(() => {
-            this.$router.push({ name: 'booking-create-success'})
+            window.location.href='/booking/create/success'
           }, 500);
         })
         .catch(err => toastr.error(err))
