@@ -6,6 +6,8 @@
       placeholder="John doe"
       filled
       rounded
+      :error='!!errors["user.name"]'
+      :hint="errors['user.name'] ? errors['user.name'][0] : null"
     ></v-text-field>
     <v-text-field
       v-model='email'
@@ -13,6 +15,8 @@
       placeholder="example@xyz.com"
       filled
       rounded
+      :error='!!errors["user.email"]'
+      :hint="errors['user.email'] ? errors['user.email'][0] : null"
       type='email'
     ></v-text-field>
     <v-text-field
@@ -21,6 +25,8 @@
       placeholder="****"
       filled
       rounded
+      :error='!!errors["user.password"]'
+      :hint="errors['user.password'] ? errors['user.password'][0] : null"
       type='password'
     ></v-text-field>
     <v-select
@@ -28,6 +34,8 @@
       :items='countryList'
       filled
       rounded
+      :error='!!errors["user.countryCode"]'
+      :hint="errors['user.countryCode'] ? errors['user.countryCode'][0] : null"
       label="Choose Country"
       item-text='name'
       item-value='code'
@@ -38,6 +46,8 @@
       placeholder="71928974001"
       filled
       rounded
+      :error='!!errors["user.mobileNo"]'
+      :hint="errors['user.mobileNo'] ? errors['user.mobileNo'][0] : null"
     ></v-text-field>
   </div>
 </template>
@@ -46,6 +56,10 @@
 import { countryList } from '~/utils/vars';
 
 export default {
+  props: {
+    errors: [Array, Object],
+  },
+
   data: () => ({
     email: '',
     password: '',
