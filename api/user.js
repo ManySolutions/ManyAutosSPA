@@ -11,3 +11,7 @@ export async function registerUser(data) {
 export async function logoutUser(http) {
   return (await http.get(`/auth/logout/user`)).data
 }
+
+export async function generateTicket(data, $http=null) {
+  return (await ($http || http).post(`user/ticket`, data)).data
+}
