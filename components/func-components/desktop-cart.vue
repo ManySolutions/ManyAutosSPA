@@ -113,6 +113,7 @@
           block
           large
           to='/booking/create/collection-info'
+          :disabled='$route.name == "booking-create-collection-info"'
         >
           <strong>
             Book Now

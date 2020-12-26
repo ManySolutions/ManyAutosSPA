@@ -56,12 +56,16 @@
           {{ menu.title }}
         </v-btn>
       </template>
+      <navbar-user-menu></navbar-user-menu>
     </v-app-bar>
   </div>
 </template>
 
 <script>
+import navbarUserMenu from "./navbar-user-menu.vue"
+
 export default {
+  components: { navbarUserMenu },
   data: () => ({
     navbarMenu: [
       { title: "Car Services", url: "#", children: [
