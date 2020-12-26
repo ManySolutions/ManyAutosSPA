@@ -1,8 +1,10 @@
 <template>
-  <footer class="footer-main pl-7">
-    <v-container fluid>
+  <footer class="footer-main">
+    <v-container fluid
+      class='px-7 py-10'
+    >
       <v-row>
-        <v-col class="section" cols='12' md="6" lg="3" order-md="3" order-lg="1">
+        <v-col class="section" cols='12' md="6" lg="4" order-md="3" order-lg="1">
           <div class="logo-footer ml-0">
             <img :src="assets('/customer-v2/logo-default.png')" alt="">
           </div>
@@ -31,7 +33,7 @@
             </v-btn>
           </div>
         </v-col>
-        <v-col cols='12' md="6" lg="3" order-md="2" order-lg="3">
+        <v-col cols='12' md="6" lg="2" order-md="2" order-lg="3">
           <h4 class="text-white text-uppercase">
            Meet ManyAutos
           </h4>

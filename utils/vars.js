@@ -309,11 +309,11 @@ export const countryList = [
     two_letter: 'VA', 
     three_letter: 'VAT' 
   },
-]
+];
+
 export const carsList = [
   { 
     code: 'car-service', 
-    // name: 'Service Guide Home' 
     name: 'Car Service'
   },
   {

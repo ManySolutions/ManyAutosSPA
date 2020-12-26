@@ -5,7 +5,7 @@
     >
       <v-list-item tow-line>
         <v-list-item-content>
-          <div class="overline mb-4">
+          <div class="overline mb-4 font-weight-600">
             YOUR ADDED SERVICES
           </div>
           <div>

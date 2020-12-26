@@ -6,7 +6,7 @@
     </v-main>
 
     <client-only>
-      <mini-cart v-if='isDevice.xs'></mini-cart>
+      <mini-cart v-if='isDevice.xs || (isDevice.sm && !isDevice.md)'></mini-cart>
     </client-only>
 
     <default-footer></default-footer>
