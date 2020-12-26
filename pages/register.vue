@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class='home-sec-gaps'>
     <v-row>
       <v-col cols="12">
         <v-form @submit.prevent="handleSubmit()">

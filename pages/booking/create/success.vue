@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <v-row justify="center">
+    <v-row justify="center" class='home-sec-gaps'>
       <v-col cols=12 md=8 lg=6 xl=5>
-        <v-card>
+        <v-card class='py-10'>
           <v-card-text class='text-center'>
             <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
               <i class="checkmark secondary--text">✓</i>
