@@ -1,15 +1,17 @@
 <template>
-  <page-layout
+    <page-layout
     title='Register Your Garage'
     heading-bg='customer-v2/static-pages/registergarages.jpg'
   >
-        <div>
-<v-container class="garage-network pt-10">
-    <v-row>
-        <v-col cols="12" md="6" order-md="2">  
+  <div>
+    <v-container class="garage-network pt-10">
+      <v-row class="justify-content-center" >
+            <v-col cols="12" md="6">  
            <v-card class="mx-auto mt-5" max-width="344">
             <v-card-text>
-              <h3 class="register-title text-center pt-5 mb-10">
+              <h3 class="register-title text-center pt-5 mb-10"
+              style="font-size:1.75rem; font-weight:300;"
+              >
                 Register Here
               </h3>
               <v-text-field 
@@ -18,15 +20,9 @@
                 outlined
               >
               </v-text-field>
-              <v-text-field 
-                label="Name" 
+               <v-text-field 
+                label="First Name" 
                 placeholder="Your Name" 
-                outlined
-              >
-              </v-text-field>
-              <v-text-field
-                label="Contact No."
-                placeholder="Your Contact no."
                 outlined
               >
               </v-text-field>
@@ -37,34 +33,59 @@
                 outlined
               >
               </v-text-field>
-                <div class="login text-left">
+              <v-text-field 
+                label="Password" 
+                placeholder="*****"
+                type='password'
+                outlined
+              >
+              </v-text-field>
+                <v-text-field 
+                label="Confirm Password" 
+                placeholder="*****"
+                type='password'
+                outlined
+              >
+              </v-text-field>
+              <v-text-field
+                label="Mobile No."
+                placeholder="Your Mobile no."
+                outlined
+              >
+              </v-text-field>
+                <v-text-field
+                label="Telephone"
+                placeholder="Your no."
+                outlined
+              >
+              </v-text-field>
+              <v-text-field
+                label="VAT No"
+                placeholder="Your VAT no."
+                outlined
+              >
+              </v-text-field>
+              <v-text-field
+                label="Postal Code"
+                placeholder="Postal code"
+                outlined
+              >
+              </v-text-field>
+                <div class="login text-right">
               <v-btn 
                     color="primary"
-                    left
               >
-                    Contact Me
+                    Submit
                 </v-btn>
               </div>
             </v-card-text>
            </v-card>
         </v-col>
-        <v-col cols="12" md="6" order-md="1">          
-            <div class="values">
-                <h2>Why you should join our Network?</h2>
-                <h3 style="font-weight: 200; font-size:1.75rem;">Simple, upfront and fair.</h3>
-                <p class="heading-para" style="padding-top: 20px;" >Joining our network means - we look after you as well as the customers. Pricing is always clear and upfront so there are no surprises for the customer.</p>
-                <v-icon class="logos" style="color: #00B4D8;">mdi-laptop-windows</v-icon><span class="icon">Easy to use online booking management system.<br></span>
-                <v-icon class="logos" style="color: #00B4D8;">mdi-credit-card-outline</v-icon><span class="icon">Price promise: there will never be a monthly fee.<br></span>
-                <v-icon class="logos" style="color: #00B4D8;">mdi-timer-sand</v-icon><span class="icon">   Payment is made 10 working days after job completion.<br></span>
-                 <v-icon class="logos" style="color: #00B4D8;">mdi-laptop-windows</v-icon><span class="icon">Chat with an advisor with ease, no waiting in call queues.<br></span>
-            </div> 
-        </v-col>
     </v-row>
-</v-container>
-</div>
-  </page-layout>
+  </v-container>
+  </div>
+</page-layout>
 </template>
-
 <script>
 import PageLayout from '@/layouts/page-layout';
 
@@ -139,58 +160,19 @@ export default {
   }
 }
 </script>
-
 <style lang="scss" scoped>
-@media (max-width:768px){
-            .garage-network  .values .logos{
-    
-            padding-bottom: 3px;
-            // padding-top: 20px;
-        }
-        }
-        .garage-network .register-title{
-
-            font-size: 1.75rem;
-            font-weight: 300;
-        }
-        .garage-network  .values .logos{
-            
-            font-size: 22px;
-            padding-bottom: 3px;
-            // padding-top: 20px;
-}
-        h2{
-            font-weight: 200;
-            font-size: 2rem;
-        }
-         .garage-network .list .icon{
-            
-            margin-left: 12px;
-            font-weight: 200;
-            font-size: 20px;
-        }
-        .garage-network  .values .icon{
-            
-            margin-left: 12px;
-            font-weight: 200;
-            font-size: larger;
-            padding-bottom: 3px;
-            padding-top: 2px;
-        }
-        .garage-network .card.register-form{
-
-            background-color:#d7ddde; 
-            margin-bottom: 20px;
-            padding-bottom: 15px;
-        }
-        .garage-network .card.register-form label{
-
-            padding-top: 14px;
-            font-weight: 200;
-        }
-@media (max-width:768px){
     .garage-network .card.register-form{
-        margin-top: 35px;
+        background-color:#d7ddde; 
+        margin-bottom: 20px;
+        padding-bottom: 15px;
     }
+    .garage-network .card.register-form label{
+        padding-top: 14px;
+        font-weight: 200;
+    }
+@media (max-width:768px){
+.garage-network .card.register-form{
+    margin-top: 35px;
+}
 }
 </style>

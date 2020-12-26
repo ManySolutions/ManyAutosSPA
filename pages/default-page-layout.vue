@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title='Default Page Layout'
-    heading-bg='customer-v2/static-pages/service.jpg'
+    heading-bg='customer-v2/static-pages/registergarages.jpg'
   >
     your code here
   </page-layout>
