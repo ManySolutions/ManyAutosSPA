@@ -15,8 +15,8 @@
           overlap
           :content="cartCount"
           :value="cartCount"
-          offset-x="-10"
-          offset-y="-10"
+          offset-x
+          offset-y
         >
           <v-icon class='arrow-anim arrow-slide-up'>mdi-cart</v-icon>
           <v-icon class='arrow-anim-next arrow-slide-down'>mdi-arrow-right</v-icon>

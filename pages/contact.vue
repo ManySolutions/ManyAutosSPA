@@ -9,6 +9,9 @@
                 <h2 class="register-title text-center pt-5 mb-10">
                   Submit your query with us now.
                 </h2>
+                <v-alert v-if='alert.status' :type='alert.status'>
+                  {{ alert.message }}
+                </v-alert>
                 <v-text-field
                   v-model="form.name"
                   label="Name"
@@ -23,6 +26,7 @@
                   v-model="form.mobile_no"
                   label="Contact No."
                   placeholder="Your Contact no."
+                  type='number'
                   outlined
                   :error="!!errors.mobile_no"
                   :hint="errors.mobile_no ? errors.mobile_no[0] : null"
@@ -30,12 +34,12 @@
                 >
                 </v-text-field>
                 <v-text-field
-                  v-model="form.mobile_no"
+                  v-model="form.reg_no"
                   label="Reg No."
                   placeholder="Your Car Reg no."
                   outlined
-                  :error="!!errors.mobile_no"
-                  :hint="errors.mobile_no ? errors.mobile_no[0] : null"
+                  :error="!!errors.reg_no"
+                  :hint="errors.reg_no ? errors.reg_no[0] : null"
                   persistent-hint
                 >
                 </v-text-field>
@@ -51,16 +55,23 @@
                 >
                 </v-text-field>
                 <v-textarea
+                  v-model='form.message'
                   outlined
                   name="input-7-4"
                   label="Enquiry Details"
                   placeholder="Enter details of your enquiry."
+                  :error="!!errors.message"
+                  :hint="errors.message ? errors.message[0] : null"
                 >
                 </v-textarea>
                 <v-file-input chips multiple label="File input"> </v-file-input>
                 <div class="login text-center mt-10">
-                  <v-btn tile color="success"> Reset </v-btn>
-                  <v-btn color="primary"> Send Message </v-btn>
+                  <v-btn 
+                    color="primary" 
+                    type="submit" 
+                    :loading='isLoading'
+                    large
+                  > Send Message </v-btn>
                 </div>
               </v-card-text>
             </v-card>
@@ -148,7 +159,7 @@
 <script>
 import toastr from "toastr";
 import { mapActions } from "vuex";
-import { registerUser } from "~/api/user";
+import { generateTicket } from "~/api/user";
 import { countryList } from "~/utils/vars";
 import pageLayout from "~/layouts/page-layout.vue";
 
@@ -158,16 +169,17 @@ export default {
     return {
       form: {
         email: "",
-        password: "",
-        password_confirmation: "",
-        country_code: "44",
         mobile_no: "",
-        is_sms: true,
         name: "",
+        message: '',
+        reg_no: '',
       },
-      countryList,
       errors: {},
       isLoading: false,
+      alert: {
+        status: null,
+        message: '',
+      },
     };
   },
 
@@ -177,23 +189,47 @@ export default {
     handleSubmit() {
       this.isLoading = true;
       this.errors = {};
+      this.alert = {
+        ...this.alert,
+        status: null,
+        message: '',
+      };
 
-      registerUser(this.form)
+      generateTicket(this.form, this.http)
         .then((res) => {
-          const { status, message, errors, user, access_token } = res;
+          const { status, message, errors } = res;
 
           if (!status) {
             this.errors = errors;
             toastr.error(message);
+            this.alert = {
+              status: 'error',
+              message,
+            }
             return;
           }
 
-          this.authorize({ accessToken: access_token, user });
           toastr.success(message);
-          this.$router.push({ name: "index" });
+
+          this.form = {
+            ...this.form,
+            email: "",
+            mobile_no: "",
+            name: "",
+            message: '',
+            reg_no: '',
+          }
+
+          this.alert = {
+            status: 'success',
+            message,
+          }
         })
         .catch((err) => {
-          if (err >= 400) toastr.error("Unauthorized");
+          const { message, errors } = err.response.data;
+
+          this.errors = errors;
+          toastr.error(message);
         })
         .finally(() => (this.isLoading = false));
     },
