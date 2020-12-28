@@ -91,8 +91,6 @@ export default {
       {title: 'Car MOT Tests', url: '/mot'},
       {title: 'How it Works?', url: '/how-it-works'},
       {title: 'Book a Service', url: '/service-booking'},
-      {title: 'Car Full Service', url: '/service-booking'},
-      {title: 'Car Interim Service', url: '/service-booking'},
       {title: 'Car Services in UK', url: null, children: [
         {title: 'Audi Car Service', url: '/audi-service'},
         {title: 'BMW Car Service', url: '/BMW-service'},

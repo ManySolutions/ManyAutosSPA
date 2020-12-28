@@ -18,7 +18,7 @@
           </span>
           <div class="step-content">
             <h6 class="fw-600">BOOKING</h6>
-            <p class="color-dark mb-0">Book your Vehicle online or by phone</p>
+            <p class="color-dark mb-0">Book your Vehicle online or by phone.</p>
           </div>
         </div>
       </v-col>
@@ -31,7 +31,7 @@
           </span>
           <div class="step-content">
             <h6 class="fw-600">COLLECTION</h6>
-            <p class="color-dark mb-0">Have your car collected from wherever convenient</p>
+            <p class="color-dark mb-0">Have your car collected from wherever convenient.</p>
           </div>
         </div>
       </v-col>
