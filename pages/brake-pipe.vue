@@ -23,7 +23,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider replacing a Brake Line?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 As most brake lines in the majority of cars are made from rubber, they are prone to deteriorate over
                 time. Rubber brake lines can become brittle and hard, causing brake fluid to leak out of the system. In
                 this case, the hose should be replaced as soon as possible to ensure a fully functioning braking system.
@@ -38,7 +38,7 @@
               <v-expansion-panel-header class="card-header">
                 Fitting new metal brake pipes
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Checking the condition of your car's brake pipes is a job that is all too easy to forget because the
                 pipes are mostly hidden underneath the car. However, these pipes can deteriorate to the point where they
                 start to leak, causing a dangerous loss of brake fluid and eventually partial or even complete failure
@@ -60,7 +60,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Pipe checks
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Make a systematic check of all the pipes by starting at the brake fluid reservoir and working down
                 towards the brakes themselves, checking each length of pipe in turn. Wire-brush away the rust to find
                 the extent of the damage. Wipe the pipe clean of any oily deposits, then run your hands along the pipe
@@ -78,7 +78,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a Brake Line do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">A brake line (also called a brake hose or brake pipe) is a rubber
                   hose that connects the brake master cylinder (and slave cylinders) to the brake calipers at the
                   wheels. Brake fluid flows through the line. When pushing the brake panel, the braking system is
@@ -100,7 +100,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Pipe Types of union
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Your car will probably have metric brake unions, but it is important to confirm this because they may be
                 imperial. Compare the brake unions on your car with the ones shown above to find out which type they
                 are. In most modern cars, the unions between the pipes and hoses are metric, but you may have an older
@@ -113,7 +113,7 @@
               <v-expansion-panel-header class="card-header">
                 Why is my brake line leaking?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Worn Brake Pads: If you suspect fluid is leaking because the level in the reservoir is low, it might be
                 nothing more than worn pads. As the pads wear, more fluid is held in the system (because the caliper
                 piston remains farther out due to the reduced pad material). Damaged Bleeder Valve: Each caliper has a
@@ -125,7 +125,7 @@
               <v-expansion-panel-header class="card-header">
                 What is brake pipe?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Brake hoses create a flexible connection between brake pipes and wheel brakes. They transmit the
                 hydraulic pressure to the wheel cylinders and brake callipers. Brake hoses are usually made form a
                 special inner and outer rubber with a multi-layer fabric insert in between.
@@ -136,7 +136,7 @@
               <v-expansion-panel-header class="card-header">
                 Is a brake fluid leak dangerous?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Why Brake Fluid Leaks Are Dangerous. Occasionally a brake system will develop a leak and if left
                 unchecked for long enough this can cause some serious safety concerns. Fortunately, modern cars have a
                 warning light which illuminates on your dash when the fluid level drops too low.
@@ -146,7 +146,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know if your brake line is leaking?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 However, if you're losing brake fluid, you need to check for a leak in the wheel cylinders or the brake
                 lines. Wetness and streaks of dried fluid are signs of trouble. If you see rust spots on your lines,
                 gently sand them off. Also look for thin places under those spots that may turn into holes before long.
@@ -157,7 +157,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Pipe Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

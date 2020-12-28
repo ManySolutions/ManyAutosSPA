@@ -20,7 +20,7 @@
               <v-expansion-panel-header class="card-header">
                 what is an ABS Ring?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">ABS Ring is A anti-lock braking system consists of a controller, a
                   speed sensor, valves, and the ABS Speed sensor ring. The system maintains the traction of tires on
                   road and the performance of the brake against high speed is significantly improved. ABS speed sensor
@@ -42,7 +42,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Ring Symptoms
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">ABS Ring there are many things that can cause your anti-lock brake
                   (ABS) light to come on. Some of those things are serious, but oftentimes it just means you need to
                   give a little attention to your car ABS. Since the location of the ABS ring is mainly exposed to the
@@ -56,7 +56,7 @@
               <v-expansion-panel-header class="card-header">
                 The ABS Light Comes On
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> The most noticeable indication of a problem with the ABS system is
                   that the ABS Light will come on the dashboard of your car. The ABS Light might as well be called the
                   Check Engine Light in some cars that don’t have a separate indicator light for the ABS framework. At
@@ -71,7 +71,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Pedal Juddering at Low Speeds
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The brake paddle of your car might sometimes judder or make a
                   rapidly banging noise unnecessarily at low speeds just like it does while driving on ice. Which means
                   your ABS system is engaging unnecessarily at a lower speed. This is a clear indication of a faulty ABS
@@ -88,7 +88,7 @@
               <v-expansion-panel-header class="card-header">
                 The ABS Disengages Completely While Braking Hard
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">During substantial braking circumstances, the ABS system must
                   normally activate to assist in reducing the speed of the vehicle, while traction loss and skidding
                   should be eliminated or reduced to an insignificant amount. If you notice that the vehicle is taking
@@ -101,7 +101,7 @@
               <v-expansion-panel-header class="card-header">
                 How does abs ring work with abs sensor?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The ABS sensor is coupled with a ring gear. The ring is mounted on
                   components such as the brake rotor and brake drum. The ABS sensors in newer systems are fitted in the
                   wheel hub assembly itself. Depending on the type of braking system, vehicles may have as few as one or
@@ -112,7 +112,7 @@
               <v-expansion-panel-header class="card-header">
                 What does an ABS ring do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 ABS Rings. An anti-lock braking system (ABS) is fitted as standard to all modern-day cars as an
                 additional safety measure. Under heavy braking, the force exerted on the brake discs can cause the
                 wheels to lock, resulting in the car skidding along the road surface.
@@ -122,7 +122,7 @@
               <v-expansion-panel-header class="card-header">
                 How does abs ring work with abs pumps?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">ABS (or anti-lock braking system) is what keeps your wheels gripped
                   to the road when braking sharply, and prevents them from locking up to keep you in full control. The
                   hydraulic unit in the ABS system works by equalising the pressure on each individual brake or
@@ -133,7 +133,7 @@
               <v-expansion-panel-header class="card-header">
                 What are an ABS Relocator ring?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">A passive ABS Relocator Rings work with Passive ABS Sensors. These
                   are made up of a permanent magnet around which a copper wire coil is wound. This sensor is mounting in
                   close proximity to the Passive ABS Relocator Ring. As the ABS Relocator Ring rotates, the teeth create
@@ -145,7 +145,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS repairs Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

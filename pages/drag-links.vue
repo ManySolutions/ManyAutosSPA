@@ -20,7 +20,7 @@
               <v-expansion-panel-header class="card-header">
                 What is a drag link?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 An alternate steering mechanism is a rack and pinion, a three-bar linkage that eliminates the drag link
                 by directly moving a centre link. The drag link connects the pitman arm to the steering arm, or in some
                 applications it connects to the tie rod assembly.
@@ -30,7 +30,7 @@
               <v-expansion-panel-header class="card-header">
                 Is a drag link the same as a tie rod?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The drag link connects the pitman arm to the steering arm, or in some applications it connects to the
                 tie rod assembly. Unlike a centre link, the drag link does not connect to an idler arm and has no inner
                 tie rod ends attached to it. Drag links can be a solid one-piece design or an adjustable design.
@@ -40,7 +40,7 @@
               <v-expansion-panel-header class="card-header">
                 What is a drag link on a vehicle?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A drag link is a suspension linkage component that is found in vehicles equipped with steering gear type
                 steering systems. Drag links are most commonly found on larger vehicles and vans and serve as the
                 component that links the vehicle's steering gear box to the tie rod ends.
@@ -50,7 +50,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a centre link do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The term is commonly used in automotive technology for the link in steering linkage that converts
                 rotation of a pitman arm to a steering arm and eventually to tie rod links which pivot the wheels to be
                 steered. On these applications the drag link connects to the steering arm located at the wheel.
@@ -60,7 +60,7 @@
               <v-expansion-panel-header class="card-header">
                 What does the drag link connect to?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The drag link connects the pitman arm to the steering arm, or in some applications it connects to the
                 tie rod assembly. Unlike a centre link, the drag link does not connect to an idler arm and has no inner
                 tie rod ends attached to it.
@@ -70,7 +70,7 @@
               <v-expansion-panel-header class="card-header">
                 What is a car linkage?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A steering linkage is the part of an automotive steering system that connects to the front wheels.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -78,7 +78,7 @@
               <v-expansion-panel-header class="card-header">
                 What transfers movement from the steering box to the centre link?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The pitman arm attaches to the steering gear output shaft which is also commonly called the pitman
                 shaft. The pitman arm attaches to the centre link and is moved by turning the steering wheel. The centre
                 link transfers the movement from the pitman arm and pitman shaft to the idler arm on the passenger side.
@@ -88,7 +88,7 @@
               <v-expansion-panel-header class="card-header">
                 What's a steering rack?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The steering rack is composed of a rack enclosed with a steering pinion. It is connected to the steering
                 wheel through the set of shafts and U-joints. A power steering rack utilizes an engine-driven pump to
                 supply high-pressure hydraulic fluid to the steering rack when the wheel is turned.
@@ -98,7 +98,7 @@
               <v-expansion-panel-header class="card-header">
                 What's a steering pinion?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A rack and pinion gear set is enclosed in a metal tube, with each end of the rack protruding from the
                 tube. A rod, called a tie rod, connects to each end of the rack. The pinion gear is attached to the
                 steering shaft. When you turn the steering wheel, the gear spins, moving the rack.
@@ -108,7 +108,7 @@
               <v-expansion-panel-header class="card-header">
                 Drag Links Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

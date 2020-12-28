@@ -21,7 +21,7 @@
               <v-expansion-panel-header class="card-header">
                 How Brake Calipers Work?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Brake calipers are essential to your car's ability to stop and are
                   arguably one of the most important automobile brake parts. Most cars today have disc brakes, at least
                   for the front wheels, anyway. But a lot of cars and trucks are now using disc brakes in the rear, too.
@@ -58,7 +58,7 @@
               <v-expansion-panel-header class="card-header">
                 Do you have to replace calipers in pairs?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Generally, you don't replace calipers in pairs, only replace the damaged side. With you may still not
                 need to replace the caliper to solve your problem depending on the design. There may be a kit that comes
                 with new sleeves, o-rings, and grease.
@@ -68,7 +68,7 @@
               <v-expansion-panel-header class="card-header">
                 What causes calipers to go bad?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 One of the most common symptoms of a bad or failing caliper is brake fluid leakage. The calipers operate
                 using brake fluid pressure from the master cylinder and pedal to extend the piston and slow the vehicle.
                 A rubber seal and boot are what keeps the fluid from leaking out.
@@ -79,7 +79,7 @@
               <v-expansion-panel-header class="card-header">
                 What are the symptoms of a bad brake caliper?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">You'll drive safer and head off more expensive damage.</p>
                 <ul class="list">
                   <li>Brake Light On. </li>
@@ -97,7 +97,7 @@
               <v-expansion-panel-header class="card-header">
                 Is it safe to drive with a stuck caliper?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If you have a stuck caliper, the brake pad will not completely disengage from the surface of the brake
                 disc. This means you will be driving with the brakes applied slightly all the time. A major sign of a
                 stuck caliper is if the vehicle pulls to one side when braking or while driving.
@@ -107,7 +107,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Calipers Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

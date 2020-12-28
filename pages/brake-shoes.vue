@@ -21,7 +21,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Shoes Replacement
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A brake shoe is the part of a braking system which carries the brake lining in the drum brakes used on
                 vehicles.
               </v-expansion-panel-content>
@@ -30,7 +30,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Shoes
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Brake shoes are used in drum brake systems, with the lined shoe pressing against the inside of the drum
                 to stop it moving. The drum is attached to the wheel, making it a pretty clever way of getting the car
                 to stop. Brakes are something which can't be neglected - they're by far the least painful way of
@@ -43,7 +43,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a Brake shoe do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If your car has brake drums (usually older cars have drums at the rear), it will have brake shoes which
                 are situated inside the drum. The brake shoes will press against the inside of the drums when braking,
                 causing friction and eventually slowing the car down.
@@ -53,7 +53,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with a Brake Shoe?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">When the hand brake does not work properly. When there is a
                   squeaking noise coming from a corner of the car (provided that wheel has a drum brake.</p>
                 <ul class="list mt-2 mb-2">
@@ -68,7 +68,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider replacing a Brake Shoe?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Over time, the brake shoes can wear out due to the friction that it has to endure each time you brake.
                 Brake shoes can wear to such an extent that the rivets holding the friction plate to the rest of the
                 shoe can get exposed. Each time you brake in this scenario the rivets can potentially score the contact
@@ -84,7 +84,7 @@
               <v-expansion-panel-header class="card-header">
                 Are brake pads and shoes the same thing?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The main difference between the two different types of brake pads and shoes is their position in the
                 vehicle. The brake shoes are designed to fit inside your drum-style brakes, while brake shoes are placed
                 on top of disk brakes, and serve to pressurize these discs when you apply the brakes.
@@ -94,7 +94,7 @@
               <v-expansion-panel-header class="card-header">
                 Do I need brake shoes or pads?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 When using drum brakes, you need to have a rear or four-wheel drive if you have front wheel drive cars,
                 then you'll typically need to have brake pads disc than shoes. If you have drum brakes then you can't
                 use brake pads, nor can you use brake shoes with disc brakes.
@@ -104,7 +104,7 @@
               <v-expansion-panel-header class="card-header">
                 Are brake shoes sold in pairs?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 All the pads I've ever bought are sold in sets four pads or shoes for front or rear. Brake pads are not
                 sold in pairs they are sold in sets of 4 pads enough to do 1 axle. Disc (and drums) are sold per each as
                 it may not be necessary to replace both.
@@ -114,7 +114,7 @@
               <v-expansion-panel-header class="card-header">
                 What are brake shoes for?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 When the brake is applied, the shoe moves and presses the lining against the inside of the drum. The
                 friction between lining and drum provides the braking effort. Energy is dissipated as heat. Modern cars
                 have disc brakes all round, or discs at the front and drums at the rear.
@@ -124,7 +124,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake shoes Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

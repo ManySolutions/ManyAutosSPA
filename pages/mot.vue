@@ -28,7 +28,7 @@
               <v-expansion-panel-header class="card-header">
                 MOT Test Changes Since 20 May 2018
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Major changes to the MOT test came into force on 20th May this year
                   regarding the way faults and problems are classified when a vehicle is tested. From this date, all
                   vehicle faults are recorded as either Minor, Major or Dangerous. All Class 3,4,5 and 7 vehicles are
@@ -44,7 +44,7 @@
               <v-expansion-panel-header class="card-header">
                 Minor MOT Faults
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">A ‘minor’ fault would be considered as one where the problem does
                   not cause an immediate safety risk but should be rectified soon. This is very similar to the existing
                   system whereby an advisory is given to items that the driver should be aware of and may cause a future
@@ -59,7 +59,7 @@
               <v-expansion-panel-header class="card-header">
                 Major MOT Faults
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">A ‘major’ fault is more serious, poses a potential safety risk to
                     drivers and others. It could also be a defect that has a damaging impact on the environment. These
@@ -75,7 +75,7 @@
               <v-expansion-panel-header class="card-header">
                 Dangerous MOT Faults
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">Meanwhile a fault classed as ‘dangerous’ is one that poses an
                     immediate risk to the safety of the driver and other road users, and as such, the vehicle should not
@@ -91,7 +91,7 @@
               <v-expansion-panel-header class="card-header">
                 Will the MOT still include advisories?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Yes, minor faults will still be recorded in the same way and will appear as advisory items on the MOT
                 test certificate. However, the DVSA have added that, when the new MOT is rolled out in May, the
                 certificate will likely include explicit safety warnings for cars with serious faults and will highlight
@@ -102,7 +102,7 @@
               <v-expansion-panel-header class="card-header">
                 Why is the MOT test has changed?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The changes bring MOT testing in the UK in line with the new EU
                   directive known as the European Union Roadworthiness Package which will use the same terminology for
                   categorising faults. The terminology is also in keeping with existing wording for the Road Traffic Act
@@ -120,7 +120,7 @@
               <v-expansion-panel-header class="card-header">
                 What effect will the MOT changes have on drivers?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In terms of what constitutes a pass or fail, the new defect categories won’t have any real effect
                 (unless you drive a diesel model - see below). A fail in a specific test area before the changes is
                 still be a fail since 20th May, the main difference is that a failed component will now be classified as
@@ -134,7 +134,7 @@
               <v-expansion-panel-header class="card-header">
                 Changes For Diesel Owners
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">As well as the change in MOT fault classification, the MOT test is
                   also much stricter for owners of diesel vehicles. All petrol and diesel cars must complete an
                   emissions test in order to pass their MOT. That is, the amount of dangerous pollutants that the
@@ -156,7 +156,7 @@
               <v-expansion-panel-header class="card-header">
                 How much is a MOT for a car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In 2018, the maximum fee for a car is £54.85 and £29.65 for a standard motorcycle. There's a complete
                 list on the GOV.uk website. Some MOT test centres will charge less than the maximum fee
               </v-expansion-panel-content>
@@ -165,7 +165,7 @@
               <v-expansion-panel-header class="card-header">
                 What is tested in a MOT?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 This Ministry of Transport test is commonly known as a 'MOT' A MOT involves dozens of checks on your
                 car, ranging from the brakes and fuel system to lights, mirrors, seatbelts, windscreen wipers and
                 exhaust system. It doesn't cover the condition of the engine, clutch and gearbox.
@@ -175,7 +175,7 @@
               <v-expansion-panel-header class="card-header">
                 Can you drive your car away if it fails the MOT?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In any other circumstances, driving the vehicle would be breaking the law. The answer is that you can
                 still drive your vehicle if it fails the test and its existing MOT certificate is still valid (i.e. if
                 your test was before the expiry date) as long as no 'dangerous' problem(s) were listed in the MOT
@@ -185,7 +185,7 @@
               <v-expansion-panel-header class="card-header">
                 Is the MOT test changed?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 MOT rule changes: 20 May 2018. The MOT test changed on 20 May 2018, with new defect types, stricter
                 rules for diesel car emissions, and some vehicles over 40 years old becoming exempt. The changes affect
                 cars, vans, motorcycles and other light passenger vehicles. There are 5 main changes you need to know.
@@ -195,7 +195,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens if you fail a MOT?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If your car fails its MOT: You will be given a refusal of MOT certificate (VT30) Your vehicle must be
                 repaired and retested to comply with MOT standards. You may not be covered by your insurance, so you are
                 advised not to drive it, except to an approved test centre or a garage for repairs.
@@ -205,7 +205,7 @@
               <v-expansion-panel-header class="card-header">
                 Is my car MOT exempt?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Cars to become MOT exempt when they hit 40 (years of age) An extra 300,000 owners of classic old cars
                 will be MOT exempt after the Department for Transport announced cars more than 40 years old will no
                 longer have to undergo their annual roadworthiness check.
@@ -215,7 +215,7 @@
               <v-expansion-panel-header class="card-header">
                 What you need to pass a MOT?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">Car cleaning products.<br>Brake fluid (if
                     required)<br>Replacement mirror glass (if required)<br>New wiper blades (if required)<br>Top up your
@@ -229,7 +229,7 @@
               <v-expansion-panel-header class="card-header">
                 What do I need to take to a MOT?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 What documents do I need to bring? If your vehicle is undergoing its first MOT then a V5C vehicle
                 registration certificate (log book) is required, this document is also required if your vehicle has had
                 a change of registration plate since its last MOT. In all other instances no documentation is required.
@@ -239,7 +239,7 @@
               <v-expansion-panel-header class="card-header">
                 How long do you have to fix a failed MOT?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Bring it back within 10 working days: If you choose to have your car repaired elsewhere, you can take it
                 back to the original testing centre for a partial retest within10 days of the initial test.
               </v-expansion-panel-content>
@@ -248,7 +248,7 @@
               <v-expansion-panel-header class="card-header">
                 MOT Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

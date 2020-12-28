@@ -17,7 +17,7 @@
               <v-expansion-panel-header class="card-header">
                 Thermostat’s Function
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The thermostat starts at a closed position when you start the
                   engine to help it reach operating temperature. As coolant temperature rises, it begins to open. The
                   opening allows hot coolant in the engine to flow into the radiator, while the water pump pushes
@@ -36,7 +36,7 @@
               <v-expansion-panel-header class="card-header">
                 Thermostat Housings and Gaskets
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Internal combustion engines perform best at specific operating
                   temperatures and being too hot or cold can affect a car's reliability. Our extensive range of quality
                   thermostat housings and gaskets will ensure that your car continues to run at its optimum temperature.
@@ -56,7 +56,7 @@
               <v-expansion-panel-header class="card-header">
                 Is it safe to drive with an engine cooling system thermostat problem?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 No. If it has been determined that there is a thermostat problem, it should be repaired right away.
                 Failure to do so can cause substantial and costly damage to the engine.
               </v-expansion-panel-content>
@@ -65,7 +65,7 @@
               <v-expansion-panel-header class="card-header">
                 When replacing the engine cooling system thermostat keep in mind
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Engine overheating due to causes other than a faulty thermostat,
                   will themselves damage a thermostat. Therefore, always replace the thermostat if the engine overheats,
                   even if the thermostat was not the initial cause of the overheating.<br>The thermostat should be
@@ -80,7 +80,7 @@
               <v-expansion-panel-header class="card-header">
                 How does a car thermostat work?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Any liquid-cooled car engine has a small device called the thermostat that sits between the engine and
                 the radiator. The thermostat in most cars is about 2 inches (5 cm) in diameter. Its job is to block the
                 flow of coolant to the radiator until the engine has warmed up.
@@ -90,7 +90,7 @@
               <v-expansion-panel-header class="card-header">
                 What are the symptoms of a stuck open thermostat?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Symptoms of a stuck open thermostat are slow to reach normal operating temperature and only warm air
                 blowing from the heater. Symptoms of a stuck closed thermostat are engine over-heating and radiator
                 boil-over. Yes, they can stick open or closed.
@@ -100,7 +100,7 @@
               <v-expansion-panel-header class="card-header">
                 How to tell if your thermostat is stuck open?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Time how long it takes the engine to warm up enough to produce heat when the heater is turned on. If it
                 takes more than five minutes for the heater to produce heat, it is a sign that the thermostat is stuck
                 open, allowing all the coolant to flow all the time.
@@ -110,7 +110,7 @@
               <v-expansion-panel-header class="card-header">
                 What is a thermostat housing?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The main purpose of a thermostat housing is to contain the engine thermostat and provide a coolant
                 outlet to the radiator. In some cases, each radiator hose will be connected to a similar looking
                 housing, with one serving as a coolant inlet and the other as an outlet.
@@ -120,7 +120,7 @@
               <v-expansion-panel-header class="card-header">
                 How do mechanics replace the engine cooling system thermostat?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Once the engine is completely cold, the radiator cap is loosened,
                   and enough coolant is drained from the radiator, so the coolant level is below the thermostat
                   housing.<br>
@@ -142,7 +142,7 @@
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and
@@ -172,7 +172,7 @@
               <v-expansion-panel-header class="card-header">
                 How much does thermostat replacement cost?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify"></p>
                   <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">

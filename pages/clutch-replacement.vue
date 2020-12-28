@@ -30,7 +30,7 @@
               <v-expansion-panel-header class="card-header">
                 Flywheel
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A spinning disc of heavy steel (or carbon fibre in some newer models), the flywheel stores rotational
                 energy when your vehicle is at a stop. If your gears sometimes slip a malfunctioning flywheel is
                 probably to blame. The flywheel is the interface between the clutch system and the engine. When your
@@ -47,7 +47,7 @@
               <v-expansion-panel-header class="card-header">
                 How do I know if I might need a new clutch?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">Common signs that you might need a new clutch:</p>
 
@@ -103,7 +103,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a Clutch do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The clutch is a solid metal disc located between the engine and the
                   transmission, it couples the crank shaft and flywheel to the gearbox's clutch shaft. The clutch
                   enables the drive from the engine to be disconnected momentarily from the gearbox.</p>
@@ -117,7 +117,7 @@
               <v-expansion-panel-header class="card-header">
                 What does vehicle clutch replacement cost?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The cost of clutch replacement on a vehicle varies depending on the
                   nature of the problem and the model of vehicle you're driving. Our expert clutch fitters will let you
                   know what we need to do and how much it will cost before we start work.</p>
@@ -127,7 +127,7 @@
               <v-expansion-panel-header class="card-header">
                 Do you use quality parts?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 We only ever use parts that match your vehicle. original specification for clutch fitting. We never use
                 cheap parts that are prone to problems like some dealers do. What's more, all our clutch work is
                 guaranteed for 12 months, or 12,000 miles (whichever is sooner).
@@ -137,7 +137,7 @@
               <v-expansion-panel-header class="card-header">
                 Can I get a clutch replacement quote online?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 We make sure you only pay for the work you need. This means we can't advise you of clutch fitting prices
                 online - we need to carry out a thorough inspection of your vehicles clutch system, so we can give you a
                 fair and accurate quote based on the problem that needs solving.
@@ -147,7 +147,7 @@
               <v-expansion-panel-header class="card-header">
                 How long does the clutch fitting service take?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">Please allow an hour for our clutch check. We may be able to fit
                     a replacement clutch on the same day if you need one.</p>
@@ -162,7 +162,7 @@
               <v-expansion-panel-header class="card-header">
                 Basic Clutch Problem
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">The clutch is a hugely important part of your vehicle - without
                     it, you'd be unable to change between gears. Like many of your car's components, it is possible your
@@ -189,7 +189,7 @@
               <v-expansion-panel-header class="card-header">
                 Short Lаѕtіng clutch
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Thіѕ реdаl іѕ supposed to lаѕt a lоng tіmе although it іѕ one оf
                   thе mоѕt uѕеd соmроnеntѕ. This іѕ usually саuѕеd by bаd drіvіng habits. Tоо much riding can cause your
                   clutch tо hаvе a ѕhоrtеr lіfе thuѕ rеquіrіng a rерlасеmеnt.</p>
@@ -209,7 +209,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake shoes Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and
@@ -239,7 +239,7 @@
               <v-expansion-panel-header class="card-header">
                 How much does Clutch replacement cost?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">These estimates may include Concentric slave cylinder (CSC),
                     Clutch release bearing, Clutch plate, cover & release bearing/CSC and/or Clutch plate & cover</p>

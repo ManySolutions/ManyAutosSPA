@@ -25,7 +25,7 @@
               <v-expansion-panel-header class="card-header">
                 Car Radiator Repair or Replacement
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 There are several components which make a car radiator and any one of these parts could break and cause
                 the whole system to fail. To help you understand more about car radiators and car radiator repair, we
                 have written this simple guide.
@@ -35,7 +35,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a car radiator do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A car radiator is responsible for circulating coolant around the system. Without the radiator, a car
                 would quickly run into trouble and serious problems could arise. The radiator is one part of many that
                 makes up the cooling system and there are several functions that it carries out to keep a car’s engine
@@ -46,7 +46,7 @@
               <v-expansion-panel-header class="card-header">
                 Cooling fan repair Replacement
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The cooling fan or cooling fans are mounted onto the back of the car radiator on the side closest to the
                 engine. The cooling fans are in place to direct air into the engine efficiently from the radiator,
                 mostly when a car has stopped or is going slowly. This is to suck cold air into the engine and ensure
@@ -61,7 +61,7 @@
               <v-expansion-panel-header class="card-header">
                 Engine Coolant Replacement
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Engine coolant is a liquid that runs through a car engine to maintain the correct temperature for a car
                 to operate properly. Engine coolant can become contaminated and will be significantly less effective.
                 That is why it is important to check if the engine warning light comes on as this may be the result of
@@ -74,7 +74,7 @@
               <v-expansion-panel-header class="card-header">
                 Radiator Flush
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A radiator flush is performed to remove old engine coolant from the car radiator when new engine coolant
                 is required. The job can be carried out using water to flush the radiator or a professional mechanic can
                 use a special machine to perform the job. A radiator flush can resolve a lot of issues and it is a
@@ -86,7 +86,7 @@
               <v-expansion-panel-header class="card-header">
                 Radiator Leak
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If there is a leak in your car radiator, engine coolant will seep out and you will have to have the
                 problem resolved immediately. If coolant is leaking out of the car radiator, the car engine will
                 overheat quickly and when this happens, a huge number of other issues could be caused. A radiator leak
@@ -99,7 +99,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider a Radiator replacement?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Over time problems can occur with the radiator as it is subject to significant temperature fluctuations.
                 Older cars were fitted with brass side tanks and a brass or copper, which were particularly prone to
                 rust and leaks. Modern cars are generally fitted with plastic side tanks which, on the other hand, are
@@ -116,7 +116,7 @@
               <v-expansion-panel-header class="card-header">
                 Can you drive a car with a broken radiator?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Do not drive with leaking coolant since the radiator cools the engine, a cracked radiator may not cool
                 the engine like it is supposed to. This can cause the engine heat to rise, and eventually the vehicle
                 will overheat. You should have your coolant system checked before you continue to drive.
@@ -126,7 +126,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens if you drive a car without coolant?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A dry radiator and cooling system will cause overheating that is likely to warp cylinder heads but will
                 certainly take a lot of life out of your car. The long-term damage is impossible to even see let alone
                 fix. So, the car's pressurized system plus antifreeze keep the liquid from boiling into vapor.
@@ -136,7 +136,7 @@
               <v-expansion-panel-header class="card-header">
                 Radiator Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

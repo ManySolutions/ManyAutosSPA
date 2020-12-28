@@ -30,7 +30,7 @@
               <v-expansion-panel-header class="card-header">
                 Does brake fluid really need to be changed?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In addition, over time the moisture can cause internal corrosion in the brake lines, calipers, the
                 master cylinder and other components.
               </v-expansion-panel-content>
@@ -39,7 +39,7 @@
               <v-expansion-panel-header class="card-header">
                 What Is Brake Fluid and What Does It Do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Brake fluid is a special composite liquid which produces the power which moves the various parts of your
                 vehicles brake system. Specially formulated to work at high temperatures and under high pressure, it's a
                 substance which can't be compressed. When you press your brake pedal, this sends it through the pipes
@@ -59,7 +59,7 @@
               <v-expansion-panel-header class="card-header">
                 How, And How Often, Do I Change My Car's Brake Fluid?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Because it is regularly called upon to work at high temperatures, your brake fluid will lose its
                 effectiveness over time. Most car-makers suggest it is done as part of a major service, which is usually
                 carried out every two years. For example, Volkswagen recommends this, but also says that the first brake
@@ -106,7 +106,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Fluid Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

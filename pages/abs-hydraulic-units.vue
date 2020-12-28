@@ -22,7 +22,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Hydraulic Units and Sensors
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 ABS (or anti-lock braking system) is what keeps your wheels gripped to the road when braking sharply and
                 prevents them from locking up to keep you in full control. The hydraulic unit in the ABS system works by
                 equalising the pressure on each individual brake or adjusting it to stop the car from skidding or
@@ -34,7 +34,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Hydraulic anti-lock brakes really work?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Anti-lock brakes really do help you stop better. They prevent wheels from locking up and provide the
                 shortest stopping distance on slippery surfaces.
               </v-expansion-panel-content>
@@ -43,7 +43,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Hydraulic But do they really prevent accidents?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 This is the true measure of the effectiveness of ABS systems. The Insurance Institute for Highway Safety
                 (IIHS) has conducted several studies trying to determine if cars equipped with ABS are Â­involved in
                 more or fewer fatal accidents. It turns out that in a 1996 study, vehicles equipped with ABS were
@@ -62,7 +62,7 @@
               <v-expansion-panel-header class="card-header">
                 What are an ABS pump hydraulic units?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> A brief teardown and look inside an ABS pump. The Anti-lock
                   Braking system in your car prevents your wheels from locking up during braking. Preventing a skid is
                   key to maintaining steering control and stability during a manoeuvre.</p>
@@ -72,7 +72,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Hydraulic Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

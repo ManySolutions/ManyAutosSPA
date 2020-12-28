@@ -16,7 +16,7 @@
               <v-expansion-panel-header class="card-header">
                 What is a suspension arm pin bush
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Suspension arm Bushings are cushions made of rubber, polyurethane (often shortened to "poly" or "urethane") or other materials. They're mounted on car suspension and steering joints to absorb road bumps, control the amount of movement in the joints and reduce noise and vibration
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -24,7 +24,7 @@
               <v-expansion-panel-header class="card-header">
                 Is it OK to drive with bad suspension arm bushings?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Suspension arm In case of extreme damage, when the rubber bushing is completely worn out, the metal sleeves of the control arm will begin to rattle, resulting in an unpleasant 'clunking' noise from the front end, especially while turning or reversing. Moreover, the wheel with a damaged bushing will begin to wobble while driving.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -32,7 +32,7 @@
               <v-expansion-panel-header class="card-header">
                 What are the symptoms of a bad lower suspension arm?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Usually a problematic suspension arm assembly will produce a few symptoms that can alert the driver of a potential problem that should be serviced. Steering wheel vibration. One of the first symptoms commonly associated with bad control arms is steering wheel vibrations. Steering wandering. Clunking noises.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -40,7 +40,7 @@
               <v-expansion-panel-header class="card-header">
                 How dangerous is a bad suspension arm?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 While a bad suspension arm bushing is not dangerous, it can still hamper your driving experience. One such component is the control arm, which is mostly found in the front wheels, though some trucks and cars have it in the rear ones too. It connects the front suspension of the vehicle to its frame.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -48,7 +48,7 @@
               <v-expansion-panel-header class="card-header">
                Is it dangerous to drive with a bad upper suspension arm?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 While a bad suspension arm bushing is not dangerous, it can still hamper your driving experience. One such component is the control arm, which is mostly found in the front wheels, though some trucks and cars have it in the rear ones too. It connects the front suspension of the vehicle to its frame
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -56,7 +56,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens if your suspension arm breaks?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Suspension arms can bend or break when driving over large potholes or bumps, while brushings can also wear out on their own. Many Autos say other common signs the control arm assembly needs to be replaced is if steering wheel is vibrating or there is banging noise while driving over bumps.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -64,7 +64,7 @@
               <v-expansion-panel-header class="card-header">
                 When should a suspension arm be replaced?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Worn out or torn suspension arm bushings is another reason a suspension arm may need to be replaced. In some cars, suspension arm bushings can be replaced separately, but it involves more labour and could cost more. For this reason, the whole control arm is usually replaced if the bushings are worn out.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -72,7 +72,7 @@
               <v-expansion-panel-header class="card-header">
                 Do suspension arm go bad?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                Over time, the suspension arm assembly can become worn or bent. This will aid in a smoother drive because your vehicle will not vibrate while it is driving due to a bad suspension arm assembly or a poor suspension. Since the suspension arm assembly will go bad over time, it is important that you can recognize the symptoms.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -80,7 +80,7 @@
               <v-expansion-panel-header class="card-header">
                 What do lower suspension arm do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Many Auto experts say suspension arm connect the car's suspension to the actual vehicle frame. They are connected to the frame through a component called brushings, while they attach to the suspension through the ball joint. That allows the vehicle to turn its wheel and pivot, connecting the tire to the car's suspension.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -88,7 +88,7 @@
               <v-expansion-panel-header class="card-header">
                 Is it safe to drive with worn suspension arm bushes?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Drivers of a vehicle with worn suspension bushes may experience a lack of control in steering, as well as feeling a bumpier ride and less responsive breaking. Not only does this affect the driving experience, but it can also be dangerous to the driver.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -96,7 +96,7 @@
               <v-expansion-panel-header class="card-header">
                 Suspension arm
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

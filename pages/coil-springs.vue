@@ -20,7 +20,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a Coil Spring do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A coil spring is a helical spring that compresses and expands as you drive over a road surface, it
                 absorbs the bumps in the road and counters excessive bouncing that might occur after the initial shock
                 absorption. In other words, the coil spring smooths out the road's irregularities. The coil spring
@@ -33,7 +33,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider a Coil Spring replacement?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Over time, a coil spring can wear. The protective plastic coating fitted to most springs can flake due
                 to continuous compression and expansion of the spring, often corroding the spring and leading to an
                 increasingly brittle metal spring. The small cracks that appear can lead to bigger cracks and eventually
@@ -53,7 +53,7 @@
               <v-expansion-panel-header class="card-header">
                 Should coil springs be replaced in pairs?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Coil Springs should be replaced in pairs when just one spring is replaced, an imbalance will most likely
                 be created resulting in an uneven ride.
               </v-expansion-panel-content>
@@ -62,7 +62,7 @@
               <v-expansion-panel-header class="card-header">
                 Is a broken coil spring Dangerous?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">It is illegal and totally dangerous to drive the car like that.
                   Regardless of how small the spring break is. Its broken - it now affects the entire suspension,
                   handling in that case, steering and brakes.</p>
@@ -81,7 +81,7 @@
               <v-expansion-panel-header class="card-header">
                 WIs a broken coil spring Dangerous?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 It is illegal and totally dangerous to drive the car like that. Regardless of how small the spring break
                 is. Its broken - it now affects the entire suspension, handling in that case, steering and brakes.
               </v-expansion-panel-content>
@@ -90,7 +90,7 @@
               <v-expansion-panel-header class="card-header">
                 How do I know if my coil springs are bad?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Sharp Vehicle Sagging.</p>
                 <ul class="list mt-2 mb-2">
                   <li>Unusual Tyre Wear.</li>
@@ -104,7 +104,7 @@
               <v-expansion-panel-header class="card-header">
                 How long do coil springs last?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Those variables make it virtually impossible to assign several years or miles as a broad stroke, though
                 we would expect shock absorbers or struts on vehicles with strut-type suspensions that incorporate the
                 shocks into an assembly with springs and other suspension parts to last at least four or five years.
@@ -114,7 +114,7 @@
               <v-expansion-panel-header class="card-header">
                 What do coil springs do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Car Coil springs, also called suspensions springs, are made with wide gap coils that compress to absorb
                 impact when tyres roll over rough terrain. In addition to improving ride quality by reducing bounce,
                 coil springs and struts are also a critical component that gives the car its height and keeps it off the
@@ -125,7 +125,7 @@
               <v-expansion-panel-header class="card-header">
                 Do car springs need to be replaced?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 It's recommended to replace coil springs in pairs, and to replace the shocks at the same time. Replacing
                 coil springs can be extremely dangerous because of the incredible amount of energy stored by a
                 compressed coil spring. As such, you’ll need a coil spring compressor.
@@ -135,7 +135,7 @@
               <v-expansion-panel-header class="card-header">
                 Coil Spring Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

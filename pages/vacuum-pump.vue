@@ -23,7 +23,7 @@
               <v-expansion-panel-header class="card-header">
                 What is the Vacuum Pump all about?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The Vacuum Pump is a device that helps enhance the effects of the hydraulic braking system in cars as a
                 supplement to the primary braking mechanism. Each time you push the brake pedal, the force transfers to
                 a rod. This rod passes through the brake booster and reaches the master cylinder. The pressure from the
@@ -47,7 +47,7 @@
               <v-expansion-panel-header class="card-header">
                 Vacuum pumps Basic information
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Vacuum pump in the Opel Vectra B (in red) In many cases, vacuum pumps are located directly on the
                 cylinder head, and are driven by the camshaft. Due to these interfaces, the engine repairer should have
                 an elementary knowledge of vacuum pumps. Vacuum pumps are used in motor vehicles in which the necessary
@@ -62,7 +62,7 @@
               <v-expansion-panel-header class="card-header">
                 What is car vacuum pump?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 This pressure is used to power multiple belts and pulleys ranging from alternators to AC units but is
                 released thanks to the use of a vacuum pump. A diesel engine on the other hand relies on vacuum pumps to
                 provide power for other systems, most notably the brake system and in many cases, the air conditioning
@@ -73,7 +73,7 @@
               <v-expansion-panel-header class="card-header">
                 Symptoms of a Bad or Failing Vacuum Pump
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Poor fuel efficiency. When a vacuum leak exists, it's most commonly
                   caused by vacuum hoses that are broken, have faulty connections or the vacuum pump is not in
                   operation.</p>
@@ -95,7 +95,7 @@
               <v-expansion-panel-header class="card-header">
                 Can a vacuum leak ruin your engine?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Vacuum leaks in today's computer-controlled engines can cause very serious engine damage. Because the
                 vacuum leak pulls in outside air, immediately the fuel air ratio is altered to a lean condition. The
                 lean air fuel condition is picked up by the exhaust oxygen sensors who, in turn, report this to the
@@ -106,7 +106,7 @@
               <v-expansion-panel-header class="card-header">
                 Vacuum Pumps Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

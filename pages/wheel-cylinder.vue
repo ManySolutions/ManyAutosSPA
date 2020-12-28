@@ -25,7 +25,7 @@
               <v-expansion-panel-header class="card-header">
                 Wheel Cylinder Replacement
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If you've got a vehicle with a drum braking system, wheel cylinders will form a pretty important part of
                 what makes your car stop when you hit the brakes. The wheel cylinder exerts force onto the brake shoes,
                 pushing them into the drum and creating the friction to stop your car. When vehicles get older, brake
@@ -37,7 +37,7 @@
               <v-expansion-panel-header class="card-header">
                 Wheel cylinders replace
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A wheel cylinder is a component of a hydraulic drum brake. It comprises a housing made from made from
                 grey cast iron or in the case of newer model’s aluminium, which is more lightweight. Other components of
                 a wheel
@@ -47,7 +47,7 @@
               <v-expansion-panel-header class="card-header">
                 Wheel Cylinders Function
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A wheel cylinder is a component of a hydraulic drum brake. The wheel cylinder must force apart the brake
                 shoes and press them against the brake drum. This generates friction and the wheel is decelerated. This
                 happens every time the driver presses on the brake pedal. Pressing on the brake pedal generates a
@@ -60,7 +60,7 @@
               <v-expansion-panel-header class="card-header">
                 Wheel Cylinders Components
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">It comprises a housing made from made from grey cast iron or in the
                   case of newer model’s aluminium, which is more lightweight. Other components of a wheel cylinder are.
                   One or two pistons, Sleeves, Compression springs, Gaskets. Protective caps and the bleeder valves.</p>
@@ -85,7 +85,7 @@
               <v-expansion-panel-header class="card-header">
                 Wheel Cylinders Safety
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The wheel cylinder is a safety-relevant vehicle part. It should be checked regularly as part of regular
                 service and maintenance to ensure that it is perfect working order. When the brake shoes or the brake
                 drums are replaced, it is advisable to replace the wheel cylinder at the same time. This will avoid
@@ -100,7 +100,7 @@
               <v-expansion-panel-header class="card-header">
                 Wheel Cylinders Depreciation
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Wheel cylinders do not need special maintenance in order for the vehicle to maintain its value. It is
                 just important to observe prescribed service and maintenance intervals, in particular those for
                 replacing brake fluid. As part of regular service and maintenance, the garage will check the drum brake
@@ -113,7 +113,7 @@
               <v-expansion-panel-header class="card-header">
                 What does the wheel cylinder do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The wheel cylinder consists of a cylinder that has two pistons, one on each side. Each piston has a
                 rubber seal and a shaft that connects the piston with a brake shoe. When brake pressure is applied, the
                 pistons are forced out pushing the shoes into contact with the drum. Wheel cylinders used to be made of
@@ -124,7 +124,7 @@
               <v-expansion-panel-header class="card-header">
                 Symptoms of Bad Brake Wheel Cylinder
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Mushy brake pedal. One of the first symptoms commonly associated with bad wheel cylinders is a mushy
                 brake pedal. Poor brake response. Another symptom of bad or failing brake wheel cylinder is poor brake
                 response. Brake fluid leaks. Brake fluid leaks are another symptom of a problem with the brake wheel
@@ -135,7 +135,7 @@
               <v-expansion-panel-header class="card-header">
                 How many wheel cylinders does a car have?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Most car hav 2 wheel cylinder the wheel cylinder consists of a cylinder that has two pistons, one on
                 each side. Each piston has a rubber seal and a shaft that connects the piston with a brake shoe. When
                 brake pressure is applied, the pistons are forced out pushing the shoes into contact with the drum.
@@ -145,7 +145,7 @@
               <v-expansion-panel-header class="card-header">
                 Wheel cylinder Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

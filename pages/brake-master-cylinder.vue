@@ -25,7 +25,7 @@
               <v-expansion-panel-header class="card-header">
                 How Does Brake Master Cylinders It Work?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The brake master cylinder is the hydraulic pressure part of the brake system which holds brake fluid in
                 a reservoir. When you push the brake pedal down the plunger inside the brake master cylinder housing is
                 forced forward which transfers pressurized fluid to the brake calipers or wheel cylinders which then
@@ -39,7 +39,7 @@
               <v-expansion-panel-header class="card-header">
                 What Does Goes Wrong?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The master cylinder is constructed with rubber seals which in time can go bad and allow the brake fluid
                 to bypass internally or leak out from the rear of the master. When the brake master goes bad the brake
                 pedal will sink and the brake warning light will come on. This condition will greatly decrease the
@@ -54,7 +54,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know if you need a new master cylinder?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Most of the time, if a brake component needs replacing, it leaves a trail to follow. This trail is made
                 of stinky brake fluid. That's the good news. Following a trail of brake fluid will usually lead you to a
                 current or future brake problem. There are lots of brake components that can go bad. You've got wheel
@@ -68,7 +68,7 @@
               <v-expansion-panel-header class="card-header">
                 Symptoms of Bad Brake Master Cylinder
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">When you step on the brake pedal in a vehicle to slow it down, its
                   braking system uses a brake master cylinder to convert the pressure you place on the pedal into
                   hydraulic pressure. The conversion of the pressure takes place because the brake master cylinder
@@ -103,7 +103,7 @@
               <v-expansion-panel-header class="card-header">
                 Can a dirty air filter cause the check engine light to come on?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In extreme cases, a contaminated air filter can turn on the check engine light. An extremely dirty air
                 filter restricts engine air intake. Engine misfire. A misfire results from incomplete combustion inside
                 the engine. A contaminated air filter can restrict engine airflow, resulting in a rich air and fuel
@@ -114,7 +114,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Master Cylinder Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

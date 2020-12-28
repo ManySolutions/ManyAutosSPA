@@ -10,7 +10,7 @@
               <v-expansion-panel-header class="card-header">
                 Function of drive shaft
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The function of the drive shaft is to transfer the engine torque from a gearbox or differential to the
                 wheels. It must also compensate for all variations in angle or length resulting from manoeuvring and
                 deflection for perfect synchronisation between joints.
@@ -34,7 +34,7 @@
               <v-expansion-panel-header class="card-header">
                 Safety
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Drive shafts and constant velocity joints are components of modern
                   cars, which demand maximum safety.</p>
                 <p class="text-teal text-18 justify">Most problems with the drive shaft manifest themselves in the form
@@ -48,7 +48,7 @@
               <v-expansion-panel-header class="card-header">
                 Causes Of Damage
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Wear over time is one of the most frequent causes of damage to outboard and inboard joints. Damage can
                 also be caused by faulty sleeves, by use of low-quality grease and in many cases by not following the
                 correct procedures for installation and removal.
@@ -58,7 +58,7 @@
               <v-expansion-panel-header class="card-header">
                 Symptoms Of Damage
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Most problems with the drive shaft manifest themselves in the form
                   of</p>
                 <ul class="list mt-2 mb-2">
@@ -72,7 +72,7 @@
               <v-expansion-panel-header class="card-header">
                 Depreciation
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 To maximise their service lives, drive shafts must be inspected regularly at a specialist garage. Such
                 inspections are carried out as part of the regular service checks prescribed by vehicle manufacturers.
                 Another good time to check the condition of drive shafts is when switching from summer to winter tyres
@@ -83,7 +83,7 @@
               <v-expansion-panel-header class="card-header">
                 Damaged Sleeves
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The specialist checks that the drive shaft is seated firmly and is clean and that the sleeves are in
                 good order. Damaged sleeves must be replaced immediately to prevent damage to the joint caused by dirt
                 penetration or grease escaping. If sleeves are loose or worn, there is a risk that dirt or moisture will
@@ -95,7 +95,7 @@
               <v-expansion-panel-header class="card-header">
                 Tpe Sleeve
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Most joint sleeves on newer vehicles are made from TPE. As a rule: A TPE sleeve must not be replaced
                 with a rubber sleeve. The relevant specification must also be complied with when topping up with grease.
                 High-performance greases can withstand temperatures up to 160 °C for short periods; standard joint
@@ -108,7 +108,7 @@
               <v-expansion-panel-header class="card-header">
                 Environmental Protection
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Both brand new replacement drive shafts for passenger vehicles and
                   professionally reconditioned drive shafts are available on the market. When used drive shafts (most of
                   which will have been damaged) are reconditioned, the old parts are taken back from vehicle garages for
@@ -126,7 +126,7 @@
               <v-expansion-panel-header class="card-header">
                 Drive Shaft Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and
@@ -156,7 +156,7 @@
               <v-expansion-panel-header class="card-header">
                 How much does Drive Shaft replacement cost?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
                     <div class="pull-left">Alfa Romeo drive shaft Parts & Labour </div>

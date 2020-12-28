@@ -30,7 +30,7 @@
         <v-expansion-panel-header class="card-header">
           Why is this so important?
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="card-header-body">
+        <v-expansion-panel-content eager class="card-header-body">
           When buying a second hand car it is most important to make sure that the vehicle has been maintained to the
           manufacturer recommendations. Firstly this is to ensure there is no cause of issue with the manufacturer
           warranty. Secondly it is to ensure that the car has been looked after as following the manufacturers
@@ -42,7 +42,7 @@
         <v-expansion-panel-header class="card-header">
           What has changed?
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="card-header-body">
+        <v-expansion-panel-content eager class="card-header-body">
           With the rise of 'the internet of things' and the integration of the internet into our everyday lives, it was
           inevitable that the physical service book would become a relic of the past. Many manufacturers have moved away
           from providing a physical book to be filled out and stamped and now have 'DSR' (Digital Service Records or

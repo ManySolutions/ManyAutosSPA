@@ -16,7 +16,7 @@
               <v-expansion-panel-header class="card-header">
                 How does a rear axle work?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Is supplied from the engine via the transmission to a driveshaft which connects to the differential a
                 pinion. gear is attached to the end of the driveshaft this turns the ring gear the ring gear surrounds.
                 a set of differential gears that enable the two rear axles to turn at different speeds.
@@ -26,7 +26,7 @@
               <v-expansion-panel-header class="card-header">
                 Rear Suspension Bushe
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Rear Suspension bushes are the rubber parts between suspension joints responsible for making your
                 journeys as smooth as possible. If you need a suspension bush replacing, we're sure to have the right
                 product to help you put the comfort back into your driving.
@@ -36,7 +36,7 @@
               <v-expansion-panel-header class="card-header">
                 Rear Anti-Roll Bar
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Anti-Roll Bar Also known as a stabiliser bar or torsion bar, the anti-roll bar on your car helps to
                 reduce body roll when cornering. Our range is suitable for all sorts of vehicle, and features everything
                 you need to keep things functioning as they should.
@@ -46,7 +46,7 @@
               <v-expansion-panel-header class="card-header">
                 Rear Coil springs
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Rear Coil springs absorb vibrations and bumps on the road, delivering a smoother ride for you and your
                 passengers. If you need coil spring replacements, an integral part of a car's suspension, coil springs
                 have been designed to absorb shock. As you travel, your vehicle will come across plenty of bumps in the
@@ -59,7 +59,7 @@
               <v-expansion-panel-header class="card-header">
                 Rear Shock Absorbers
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Rear Shock Absorbers For the optimum in smooth rides and comfortable journeys, it can be worth updating
                 your shock absorbers, the job of the shock absorber is a simple one - to keep you as steady on the road
                 as possible. When there are the inevitable bumps and potholes to deal with, it’s the shock absorbers
@@ -73,7 +73,7 @@
               <v-expansion-panel-header class="card-header">
                 Rear suspension mounting
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The Rear suspension mounting in your car improves the link between the chassis and the shock absorber to
                 give a smoother ride. Just a simple component, the small mounting plate itself is one of the most
                 important parts of your car’s whole suspension system and can cause significant and costly damage to
@@ -95,7 +95,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a rear axle do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In rear-wheel drive cars and trucks, the engine turns a driveshaft (also called a propeller shaft or
                 tail shaft) which transmits rotational force to a drive axle at the rear of the vehicle. The drive axle
                 may be a live axle, but modern rear wheel drive automobiles generally use a split axle with a
@@ -106,7 +106,7 @@
               <v-expansion-panel-header class="card-header">
                 Rear Axle Carriers
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Rear Axle Carriers For a truly safe drive, it’s important to keep an eye on your rear axle carriers.
                 Unfortunately, the nature of this car part means that they can be easily damaged often just by hitting
                 the curb but even without any kind of impact, they do experience damage over time. It’s because of this
@@ -130,7 +130,7 @@
               <v-expansion-panel-header class="card-header">
                 Rear Axle Carrier bushes replacement
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Rear Axle Carrier bushes the bushes are usually made of rubber or a metal and rubber combination. These
                 are often known as metaplastic bushes. Much firmer polyurethane bushes are also popular with keen
                 drivers as they can have handling benefits. You'll find bushes all around your car. From the anti-roll
@@ -143,7 +143,7 @@
               <v-expansion-panel-header class="card-header">
                 Rear Axle Bearing Replacement
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Rear Axle Bearing A bad rear wheel bearing needs immediate rear wheel bearing replacement. It’s a job
                 you can do yourself, if you have good mechanical skill. Different makes and models of vehicle will
                 require different techniques for the rear wheel bearing replacement. This will depend on whether it’s a
@@ -154,7 +154,7 @@
               <v-expansion-panel-header class="card-header">
                 Rear axle
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

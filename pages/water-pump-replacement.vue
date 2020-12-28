@@ -21,7 +21,7 @@
               <v-expansion-panel-header class="card-header">
                 Problems Caused by A Car Water Pump Leak
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The car water pump on any vehicle is vital which is why we work
                   hard to make sure you can get trustworthy water pump price quotes from us. The car pump feeds the
                   engine with a constant supply of coolant from its radiator, which helps keep it at a constant
@@ -43,7 +43,7 @@
               <v-expansion-panel-header class="card-header">
                 What to Do When Car Water Pump Breaks
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 You should stop driving immediately, as the water pump replacement cost will pale into insignificance
                 against the cost of the repairs your car will need after being driven with a failed water pump. Many
                 autos can give quotes on a water pump price for your vehicle, and to have it replaced. Many Autos have
@@ -58,7 +58,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with the Water Pump?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <ul class="list mt-2 mb-2">
                   <li>When there are patches of fluid visible under the car near the engine.</li>
                   <li>When fluid has leaked in the engine bay around the water pump.</li>
@@ -72,7 +72,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider a Water Pump replacement?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Over time, components of the water pump can wear out, either
                   leading to leaks or a reduced pumping capacity. In most cases it is one of the seals that leak, in
                   others the rotating part of the pump might have been damaged. In the worst-case scenario, the pump
@@ -88,7 +88,7 @@
               <v-expansion-panel-header class="card-header">
                 When should I replace water pump?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 However, mechanics often replace water pumps before they fail. A water pump should last 60,000 to 90,000
                 miles, about the same amount of time as a timing belt.
               </v-expansion-panel-content>
@@ -97,7 +97,7 @@
               <v-expansion-panel-header class="card-header">
                 Will a bad water pump make noise?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Most of the time, the problem with a water pump pulley is not the pulley itself, but the bearings inside
                 the pulley. When the bearings wear out, it will create a metal-to-metal grinding sound which is commonly
                 due to lack of lubrication or a faulty bearing.
@@ -107,7 +107,7 @@
               <v-expansion-panel-header class="card-header">
                 Should I replace water pump with Cambelt?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Generally, the idler pulleys, tensioner and water pump should always be replaced when the timing belt is
                 replaced. In most cases, the timing belt drives the water pump, so it is the right time to replace the
                 water pump. It is also recommended by the manufacturer.
@@ -117,7 +117,7 @@
               <v-expansion-panel-header class="card-header">
                 Water Pump Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and
@@ -146,7 +146,7 @@
               <v-expansion-panel-header class="card-header">
                 WHow much does a Water Pump replacement cost?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
                     <div class="pull-left">Alfa Romeo Parts and Labour</div>

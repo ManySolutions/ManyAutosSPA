@@ -30,7 +30,7 @@
               <v-expansion-panel-header class="card-header">
                 5 Most Common Symptoms of Worn Brake Pads & Discs
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Brakes are the most important safety feature of your vehicle. They
                   can wear differently depending on vehicle and driving conditions, so it’s important to know the signs
                   of worn-out brakes. There are five major symptoms of worn brake pads & discs — and vehicle owners
@@ -67,7 +67,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Pads Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and
@@ -97,7 +97,7 @@
               <v-expansion-panel-header class="card-header">
                 Never Ignore These 8 Warning Signs of Brake Problems
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <h4 class="text-darker-blue">1. Brake Light On</h4>
                 <p class="text-teal text-18 justify">When one of the red or yellow brake indicators on your dashboard
                   lights up it may mean you’re just due for an inspection. It could also be your vehicle’s smart

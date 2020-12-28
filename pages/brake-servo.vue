@@ -24,7 +24,7 @@
               <v-expansion-panel-header class="card-header">
                 Replacing a Brake Servo
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If a master cylinder is leaking replace it. The cylinder is usually mounted on the bulkhead separating
                 the engine and car interior. It may be fitted with a vacuum servo unit. The master cylinder is normally
                 connected to the brake pedal by a pushrod. On some cars, particularly those originally designed for
@@ -45,7 +45,7 @@
                 What does a Brake Servo do?
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The brake booster is usually part of the same 'unit' as the brake master cylinder in the engine bay,
                 together they transfer the pressure you put on the brake pedal to the brake units at each of the wheels.
                 The vacuum system in the Brake Servo boosts the pressure you put on the brake pedal to enable lighter
@@ -58,7 +58,7 @@
                 What happens when Brake Servo goes bad?
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Turn the engine on while pushing down lightly on the brake pedal. If your Brake Servo is not working
                 correctly, then nothing will happen, or the brake pedal will push back against your foot, once the
                 engine starts. This could be a sign of a Brake Servo problem or an issue with the vacuum hose.
@@ -70,7 +70,7 @@
                 What does a brake servo do?
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">A vacuum servo also known as a brake servo or power brake unit uses
                   a vacuum to multiply the drivers pedal effort and apply that effort to the master cylinder. The vacuum
                   brake servo is attached between the master cylinder and the brake pedal and assists the braking force
@@ -88,7 +88,7 @@
                 When should you consider a Brake Servo replacement?
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The brake Brake Servo is prone to deterioration, especially if there are leaks in the adjoining master
                 cylinder. If you experience any problems with the brakes in a way noted under the last question it is
                 advisable to have the system inspected and, if necessary, have the brake booster replaced. Servicing the
@@ -101,7 +101,7 @@
                 How do brake servos work?
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The vacuum booster is a metal canister that contains a clever valve and a diaphragm. A rod going through
                 the centre of the canister connects to the master cylinder's piston on one side and to the pedal linkage
                 on the other. Another key part of the power brakes is the check valve.
@@ -113,7 +113,7 @@
                 What causes hard brake?
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Vacuum or really lack of vacuum pressure is the most common cause of a hard brake pedal, and therefore
                 the first thing to look at when a hard pedal is present. Your brake system's booster works by a series
                 of diaphragms inside the booster and air on both sides of the diaphragm.
@@ -124,7 +124,7 @@
                 Why does my brake pedal go all the way to the floor?
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A soft brake pedal that goes all the way to the floor can be caused by several reasons. Low brake fluid
                 check for leaks underneath the car. If the booster is bad, then it will require more force on the pedal
                 to stop the car. Failing master cylinder this is usually the culprit if you're not losing brake fluid.
@@ -135,7 +135,7 @@
                 When should brake fluid be changed?
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Some manufacturers include it in their maintenance schedules and others don't. Mercedes-Benz, for
                 example, says brake fluid should be flushed and replaced with new fluid every two years or 20,000 miles.
                 Volkswagen says that a brake fluid flush should be done on most of its models every two years regardless
@@ -148,7 +148,7 @@
                 Brake Servo Replacement Free Collection and Delivery
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

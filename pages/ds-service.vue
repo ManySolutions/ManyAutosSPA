@@ -18,7 +18,7 @@
     <v-expansion-panel-header class="card-header">
       DS Service
     </v-expansion-panel-header>
-    <v-expansion-panel-content class="card-header-body">
+    <v-expansion-panel-content eager class="card-header-body">
       Full Service includes a comprehensive 70-point check, Interim Service has a 50-point check. At Many Autos we use
       the latest equipment, allowing our qualified technicians and mechanics to diagnose any problems quickly and
       efficiently. Forgetting to service the vehicle as per manufacturer schedule can cause airborne debris such as
@@ -34,7 +34,7 @@
     <v-expansion-panel-header class="card-header">
       Air Filters
     </v-expansion-panel-header>
-    <v-expansion-panel-content class="card-header-body">
+    <v-expansion-panel-content eager class="card-header-body">
       Air filters prevent dirt and other materials from getting into vehicle engines and should be changed as per
       service schedule to ensure trouble-free engine function. Fuel Filter. The purpose of fuel filters is to prevent
       debris from getting into vehicle engine and contaminating fuel supply.
@@ -44,7 +44,7 @@
     <v-expansion-panel-header class="card-header">
       Oil Filter
     </v-expansion-panel-header>
-    <v-expansion-panel-content class="card-header-body">
+    <v-expansion-panel-content eager class="card-header-body">
       An oil filter is a vital component it is Designed to protect the engine from dangerous contaminants.
 
     </v-expansion-panel-content>
@@ -53,7 +53,7 @@
     <v-expansion-panel-header class="card-header">
       Pollen Filter
     </v-expansion-panel-header>
-    <v-expansion-panel-content class="card-header-body">
+    <v-expansion-panel-content eager class="card-header-body">
       <p class="text-teal text-18 justify">The pollen filter actually filters out more than just pollen it stops all
         kinds of debris, pollution and odours from entering the cabin and clogging up the heating, ventilation and
         air-conditioning systems.</p>
@@ -63,7 +63,7 @@
     <v-expansion-panel-header class="card-header">
       Engine Oil
     </v-expansion-panel-header>
-    <v-expansion-panel-content class="card-header-body">
+    <v-expansion-panel-content eager class="card-header-body">
       <p class="text-teal text-18 justify">The grade and type of engine oil used can also impact the car's economy and
         emissions, so it is essential to use the correct grade engine oil. Unlike blood, engine oils don't self-cleanse
         and after a short amount of time will start to degrade and become progressively dirtier and less efficient.</p>
@@ -102,7 +102,7 @@
       <v-expansion-panel-header class="card-header">
         DS vehicle initial checks
       </v-expansion-panel-header>
-      <v-expansion-panel-content class="card-header-body">
+      <v-expansion-panel-content eager class="card-header-body">
         <div class="col-12 check-point-table">
           <div class="row padding-top-5">
             <div class=" text-center" style="margin-left:15px;"><span
@@ -223,7 +223,7 @@
       <v-expansion-panel-header class="card-header">
         DS vehicle on ground checks
       </v-expansion-panel-header>
-      <v-expansion-panel-content class="card-header-body">
+      <v-expansion-panel-content eager class="card-header-body">
         <div class="col-12 check-point-table">
           <div class="row padding-top-5">
             <div class=" text-center" style="margin-left:15px;"><span
@@ -593,7 +593,7 @@
     <v-expansion-panel-header class="card-header">
       DS vehicle raised / off the ground checks
     </v-expansion-panel-header>
-    <v-expansion-panel-content class="card-header-body">
+    <v-expansion-panel-content eager class="card-header-body">
       <div class="col-12 check-point-table">
         <div class="row padding-top-5">
           <div class=" text-center" style="margin-left:15px;"><span class="h5-service-heading text-blue">Interim</span>
@@ -898,7 +898,7 @@
      <v-expansion-panel-header class="card-header">
        DS vehicle final checks
      </v-expansion-panel-header>
-     <v-expansion-panel-content class="card-header-body">
+     <v-expansion-panel-content eager class="card-header-body">
        <div class="col-12 check-point-table">
          <div class="row padding-top-5">
            <div class=" text-center" style="margin-left:15px;"><span class="h5-service-heading text-blue">Interim</span>
@@ -977,7 +977,7 @@
                <v-expansion-panel-header class="card-header">
                  DS Brake fluid Service
                </v-expansion-panel-header>
-               <v-expansion-panel-content class="card-header-body">
+               <v-expansion-panel-content eager class="card-header-body">
                  Over time, the brake fluid in your car becomes less effective as it absorbs moisture from the
                  surroundings. This results in increased stopping distances and reduced braking efficiency, which is why
                  we recommend regularly checking your brake fluid with us and replacing it as necessary.
@@ -987,7 +987,7 @@
                <v-expansion-panel-header class="card-header">
                  DS Transmission Service
                </v-expansion-panel-header>
-               <v-expansion-panel-content class="card-header-body">
+               <v-expansion-panel-content eager class="card-header-body">
                  DS Transmission Service Your transmission oil plays a vital role as both a lubricant and
                  coolant. As it’s subjected to more and more gear changes, it gradually becomes thinner and needs to be
                  replaced. Your Service Schedule recommends.
@@ -997,7 +997,7 @@
                <v-expansion-panel-header class="card-header">
                  DS Engine Coolant Service
                </v-expansion-panel-header>
-               <v-expansion-panel-content class="card-header-body">
+               <v-expansion-panel-content eager class="card-header-body">
                  The engine coolant circulates through the car's cooling system, it serves to keep the engine at an
                  optimal temperature for an efficient combustion cycle and prevents it from overheating. The coolant
                  runs from the reservoir, through the radiator, the water pump and onto the thermostat to be circulated
@@ -1009,7 +1009,7 @@
                <v-expansion-panel-header class="card-header">
                  When should you consider an Engine Coolant replacement
                </v-expansion-panel-header>
-               <v-expansion-panel-content class="card-header-body">
+               <v-expansion-panel-content eager class="card-header-body">
                  Without a steady supply of cool engine coolant flowing through the cooling system there is a risk that
                  the car will overheat, in some cases the engine can then suffer expensive internal damage. Debris like
                  scale or rust shed by the internals of the system can cause an inadequate flow of engine coolant
@@ -1023,7 +1023,7 @@
                <v-expansion-panel-header class="card-header">
                  DS Air Conditioning Service important
                </v-expansion-panel-header>
-               <v-expansion-panel-content class="card-header-body">
+               <v-expansion-panel-content eager class="card-header-body">
                  In short, a DS Air Conditioning Service enables you to maintain the perfect climate when
                  driving. However, the perfect climate isn’t just limited to the temperature. Providing an enjoyable
                  cabin that is dust and allergen free is one of the key roles of your DS s air conditioning
@@ -1036,7 +1036,7 @@
                <v-expansion-panel-header class="card-header">
                  DS Air Conditioning Recharge.
                </v-expansion-panel-header>
-               <v-expansion-panel-content class="card-header-body">
+               <v-expansion-panel-content eager class="card-header-body">
                  If you find that you are unable to achieve a comfortable temperature or de-fog your windscreen on a
                  cold morning, your car may need an air conditioning recharge. A DS Recharge Service is the
                  perfect fix and includes full system checks for both pressure and leaks, as well as a complete drain
@@ -1049,7 +1049,7 @@
                <v-expansion-panel-header class="card-header">
                  DS Air Conditioning Refresh.
                </v-expansion-panel-header>
-               <v-expansion-panel-content class="card-header-body">
+               <v-expansion-panel-content eager class="card-header-body">
                  Is your DS starting to lose that new car smell? It may be time for a refresh service. We want
                  your drive to be as comfortable as possible and we have the expertise to make that happen we recommend
                  you take your DS to your local Many Autos DS Centre so a highly trained DS
@@ -1062,7 +1062,7 @@
                <v-expansion-panel-header class="card-header">
                  DS Digital Service Schedule
                </v-expansion-panel-header>
-               <v-expansion-panel-content class="card-header-body">
+               <v-expansion-panel-content eager class="card-header-body">
                  DS entire service history is now stored electronically in a secure DS database. This
                  gives us a simple way to access information and guard against details being lost, as well as to protect
                  buyers from forgery. Of course, when you have your DS serviced, we’ll also provide you with a
@@ -1073,7 +1073,7 @@
                <v-expansion-panel-header class="card-header">
                  How much does an Engine Coolant replacement costs?
                </v-expansion-panel-header>
-               <v-expansion-panel-content class="card-header-body">
+               <v-expansion-panel-content eager class="card-header-body">
                  The cost of replacing the engine coolant depends on your car and what parts your car's manufacturer
                  recommends using for the replacement.
 
@@ -1089,7 +1089,7 @@
                 <v-expansion-panel-header class="card-header">
                   DS Oil Leaks or Burning Oil Smell
                 </v-expansion-panel-header>
-                <v-expansion-panel-content class="card-header-body">
+                <v-expansion-panel-content eager class="card-header-body">
                   It is known that DS engines commonly leak form the valve covers or tensioner gasket seals.
                   This can be a highly hazardous as there is a risk of leaking oil hitting the exhaust which will in
                   turn cause the oil to burn. Engine oil also destroys wiring if it comes into contact which is why you
@@ -1103,7 +1103,7 @@
                 <v-expansion-panel-header class="card-header">
                   Clunking or Clicking when Turning your DS
                 </v-expansion-panel-header>
-                <v-expansion-panel-content class="card-header-body">
+                <v-expansion-panel-content eager class="card-header-body">
                   If the axle joint on an DS dries out, you are likely to hear a clunking or clicking sound when
                   making sharp turns. This happens when the CV boot has been torn and grease has been split into the
                   interior engine. The axle joint needs grease to operate properly and so when there isn’t any
@@ -1116,7 +1116,7 @@
                 <v-expansion-panel-header class="card-header">
                   DS Exhaust Leak – Unhealthy Sound
                 </v-expansion-panel-header>
-                <v-expansion-panel-content class="card-header-body">
+                <v-expansion-panel-content eager class="card-header-body">
                   Many DS models have a flexible joint in the exhaust between the down-pipe and the catalytic
                   converters. This joint is prone to weathering and often begins to leak. While the deeper exhaust note
                   can sound cool for a while, the results can be very expensive. There are a range of other DS
@@ -1134,7 +1134,7 @@
                 <v-expansion-panel-header class="card-header" style="font-weight:bold;">
                   Usefull Guides
                 </v-expansion-panel-header>
-                <v-expansion-panel-content class="card-header-body">
+                <v-expansion-panel-content eager class="card-header-body">
                   <ul class="list-group list-inline list-group-flush">
             <li class="list-group-item"><a class="" href="/car-service">Service Guide Home</a></li>
             <li class="list-group-item"><a class="" href="/audi-service">Audi service</a></li>

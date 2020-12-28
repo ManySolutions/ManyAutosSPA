@@ -21,7 +21,7 @@
               <v-expansion-panel-header class="card-header">
                 What does an ABS Controllers do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Wheel speed sensors feed an ABS computer to monitor if your wheels are skidding during braking. When the
                 brake pedal is depressed,
                 brake fluid flows through the master cylinder to the ABS pump and out to the wheels.
@@ -31,7 +31,7 @@
               <v-expansion-panel-header class="card-header">
                 What is ABS Controllers actuator?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The ABS actuator is a hydraulic device that communicates with the
                   ECU to control the brakes under emergency situations.</p>
                 <p class="text-teal text-18 justify">The actuator pulses the brake so that wheel doesn't skid. Depending
@@ -43,7 +43,7 @@
               <v-expansion-panel-header class="card-header">
                 Can ABS Controllers lock up your brakes?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Non-ABS brakes lock up when hard, steady pressure is applied. If
                   you stop fast enough to have your tires screech on the road,</p>
                 chances are your brakes will lock. In an ABS-equipped vehicle, you'll feel a pulsating in the brake
@@ -54,7 +54,7 @@
               <v-expansion-panel-header class="card-header">
                 What are the main ABS Controllers components?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <ul class="list mt-2 mb-2">
                   <li class="text-teal text-18 justify">Some wheel speed sensors.</li>
                   <li class="text-teal text-18 justify">Brake calipers.</li>
@@ -69,7 +69,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens if ABS Controllers stop working?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> If it finds it's lacking data, or a hydraulic pump or valve isn't
                   responding, it illuminates the ABS warning light on the dash.</p>
                 <p class="text-teal text-18 justify">ABS rely on a properly operating conventional brake system. If the
@@ -81,7 +81,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Controller at Work
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The controller is a computer in the car. It watches the speed
                   sensors and controls the valves.</p>
                 <p class="text-teal text-18 justify">There are many different variations and control algorithms for ABS
@@ -103,7 +103,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Controllers Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage.</p>
                 <p class="text-teal text-18 justify">We are therefore happy to offer our customers a free collection and

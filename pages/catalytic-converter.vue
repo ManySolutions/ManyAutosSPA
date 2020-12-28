@@ -29,7 +29,7 @@
               <v-expansion-panel-header class="card-header">
                 Can you drive a car with a bad catalytic converter?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A plugged catalytic converter will only in extreme cases prevent you from driving your car. You can
                 usually drive your car indefinitely with a partially plugged converter, though you will see a drop-in
                 performance.
@@ -39,7 +39,7 @@
               <v-expansion-panel-header class="card-header">
                 Do I need to replace my catalytic converter?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Catalytic converters change harmful emissions into harmless gas, and they need to be replaced only if
                 they become clogged or otherwise damaged and can't function properly. They're expensive to replace, so
                 they aren't considered a regular maintenance item. A damaged “cat” should trigger a Check Engine light.
@@ -49,7 +49,7 @@
               <v-expansion-panel-header class="card-header">
                 What problems can a bad catalytic converter cause?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Misfire from bad spark plugs/wires, or an excessively rich fuel mixture are the leading causes. Once a
                 catalytic converter has gone bad, you'll probably get a check engine light, and fail emissions tests. As
                 things get worse, you can expect a bad smell, loss of power, poor acceleration, engine stalling, etc.
@@ -59,7 +59,7 @@
               <v-expansion-panel-header class="card-header">
                 How can you tell if catalytic converter is bad?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Here are five signs that something may be wrong with your catalytic
                   converter.</p>
                 <ul class="list mt-2 mb-2">
@@ -75,7 +75,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens if you don t replace catalytic converter?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Bad spark plugs or damaged exhaust valves can also destroy a catalytic converter. However, if your
                 converter is completely clogged, your engine will quickly fail because of all the exhaust back pressure.
               </v-expansion-panel-content>
@@ -84,7 +84,7 @@
               <v-expansion-panel-header class="card-header">
                 What are signs that your catalytic converter is bad?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A bad or failing catalytic converter can also cause an illuminated Check engine Light. The oxygen and
                 air fuel ratio sensors that modern vehicles are designed with monitor the efficiency of the catalytic
                 converter by monitoring the gas levels in the exhaust.
@@ -94,7 +94,7 @@
               <v-expansion-panel-header class="card-header">
                 What can ruin a catalytic converter?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The most common cause is unburned fuel entering the catalytic converter. Also, faulty spark plugs and
                 leads will cause the engine to misfire and ruin the catalytic converter. The excess fuel will enter the
                 exhaust system and cause it to overheat.
@@ -104,7 +104,7 @@
               <v-expansion-panel-header class="card-header">
                 Can a bad catalytic converter cause your car to cut off?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Unless the converter is clogged and physically prevents the exhaust gases from escaping, it cannot
                 directly block the engine. A bad cat could result in the engine cutting off altogether, but it's not
                 likely, because the owner usually gets the bad cat replaced before it gets to the point the engine won't
@@ -115,7 +115,7 @@
               <v-expansion-panel-header class="card-header">
                 Can a bad catalytic converter cause rough idle?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 It can also burn holes in exhaust system components and destroy your vehicle's catalytic converter. And,
                 of course, it can also be a fire hazard if the vehicle is parked over anything that is flammable.
               </v-expansion-panel-content>
@@ -124,7 +124,7 @@
               <v-expansion-panel-header class="card-header">
                 Catalytic converter Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

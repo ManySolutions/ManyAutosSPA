@@ -14,7 +14,7 @@
             <v-expansion-panel-header class="card-header">
               How Does Many Autos LTD work?
             </v-expansion-panel-header>
-            <v-expansion-panel-content class="card-header-body">
+            <v-expansion-panel-content eager class="card-header-body">
               <ul class="list">
                 <p>There are three simple steps.</p>
                 <li>Enter your reg number. </li>
@@ -28,7 +28,7 @@
             <v-expansion-panel-header class="card-header">
               Will it effect my manufacturer warranty?
             </v-expansion-panel-header>
-            <v-expansion-panel-content class="card-header-body">
+            <v-expansion-panel-content eager class="card-header-body">
               Absolutely not. You can have anything done with us and it will not effect your warranty at all.
               All of the parts we use are approved and do not effect any previous warranty on your vehicle.
             </v-expansion-panel-content>
@@ -37,7 +37,7 @@
             <v-expansion-panel-header class="card-header">
               Do you offer any warranty?
             </v-expansion-panel-header>
-            <v-expansion-panel-content class="card-header-body">
+            <v-expansion-panel-content eager class="card-header-body">
               Absolutely. We have full confidence in all of the mechanics and garages that work with us that we offer
               a full 12 months warranty on parts and labour.
             </v-expansion-panel-content>
@@ -46,7 +46,7 @@
             <v-expansion-panel-header class="card-header">
               Is collection and delivery free?
             </v-expansion-panel-header>
-            <v-expansion-panel-content class="card-header-body">
+            <v-expansion-panel-content eager class="card-header-body">
               Yes! collection and delivery is a free service we offer to all of our customers.
             </v-expansion-panel-content>
           </v-expansion-panel>
@@ -54,7 +54,7 @@
             <v-expansion-panel-header class="card-header">
               Is there a cancellation fee?
             </v-expansion-panel-header>
-            <v-expansion-panel-content class="card-header-body">
+            <v-expansion-panel-content eager class="card-header-body">
               We understand there are many things outside of our control and as such there is no fee or fine for
               cancellation.
               We only ask that you give us a minimum of 24 hours notice were possible.

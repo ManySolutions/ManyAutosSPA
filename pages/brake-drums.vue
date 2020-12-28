@@ -23,7 +23,7 @@
               <v-expansion-panel-header class="card-header">
                 What do brake drums do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Drum Brakes. A drum brake system consists of hydraulic wheel cylinders, brake shoes and a brake drum.
                 When the brake pedal is applied the two curved brake shoes, which have a friction material lining, are
                 forced by hydraulic wheel cylinders against the inner surface of a rotating brake drum.
@@ -33,7 +33,7 @@
               <v-expansion-panel-header class="card-header">
                 Which is the primary shoe in a drum brake?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The nibs rest against the support pads of the backing plate to which the shoes are installed. Each brake
                 assembly has two shoes, a primary and secondary. The primary shoe is located toward the front of the
                 vehicle and has the lining positioned differently from the secondary shoe.
@@ -43,7 +43,7 @@
               <v-expansion-panel-header class="card-header">
                 How do I know if my car has disc or drum brakes?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If your car has front disc brakes (most do), you will see the brake rotor, a shiny smooth surface an
                 inch or two behind the wheel. If it does not have front disc brakes you will see a round rusted-looking
                 brake drum. Look through one of the holes in the top of one of the rear wheels.
@@ -54,7 +54,7 @@
               <v-expansion-panel-header class="card-header">
                 Do I need to replace brake drums?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">As your brake drums begin to wear down, they will actually become
                   smaller. A mechanic will measure the drums to gauge whether or not they need to be replaced or if they
                   can be turned instead. If the damage to the brake drum is bad enough, it will begin to cause problems
@@ -65,7 +65,7 @@
               <v-expansion-panel-header class="card-header">
                 What are the parts of a drum brake system?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Components. Drum brake components include the backing plate, brake drum, shoe, wheel cylinder, and
                 various springs and pins
               </v-expansion-panel-content>
@@ -74,7 +74,7 @@
               <v-expansion-panel-header class="card-header">
                 What is the difference between drum and disc brakes?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Quite literally a drum brake is a small round drum that has a set of shoes inside of it. The drum brake
                 will rotate alongside the wheel and when the brake pedal is applied, the shoes are forced against the
                 sides of the drum and the wheel is slowed. A disc brake has a disc shaped metal rotor spinning within a
@@ -86,7 +86,7 @@
               <v-expansion-panel-header class="card-header">
                 Drum brake system
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Drum Brakes. A drum brake system consists of hydraulic wheel cylinders, brake shoes and a brake drum.
                 When the brake pedal is applied the two curved brake shoes, which have a friction material lining, are
                 forced by hydraulic wheel cylinders against the inner surface of a rotating brake drum.
@@ -97,7 +97,7 @@
               <v-expansion-panel-header class="card-header">
                 How You Know When Drum Brakes Fail
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 There are two basic ways to tell when drum brakes are not working effectively and need either to be
                 repaired or replaced. The first is by listening. As brake shoes wear down, they start to squeal each
                 time you apply the brakes. This may either indicate the need to resurface the interior of the drums or
@@ -119,7 +119,7 @@
               <v-expansion-panel-header class="card-header">
                 How Brake Drums Work and When to Change Your Brake Drums
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 On most cars, brake drums are found in the rear wheels. This is primarily because of their relatively
                 low cost and the ability for a parking brake to adhere to them. Like all brake system components in a
                 car, they wear down from time to time and need to be replaced. Since the brakes are arguably the car’s
@@ -140,7 +140,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Drums Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

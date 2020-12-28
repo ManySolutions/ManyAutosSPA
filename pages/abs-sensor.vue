@@ -22,7 +22,7 @@
               <v-expansion-panel-header class="card-header">
                 Importance of ABS sensors
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The increasing complexity of the traffic situation on our roads is
                   placing high demands on car drivers. Driver assistance systems relieve the burden on the driver and
                   optimise road safety. As a result, state-of-the-art driving assistance systems are now included as
@@ -39,7 +39,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Sensor vehicle systems
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">They are used by the control units in driving assistance systems
                   such as ABS, TCS, ESP, or ACC in order to detect the wheel speed. The wheel speed information is also
                   provided to other systems (engine, transmission, navigation, and chassis control systems) via data
@@ -55,7 +55,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Sensor Repair
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">ABS (or anti-lock braking system) is what keeps your wheels gripped
                   to the road when braking sharply, and prevents them from locking up to keep you in full control. The
                   hydraulic unit in the ABS system works by equalising the pressure on each individual brake or
@@ -69,7 +69,7 @@
               <v-expansion-panel-header class="card-header">
                 What are the symptoms of a bad ABS sensor?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
 
                 <p class="text-teal text-18 justify">Symptoms of a Bad or Failing ABS Speed Sensor</p>
                 <ul>
@@ -85,7 +85,7 @@
               <v-expansion-panel-header class="card-header">
                 What causes ABS light to come on and stay on?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">An ABS light (anti-lock braking system) that is stuck on doesn't
                   necessarily mean you need an ABS brake repair. The light staying on can be caused by something as
                   simple as the emergency brake or more complicated things like a loss of brake fluid and pressure or
@@ -96,7 +96,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens if ABS light comes on?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Your vehicle may not handle stopping on slippery surfaces like it
                   is designed to under heavy braking. If both your ABS Light and brake system light come on, this is an
                   emergency and you need to stop driving right away. Have your entire brake system inspected by a
@@ -107,7 +107,7 @@
               <v-expansion-panel-header class="card-header">
                 What can a faulty ABS sensor cause?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">There are other problems that will also cause this light to
                   illuminate including a faulty ABS pump, worn out brake pads, low brake fluid levels, issues with brake
                   pressure, or air trapped in the brake lines.</p>
@@ -117,7 +117,7 @@
               <v-expansion-panel-header class="card-header">
                 Why did my ABS light come on?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">If it finds it's lacking data, or a hydraulic pump or valve isn't
                   responding, it illuminates the ABS warning light on the dash. ABS rely on a properly operating
                   conventional brake system. If the ABS packs up, you should still have normal, unassisted braking, so
@@ -128,7 +128,7 @@
               <v-expansion-panel-header class="card-header">
                 What is ABS failure?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Symptoms of a Bad or Failing ABS Control Module. The ABS system is
                   designed to help prevent wheels from locking during heavy braking situations, preventing the vehicle
                   from skidding or hydroplaning. The ABS system is made up of the ABS module, and ABS sensors at each
@@ -140,7 +140,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS repairs Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

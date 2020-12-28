@@ -19,7 +19,7 @@
               <v-expansion-panel-header class="card-header">
                 How often should you change your air filter in your car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The engine air filter should be replaced between 15,000 and 30,000 miles, depending on driving
                 conditions. If you drive on unpaved roads, it needs to be changed more often. If you don't drive a lot,
                 an air filter should be replaced at least every 3 years, as with age it becomes brittle.
@@ -29,7 +29,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens if you dont change the air filter in your car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If your air filter gets too dirty or clogged, your engine won't be able to suck enough air into the
                 combustion chambers. The engine will then run rich (i.e. too much gas and not enough air). When this
                 happens, your car will lose power and run roughly. Your Check Engine light also may come on.
@@ -39,7 +39,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a bad air filter cause?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A dirty air filter prevents the necessary volume of clean air from reaching the engine which affects the
                 emission control systems of the car, reducing air flow and causing a too rich air-fuel mixture which can
                 foul the spark plugs. Fouled spark plugs can create an engine miss fire, rough idle and even starting
@@ -50,7 +50,7 @@
               <v-expansion-panel-header class="card-header">
                 How do I know if my air filter needs changing?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Make sure you know the warning signs of a failing filter, so you
                   can have a better sense of when it should be replaced.</p>
                 <ul class="list">
@@ -68,7 +68,7 @@
               <v-expansion-panel-header class="card-header">
                 What will a dirty air filter do to your car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 When the air filter is blocked with dust and grime, air flow decreases, and clean oxygen can't mix with
                 the fuel. The fuel then becomes too rich, putting unnecessary stress on the engine. Gradually, you'll
                 notice your car start to drive rough. Your check engine light may also turn on.
@@ -78,7 +78,7 @@
               <v-expansion-panel-header class="card-header">
                 Do car air filters need to be replaced?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Your car's engine air filter should be replaced when it gets dusty or dirty enough. But don't let a
                 mechanic convince you to replace it too frequently. Over time, your car's engine air filter collects
                 dirt and debris even bugs and eventually needs to be replaced.
@@ -88,7 +88,7 @@
               <v-expansion-panel-header class="card-header">
                 Does a new air filter improve car performance?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In addition, changing a clogged air filter can potentially increase acceleration by 6 to 11 percent on
                 modern fuel-injected cars. Regardless of the exact figures, it is obvious that a clean air filter
                 improves air flow to the engine and increases engine performance and Fuel mileage.
@@ -99,7 +99,7 @@
               <v-expansion-panel-header class="card-header">
                 How important is a car air filter?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 As outside air flows through it, it becomes filled with pollen, dust and debris. A clogged air filter
                 won't allow enough air to enter the engine, and this can affect the performance of your vehicle over
                 time. Because the air filter sits inside a black box or a metal housing on older vehicles it's easy to
@@ -110,7 +110,7 @@
               <v-expansion-panel-header class="card-header">
                 Can a dirty air filter cause the check engine light to come on?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In extreme cases, a contaminated air filter can turn on the check engine light. An extremely dirty air
                 filter restricts engine air intake. Engine misfire. A misfire results from incomplete combustion inside
                 the engine. A contaminated air filter can restrict engine airflow, resulting in a rich air and fuel
@@ -123,7 +123,7 @@
                 Air Filter Replacement Free Collection and Delivery
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

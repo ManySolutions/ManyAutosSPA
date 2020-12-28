@@ -20,7 +20,7 @@
               <v-expansion-panel-header class="card-header">
                 EGR Valve Problems
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 This clogged EGR valve causes the engine to run badly due to an imbalance in the fuel/air mixture. If
                 the jammed EGR valve is not repaired or replaced quickly, all sorts of problems may occur. Four of the
                 most common are rough running, high fuel consumption, turbocharger failure and, sometimes, total engine
@@ -31,7 +31,7 @@
               <v-expansion-panel-header class="card-header">
                 Can a bad EGR valve cause a car to stall?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 When the EGR valve is clogged or dirty, as they are prone to, it may not function properly causing the
                 engine idle rough, stall at idle speeds, cause the car to get poor fuel mileage, or emit a strong smell
                 of fuel due to excess hydrocarbons which also results in failing emissions tests.
@@ -41,7 +41,7 @@
               <v-expansion-panel-header class="card-header">
                 Is the EGR valve important?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The EGR valve is an important component in the exhaust gas recirculation process as it helps to prevent
                 exhaust valves from overheating, which can accelerate their wear and tear. The EGR valve therefore helps
                 maintain the exhaust system at full capacity and increases the longevity of the internal combustion
@@ -52,7 +52,7 @@
               <v-expansion-panel-header class="card-header">
                 Does a faulty EGR valve affect performance?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">One of the first symptoms of a problem with the EGR valve is engine
                   performance issues. A clogged or malfunctioning EGR valve can disrupt the vehicle's air-fuel ratio,
                   which can cause engine performance issues such as a reduction in power, acceleration, and even fuel
@@ -75,7 +75,7 @@
               <v-expansion-panel-header class="card-header">
                 ERG Valve Repair Prices/What is an ERG Valve?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 ERG stands for Exhaust Gas Recirculation and it is a function performed within the combustion engine of
                 a car. The measure is sophisticated in the way it is carried out as exhaust gasses are recirculated back
                 into the inlet manifold to be used for combustion again. The reason that ERG takes place is to reduce
@@ -96,7 +96,7 @@
               <v-expansion-panel-header class="card-header">
                 ERG Valve Problems
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 When there is a build-up of soot and particulate matter, the EGR valve can become stuck open or closed
                 as the substance can become tar like. A blocked EGR valve could be the cause of the engine light in your
                 car switching on as the engine emissions system will not be performing properly. Wiring and pneumatics
@@ -116,7 +116,7 @@
               <v-expansion-panel-header class="card-header">
                 What does EGR removal do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The EGR valve works by recirculating a measured amount of the exhaust gases back into the engine through
                 the air intake system, reducing the amount of emissions the engine produces.
               </v-expansion-panel-content>
@@ -125,7 +125,7 @@
               <v-expansion-panel-header class="card-header">
                 What controls the EGR valve?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The fuel air mixture can also spontaneously combust, causing valve clatter and damaging the engine.
                 Allowing a small amount of exhaust gas back into the intake reduces combustion chamber temperature.
                 Regulating the flow of exhaust gas is the job of the EGR system. What will a stuck EGR valve do? An EGR
@@ -145,7 +145,7 @@
               <v-expansion-panel-header class="card-header">
                 Can a faulty EGR valve cause misfire?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 But the cause might be anything from a hard-to-find vacuum leak to dirty fuel injectors, low fuel
                 pressure, a weak ignition coil, bad plug wires, or compression problems. An EGR valve that is leaking
                 can also act like a vacuum leak and cause a random misfire Replacing an EGR Valve If your car needs to
@@ -161,7 +161,7 @@
               <v-expansion-panel-header class="card-header">
                 ERG Valve Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

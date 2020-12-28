@@ -26,7 +26,7 @@
               <v-expansion-panel-header class="card-header">
                 Benefits of Regularly Changing Fuel Filters
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <ul class="list mt-2 mb-2">
                   <li>The most noticeable benefit of a clean fuel filter is engine performance. Modern high-precision
                     fuel systems have very little tolerance to impurities in the fuel. These impurities can have a
@@ -46,7 +46,7 @@
               <v-expansion-panel-header class="card-header">
                 Symptoms of a Clogged Fuel Filter
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 When a fuel filter becomes clogged the fuel pump must work harder to pump sufficient fuel into the
                 engine. A clogged fuel filter is more noticeable when the demand for fuel is higher than normal i.e.
                 when driving up a hill or during acceleration. The fuel pump is put under increased pressure as it
@@ -68,7 +68,7 @@
               <v-expansion-panel-header class="card-header">
                 How often should you change a fuel filter on a petrol engine?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Always check your owner's manual to see what the vehicle manufacturer's recommended guidelines are for
                 fuel filter replacement. Sources online estimate filters should be replaced as soon as every 20,000 up
                 to 40,000 miles.
@@ -78,7 +78,7 @@
               <v-expansion-panel-header class="card-header">
                 What Are the Benefits of Changing a Fuel Filter?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Cars made prior to 1980 used mechanical fuel pumps and carburettors that required low fuel pressure to
                 operate. Fuel filters keep contaminants and other particles from clogging the injectors.
               </v-expansion-panel-content>
@@ -87,7 +87,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with the Fuel Filter?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <ul class="list mt-2 mb-2">
                   <li>When the 'Check Engine' light is on.</li>
                   <li>When the engine runs rough power, delivery is not as smooth as usual.</li>
@@ -100,7 +100,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider a Fuel Filter replacement?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Over time, a fuel filter can get rather dirty, clog up or fail completely. There will be a reduced flow
                 of fuel towards the engine or, in extreme cases, dirty fuel will pass through the filter and onto the
                 engine. Eventually, a fuel filter that does not work correctly can lead to further damage. Should you
@@ -114,7 +114,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know if your fuel filter needs to be changed?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <ul class="list mt-2 mb-2">
                   <li>Here are some warning signs that a fuel filter needs to be replaced.</li>
                   <li>Here are some warning signs that a fuel filter needs to be replaced.</li>
@@ -129,7 +129,7 @@
               <v-expansion-panel-header class="card-header">
                 Can a bad fuel filter cause a car not to start?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 One of the first symptoms of a problem with the auxiliary fuel filter is hard starting. If the filter
                 becomes excessively dirty or clogged it may restrict fuel pressure or flow, which may cause the vehicle
                 to have trouble starting.
@@ -139,7 +139,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens if you put a fuel filter on backwards?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">
                     A fuel filter put in backwards may restrict or stop the flow of fuel to the engine. If, after
@@ -161,7 +161,7 @@
               <v-expansion-panel-header class="card-header">
                 Fuel Filter Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

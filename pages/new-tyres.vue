@@ -30,7 +30,7 @@
               <v-expansion-panel-header class="card-header">
                 Why buy tyres at Many Autos?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 We stock tyres to fit practically any make and model of vehicle. Whether you are looking for car tyres,
                 van tyres or SUV tyres, we have the right ones to fit your vehicle.
               </v-expansion-panel-content>
@@ -39,7 +39,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you change your Tyres?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 You should inspect your tyres regularly at least once a month. Check the below to see if your tyres need
                 replacing: Tread wear bars: most tyres have tread wear bars - bands of hard rubber that you can only see
                 when your tread depth has gone beyond the limit for safe driving, which is generally 1.6mm.
@@ -49,7 +49,7 @@
               <v-expansion-panel-header class="card-header">
                 How do I know if my Tyres are worn out?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The minimum legal tread depth is 1.5 mm across the width of the tread. When the tyre is worn to the
                 legal limit the bars will be flush with the surface of the tread. While that is the legal requirement
                 some car manufacturers recommend you replace your tyres before they wear to that extent.
@@ -59,7 +59,7 @@
               <v-expansion-panel-header class="card-header">
                 Tyres to suit your needs and budget
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Our tyres come in a wide range of options from run flat tyres to
                   reinforced models designed to cope with extra loads and at a price to suit your pocket. Choose cheap
                   tyres from our budget range or select from premium brands including Pirelli and Goodyear for maximum
@@ -78,7 +78,7 @@
               <v-expansion-panel-header class="card-header">
                 How do I know if my Tyres are bald?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Take the 20p coin test. All you have to do is insert a 20p coin into the main tread grooves of your
                 tyre. If the outer band of the 20p coin is hidden when it is inserted, then your tread is above the
                 legal limit. If the outer band can be seen, it is highly likely your tyres need replacing as soon as
@@ -91,7 +91,7 @@
               <v-expansion-panel-header class="card-header">
                 What do I need to take with me?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Please make sure you bring your locking wheel nut key along for your appointment. If you have locking
                 wheel nuts fitted, we will need the key in order to remove the wheels from your car. The locking wheel
                 nuts can usually be found in the glove box or underneath the boot liner along with the spare tyre. Tyre
@@ -111,7 +111,7 @@
               <v-expansion-panel-header class="card-header">
                 Choose wisely
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Choose wisely Choosing the right tyres can have a huge impact on how long they're likely to last. Tyres
                 that are optimised to reduce rolling resistance and improve fuel economy will typically last longer, as
                 they help to minimise friction with the road. If you can, stick to the same brand of tyres on all four
@@ -125,7 +125,7 @@
               <v-expansion-panel-header class="card-header">
                 Drive with care
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Driving style can seriously affect the lifespan of your tyres, as can the climate and condition of the
                 roads. Accelerating aggressively, braking sharply and taking corners at speed is not only dangerous, but
                 will also lead to more tyre wear.
@@ -135,7 +135,7 @@
               <v-expansion-panel-header class="card-header">
                 Empty the boot
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">
                   How much stuff is crammed in your boot?
                   How much of it do you actually need?
@@ -151,7 +151,7 @@
               <v-expansion-panel-header class="card-header">
                 Tyres Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

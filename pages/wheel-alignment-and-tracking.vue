@@ -18,7 +18,7 @@
               <v-expansion-panel-header class="card-header">
                 Why wheel alignment is important
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Wheel alignment, or tracking, is the process of ensuring your vehicle’s wheels are set to the optimum
                 position, as per the car manufacturer’s specifications. Incorrect alignment can result in rapid and
                 irregular tyre wear and can even affect the handling and safety of the vehicle. Wheel alignment problems
@@ -37,7 +37,7 @@
               <v-expansion-panel-header class="card-header">
                 What is wheel alignment?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If your front wheels are out of alignment, it means that they are not fitted into the correct position
                 and do not point in the exact same direction. If the front wheels are not aligned, your car will be more
                 difficult to steer, and a range of other issues may arise as a result. Getting your front wheels aligned
@@ -60,7 +60,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know if your car needs an alignment?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Here are some common signs that you are dealing with wheels with poor alignment: 1. Vehicle pulling to
                 the left or right. 2. Uneven or rapid tyre wear. 3. Your steering wheel is crooked when driving
                 straight. 4. Squealing tires.
@@ -70,7 +70,7 @@
               <v-expansion-panel-header class="card-header">
                 What is the difference between tracking and wheel alignment?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Tracking on the fronts (sometimes called a two-wheel alignment) does not take in account the direction
                 in which the rear wheels are pointing. With such accurate readings, Four Wheel Alignment allows toe
                 adjustments of individual wheels which ensure the steering wheel is set straight.
@@ -80,7 +80,7 @@
               <v-expansion-panel-header class="card-header">
                 How often do you need a wheel alignment?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Often, the wheel alignment is recommended when new tyre are installed. The alignment should be done more
                 often if your car has wider tires or if it's a sporty car.
               </v-expansion-panel-content>
@@ -89,7 +89,7 @@
               <v-expansion-panel-header class="card-header">
                 Do I need an alignment after replacing tyre?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If your vehicle tracks as straight as an arrow, you're wheels likely are properly aligned. Even so, it's
                 a good idea to have your alignment checked, such as when you have your tyres rotated. You certainly
                 should have it done when you buy new tyres, so they don't immediately start to wear unevenly.
@@ -99,7 +99,7 @@
               <v-expansion-panel-header class="card-header">
                 Wheel Alignment Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

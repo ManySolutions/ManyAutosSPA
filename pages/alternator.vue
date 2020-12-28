@@ -25,7 +25,7 @@
               <v-expansion-panel-header class="card-header">
                 Where is the alternator and what does it look like?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The alternator is about the size of an old-fashioned pint glass and has lots of vents on its aluminium
                 body that allow it to keep cool as it does its job. On one end of it is a pulley around which is a
                 rubber belt. This same belt also goes around another pulley attached to the engine. As the engine turns,
@@ -41,7 +41,7 @@
               <v-expansion-panel-header class="card-header">
                 How does an alternator work?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The rotor is actually an electromagnet spinning inside fixed coils of tightly wound copper wire. These
                 coils are called the stator, because they’re stationary. As the rotor spins, (remember, it’s being
                 turned by the engine) it generates a small amount of electricity from two carbon bushes touching a
@@ -57,7 +57,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know when the alternator is working?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Start your car’s engine. Did you notice that little red battery symbol come on briefly? It’s actually a
                 warning symbol which, if it were to stay on, would indicate there’s a problem with the alternator. If
                 the alternator has still got some life in it, the light may flicker or, if you make it work harder by
@@ -76,7 +76,7 @@
               <v-expansion-panel-header class="card-header">
                 How do I know it’s not the battery at fault?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 When the alternator begins to fail or simply fails, the battery takes over but as we’ve seen, it does
                 not last long. The trouble is, it’s slow death gets mixed up with the alternator’s so it can be hard to
                 tell which is at fault. One easy way is to check the condition of the battery with a voltmeter. Another
@@ -89,7 +89,7 @@
               <v-expansion-panel-header class="card-header">
                 What is a car alternator?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The car's alternator performs a simple, but vital job: to keep your car's battery charged. The battery
                 is responsible for starting the car, spark plugs, lights, electrics, and sometimes power steering -
                 quite a job - so it's essential that it's topped up - and that's what the alternator does.
@@ -99,7 +99,7 @@
               <v-expansion-panel-header class="card-header">
                 What are common problems with an alternator?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The alternator acts like a small generator: the engine spins it, and the alternator turns that spinning
                 motion into electricity. The most common problems are worn brushes (the component that maintains
                 constant electrical contact with the spinning alternator) and a failing voltage regulator which ensures
@@ -111,7 +111,7 @@
               <v-expansion-panel-header class="card-header">
                 What are the common symptoms of alternator problems?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Common signs of car alternator problems include the 'charge' or battery lights flashing on the
                 dashboard, flickering or dimming headlights and interior lights and a growling or whining noise under
                 the bonnet.
@@ -122,7 +122,7 @@
               <v-expansion-panel-header class="card-header">
                 How to test an alternator for problems
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A simple way to test an alternator for problems is to do what's known as the headlight test. Park your
                 car with the headlights on or run it in neutral, then rev the engine. If the headlights dim you could
                 well have an alternator problem. A better test is to take your car to a garage, where a car alternator
@@ -133,7 +133,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider an Alternator replacement?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Should you experience any problems like those listed above it is important to have the alternator
                 inspected and, if necessary, have the alternator replaced. Always remember to service the alternator as
                 and when stipulated in the manufacturer's guidelines. It is essential that the alternator is kept in
@@ -145,7 +145,7 @@
               <v-expansion-panel-header class="card-header">
                 Alternator Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

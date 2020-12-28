@@ -11,7 +11,7 @@
               <v-expansion-panel-header class="card-header">
                 What does Fuel Injectors do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The fuel injectors are part of the fuel supply system of the engine (provided it is a petrol engine),
                 they usually inject the fuel directly into the cylinders, but in some cars the injectors are situated in
                 the inlet manifold. The injectors diffuse the fuel, which then mixes with the air being let into the
@@ -22,7 +22,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider a fuel injector replacement?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Over time, the fuel injectors can be affected by dirty fuel which will mean that the injectors can clog
                 up in turn the injectors will not be able to diffuse the fuel optimally. In most cases it means that the
                 fuel lines or fuel tank have started to corrode. Alternatively, it can be that the fuel filter has
@@ -38,7 +38,7 @@
               <v-expansion-panel-header class="card-header">
                 How can you tell if you got a bad fuel injector?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Since these are a part of the fuel system, it's important to watch for these symptoms to determine if
                 the fuel injector is bad or failing. 1 Engine Performance Issues. 2 Check Engine Light Comes On. 3
                 Vehicle Won't Start or Struggles When Starting. 4 Vehicle Misfires. 5 Poor Idle. 6 Engine doesn't Reach
@@ -49,7 +49,7 @@
               <v-expansion-panel-header class="card-header">
                 What causes fuel injectors to go bad?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Diagnosing a clogged injector is not always easy because it acts
                   the same as a broken spark plug wire or a bad spark plug. One or more cylinders are not firing. Old
                   fuel, carbon and residue inside the fuel cause fuel injectors and or their filter baskets to become
@@ -69,7 +69,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens when an injector goes bad?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 One of the most common symptoms of faulty fuel injectors is an extremely violent or rough engine idle.
                 If fuel is not properly provided to the engine cylinder, it will result in a choppy engine, when the car
                 is in idle. Fuel injector can crack or break, which will cause a gas leak.
@@ -79,7 +79,7 @@
               <v-expansion-panel-header class="card-header">
                 Can dirty fuel injectors cause check engine light?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The fuel injectors can become clogged with dirt and oil, which means the fuel isn't getting to the
                 engine properly. If it's faulty, you will probably be getting bad fuel mileage, or you'll notice it's
                 hard for the car to pick up speed. A faulty sensor will also make the Check Engine light turn on.
@@ -89,7 +89,7 @@
               <v-expansion-panel-header class="card-header">
                 Can a bad fuel injector cause your car not to start?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A faulty fuel injector can cause the vehicle to experience misfires, a loss in power and acceleration, a
                 reduction in fuel efficiency, and in severe cases can cause stalling or prevent the engine from running
                 at all.
@@ -99,7 +99,7 @@
               <v-expansion-panel-header class="card-header">
                 How often should you replace fuel injectors?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 We recommend cleaning fuel injectors at least every 36 months or 45,000 miles.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -107,7 +107,7 @@
               <v-expansion-panel-header class="card-header">
                 Why does my car hesitate when I step on gas?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Sometimes, the worst part of getting your car fixed is having to bring it to the garage We are therefore
                 happy to offer our customers a collection and delivery service If you prearrange a collection, we will
                 pick your car up from your home or place of work and drive it to our premises, carry out all the
@@ -118,7 +118,7 @@
               <v-expansion-panel-header class="card-header">
                 Fuel Injector Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

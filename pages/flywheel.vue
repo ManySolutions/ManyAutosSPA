@@ -16,7 +16,7 @@
               <v-expansion-panel-header class="card-header">
                 Dual Mass Flywheel
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A dual-mass flywheel (DMF) is a rotating mechanical device that is used to provide continuous energy
                 (rotational energy) in systems where the energy source is not continuous, the same way as a conventional
                 flywheel acts, but damping any violent variation of torque or revolutions that could cause an unwanted
@@ -27,7 +27,7 @@
               <v-expansion-panel-header class="card-header">
                 What Is a Dual Mass Flywheel, and What Does It Do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The dual mass flywheel is primarily designed to reduce noise and vibration. The DMF is sort of a
                 mechanical "sponge", where vibrations and harshness in the driveline are dampened by two flywheel masses
                 that are connected to one another by a series of high strength springs. Any roughness is absorbed (at
@@ -40,7 +40,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with the flywheel?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <ul class="list mt-2 mb-2">
                   <li>When the clutch slips whilst driving. </li>
                   <li>When you cannot change gear.</li>
@@ -53,7 +53,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider a flywheel replacement?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">A flywheel replacement is normally recommended when changing the
                   clutch. In most cases one will find that when the clutch is worn or damaged it may have affected the
                   flywheel. Not replacing the flywheel at the same time may then lead to damage to the new clutch. Hence
@@ -72,7 +72,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens during a flywheel replacement?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <ul class="list mt-2 mb-2">
                   <li>Many Autos will inspect and test the functionality of the clutch and flywheel.</li>
                   <li>If necessary, Many Autos will advise if flywheel needs replacing.</li>
@@ -90,7 +90,7 @@
               <v-expansion-panel-header class="card-header">
                 How much does a flywheel replacement cost?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The cost of a flywheel replacement will depend on your car and what parts the manufacturer recommends as
                 being required for the replacement. In almost all occasions mechanics will advise to change the clutch
                 at the same time. You could save up to 50% on your flywheel replacement versus franchise dealers with
@@ -101,7 +101,7 @@
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and
@@ -131,7 +131,7 @@
               <v-expansion-panel-header class="card-header">
                 How much does a flywheel replacement cost?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify"></p>
                   <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">

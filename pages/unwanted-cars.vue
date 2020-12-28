@@ -20,7 +20,7 @@
               <v-expansion-panel-header class="card-header">
                 Cash paid for unwanted cars
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Arrange payment & collection of your old scrap car. If you wish to go ahead with your quote, then one of
                 our local collection partners will come along to pick up your scrap car at a time and date agreed with
                 you. If you’ve got the DVLA paperwork (the V5 logbook or SORN) for your scrap car, this is the time to
@@ -34,7 +34,7 @@
               <v-expansion-panel-header class="card-header">
                 Scrap your car
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Scraping your car can be hassle free with our car convenient scrapping car pickup service, we'll collect
                 your old car from anywhere in the United Kingdom. We'll collect your car at a time that's convenient for
                 you. We complete all the necessary paperwork on your behalf and provide you with an official Certificate
@@ -46,7 +46,7 @@
               <v-expansion-panel-header class="card-header">
                 Unwanted vehicles
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 We collect any scrap car. Our primary business is the collection and disposal of scrap vehicles. Our own
                 modern vehicles can collect your scrap car or scrap vehicle from your choice of location at a time
                 convenient to you and ensure its safe disposal. For more information please contact us on
@@ -57,7 +57,7 @@
               <v-expansion-panel-header class="card-header">
                 Drivable or non drivable
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 As long as you accept our valuation, we can collect the car, whether it is drivable or not. We even
                 collect accident damaged vehicles.
               </v-expansion-panel-content>
@@ -66,7 +66,7 @@
               <v-expansion-panel-header class="card-header">
                 Paperwork
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 With the DVLA implementing many fines for keeping an unlicensed vehicle in the street or even on your
                 private property at home we complete and process all the legal paperwork. This will save you not only
                 time but also the hassle of dealing with the DVLA. For more information please contact us on
@@ -77,7 +77,7 @@
               <v-expansion-panel-header class="card-header">
                 Have your scrap car collected
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Once you know how much you can scrap your car for, we can come and collect your car from anywhere that's
                 convenient for you at an agreed time that you can arrange with us. For more information please contact
                 us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
@@ -87,7 +87,7 @@
               <v-expansion-panel-header class="card-header">
                 What is a scrap car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Vehicle recycling is the dismantling of vehicles for spare parts. At the end of their useful life,
                 vehicles have value as a source of spare parts, and this has created a vehicle dismantling industry. A
                 car crusher is often used to reduce the size of the scrapped vehicle for transportation. For more
@@ -99,7 +99,7 @@
               <v-expansion-panel-header class="card-header">
                 Do you get paid for scrapping your car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Scrapping your car is relatively easy. And because of the increase in scrap metal values, you should be
                 paid money for your car. This needs to take place at a scrapyard, or Authorised Treatment Facility (ATF)
                 that's licensed by the Environment Agency. For more information please contact us on
@@ -110,7 +110,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens when you scrap a car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Scrap your vehicle and keep parts from it. You can take parts from your vehicle before you scrap it so
                 you can use them to repair another vehicle. Give the ATF the vehicle logbook (V5C), but keep the yellow
                 'sell, transfer or part-exchange' section from it. Tell DVLA you've taken your vehicle to an ATF. For
@@ -122,7 +122,7 @@
               <v-expansion-panel-header class="card-header">
                 What documents do you need to scrap a car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Documents needed to successfully scrap a car include the Vehicle registration document (V5C) The vehicle
                 registration document or V5C is the vehicle logbook this is the most important document needed for
                 scrapping your car. For more information please contact us on info@manyautosltd.com or call our team on
@@ -133,7 +133,7 @@
               <v-expansion-panel-header class="card-header">
                 Can you sell a car without a v5?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Selling a vehicle. If you sell your vehicle you must tell DVLA straight away using the V5C registration
                 certificate. If it's lost or damaged, you'll need to get a replacement before selling. The new keeper
                 won't be able to tax the vehicle without it. For more information please contact us on
@@ -144,7 +144,7 @@
               <v-expansion-panel-header class="card-header">
                 Will I get a receipt for my scrap car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 You will receive a receipt this will include all the relevant information you need. You will also
                 receive an email with all of the details, you can print the email out and keep it for your records. For
                 more information don’t hesitate please contact us on info@manyautosltd.com or call our team on
@@ -155,7 +155,7 @@
               <v-expansion-panel-header class="card-header">
                 Can I book my car collection by phone?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Of course, call us on 01189876300 our booking agents are on hand to take your calls and assist you with
                 your service and booking Monday to Friday: 9am to 6pm, Saturday 10am to 5pm , via our live chat during
                 the same hours or 24/7 on our website www.manyautosltd.com
@@ -165,7 +165,7 @@
               <v-expansion-panel-header class="card-header">
                 How do we do this?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Call us or visit our website and provide us with your details. We will contact you to have a
                 conversation over the phone. You will need to answer a few simple questions about the condition of the
                 vehicle. We will then provide you with a valuation of your unwanted vehicle on the spot. If you are
@@ -181,7 +181,7 @@
               <v-expansion-panel-header class="card-header">
                 Are you an independent company?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Many Autos is an independent car repair business and has been serving the community since 2001. We deal
                 with all vehicle makes and models, so whatever the issue, Many Autos can get you back on the road. We
                 also offer a free collection and delivery service from your home or work address. You may need anything
@@ -198,7 +198,7 @@
               <v-expansion-panel-header class="card-header">
                 Unwanted car
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

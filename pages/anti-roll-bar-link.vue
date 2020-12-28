@@ -16,7 +16,7 @@
               <v-expansion-panel-header class="card-header">
                What does an Anti-roll bars link do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Anti-roll bar links are short metal rods with joints known as 'bushings' at each end. The purpose of anti roll bar links is to connect the anti-roll bar in a car's suspension to the rest of the suspension structure. Anti-roll bars are fitted to just about any car these days. Most cars have an anti-roll bar on the front as well as the rear of the car. Anti-roll bars stabilize your car when you go through a corner. Whilst it is an important component it's often tricky to know whether you will need to replace it. Luckily there are a couple of checks that can be done to find out if it needs replacing.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -24,7 +24,7 @@
               <v-expansion-panel-header class="card-header">
                 Is it safe to drive with a broken Anti-roll bar link?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Depending on the vehicle you're driving, you may have a front or a rear sway bar, or you may have both. If you suspect that a sway bar is broken, you can still drive the car, but you must use caution. The way this will affect your drive will depend on if the front or rear sway bar is broken.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -32,7 +32,7 @@
               <v-expansion-panel-header class="card-header">
                 Are Anti-roll bars links an MOT failure?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The problems arise when the car is cornered hard, as it will roll much more than expected, causing serious and dangerous instability. It will, of course fail an MOT test. Damaged Anti-roll bars link rods will cause an MOT failure.
 
               </v-expansion-panel-content>
@@ -41,7 +41,7 @@
               <v-expansion-panel-header class="card-header">
                 What will a bad anti roll bar link do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Common signs of faulty stabilizer bar links include clunking or rattling noises from the tyre area, poor handling, and a loose steering wheel. Our certified technicians can diagnose the problem and repair for you. Symptoms of Bad or Failing Anti-roll bars Links</p>
                 <ul class="list">
                   <li>Clunking or rattling noises from the tyre area. The anti-roll bar links attach to the lower control arm at the front end of most car </li>
@@ -55,7 +55,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens when Anti roll bar link breaks?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Because an Anti-roll bar link helps the car's suspension to put more pressure on loaded springs, a broken Anti roll bar link means that the car's suspension will not be able to handle corners as well or as quickly. While it is possible to drive with a broken Anti roll bar link, as a precaution do not take corners with excessive speeds.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -63,7 +63,7 @@
               <v-expansion-panel-header class="card-header">
                 How many Anti-roll bar link does a car have?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                Usually there is one anti-roll bar at the front of the car, joining the two front wheels, and a second at the back of the car, joining the two rear wheels. Since each anti-roll bar has one Anti-roll bar link at each end, there are a total of four Anti-roll bar link in a car. If you experience problems with the anti-roll bar it's normally due to worn bushes on either the bar or the links. The anti-roll bar itself normally does not break and can last a lifetime as it's simply a metal bar. The bushes, though, are made from plastic or rubber and can wear down or perish over time. Often wear to bushes can be identified by knocking or squeaking noises that occur when driving through corners. If you are faced with those noises it may be time to get these bushes replaced. Often the bushes cannot be replaced separately from the anti-roll bar or link itself as they are pressed into the actual component. In those cases, the whole anti-roll bar or links need replacing.
 
               </v-expansion-panel-content>
@@ -72,7 +72,7 @@
               <v-expansion-panel-header class="card-header">
                 Anti-roll bar links Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

@@ -16,7 +16,7 @@
               <v-expansion-panel-header class="card-header">
                 Can I finance car repairs?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Yes, you can pay for all or some of your car repair bill with car service and repair finance. From
                 replacing car parts to a full transmission, engine, repair, service, mot repair maintaining your vehicle
                 can get costly. If you need help paying for routine service or urgent repairs, Many Autos car service
@@ -27,7 +27,7 @@
               <v-expansion-panel-header class="card-header">
                 Finance on servicing and repair
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 At Many Autos we want to help ease the cost of your car repair service, and any unexpected vehicle
                 repairs, by offering our customers the option to spread the cost over either four or twelve months
               </v-expansion-panel-content>
@@ -36,7 +36,7 @@
               <v-expansion-panel-header class="card-header">
                 Servicing and repair spread the cost
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Finance on servicing and repair spread the cost over 3, 4, 5, or 6 months You pay 25% of the bill when
                 work is completed. The remaining 75% is spread over over 3, 4, 5, or 6 months payments. You must have a
                 valid UK debit card to arrange the payment plan
@@ -46,7 +46,7 @@
               <v-expansion-panel-header class="card-header">
                 Finance available on following services
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Alternator Anti Roll Bar Link Air Suspension Brakes Cv Joint Car Service Catalytic Converter Crankshaft
                 Clutch Coil Springs Drag Links Drive Shaft Exhaust Repair Flywheel Fuel Pump Fuel Injectors Glow Plug
                 Handbrake Head Gasket New Tyre Starter Motor Suspension Services Radiator Rear Axle Steering Thermostat

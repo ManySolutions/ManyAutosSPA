@@ -22,7 +22,7 @@
               <v-expansion-panel-header class="card-header">
                 Catalytic Converters
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Over the years, car manufacturers have been trying to find ways to reduce the harmful pollutants
                 produced by vehicles. In 1975 they came up with the catalytic converter and this is now the most
                 important part of a car’s emission control system. In 1993 it became the law in the UK for new cars to
@@ -37,7 +37,7 @@
               <v-expansion-panel-header class="card-header">
                 Diesel Particulate Filter
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Since 2009, diesel cars have been required by EU law to be fitted with a diesel particulate filter, in a
                 bid to reduce emissions and drive down air pollution. These devices catch the small pieces of soot
                 released by burned fuel. Once they fill up, the soot is burned to ash – either by passive regeneration
@@ -51,7 +51,7 @@
               <v-expansion-panel-header class="card-header">
                 Exhaust System
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Your exhaust is an essential safety system in your car. If parts of exhaust system break or become worn
                 and aren’t replaced or repaired, this could result in harmful gases potentially being released around
                 the driver, passengers, and surrounding environment, which can be a dangerous situation. As your
@@ -64,7 +64,7 @@
               <v-expansion-panel-header class="card-header">
                 Performance Catalysts
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Whether you’re looking for a reduction catalyst or an oxidization catalyst, you’re sure to find what you
                 need in our range. Your engine uses catalysts in a number of ways. This includes helping to make sure
                 the gases your car produces have as much oxygen in them as possible – your reduction catalyst is
@@ -78,7 +78,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a car's exhaust do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Your Exhaust System performs 4 tasks: it reduces noise, it diverts waste gases away from driver and
                 passengers, it improves performance and it reduces fuel consumption. The Catalytic Converter removes
                 harmful gases such as Carbon Monoxide, and noise is reduced by the Silencer (or 'muffler) Finally, on
@@ -90,7 +90,7 @@
               <v-expansion-panel-header class="card-header">
                 How does a car's exhaust work?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Without an exhaust system, the first thing you would notice is the noise - which would be many times
                 greater. Your engine is also designed to run with an exhaust's 'backpressure' on gases leaving the
                 engine. Removing the backpressure reduces performance and burns more fuel. Finally, your car would emit
@@ -101,7 +101,7 @@
               <v-expansion-panel-header class="card-header">
                 Why do car exhausts rust?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The exhaust rusts for a couple of reasons: first, it is exposed to water, debris, salt and damage from
                 materials thrown up from the road. Second, the exhaust undergoes extremes of heat and cold, as well as
                 internal water vapor (a byproduct of internal combustion), all of which speed up the rusting process.
@@ -111,7 +111,7 @@
               <v-expansion-panel-header class="card-header">
                 What does blue, white or black exhaust smoke mean?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">It's useful to know your exhaust smoke colors Black smoke means
                     your engine is burning fuel inefficiently, creating soot, pointing towards a tuning, ignition or
@@ -135,7 +135,7 @@
               <v-expansion-panel-header class="card-header">
                 Can you drive a car with a broken exhaust?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If the cause of a loud exhaust is not a defect, it is just loud, it may not be as dangerous to drive,
                 but you may get pulled over because of the noise. Signs of a broken exhaust include a clunking sound
                 while the vehicle is running.
@@ -145,7 +145,7 @@
               <v-expansion-panel-header class="card-header">
                 How long does it take to change a car exhaust?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Replacing an exhaust should take no more than an hour, with the mid-pipe clocking in at a similar time.
                 The downpipe, however, as it's the deepest part of the exhaust takes between 2-3 hours.
               </v-expansion-panel-content>
@@ -154,7 +154,7 @@
               <v-expansion-panel-header class="card-header">
                 Can you drive with an exhaust leak?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Driving with an exhaust leak is potentially dangerous as the fumes contain carbon monoxide. A third sign
                 your exhaust may be leaking is if your gas pedal vibrates while you are driving. Even the smallest of
                 leaks can cause the vehicle to vibrate, yet the bigger the leak the stronger the vibrations
@@ -164,7 +164,7 @@
               <v-expansion-panel-header class="card-header">
                 Gеt The Exhаuѕt Sуѕtеm оf Your Car Uрdаtеd
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 It might ѕurрriѕе to уоu, but there аrе certain itеmѕ like suspension ѕуѕtеm, еlесtriс ѕуѕtеm, clutch
                 and gеаr trаnѕmiѕѕiоn ѕуѕtеm, exhaust ѕуѕtеm, еnginе oil еtс, which equally imрасtѕ thе реrfоrmаnсе оf
                 аnу саr. Thеrеfоrе, it becomes indiѕреnѕаblе for the саr owners to рау equal аttеntiоn towards аll thе
@@ -204,7 +204,7 @@
               <v-expansion-panel-header class="card-header">
                 Exhaust Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and
@@ -234,7 +234,7 @@
               <v-expansion-panel-header class="card-header">
                 How much does Exhaust Repair cost?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify"></p>
                   <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">

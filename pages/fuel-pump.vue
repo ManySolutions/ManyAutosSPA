@@ -11,7 +11,7 @@
               <v-expansion-panel-header class="card-header">
                 Fuel Pump replacement
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A malfunctioning fuel pump tends to deliver too much or too little fuel from the petrol or diesel tank,
                 which can cause your vehicle to breakdown. To ensure your vehicle always drives as it should. Mechanical
                 fuel pumps resemble diaphragms and sit on a mount outside of the fuel tanks of older vehicles. Most
@@ -29,7 +29,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a Fuel Pump do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The fuel pump is part of the engine's fuel system and serves to supply fuel to the engine for combustion
                 at the level required by the engine. In most cars, the pump is usually located near or in the fuel tank.
               </v-expansion-panel-content>
@@ -38,7 +38,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider a Fuel Pump replacement?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Over time, due to continuous use, the fuel pump can wear and eventually fail leading to an unstable flow
                 of fuel being directed towards the engine. Depending on whether the car has a mechanical or an
                 electronic fuel pump several issues can arise. Sometimes it can be that the fuel pump does not pump an
@@ -53,7 +53,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens when your fuel pump goes out?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">A faulty pump with low pressure will disturb the engine's air-fuel
                   ratio, which can cause all sorts of performance problems. Aside from hard starting, the vehicle may
                   experience misfires, a loss in power and acceleration, a decrease in fuel efficiency, and even engine
@@ -73,7 +73,7 @@
               <v-expansion-panel-header class="card-header">
                 How long does a fuel pump last in a car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 There is really no reason to pre-emptively replace the fuel pump before 100,000 miles. Fuel pumps have
                 been known to last for over 200,000 miles in some cases.
               </v-expansion-panel-content>
@@ -82,7 +82,7 @@
               <v-expansion-panel-header class="card-header">
                 What could cause a fuel pump to fail?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Insufficient flow limits cooling and lubrication of the pump. A leading cause of fuel pump failure is
                 running the fuel tank low. This is particularly critical on late model vehicles without a fuel pressure
                 return system. Running such a vehicle out of fuel once can permanently damage the fuel pump.
@@ -92,7 +92,7 @@
               <v-expansion-panel-header class="card-header">
                 Can a bad fuel injector cause your car not to start?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A faulty pump with low pressure will disturb the engine's air-fuel ratio, which can cause all sorts of
                 performance problems. Aside from hard starting, the vehicle may experience misfires, a loss in power and
                 acceleration, a decrease in fuel efficiency, and even engine stalling.
@@ -102,7 +102,7 @@
               <v-expansion-panel-header class="card-header">
                 What are the signs of a bad fuel pump relay?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Usually a bad or failing fuel pump relay will produce a few symptoms that can alert the driver of the
                 issues. One of the first symptoms of an issue with the fuel pump relay is an engine that suddenly
                 stalls. Engine does not start. No noise from the fuel pump. Can a bad battery cause fuel pump to not
@@ -118,7 +118,7 @@
               <v-expansion-panel-header class="card-header">
                 Will a car start with a bad fuel pump?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Maintaining the heat in your car's engine can also possibly be the solution for the need of starting
                 your car with bad fuel pump. The main reason why your car starts, even with a bad fuel pump is that once
                 the car gets cool, the fuel pump resets itself without the required pressure and heat. What are the
@@ -140,7 +140,7 @@
               <v-expansion-panel-header class="card-header">
                 Fuel Pump Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

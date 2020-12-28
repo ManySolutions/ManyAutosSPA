@@ -23,7 +23,7 @@
               <v-expansion-panel-header class="card-header">
                 Air Suspension Repair
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 As mentioned previously, one option is to repair the system by replacing the damaged air Suspension
                 units with new units. The benefits of this option are that it restores the vehicles air suspension to
                 its original condition and functionality. Cost is considered one of the downfalls of replacing the air
@@ -35,7 +35,7 @@
               <v-expansion-panel-header class="card-header">
                 Air Suspension system
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Air suspension is a modern way of enhancing the driving experience by way of computerised air vents and
                 compression in the suspension system. Introduced as an improvement on the traditional steel suspension
                 of luxury cars, air suspension is a feature that allows drivers to adjust the quality of the drive
@@ -50,7 +50,7 @@
               <v-expansion-panel-header class="card-header">
                 How do air suspensions work?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Shock absorbers and coil springs help absorb and direct road force, maintaining wheel oscillation,
                 jounce and rebound. The air springs are simply tough rubber and plastic bags inflated to a certain
                 pressure and height to mimic the coil springs.
@@ -61,7 +61,7 @@
               <v-expansion-panel-header class="card-header">
                 Air Suspension Repair
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Air Suspension Repair As mentioned previously, one option is to
                   repair the system by replacing the damaged air Suspension units with new units. The benefits of this
                   option are that it restores the vehicles air suspension to its original condition and functionality.
@@ -90,7 +90,7 @@
               <v-expansion-panel-header class="card-header">
                 What does air suspension do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Air suspension is a type of vehicle suspension powered by an electric or engine driven air pump or
                 compressor. This compressor pumps the air into a flexible bellows, usually made from textile reinforced
                 rubber. The air pressure inflates the bellows and raises the chassis from the axle.
@@ -100,7 +100,7 @@
               <v-expansion-panel-header class="card-header">
                 Can I drive with a bad Air suspension?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Never drive a car with a broken air suspension or shock absorber at highway speeds and avoid sudden
                 turns or stops in the long run a broken air suspension shock will need to be replaced.
               </v-expansion-panel-content>
@@ -109,7 +109,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know when your Air suspension is bad?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Symptoms of bad shocks or struts include air suspension: Badly cupped tyre and or noticeable tyre
                 shaking, wheel shimmy or vibration after hitting a bump. Suspension bottoming on rough roads or when
                 backing out of a driveway.
@@ -120,7 +120,7 @@
               <v-expansion-panel-header class="card-header">
                 Air Suspension Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

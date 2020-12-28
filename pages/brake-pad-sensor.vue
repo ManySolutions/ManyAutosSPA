@@ -22,7 +22,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake wear sensor
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Brake Pad Wear Sensors. On most German imports, there are brake pad wear sensors. These are more than
                 just wires that break when the last 3 mm to 5 mm of pad material make contact with the disc. These
                 sensors can warn the driver and technician of the state of the brake pads long before it becomes a
@@ -33,7 +33,7 @@
               <v-expansion-panel-header class="card-header">
                 Do all brake pads have wear indicators?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The most common type of service required for brakes is changing the pads. Disc brake pads usually have a
                 piece of metal on them called a wear indicator. When enough of the friction material is worn away, the
                 wear indicator will contact the disc and make a squealing sound. This means it is time for new brake
@@ -44,7 +44,7 @@
               <v-expansion-panel-header class="card-header">
                 Do you have to replace brake pad sensor?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Once a brake pad sensor has completed a circuit through contact with the disc, it cannot be reused.
                 Every time you change your brake pads you also need to install a new brake pad sensor. It's recommended
                 that you replace the brake pad sensor even if it has not made contact.
@@ -55,7 +55,7 @@
               <v-expansion-panel-header class="card-header">
                 How do brake wear sensors work?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Brake pad sensors generally consists of a rubber enclosed wire
                   loop. The loop is installed in a predetermined location on the pad. Once the pad wears down past this
                   point, the wire becomes frayed and/or cut, breaking the circuit which your ECU (engine computer) will
@@ -66,7 +66,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a brake pad wear sensor do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The Brake Pad Wear sensor, or brake wear indicator, is an added safety feature on many vehicles used to
                 warn a vehicle's driver if their brake pad's life becomes too low. The Brake Pad Wear sensor is mounted
                 on the brake pad and routed through the callipers in any combination of the four wheels.
@@ -76,7 +76,7 @@
               <v-expansion-panel-header class="card-header">
                 What does brake pad wear mean?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A Brake wear indicator is used to warn the user and/or owner of a vehicle that the brake pad is in need
                 of replacement. However, brake wear indicators are also useful for brake pads in industrial
                 applications, including wind turbines and cranes.
@@ -87,7 +87,7 @@
               <v-expansion-panel-header class="card-header">
                 What does it mean when your brake light comes on?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The second most common reason for causing a brake light on your dash is if your brake fluid is low.
                 There is a sensor that is inside the brake master cylinder that can tell when the fluid gets low. This
                 sensor will illuminate the brake warning light to let the driver know that the brake system needs
@@ -99,7 +99,7 @@
               <v-expansion-panel-header class="card-header">
                 What is a brake pad wear sensor and where is it located?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Some vehicles use an electronic sensor to warn you, the driver, when your brake pads are starting to get
                 too worn down from the rigors of driving. This is called the brake pad wear sensor, also known as the
                 brake pad wear indicator. The most common type of electronic wear sensors is mounted into the brake pad
@@ -118,7 +118,7 @@
               <v-expansion-panel-header class="card-header">
                 Warning about brake pad sensor
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In most car repair shops, brake jobs are part of the daily bread-and-butter, straight forward repairs
                 that involve parts replacement with little or no diagnosis. Occasionally, however, a job of this sort
                 can throw you an unexpected curve. One such kink in the otherwise straight path of a brake job involves
@@ -133,7 +133,7 @@
               <v-expansion-panel-header class="card-header">
                 Brake Pad Sensor Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

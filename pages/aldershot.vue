@@ -26,7 +26,7 @@
               <v-expansion-panel-header class="card-header">
                 Do you offer free collection and delivery from Aldershot?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Yes, we believe that we offer a valuable product with our Free Collection and Delivery Service from
                 Aldershot, we can collect either from your place of work or from your home address. If you are unsure
                 about whether the address you are considering having your vehicle collected from is within our range,
@@ -45,7 +45,7 @@
               <v-expansion-panel-header class="card-header">
                 How does collection and delivery work from Aldershot?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Many Autos operate a fleet of pool cars with a dedicated driver, so wherever in Aldershot we are
                 collecting from, we need to be able to leave one of our pool vehicles either in your work car park /
                 parking space, or if in a residential area, we would need to be able to leave our car either at your
@@ -61,7 +61,7 @@
               <v-expansion-panel-header class="card-header">
                 Do you provide finance for cars repair in Aldershot?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Yes, you can pay for all or some of your car repair bill with car service and repair finance if you are
                 from Aldershot. From replacing car parts to a full transmission, engine, repair, service, mot repair
                 maintaining your vehicle can get costly. If you need help paying for routine service or urgent repairs,
@@ -72,7 +72,7 @@
               <v-expansion-panel-header class="card-header">
                 On what services is finance available from Aldershot?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Alternator Anti Roll Bar Link Air Suspension Brakes Cv Joint Car
                   Service Catalytic Converter Crankshaft Clutch Coil Springs Drag Links Drive Shaft Exhaust Repair
                   Flywheel Fuel Pump Fuel Injectors Glow Plug Handbrake Head Gasket New Tyre Starter Motor Suspension
@@ -90,7 +90,7 @@
               <v-expansion-panel-header class="card-header">
                 Do you do clutch repairs for cars in Aldershot?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">A lot of happy customers from Aldershot have found out how Many
                   Autos can eliminate the time and trouble of shopping around for the best clutch repair price. So,
                   donâ€™t wait and sign up to our vehicle health check today and we can make you aware of any potential
@@ -106,7 +106,7 @@
               <v-expansion-panel-header class="card-header">
                 Do you offer MOT tests in Aldershot?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">MOT testing is required by law on all vehicles in the UK that are 3
                   years old or more. The annual inspection follows strict criteria set out by the DVSA that determines
                   if your car is fit for purpose and in roadworthy condition. The MOT test covers a broad range of
@@ -124,7 +124,7 @@
               <v-expansion-panel-header class="card-header">
                 Do you provide alternator repair and replacement service for Aldershot?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">We provide full alternator repair and replacement services in
                   Aldershot. An automotive charging system is made up of three major components the battery, the voltage
                   regulator and an alternator. The alternator works with the battery to generate power for the
@@ -143,7 +143,7 @@
               <v-expansion-panel-header class="card-header">
                 Do you provide Timing Belt/Cambelt changing service for Aldershot?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Timing Belt/Cambelt replacement according to your car manufacturer
                   schedule is essential. A snapped Timing belt can cause serious damage to the engine. It is often
                   cost-effective to replace your Water Pump at the same time so don't be surprised if we suggest it. We
@@ -159,7 +159,7 @@
               <v-expansion-panel-header class="card-header">
                 Can you do repairs to the head gasket if I am based in Aldershot?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">We do head gasket repairs and replacements for the Aldershot area.
                   Once the head gasket blows or becomes damaged, your car will officially become a time bomb of serious
                   mechanical destruction. The longer your vehicle is operated with a blown head gasket, the more damage
@@ -185,7 +185,7 @@
               <v-expansion-panel-header class="card-header">
                 How do we do this?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                   <p class="text-teal text-18 justify">All our service, repair and diagnostic work is carried out to the
                     highest of standards using only OE (original equipment) parts and engine oil. We maintain a strict
                     standard of work that means we can carry out service and repair work even if your vehicle is within

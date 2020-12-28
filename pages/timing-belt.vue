@@ -16,7 +16,7 @@
               <v-expansion-panel-header class="card-header">
                 Timing Belt/ Cambelt
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Timing Belt is a rubber belt which controls the timing of internal
                   combustion engines. It is vital in the process of making the car run smoothly as it also ensures the
                   crankshaft and camshaft rotate in synchronisation.</p>
@@ -35,7 +35,7 @@
               <v-expansion-panel-header class="card-header">
                 Signs That Timing Belt/ Cambelt Needs Replacing
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <ul class="list mt-2 mb-2">
                   <li>A squealing noise can be heard when starting the vehicle.</li>
                   <li>Starting issues.</li>
@@ -47,7 +47,7 @@
               <v-expansion-panel-header class="card-header">
                 What Happens If Your Timing Belt Snaps?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The most difficult aspect of your timing belt maintenance is that
                   it will usually continue to give dependable service, with minimal attention, for several years.
                   But rubber is, of course, a perishable item, and the constant exposure to the high temperatures found
@@ -71,7 +71,7 @@
               <v-expansion-panel-header class="card-header">
                 What’s the Lifespan of A Typical Cam Belt?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">As a rule, you can expect a timing belt to last up to five years,
                   or 60,000 miles. In cars where this replacement is needed, it is usually built into the servicing
                   schedule.</p>
@@ -101,7 +101,7 @@
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and
@@ -131,7 +131,7 @@
               <v-expansion-panel-header class="card-header">
                 How much does timing belt replacement cost?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
                     <div class="pull-left">Alfa Romeo timing belt Parts & Labour </div>

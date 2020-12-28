@@ -34,7 +34,7 @@
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery with Mot
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 At present, a vehicle can simply pass, fail or receive an advisory on a specific item on the MOT test.
                 So, how does the new MOT criteria for recording defects work? Here’s an explanation of the new
                 categories plus some examples from the draft MOT guidance from the DVSA.
@@ -44,7 +44,7 @@
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery with Service
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">The type of service you choose for your car will be dependent on
                     various factors, the number of miles you drive and the last time your car was serviced. We offer two
@@ -77,7 +77,7 @@
               <v-expansion-panel-header class="card-header">
                 Insurance For Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Our drivers are fully insured and take every reasonable care possible whilst driving your car.
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -85,7 +85,7 @@
               <v-expansion-panel-header class="card-header">
                 Condition Report For Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">Our drivers do a full visual inspection of your car at the time of
                   collection in your presence and point out any damage i.e. any dents, scratches, broken or missing
                   items etc.</p>
@@ -95,7 +95,7 @@
               <v-expansion-panel-header class="card-header">
                 Photos and Video For Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 We also take photos or make a video where possible to record condition of the car at the time of
                 collection. At the point of drop off the driver will go through the recorded condition report and make
                 sure the car is returned to you with out any damage.
@@ -105,7 +105,7 @@
               <v-expansion-panel-header class="card-header">
                 Cars Not Covered by Our Free Collection and Delivery Service
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <h4 class="text-darker-blue">Cars Without a valid MOT Not Covered By Our Free Collection and Delivery
                     Service</h4>
@@ -121,7 +121,7 @@
                 Cars Without Road Tax Not Covered By Our Free Collection and Delivery Service
 
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If you are found to have failed to purchase or renew the road tax, you will be fined £80. Failure to pay
                 this can result in a County Court Judgement or having your vehicle clamped. It is difficult to escape
                 paying road tax, as the Drivers and Vehicles Licensing Agency (DVLA) runs monthly computer checks
@@ -131,7 +131,7 @@
               <v-expansion-panel-header class="card-header">
                 Cars without Insurance Not Covered by Our Free Collection and Delivery Service
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Penalties for uninsured drivers: The police could give you a fixed penalty of £300 and 6 penalty points
                 if you're caught driving a vehicle, you're not insured to drive
               </v-expansion-panel-content>
@@ -140,7 +140,7 @@
               <v-expansion-panel-header class="card-header">
                 Cars not Covered by Our Free Collection and Delivery Service
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If the Vehicle is not driveable, we can arrange a recovery for you at an additional cost.
               </v-expansion-panel-content>
             </v-expansion-panel>

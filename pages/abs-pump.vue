@@ -20,7 +20,7 @@
               <v-expansion-panel-header class="card-header">
                 What is an ABS Pump?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The ABS System. Anti-lock brake pump and valves. The theory behind anti-lock brakes is simple.
                 A skidding wheel (where the tire contact patch is sliding relative to the road) has less traction than a
                 non-skidding wheel.
@@ -30,7 +30,7 @@
               <v-expansion-panel-header class="card-header">
                 Signs of abs pump failure
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Symptoms of a Bad or Failing ABS Control Module. The anti-lock braking system on a vehicle is an
                 additional safety feature found
                 on many modern vehicles. When the ABS system is not functioning then loss of traction, skidding, and
@@ -41,7 +41,7 @@
               <v-expansion-panel-header class="card-header">
                 The ABS System and How It Works
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The Anti-Lock Braking System or Anti-Skid Braking System is commonly abbreviated as ABS and is an
                 advanced braking technology installed on motor vehicles to prevent the wheels from locking up (ceasing
                 motion) and skidding uncontrollably. It does so by pulsating the braking force delivered to the wheels
@@ -61,7 +61,7 @@
               <v-expansion-panel-header class="card-header">
                 Components of an ABS System
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">There are four main components that make up an ABS system; wheel
                   speed sensors, hydraulic valves, a pump and an ABS controller, which is also known as an ABS Module or
                   ABS ECU.</p>
@@ -79,7 +79,7 @@
               <v-expansion-panel-header class="card-header">
                 Wheel Speed Sensors
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The wheel speed sensor is used to determine the acceleration or deceleration of the wheel. These sensors
                 use an ABS ring which spins with the wheel and differential and creates a magnetic field around the
                 wheel speed sensor, which in turn will generate the voltage in the sensor.
@@ -89,7 +89,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Hydraulic Valves
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In each of the brake lines, there is a hydraulic valve which is controlled by the ABS module. On some
                 setups, the valve will have three positions. Position One The valve is open and any pressure from the
                 brake master cylinder passes directly through to the brake. Position Two The valve is closed, blocking
@@ -106,7 +106,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Pump unit
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The pump in the ABS unit is used to restore the loss in pressure to the hydraulic brakes after the
                 hydraulic valves have released it. Signals from the wheel speed sensors are processed by the ABS ECU
                 Module and if a wheel slip is detected, the module will signal the valve to be released to avoid the
@@ -120,7 +120,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS ECU / ABS Module / ABS Controller
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The ABS controller, also commonly known as an ABS ECU receives input signals from all wheel speed
                 sensors and can interpret the information received to identify if there is a wheel slip on any one
                 wheel. If a wheel spin is detected and a wheel loses traction, the controller will limit the braking
@@ -131,7 +131,7 @@
               <v-expansion-panel-header class="card-header">
                 Is it dangerous to drive with ABS light on?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Yes, your car is not safe to drive; however, you should have us look it over if the light stays on. It's
                 also important to note that if both the ABS and Brake System warning lights come on at the same time
                 while you're driving, you must stop your car as quickly and safely as you can.
@@ -142,7 +142,7 @@
               <v-expansion-panel-header class="card-header">
                 ABS Pump Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

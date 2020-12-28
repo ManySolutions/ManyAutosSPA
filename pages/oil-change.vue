@@ -17,7 +17,7 @@
               <v-expansion-panel-header class="card-header">
                 Common Rеаѕоnѕ fоr an Oil Change!
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">Following аrе ѕоmе of thе main rеаѕоnѕ why one ѕhоuld gеt the оil
                     changed rеgulаrlу, уоu саn dо ѕо bу hаving a ѕсhеdulеd mаintеnаnсе рlаn with уоur mесhаniс. This
@@ -54,7 +54,7 @@
               <v-expansion-panel-header class="card-header">
                 Engine Oils
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Engine oil is the 'life blood' of your car. It's a vital component of the engine system, lubricating
                 moving parts and ensuring your car has a long and happy life.
               </v-expansion-panel-content>
@@ -63,7 +63,7 @@
               <v-expansion-panel-header class="card-header">
                 The Importance of Changing Your Engine Oil
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The grade and type of oil you use can also impact your car's economy and emissions, so it is essential
                 that you use the correct grade of oil. Unlike blood, engine oils don't self-cleanse and after a short
                 amount of time will start to degrade and become progressively dirtier and less efficient.
@@ -73,7 +73,7 @@
               <v-expansion-panel-header class="card-header">
                 How often do you change your oil in a car?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Change your engine oil at the vehicle manufacturer's recommended service interval that matches your
                 vehicle's operating conditions.
               </v-expansion-panel-content>
@@ -82,7 +82,7 @@
               <v-expansion-panel-header class="card-header">
                 Are oil changes important?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Over time, that oil breaks down and becomes contaminated with dust, dirt and debris from the engine as
                 well as the environment hence oil and filter change are so important to a car's well-being, it maintains
                 engine lubrication.
@@ -92,7 +92,7 @@
               <v-expansion-panel-header class="card-header">
                 What happens if your car runs out of oil while driving?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Any lack of engine oil in the system, or even dirty oil, will lead to extreme engine wear, and driving a
                 car low on oil can lead to some bad situations. If you run out of engine oil, your engine will fail. If
                 the engine runs out of oil, it will start to grind, and then seize up, stalling the vehicle.
@@ -102,7 +102,7 @@
               <v-expansion-panel-header class="card-header">
                 Why do cars need oil changes?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Car engines have many moving parts. As these parts move and rub against each other, the force of
                 friction creates heat. Oil lubricates the engine and absorbs heat, allowing the internal parts to work
                 together effectively without overheating.
@@ -112,7 +112,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know you need an oil change?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">5 Signs That Indicate Your Oil Needs to Be Change. Fresh, clean oil
                   optimizes your vehicle's performance by lubricating parts and keeping the engine clean and healthy.
                 </p>
@@ -129,7 +129,7 @@
               <v-expansion-panel-header class="card-header">
                 Is fully synthetic oil worth it?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Synthetic oil costs more but has many advantages over conventional oil. Not every car needs it, however.
                 Synthetic lasts longer and thus require fewer changes.
               </v-expansion-panel-content>
@@ -138,7 +138,7 @@
               <v-expansion-panel-header class="card-header">
                 What are the benefits of an oil change?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">Regular oil changes are necessary to ensure the proper
                     performance of a car's engine. An oil change, which involves installing a new engine oil filter and
@@ -156,7 +156,7 @@
               <v-expansion-panel-header class="card-header">
                 Engine Oil Change Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and
@@ -186,7 +186,7 @@
               <v-expansion-panel-header class="card-header">
                 How much does Oil & Oil Filter cost?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <div class="panel-body">
                   <p class="text-teal text-18 justify">These estimates may include Engine oil and Engine oil filter</p>
                   <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">

@@ -24,7 +24,7 @@
               <v-expansion-panel-header class="card-header">
                 Cables
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 We all remember learning our Handbrake Cables when driving Accelerator, brake, clutch. But did you know
                 that when you press down on any of the pedals, the force is transferred through a cable to the relevant
                 parts inside your car. If these cables snap or even fail, this could cause real problems when you're
@@ -35,7 +35,7 @@
               <v-expansion-panel-header class="card-header">
                 Parking Brake Cables
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 In cars, the parking brake, also called hand brake, emergency brake, or e-brake, is a latching brake
                 usually used to keep the vehicle stationary. It is sometimes also used to prevent a vehicle from rolling
                 when the operator needs both feet to operate the clutch and throttle pedals. Automobile hand brakes
@@ -49,7 +49,7 @@
               <v-expansion-panel-header class="card-header">
                 Replacing a handbrake cable
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The handbrake on most cars is a mechanical linkage of rods and cables, operated by a lever on the car's
                 floor or dash. Over a period of time, the linkage wears - the cables become slack, or the pivot points
                 and linkage pins become badly grooved, allowing slack to build up. You can compensate for wear until the
@@ -60,7 +60,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with the Handbrake Cable?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">When the handbrake warning light is on.</p>
                 <ul class="list mt-2 mb-2">
                   <li>When the car rolls despite having engaged the handbrake.</li>
@@ -72,7 +72,7 @@
               <v-expansion-panel-header class="card-header">
                 Cable layouts
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Most cars use one of several lay- outs, depending on whether they are front- or rear-wheel drive, and
                 whether the handbrake operates on the front or rear wheels. This, in turn, determines how you replace
                 the cable. These Mechanics sheets look at one of the most common and simple systems in use - it is found
@@ -90,7 +90,7 @@
               <v-expansion-panel-header class="card-header">
                 Extra adjusters
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 If your car has an exposed handbrake cable that is in good condition but has simply stretched too far
                 for the adjuster to compensate, you can buy an extra, proprietary, cable adjuster to take out some of
                 the slack. The adjuster is a simple clamp that fits to the cable itself. First slacken off the existing
@@ -103,7 +103,7 @@
               <v-expansion-panel-header class="card-header">
                 Checking the cable
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 To find out where the wear lies, support the rear of the car on axle stands, chock the front wheels and
                 release the handbrake. Get under the car and watch the linkage while a helper works the handbrake lever
                 on and off. Watch for any lost motion in the joints indicating that the clevis pin is badly worn. If
@@ -116,7 +116,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a Handbrake Cable do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The metal hand brake cable links the handbrake lever you pull if you want to park with the hand brake
                 shoes inside the wheels. If engaged, the brake shoes will be pushed against the brake discs (or the
                 brake drums) locking the discs into place and preventing the car's wheels from moving.
@@ -126,7 +126,7 @@
               <v-expansion-panel-header class="card-header">
                 When should you consider a Handbrake Cable replacement?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify">The hand brake cable runs along the underside of the car and is
                   subject directly to a variety of conditions. Over time it is thus prone to deteriorate. It can break,
                   leaving you without a hand brake which can be especially inconvenient should you find yourself in a
@@ -138,7 +138,7 @@
               <v-expansion-panel-header class="card-header">
                 Handbrake Cable Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and

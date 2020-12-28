@@ -27,7 +27,7 @@
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with the Head Gasket?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 1 When the 'Check Engine' light is on. 2 When the engine doesn't perform well at all when it can't rev
                 freely etc. 3 When there is a smoke or a smell coming from the engine bay. 4 When the engine's coolant
                 temperature is too high. 5 When there are coolant or oil leaks around the cylinder head. 6 When the
@@ -38,7 +38,7 @@
               <v-expansion-panel-header class="card-header">
                 Dangers of Leaving Untreated
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 Once the head gasket blows or becomes damaged, your car will officially become a time bomb of serious
                 mechanical destruction. The longer your vehicle is operated with a blown head gasket, the more damage is
                 likely to occur to the engine. Once the head gasket blows there will be an immediate loss of pressure in
@@ -58,7 +58,7 @@
               <v-expansion-panel-header class="card-header">
                 What does a head gasket do?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The head gasket in effect seals the cylinder head to the cylinder block of the car. It ensures that
                 pressure inside the cylinder chambers stays optimal. It also prevents oil or water leaks from occurring
                 where the water and oil channels of the cylinder head and block meet. The part is therefore an extremely
@@ -69,7 +69,7 @@
               <v-expansion-panel-header class="card-header">
                 What is a Head Gasket?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 The Head Gasket is the gasket (thin sheet of metal creating a perfect seal) that sits between the engine
                 block and the cylinder head the section of the engine which fits over the cylinders.
               </v-expansion-panel-content>
@@ -78,7 +78,7 @@
               <v-expansion-panel-header class="card-header">
                 What is a blown Head Gasket?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 A blown Head Gasket means that the seal between the cylinders and the other parts of the engine (most
                 commonly the cooling system) has been broken. This can lead to rough running and, more significantly,
                 overheating, which can cause significant engine damage..
@@ -88,7 +88,7 @@
               <v-expansion-panel-header class="card-header">
                 Will a Head Gasket sealer work?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 There are products on the market to seal a blown head gasket, but we don't recommend them. They may
                 provide a temporary fix but can block your cooling system, thus causing further damage. Can a bad
                 thermostat cause a blown head gasket? A head gasket failure may be caused by an engine overheating one
@@ -109,7 +109,7 @@
               <v-expansion-panel-header class="card-header">
                 Can you still drive a car with a blown head gasket?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 First, it can foul spark plugs and make your engine run poorly due to the deposits left by burning
                 coolant. Leaking coolant and combustion gases can cause high temperature gradients leading to erosion of
                 the leak area and possible cracking. For all these reasons we don't recommend driving with a blown head
@@ -123,7 +123,7 @@
               <v-expansion-panel-header class="card-header">
                 Is it worth it to fix a blown head gasket?
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 It isn't cheap to fix a blown head gasket to repair the head gasket, a mechanic has to disassemble the
                 top portion of the engine and the process often takes a few days to complete. Does a blown head gasket
                 ruin an engine? The main cause for a blown or damaged head gasket is extreme engine temperature. High
@@ -138,7 +138,7 @@
               <v-expansion-panel-header class="card-header">
                 Five Causes for a Blown Head Gasket
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 1. Overheating The biggest cause of a blown head gasket is overheating. Usually, the head gasket around
                 the cylinders can become crushed, and if this happens, the seal is lost, and your engine will lose
                 compression, leak coolant, and the gasket will erode. Before replacing the head gasket, it’s vital that
@@ -171,7 +171,7 @@
               <v-expansion-panel-header class="card-header">
                 Head Gasket Replacement Free Collection and Delivery
               </v-expansion-panel-header>
-              <v-expansion-panel-content class="card-header-body">
+              <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
                   bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
                   service If you prearrange a collection, we will pick your car up from your home or place of work and
