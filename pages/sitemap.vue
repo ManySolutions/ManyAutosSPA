@@ -6,7 +6,7 @@
     <v-container class='sitemap-container'>
       <v-row style="padding-top:40px;">
         <v-col cols='12' md="3" >
-          <a href="#landing-page" class='has-hashed'>
+          <a href="#landing-page" id="landing-page" class='has-hashed'>
             <h4 class="text-left text-uppercase pb-5">
               Landing Page
             </h4>
@@ -20,13 +20,12 @@
               :to="index.url"
               class='text-capitalize pl-0'
               block
-              style="display:inline-block;
-              margin-bottom:10px;"
+              style="display:inline-block; margin-bottom:10px;"
             >
               {{ index.title }}
             </v-btn>
           </div>
-          <a href="#help" class='has-hashed'>
+          <a href="#help" id="help" class='has-hashed'>
             <h4 class="text-left text-uppercase pb-5">
               Help
             </h4>
@@ -47,7 +46,7 @@
           </div>
         </v-col>
         <v-col cols='12' md="3">
-          <a href="#action-pages" class='has-hashed'>
+          <a href="#action-pages" id="action-pages" class='has-hashed'>
             <h4 class="text-left text-uppercase pb-5">
               Action Pages
             </h4>
@@ -67,7 +66,7 @@
           </div>
         </v-col>
         <v-col cols='12' md="3" >
-          <a href="#car-services" class='has-hashed'>
+          <a href="#car-services" id="car-services" class='has-hashed'>
             <h4 class="text-left text-uppercase pb-5">
               Car Services
             </h4>
@@ -87,7 +86,7 @@
           </div>
         </v-col>
         <v-col cols='12' md="3">
-          <a href="#car-repairs" class='has-hashed'>
+          <a href="#car-repairs" id="car-repairs" class='has-hashed'>
             <h4 class="text-left text-uppercase pb-5">
               Car Repairs
             </h4>

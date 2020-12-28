@@ -10,7 +10,7 @@
         </h1>
         <p class='font-weight-300'>
           We provide maintenance service in all categories of vehicles. <br>
-          Our mechanics are certified to Service, Repair & MOT in the following makes:
+          Our mechanics are certified to Service, Repair & MOT for the following makes:
         </p>
         <table class='w-100 m-auto pt-8' style='max-width: 700px;'>
           <tbody>
