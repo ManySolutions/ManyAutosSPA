@@ -21,7 +21,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Car Radiator Repair or Replacement
               </v-expansion-panel-header>
@@ -31,7 +31,7 @@
                 have written this simple guide.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a car radiator do?
               </v-expansion-panel-header>
@@ -42,7 +42,7 @@
                 at a safe temperature.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Cooling fan repair Replacement
               </v-expansion-panel-header>
@@ -57,7 +57,7 @@
                 be too expensive to repair.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Engine Coolant Replacement
               </v-expansion-panel-header>
@@ -70,7 +70,7 @@
                 the piping in the system.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Radiator Flush
               </v-expansion-panel-header>
@@ -82,7 +82,7 @@
                 as there are not extra parts required and there is very little labour involved in the work.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Radiator Leak
               </v-expansion-panel-header>
@@ -95,7 +95,7 @@
                 radiator leak or car radiator leak replacement.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you consider a Radiator replacement?
               </v-expansion-panel-header>
@@ -112,7 +112,7 @@
                 stipulated in the guidelines set out by your car's manufacturer.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can you drive a car with a broken radiator?
               </v-expansion-panel-header>
@@ -122,7 +122,7 @@
                 will overheat. You should have your coolant system checked before you continue to drive.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens if you drive a car without coolant?
               </v-expansion-panel-header>
@@ -132,7 +132,7 @@
                 fix. So, the car's pressurized system plus antifreeze keep the liquid from boiling into vapor.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Radiator Replacement Free Collection and Delivery
               </v-expansion-panel-header>

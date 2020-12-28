@@ -20,7 +20,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What are the symptoms of brake problems?
               </v-expansion-panel-header>
@@ -37,7 +37,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with Brake Pads?
               </v-expansion-panel-header>
@@ -58,7 +58,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you consider replacing Brake Pads?
               </v-expansion-panel-header>
@@ -75,7 +75,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How does vehicle brakes work?
               </v-expansion-panel-header>
@@ -92,7 +92,7 @@
                   stopping power.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What's Wrong With Your vehicle Brakes?
               </v-expansion-panel-header>
@@ -131,7 +131,7 @@
                   уоur brаkеѕ аrе fаultу аnd need tо bе rерlасеd.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Read more about Brake Repair and Maintenance
               </v-expansion-panel-header>
@@ -171,7 +171,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When to Change Brаkе Pаdѕ
               </v-expansion-panel-header>
@@ -206,7 +206,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Whаt are thе ѕignѕ of сlutсh wеаr?
               </v-expansion-panel-header>
@@ -233,7 +233,7 @@
                 </p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery
               </v-expansion-panel-header>

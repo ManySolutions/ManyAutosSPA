@@ -16,7 +16,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Cash paid for unwanted cars
               </v-expansion-panel-header>
@@ -30,7 +30,7 @@
                 us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Scrap your car
               </v-expansion-panel-header>
@@ -42,7 +42,7 @@
                 call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Unwanted vehicles
               </v-expansion-panel-header>
@@ -53,7 +53,7 @@
                 info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Drivable or non drivable
               </v-expansion-panel-header>
@@ -62,7 +62,7 @@
                 collect accident damaged vehicles.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Paperwork
               </v-expansion-panel-header>
@@ -73,7 +73,7 @@
                 info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Have your scrap car collected
               </v-expansion-panel-header>
@@ -83,7 +83,7 @@
                 us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is a scrap car?
               </v-expansion-panel-header>
@@ -95,7 +95,7 @@
                 care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you get paid for scrapping your car?
               </v-expansion-panel-header>
@@ -106,7 +106,7 @@
                 info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens when you scrap a car?
               </v-expansion-panel-header>
@@ -118,7 +118,7 @@
                 take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What documents do you need to scrap a car?
               </v-expansion-panel-header>
@@ -129,7 +129,7 @@
                 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can you sell a car without a v5?
               </v-expansion-panel-header>
@@ -140,7 +140,7 @@
                 info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Will I get a receipt for my scrap car?
               </v-expansion-panel-header>
@@ -151,7 +151,7 @@
                 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can I book my car collection by phone?
               </v-expansion-panel-header>
@@ -161,7 +161,7 @@
                 the same hours or 24/7 on our website www.manyautosltd.com
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do we do this?
               </v-expansion-panel-header>
@@ -177,7 +177,7 @@
                 us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Are you an independent company?
               </v-expansion-panel-header>
@@ -194,7 +194,7 @@
                 care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Unwanted car
               </v-expansion-panel-header>

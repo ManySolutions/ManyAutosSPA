@@ -13,7 +13,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Thermostat’s Function
               </v-expansion-panel-header>
@@ -32,7 +32,7 @@
                   performance. Thus, the thermostat has an impact on your engine's health and longevity.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Thermostat Housings and Gaskets
               </v-expansion-panel-header>
@@ -52,7 +52,7 @@
                   for your vehicle.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is it safe to drive with an engine cooling system thermostat problem?
               </v-expansion-panel-header>
@@ -61,7 +61,7 @@
                 Failure to do so can cause substantial and costly damage to the engine.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When replacing the engine cooling system thermostat keep in mind
               </v-expansion-panel-header>
@@ -76,7 +76,7 @@
                   but are generally higher quality and specifically engineered for your car.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How does a car thermostat work?
               </v-expansion-panel-header>
@@ -86,7 +86,7 @@
                 flow of coolant to the radiator until the engine has warmed up.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What are the symptoms of a stuck open thermostat?
               </v-expansion-panel-header>
@@ -96,7 +96,7 @@
                 boil-over. Yes, they can stick open or closed.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How to tell if your thermostat is stuck open?
               </v-expansion-panel-header>
@@ -106,7 +106,7 @@
                 open, allowing all the coolant to flow all the time.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is a thermostat housing?
               </v-expansion-panel-header>
@@ -116,7 +116,7 @@
                 housing, with one serving as a coolant inlet and the other as an outlet.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do mechanics replace the engine cooling system thermostat?
               </v-expansion-panel-header>
@@ -138,7 +138,7 @@
                   This will confirm the thermostat is open. Finally, the engine is checked for leaks.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery
               </v-expansion-panel-header>
@@ -168,7 +168,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How much does thermostat replacement cost?
               </v-expansion-panel-header>

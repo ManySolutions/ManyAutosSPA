@@ -26,7 +26,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Why buy tyres at Many Autos?
               </v-expansion-panel-header>
@@ -35,7 +35,7 @@
                 van tyres or SUV tyres, we have the right ones to fit your vehicle.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you change your Tyres?
               </v-expansion-panel-header>
@@ -45,7 +45,7 @@
                 when your tread depth has gone beyond the limit for safe driving, which is generally 1.6mm.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know if my Tyres are worn out?
               </v-expansion-panel-header>
@@ -55,7 +55,7 @@
                 some car manufacturers recommend you replace your tyres before they wear to that extent.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Tyres to suit your needs and budget
               </v-expansion-panel-header>
@@ -74,7 +74,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know if my Tyres are bald?
               </v-expansion-panel-header>
@@ -87,7 +87,7 @@
                 not safe.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What do I need to take with me?
               </v-expansion-panel-header>
@@ -107,7 +107,7 @@
                 forget to check the spare tyre too.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Choose wisely
               </v-expansion-panel-header>
@@ -121,7 +121,7 @@
                 kerb unless absolutely necessary this can damage the tyre and knock your wheels out of alignment.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Drive with care
               </v-expansion-panel-header>
@@ -131,7 +131,7 @@
                 will also lead to more tyre wear.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Empty the boot
               </v-expansion-panel-header>
@@ -147,7 +147,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Tyres Replacement Free Collection and Delivery
               </v-expansion-panel-header>

@@ -22,7 +22,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Benefits of Regularly Changing Fuel Filters
               </v-expansion-panel-header>
@@ -42,7 +42,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Symptoms of a Clogged Fuel Filter
               </v-expansion-panel-header>
@@ -64,7 +64,7 @@
                 </ol>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How often should you change a fuel filter on a petrol engine?
               </v-expansion-panel-header>
@@ -74,7 +74,7 @@
                 to 40,000 miles.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What Are the Benefits of Changing a Fuel Filter?
               </v-expansion-panel-header>
@@ -83,7 +83,7 @@
                 operate. Fuel filters keep contaminants and other particles from clogging the injectors.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with the Fuel Filter?
               </v-expansion-panel-header>
@@ -96,7 +96,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 When should you consider a Fuel Filter replacement?
               </v-expansion-panel-header>
@@ -110,7 +110,7 @@
                 manufacturer.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know if your fuel filter needs to be changed?
               </v-expansion-panel-header>
@@ -125,7 +125,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a bad fuel filter cause a car not to start?
               </v-expansion-panel-header>
@@ -135,7 +135,7 @@
                 to have trouble starting.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens if you put a fuel filter on backwards?
               </v-expansion-panel-header>
@@ -157,7 +157,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Fuel Filter Replacement Free Collection and Delivery
               </v-expansion-panel-header>

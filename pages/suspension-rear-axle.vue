@@ -12,7 +12,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How does a rear axle work?
               </v-expansion-panel-header>
@@ -22,7 +22,7 @@
                 a set of differential gears that enable the two rear axles to turn at different speeds.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Rear Suspension Bushe
               </v-expansion-panel-header>
@@ -32,7 +32,7 @@
                 product to help you put the comfort back into your driving.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Rear Anti-Roll Bar
               </v-expansion-panel-header>
@@ -42,7 +42,7 @@
                 you need to keep things functioning as they should.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Rear Coil springs
               </v-expansion-panel-header>
@@ -55,7 +55,7 @@
                 possible it's best to replace them.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Rear Shock Absorbers
               </v-expansion-panel-header>
@@ -69,7 +69,7 @@
                 road surface beneath you as you’ve travelled.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Rear suspension mounting
               </v-expansion-panel-header>
@@ -91,7 +91,7 @@
                 even wear.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a rear axle do?
               </v-expansion-panel-header>
@@ -102,7 +102,7 @@
                 differential.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Rear Axle Carriers
               </v-expansion-panel-header>
@@ -126,7 +126,7 @@
                 covered. Design criteria of axle systems with respect to robust NVH performance are also discussed.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Rear Axle Carrier bushes replacement
               </v-expansion-panel-header>
@@ -139,7 +139,7 @@
                 movement) will be evident.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Rear Axle Bearing Replacement
               </v-expansion-panel-header>
@@ -150,7 +150,7 @@
                 solid assembly, and on the type of brakes on the wheels.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Rear axle
               </v-expansion-panel-header>

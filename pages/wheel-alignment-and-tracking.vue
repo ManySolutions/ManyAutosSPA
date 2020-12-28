@@ -14,7 +14,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Why wheel alignment is important
               </v-expansion-panel-header>
@@ -33,7 +33,7 @@
                 tyre wear, improve vehicle handling and steering and save you money by lowering fuel consumption.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is wheel alignment?
               </v-expansion-panel-header>
@@ -56,7 +56,7 @@
                 check.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know if your car needs an alignment?
               </v-expansion-panel-header>
@@ -66,7 +66,7 @@
                 straight. 4. Squealing tires.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is the difference between tracking and wheel alignment?
               </v-expansion-panel-header>
@@ -76,7 +76,7 @@
                 adjustments of individual wheels which ensure the steering wheel is set straight.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How often do you need a wheel alignment?
               </v-expansion-panel-header>
@@ -85,7 +85,7 @@
                 often if your car has wider tires or if it's a sporty car.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Do I need an alignment after replacing tyre?
               </v-expansion-panel-header>
@@ -95,7 +95,7 @@
                 should have it done when you buy new tyres, so they don't immediately start to wear unevenly.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Wheel Alignment Free Collection and Delivery
               </v-expansion-panel-header>

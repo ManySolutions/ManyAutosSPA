@@ -12,7 +12,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Dual Mass Flywheel
               </v-expansion-panel-header>
@@ -23,7 +23,7 @@
                 vibration.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What Is a Dual Mass Flywheel, and What Does It Do?
               </v-expansion-panel-header>
@@ -36,7 +36,7 @@
                 that takes some of the jolt out of accelerations, gear changes, etc.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with the flywheel?
               </v-expansion-panel-header>
@@ -49,7 +49,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you consider a flywheel replacement?
               </v-expansion-panel-header>
@@ -68,7 +68,7 @@
                   make sure to follow the manufacturer's guidelines.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens during a flywheel replacement?
               </v-expansion-panel-header>
@@ -86,7 +86,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How much does a flywheel replacement cost?
               </v-expansion-panel-header>
@@ -97,7 +97,7 @@
                 Many Autos.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery
               </v-expansion-panel-header>
@@ -127,7 +127,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How much does a flywheel replacement cost?
               </v-expansion-panel-header>

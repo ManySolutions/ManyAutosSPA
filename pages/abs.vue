@@ -12,7 +12,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What is a ABS Pump?
               </v-expansion-panel-header>
@@ -23,7 +23,7 @@
                   pump which puts pressure on the brakes.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is a ABS Ring?
               </v-expansion-panel-header>
@@ -33,7 +33,7 @@
                   brake discs can cause the wheels to lock, resulting in the car skidding along the road surface</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is a ABS Sensor?
               </v-expansion-panel-header>
@@ -45,7 +45,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is a ABS Hydraulic Units?
               </v-expansion-panel-header>
@@ -56,7 +56,7 @@
                   adjusting it to stop the car from skidding or veering.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is it safe to drive a car with ABS light on?
               </v-expansion-panel-header>
@@ -73,7 +73,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What does it mean when my ABS light comes on?
               </v-expansion-panel-header>
@@ -84,7 +84,7 @@
                   certified mechanic, such as one from your Mechanic.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is ABS required for city driving?
               </v-expansion-panel-header>
@@ -95,7 +95,7 @@
                   Yes, ABS in cars is useful on normal roads.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I get the ABS light to turn off?
               </v-expansion-panel-header>
@@ -106,7 +106,7 @@
                   one used to engage the engine</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can ABS cause check engine light to come on?
               </v-expansion-panel-header>
@@ -118,7 +118,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Will ABS light come on if brakes are worn?
               </v-expansion-panel-header>
@@ -129,7 +129,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS
               </v-expansion-panel-header>

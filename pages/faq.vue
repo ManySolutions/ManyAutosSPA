@@ -12,7 +12,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Will my service book be stamped when the work is complete?
               </v-expansion-panel-header>
@@ -21,7 +21,7 @@
                 picked up, and we’ll do the rest.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you maintain online service record (service book)?
               </v-expansion-panel-header>
@@ -33,7 +33,7 @@
                 care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you provide car repair finance?
               </v-expansion-panel-header>
@@ -48,7 +48,7 @@
                 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Parts and labour guarantee.
               </v-expansion-panel-header>
@@ -58,7 +58,7 @@
                 info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What makes of car do you Repair and Service?
               </v-expansion-panel-header>
@@ -69,7 +69,7 @@
                 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Do you make car keys?
               </v-expansion-panel-header>
@@ -80,7 +80,7 @@
                 call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you buy unwanted cars?
               </v-expansion-panel-header>
@@ -89,7 +89,7 @@
                 info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Will I get a receipt?
               </v-expansion-panel-header>
@@ -99,7 +99,7 @@
                 info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 My car is under warranty, how will that be affected?
               </v-expansion-panel-header>
@@ -112,7 +112,7 @@
                 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can I book by phone?
               </v-expansion-panel-header>
@@ -122,7 +122,7 @@
                 during the same hours or 24/7 on our website www.manyautosltd.com
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Can I amend my booking?
               </v-expansion-panel-header>
@@ -132,7 +132,7 @@
                 our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I pay?
               </v-expansion-panel-header>
@@ -143,7 +143,7 @@
                 our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Does my service and repair come with a guarantee?
               </v-expansion-panel-header>
@@ -154,7 +154,7 @@
                 or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you protect my warranty?
               </v-expansion-panel-header>
@@ -164,7 +164,7 @@
                 info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you do collection and delivery?
               </v-expansion-panel-header>
@@ -181,7 +181,7 @@
                 https://www.manyautosltd.com/collection-and-delivery.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Are your drivers insured?
               </v-expansion-panel-header>
@@ -191,7 +191,7 @@
                 we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What service do I need?
               </v-expansion-panel-header>
@@ -203,7 +203,7 @@
                 you can email us on info@manyautosltd.com or call us on 01189876300.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What the difference between Interim & full Service?
               </v-expansion-panel-header>
@@ -216,7 +216,7 @@
                 info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 I don’t have tax or MOT can you still collect my vehicle?
               </v-expansion-panel-header>
@@ -229,7 +229,7 @@
                 team on 01189876300 and our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How does collection and delivery work?
               </v-expansion-panel-header>
@@ -243,7 +243,7 @@
                 or call our team on 01189876300 and our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How do I know when my car needs servicing?
               </v-expansion-panel-header>
@@ -255,7 +255,7 @@
                 info@manyautosltd.com or call us on 01189876300.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know when my car needs a MOT?
               </v-expansion-panel-header>
@@ -267,7 +267,7 @@
                 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know if my car needs an oil change?
               </v-expansion-panel-header>
@@ -279,7 +279,7 @@
                 info@manyautosltd.com or call us on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know when my car needs brake pads?
               </v-expansion-panel-header>
@@ -291,7 +291,7 @@
                 or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How to find out if brake discs need replacing?
               </v-expansion-panel-header>
@@ -303,7 +303,7 @@
                 us on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How do you know if brake fluid needs changing?
               </v-expansion-panel-header>
@@ -314,7 +314,7 @@
                 you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is it safe to drive a car with ABS (warning) light on?
               </v-expansion-panel-header>
@@ -327,7 +327,7 @@
                 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How can you tell if your alternator is not working?
               </v-expansion-panel-header>
@@ -347,7 +347,7 @@
                 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How to tell if CV joint is bad?
               </v-expansion-panel-header>
@@ -359,7 +359,7 @@
                 info@manyautosltd.com or call us on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens when the catalytic converter goes bad?
               </v-expansion-panel-header>
@@ -372,7 +372,7 @@
                 on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Do you replace clutches?
               </v-expansion-panel-header>
@@ -386,7 +386,7 @@
                 on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How find out if your clutch needs to be replaced?
               </v-expansion-panel-header>
@@ -397,7 +397,7 @@
                 info@manyautosltd.com or call us on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know if my flywheel needs replacing?
               </v-expansion-panel-header>
@@ -410,7 +410,7 @@
                 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you replace the Cambelt?
               </v-expansion-panel-header>
@@ -422,7 +422,7 @@
                 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you repair suspension?
               </v-expansion-panel-header>
@@ -438,7 +438,7 @@
                 email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Do you replace drive shafts?
               </v-expansion-panel-header>
@@ -451,7 +451,7 @@
                 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you repair Exhausts?
               </v-expansion-panel-header>
@@ -464,7 +464,7 @@
                 call us on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Are you an independent car repair garage?
               </v-expansion-panel-header>
@@ -479,7 +479,7 @@
                 manufacturer warranty as we make sure our work and parts meet the stringent standards required.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do we do this?
               </v-expansion-panel-header>

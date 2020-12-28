@@ -6,7 +6,7 @@
           <div class="row">
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Function of drive shaft
               </v-expansion-panel-header>
@@ -30,7 +30,7 @@
                 components must be maintenance-free.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Safety
               </v-expansion-panel-header>
@@ -44,7 +44,7 @@
                   drive shaft and provide the necessary assistance in good time.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Causes Of Damage
               </v-expansion-panel-header>
@@ -54,7 +54,7 @@
                 correct procedures for installation and removal.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Symptoms Of Damage
               </v-expansion-panel-header>
@@ -68,7 +68,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Depreciation
               </v-expansion-panel-header>
@@ -79,7 +79,7 @@
                 or vice versa.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Damaged Sleeves
               </v-expansion-panel-header>
@@ -91,7 +91,7 @@
                 be replaced for safety reasons.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Tpe Sleeve
               </v-expansion-panel-header>
@@ -104,7 +104,7 @@
                 failure of the joint.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Environmental Protection
               </v-expansion-panel-header>
@@ -122,7 +122,7 @@
                   energy and makes a significant contribution to active protection of the environment.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Drive Shaft Free Collection and Delivery
               </v-expansion-panel-header>
@@ -152,7 +152,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How much does Drive Shaft replacement cost?
               </v-expansion-panel-header>

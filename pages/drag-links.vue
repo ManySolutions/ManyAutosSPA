@@ -16,7 +16,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What is a drag link?
               </v-expansion-panel-header>
@@ -26,7 +26,7 @@
                 applications it connects to the tie rod assembly.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is a drag link the same as a tie rod?
               </v-expansion-panel-header>
@@ -36,7 +36,7 @@
                 tie rod ends attached to it. Drag links can be a solid one-piece design or an adjustable design.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is a drag link on a vehicle?
               </v-expansion-panel-header>
@@ -46,7 +46,7 @@
                 component that links the vehicle's steering gear box to the tie rod ends.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a centre link do?
               </v-expansion-panel-header>
@@ -56,7 +56,7 @@
                 steered. On these applications the drag link connects to the steering arm located at the wheel.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does the drag link connect to?
               </v-expansion-panel-header>
@@ -66,7 +66,7 @@
                 tie rod ends attached to it.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What is a car linkage?
               </v-expansion-panel-header>
@@ -74,7 +74,7 @@
                 A steering linkage is the part of an automotive steering system that connects to the front wheels.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What transfers movement from the steering box to the centre link?
               </v-expansion-panel-header>
@@ -84,7 +84,7 @@
                 link transfers the movement from the pitman arm and pitman shaft to the idler arm on the passenger side.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What's a steering rack?
               </v-expansion-panel-header>
@@ -94,7 +94,7 @@
                 supply high-pressure hydraulic fluid to the steering rack when the wheel is turned.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What's a steering pinion?
               </v-expansion-panel-header>
@@ -104,7 +104,7 @@
                 steering shaft. When you turn the steering wheel, the gear spins, moving the rack.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Drag Links Replacement Free Collection and Delivery
               </v-expansion-panel-header>

@@ -30,7 +30,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery with Mot
               </v-expansion-panel-header>
@@ -40,7 +40,7 @@
                 categories plus some examples from the draft MOT guidance from the DVSA.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery with Service
               </v-expansion-panel-header>
@@ -73,7 +73,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Insurance For Collection and Delivery
               </v-expansion-panel-header>
@@ -81,7 +81,7 @@
                 Our drivers are fully insured and take every reasonable care possible whilst driving your car.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Condition Report For Collection and Delivery
               </v-expansion-panel-header>
@@ -91,7 +91,7 @@
                   items etc.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Photos and Video For Collection and Delivery
               </v-expansion-panel-header>
@@ -101,7 +101,7 @@
                 sure the car is returned to you with out any damage.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Cars Not Covered by Our Free Collection and Delivery Service
               </v-expansion-panel-header>
@@ -116,7 +116,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Cars Without Road Tax Not Covered By Our Free Collection and Delivery Service
 
@@ -127,7 +127,7 @@
                 paying road tax, as the Drivers and Vehicles Licensing Agency (DVLA) runs monthly computer checks
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Cars without Insurance Not Covered by Our Free Collection and Delivery Service
               </v-expansion-panel-header>
@@ -136,7 +136,7 @@
                 if you're caught driving a vehicle, you're not insured to drive
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Cars not Covered by Our Free Collection and Delivery Service
               </v-expansion-panel-header>

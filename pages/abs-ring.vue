@@ -16,7 +16,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 what is an ABS Ring?
               </v-expansion-panel-header>
@@ -38,7 +38,7 @@
                   readings.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS Ring Symptoms
               </v-expansion-panel-header>
@@ -52,7 +52,7 @@
                   front rings.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 The ABS Light Comes On
               </v-expansion-panel-header>
@@ -67,7 +67,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Pedal Juddering at Low Speeds
               </v-expansion-panel-header>
@@ -84,7 +84,7 @@
                   ABS rings, complete replacement of the drive shaft and/or joints is not required. </p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 The ABS Disengages Completely While Braking Hard
               </v-expansion-panel-header>
@@ -97,7 +97,7 @@
                   ABS ring which sends a faulty pulse to the ABS controller disrupting the ABS braking process. </p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How does abs ring work with abs sensor?
               </v-expansion-panel-header>
@@ -108,7 +108,7 @@
                   up to four ABS sensors. </p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does an ABS ring do?
               </v-expansion-panel-header>
@@ -118,7 +118,7 @@
                 wheels to lock, resulting in the car skidding along the road surface.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How does abs ring work with abs pumps?
               </v-expansion-panel-header>
@@ -129,7 +129,7 @@
                   adjusting it to stop the car from skidding or veering. </p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are an ABS Relocator ring?
               </v-expansion-panel-header>
@@ -141,7 +141,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS repairs Free Collection and Delivery
               </v-expansion-panel-header>

@@ -16,7 +16,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What is an ABS Pump?
               </v-expansion-panel-header>
@@ -26,7 +26,7 @@
                 non-skidding wheel.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Signs of abs pump failure
               </v-expansion-panel-header>
@@ -37,7 +37,7 @@
                 hydroplaning are far more likely to occur under heavy braking conditions.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 The ABS System and How It Works
               </v-expansion-panel-header>
@@ -57,7 +57,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Components of an ABS System
               </v-expansion-panel-header>
@@ -75,7 +75,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Wheel Speed Sensors
               </v-expansion-panel-header>
@@ -85,7 +85,7 @@
                 wheel speed sensor, which in turn will generate the voltage in the sensor.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 ABS Hydraulic Valves
               </v-expansion-panel-header>
@@ -102,7 +102,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS Pump unit
               </v-expansion-panel-header>
@@ -116,7 +116,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS ECU / ABS Module / ABS Controller
               </v-expansion-panel-header>
@@ -127,7 +127,7 @@
                 force (EBD) and send the signal to actuate the hydraulic braking valves on and off.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is it dangerous to drive with ABS light on?
               </v-expansion-panel-header>
@@ -138,7 +138,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS Pump Replacement Free Collection and Delivery
               </v-expansion-panel-header>

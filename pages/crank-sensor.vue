@@ -11,7 +11,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What happens when your crankshaft sensor goes bad?
               </v-expansion-panel-header>
@@ -22,7 +22,7 @@
                 symptom.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know if my camshaft sensor is bad?
               </v-expansion-panel-header>
@@ -33,7 +33,7 @@
                 noticeable loss of engine power.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Will I have spark with a bad crank sensor?
               </v-expansion-panel-header>
@@ -43,7 +43,7 @@
                 Position sensor is a common cause of no starts.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are the symptoms of a bad crankshaft?
               </v-expansion-panel-header>
@@ -69,7 +69,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is the difference between camshaft and crankshaft?
               </v-expansion-panel-header>
@@ -79,7 +79,7 @@
                 control device. In diesel engines, a camshaft can be used to pump fuel into the cylinders.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Can a crankshaft break?
               </v-expansion-panel-header>
@@ -89,7 +89,7 @@
                 failure such as a spun bearing can cause a crank to snap.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a crank sensor control?
               </v-expansion-panel-header>
@@ -100,7 +100,7 @@
                 parameters.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Does crankshaft sensor affect fuel pump?
               </v-expansion-panel-header>
@@ -111,7 +111,7 @@
                 start.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a car run without a crankshaft position sensor?
               </v-expansion-panel-header>
@@ -121,7 +121,7 @@
                 the engine to run without it. In your case, a magnetic crankshaft positioning sensor is used.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Crankshaft sensor Replacement Free Collection and Delivery
               </v-expansion-panel-header>

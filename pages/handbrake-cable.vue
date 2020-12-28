@@ -20,7 +20,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Cables
               </v-expansion-panel-header>
@@ -31,7 +31,7 @@
                 driving.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Parking Brake Cables
               </v-expansion-panel-header>
@@ -45,7 +45,7 @@
                 wheel column, or a (foot-operated) pedal located far apart from the other pedals. Source.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Replacing a handbrake cable
               </v-expansion-panel-header>
@@ -56,7 +56,7 @@
                 handbrake adjuster won't take up any slacker, then you need to fit new parts.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with the Handbrake Cable?
               </v-expansion-panel-header>
@@ -68,7 +68,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Cable layouts
               </v-expansion-panel-header>
@@ -86,7 +86,7 @@
                 enclosed Bowden cable where the handbrake cable runs for part of its length within an outer sheath.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Extra adjusters
               </v-expansion-panel-header>
@@ -99,7 +99,7 @@
                 that the extra adjuster must not foul on any other components under the car not always an easy job.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Checking the cable
               </v-expansion-panel-header>
@@ -112,7 +112,7 @@
                 cable a new lease of life (see side line overleaf) but, if not, then you must buy and fit a new cable.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a Handbrake Cable do?
               </v-expansion-panel-header>
@@ -122,7 +122,7 @@
                 brake drums) locking the discs into place and preventing the car's wheels from moving.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you consider a Handbrake Cable replacement?
               </v-expansion-panel-header>
@@ -134,7 +134,7 @@
                   soon as possible to preclude any dangerous situations.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Handbrake Cable Replacement Free Collection and Delivery
               </v-expansion-panel-header>

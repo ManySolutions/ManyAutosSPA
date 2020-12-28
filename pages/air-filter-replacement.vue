@@ -15,7 +15,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How often should you change your air filter in your car?
               </v-expansion-panel-header>
@@ -25,7 +25,7 @@
                 an air filter should be replaced at least every 3 years, as with age it becomes brittle.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens if you dont change the air filter in your car?
               </v-expansion-panel-header>
@@ -35,7 +35,7 @@
                 happens, your car will lose power and run roughly. Your Check Engine light also may come on.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a bad air filter cause?
               </v-expansion-panel-header>
@@ -46,7 +46,7 @@
                 problems.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know if my air filter needs changing?
               </v-expansion-panel-header>
@@ -64,7 +64,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What will a dirty air filter do to your car?
               </v-expansion-panel-header>
@@ -74,7 +74,7 @@
                 notice your car start to drive rough. Your check engine light may also turn on.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Do car air filters need to be replaced?
               </v-expansion-panel-header>
@@ -84,7 +84,7 @@
                 dirt and debris even bugs and eventually needs to be replaced.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Does a new air filter improve car performance?
               </v-expansion-panel-header>
@@ -95,7 +95,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How important is a car air filter?
               </v-expansion-panel-header>
@@ -106,7 +106,7 @@
                 ignore.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a dirty air filter cause the check engine light to come on?
               </v-expansion-panel-header>
@@ -118,7 +118,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Air Filter Replacement Free Collection and Delivery
 

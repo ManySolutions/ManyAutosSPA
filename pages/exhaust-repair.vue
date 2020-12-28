@@ -18,7 +18,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Catalytic Converters
               </v-expansion-panel-header>
@@ -33,7 +33,7 @@
                 checked if you have an exhaust issue.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Diesel Particulate Filter
               </v-expansion-panel-header>
@@ -47,7 +47,7 @@
                 may need to have them fitted before they can legally go on the road.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Exhaust System
               </v-expansion-panel-header>
@@ -60,7 +60,7 @@
                 Thankfully, exhaust parts are relatively cheap and easy to maintain.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Performance Catalysts
               </v-expansion-panel-header>
@@ -74,7 +74,7 @@
                 call our friendly team for advice.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a car's exhaust do?
               </v-expansion-panel-header>
@@ -86,7 +86,7 @@
                 exhaust pipe.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How does a car's exhaust work?
               </v-expansion-panel-header>
@@ -97,7 +97,7 @@
                 dangerous levels of waste gas without one.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Why do car exhausts rust?
               </v-expansion-panel-header>
@@ -107,7 +107,7 @@
                 internal water vapor (a byproduct of internal combustion), all of which speed up the rusting process.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does blue, white or black exhaust smoke mean?
               </v-expansion-panel-header>
@@ -131,7 +131,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can you drive a car with a broken exhaust?
               </v-expansion-panel-header>
@@ -141,7 +141,7 @@
                 while the vehicle is running.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How long does it take to change a car exhaust?
               </v-expansion-panel-header>
@@ -150,7 +150,7 @@
                 The downpipe, however, as it's the deepest part of the exhaust takes between 2-3 hours.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can you drive with an exhaust leak?
               </v-expansion-panel-header>
@@ -160,7 +160,7 @@
                 leaks can cause the vehicle to vibrate, yet the bigger the leak the stronger the vibrations
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Gеt The Exhаuѕt Sуѕtеm оf Your Car Uрdаtеd
               </v-expansion-panel-header>
@@ -200,7 +200,7 @@
                 соnvеrtоr fоr improving the performance of еxhаuѕt system inѕtаllеd in уоur саr.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Exhaust Free Collection and Delivery
               </v-expansion-panel-header>
@@ -230,7 +230,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How much does Exhaust Repair cost?
               </v-expansion-panel-header>

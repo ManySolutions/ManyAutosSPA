@@ -26,7 +26,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Flywheel
               </v-expansion-panel-header>
@@ -43,7 +43,7 @@
                 your vehicle engine.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know if I might need a new clutch?
               </v-expansion-panel-header>
@@ -99,7 +99,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a Clutch do?
               </v-expansion-panel-header>
@@ -113,7 +113,7 @@
                   drive is transferred to the gearbox, allowing for a gear change to be made.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does vehicle clutch replacement cost?
               </v-expansion-panel-header>
@@ -123,7 +123,7 @@
                   know what we need to do and how much it will cost before we start work.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you use quality parts?
               </v-expansion-panel-header>
@@ -133,7 +133,7 @@
                 guaranteed for 12 months, or 12,000 miles (whichever is sooner).
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Can I get a clutch replacement quote online?
               </v-expansion-panel-header>
@@ -143,7 +143,7 @@
                 fair and accurate quote based on the problem that needs solving.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How long does the clutch fitting service take?
               </v-expansion-panel-header>
@@ -158,7 +158,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Basic Clutch Problem
               </v-expansion-panel-header>
@@ -185,7 +185,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Short Lаѕtіng clutch
               </v-expansion-panel-header>
@@ -205,7 +205,7 @@
                   сlutсh rераіr сеntrе tо have it сhесkеd and bе on thе safe side.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake shoes Replacement Free Collection and Delivery
               </v-expansion-panel-header>
@@ -235,7 +235,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How much does Clutch replacement cost?
               </v-expansion-panel-header>

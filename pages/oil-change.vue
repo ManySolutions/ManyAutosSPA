@@ -13,7 +13,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Common Rеаѕоnѕ fоr an Oil Change!
               </v-expansion-panel-header>
@@ -50,7 +50,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Engine Oils
               </v-expansion-panel-header>
@@ -59,7 +59,7 @@
                 moving parts and ensuring your car has a long and happy life.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 The Importance of Changing Your Engine Oil
               </v-expansion-panel-header>
@@ -69,7 +69,7 @@
                 amount of time will start to degrade and become progressively dirtier and less efficient.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How often do you change your oil in a car?
               </v-expansion-panel-header>
@@ -78,7 +78,7 @@
                 vehicle's operating conditions.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Are oil changes important?
               </v-expansion-panel-header>
@@ -88,7 +88,7 @@
                 engine lubrication.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What happens if your car runs out of oil while driving?
               </v-expansion-panel-header>
@@ -98,7 +98,7 @@
                 the engine runs out of oil, it will start to grind, and then seize up, stalling the vehicle.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Why do cars need oil changes?
               </v-expansion-panel-header>
@@ -108,7 +108,7 @@
                 together effectively without overheating.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know you need an oil change?
               </v-expansion-panel-header>
@@ -125,7 +125,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is fully synthetic oil worth it?
               </v-expansion-panel-header>
@@ -134,7 +134,7 @@
                 Synthetic lasts longer and thus require fewer changes.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are the benefits of an oil change?
               </v-expansion-panel-header>
@@ -152,7 +152,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Engine Oil Change Free Collection and Delivery
               </v-expansion-panel-header>
@@ -182,7 +182,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How much does Oil & Oil Filter cost?
               </v-expansion-panel-header>

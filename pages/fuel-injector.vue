@@ -7,7 +7,7 @@
           <div class="row">
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What does Fuel Injectors do?
               </v-expansion-panel-header>
@@ -18,7 +18,7 @@
                 engine by the inlet valves and, in turn, the spark plugs will ignite the mixture to combust.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you consider a fuel injector replacement?
               </v-expansion-panel-header>
@@ -34,7 +34,7 @@
                 manufacturer.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How can you tell if you got a bad fuel injector?
               </v-expansion-panel-header>
@@ -45,7 +45,7 @@
                 Its full RPM. 7 Smell of Fuel.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What causes fuel injectors to go bad?
               </v-expansion-panel-header>
@@ -65,7 +65,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens when an injector goes bad?
               </v-expansion-panel-header>
@@ -75,7 +75,7 @@
                 is in idle. Fuel injector can crack or break, which will cause a gas leak.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Can dirty fuel injectors cause check engine light?
               </v-expansion-panel-header>
@@ -85,7 +85,7 @@
                 hard for the car to pick up speed. A faulty sensor will also make the Check Engine light turn on.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a bad fuel injector cause your car not to start?
               </v-expansion-panel-header>
@@ -95,7 +95,7 @@
                 at all.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How often should you replace fuel injectors?
               </v-expansion-panel-header>
@@ -103,7 +103,7 @@
                 We recommend cleaning fuel injectors at least every 36 months or 45,000 miles.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Why does my car hesitate when I step on gas?
               </v-expansion-panel-header>
@@ -114,7 +114,7 @@
                 necessary work (having consulted you) and deliver it back to you at the end of the day.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Fuel Injector Replacement Free Collection and Delivery
               </v-expansion-panel-header>

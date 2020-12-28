@@ -17,7 +17,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Problems Caused by A Car Water Pump Leak
               </v-expansion-panel-header>
@@ -39,7 +39,7 @@
                   expense.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What to Do When Car Water Pump Breaks
               </v-expansion-panel-header>
@@ -54,7 +54,7 @@
                 the garages Service Providers who quote for the job.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with the Water Pump?
               </v-expansion-panel-header>
@@ -68,7 +68,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you consider a Water Pump replacement?
               </v-expansion-panel-header>
@@ -84,7 +84,7 @@
                   serviced as and when stipulated in the guidelines set out by your car's manufacturer.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should I replace water pump?
               </v-expansion-panel-header>
@@ -93,7 +93,7 @@
                 miles, about the same amount of time as a timing belt.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Will a bad water pump make noise?
               </v-expansion-panel-header>
@@ -103,7 +103,7 @@
                 due to lack of lubrication or a faulty bearing.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Should I replace water pump with Cambelt?
               </v-expansion-panel-header>
@@ -113,7 +113,7 @@
                 water pump. It is also recommended by the manufacturer.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Water Pump Replacement Free Collection and Delivery
               </v-expansion-panel-header>
@@ -142,7 +142,7 @@
                   this in mind when booking to use our free Collection and delivery service</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 WHow much does a Water Pump replacement cost?
               </v-expansion-panel-header>

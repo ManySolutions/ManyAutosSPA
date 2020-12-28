@@ -26,7 +26,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 5 Most Common Symptoms of Worn Brake Pads & Discs
               </v-expansion-panel-header>
@@ -63,7 +63,7 @@
               </v-expansion-panel-content>
             </v-expansion-panel>
 
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Pads Free Collection and Delivery
               </v-expansion-panel-header>
@@ -93,7 +93,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Never Ignore These 8 Warning Signs of Brake Problems
               </v-expansion-panel-header>

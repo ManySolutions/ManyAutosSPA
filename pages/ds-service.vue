@@ -14,7 +14,7 @@
   </div>
  
 <v-expansion-panels popout>
-  <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+  <v-expansion-panel  class="icon">
     <v-expansion-panel-header class="card-header">
       DS Service
     </v-expansion-panel-header>
@@ -30,7 +30,7 @@
       possible standard.
     </v-expansion-panel-content>
   </v-expansion-panel>
-  <v-expansion-panel v-for="(item,i) in 1" :key="i">
+  <v-expansion-panel >
     <v-expansion-panel-header class="card-header">
       Air Filters
     </v-expansion-panel-header>
@@ -40,7 +40,7 @@
       debris from getting into vehicle engine and contaminating fuel supply.
     </v-expansion-panel-content>
   </v-expansion-panel>
-  <v-expansion-panel v-for="(item,i) in 1" :key="i">
+  <v-expansion-panel >
     <v-expansion-panel-header class="card-header">
       Oil Filter
     </v-expansion-panel-header>
@@ -49,7 +49,7 @@
 
     </v-expansion-panel-content>
   </v-expansion-panel>
-  <v-expansion-panel v-for="(item,i) in 1" :key="i">
+  <v-expansion-panel >
     <v-expansion-panel-header class="card-header">
       Pollen Filter
     </v-expansion-panel-header>
@@ -59,7 +59,7 @@
         air-conditioning systems.</p>
     </v-expansion-panel-content>
   </v-expansion-panel>
-  <v-expansion-panel v-for="(item,i) in 1" :key="i">
+  <v-expansion-panel >
     <v-expansion-panel-header class="card-header">
       Engine Oil
     </v-expansion-panel-header>
@@ -98,7 +98,7 @@
       </span>
   </div>
   <v-expansion-panels popout>
-    <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+    <v-expansion-panel  class="icon">
       <v-expansion-panel-header class="card-header">
         DS vehicle initial checks
       </v-expansion-panel-header>
@@ -219,7 +219,7 @@
     </v-expansion-panel>
   </v-expansion-panels>
   <v-expansion-panels popout>
-    <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+    <v-expansion-panel  class="icon">
       <v-expansion-panel-header class="card-header">
         DS vehicle on ground checks
       </v-expansion-panel-header>
@@ -589,7 +589,7 @@
     </v-expansion-panel>
   </v-expansion-panels>
 <v-expansion-panels popout>
-  <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+  <v-expansion-panel  class="icon">
     <v-expansion-panel-header class="card-header">
       DS vehicle raised / off the ground checks
     </v-expansion-panel-header>
@@ -894,7 +894,7 @@
   </v-expansion-panel>
 </v-expansion-panels>
  <v-expansion-panels popout>
-   <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+   <v-expansion-panel  class="icon">
      <v-expansion-panel-header class="card-header">
        DS vehicle final checks
      </v-expansion-panel-header>
@@ -973,7 +973,7 @@
    </v-expansion-panel>
  </v-expansion-panels>
            <v-expansion-panels popout>
-             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+             <v-expansion-panel  class="icon">
                <v-expansion-panel-header class="card-header">
                  DS Brake fluid Service
                </v-expansion-panel-header>
@@ -983,7 +983,7 @@
                  we recommend regularly checking your brake fluid with us and replacing it as necessary.
                </v-expansion-panel-content>
              </v-expansion-panel>
-             <v-expansion-panel v-for="(item,i) in 1" :key="i">
+             <v-expansion-panel >
                <v-expansion-panel-header class="card-header">
                  DS Transmission Service
                </v-expansion-panel-header>
@@ -993,7 +993,7 @@
                  replaced. Your Service Schedule recommends.
                </v-expansion-panel-content>
              </v-expansion-panel>
-             <v-expansion-panel v-for="(item,i) in 1" :key="i">
+             <v-expansion-panel >
                <v-expansion-panel-header class="card-header">
                  DS Engine Coolant Service
                </v-expansion-panel-header>
@@ -1005,7 +1005,7 @@
 
                </v-expansion-panel-content>
              </v-expansion-panel>
-             <v-expansion-panel v-for="(item,i) in 1" :key="i">
+             <v-expansion-panel >
                <v-expansion-panel-header class="card-header">
                  When should you consider an Engine Coolant replacement
                </v-expansion-panel-header>
@@ -1019,7 +1019,7 @@
                  should always be replaced as and when stipulated in the guidelines set out by your car's manufacturer.
                </v-expansion-panel-content>
              </v-expansion-panel>
-             <v-expansion-panel v-for="(item,i) in 1" :key="i">
+             <v-expansion-panel >
                <v-expansion-panel-header class="card-header">
                  DS Air Conditioning Service important
                </v-expansion-panel-header>
@@ -1032,7 +1032,7 @@
                  by our expert Technicians, regularly.
                </v-expansion-panel-content>
              </v-expansion-panel>
-             <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+             <v-expansion-panel  class="icon">
                <v-expansion-panel-header class="card-header">
                  DS Air Conditioning Recharge.
                </v-expansion-panel-header>
@@ -1045,7 +1045,7 @@
 
                </v-expansion-panel-content>
              </v-expansion-panel>
-             <v-expansion-panel v-for="(item,i) in 1" :key="i">
+             <v-expansion-panel >
                <v-expansion-panel-header class="card-header">
                  DS Air Conditioning Refresh.
                </v-expansion-panel-header>
@@ -1058,7 +1058,7 @@
 
                </v-expansion-panel-content>
              </v-expansion-panel>
-             <v-expansion-panel v-for="(item,i) in 1" :key="i">
+             <v-expansion-panel >
                <v-expansion-panel-header class="card-header">
                  DS Digital Service Schedule
                </v-expansion-panel-header>
@@ -1069,7 +1069,7 @@
                  convenient printout of any work done or recommended.
                </v-expansion-panel-content>
              </v-expansion-panel>
-             <v-expansion-panel v-for="(item,i) in 1" :key="i">
+             <v-expansion-panel >
                <v-expansion-panel-header class="card-header">
                  How much does an Engine Coolant replacement costs?
                </v-expansion-panel-header>
@@ -1085,7 +1085,7 @@
       <h2 class="h2-service-heading pt-3 pb-3">Common BMW Problems found during a full service</h2>
   </div>
             <v-expansion-panels popout>
-              <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+              <v-expansion-panel  class="icon">
                 <v-expansion-panel-header class="card-header">
                   DS Oil Leaks or Burning Oil Smell
                 </v-expansion-panel-header>
@@ -1099,7 +1099,7 @@
                   form the undercarriage of the car..
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel v-for="(item,i) in 1" :key="i">
+              <v-expansion-panel >
                 <v-expansion-panel-header class="card-header">
                   Clunking or Clicking when Turning your DS
                 </v-expansion-panel-header>
@@ -1112,7 +1112,7 @@
                   from your car.
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel v-for="(item,i) in 1" :key="i">
+              <v-expansion-panel >
                 <v-expansion-panel-header class="card-header">
                   DS Exhaust Leak – Unhealthy Sound
                 </v-expansion-panel-header>
@@ -1130,7 +1130,7 @@
   
       <div class="col-12 col-md-3">
           <v-expansion-panels popout>
-              <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+              <v-expansion-panel  class="icon">
                 <v-expansion-panel-header class="card-header" style="font-weight:bold;">
                   Usefull Guides
                 </v-expansion-panel-header>

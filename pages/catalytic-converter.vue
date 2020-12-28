@@ -25,7 +25,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Can you drive a car with a bad catalytic converter?
               </v-expansion-panel-header>
@@ -35,7 +35,7 @@
                 performance.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do I need to replace my catalytic converter?
               </v-expansion-panel-header>
@@ -45,7 +45,7 @@
                 they aren't considered a regular maintenance item. A damaged “cat” should trigger a Check Engine light.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What problems can a bad catalytic converter cause?
               </v-expansion-panel-header>
@@ -55,7 +55,7 @@
                 things get worse, you can expect a bad smell, loss of power, poor acceleration, engine stalling, etc.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How can you tell if catalytic converter is bad?
               </v-expansion-panel-header>
@@ -71,7 +71,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens if you don t replace catalytic converter?
               </v-expansion-panel-header>
@@ -80,7 +80,7 @@
                 converter is completely clogged, your engine will quickly fail because of all the exhaust back pressure.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What are signs that your catalytic converter is bad?
               </v-expansion-panel-header>
@@ -90,7 +90,7 @@
                 converter by monitoring the gas levels in the exhaust.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What can ruin a catalytic converter?
               </v-expansion-panel-header>
@@ -100,7 +100,7 @@
                 exhaust system and cause it to overheat.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a bad catalytic converter cause your car to cut off?
               </v-expansion-panel-header>
@@ -111,7 +111,7 @@
                 run at all.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a bad catalytic converter cause rough idle?
               </v-expansion-panel-header>
@@ -120,7 +120,7 @@
                 of course, it can also be a fire hazard if the vehicle is parked over anything that is flammable.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Catalytic converter Free Collection and Delivery
               </v-expansion-panel-header>
