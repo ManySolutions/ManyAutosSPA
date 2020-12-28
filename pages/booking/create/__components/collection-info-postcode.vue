@@ -5,8 +5,9 @@
       :loading="isLoading"
       label="Your Postcode"
       placeholder="Enter your postcode i.e RG28UF"
-      filled
-      rounded
+      :filled='inputStyle == "rounded"'
+      :rounded='inputStyle == "rounded"'
+      :outlined='inputStyle == "outlined"'
     >
     </v-text-field>
 
@@ -40,6 +41,12 @@ import Vue from 'vue';
 import { getAddress } from '~/api/postcode';
 
 export default {
+  props: {
+    inputStyle: {
+      default: 'rounded',
+      type: String,
+    }
+  },
   data: () => ({
     model: null,
     entries: [],

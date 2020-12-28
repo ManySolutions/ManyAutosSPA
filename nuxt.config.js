@@ -117,9 +117,11 @@ export default {
   env: {
     ENVIRONMENT: 'development',
     CURRENCY_SYMBOL: '£',
+    APP_URL: 'http://www.manyautosltd.com',
     LOCAL_API_URL: 'http://manyautos.local/api/v2/c/',
     PRODUCTION_API_URL: 'https://staging-v32020.manyautos.co.uk/api/v2/c/',
     LOCAL_ASSETS_URL: 'http://manyautos.local/assets/',
     PRODUCTION_ASSETS_URL: 'https://staging-v32020.manyautos.co.uk/assets/',
+    RECAPTCHA_SITE_KEY: '6LdIdBcaAAAAAGoHmtHlYIa7vSFbJ4Ja0_gQCBlX',
   }
 }
