@@ -120,17 +120,17 @@
 export default {
   data: () => ({
     popularServices: [
-      {title: 'Car Services', url: '/car-services'},
-      {title: 'Front brake pads replacement', url: '/car-services'},
-      {title: 'Rear brake pads replacement', url: '/car-services'},
-      {title: 'Front brake discs & pads replacement', url: '/car-services'},
-      {title: 'Rear brake discs & pads replacement', url: '/car-services'},
-      {title: 'Timing belt replacement', url: '/car-services'},
-      {title: 'Diagnostic inspection', url: '/car-services'},
-      {title: 'Clutch kit replacement', url: '/car-services'},
-      {title: 'Car battery replacement and fitting', url: '/car-services'},
-      {title: 'Air conditioning regas', url: '/car-services'},
-      {title: 'Water pump replacement', url: '/car-services'},
+      {title: 'Car Services', url: '/car-service'},
+      {title: 'Brake Pad Repair & Replacement', url: '/brake-pads'},
+      {title: 'Brake Pad Sensor', url: '/brake-pad-sensor'},
+      {title: 'Brake Discs', url: '/brake-disc'},
+      {title: 'Brake Pipe', url: '/brake-pipe'},
+      {title: 'Timing Belt Replacement', url: '/timing-belt'},
+      {title: 'Vehicle Diagnostics', url: '/vehicle-engine-diagnostic-services'},
+      {title: 'Clutch kit replacement', url: '/clutch-replacement'},
+      {title: 'Oil Change', url: '/oil-change'},
+      {title: 'Air Filter Replacement', url: '/air-filter-replacement'},
+      {title: 'Water Pump Replacement', url: '/water-pump-replacement'},
     ],
     meetManyautos: [
       {title: 'About Us', url: '/about'},
@@ -138,7 +138,7 @@ export default {
       {title: 'Privacy Policy', url: '/privacy-policy'},
       {title: 'Contact Us', url: '/contact'},
       {title: 'Site Map', url: '/car-services'},
-      {title: 'Register as Garage', url: '/car-services'},
+      {title: 'Register as Garage', url: '/request-to-register-your-garage'},
       {title: 'Book a service', url: '/service-booking'},
     ],
     contacts: [
