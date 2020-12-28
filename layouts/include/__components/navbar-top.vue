@@ -6,11 +6,14 @@
     <v-row
       class=''
     >
-      <v-col cols=5>
-        <v-btn 
+      <v-col 
+        cols=5
+        align-self="center"
+      >
+        <v-btn
           text 
           color='teal lighten-6'
-          class='pl-0'
+          class='pl-0 d-md-none'
           href='tel:01189876300'
         >
           <v-icon 
@@ -23,10 +26,29 @@
             01189 876300
           </span>
         </v-btn>
+        <span class='d-none d-md-block'>
+          <strong>COVID-19:</strong> Open for service, We are unaffected by lockdown
+        </span>
       </v-col>
       <v-col
         class='text-right top-social'
       >
+        <v-btn
+          text 
+          color='teal lighten-6'
+          class='pl-0 d-none d-md-inline-flex'
+          href='tel:01189876300'
+        >
+          <v-icon 
+            dark
+            class='mr-1'
+          >
+            mdi-cellphone-basic
+          </v-icon>
+          <span class="text-large">
+            01189 876300
+          </span>
+        </v-btn>
         <v-btn
           text
           elevation='0'
@@ -51,7 +73,7 @@
             mdi-facebook-messenger
           </v-icon>
         </v-btn>
-        <v-btn
+        <!-- <v-btn
           text
           elevation='0'
           style='min-width: 0px'
@@ -62,7 +84,7 @@
           <v-icon color='red darken-1'>
             mdi-instagram
           </v-icon>
-        </v-btn>
+        </v-btn> -->
       </v-col>
     </v-row>
     <!-- /navbar top -->
