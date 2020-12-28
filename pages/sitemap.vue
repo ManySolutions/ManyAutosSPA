@@ -6,9 +6,11 @@
     <v-container class='sitemap-container'>
       <v-row style="padding-top:40px;">
         <v-col cols='12' md="3" >
-          <h4 class="text-left text-uppercase pb-5">
-           Landing Page
-          </h4>
+          <a href="#landing-page" class='has-hashed'>
+            <h4 class="text-left text-uppercase pb-5">
+              Landing Page
+            </h4>
+          </a>
           <div>
             <v-btn
               text
@@ -24,9 +26,11 @@
               {{ index.title }}
             </v-btn>
           </div>
-          <h4 class="text-left text-uppercase pb-5">
-           Help
-          </h4>
+          <a href="#help" class='has-hashed'>
+            <h4 class="text-left text-uppercase pb-5">
+              Help
+            </h4>
+          </a>
           <div>
             <v-btn
               text
@@ -43,9 +47,11 @@
           </div>
         </v-col>
         <v-col cols='12' md="3">
-          <h4 class="text-left text-uppercase pb-5">
-           Action Pages
-          </h4>
+          <a href="#action-pages" class='has-hashed'>
+            <h4 class="text-left text-uppercase pb-5">
+              Action Pages
+            </h4>
+          </a>
           <div>
             <v-btn
               text
@@ -61,9 +67,11 @@
           </div>
         </v-col>
         <v-col cols='12' md="3" >
-          <h4 class="text-left text-uppercase pb-5">
-           Car Services
-          </h4>
+          <a href="#car-services" class='has-hashed'>
+            <h4 class="text-left text-uppercase pb-5">
+              Car Services
+            </h4>
+          </a>
           <div>
             <v-btn
               text
@@ -79,9 +87,11 @@
           </div>
         </v-col>
         <v-col cols='12' md="3">
-          <h4 class="text-left text-uppercase pb-5">
-           Car Repair Services
-          </h4>
+          <a href="#car-repairs" class='has-hashed'>
+            <h4 class="text-left text-uppercase pb-5">
+              Car Repairs
+            </h4>
+          </a>
           <div>
             <v-btn
               text
@@ -329,6 +339,11 @@ export default {
   }
   &::v-deep .v-btn {
     display: inline-block;
+  }
+  .has-hashed {
+    color: black;
+    text-decoration: none;
+    display: block;
   }
 }
 

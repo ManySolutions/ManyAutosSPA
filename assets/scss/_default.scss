@@ -97,3 +97,9 @@ h1.heading__title {
 .container-1400 {
   max-width: 1400px;
 }
+
+
+.has-hashed {
+  position: relative;
+  &:hover:before {content: "#";position: absolute;left: -20px;font-size: 22px;top: -50%;transform: translateY(50%);color: $primary;}
+}
