@@ -66,7 +66,7 @@
           elevation='0'
           style='min-width: 0px'
           class='px-1'
-          href='http://m.me/manyautos.co.uk?ref=contact_from_website'
+          href='https://www.facebook.com/manyautos.co.uk'
           target="_blank"
         >
           <v-icon color='blue darken-1'>
@@ -78,7 +78,7 @@
           elevation='0'
           style='min-width: 0px'
           class='px-1'
-          href='https://wa.me/+4401189876300'
+          href='https://www.instagram.com/manyauto/'
           target="_blank"
         >
           <v-icon color='red darken-1'>
