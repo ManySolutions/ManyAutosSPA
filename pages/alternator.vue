@@ -21,7 +21,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Where is the alternator and what does it look like?
               </v-expansion-panel-header>
@@ -37,7 +37,7 @@
                 risks damaging the alternator’s bearings.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How does an alternator work?
               </v-expansion-panel-header>
@@ -53,7 +53,7 @@
                 controls the amount of current going to the electromagnetic rotor.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know when the alternator is working?
               </v-expansion-panel-header>
@@ -72,7 +72,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know it’s not the battery at fault?
               </v-expansion-panel-header>
@@ -85,7 +85,7 @@
                 culprit. Time for a new one.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is a car alternator?
               </v-expansion-panel-header>
@@ -95,7 +95,7 @@
                 quite a job - so it's essential that it's topped up - and that's what the alternator does.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What are common problems with an alternator?
               </v-expansion-panel-header>
@@ -107,7 +107,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are the common symptoms of alternator problems?
               </v-expansion-panel-header>
@@ -118,7 +118,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How to test an alternator for problems
               </v-expansion-panel-header>
@@ -129,7 +129,7 @@
                 can be tested using a multimeter tool.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you consider an Alternator replacement?
               </v-expansion-panel-header>
@@ -141,7 +141,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Alternator Replacement Free Collection and Delivery
               </v-expansion-panel-header>

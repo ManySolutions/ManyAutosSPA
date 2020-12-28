@@ -7,7 +7,7 @@
           <div class="row">
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Fuel Pump replacement
               </v-expansion-panel-header>
@@ -25,7 +25,7 @@
                 fuel pump will help ensure that your car continues to run smoothly.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a Fuel Pump do?
               </v-expansion-panel-header>
@@ -34,7 +34,7 @@
                 at the level required by the engine. In most cars, the pump is usually located near or in the fuel tank.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you consider a Fuel Pump replacement?
               </v-expansion-panel-header>
@@ -49,7 +49,7 @@
                 which means that no fuel is pushed to the engine, as a result the engine will not start or cut out.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens when your fuel pump goes out?
               </v-expansion-panel-header>
@@ -69,7 +69,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How long does a fuel pump last in a car?
               </v-expansion-panel-header>
@@ -78,7 +78,7 @@
                 been known to last for over 200,000 miles in some cases.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What could cause a fuel pump to fail?
               </v-expansion-panel-header>
@@ -88,7 +88,7 @@
                 return system. Running such a vehicle out of fuel once can permanently damage the fuel pump.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a bad fuel injector cause your car not to start?
               </v-expansion-panel-header>
@@ -98,7 +98,7 @@
                 acceleration, a decrease in fuel efficiency, and even engine stalling.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are the signs of a bad fuel pump relay?
               </v-expansion-panel-header>
@@ -114,7 +114,7 @@
                 you can damage the pump. Fuel pumps are in the fuel tank in most cars these days.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Will a car start with a bad fuel pump?
               </v-expansion-panel-header>
@@ -136,7 +136,7 @@
                 failing fuel pump for a certain distance it will sooner or later no longer operate.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Fuel Pump Replacement Free Collection and Delivery
               </v-expansion-panel-header>

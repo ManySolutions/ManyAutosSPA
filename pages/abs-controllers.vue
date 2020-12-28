@@ -17,7 +17,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What does an ABS Controllers do?
               </v-expansion-panel-header>
@@ -27,7 +27,7 @@
                 brake fluid flows through the master cylinder to the ABS pump and out to the wheels.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is ABS Controllers actuator?
               </v-expansion-panel-header>
@@ -39,7 +39,7 @@
                   brakes.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can ABS Controllers lock up your brakes?
               </v-expansion-panel-header>
@@ -50,7 +50,7 @@
                 pedal during hard stops, or if the vehicle loses traction.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are the main ABS Controllers components?
               </v-expansion-panel-header>
@@ -65,7 +65,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens if ABS Controllers stop working?
               </v-expansion-panel-header>
@@ -77,7 +77,7 @@
                 </p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS Controller at Work
               </v-expansion-panel-header>
@@ -99,7 +99,7 @@
                   closing of the valves. Some ABS systems can cycle up to 15 times per second.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS Controllers Free Collection and Delivery
               </v-expansion-panel-header>

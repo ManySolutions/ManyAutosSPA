@@ -18,7 +18,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Brake wear sensor
               </v-expansion-panel-header>
@@ -29,7 +29,7 @@
                 safety problem.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do all brake pads have wear indicators?
               </v-expansion-panel-header>
@@ -40,7 +40,7 @@
                 pads.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you have to replace brake pad sensor?
               </v-expansion-panel-header>
@@ -51,7 +51,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do brake wear sensors work?
               </v-expansion-panel-header>
@@ -62,7 +62,7 @@
                   detect.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a brake pad wear sensor do?
               </v-expansion-panel-header>
@@ -72,7 +72,7 @@
                 on the brake pad and routed through the callipers in any combination of the four wheels.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What does brake pad wear mean?
               </v-expansion-panel-header>
@@ -83,7 +83,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does it mean when your brake light comes on?
               </v-expansion-panel-header>
@@ -95,7 +95,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is a brake pad wear sensor and where is it located?
               </v-expansion-panel-header>
@@ -114,7 +114,7 @@
                 their location in terms of what wheels they can be found on will vary.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Warning about brake pad sensor
               </v-expansion-panel-header>
@@ -129,7 +129,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Pad Sensor Free Collection and Delivery
               </v-expansion-panel-header>

@@ -12,7 +12,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Timing Belt/ Cambelt
               </v-expansion-panel-header>
@@ -31,7 +31,7 @@
                   money in repairs.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Signs That Timing Belt/ Cambelt Needs Replacing
               </v-expansion-panel-header>
@@ -43,7 +43,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What Happens If Your Timing Belt Snaps?
               </v-expansion-panel-header>
@@ -67,7 +67,7 @@
                   membership of a recovery service.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What’s the Lifespan of A Typical Cam Belt?
               </v-expansion-panel-header>
@@ -97,7 +97,7 @@
                   tasks, it will soon become second nature.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Free Collection and Delivery
               </v-expansion-panel-header>
@@ -127,7 +127,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How much does timing belt replacement cost?
               </v-expansion-panel-header>

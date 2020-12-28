@@ -12,7 +12,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What does wheel balancing do?
               </v-expansion-panel-header>
@@ -20,7 +20,7 @@
                 When tyre are fitted to wheels at the point of sale, they are measured again on balancing machine, and correction weights are applied to counteract the combined effect of the tyre and wheel unbalance. After sale, tyres may be rebalanced if driver perceives excessive vibration.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens when you don’t balance tyre?
               </v-expansion-panel-header>
@@ -28,7 +28,7 @@
                 Your tyre will wear down prematurely when the wheel assembly isn't balanced, and you may be in for some not so good vibrations. Even a quarter of an ounce of imbalance can put uneven pressure on the treads, causing uneven tread wear and excess heat that shorten the life of the tyre.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does an out of balance tyre feel like?
               </v-expansion-panel-header>
@@ -36,7 +36,7 @@
                 The common symptoms of out of balance tyre are uneven and faster tread wear, poor fuel economy, and vibration in the steering wheel, the floorboard or the seat that gets worse at faster speeds. If a front tyre isn't properly balanced, you'll likely feel vibration in the steering wheel.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is tyre balancing necessary?
               </v-expansion-panel-header>
@@ -44,7 +44,7 @@
                 Tyre balancing is different from wheel alignment, which involves the angle of the wheels and their relation to the ground. As you drive, your tyre lose balance, so periodic tyre balancing service is needed to return proper balance. Tyre imbalance can cause problems for both the vehicle and tyres.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do new tyre need balancing?
               </v-expansion-panel-header>
@@ -52,7 +52,7 @@
                 When tyres are installed, the wheels need to be balanced. If this is not done, the new tyre will most likely not roll as smoothly, causing a number of concerns to the driver and vehicle, most notably when the steering wheel shakes and rocks back and forth during specific speeds. Wheels can be balanced on a wheel balancing machine available at all Many Autos branches. The tyre and wheel assembly are mounted on the machine which then spins the wheel to calculate even the slightest variance in weight across the wheel. The balancing machine then highlights the exact position where a counter weight should be applied and which size of weights to use to correctly balance the wheel.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                Tyre Balancing Free Collection and Delivery
               </v-expansion-panel-header>

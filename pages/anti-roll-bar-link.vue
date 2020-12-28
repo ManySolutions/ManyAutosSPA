@@ -12,7 +12,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                What does an Anti-roll bars link do?
               </v-expansion-panel-header>
@@ -20,7 +20,7 @@
                 Anti-roll bar links are short metal rods with joints known as 'bushings' at each end. The purpose of anti roll bar links is to connect the anti-roll bar in a car's suspension to the rest of the suspension structure. Anti-roll bars are fitted to just about any car these days. Most cars have an anti-roll bar on the front as well as the rear of the car. Anti-roll bars stabilize your car when you go through a corner. Whilst it is an important component it's often tricky to know whether you will need to replace it. Luckily there are a couple of checks that can be done to find out if it needs replacing.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is it safe to drive with a broken Anti-roll bar link?
               </v-expansion-panel-header>
@@ -28,7 +28,7 @@
                 Depending on the vehicle you're driving, you may have a front or a rear sway bar, or you may have both. If you suspect that a sway bar is broken, you can still drive the car, but you must use caution. The way this will affect your drive will depend on if the front or rear sway bar is broken.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Are Anti-roll bars links an MOT failure?
               </v-expansion-panel-header>
@@ -37,7 +37,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What will a bad anti roll bar link do?
               </v-expansion-panel-header>
@@ -51,7 +51,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens when Anti roll bar link breaks?
               </v-expansion-panel-header>
@@ -59,7 +59,7 @@
                 Because an Anti-roll bar link helps the car's suspension to put more pressure on loaded springs, a broken Anti roll bar link means that the car's suspension will not be able to handle corners as well or as quickly. While it is possible to drive with a broken Anti roll bar link, as a precaution do not take corners with excessive speeds.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How many Anti-roll bar link does a car have?
               </v-expansion-panel-header>
@@ -68,7 +68,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Anti-roll bar links Free Collection and Delivery
               </v-expansion-panel-header>

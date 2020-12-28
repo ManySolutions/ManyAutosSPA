@@ -16,7 +16,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What does a Coil Spring do?
               </v-expansion-panel-header>
@@ -29,7 +29,7 @@
                 suspension strut, as in a MacPherson suspension system.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you consider a Coil Spring replacement?
               </v-expansion-panel-header>
@@ -49,7 +49,7 @@
                 coil spring as and when stipulated in the guidelines set out by your car's manufacturer.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Should coil springs be replaced in pairs?
               </v-expansion-panel-header>
@@ -58,7 +58,7 @@
                 be created resulting in an uneven ride.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is a broken coil spring Dangerous?
               </v-expansion-panel-header>
@@ -77,7 +77,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 WIs a broken coil spring Dangerous?
               </v-expansion-panel-header>
@@ -86,7 +86,7 @@
                 is. Its broken - it now affects the entire suspension, handling in that case, steering and brakes.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How do I know if my coil springs are bad?
               </v-expansion-panel-header>
@@ -100,7 +100,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How long do coil springs last?
               </v-expansion-panel-header>
@@ -110,7 +110,7 @@
                 shocks into an assembly with springs and other suspension parts to last at least four or five years.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What do coil springs do?
               </v-expansion-panel-header>
@@ -121,7 +121,7 @@
                 ground.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do car springs need to be replaced?
               </v-expansion-panel-header>
@@ -131,7 +131,7 @@
                 compressed coil spring. As such, you’ll need a coil spring compressor.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Coil Spring Replacement Free Collection and Delivery
               </v-expansion-panel-header>

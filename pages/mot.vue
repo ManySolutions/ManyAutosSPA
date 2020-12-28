@@ -24,7 +24,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 MOT Test Changes Since 20 May 2018
               </v-expansion-panel-header>
@@ -40,7 +40,7 @@
                   DVSA.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Minor MOT Faults
               </v-expansion-panel-header>
@@ -55,7 +55,7 @@
                   lights and one is not functioning, the vehicle will receive a Minor defect on the MOT.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Major MOT Faults
               </v-expansion-panel-header>
@@ -71,7 +71,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Dangerous MOT Faults
               </v-expansion-panel-header>
@@ -87,7 +87,7 @@
                 </div>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Will the MOT still include advisories?
               </v-expansion-panel-header>
@@ -98,7 +98,7 @@
                 penalties for driving a dangerous vehicle.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Why is the MOT test has changed?
               </v-expansion-panel-header>
@@ -116,7 +116,7 @@
                   condition is a criminal offence.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What effect will the MOT changes have on drivers?
               </v-expansion-panel-header>
@@ -130,7 +130,7 @@
                 urgent problems and the safety risks they pose.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Changes For Diesel Owners
               </v-expansion-panel-header>
@@ -152,7 +152,7 @@
                   vehicle soon, you may be hit hard in the pocket trying to keep it on the road.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How much is a MOT for a car?
               </v-expansion-panel-header>
@@ -161,7 +161,7 @@
                 list on the GOV.uk website. Some MOT test centres will charge less than the maximum fee
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is tested in a MOT?
               </v-expansion-panel-header>
@@ -171,7 +171,7 @@
                 exhaust system. It doesn't cover the condition of the engine, clutch and gearbox.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can you drive your car away if it fails the MOT?
               </v-expansion-panel-header>
@@ -181,7 +181,7 @@
                 your test was before the expiry date) as long as no 'dangerous' problem(s) were listed in the MOT
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is the MOT test changed?
               </v-expansion-panel-header>
@@ -191,7 +191,7 @@
                 cars, vans, motorcycles and other light passenger vehicles. There are 5 main changes you need to know.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What happens if you fail a MOT?
               </v-expansion-panel-header>
@@ -201,7 +201,7 @@
                 advised not to drive it, except to an approved test centre or a garage for repairs.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is my car MOT exempt?
               </v-expansion-panel-header>
@@ -211,7 +211,7 @@
                 longer have to undergo their annual roadworthiness check.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What you need to pass a MOT?
               </v-expansion-panel-header>
@@ -225,7 +225,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What do I need to take to a MOT?
               </v-expansion-panel-header>
@@ -235,7 +235,7 @@
                 a change of registration plate since its last MOT. In all other instances no documentation is required.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How long do you have to fix a failed MOT?
               </v-expansion-panel-header>
@@ -244,7 +244,7 @@
                 back to the original testing centre for a partial retest within10 days of the initial test.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 MOT Free Collection and Delivery
               </v-expansion-panel-header>

@@ -19,7 +19,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What do brake drums do?
               </v-expansion-panel-header>
@@ -29,7 +29,7 @@
                 forced by hydraulic wheel cylinders against the inner surface of a rotating brake drum.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Which is the primary shoe in a drum brake?
               </v-expansion-panel-header>
@@ -39,7 +39,7 @@
                 vehicle and has the lining positioned differently from the secondary shoe.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do I know if my car has disc or drum brakes?
               </v-expansion-panel-header>
@@ -50,7 +50,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do I need to replace brake drums?
               </v-expansion-panel-header>
@@ -61,7 +61,7 @@
                   with the brake shoes.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are the parts of a drum brake system?
               </v-expansion-panel-header>
@@ -70,7 +70,7 @@
                 various springs and pins
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What is the difference between drum and disc brakes?
               </v-expansion-panel-header>
@@ -82,7 +82,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Drum brake system
               </v-expansion-panel-header>
@@ -93,7 +93,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How You Know When Drum Brakes Fail
               </v-expansion-panel-header>
@@ -115,7 +115,7 @@
                 accident.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How Brake Drums Work and When to Change Your Brake Drums
               </v-expansion-panel-header>
@@ -136,7 +136,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Drums Replacement Free Collection and Delivery
               </v-expansion-panel-header>

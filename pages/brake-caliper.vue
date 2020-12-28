@@ -17,7 +17,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How Brake Calipers Work?
               </v-expansion-panel-header>
@@ -54,7 +54,7 @@
                   then discuss the different types of brake calipers available for different types of vehicles.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you have to replace calipers in pairs?
               </v-expansion-panel-header>
@@ -64,7 +64,7 @@
                 with new sleeves, o-rings, and grease.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What causes calipers to go bad?
               </v-expansion-panel-header>
@@ -75,7 +75,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are the symptoms of a bad brake caliper?
               </v-expansion-panel-header>
@@ -93,7 +93,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is it safe to drive with a stuck caliper?
               </v-expansion-panel-header>
@@ -103,7 +103,7 @@
                 stuck caliper is if the vehicle pulls to one side when braking or while driving.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Calipers Free Collection and Delivery
               </v-expansion-panel-header>

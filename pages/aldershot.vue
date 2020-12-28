@@ -22,7 +22,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Do you offer free collection and delivery from Aldershot?
               </v-expansion-panel-header>
@@ -41,7 +41,7 @@
                 <strong>01189876300</strong> our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How does collection and delivery work from Aldershot?
               </v-expansion-panel-header>
@@ -57,7 +57,7 @@
                 <strong>01189876300</strong> our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you provide finance for cars repair in Aldershot?
               </v-expansion-panel-header>
@@ -68,7 +68,7 @@
                 Many Autos car service and repair could be the answer.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 On what services is finance available from Aldershot?
               </v-expansion-panel-header>
@@ -86,7 +86,7 @@
                   <strong>01189876300</strong> our team is very happy to help.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you do clutch repairs for cars in Aldershot?
               </v-expansion-panel-header>
@@ -102,7 +102,7 @@
                   <strong>01189876300</strong> our team is very happy to help.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Do you offer MOT tests in Aldershot?
               </v-expansion-panel-header>
@@ -120,7 +120,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you provide alternator repair and replacement service for Aldershot?
               </v-expansion-panel-header>
@@ -139,7 +139,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do you provide Timing Belt/Cambelt changing service for Aldershot?
               </v-expansion-panel-header>
@@ -155,7 +155,7 @@
                   <strong>01189876300</strong> our team is very happy to help.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can you do repairs to the head gasket if I am based in Aldershot?
               </v-expansion-panel-header>
@@ -181,7 +181,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do we do this?
               </v-expansion-panel-header>

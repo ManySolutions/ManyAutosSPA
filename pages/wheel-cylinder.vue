@@ -21,7 +21,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Wheel Cylinder Replacement
               </v-expansion-panel-header>
@@ -33,7 +33,7 @@
                 cheap and easy to replace.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Wheel cylinders replace
               </v-expansion-panel-header>
@@ -43,7 +43,7 @@
                 a wheel
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Wheel Cylinders Function
               </v-expansion-panel-header>
@@ -56,7 +56,7 @@
                 exert mechanical pressure on the brake shoes.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Wheel Cylinders Components
               </v-expansion-panel-header>
@@ -81,7 +81,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Wheel Cylinders Safety
               </v-expansion-panel-header>
@@ -96,7 +96,7 @@
                 install wheel brake cylinders.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Wheel Cylinders Depreciation
               </v-expansion-panel-header>
@@ -109,7 +109,7 @@
                 considerations are vital for optimum brake performance and also help the vehicle retain its value.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does the wheel cylinder do?
               </v-expansion-panel-header>
@@ -120,7 +120,7 @@
                 cast iron.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Symptoms of Bad Brake Wheel Cylinder
               </v-expansion-panel-header>
@@ -131,7 +131,7 @@
                 cylinders.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How many wheel cylinders does a car have?
               </v-expansion-panel-header>
@@ -141,7 +141,7 @@
                 brake pressure is applied, the pistons are forced out pushing the shoes into contact with the drum.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Wheel cylinder Replacement Free Collection and Delivery
               </v-expansion-panel-header>

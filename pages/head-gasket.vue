@@ -23,7 +23,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with the Head Gasket?
               </v-expansion-panel-header>
@@ -34,7 +34,7 @@
                 engine is more noisy than usual.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Dangers of Leaving Untreated
               </v-expansion-panel-header>
@@ -54,7 +54,7 @@
                 likely to happen.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a head gasket do?
               </v-expansion-panel-header>
@@ -65,7 +65,7 @@
                 important part of the engine as it can make the difference between an engine running well, or badly.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is a Head Gasket?
               </v-expansion-panel-header>
@@ -74,7 +74,7 @@
                 block and the cylinder head the section of the engine which fits over the cylinders.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is a blown Head Gasket?
               </v-expansion-panel-header>
@@ -84,7 +84,7 @@
                 overheating, which can cause significant engine damage..
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Will a Head Gasket sealer work?
               </v-expansion-panel-header>
@@ -105,7 +105,7 @@
                 vehicle.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can you still drive a car with a blown head gasket?
               </v-expansion-panel-header>
@@ -119,7 +119,7 @@
                 5. Bubble formations in the radiator and overflow compartment.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is it worth it to fix a blown head gasket?
               </v-expansion-panel-header>
@@ -134,7 +134,7 @@
                 the blown head gasket can also cause the engine to overheat.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Five Causes for a Blown Head Gasket
               </v-expansion-panel-header>
@@ -167,7 +167,7 @@
                 gasket, you should not experience any further failures.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Head Gasket Replacement Free Collection and Delivery
               </v-expansion-panel-header>

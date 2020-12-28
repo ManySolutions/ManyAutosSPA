@@ -19,7 +19,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Air Suspension Repair
               </v-expansion-panel-header>
@@ -31,7 +31,7 @@
                 assembly while doing the job to ensure that the replacement air Suspension unit will last.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Air Suspension system
               </v-expansion-panel-header>
@@ -46,7 +46,7 @@
                 of failure. One tell-tale sign is that the vehicle appears to lean to one side when you are driving.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do air suspensions work?
               </v-expansion-panel-header>
@@ -57,7 +57,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Air Suspension Repair
               </v-expansion-panel-header>
@@ -86,7 +86,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does air suspension do?
               </v-expansion-panel-header>
@@ -96,7 +96,7 @@
                 rubber. The air pressure inflates the bellows and raises the chassis from the axle.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Can I drive with a bad Air suspension?
               </v-expansion-panel-header>
@@ -105,7 +105,7 @@
                 turns or stops in the long run a broken air suspension shock will need to be replaced.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know when your Air suspension is bad?
               </v-expansion-panel-header>
@@ -116,7 +116,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Air Suspension Free Collection and Delivery
               </v-expansion-panel-header>

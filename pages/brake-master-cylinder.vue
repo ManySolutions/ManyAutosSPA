@@ -21,7 +21,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 How Does Brake Master Cylinders It Work?
               </v-expansion-panel-header>
@@ -35,7 +35,7 @@
                 slow the vehicle. This safety is divided into front or rear brakes.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What Does Goes Wrong?
               </v-expansion-panel-header>
@@ -50,7 +50,7 @@
                 1/16 of an inch or 1.5 mm clearance between the master cylinder and the brake booster or pedal rod.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know if you need a new master cylinder?
               </v-expansion-panel-header>
@@ -64,7 +64,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Symptoms of Bad Brake Master Cylinder
               </v-expansion-panel-header>
@@ -99,7 +99,7 @@
                   this point.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a dirty air filter cause the check engine light to come on?
               </v-expansion-panel-header>
@@ -110,7 +110,7 @@
                 mixture.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Master Cylinder Free Collection and Delivery
               </v-expansion-panel-header>

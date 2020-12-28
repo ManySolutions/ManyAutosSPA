@@ -16,7 +16,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 EGR Valve Problems
               </v-expansion-panel-header>
@@ -27,7 +27,7 @@
                 failure.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a bad EGR valve cause a car to stall?
               </v-expansion-panel-header>
@@ -37,7 +37,7 @@
                 of fuel due to excess hydrocarbons which also results in failing emissions tests.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is the EGR valve important?
               </v-expansion-panel-header>
@@ -48,7 +48,7 @@
                 process.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Does a faulty EGR valve affect performance?
               </v-expansion-panel-header>
@@ -71,7 +71,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ERG Valve Repair Prices/What is an ERG Valve?
               </v-expansion-panel-header>
@@ -92,7 +92,7 @@
                 causing problems.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 ERG Valve Problems
               </v-expansion-panel-header>
@@ -112,7 +112,7 @@
                 modern cars are fitted with knock sensors which will enable the car to adapt accordingly.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does EGR removal do?
               </v-expansion-panel-header>
@@ -121,7 +121,7 @@
                 the air intake system, reducing the amount of emissions the engine produces.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What controls the EGR valve?
               </v-expansion-panel-header>
@@ -141,7 +141,7 @@
                 other problems
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a faulty EGR valve cause misfire?
               </v-expansion-panel-header>
@@ -157,7 +157,7 @@
                 process off Many Autos car repair Service.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ERG Valve Replacement Free Collection and Delivery
               </v-expansion-panel-header>

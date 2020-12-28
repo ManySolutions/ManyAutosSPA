@@ -26,7 +26,7 @@
       </div>
     </div>
     <v-expansion-panels popout>
-      <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+      <v-expansion-panel  class="icon">
         <v-expansion-panel-header class="card-header">
           Why is this so important?
         </v-expansion-panel-header>
@@ -38,7 +38,7 @@
           from issues such as dirty oil clogging the engine or dirty filters blocking air flow.
         </v-expansion-panel-content>
       </v-expansion-panel>
-      <v-expansion-panel v-for="(item,i) in 1" :key="i">
+      <v-expansion-panel >
         <v-expansion-panel-header class="card-header">
           What has changed?
         </v-expansion-panel-header>

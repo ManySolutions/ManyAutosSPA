@@ -19,7 +19,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What is the Vacuum Pump all about?
               </v-expansion-panel-header>
@@ -43,7 +43,7 @@
                 sound, this could be an indication of a leak in the air line or pump to the brake booster vacuum pump.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Vacuum pumps Basic information
               </v-expansion-panel-header>
@@ -58,7 +58,7 @@
                 manifolds, turbocharger control and comfort devices are just some examples.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is car vacuum pump?
               </v-expansion-panel-header>
@@ -69,7 +69,7 @@
                 system.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Symptoms of a Bad or Failing Vacuum Pump
               </v-expansion-panel-header>
@@ -91,7 +91,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Can a vacuum leak ruin your engine?
               </v-expansion-panel-header>
@@ -102,7 +102,7 @@
                 computer.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Vacuum Pumps Replacement Free Collection and Delivery
               </v-expansion-panel-header>

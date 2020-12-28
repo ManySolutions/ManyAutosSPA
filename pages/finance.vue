@@ -12,7 +12,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Can I finance car repairs?
               </v-expansion-panel-header>
@@ -23,7 +23,7 @@
                 and repair could be the answer.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Finance on servicing and repair
               </v-expansion-panel-header>
@@ -32,7 +32,7 @@
                 repairs, by offering our customers the option to spread the cost over either four or twelve months
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Servicing and repair spread the cost
               </v-expansion-panel-header>
@@ -42,7 +42,7 @@
                 valid UK debit card to arrange the payment plan
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Finance available on following services
               </v-expansion-panel-header>

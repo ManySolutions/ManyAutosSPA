@@ -18,7 +18,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Importance of ABS sensors
               </v-expansion-panel-header>
@@ -35,7 +35,7 @@
                   different.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS Sensor vehicle systems
               </v-expansion-panel-header>
@@ -51,7 +51,7 @@
                   defined.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS Sensor Repair
               </v-expansion-panel-header>
@@ -65,7 +65,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are the symptoms of a bad ABS sensor?
               </v-expansion-panel-header>
@@ -81,7 +81,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What causes ABS light to come on and stay on?
               </v-expansion-panel-header>
@@ -92,7 +92,7 @@
                   bad hydraulic valves.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 What happens if ABS light comes on?
               </v-expansion-panel-header>
@@ -103,7 +103,7 @@
                   certified mechanic, such as one from your Mechanic.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What can a faulty ABS sensor cause?
               </v-expansion-panel-header>
@@ -113,7 +113,7 @@
                   pressure, or air trapped in the brake lines.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Why did my ABS light come on?
               </v-expansion-panel-header>
@@ -124,7 +124,7 @@
                   it's not safe to continue your journey.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is ABS failure?
               </v-expansion-panel-header>
@@ -136,7 +136,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS repairs Free Collection and Delivery
               </v-expansion-panel-header>

@@ -17,7 +17,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Brake Shoes Replacement
               </v-expansion-panel-header>
@@ -26,7 +26,7 @@
                 vehicles.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Shoes
               </v-expansion-panel-header>
@@ -39,7 +39,7 @@
                 for a wide selection of car makes and models.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a Brake shoe do?
               </v-expansion-panel-header>
@@ -49,7 +49,7 @@
                 causing friction and eventually slowing the car down.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know there is something wrong with a Brake Shoe?
               </v-expansion-panel-header>
@@ -64,7 +64,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 When should you consider replacing a Brake Shoe?
               </v-expansion-panel-header>
@@ -80,7 +80,7 @@
                 possible.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Are brake pads and shoes the same thing?
               </v-expansion-panel-header>
@@ -90,7 +90,7 @@
                 on top of disk brakes, and serve to pressurize these discs when you apply the brakes.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Do I need brake shoes or pads?
               </v-expansion-panel-header>
@@ -100,7 +100,7 @@
                 use brake pads, nor can you use brake shoes with disc brakes.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Are brake shoes sold in pairs?
               </v-expansion-panel-header>
@@ -110,7 +110,7 @@
                 it may not be necessary to replace both.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are brake shoes for?
               </v-expansion-panel-header>
@@ -120,7 +120,7 @@
                 have disc brakes all round, or discs at the front and drums at the rear.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake shoes Replacement Free Collection and Delivery
               </v-expansion-panel-header>

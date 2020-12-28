@@ -18,7 +18,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 ABS Hydraulic Units and Sensors
               </v-expansion-panel-header>
@@ -30,7 +30,7 @@
                 safety, and we advise giving it the same TLC as the rest of your vehicle.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS Hydraulic anti-lock brakes really work?
               </v-expansion-panel-header>
@@ -39,7 +39,7 @@
                 shortest stopping distance on slippery surfaces.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS Hydraulic But do they really prevent accidents?
               </v-expansion-panel-header>
@@ -58,7 +58,7 @@
                 overall safety.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What are an ABS pump hydraulic units?
               </v-expansion-panel-header>
@@ -68,7 +68,7 @@
                   key to maintaining steering control and stability during a manoeuvre.</p>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 ABS Hydraulic Free Collection and Delivery
               </v-expansion-panel-header>

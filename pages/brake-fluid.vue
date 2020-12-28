@@ -26,7 +26,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Does brake fluid really need to be changed?
               </v-expansion-panel-header>
@@ -35,7 +35,7 @@
                 master cylinder and other components.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What Is Brake Fluid and What Does It Do?
               </v-expansion-panel-header>
@@ -55,7 +55,7 @@
                 silicon-based liquids.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How, And How Often, Do I Change My Car's Brake Fluid?
               </v-expansion-panel-header>
@@ -102,7 +102,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Fluid Free Collection and Delivery
               </v-expansion-panel-header>

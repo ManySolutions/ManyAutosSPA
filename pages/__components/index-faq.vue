@@ -10,7 +10,7 @@
       </v-col>
       <v-col cols=12>
         <v-expansion-panels popout>
-          <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+          <v-expansion-panel  class="icon">
             <v-expansion-panel-header class="card-header">
               How Does Many Autos LTD work?
             </v-expansion-panel-header>
@@ -24,7 +24,7 @@
               </ul>
             </v-expansion-panel-content>
           </v-expansion-panel>
-          <v-expansion-panel v-for="(item,i) in 1" :key="i">
+          <v-expansion-panel >
             <v-expansion-panel-header class="card-header">
               Will it effect my manufacturer warranty?
             </v-expansion-panel-header>
@@ -33,7 +33,7 @@
               All of the parts we use are approved and do not effect any previous warranty on your vehicle.
             </v-expansion-panel-content>
           </v-expansion-panel>
-          <v-expansion-panel v-for="(item,i) in 1" :key="i">
+          <v-expansion-panel >
             <v-expansion-panel-header class="card-header">
               Do you offer any warranty?
             </v-expansion-panel-header>
@@ -42,7 +42,7 @@
               a full 12 months warranty on parts and labour.
             </v-expansion-panel-content>
           </v-expansion-panel>
-          <v-expansion-panel v-for="(item,i) in 1" :key="i">
+          <v-expansion-panel >
             <v-expansion-panel-header class="card-header">
               Is collection and delivery free?
             </v-expansion-panel-header>
@@ -50,7 +50,7 @@
               Yes! collection and delivery is a free service we offer to all of our customers.
             </v-expansion-panel-content>
           </v-expansion-panel>
-          <v-expansion-panel v-for="(item,i) in 1" :key="i">
+          <v-expansion-panel >
             <v-expansion-panel-header class="card-header">
               Is there a cancellation fee?
             </v-expansion-panel-header>

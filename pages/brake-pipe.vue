@@ -19,7 +19,7 @@
             </div>
           </div>
           <v-expansion-panels popout>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 When should you consider replacing a Brake Line?
               </v-expansion-panel-header>
@@ -34,7 +34,7 @@
                 problems can, of course, potentially lead to dangerous situations.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Fitting new metal brake pipes
               </v-expansion-panel-header>
@@ -56,7 +56,7 @@
                 is to replace all the brake pipes.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Pipe checks
               </v-expansion-panel-header>
@@ -74,7 +74,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What does a Brake Line do?
               </v-expansion-panel-header>
@@ -96,7 +96,7 @@
                 </ul>
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Pipe Types of union
               </v-expansion-panel-header>
@@ -109,7 +109,7 @@
                 differently depending on whether the union is metric or imperial.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i" class="icon">
+            <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
                 Why is my brake line leaking?
               </v-expansion-panel-header>
@@ -121,7 +121,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 What is brake pipe?
               </v-expansion-panel-header>
@@ -132,7 +132,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Is a brake fluid leak dangerous?
               </v-expansion-panel-header>
@@ -142,7 +142,7 @@
                 warning light which illuminates on your dash when the fluid level drops too low.
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 How do you know if your brake line is leaking?
               </v-expansion-panel-header>
@@ -153,7 +153,7 @@
 
               </v-expansion-panel-content>
             </v-expansion-panel>
-            <v-expansion-panel v-for="(item,i) in 1" :key="i">
+            <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
                 Brake Pipe Replacement Free Collection and Delivery
               </v-expansion-panel-header>
