@@ -74,7 +74,7 @@ export default {
         { title: "Citroen Car Service", url: "/citroen-service" },
         { title: "Daewoo Car Service", url: "/daewoo-service" },
         { title: "Fiat Car Service", url: "/fiat-service" },
-        { title: "View All Services...", url: "/car-services-list" },
+        { title: "View All Services...", url: "/sitemap" },
       ] },
       { title: "Car Repairs", url: "#", children: [
         { title: "Abs Controllers", url: "/abs-controllers" },
@@ -82,7 +82,7 @@ export default {
         { title: "Abs Pump", url: "/abs-pump" },
         { title: "Abs Ring", url: "/abs-ring" },
         { title: "Abs Sensor", url: "/abs-sensor" },
-        { title: "View All Repairs...", url: "/car-repairs-list" },
+        { title: "View All Repairs...", url: "/sitemap" },
       ] },
       { title: "MOT", url: "/mot" },
       { title: "How It Works?", url: "/how-it-works" },
