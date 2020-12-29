@@ -1,6 +1,6 @@
 <template>
   <div class='home-sec-gaps servicing-page-sec'
-    :style='`background-image: url(${assets("/frontend/bg-overlay.png")})`'
+    :style='`background-image: url(${assets("frontend/bg-overlay.png")})`'
   >
     <h1 class='heading__title font-weight-300 text-center pb-10'>
       Book 

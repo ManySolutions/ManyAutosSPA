@@ -12,7 +12,7 @@
     <v-row justify="center">
       <v-col cols=12 lg=6 xl='4' order-lg=2>
         <img 
-          :src="assets('/customer-v2/011.png')" 
+          :src="assets('customer-v2/011.png')" 
           alt="Our Services at ManyAutos LTD"
           class='pb-5 pt-4'
         >

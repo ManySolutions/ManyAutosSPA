@@ -7,7 +7,7 @@
     >
       <v-toolbar-title
         ><img
-          :src="assets('/customer-v2/logo-default.png')"
+          :src="assets('customer-v2/logo-default.png')"
           :alt="appTitle"
           class="logo"
           @click="$router.push('/')"

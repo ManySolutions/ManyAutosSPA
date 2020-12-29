@@ -6,7 +6,7 @@
       <v-row>
         <v-col class="section" cols='12' md="6" lg="4" order-md="3" order-lg="1">
           <div class="logo-footer ml-0">
-            <img :src="assets('/customer-v2/logo-default.png')" alt="">
+            <img :src="assets('customer-v2/logo-default.png')" alt="">
           </div>
           <p class='text-white text-body-1 font-weight-300'>
             Book your car now for free collection and delivery with <strong>Many Autos</strong> 

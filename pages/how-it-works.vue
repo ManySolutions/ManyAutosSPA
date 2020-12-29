@@ -14,7 +14,7 @@
         <div class="col-12">
           <div class="row align-items-center pb-4 text-md-right text-center booking">
             <div class="col-md-6 margin-top-25 order-md-2 text-left">
-              <img :src="assets('/customer-v2/static-pages/booking.png')" alt="You Do The Booking">
+              <img :src="assets('customer-v2/static-pages/booking.png')" alt="You Do The Booking">
 
             </div>
             <div class="col-md-6 margin-top-5-per" style="margin-top:-35px;">
@@ -30,7 +30,7 @@
         <div class="col-12">
           <div class="row align-items-center pb-4 text-center booking">
             <div class="col-md-6 text-md-right">
-              <img :src="assets('/customer-v2/static-pages/collection.jpg')" alt="We Do The Collection">
+              <img :src="assets('customer-v2/static-pages/collection.jpg')" alt="We Do The Collection">
 
             </div>
             <div class="col-md-6 margin-top-5-per" style="margin-top:-35px;">
@@ -48,7 +48,7 @@
         <div class="col-12">
           <div class="row align-items-center pb-4 text-md-right text-center booking">
             <div class="col-md-6 order-md-2">
-              <img style="display:block;" :src="assets('/customer-v2/static-pages/service.jpg')" alt="We Do The Service">
+              <img style="display:block;" :src="assets('customer-v2/static-pages/service.jpg')" alt="We Do The Service">
 
             </div>
             <div class="col-md-6 margin-top-5-per" style="margin-top:-35px;">
@@ -64,7 +64,7 @@
         <div class="col-12">
           <div class="row align-items-center text-center pb-4 booking">
             <div class="col-md-6 text-md-right ">
-              <img :src="assets('/customer-v2/static-pages/delivery.jpg')" alt="We Do The Delivery">
+              <img :src="assets('customer-v2/static-pages/delivery.jpg')" alt="We Do The Delivery">
 
             </div>
             <div class="col-md-6 margin-top-10-per" style="margin-top: -35px;">

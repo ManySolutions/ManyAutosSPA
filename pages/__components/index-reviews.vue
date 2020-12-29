@@ -1,7 +1,7 @@
 <template>
   <div
     class='home-sec-gaps home-reviews w-100'
-    :style='`background-image: url(${assets("/customer-v2/rowen-smith.jpg")})`'
+    :style='`background-image: url(${assets("customer-v2/rowen-smith.jpg")})`'
   >
     <v-container class='home-r-in'>
       <v-row>

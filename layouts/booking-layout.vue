@@ -1,7 +1,7 @@
 <template>
   <div
     class='booking-layout-page home-sec-gaps pt-5'
-    :style='`background-image: url(${assets("/frontend/bg-overlay.png")})`'
+    :style='`background-image: url(${assets("frontend/bg-overlay.png")})`'
   >
     <v-container>
       <v-row justify="center">

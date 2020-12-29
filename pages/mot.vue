@@ -16,7 +16,7 @@
                 not check the general mechanical condition of the vehicle. Also, the assessment is based on the
                 condition of the vehicle on the day.</p>
               <p><img style="margin:0 auto; display:block;" class="img-responsive"
-                  :src="assets('/customer-v2/static-pages/mot-checks.png')" alt="MOT-Checks"></p>
+                  :src="assets('customer-v2/static-pages/mot-checks.png')" alt="MOT-Checks"></p>
               <p class="text-teal text-18 justify">If the vehicle passes, the nominated tester will separately list and
                 inform you of any 'advisory' or 'minor' items that will require attention in the near future, so you can
                 keep an eye on them. If the vehicle fails you will be required to get the necessary repairs done ,you

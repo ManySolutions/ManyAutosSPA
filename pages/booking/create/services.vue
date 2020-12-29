@@ -1,6 +1,6 @@
 <template>
   <div class="servers-list-page"
-    :style='`background-image: url(${assets("/frontend/bg-overlay.png")})`'
+    :style='`background-image: url(${assets("frontend/bg-overlay.png")})`'
   >
     <v-container
       class='home-sec-gaps container-1400'
