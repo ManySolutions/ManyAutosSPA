@@ -118,7 +118,7 @@
 <script>
 import toastr from 'toastr';
 import { getSingleBooking } from '~/api/booking';
-import BookingAdditionalRequests from './__components/booking-additional-requests.vue';
+import BookingAdditionalRequests from '../__components/booking-additional-requests.vue';
 export default {
   components: { BookingAdditionalRequests },
   data: () => ({

@@ -75,18 +75,18 @@
                 <v-col class='text-right pb-0'>
                   <span class='font-weight-700'>
                     {{ currencySymbol }}
-                    {{ cartContent.cart_total }}
+                    {{ cartTotal }}
                   </span>
                 </v-col>
               </v-row>
               <v-row>
                 <v-col class='pb-0'>
-                  Tax (i.e VAT)
+                  VAT
                 </v-col>
                 <v-col class='text-right pb-0'>
                   <span class='font-weight-700'>
                     {{ currencySymbol }}
-                    {{ parseFloat(cartContent.cart_subtotal - cartContent.cart_total).toFixed(2) }}
+                    {{ cartTaxes }}
                   </span>
                 </v-col>
               </v-row>
@@ -97,7 +97,7 @@
                 <v-col class='text-right '>
                   <span class='font-weight-700'>
                     {{ currencySymbol }}
-                    {{ cartContent.cart_subtotal }}
+                    {{ cartSubTotal }}
                   </span>
                 </v-col>
               </v-row>
@@ -140,7 +140,21 @@ export default {
 
     isCartEmpty() {
       return this.cartCount > 0 ? false : true;
-    }
+    },
+
+    cartTaxes() {
+      return parseFloat(
+        this.cartContent.cart_subtotal - this.cartContent.cart_total
+      ).toFixed(2) || 0.00;
+    },
+
+    cartTotal() {
+      return this.cartContent.cart_total || 0.00;
+    },
+
+    cartSubTotal() {
+      return this.cartContent.cart_subtotal || 0.00;
+    },
   },
 
   watch: {
