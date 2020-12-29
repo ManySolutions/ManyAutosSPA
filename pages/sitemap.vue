@@ -3,7 +3,7 @@
     title='Sitemap'
     heading-bg='customer-v2/static-pages/allpics/sitemap1.jpg'
   >
-    <v-container>
+    <v-container class='sitemap-container'>
       <v-row style="padding-top:40px;">
         <v-col cols='12' md="3" >
           <h4 class="text-left text-uppercase pb-5">
@@ -319,14 +319,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h4 {
+.sitemap-container {
+  h4 {
     font-weight: 600;
     font-size: 17px;
-}
-span.v-btn__content {
+  }
+  &::v-deep span.v-btn__content {
     display: inline-block;
-}
-.v-btn {
+  }
+  &::v-deep .v-btn {
     display: inline-block;
+  }
 }
+
 </style>
