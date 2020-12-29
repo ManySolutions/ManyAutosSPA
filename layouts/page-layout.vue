@@ -113,6 +113,7 @@ export default {
       padding-bottom: 200px;
       padding-top: 110px;
     }
+    
     .slantdiv {
       background: #ffffff;
       width: 100%;
