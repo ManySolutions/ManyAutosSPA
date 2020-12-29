@@ -95,6 +95,69 @@ export default {
   },
 
   methods: {
+  },
+
+  head: {
+    title: 'Car Servicing, Repair &amp; MOT Centre',
+
+    meta: [
+      {
+        name: 'description', 
+        content: 'Professional vehicle service providers. Free collection and delivery with massive savings along with 12 months or 12,000 miles warranty (whichever comes first). We offers an extensive range of automotive services'
+      },
+      {
+        name: 'keywords', 
+        content: 'Car Repair Services in UK, automotive services UK, Garage in UK, Mot Test Center in UK, Vehicle full service in UK, Brake Repair, Clutch Services'
+      },
+      {
+        property: "og:title", 
+        content: "Car Servicing, Repair & MOT Centre | ManyAutos LTD"
+      },
+      {
+        property: "og:type", 
+        content: "website"
+      },
+      {
+        property: "og:url", 
+        content: URL
+      },
+      {
+        property: "og:image", 
+        content: "https://app.manyautosltd.com/assets/customer-v2/logo-default.png"
+      },
+      {
+        property: "og:site_name", 
+        content: "ManyAutos LTD"
+      },
+      {
+        property: "og:description", 
+        content: "Professional vehicle service providers. Free collection and delivery with massive savings along with 12 months or 12,000 miles warranty (whichever comes first). We offers an extensive range of automotive services"
+      },
+      {
+        name: "twitter:card", 
+        content: "summary"
+      },
+      {
+        name: "twitter:title", 
+        content: "Car Servicing, Repair & MOT Centre | ManyAutos LTD"
+      },
+      {
+        name: "twitter:description", 
+        content: "Professional vehicle service providers. Free collection and delivery with massive savings along with 12 months or 12,000 miles warranty (whichever comes first). We offers an extensive range of automotive services"
+      },
+      {
+        name: "twitter:image", 
+        content: "https://app.manyautosltd.com/assets/customer-v2/logo-default.png"
+      },
+      {
+        itemprop: "image", 
+        content: "https://app.manyautosltd.com/assets/customer-v2/logo-default.png"
+      },
+      {
+        property: "og:type", 
+        content: "business.business"
+      },
+    ]
   }
 }
 </script>
