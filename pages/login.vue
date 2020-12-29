@@ -98,7 +98,16 @@ export default {
     errorMessage: null,
     msgType: null,
     isLoading: false,
+    redirectUrl: '/my/booking',
   }),
+
+  mounted() {
+    const { redirect_url } = this.$route.query;
+
+    if (redirect_url) {
+      this.redirectUrl = redirect_url;
+    }
+  },
 
   methods: {
     ...mapActions('user', ['authorize']),
@@ -121,7 +130,7 @@ export default {
 
           toastr.success('You have been successfully logged in');
           this.authorize({ accessToken: access_token, user});
-          setTimeout(() => this.$router.push({ name: 'my-booking' }), 300);
+          setTimeout(() => window.location.href=this.redirectUrl, 300);
         })
         .catch((err) => {
           if (err >= 400) {

@@ -18,7 +18,7 @@
       
       <template v-for='(menu, i) in navbarMenu'>
         <v-menu
-          :offset-y='20'
+          offset-y
           :key='i'
           v-if='menu.children'
           open-on-hover
