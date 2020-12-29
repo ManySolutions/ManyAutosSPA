@@ -98,7 +98,7 @@ export default {
   },
 
   head: {
-    title: 'Car Servicing, Repair &amp; MOT Centre',
+    title: 'Car Servicing, Repair & MOT Centre',
 
     meta: [
       {
