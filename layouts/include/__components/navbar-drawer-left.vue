@@ -102,7 +102,7 @@ export default {
         {title: 'Kia Car Service', url: '/kia-service'},
         {title: 'Land Rover Car Service', url: '/land-rover-service'},
         {title: 'Lexus Car Service', url: '/lexus-service'},
-        {title: 'View More...', url: '/sitemap'},
+        {title: 'View More...', url: '/sitemap#car-services'},
       ]},
       {title: 'Car Repair in UK', url: null, children: [
         {title: 'Abs Controllers', url: '/abs-controllers'},
@@ -115,7 +115,7 @@ export default {
         {title: 'Air Suspension', url: '/air-suspension'},
         {title: 'Aldershot', url: '/aldershot'},
         {title: 'Alternator', url: '/alternator'},
-        {title: 'View More...', url: '/sitemap'},
+        {title: 'View More...', url: '/sitemap#car-repairs'},
       ]},
       {title: 'About Us', url: '/about'},
       {title: 'Contact Us', url: '/contact'},
