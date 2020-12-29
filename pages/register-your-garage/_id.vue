@@ -177,7 +177,7 @@ import { getApprovedGarage, registerGarage } from '~/api/garage';
 import toastr from 'toastr';
 import CollectionInfoPostcode from '../booking/create/__components/collection-info-postcode.vue';
 
-const URL = "window.location.href";
+const URL = process.env.APP_URL;
 
 export default {
   components: {

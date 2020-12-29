@@ -76,6 +76,8 @@ import CarRegForm from '~/components/func-components/car-reg-form.vue';
 import CarRegFormCard from '~/components/func-components/car-reg-form-card.vue';
 import IndexSection2 from './__components/index-section-2.vue';
 
+const URL = process.env.APP_URL;
+
 export default {
   components: {
     BaseTextSlider,

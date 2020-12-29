@@ -212,7 +212,7 @@
 <script>
 import PageLayout from '@/layouts/page-layout';
 
-const URL = 'window.location.href';
+const URL = process.env.APP_URL;
 
 export default {
   components: {
