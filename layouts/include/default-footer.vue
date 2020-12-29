@@ -137,7 +137,7 @@ export default {
       {title: 'Terms of services', url: '/terms-and-conditions'},
       {title: 'Privacy Policy', url: '/privacy-policy'},
       {title: 'Contact Us', url: '/contact'},
-      {title: 'Site Map', url: '/car-services'},
+      {title: 'Site Map', url: '/sitemap'},
       {title: 'Register as Garage', url: '/request-to-register-your-garage'},
       {title: 'Book a service', url: '/service-booking'},
     ],
