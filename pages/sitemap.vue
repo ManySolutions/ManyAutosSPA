@@ -122,7 +122,6 @@ export default {
       {title:'Terms Of Service' , url:'/terms-and-conditions'},
     ],
     actionPageLinks:[
-      {title:'Contact Us' , url:'/contact'},
       {title:'Book A Service' , url:'/service-booking'},
       {title: 'Login', url: '/login'},
       {title:'Create Your Account' , url:'/register'},
