@@ -323,7 +323,10 @@ h4 {
     font-weight: 600;
     font-size: 17px;
 }
-span.v-btn__content, .v-btn {
+span.v-btn__content {
+    display: inline-block;
+}
+.v-btn {
     display: inline-block;
 }
 </style>

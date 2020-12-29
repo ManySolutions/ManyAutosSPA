@@ -9,10 +9,9 @@
             <img :src="assets('/customer-v2/logo-default.png')" alt="">
           </div>
           <p class='text-white text-body-1 font-weight-300'>
-            <strong>Many Autos</strong> 
-            ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            nibh euismod tincidunt ut laoreet dolore agna aliquam erat . wisi enim ad minim veniam, quis
-            tation. sit amet, consec tetuer.ipsum dolor sit amet, consectetuer.
+            Book your car now for free collection and delivery with <strong>Many Autos</strong> 
+            and take advantage of our up front, clear and fair pricing. You will have access to
+            our 12 months parts and labour guarantee.
           </p>
         </v-col>
         <v-col cols='12' md="6" lg="3" order-md="1" order-lg="2">
@@ -152,24 +151,24 @@ export default {
     ],
     socials: [
       {
-        icon: 'mdi-whatsapp', 
-        url: 'https://wa.me/+4401189876300',
-        color: 'teal lighten-6'
-      },
-      {
-        icon: 'mdi-facebook-messenger', 
-        url: 'http://m.me/manyautos.co.uk?ref=contact_from_website',
+        icon: 'mdi-facebook', 
+        url: 'https://www.facebook.com/manyautos.co.uk',
         color: 'blue darken-1'
       },
       {
         icon: 'mdi-instagram', 
-        url: 'https://wa.me/+4401189876300',
+        url: 'https://www.instagram.com/manyauto/',
         color: 'red darken-1'
       },
       {
         icon: 'mdi-twitter', 
-        url: 'https://wa.me/+4401189876300',
+        url: 'https://twitter.com/manyautos',
         color: 'blue darken-3'
+      },
+       {
+        icon: 'mdi-youtube', 
+        url: 'https://www.youtube.com/channel/UCj5peOCn-mwfKkOplGkrD4w',
+        color: 'red darken-1'
       },
     ]
   })
