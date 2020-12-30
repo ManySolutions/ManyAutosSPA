@@ -61,6 +61,8 @@
     <index-section-2></index-section-2>
     <v-row>
       <index-how-it-works></index-how-it-works>
+      <index-online-booking></index-online-booking>
+      <index-pickup-and-delivery></index-pickup-and-delivery>
       <car-reg-form has-bg-image></car-reg-form>
       <index-our-services></index-our-services>
       <index-car-parts></index-car-parts>
@@ -82,6 +84,8 @@ import IndexFaq from '~/pages/__components/index-faq.vue';
 import CarRegForm from '~/components/func-components/car-reg-form.vue';
 import CarRegFormCard from '~/components/func-components/car-reg-form-card.vue';
 import IndexSection2 from './__components/index-section-2.vue';
+import IndexOnlineBooking from '~/pages/__components/index-online-booking.vue';
+import IndexPickupAndDelivery from '~/pages/__components/index-pickup-and-delivery.vue';
 
 const URL = process.env.APP_URL;
 
@@ -96,6 +100,8 @@ export default {
     CarRegForm,
     CarRegFormCard,
     IndexSection2,
+    IndexOnlineBooking,
+    IndexPickupAndDelivery,
   },
 
   data: () => ({ }),
