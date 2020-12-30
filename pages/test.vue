@@ -1,0 +1,92 @@
+<template>
+  <page-layout
+    title='Test'
+    heading-bg='customer-v2/static-pages/registergarages.jpg'
+  >
+    <subscribe-popup></subscribe-popup>
+    <request-quote-popup></request-quote-popup>
+  </page-layout>
+</template>
+
+<script>
+import PageLayout from '@/layouts/page-layout';
+import SubscribePopup from '~/components/func-components/subscribe-popup.vue';
+import RequestQuotePopup from '~/components/func-components/request-quote-popup.vue';
+
+const URL = 'window.location.href';
+
+export default {
+  components: {
+    PageLayout,
+    SubscribePopup,
+    RequestQuotePopup,
+  },
+
+  head: {
+    title: 'Test',
+
+    meta: [
+      {
+        name: 'description', 
+        content: 'Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300.'
+      },
+      {
+        name: 'keywords', 
+        content: 'many autos ltd automotive service,car services,full car service,garage service'
+      },
+      {
+        property: "og:title", 
+        content: "Test | ManyAutos LTD"
+      },
+      {
+        property: "og:type", 
+        content: "website"
+      },
+      {
+        property: "og:url", 
+        content: URL
+      },
+      {
+        property: "og:image", 
+        content: "logo-default.png"
+      },
+      {
+        property: "og:site_name", 
+        content: "ManyAutos LTD"
+      },
+      {
+        property: "og:description", 
+        content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
+      },
+      {
+        name: "twitter:card", 
+        content: "summary"
+      },
+      {
+        name: "twitter:title", 
+        content: "Test | ManyAutos LTD"
+      },
+      {
+        name: "twitter:description", 
+        content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
+      },
+      {
+        name: "twitter:image", 
+        content: "logo-default.png"
+      },
+      {
+        itemprop: "image", 
+        content: "logo-default.png"
+      },
+      {
+        property: "og:type", 
+        content: "business.business"
+      },
+    ]
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+
+</style>
