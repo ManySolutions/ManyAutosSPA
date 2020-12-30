@@ -5,15 +5,22 @@
         <div class="home-sec-1">
           <h1 class='text-center py-5'>
             <span class='text-lg'>We offer</span>
-            <base-text-slider
-              :options='[
-                "MOT", 
-                "Repairs", 
-                "Interim Service", 
-                "Full Service", 
-                "Diagnostic"
-              ]'
-            ></base-text-slider>
+            <client-only>
+              <base-text-slider
+                :options='[
+                  "MOT", 
+                  "Repairs", 
+                  "Interim Service", 
+                  "Full Service", 
+                  "Diagnostic"
+                ]'
+              ></base-text-slider>
+              <template slot="placeholder">
+                <span class='text-primary'>
+                  MOT, Car Repairs, Interim Service, Full Service and Car Diagnostics
+                </span>
+              </template>
+            </client-only>
             <small class='text-sm'>
               for your car maintenance
             </small>
@@ -24,7 +31,7 @@
           <v-row class="top-h-icons">
             <v-col cols='4' class="top-hi">
               <span class='d-block'>
-                <v-icon>mdi-tow-truck</v-icon>
+                <v-icon>mdi-car-connected</v-icon>
                 <span>
                   FREE COLLECTION AND DELIVERY
                 </span>

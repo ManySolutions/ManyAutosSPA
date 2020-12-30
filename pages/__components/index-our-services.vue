@@ -22,11 +22,14 @@
         <div class="media text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end justify-content-lg-end text-center">
-              <i class="text-primary ico-ma-tow-truck ml-lg-2 mr-2 mr-lg-0 order-lg-2"></i>
-              <span class="order-lg-1"> Car Tuning</span>
+              <i class="text-primary ico-ma-check-circle ml-lg-2 mr-2 mr-lg-0 order-lg-2"></i>
+              <span class="order-lg-1"> Interim Service</span>
             </h6>
             <p class='text-center ml-lg-auto mr-lg-4 pr-lg-2 text-lg-right m-auto'>
-              We can arrange for vehicle recovery at extra cost.
+              Interim service consists of 50 checks of your car. This service is for the drivers who cover
+              20,000 or more miles per day. They need to get their car serviced 
+              twice a year but getting a full service is not important. This 50 check process includes 
+              an oil change, filter change, and some other checks and main maintenance.
             </p>
           </div>
         </div>
@@ -34,11 +37,14 @@
         <div class="media text-right">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end justify-content-lg-end text-center">
-              <i class="text-primary ico-ma-car-alt mr-2 order-lg-2 ml-lg-2 mr-lg-0"></i>
-              <span class=""> Overheating vehicle</span>
+              <i class="text-primary ico-ma-breakdown mr-2 order-lg-2 ml-lg-2 mr-lg-0"></i>
+              <span class=""> Full Service</span>
             </h6>
             <p class='m-auto text-center ml-lg-auto mr-lg-4 pr-lg-2 text-lg-right'>
-              We diagnose and repair most overheating problems the same day.
+              Full service is a detailed service of your car. It consists of 70 check points which include oil change, 
+              filter change, pollen filter change, and also all the other checks and services that are 
+              required to properly inspect the car for any problems or issues. It is advised to get your car 
+              serviced annually.
             </p>
           </div>
         </div>
@@ -48,11 +54,15 @@
         <div class="media text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end text-center">
-              <i class="text-primary ico-ma-breakdown mr-2"></i>
-              <span class="">Engine Problem</span>
+              <i class="text-primary ico-ma-car mr-2"></i>
+              <span class="">MOT</span>
             </h6>
             <p class='text-center m-auto text-lg-left ml-lg-4 pl-lg-2'>
-              We diagnose and repair the majority of engine issues.
+              Mot is a test introduced by the ministry of the UK. It is done yearly. 
+              The motive of this test is to check the condition, roadworthiness, safety, 
+              and exhaust emissions of your car. This test is necessary for the vehicles in the 
+              United Kingdom, that are being used for more than 3 years. We have our 
+              <NuxtLink to='/mot'>car repair and MOT</NuxtLink> center with DVSA approved examiners.
             </p>
           </div>
         </div>
@@ -61,10 +71,13 @@
           <div class="media-body mb-0">
             <h6 class="position-relative d-lg-flex align-items-lg-end text-center">
               <i class="text-primary ico-ma-accident mr-2"></i>
-              <span class="">Accident Repair</span>
+              <span class="">Repairs</span>
             </h6>
             <p class='text-center m-auto text-lg-left ml-lg-4 pl-lg-2'>
-              We repair and respray accident damage vehicles.
+              We can repair your car after an accident or damages. We also offer 
+              <strong>doorstep car repair service</strong>, 
+              so don’t hesitate to contact us if you need any kind of assistance. We are committed 
+              to providing a comprehensive range of car parts.
             </p>
           </div>
         </div>
