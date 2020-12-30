@@ -13,21 +13,35 @@
           class="elevation-1"
         >
           <template #item.actions='{ item }'>
-            <v-badge
-              :content='item.requests_count'
-              :value='item.requests_count'
-              color='error'
-              offset-x="10"
-              offset-y="10"
-            >
-              <v-btn
-                color='primary'
-                :to='`/my/booking/${item.id}`'
-                exact
+            <div class="d-table">
+              <div class='d-table-cell'>
+                <v-btn
+                  v-if='item.is_payable'
+                  color='amber lighten-1'
+                  :to='`/my/booking/${item.id}/payment`'
+                  class='px-2 mr-3'
+                >
+                  <v-icon class='mr-2'>mdi-credit-card</v-icon>
+                  Pay Now
+                </v-btn>
+              </div>
+              <v-badge
+                :content='item.requests_count'
+                :value='item.requests_count'
+                color='error'
+                offset-x="10"
+                offset-y="10"
+                class='d-table-cell'
               >
-                Details
-              </v-btn>
-            </v-badge>
+                <v-btn
+                  color='primary'
+                  :to='`/my/booking/${item.id}`'
+                  exact
+                >
+                  Details
+                </v-btn>
+              </v-badge>
+            </div>
           </template>
         </v-data-table>
       </v-col>
@@ -40,7 +54,7 @@ import { getBookings } from '~/api/booking';
 export default {
   data: () => ({
     headers: [
-      { text: 'Order ID#', value: 'id', sortable: false },
+      { text: 'Order ID#', value: 'id', sortable: true },
       { text: 'Car Collection Date', value: 'booking_date', sortable: false },
       { text: 'Services', value: 'services', sortable: false },
       { text: 'Total Cost', value: 'total_cost', sortable: false },

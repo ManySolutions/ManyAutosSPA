@@ -14,7 +14,7 @@
         <div class="steps mb-5 pb-3">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits'>1</em>
-            <img :src="assets('/customer-v2/img1.jpg')" alt="">
+            <img :src="assets('customer-v2/img1.jpg')" alt="">
           </span>
           <div class="step-content">
             <h6 class="fw-600">BOOKING</h6>
@@ -27,7 +27,7 @@
         <div class="steps mb-5 pb-3">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits'>2</em>
-            <img :src="assets('/customer-v2/img2.jpg')" alt="">
+            <img :src="assets('customer-v2/img2.jpg')" alt="">
           </span>
           <div class="step-content">
             <h6 class="fw-600">COLLECTION</h6>
@@ -40,7 +40,7 @@
         <div class="steps mb-5 pb-3">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits'>3</em>
-            <img :src="assets('/customer-v2/img3.jpg')" alt="">
+            <img :src="assets('customer-v2/img3.jpg')" alt="">
           </span>
           <div class="step-content">
             <h6 class="fw-600">SERVICE</h6>
@@ -54,7 +54,7 @@
         <div class="steps">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits'>4</em>
-            <img :src="assets('/customer-v2/img4.jpg')" alt="">
+            <img :src="assets('customer-v2/img4.jpg')" alt="">
           </span>
           <div class="step-content">
             <h6 class="fw-600">DELIVERY</h6>

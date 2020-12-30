@@ -5,15 +5,22 @@
         <div class="home-sec-1">
           <h1 class='text-center py-5'>
             <span class='text-lg'>We offer</span>
-            <base-text-slider
-              :options='[
-                "MOT", 
-                "Repairs", 
-                "Interim Service", 
-                "Full Service", 
-                "Diagnostic"
-              ]'
-            ></base-text-slider>
+            <client-only>
+              <base-text-slider
+                :options='[
+                  "MOT", 
+                  "Repairs", 
+                  "Interim Service", 
+                  "Full Service", 
+                  "Diagnostic"
+                ]'
+              ></base-text-slider>
+              <template slot="placeholder">
+                <span class='text-primary'>
+                  MOT, Car Repairs, Interim Service, Full Service and Car Diagnostics
+                </span>
+              </template>
+            </client-only>
             <small class='text-sm'>
               for your car maintenance
             </small>
@@ -24,7 +31,7 @@
           <v-row class="top-h-icons">
             <v-col cols='4' class="top-hi">
               <span class='d-block'>
-                <v-icon>mdi-tow-truck</v-icon>
+                <v-icon>mdi-car-connected</v-icon>
                 <span>
                   FREE COLLECTION AND DELIVERY
                 </span>
@@ -76,6 +83,8 @@ import CarRegForm from '~/components/func-components/car-reg-form.vue';
 import CarRegFormCard from '~/components/func-components/car-reg-form-card.vue';
 import IndexSection2 from './__components/index-section-2.vue';
 
+const URL = process.env.APP_URL;
+
 export default {
   components: {
     BaseTextSlider,
@@ -95,6 +104,69 @@ export default {
   },
 
   methods: {
+  },
+
+  head: {
+    title: 'Car Servicing, Repair & MOT Centre',
+
+    meta: [
+      {
+        name: 'description', 
+        content: 'Professional vehicle service providers. Free collection and delivery with massive savings along with 12 months or 12,000 miles warranty (whichever comes first). We offers an extensive range of automotive services'
+      },
+      {
+        name: 'keywords', 
+        content: 'Car Repair Services in UK, automotive services UK, Garage in UK, Mot Test Center in UK, Vehicle full service in UK, Brake Repair, Clutch Services'
+      },
+      {
+        property: "og:title", 
+        content: "Car Servicing, Repair & MOT Centre | ManyAutos LTD"
+      },
+      {
+        property: "og:type", 
+        content: "website"
+      },
+      {
+        property: "og:url", 
+        content: URL
+      },
+      {
+        property: "og:image", 
+        content: "https://app.manyautosltd.com/assets/customer-v2/logo-default.png"
+      },
+      {
+        property: "og:site_name", 
+        content: "ManyAutos LTD"
+      },
+      {
+        property: "og:description", 
+        content: "Professional vehicle service providers. Free collection and delivery with massive savings along with 12 months or 12,000 miles warranty (whichever comes first). We offers an extensive range of automotive services"
+      },
+      {
+        name: "twitter:card", 
+        content: "summary"
+      },
+      {
+        name: "twitter:title", 
+        content: "Car Servicing, Repair & MOT Centre | ManyAutos LTD"
+      },
+      {
+        name: "twitter:description", 
+        content: "Professional vehicle service providers. Free collection and delivery with massive savings along with 12 months or 12,000 miles warranty (whichever comes first). We offers an extensive range of automotive services"
+      },
+      {
+        name: "twitter:image", 
+        content: "https://app.manyautosltd.com/assets/customer-v2/logo-default.png"
+      },
+      {
+        itemprop: "image", 
+        content: "https://app.manyautosltd.com/assets/customer-v2/logo-default.png"
+      },
+      {
+        property: "og:type", 
+        content: "business.business"
+      },
+    ]
   }
 }
 </script>

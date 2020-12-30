@@ -38,7 +38,7 @@ p {
   padding-bottom: 30px;
 }
 
-h1.heading__title {
+h1.heading__title, .h1.heading__title {
   font-size: 28px;
   position: relative;
   @media (min-width: 960px) {

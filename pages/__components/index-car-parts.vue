@@ -16,7 +16,7 @@
       <v-row class="text-center">
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps mb-5 pb-3 pb-lg-5">
-            <img :src="assets('/customer-v2/icons/brake-disc.png')" alt="" />
+            <img :src="assets('customer-v2/icons/brake-disc.png')" alt="" />
             <div class="step-content">
               <h6 class="fw-600 mb-3 mt-4">Braking</h6>
               <p class="color-dark mb-0">
@@ -28,7 +28,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps mb-5 pb-3 pb-lg-5">
-            <img :src="assets('/customer-v2/icons/air-filter.png')" alt="" />
+            <img :src="assets('customer-v2/icons/air-filter.png')" alt="" />
             <div class="step-content">
               <h6 class="fw-600 mb-3 mt-4">Filter</h6>
               <p class="color-dark mb-0">
@@ -41,7 +41,7 @@
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps mb-5 pb-3 pb-lg-5">
             <img
-              :src="assets('/customer-v2/icons/steering-wheel.png')"
+              :src="assets('customer-v2/icons/steering-wheel.png')"
               alt=""
             />
             <div class="step-content">
@@ -55,7 +55,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps mb-5 pb-3 pb-lg-0 mb-lg-0">
-            <img :src="assets('/customer-v2/icons/suspension.png')" alt="" />
+            <img :src="assets('customer-v2/icons/suspension.png')" alt="" />
             <div class="step-content">
               <h6 class="fw-600 mb-3 mt-4">Suspension</h6>
               <p class="color-dark mb-0">
@@ -67,7 +67,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps mb-5 pb-3 pb-lg-0 mb-lg-0">
-            <img :src="assets('/customer-v2/icons/headlight.png')" alt="" />
+            <img :src="assets('customer-v2/icons/headlight.png')" alt="" />
             <div class="step-content">
               <h6 class="fw-600 mb-3 mt-4">Visibility</h6>
               <p class="color-dark mb-0">
@@ -79,7 +79,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps">
-            <img :src="assets('/customer-v2/icons/engineering.png')" alt="" />
+            <img :src="assets('customer-v2/icons/engineering.png')" alt="" />
             <div class="step-content">
               <h6 class="fw-600 mb-3 mt-4">And More...</h6>
               <p class="color-dark mb-0">

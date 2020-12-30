@@ -5,12 +5,14 @@
   >
     <v-col cols=12>
       <div class='sec-2 text-center'>
-        <h1 class='text-white heading__title mb-5 font-weight-100'>
-          Vehicles <strong>Serviced</strong>
-        </h1>
-        <p class='font-weight-300'>
+        <h2 class='h1 text-white heading__title mb-5 font-weight-100'>
+          Affordable & Professional <strong>Car Repair Services in UK</strong>
+        </h2>
+        <p class='font-weight-300 m-auto' style='max-width:900px;'>
+          Our motto here at Manyautos is to provide our clients with absolutely the best vehicle maintenance services. 
+          You will receive the same honest and satisfactory treatment and services whenever you visit our garage.
           We provide maintenance service in all categories of vehicles. <br>
-          Our mechanics are certified to Service, Repair & MOT in the following makes:
+          Our mechanics are certified to Service, Repair & MOT for the following makes:
         </p>
         <table class='w-100 m-auto pt-8' style='max-width: 700px;'>
           <tbody>

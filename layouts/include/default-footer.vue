@@ -6,12 +6,18 @@
       <v-row>
         <v-col class="section" cols='12' md="6" lg="4" order-md="3" order-lg="1">
           <div class="logo-footer ml-0">
-            <img :src="assets('/customer-v2/logo-default.png')" alt="">
+            <img :src="assets('customer-v2/logo-default.png')" alt="">
           </div>
-          <p class='text-white text-body-1 font-weight-300'>
+          <p
+            class='text-white text-body-1 font-weight-300'
+            style='max-width:90%'
+          >
             Book your car now for free collection and delivery with <strong>Many Autos</strong> 
-            and take advantage of our up front, clear and fair pricing. You will have access to
-            our 12 months parts and labour guarantee.
+            and take advantage of our up front, clear and fair pricing. 
+            We offer a 12 months’  
+            <client-only><v-icon color='primary' dark>mdi-security</v-icon></client-only>
+            warranty on labor and car parts. We have full faith and confidence in 
+            all our garages and mechanics that work here.
           </p>
         </v-col>
         <v-col cols='12' md="6" lg="3" order-md="1" order-lg="2">
