@@ -28,7 +28,7 @@ export function closeLoadingModal(pzgLoading, pzgLoadingBG) {
   pzgLoadingBG.style.display = "none";
 }
 
-export function openPayzoneModal(size, pzgModal) {
+export function openPayzoneModal(size, pzgModal, pzgModalBG) {
   pzgModal.style.width = size + "vw";
   pzgModal.style.height = size + "vh";
   pzgModal.style.margin = (100 - size) / 2 + "vh " + (100 - size) / 2 + "vw";
@@ -125,7 +125,7 @@ export function sendToResults(data, pzgModal) {
   var resForm = document.createElement("form");
   resForm.setAttribute("id", "payzone_results");
   resForm.setAttribute("name", "payzone_results");
-  resForm.setAttribute("action", resultsData['CallbackURL']);
+  resForm.setAttribute("action", resultsData["CallbackURL"]); // redirect to payment response page
   resForm.setAttribute("method", "POST");
   resForm.setAttribute("target", "_self");
   pzgModal.appendChild(resForm);

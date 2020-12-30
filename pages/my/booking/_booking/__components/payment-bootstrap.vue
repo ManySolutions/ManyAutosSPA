@@ -70,7 +70,7 @@
         </span>
         <span id="CardSectionBottom">
         <label for='StartDateMonth'>Start Date</label>
-        <select name="StartDateMonth" class='select-30' v-html="api.months_list">
+        <!-- <select name="StartDateMonth" class='select-30' v-html="api.months_list">
         </select>
         <select name="StartDateYear" class='select-70' v-html="api.start_year_list">
         </select>
@@ -78,7 +78,11 @@
         <select name="ExpiryDateMonth" class='select-30' v-html="api.months_list">
         </select>
         <select name="ExpiryDateYear" class='select-70' v-html="api.expiry_year_list">
-        </select>
+        </select> -->
+        <input type="hidden" name="StartDateMonth" value="01">
+        <input type="hidden" name="StartDateYear" value="17">
+        <input type="hidden" name="ExpiryDateMonth" value="12">
+        <input type="hidden" name="ExpiryDateYear" value="26">
       </span>
       </div>
       <hr>
@@ -274,7 +278,7 @@ export default {
           if (this.readyState == 4 && this.status == 200) {
             var responseObj = JSON.parse(this.responseText);
             if (responseObj["StatusCode"] == 3) {
-              openPayzoneModal(1, pzgModal);
+              openPayzoneModal(1, pzgModal, self.pzgModalBG);
               var ifrm = document.createElement("iframe");
               ifrm.setAttribute("id", "payzone-iframe");
               ifrm.setAttribute("name", "payzone-iframe");
@@ -298,7 +302,7 @@ export default {
               threeForm.appendChild(MD);
               threeForm.appendChild(PaREQ);
               threeForm.appendChild(TermUrl);
-              openPayzoneModal(5, pzgModal);
+              openPayzoneModal(5, pzgModal, self.pzgModalBG);
               sizePayzoneModal("threed", pzgModal);
               document.getElementById("payzone_acs").submit();
               closeLoadingModal(self.pzgLoading, self.pzgLoadingBG);
@@ -315,7 +319,7 @@ export default {
     },
 
     createInput(name, value) {
-      input = document.createElement("input");
+      var input = document.createElement("input");
       input.setAttribute("name", name);
       input.setAttribute("type", "hidden");
       input.setAttribute("value", value);
