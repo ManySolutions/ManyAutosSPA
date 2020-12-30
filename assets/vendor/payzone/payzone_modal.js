@@ -7,7 +7,7 @@ if (process.client && !('remove' in Element.prototype)) {
   };
 }
 // Call remove() according to your need
-export function openLoadingModal(size) {
+export function openLoadingModal(size, pzgLoading, pzgLoadingBG) {
   if (size == 'loading') {
     pzgLoading.style.width = "200px";
     pzgLoading.style.height = "200px";
@@ -23,12 +23,12 @@ export function openLoadingModal(size) {
   }
 }
 
-export function closeLoadingModal() {
+export function closeLoadingModal(pzgLoading, pzgLoadingBG) {
   pzgLoading.style.display = "none";
   pzgLoadingBG.style.display = "none";
 }
 
-export function openPayzoneModal(size) {
+export function openPayzoneModal(size, pzgModal) {
   pzgModal.style.width = size + "vw";
   pzgModal.style.height = size + "vh";
   pzgModal.style.margin = (100 - size) / 2 + "vh " + (100 - size) / 2 + "vw";
@@ -36,7 +36,7 @@ export function openPayzoneModal(size) {
   pzgModalBG.style.display = "block";
 }
 
-export function sizePayzoneModal(size) {
+export function sizePayzoneModal(size, pzgModal) {
   if (size == 'threed') {
     pzgModal.style.width = "370px";
     pzgModal.style.height = "360px";
@@ -52,11 +52,11 @@ export function sizePayzoneModal(size) {
   }
 }
 
-export function closePayzoneModal() {
+export function closePayzoneModal(pzgModal, iframepage = "payment") {
   if (iframepage == 'cart' || iframepage == 'payment' || iframepage == 'results-process') {
     var cancelAgree = confirm('Warning, if you have not completed the payment closing this window will cancel the payment. \n If you have completed payment or do not want to complete this payment please click OK');
   } else if (iframepage == 'results-declined') {
-    window.location.href = "<?php echo $PayzoneGateway->getURL('cart-page'); ?>";
+    window.location.href = "/";
   } else if (iframepage == 'results-process') {
 
   }
@@ -83,30 +83,30 @@ export function closePayzoneModal() {
   }
 }
 
-export function receiveMessageCart(event) {
+export function receiveMessageCart(event, siteRoot, pzgModal) {
   if (event.origin !== siteRoot)
     return;
   switch (event.data['option']) {
     case 'modalsize':
-      sizePayzoneModal(event.data['value']);
+      sizePayzoneModal(event.data['value'], pzgModal);
       break;
     case 'cancel':
       //Action to complete if the user cancels to payment (fired from closing down the modal window
       break;
     case 'iframesrc':
       //track the current page for the iframesrc
-      iframepage = event.data['value'];
+      var iframepage = event.data['value'];
       break;
     case 'threedresponse':
-      closePayzoneModal();
-      sendToResults(JSON.parse(event.data['value']));
+      closePayzoneModal(pzgModal);
+      sendToResults(JSON.parse(event.data['value']), pzgModal);
       break;
     default:
       break;
   }
 }
 
-export function sendToResults(data) {
+export function sendToResults(data, pzgModal) {
   var cartForm = document.getElementById('payzone-payment-form');
 
   //var cartData = new FormData(cartForm); renoved due to IE incompatibility
@@ -131,7 +131,7 @@ export function sendToResults(data) {
   pzgModal.appendChild(resForm);
   for (var key in resultsData) {
     if (resultsData.hasOwnProperty(key)) {
-      input = document.createElement("input");
+      var input = document.createElement("input");
       input.setAttribute("name", key);
       input.setAttribute("type", "hidden");
       input.setAttribute("value", resultsData[key]);

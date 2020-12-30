@@ -23,7 +23,8 @@ http.interceptors.response.use(response => {
   if (error.response && error.response.status == 401) {
 
     // store.dispatch('user/logout');
-    throw 401;
+    // throw 401;
+    window.location.href='/login?redirect_url='+window.location.pathname
   }
 
   throw error;

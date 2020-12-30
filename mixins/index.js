@@ -16,6 +16,9 @@ export default {
       xl: false,
     },
     winSize: null,
+    apiUrl: process.client && window.location.hostname == 'localhost'
+      ? process.env.LOCAL_API_URL
+      : process.env.PRODUCTION_API_URL
   }),
 
   computed: {
