@@ -4,9 +4,12 @@
   >
     <v-row>
       <v-col cols=12 class="text-center mb-7 pb-lg-5">
-        <h1 class='heading__title heading__title--bar' style="font-weight:lighter">
+        <h1 class='heading__title heading__title--bar mb-4' style="font-weight:lighter">
           Our <span class='font-weight-bold'>Services</span>
         </h1>
+        <p style='max-width:700px' class='m-auto mb-5 mb-md-10'>
+          You can choose from the interim service, full service, MOT, or any car repair services.
+        </p>
       </v-col>
     </v-row>
     <v-row justify="center">
