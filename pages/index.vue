@@ -61,8 +61,8 @@
     <index-section-2></index-section-2>
     <v-row>
       <index-how-it-works></index-how-it-works>
-      <!-- <index-online-booking></index-online-booking>
-      <index-pickup-and-delivery></index-pickup-and-delivery> -->
+      <index-online-booking></index-online-booking>
+      <index-pickup-and-delivery></index-pickup-and-delivery>
       <car-reg-form has-bg-image></car-reg-form>
       <index-our-services></index-our-services>
       <index-car-parts></index-car-parts>
@@ -113,20 +113,20 @@ export default {
   },
 
   head: {
-    title: 'Car Servicing, Repair & MOT Centre',
+    title: 'Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance',
 
     meta: [
       {
         name: 'description', 
-        content: 'Professional vehicle service providers. Free collection and delivery with massive savings along with 12 months or 12,000 miles warranty (whichever comes first). We offers an extensive range of automotive services'
+        content: 'The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!'
       },
       {
         name: 'keywords', 
-        content: 'Car Repair Services in UK, automotive services UK, Garage in UK, Mot Test Center in UK, Vehicle full service in UK, Brake Repair, Clutch Services'
+        content: 'car services, car maintenance, vehicle repair, car repair, car mechanic, car garage in uk, online repair center, Mot and repair center'
       },
       {
         property: "og:title", 
-        content: "Car Servicing, Repair & MOT Centre | ManyAutos LTD"
+        content: 'Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance'
       },
       {
         property: "og:type", 
@@ -146,7 +146,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "Professional vehicle service providers. Free collection and delivery with massive savings along with 12 months or 12,000 miles warranty (whichever comes first). We offers an extensive range of automotive services"
+        content: 'The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!'
       },
       {
         name: "twitter:card", 
@@ -154,11 +154,12 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Car Servicing, Repair & MOT Centre | ManyAutos LTD"
+        content:'Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance'
+
       },
       {
         name: "twitter:description", 
-        content: "Professional vehicle service providers. Free collection and delivery with massive savings along with 12 months or 12,000 miles warranty (whichever comes first). We offers an extensive range of automotive services"
+        content: 'The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!'
       },
       {
         name: "twitter:image", 

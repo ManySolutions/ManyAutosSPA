@@ -1,12 +1,12 @@
 <template>
     <v-container class="pickup-section mb-10">
       <v-row>
-        <v-col cols="12" md="6" class='text-right'>
+        <v-col cols="12" md="6" class='text'>
           <h1 class='heading__title heading__title--bar mb-10 text-center' style="font-weight:lighter">
             Pickup And Delivery<br> <span class='font-weight-bold text-primary text-left'>Anywhere Anytime</span>
           </h1>
-          <p class="text">We collect your car from a place of your choice and deliver it back to you after it is repaired and
-            serviced. If your car is not road worthy, we can arrange a recovery service for you.
+          <p>We collect your car from a place of your choice and deliver it back to you after it is repaired and
+            serviced. If your car is not road worthy, we can arrange a recovery service for you at extra cost.
           </p>
         </v-col>
         <v-col cols="12" md="6" class='text-right letter-image'>
@@ -23,8 +23,12 @@
 .heading__title--bar {
     padding-bottom: 10px;
 }
+.pickup-section .text{
+
+        text-align: right;
+    }
 @media (max-width:768px){
-    .pickup-section .heading__title .text{
+    .pickup-section .text{
 
         text-align: center;
     }

@@ -9,7 +9,8 @@
           Affordable & Professional <strong>Car Repair Services in UK</strong>
         </h2>
         <p class='font-weight-300 m-auto' style='max-width:900px;'>
-          Our motto here at Manyautos is to provide our clients with absolutely the best vehicle maintenance services. 
+          Our motto here at <span class="font-weight-bold">Many Autos</span> is to provide our clients with absolutely
+          the best <nuxt-link to="/car-service"> vehicle maintenance services</nuxt-link>. 
           You will receive the same honest and satisfactory treatment and services whenever you visit our garage.
           We provide maintenance service in all categories of vehicles. <br>
           Our mechanics are certified to Service, Repair & MOT for the following makes:
