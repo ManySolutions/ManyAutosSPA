@@ -2,9 +2,9 @@
     <v-container class="booking-section mb-10">
       <v-row>
         <v-col cols="12" md="6" class='text-right letter-image'>
-          <img :src="assets('/customer-v2/static-pages/indexOnline.jpg')" alt="" class="center">
+          <img :src="assets('/customer-v2/indexonline.jpg')" alt="" class="center">
         </v-col>
-        <v-col cols="12" md="6" class='text'>
+        <v-col cols="12" md="6" class='text mb-10'>
           <h1 class='heading__title heading__title--bar mb-4' style="font-weight:lighter">
             Online Booking At<br> <span class='font-weight-bold text-primary'>Many Autos</span>
           </h1>
@@ -15,6 +15,7 @@
             <v-btn
             color="primary"
             large
+            to="/service-booking"
             >
             Book Now
             </v-btn>
