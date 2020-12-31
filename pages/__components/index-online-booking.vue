@@ -2,7 +2,7 @@
     <v-container class="booking-section mb-10">
       <v-row>
         <v-col cols="12" md="6" class='text-right letter-image'>
-          <img :src="assets('/customer-v2/indexOnline.jpg')" alt="" class="center">
+          <img :src="assets('/customer-v2/static-pages/indexOnline.jpg')" alt="" class="center">
         </v-col>
         <v-col cols="12" md="6" class='text'>
           <h1 class='heading__title heading__title--bar mb-4' style="font-weight:lighter">
