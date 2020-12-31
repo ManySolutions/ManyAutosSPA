@@ -15,6 +15,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=UA-175329070-1',
+        async: true,
+      }
     ]
   },
 
@@ -94,7 +100,7 @@ export default {
     },
     parallel: true,
     cache: true,
-    hardSource: true,
+    // hardSource: true,
   },
 
   googleFonts: {
