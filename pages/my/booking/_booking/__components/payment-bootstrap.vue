@@ -8,6 +8,7 @@
       method="POST"
       style="display: none"
       :action="'api.actionUrl'"
+      @submit.prevent="handleSubmit"
     >
       <div class="payzone-form-section">
         <a href="https://www.payzone.co.uk/" target="_blank">
@@ -29,7 +30,7 @@
         <label for='Address2'>Total Amount</label>
         <input type="text" name="TotalAmount" :value="api.total_price" disabled /> 
         <label for='CustomerName'>CustomerName</label>
-        <input type="text" name="CustomerName" :value="api.user_name" />
+        <input type="text" name="CustomerName" :value="'Geoff Wayne' || api.user_name" />
         <label for='Address1'>Address1</label>
         <input type="text" name="Address1" :value="api.formatted_address" />
         <label for='Address2'>Address2</label>
@@ -59,42 +60,34 @@
       </span>
         <span id='CardSectionTop'>
         <label for='CardName'>Card Name</label>
-        <input type="text" name="CardName" :value="api.customer_name" />
+        <input type="text" name="CardName" :value="'Geoff Wayne' || api.customer_name" />
         <label for='CardNumber'>Card Number</label>
-        <input type="tel" name="CardNumber" id="CardNumber" value="" placeholder="XXXX XXXX XXXX XXXX" pattern="\d{4} \d{4} \d{4} \d{4}" class="masked"/>
+        <input type="tel" name="CardNumber" id="CardNumber" value="4976350000006891" placeholder="XXXX XXXX XXXX XXXX" pattern="\d{4} \d{4} \d{4} \d{4}" class="masked"/>
       </span>
         <span class='cvv-wrap'>
           <label for='CV2'>CV2</label>
-          <input type="text" name="CV2" value="" maxlength="4" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
+          <input type="text" name="CV2" value="341" maxlength="4" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
         </span>
         <span id="CardSectionBottom">
         <label for='StartDateMonth'>Start Date</label>
-        <select name="StartDateMonth" class='select-30'>
-          <!-- <?php echo app()->make('payzone-helper')->getMonthList();?> -->
+        <!-- <select name="StartDateMonth" class='select-30' v-html="api.months_list">
         </select>
-        <select name="StartDateYear" class='select-70'>
-          <!-- <?php echo app()->make('payzone-helper')->getStartYearList();?> -->
+        <select name="StartDateYear" class='select-70' v-html="api.start_year_list">
         </select>
         <label for='ExpiryDateMonth'>Expiry Date</label>
-        <select name="ExpiryDateMonth" class='select-30'>
-          <!-- <?php echo app()->make('payzone-helper')->getMonthList();?> -->
+        <select name="ExpiryDateMonth" class='select-30' v-html="api.months_list">
         </select>
-        <select name="ExpiryDateYear" class='select-70'>
-          <!-- <?php echo app()->make('payzone-helper')->getExpiryYearList();?> -->
-        </select>
+        <select name="ExpiryDateYear" class='select-70' v-html="api.expiry_year_list">
+        </select> -->
+        <input type="hidden" name="StartDateMonth" value="01">
+        <input type="hidden" name="StartDateYear" value="17">
+        <input type="hidden" name="ExpiryDateMonth" value="12">
+        <input type="hidden" name="ExpiryDateYear" value="26">
       </span>
       </div>
       <hr>
 
-      <!-- 
-
-      {!! app()->make('payzone')->buildFormRequest2([
-        'Country' => 'GBR',
-        'FullAmount' => $totalPrice,
-        'OrderID' => $order->id,
-        'TransactionDateTime' => request()->get('TransactionDateTime', date('Y-m-d H:i:s P')),
-        'OrderDescription' => 'vehicle repaired payment by '. Auth::user()->name . ' ('. Auth::id() .') for order('. $order->id . ')' ,
-      ]) !!} -->
+      <span v-html="api.buildForm"></span>
       <span id="form_errors"></span>
       <div class="payzone-form-section">
         <input
@@ -138,48 +131,74 @@
 import $ from "jquery";
 import { 
   openLoadingModal, openPayzoneModal, sizePayzoneModal, 
-  closeLoadingModal, sendToResults, receiveMessageCart
+  closeLoadingModal, sendToResults, receiveMessageCart,
+  closePayzoneModal
 } from "~/assets/vendor/payzone/payzone_modal.js";
 import { validateForm } from "~/assets/vendor/payzone/payzone_validate.js";
-import { closePayzoneModal } from "~/assets/vendor/payzone/inputmasking.js";
+// import {  } from "~/assets/vendor/payzone/inputmasking.js";
+import { getPaymentOptions } from "~/api/payment";
 
 export default {
   data: () => ({
+    id: null,
     page: "",
-    api: {integration_type_direct: true},
+    api: {},
     PayzonePaymentForm: null,
+    pzgLoading: null,
+    siteRoot: null,
+    siteBase: null,
+    cartPage: null,
+    homePage: null,
+    pzgModal: null,
+    pzgLoadingBG: null,
+    pzgModalBG: null,
   }),
 
   mounted() {
-    $(document).ready(() => {
-      this.payzonePaymentPageLoad();
-    });
+    this.id = this.$route.params.booking;
 
-    this.bootstrap();
+    this.getApi().then(() => {
+      
+      $(document).ready(() => {
+        this.payzonePaymentPageLoad();
+      });
+
+      this.bootstrap()
+      
+    });
   },
 
   methods: {
+    getApi() {
+      return new Promise((resolve, reject) => {
+        getPaymentOptions(this.id, this.http).then(data => {
+          this.api = data;
+          resolve(data);
+        });
+      });
+    },
+
     bootstrap() {
       const {api} = this;
-      var siteRoot = api.site_root; //, "<?php echo app()->make('payzone-helper')->getSiteSecureURL('root'); ?>";
-      var siteBase = api.site_base; //"<?php echo app()->make('payzone-helper')->getSiteSecureURL('base'); ?>";
-      var cartPage = api.cart_page; // "<?php echo app()->make('payzone')->getURL('cart-page'); ?>";
-      var homePage = api.home_page; //"<?php echo app()->make('payzone')->getURL('home-page'); ?>";
-      var pzgModal = document.getElementById("payzone-payment-modal");
-      var pzgLoading = document.getElementById("payzone-loading-modal");
-      var pzgModalBG = document.getElementById(
+      this.siteRoot = api.site_root;
+      this.siteBase = api.site_base;
+      this.cartPage = api.cart_page;
+      this.homePage = api.home_page;
+      this.pzgModal = document.getElementById("payzone-payment-modal");
+      this.pzgLoading = document.getElementById("payzone-loading-modal");
+      this.pzgModalBG = document.getElementById(
         "payzone-payment-modal-background"
       );
-      var pzgLoadingBG = document.getElementById(
+      this.pzgLoadingBG = document.getElementById(
         "payzone-loading-modal-background"
       );
 
       document
         .getElementById("payzone-payment-modal-background")
-        .addEventListener("click", closePayzoneModal);
+        .addEventListener("click", () => closePayzoneModal(this.pzgModal));
       document
         .getElementById("payzone-modal-close")
-        .addEventListener("click", closePayzoneModal);
+        .addEventListener("click", () => closePayzoneModal(this.pzgModal));
       /* end of payzone model */
 
       this.PayzonePaymentForm = document.getElementById("payzone-payment-form");
@@ -187,10 +206,10 @@ export default {
       var iframepage = "payment";
       document
         .getElementById("payzone-payment-modal-background")
-        .addEventListener("click", closePayzoneModal);
+        .addEventListener("click", () => closePayzoneModal(this.pzgModal));
       document
         .getElementById("payzone-modal-close")
-        .addEventListener("click", closePayzoneModal);
+        .addEventListener("click", () => closePayzoneModal(this.pzgModal));
       document
         .getElementById("payzone-cart-submit")
         .addEventListener("click", this.payzoneCartFormSubmission);
@@ -200,10 +219,10 @@ export default {
 
       document
         .getElementById("payzone-payment-modal-background")
-        .addEventListener("click", closePayzoneModal);
+        .addEventListener("click", () => closePayzoneModal(this.pzgModal));
       document
         .getElementById("payzone-modal-close")
-        .addEventListener("click", closePayzoneModal);
+        .addEventListener("click", () => closePayzoneModal(this.pzgModal));
     },
 
     payzonePaymentPageLoad() {
@@ -241,30 +260,31 @@ export default {
     payzoneCartFormSubmission(evt) {
       const self = this;
       evt.preventDefault();
-      window.addEventListener("message", receiveMessageCart, false);
+      window.addEventListener("message", e => receiveMessageCart(e, this.siteRoot, this.pzgModal), false);
       var cartForm = document.getElementById("payzone-payment-form");
       var pzgModal = document.getElementById("payzone-payment-modal");
-      openLoadingModal("loading");
+      openLoadingModal("loading", this.pzgLoading, this.pzgLoadingBG);
       var validated = validateForm(cartForm, "direct", "true");
       if (validated) {
         var cartData = new FormData(cartForm);
         var XHR = new XMLHttpRequest();
         XHR.open(
           "POST",
-          "<?php echo app()->make('payzone')->getURL('process-payment'); ?>?pzgact=process",
+          `${this.apiUrl}bookings/payment/process/${this.id}?pzgact=process`,
           true
         );
+        XHR.setRequestHeader('Authorization', `Bearer ${this.accessToken}`)
         XHR.onreadystatechange = function () {
           if (this.readyState == 4 && this.status == 200) {
-            responseObj = JSON.parse(this.responseText);
+            var responseObj = JSON.parse(this.responseText);
             if (responseObj["StatusCode"] == 3) {
-              openPayzoneModal(1);
+              openPayzoneModal(1, pzgModal, self.pzgModalBG);
               var ifrm = document.createElement("iframe");
               ifrm.setAttribute("id", "payzone-iframe");
               ifrm.setAttribute("name", "payzone-iframe");
               ifrm.setAttribute(
                 "src",
-                "<?php echo app()->make('payzone')->getURL('loading-page'); ?>"
+                "/assets/loading.html"
               );
               ifrm.setAttribute("scrolling", "none");
               ifrm.setAttribute("frameborder", "none");
@@ -282,29 +302,33 @@ export default {
               threeForm.appendChild(MD);
               threeForm.appendChild(PaREQ);
               threeForm.appendChild(TermUrl);
-              openPayzoneModal(5);
-              sizePayzoneModal("threed");
+              openPayzoneModal(5, pzgModal, self.pzgModalBG);
+              sizePayzoneModal("threed", pzgModal);
               document.getElementById("payzone_acs").submit();
-              closeLoadingModal();
+              closeLoadingModal(self.pzgLoading, self.pzgLoadingBG);
             } else {
-              closeLoadingModal();
-              sendToResults(responseObj);
+              closeLoadingModal(self.pzgLoading, self.pzgLoadingBG);
+              sendToResults(responseObj, pzgModal);
             }
           }
         };
         XHR.send(cartData);
       } else {
-        closeLoadingModal();
+        closeLoadingModal(self.pzgLoading, self.pzgLoadingBG);
       }
     },
 
     createInput(name, value) {
-      input = document.createElement("input");
+      var input = document.createElement("input");
       input.setAttribute("name", name);
       input.setAttribute("type", "hidden");
       input.setAttribute("value", value);
       return input;
     },
+
+    handleSubmit() {
+      alert('you got it');
+    }
   },
 
   head: {

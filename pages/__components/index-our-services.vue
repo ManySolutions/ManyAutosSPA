@@ -61,7 +61,7 @@
               <span class="">MOT</span>
             </h6>
             <p class='text-center m-auto text-lg-left ml-lg-4 pl-lg-2'>
-              Mot is a test introduced by the ministry of the UK. It is done yearly. 
+              MOT is a test introduced by the ministry of the UK. It is done yearly. 
               The motive of this test is to check the condition, roadworthiness, safety, 
               and exhaust emissions of your car. This test is necessary for the vehicles in the 
               United Kingdom, that are being used for more than 3 years. We have our 

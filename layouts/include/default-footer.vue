@@ -15,7 +15,7 @@
             Book your car now for free collection and delivery with <strong>Many Autos</strong> 
             and take advantage of our up front, clear and fair pricing. 
             We offer a 12 months’  
-            <client-only><v-icon color='primary' dark>mdi-security</v-icon></client-only>
+            <client-only><v-icon dark>mdi-security</v-icon></client-only>
             warranty on labor and car parts. We have full faith and confidence in 
             all our garages and mechanics that work here.
           </p>

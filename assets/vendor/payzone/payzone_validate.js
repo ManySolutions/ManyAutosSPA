@@ -65,7 +65,7 @@ export function validateForm(cartForm,intType,full){
   }
   if (errors.length>0){
     var error_warnings="<p class='error_title'>Errors have been found in the form</p>";
-    for (error in errors){
+    for (var error in errors){
       error_warnings += '<p>' + errors[error] + '</p>';
     }
     form_errors.innerHTML = error_warnings;

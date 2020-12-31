@@ -33,17 +33,18 @@
             </tr>
           </tbody>
         </table>
-        <!-- <div class='pt-10 text-center'>
+        <div class='pt-10 text-center'>
           <v-btn
             large outlined
             color='primary'
+            to='/sitemap#car-services'
           >
             <strong>
               View all vehicles
             </strong>
             <v-icon>mdi-chevron-right</v-icon>
           </v-btn>
-        </div> -->
+        </div>
       </div>
     </v-col>
   </v-row>

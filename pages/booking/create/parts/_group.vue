@@ -12,8 +12,7 @@
       <span class='font-weight-light'>For Your</span>
       <br>
       <span class='text-primary'>
-        {{ 'Ford' }}
-        {{ 'Fista' }}?
+        {{ vehicleName }}
       </span>
     </template>
 
@@ -54,7 +53,7 @@ export default {
     BookingLayout
   },
 
-  props: ['vehicleName', 'motPrice', 'modelId'],
+  props: ['vehicleName', 'modelId'],
 
   data: () => ({
     breadcrumbs: [
