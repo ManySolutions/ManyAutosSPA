@@ -87,8 +87,8 @@ export default {
       { title: "MOT", url: "/mot" },
       { title: "How It Works?", url: "/how-it-works" },
       { title: "Book A Service", url: "/service-booking" },
-      { title: "Contact Us", url: "/contact" },
-      { title: "About Us", url: "/about" },
+      // { title: "Contact Us", url: "/contact" },
+      // { title: "About Us", url: "/about" },
     ]
   }),
 };
