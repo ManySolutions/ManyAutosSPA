@@ -113,7 +113,7 @@
           block
           large
           to='/booking/create/collection-info'
-          :disabled='$route.name == "booking-create-collection-info"'
+          v-if='hasBookNowBtn'
         >
           <strong>
             Book Now
@@ -155,6 +155,10 @@ export default {
     cartSubTotal() {
       return this.cartContent.cart_subtotal || 0.00;
     },
+
+    hasBookNowBtn() {
+      return this.$route.name != "booking-create-collection-info";
+    }
   },
 
   watch: {
