@@ -12,11 +12,13 @@
             class='text-white text-body-1 font-weight-300'
             style='max-width:90%'
           >
-            Book your car now for free collection and delivery with <strong>Many Autos</strong> 
-            and take advantage of our up front, clear and fair pricing. 
-            We offer a 12 months’  
-            <client-only><v-icon dark>mdi-security</v-icon></client-only>
-            warranty on our parts and labour. We have full faith and confidence in 
+            Book your car now for free collection and delivery with <span class="font-weight-bold">Many Autos</span>
+            and take advantage of our up front, clear and fair pricing.
+            We offer a 12 months’
+            <client-only>
+              <v-icon dark>mdi-security</v-icon>
+            </client-only>
+            warranty on our parts and labour. We have full faith and confidence in
             all our garages and mechanics that work here.
           </p>
         </v-col>

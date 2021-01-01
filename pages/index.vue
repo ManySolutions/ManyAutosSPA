@@ -70,6 +70,7 @@
       <index-reviews></index-reviews>
       <index-faq></index-faq>
     </v-row>
+    <index-services></index-services>
   </v-container>
 </template>
 
@@ -86,6 +87,7 @@ import CarRegFormCard from '~/components/func-components/car-reg-form-card.vue';
 import IndexSection2 from './__components/index-section-2.vue';
 import IndexOnlineBooking from '~/pages/__components/index-online-booking.vue';
 import IndexPickupAndDelivery from '~/pages/__components/index-pickup-and-delivery.vue';
+import IndexServices from '~/pages/__components/index-services.vue';
 
 const URL = process.env.APP_URL;
 
@@ -102,6 +104,7 @@ export default {
     IndexSection2,
     IndexOnlineBooking,
     IndexPickupAndDelivery,
+    IndexServices,
   },
 
   data: () => ({ }),
