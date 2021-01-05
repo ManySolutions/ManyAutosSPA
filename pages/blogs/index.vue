@@ -24,16 +24,16 @@
                 {{blog.excerpt}}
               </div>
             </v-card-text>
-            </div>
             <div class="online-btn text-center">
             <v-btn
             color="primary"
             large
-            to="/blogs/overheating-blog"
+            :to='blog.url'
             class="btn mb-5"
             >
             Read More
             </v-btn>
+            </div>
             </div>
           </v-card>
         </v-col>
@@ -57,7 +57,8 @@ export default {
         {
           title:'Basic Causes of Overheating and How They Should be Handled',
           excerpt:'You get stuck in the middle of the road in the summer season, your car starts overheating and you have no clue what to do about it. That is a nightmare nobody wants',
-          img: '~/static/imgs/pickup.jpg'     
+          img: '~/static/imgs/pickup.jpg',
+          url: '/blogs/overheating-blog'   
         }
       ]
     }

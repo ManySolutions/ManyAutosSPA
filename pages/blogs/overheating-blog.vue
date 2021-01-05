@@ -71,6 +71,12 @@ export default {
     title: String,
     cls: String,
   },
+  
+  head: {
+    title: "Blogs",
+
+    meta: [],
+  },
 
 }
 </script>
