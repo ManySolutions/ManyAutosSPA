@@ -141,7 +141,7 @@ export default {
     ],
     meetManyautos: [
       {title: 'About Us', url: '/about'},
-      {title: 'Terms of services', url: '/terms-and-conditions'},
+      {title: 'Terms & Conditions', url: '/terms-and-conditions'},
       {title: 'Privacy Policy', url: '/privacy-policy'},
       {title: 'Contact Us', url: '/contact'},
       {title: 'Site Map', url: '/sitemap'},

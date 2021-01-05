@@ -3,20 +3,34 @@
     title='About Us'
     heading-bg='customer-v2/static-pages/allpics/about1.jpg'
   >
-    <div class="container">
-  <div class="row margin-top-20">
-      <div class="col-12">
-        <div>
-          <p class="margin-bottom-10 text-justify text-teal" style="padding-top: 40px;">Many Autos ltd is an independent car repair business and has been serving the community since 2001. We deal with all vehicle makes and models, so whatever the issue, Many Autos can get you back on the road. We also offer a free collection and delivery service from your home or work address.</p>
-          <p class="margin-bottom-10 text-justify text-teal">You may need anything from just a bulb to a full engine change or the common repairs such as brakes, clutch, exhausts or new tyre. We can help with all kind of repairs and regular maintenance.</p>
-          <p class="margin-bottom-10 text-justify text-teal">We offer exceptionally competitive prices for our service plans and ensure your car is serviced in accordance to (or even better than) your manufacturer’s guidelines. In addition you can rest assured that our servicing does not affect the manufacturer warranty as we make sure our work and parts meet the stringent standards required. How do we do this? All our service, repair and diagnostic work is carried out to the highest of standards using only OE (original equipment) parts and engine oil.</p>
-          <p class="margin-bottom-10 text-justify text-teal">We maintain a strict standard of work that means we can carry out service and repair work even if your vehicle is within its manufacturer warranty. This saves you a trip to the manufacturer for the service and also saves you a lot of money.</p>
-          <p class="margin-bottom-10 text-justify text-teal">Not only do we have highly skilled technicians in the workshop, we also have all the latest servicing, wheel alignment, diagnostic and hybrid car servicing equipment.</p>
-          <p class="margin-bottom-10 text-justify text-teal">There are several car maintenance measures that you must do to keep your car at its best, it is important to bring your car to the nearest Many Autos Centre and have it checked.</p>
+    <div class="container" style="padding-top: 70px;">
+      <p> <strong>Many Autos</strong> is a car repair and maintenance company which came into existence in 2001. We
+        wanted to change the perspective of customers towards car maintenance.</p>
+      <p>We have extremely skilled 50 above employees, who work in different departments of our company. Each department
+        has its own experienced employees who work for the betterment of the company. </p>
+      <h4>Our Story:</h4>
+      <p class="margin-bottom-10 text-justify text-teal">We saw many people suffering from the lack of discipline in the
+        car repair and service garages. There used to be long waits with no proper service provided. The quality of the
+        service was low and the prices were high. That is when we decided to step in.</p>
+      <p class="margin-bottom-10 text-justify text-teal">We started our journey with the sole purpose of making people’s
+        life easy. Car service garages are supposed to lighten the burden of the customer and help them take care of
+        their vehicle. Now we have a nationwide network of approved garages across the UK, but our motive is still the
+        same.</p>
+      <p class="margin-bottom-10 text-justify text-teal">The factors that make us unique from others are our distinctive
+        services at affordable prices, our doorstep mechanic services, and our partiality towards the customer.
+        Customers and their comfort is our main priority. We are aware that their time is valuable and due to a busy
+        schedule it is difficult for the customer to bring their car to the garage. This is why we offer our collection
+        and delivery service. We collect their car from a place of their choice and deliver it to their doorstep after
+        it has been serviced.</p>
+      <p class="margin-bottom-10 text-justify text-teal">You don’t have to contact separate garages for different
+        services because we are a whole package. You want car repairs, replacements, a mechanic at your doorstep, or an
+        MOT test, we are just a call or click away. You can visit our website and book services online.</p>
+      <p class="margin-bottom-10 text-justify text-teal">Our team consists of highly qualified technicians and
+        professional mechanics who perform honest services. They can guide you and answer all your inquiries as well.
+        They are all very humble, polite, and give extra attention to customer service.</p>
+      <p class="margin-bottom-10 text-justify text-teal">Our goal is to have a Manyautos garage in every city in the UK.
+        So, all the people living in the UK can benefit from our services.</p>
       </div>
-      </div>
-  </div>
-</div>
   </page-layout>
 </template>
 
@@ -31,20 +45,20 @@ export default {
   },
 
   head: {
-    title: 'About Us',
+    title: 'About us Affordable Car Garages| Car Repair Services ',
 
     meta: [
       {
         name: 'description', 
-        content: 'Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300.'
+        content: 'A company responsible for your car’s repair & maintenance. We provide you with the best & affordable services. Click to know about our company & our reliable employees.'
       },
       {
         name: 'keywords', 
-        content: 'many autos ltd automotive service,car services,full car service,garage service'
+        content: 'auto repair, car servicing, car repair tips, car garages, car repairing information'
       },
       {
         property: "og:title", 
-        content: "About Us | ManyAutos LTD"
+        content: "About us Affordable Car Garages| Car Repair Services  | ManyAutos LTD"
       },
       {
         property: "og:type", 
@@ -64,7 +78,7 @@ export default {
       },
       {
         property: "og:description", 
-        content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
+        content: "A company responsible for your car’s repair & maintenance. We provide you with the best & affordable services. Click to know about our company & our reliable employees."
       },
       {
         name: "twitter:card", 
@@ -72,11 +86,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "About Us | ManyAutos LTD"
+        content: "About us Affordable Car Garages| Car Repair Services  | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
+        content: "A company responsible for your car’s repair & maintenance. We provide you with the best & affordable services. Click to know about our company & our reliable employees."
       },
       {
         name: "twitter:image", 
@@ -96,5 +110,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+h4{
+    color: #00b4d8;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 </style>
