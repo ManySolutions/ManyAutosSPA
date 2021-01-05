@@ -18,8 +18,9 @@
                 <v-btn
                   v-if='item.is_payable'
                   color='amber lighten-1'
-                  :to='`/my/booking/${item.id}/payment`'
+                  :href='item.payment_website'
                   class='px-2 mr-3'
+                  target="_blank"
                 >
                   <v-icon class='mr-2'>mdi-credit-card</v-icon>
                   Pay Now
