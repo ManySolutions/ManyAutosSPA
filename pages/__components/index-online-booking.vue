@@ -59,5 +59,11 @@
     margin-top: -35px;
   }
 }
+
+@media (min-width:1260px){
+   .booking-section img{
+      max-width: 90%;
+  }
+}
 </style>
 

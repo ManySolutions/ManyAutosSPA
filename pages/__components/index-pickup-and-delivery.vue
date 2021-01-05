@@ -2,7 +2,7 @@
   <v-container class="pickup-section mb-10">
     <v-row>
       <v-col cols="12" md="6" order-md="2" class='text letter-image'>
-        <img src="http://manyautos.local/assets/customer-v2/static-pages/pickup.jpg" alt="" class="center" />
+        <img src="~/static/imgs/pickup.jpg" alt="" class="center" />
       </v-col>
       <v-col cols="12" md="6" order-md="1" class='text'>
         <h1 class='heading__title heading__title--bar mb-10' style="font-weight:lighter">
@@ -53,6 +53,12 @@
   .pickup-section .center {
     width: 50%;
     text-align: center;
+  }
+}
+
+@media (min-width:1260px){
+  .pickup-section img {
+    max-width: 90%;
   }
 }
 </style>
