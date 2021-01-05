@@ -62,7 +62,7 @@
     <v-row>
       <index-how-it-works></index-how-it-works>
        <index-online-booking></index-online-booking>
-     <!-- <index-pickup-and-delivery></index-pickup-and-delivery> -->
+     <index-pickup-and-delivery></index-pickup-and-delivery>
       <car-reg-form has-bg-image></car-reg-form>
       <index-our-services></index-our-services>
       <index-car-parts></index-car-parts>

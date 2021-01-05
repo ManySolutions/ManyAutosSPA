@@ -6,7 +6,7 @@
     <div class="container" style="padding-top: 70px;">
       <p> <strong>Many Autos</strong> is a car repair and maintenance company which came into existence in 2001. We
         wanted to change the perspective of customers towards car maintenance.</p>
-      <p>We have extremely skilled 50 above employees, who work in different departments of our company. Each department
+      <p>We have extremely skilled 50+ employees, who work in different departments of our company. Each department
         has its own experienced employees who work for the betterment of the company. </p>
       <h4>Our Story:</h4>
       <p class="margin-bottom-10 text-justify text-teal">We saw many people suffering from the lack of discipline in the
@@ -23,7 +23,7 @@
         and delivery service. We collect their car from a place of their choice and deliver it to their doorstep after
         it has been serviced.</p>
       <p class="margin-bottom-10 text-justify text-teal">You don’t have to contact separate garages for different
-        services because we are a whole package. You want car repairs, replacements, a mechanic at your doorstep, or an
+        services because we are a whole package. You want car repairs, replacements, a door to door service, or an
         MOT test, we are just a call or click away. You can visit our website and book services online.</p>
       <p class="margin-bottom-10 text-justify text-teal">Our team consists of highly qualified technicians and
         professional mechanics who perform honest services. They can guide you and answer all your inquiries as well.
