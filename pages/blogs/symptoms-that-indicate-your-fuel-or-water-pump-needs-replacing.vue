@@ -76,6 +76,14 @@ export default {
   components: {
     PageLayout
   },
+     props: {
+    hasQuoteButton: {
+      default: false,
+      type: Boolean,
+    },
+    title: String,
+    cls: String,
+  },
 
   head: {
     title: 'Symptoms That Indicate your Fuel or Water Pump Needs Replacing',
@@ -91,7 +99,7 @@ export default {
       },
       {
         property: "og:title", 
-        content: "Symptoms That Indicate your Fuel or Water Pump Needs Replacing | ManyAutos LTD"
+        content: "Symptoms That Indicate your Fuel or Water Pump Needs Replacing"
       },
       {
         property: "og:type", 
@@ -119,7 +127,7 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Symptoms That Indicate your Fuel or Water Pump Needs Replacing | ManyAutos LTD"
+        content: "Symptoms That Indicate your Fuel or Water Pump Needs Replacing"
       },
       {
         name: "twitter:description", 
