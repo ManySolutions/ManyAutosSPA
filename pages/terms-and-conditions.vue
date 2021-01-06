@@ -22,7 +22,6 @@
         <li>Address: 12 Elk Path, RG7 1WE</li>
       </ul>
 
-
       <h4>Intellectual property and acceptable use:</h4>
       <ul>
         <li>Any or all features, content (text, graphics, images, page, layout, underlying code, etc.), and
@@ -36,10 +35,6 @@
         <li>Register on our site and book services.</li>
       </ul>
 
-
-
-
-
       <h4>Prohibited use:</h4>
       <p>This website cannot be used for the following motives:</p>
       <ul>
@@ -50,8 +45,6 @@
         <li>You cannot copy any content published on the website that is protected by copyright, without the permission
           of the rightful owner.</li>
       </ul>
-
-
 
       <h4>Registration:</h4>
       <ul>
@@ -65,7 +58,6 @@
           provided at the start of these terms.</li>
       </ul>
 
-
       <h4>Password and security:</h4>
       <ul>
         <li>The information you put in when you register on this website is personal to you, it should be kept
@@ -73,7 +65,6 @@
         <li>We may require you to change your password or suspend your account if we suspect any strange activity or any
           breach of security.</li>
       </ul>
-
 
       <h4>Availability of the Website and disclaimers:</h4>
       <ul>
@@ -90,7 +81,6 @@
         </li>
       </ul>
 
-
       <h4>Limitation of liability:</h4>
       <ol>
         <li>We would be liable for any personal injury or death caused by the negligence of our employees, and for any
@@ -103,8 +93,6 @@
         <li>Any losses in business.</li>
         <li>Loss or corruption of any data or software.</li>
       </ul>
-
-
 
       <h4>Booking:</h4>
       <ul>
@@ -139,7 +127,6 @@
         <li>Any parts/work done by us should not become subject to extreme/abnormal situation.</li>
         <li>The customer sticks to the recommended service intervals.</li>
       </ul>
-
 
       <h4>General:</h4>
       <ul>
