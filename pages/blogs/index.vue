@@ -21,7 +21,7 @@
             </h2>
             <v-card-text>
               <div>
-                {{blog.excerpt}}
+             {{blog.excerpt}}
               </div>
             </v-card-text>
             <div class="online-btn text-center">

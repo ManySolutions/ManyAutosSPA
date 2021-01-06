@@ -15,7 +15,7 @@
         issues with the car's cooling system. The most crucial part is the thermostat housing and you will need to
         replace it if it causes trouble. If you think there is a leak, then you should take your car to the garage
         immediately. We offer cheaper rates as compared to the <NuxtLink to='/'>thermostat housing repair cost in
-        the UK </NuxtLink>.We will inspect your car and fix any leakages or damages for you. a small leak can lead to
+        the UK </NuxtLink>.We will inspect your car and fix any leakages or damages for you a small leak can lead to
         bigger and serious problems.
       </p>
       <h5>Bad radiator:</h5>
@@ -35,7 +35,8 @@
       <p class="margin-bottom-10 text-justify text-teal">It is the most common reason why a vehicle overheats. The pump
         suppliers fuel from the fuel tank to the carburetor. If a problem occurs with the pump, the other parts of the
         engine stop working as well. Which leads to overheating of the vehicle. If any issue occurs, you can visit our
-        garage for your <NuxtLink to='/car-service'> car’s fuel pump repair </NuxtLink>. We have highly qualified technicians which will fix your car in no time.
+        garage for your <NuxtLink to='/car-service'> car’s fuel pump repair </NuxtLink>. We have highly qualified
+        technicians which will fix your car in no time.
       </p>
       <p class="margin-bottom-10 text-justify text-teal">If you want to increase the efficiency of your car, you can get
         a custom car exhaust system. It will boost the horsepower, the torque and also increase the engine’s exhaust
@@ -46,10 +47,11 @@
       </p>
        <p class="margin-bottom-10 text-justify text-teal">Along with overheating cars, we can help with any other issues
          as well. It can be a great risk if any part of your vehicle is not working properly. The most common parts to
-         cause trouble is the air suspenders, driving with <NuxtLink to='/air-suspension'>broken air suspenders  </NuxtLink> would be like walking on a broken leg.
+         cause trouble is the air suspenders, driving with <NuxtLink to='/air-suspension'>broken air suspenders 
+         </NuxtLink> would be like walking on a broken leg.
          It would be unstable and unbalanced. So you should not take any part of your car lightly and work on their
          maintenance.
-      </p>
+       </p>
       </div>
   </page-layout>
 </template>
