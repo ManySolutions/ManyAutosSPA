@@ -100,7 +100,7 @@ export default {
     },
     parallel: true,
     cache: true,
-    // hardSource: true,
+    hardSource: true,
   },
 
   googleFonts: {
@@ -117,6 +117,13 @@ export default {
     display: 'swap',
 
     preload: true,
+  },
+
+
+  watchers: {
+    webpack: {
+      ignored: /node_modules/
+    }
   },
 
 
