@@ -7,7 +7,7 @@
     </template>
 
     <v-form
-      @submit.prevent="handleSubmit"
+      @submit.prevent="''"
     >
       <v-stepper
         v-model="step"
@@ -129,9 +129,9 @@
             <v-col cols=8 md=6 lg=4 xl=3>
               <v-btn
                 color="primary"
-                @click="''"
+                @click="handleSubmit"
                 block large
-                :disabled='!isFormValid'
+                :disabled='!isFormValid || isLoading'
                 :loading='isLoading'
                 type='submit'
               >
