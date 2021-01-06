@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title='Basic Causes of Overheating and How They Should be Handled'
-    heading-bg='customer-v2/static-pages/allpics/about1.jpg'
+    headingBgStatic='https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled.jpg'
   >
     <div class="container" style="padding-top: 70px;">
       <p>You get stuck in the middle of the road in the summer season, your car starts overheating and you have no clue what to do about it. That is a nightmare nobody wants to experience. Overheating can be caused by many things. If you take care of your car properly, then you can

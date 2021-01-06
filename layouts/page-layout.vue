@@ -1,11 +1,12 @@
 <template>
   <div class="page static-page home-sec-gaps pt-0" :class='cls'>
     <div class="static-page-heading" style=''>
-      <template v-if='headingBg'>
+      <template v-if='headingBg || headingBgStatic'>
         <div 
           class="bg-heading-overlay" 
-          :style='`background-image: url("${assets(headingBg)}");`'
+          :style='`background-image: url("${headingBgStatic || assets(headingBg)}");`'
         ></div>
+        <img :src="headingBgStatic" :alt="title" class='d-none'>
       </template>
       <h1>{{ title }}</h1>
       <div class="slantdiv"></div>
@@ -34,6 +35,7 @@
 export default {
   props: {
     headingBg: String,
+    headingBgStatic: String,
     hasQuoteButton: {
       default: true,
       type: Boolean,
@@ -91,6 +93,7 @@ export default {
       h1 {
         font-size: 28px;
         text-align: center;
+        position: relative;
         @media (min-width: 960px) {
           font-size: 38px;
         }
@@ -139,9 +142,19 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #455a64de;
+    }
   }
 }
 </style>

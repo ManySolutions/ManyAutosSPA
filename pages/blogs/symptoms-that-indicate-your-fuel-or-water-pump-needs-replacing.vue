@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title='Symptoms That Indicate your Fuel or Water Pump Needs Replacing'
-    heading-bg='customer-v2/static-pages/allpics/about1.jpg'
+    heading-bg-static='https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg'
   >
   <div class="container" style="padding-top: 70px;">
       <p>Pumps can be a delicate part of the vehicle. Their maintenance is necessary for the car to run smoothly. You
