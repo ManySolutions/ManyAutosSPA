@@ -64,7 +64,7 @@ export default {
   components: {
     PageLayout
   },
-   props: {
+     props: {
     hasQuoteButton: {
       default: false,
       type: Boolean,
@@ -72,13 +72,69 @@ export default {
     title: String,
     cls: String,
   },
-  
+
   head: {
-    title: "Blogs",
+    title: 'Basic Causes of Overheating and How They Should be Handled',
 
-    meta: [],
-  },
-
+    meta: [
+      {
+        name: 'description', 
+        content: 'Browse the blog to know about the causes of overheating and how you can attain your car fuel pump repair services online at lowest rate during this COVID pandemic.'
+      },
+      {
+        name: 'keywords', 
+        content: 'car fuel system repairs, gas tank repair, fuel pump, car thermostat replacement, custom performance exhaust, vehicle custom exhaust'
+      },
+      {
+        property: "og:title", 
+        content: "Basic Causes of Overheating and How They Should be Handled"
+      },
+      {
+        property: "og:type", 
+        content: "website"
+      },
+      {
+        property: "og:url", 
+        content: URL
+      },
+      {
+        property: "og:image", 
+        content: "logo-default.png"
+      },
+      {
+        property: "og:site_name", 
+        content: "ManyAutos LTD"
+      },
+      {
+        property: "og:description", 
+        content: "Browse the blog to know about the causes of overheating and how you can attain your car fuel pump repair services online at lowest rate during this COVID pandemic."
+      },
+      {
+        name: "twitter:card", 
+        content: "summary"
+      },
+      {
+        name: "twitter:title", 
+        content: "Basic Causes of Overheating and How They Should be Handled"
+      },
+      {
+        name: "twitter:description", 
+        content: "Browse the blog to know about the causes of overheating and how you can attain your car fuel pump repair services online at lowest rate during this COVID pandemic."
+      },
+      {
+        name: "twitter:image", 
+        content: "logo-default.png"
+      },
+      {
+        itemprop: "image", 
+        content: "logo-default.png"
+      },
+      {
+        property: "og:type", 
+        content: "business.business"
+      },
+    ]
+  }
 }
 </script>
 

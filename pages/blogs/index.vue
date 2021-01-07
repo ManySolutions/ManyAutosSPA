@@ -72,7 +72,64 @@ export default {
   head: {
     title: "Blogs",
 
-    meta: [],
+     meta: [
+      {
+        name: 'description', 
+        content: 'Now you can get in depth knowledge for safe and smooth car repair services & online car garages. Browse and learn everything about vehicle diagnostics with solution.'
+      },
+      {
+        name: 'keywords', 
+        content: 'abs pump, car repair servicing, mot booking, vehicle repair service, oil filter, fuel pump, brake service, air suspension, thermostat housing, wheel cylinder'
+      },
+      {
+        property: "og:title", 
+        content: "Blogs"
+      },
+      {
+        property: "og:type", 
+        content: "website"
+      },
+      {
+        property: "og:url", 
+        content: URL
+      },
+      {
+        property: "og:image", 
+        content: "logo-default.png"
+      },
+      {
+        property: "og:site_name", 
+        content: "ManyAutos LTD"
+      },
+      {
+        property: "og:description", 
+        content: "Now you can get in depth knowledge for safe and smooth car repair services & online car garages. Browse and learn everything about vehicle diagnostics with solution."
+      },
+      {
+        name: "twitter:card", 
+        content: "summary"
+      },
+      {
+        name: "twitter:title", 
+        content: "Blogs"
+      },
+      {
+        name: "twitter:description", 
+        content: "Now you can get in depth knowledge for safe and smooth car repair services & online car garages. Browse and learn everything about vehicle diagnostics with solution."
+      },
+      {
+        name: "twitter:image", 
+        content: "logo-default.png"
+      },
+      {
+        itemprop: "image", 
+        content: "logo-default.png"
+      },
+      {
+        property: "og:type", 
+        content: "business.business"
+      },
+    ]
   },
 };
 </script>
