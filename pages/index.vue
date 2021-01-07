@@ -1,56 +1,49 @@
 <template>
-  <v-container fluid class='pt-0'>
-    <v-row class='home-top'>
+  <v-container fluid class="pt-0">
+    <v-row class="home-top">
       <v-col>
         <div class="home-sec-1">
-          <h1 class='text-center py-5'>
-            <span class='text-lg'>We offer</span>
+          <h1 class="text-center py-5">
+            <span class="text-lg">We offer</span>
             <client-only>
               <base-text-slider
-                :options='[
-                  "MOT", 
-                  "Repairs", 
-                  "Interim Service", 
-                  "Full Service", 
-                  "Diagnostic"
-                ]'
+                :options="[
+                  'MOT',
+                  'Repairs',
+                  'Interim Service',
+                  'Full Service',
+                  'Diagnostic',
+                ]"
               ></base-text-slider>
               <template slot="placeholder">
-                <span class='text-primary'>
-                  MOT, Car Repairs, Interim Service, Full Service and Car Diagnostics
+                <span class="text-primary">
+                  MOT, Car Repairs, Interim Service, Full Service and Car
+                  Diagnostics
                 </span>
               </template>
             </client-only>
-            <small class='text-sm'>
-              for your car maintenance
-            </small>
+            <small class="text-sm"> for your car maintenance </small>
           </h1>
 
           <car-reg-form-card></car-reg-form-card>
 
           <v-row class="top-h-icons">
-            <v-col cols='4' class="top-hi">
-              <span class='d-block'>
+            <v-col cols="4" class="top-hi">
+              <span class="d-block">
                 <v-icon>mdi-car-connected</v-icon>
-                <span>
-                  FREE COLLECTION AND DELIVERY
-                </span>
+                <span> FREE COLLECTION AND DELIVERY </span>
               </span>
             </v-col>
-            <v-col cols='4' class="top-hi">
-              <span class='d-block'>
+            <v-col cols="4" class="top-hi">
+              <span class="d-block">
                 <v-icon>mdi-quality-high</v-icon>
-                <span>
-                  TRUSTED HIGH QUALITY GARAGES
-                </span>
+                <span> TRUSTED HIGH QUALITY GARAGES </span>
               </span>
             </v-col>
-            <v-col cols='4' class="top-hi">
-              <span class='d-block'>
+            <v-col cols="4" class="top-hi">
+              <span class="d-block">
                 <v-icon>mdi-security</v-icon>
-                <span>
-                  12 MONTH WARRANTY AND GUARANTEE
-                </span>
+                <span> 12 MONTH WARRANTY AND GUARANTEE </span>
               </span>
             </v-col>
           </v-row>
@@ -61,8 +54,8 @@
     <index-section-2></index-section-2>
     <v-row>
       <index-how-it-works></index-how-it-works>
-       <index-online-booking></index-online-booking>
-     <index-pickup-and-delivery></index-pickup-and-delivery>
+      <index-online-booking></index-online-booking>
+      <index-pickup-and-delivery></index-pickup-and-delivery>
       <car-reg-form has-bg-image></car-reg-form>
       <index-our-services></index-our-services>
       <index-car-parts></index-car-parts>
@@ -76,18 +69,18 @@
 
 <script>
 // import $ from 'jquery';
-import BaseTextSlider from '~/components/base-components/base-text-slider.vue';
-import IndexHowItWorks from '~/pages/__components/index-how-it-works.vue';
-import IndexOurServices from '~/pages/__components/index-our-services.vue';
-import IndexCarParts from '~/pages/__components/index-car-parts.vue';
-import IndexReviews from '~/pages/__components/index-reviews.vue';
-import IndexFaq from '~/pages/__components/index-faq.vue';
-import CarRegForm from '~/components/func-components/car-reg-form.vue';
-import CarRegFormCard from '~/components/func-components/car-reg-form-card.vue';
-import IndexSection2 from './__components/index-section-2.vue';
-import IndexOnlineBooking from '~/pages/__components/index-online-booking.vue';
-import IndexPickupAndDelivery from '~/pages/__components/index-pickup-and-delivery.vue';
-import IndexServices from '~/pages/__components/index-services.vue';
+import BaseTextSlider from "~/components/base-components/base-text-slider.vue";
+import IndexHowItWorks from "~/pages/__components/index-how-it-works.vue";
+import IndexOurServices from "~/pages/__components/index-our-services.vue";
+import IndexCarParts from "~/pages/__components/index-car-parts.vue";
+import IndexReviews from "~/pages/__components/index-reviews.vue";
+import IndexFaq from "~/pages/__components/index-faq.vue";
+import CarRegForm from "~/components/func-components/car-reg-form.vue";
+import CarRegFormCard from "~/components/func-components/car-reg-form-card.vue";
+import IndexSection2 from "./__components/index-section-2.vue";
+import IndexOnlineBooking from "~/pages/__components/index-online-booking.vue";
+import IndexPickupAndDelivery from "~/pages/__components/index-pickup-and-delivery.vue";
+import IndexServices from "~/pages/__components/index-services.vue";
 
 const URL = process.env.APP_URL;
 
@@ -107,78 +100,175 @@ export default {
     IndexServices,
   },
 
-  data: () => ({ }),
+  data: () => ({}),
 
-  mounted() {
-  },
+  mounted() {},
 
-  methods: {
-  },
+  methods: {},
 
   head: {
-    title: 'Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance',
+    title: "Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance",
 
     meta: [
       {
-        name: 'description', 
-        content: 'The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!'
+        name: "description",
+        content:
+          "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
       },
       {
-        name: 'keywords', 
-        content: 'car services, car maintenance, vehicle repair, car repair, car mechanic, car garage in uk, online repair center, Mot and repair center'
+        name: "keywords",
+        content:
+          "car services, car maintenance, vehicle repair, car repair, car mechanic, car garage in uk, online repair center, Mot and repair center",
       },
       {
-        property: "og:title", 
-        content: 'Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance'
+        property: "og:title",
+        content:
+          "Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance",
       },
       {
-        property: "og:type", 
-        content: "website"
+        property: "og:type",
+        content: "website",
       },
       {
-        property: "og:url", 
-        content: URL
+        property: "og:url",
+        content: URL,
       },
       {
-        property: "og:image", 
-        content: "https://app.manyautosltd.com/assets/customer-v2/logo-default.png"
+        property: "og:image",
+        content:
+          "https://app.manyautosltd.com/assets/customer-v2/logo-default.png",
       },
       {
-        property: "og:site_name", 
-        content: "ManyAutos LTD"
+        property: "og:site_name",
+        content: "ManyAutos LTD",
       },
       {
-        property: "og:description", 
-        content: 'The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!'
+        property: "og:description",
+        content:
+          "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
       },
       {
-        name: "twitter:card", 
-        content: "summary"
+        name: "twitter:card",
+        content: "summary",
       },
       {
-        name: "twitter:title", 
-        content:'Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance'
+        name: "twitter:title",
+        content:
+          "Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://app.manyautosltd.com/assets/customer-v2/logo-default.png",
+      },
+      {
+        itemprop: "image",
+        content:
+          "https://app.manyautosltd.com/assets/customer-v2/logo-default.png",
+      },
+      {
+        property: "og:type",
+        content: "business.business",
+      },
+    ],
+  },
 
-      },
-      {
-        name: "twitter:description", 
-        content: 'The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!'
-      },
-      {
-        name: "twitter:image", 
-        content: "https://app.manyautosltd.com/assets/customer-v2/logo-default.png"
-      },
-      {
-        itemprop: "image", 
-        content: "https://app.manyautosltd.com/assets/customer-v2/logo-default.png"
-      },
-      {
-        property: "og:type", 
-        content: "business.business"
-      },
-    ]
-  }
-}
+  jsonld() {
+    return {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.manyautosltd.com/#organization",
+          name: "ManyAutos",
+          url: "https://www.manyautosltd.com/",
+          sameAs: [
+            "https://www.facebook.com/manyautos.co.uk",
+            "https://twitter.com/manyautos",
+          ],
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Reading",
+          },
+          // "aggregateRating": {
+          //   "@type": "AggregateRating",
+          //   "ratingValue": "4.5",
+          //   "reviewCount": "1521"
+          // },
+          description:
+            "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
+          telephone: "+44 118 987 6300",
+          contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+44 118 987 6300",
+            contactType: "Customer Support",
+            areaServed: "UK",
+            availableLanguage: "English",
+          },
+          publisher: {
+            "@type": "Organization",
+            name: "ManyAutos",
+            "@id": "https://www.manyautosltd.com/",
+            logo:
+              "https://app.manyautosltd.com/assets/customer-v2/logo-default.png",
+            url: "https://www.manyautosltd.com/",
+            description:
+              "Do you need  Car servicing, MOT or Repair Work? Compare prices across 15,158 local garages and specialists with WhoCanFixMyCar.com.",
+            sameAs: [
+              "https://www.facebook.com/whocanfixmycar",
+              "https://twitter.com/whocanfixmycar",
+              "https://www.linkedin.com/company/who-can-fix-my-car",
+            ],
+          },
+          logo: {
+            "@type": "ImageObject",
+            "@id": "https://www.manyautosltd.com/#logo",
+            url:
+              "https://app.manyautosltd.com/assets/customer-v2/logo-default.png",
+            caption: "ManyAutos",
+          },
+          image: {
+            "@id": "https://www.manyautosltd.com/#logo",
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.manyautosltd.com/#website",
+          publisher: {
+            "@id": "https://www.manyautosltd.com/#organization",
+          },
+          name: "ManyAutos",
+          url: "https://www.manyautosltd.com/",
+          description:
+            "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
+          inLanguage: "en-US",
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.manyautosltd.com//#webpage",
+          url: "https://www.manyautosltd.com/",
+          inLanguage: "en-US",
+          name:
+            "Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance",
+          isPartOf: {
+            "@id": "https://www.manyautosltd.com/#website",
+          },
+          about: {
+            "@id": "https://www.manyautosltd.com/#organization",
+          },
+          breadcrumb: {
+            "@id": "https://www.manyautosltd.com//#breadcrumb",
+          },
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -204,7 +294,7 @@ export default {
 
 .home-top {
   padding-bottom: 20px;
-  background: url('~static/imgs/88246.png')  top center;
+  background: url("~static/imgs/88246.png") top center;
   background-size: cover;
   position: relative;
   &:before {
@@ -258,6 +348,4 @@ export default {
     }
   }
 }
-
-
 </style>
