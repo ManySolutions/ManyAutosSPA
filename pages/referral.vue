@@ -67,7 +67,7 @@
                     <v-table>
                         <tbody>
                             <tr>
-                                <td style="padding-bottom:15px">
+                                <td style="padding-bottom:18px">
                                 <v-icon
                                     left
                                     large
@@ -98,6 +98,7 @@
             <div class="text-field mt-10">
             <v-text-field
                 label="manyautosltd.com/rs/GYCKKYC/"
+                v-model="text1" ref="textToCopy"
                 single-line
                 outlined
           ></v-text-field>
@@ -107,6 +108,7 @@
                 text
                 color="primary"
                 class="py-0 px-0"
+                 @click="copyText"
             >
           <span class="text-large">Copy Link</span>
         </v-btn>
@@ -122,6 +124,8 @@
         <v-btn
             class="ma-2 mt-7"
             color="purple"
+            :href="`https://www.facebook.com/sharer/sharer.php?u=https://www.manyautosltd.com`"
+            target="_blank"
             dark
             x-large
             block
@@ -139,6 +143,8 @@
       <v-btn
             class="ma-2"
             color="primary"
+            :href="`https://twitter.com/intent/tweet?url=https://www.manyautosltd.com&text=` "
+            target="_blank"
             dark
             x-large
             block
@@ -152,22 +158,6 @@
             mdi-twitter
         </v-icon>
             Share on Twitter
-      </v-btn>
-      <v-btn
-            class="ma-2"
-            dark
-            x-large
-            block
-        >
-        <v-icon
-        class="chat-btn mr-2"
-            dark
-            left
-            large
-        >
-            mdi-wechat
-        </v-icon>
-            Share via Text
       </v-btn>
         </div>
           </div>
@@ -186,7 +176,7 @@
         </div>
         <v-btn
             class="ma-2"
-            color="orange darken-2"
+            color="secondary"
             dark
             x-large
             block
@@ -202,7 +192,13 @@
 </template>
 <script>
 export default {
-    
+ methods: {
+        copyText () {
+          let textToCopy = this.$refs.textToCopy.$el.querySelector('input')
+          textToCopy.select()
+          document.execCommand("copy");
+        }
+      },
 }
 </script>
 <style lang="scss" scoped>
