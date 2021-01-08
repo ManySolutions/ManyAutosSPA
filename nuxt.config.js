@@ -106,9 +106,9 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
-      config.devtool = ctx.isClient ? 'eval-source-map' : 'inline-source-map'
-    }
+    // extend(config, ctx) {
+    //   config.devtool = ctx.isClient ? 'eval-source-map' : 'inline-source-map'
+    // }
   },
 
   googleFonts: {
@@ -130,8 +130,8 @@ export default {
 
   watchers: {
     webpack: {
-      poll: 1000,
-      ignored: ['node_modules']
+      // poll: 1000,
+      // ignored: ['node_modules']
     }
   },
 

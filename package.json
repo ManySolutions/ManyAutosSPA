@@ -29,6 +29,7 @@
     "@mdi/font": "^5.8.55",
     "@nuxtjs/google-fonts": "^1.2.0",
     "@nuxtjs/vuetify": "^1.11.2",
-    "material-design-icons-iconfont": "^6.1.0"
+    "material-design-icons-iconfont": "^6.1.0",
+    "vuetify": "^2.3.21"
   }
 }
