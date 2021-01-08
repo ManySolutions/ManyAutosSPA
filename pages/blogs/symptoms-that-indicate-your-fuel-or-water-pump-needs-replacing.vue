@@ -31,15 +31,14 @@
         jolt and stuttering of the engine when you are driving steadily. It happens when the pump struggles to provide
         the right amount of fuel to the engine, making it difficult for the engine to keep a steady speed. It can be
         extremely dangerous because it affects the level of control you have over your vehicle. If a problem like this
-        occurs, we recommend you to visit our garage and we will provide you with the best <strong>fuel pump
-          repair</strong>.
+        occurs, we recommend you to visit our garage and we will provide you with the best <nuxt-link to="/">fuel pump repair</nuxt-link>.
       </p>
       <h3>Water pump</h3>
       <p class="margin-bottom-10 text-justify text-teal">Your engine needs a consistent flow of coolant to run properly
         during summer days. The water pump is one of the main components of a vehicle. It should work properly for a
         consistent operating temperature. When the water pumps start to wear, it affects the performance of the engine.
-        You need to keep an eye on any damages or failure of the pump and focus on your <strong>car water pump
-          repair</strong>.</p>
+        You need to keep an eye on any damages or failure of the pump and focus on your <nuxt-link to="/timing-belt">car water pump
+          repair</nuxt-link>.</p>
       <h2>Here are signs that mean your water pump needs replacement</h2>
       <h3>Coolant leak</h3>
       <p class="margin-bottom-10 text-justify text-teal">The water pump consists of many gaskets and seals that contain
@@ -60,7 +59,7 @@
         your car repaired.
       </p>
       <p class="margin-bottom-10 text-justify text-teal">If you want to know more about your car and its parts, you can
-        ask our mechanics and technicians. You can search online for qualified <strong>air suspension specialists near me</strong>, but
+        ask our mechanics and technicians. You can search online for qualified <nuxt-link to="/vehicle-engine-diagnostic-services/">air suspension specialists near me</nuxt-link>, but
         they won’t guide you in a way we would.
       </p>
     </div>
