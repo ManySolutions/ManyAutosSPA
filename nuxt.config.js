@@ -2,7 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  target: 'server',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -103,6 +103,12 @@ export default {
     parallel: true,
     cache: true,
     hardSource: true,
+    /*
+    ** You can extend webpack config here
+    */
+    extend(config, ctx) {
+      config.devtool = ctx.isClient ? 'eval-source-map' : 'inline-source-map'
+    }
   },
 
   googleFonts: {
@@ -125,7 +131,7 @@ export default {
   watchers: {
     webpack: {
       poll: 1000,
-      ignored: /node_modules/
+      ignored: ['node_modules']
     }
   },
 

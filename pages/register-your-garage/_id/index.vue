@@ -175,7 +175,7 @@
 import PageLayout from "@/layouts/page-layout";
 import { getApprovedGarage, registerGarage } from '~/api/garage';
 import toastr from 'toastr';
-import CollectionInfoPostcode from '../booking/create/__components/collection-info-postcode.vue';
+import CollectionInfoPostcode from '@/pages/booking/create/__components/collection-info-postcode.vue';
 
 const URL = process.env.APP_URL;
 

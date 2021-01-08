@@ -22,6 +22,7 @@
           :key='i'
           v-if='menu.children'
           open-on-hover
+          eager
         >
           <template v-slot:activator="{ on, attrs }">
             <v-btn 
