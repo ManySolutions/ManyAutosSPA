@@ -124,14 +124,12 @@
         <v-btn
             class="ma-2 mt-7"
             color="purple"
-            :href="`https://www.facebook.com/sharer/sharer.php?u=https://www.manyautosltd.com`"
             target="_blank"
-            onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.manyautosltd.com','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,
-            status=yes');"
+            @click="openWin();"
             dark
             x-large
             block
-        >
+        > 
         <v-icon
         class="fb-btn mr-2"
             dark
@@ -146,12 +144,12 @@
       <v-btn
             class="ma-2"
             color="primary"
-            :href="`https://twitter.com/intent/tweet?url=https://www.manyautosltd.com&text=` "
             target="_blank"
+            @click="openWinTwo();"
             dark
             x-large
             block
-        >
+        > 
         <v-icon
         class="twitter-btn mr-2"
             dark
@@ -200,6 +198,12 @@ export default {
           let textToCopy = this.$refs.textToCopy.$el.querySelector('input')
           textToCopy.select()
           document.execCommand("copy");
+        },
+           openWin() {
+            window.open("https://www.facebook.com/sharer/sharer.php?u=https://www.manyautosltd.com", "myWindow", "width=200,height=100");
+        },
+        openWinTwo() {
+            window.open("https://twitter.com/intent/tweet?url=https://www.manyautosltd.com&text=", "myWindow", "width=200,height=100");
         }
       },
 }
