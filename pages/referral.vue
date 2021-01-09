@@ -126,6 +126,8 @@
             color="purple"
             :href="`https://www.facebook.com/sharer/sharer.php?u=https://www.manyautosltd.com`"
             target="_blank"
+            onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.manyautosltd.com','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,
+            status=yes');"
             dark
             x-large
             block
@@ -137,6 +139,7 @@
             large
         >
             mdi-facebook
+
         </v-icon>
             Share on faceBook
       </v-btn>
