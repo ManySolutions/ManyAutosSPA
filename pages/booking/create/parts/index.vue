@@ -50,7 +50,7 @@ export default {
       {
         text: 'Services',
         disabled: false,
-        to: '../services'
+        to: '/booking/create/services'
       },
       {
         text: 'Part\'s Categories',
