@@ -72,7 +72,7 @@
         </div>
 
         <div class="media text-right">
-          <div class="media-body">
+          <div class="media-body med">
             <h6 class="position-relative d-lg-flex align-items-lg-end justify-content-lg-end text-center">
               <i class="text-primary ico-ma-check-circle ml-lg-2 mr-2 mr-lg-0 order-lg-2"></i>
               <span class=""> Masks are compulsory</span>
@@ -100,7 +100,7 @@
         </div>
         
         <div class="media text-right">
-          <div class="media-body mb-0">
+          <div class="media-body mb-0 med">
             <h6 class="position-relative d-lg-flex align-items-lg-end text-center">
               <i class="text-primary ico-ma-check-circle mr-2"></i>
               <span class="">Protective gear</span>
@@ -310,5 +310,10 @@ export default {
   .covid-sec-2 .media-body-last {
     margin-top: -24px;
 }
+}
+@media (min-width: 1264px){
+  .covid-sec-2 .media .media-body.med {
+    margin-top: 30px;
+  }
 }
 </style>
