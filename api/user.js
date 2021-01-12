@@ -15,3 +15,7 @@ export async function logoutUser(http) {
 export async function generateTicket(data, $http=null) {
   return (await ($http || http).post(`user/ticket`, data)).data
 }
+
+export async function autologin(user, signature) {
+  return (await http.post(`/autologin/${user}?signature=${signature}`).data)
+}
