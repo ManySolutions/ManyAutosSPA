@@ -139,7 +139,7 @@
       <v-col cols=12 class="text-left mb-7 pb-lg-5 covid-sec-3">
         <div class="col-heading">
             <h2 class=" text-left mt-12">
-              <span class="">Collection and delivery service</span>
+              <span class="">Collection and Delivery Service</span>
             </h2>
             <p class='text-left'>
              We are providing you the collection and delivery service. We know that you might be hesitant in bringing
