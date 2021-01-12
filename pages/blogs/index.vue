@@ -64,6 +64,7 @@ export default {
           img: 'https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg',
           url: '/blogs/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing'  
         }
+        
 
       ]
     }

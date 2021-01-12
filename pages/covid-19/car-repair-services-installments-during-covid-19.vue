@@ -54,7 +54,7 @@
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col cols=12 lg=3 xl='4' order-lg=2 class="text-center">
+      <v-col cols=12 lg=2 xl='4' order-lg=2 class="text-center">
         <!-- <img 
           :src="assets('customer-v2/011.png')" 
           alt="Our Services at ManyAutos LTD"
@@ -63,7 +63,7 @@
           
       </v-col>
 
-      <v-col cols=12 lg=4 order-lg=1>
+      <v-col cols=12 lg=5 order-lg=1>
         <div class="media text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end justify-content-lg-end text-center">
@@ -91,7 +91,7 @@
         </div>
       </v-col>
 
-      <v-col cols=12 lg=4 order-lg=3 >
+      <v-col cols=12 lg=5 order-lg=3 >
         <div class="media-second text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end text-center">
