@@ -63,7 +63,13 @@ export default {
           excerpt:'Pumps can be a delicate part of the vehicle. Their maintenance is necessary for the car to run smoothly. You need to listen carefully for any weird sounds made by the engine...',
           img: 'https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg',
           url: '/blogs/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing'  
-        }
+        },
+        //  {
+        //   title:'Best Auto Repair Services Installment Plan During COVID 2021',
+        //   excerpt:'It is a very rare sight to see the whole world experiencing something together. Covid-19 has affected all 7.8 billion lives equally. The only way to survive is if we get through this ...',
+        //   img: 'https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg',
+        //   url: '/blogs/best-auto-repair-services-installment-plan-during-covid-2021'  
+        // }
         
 
       ]

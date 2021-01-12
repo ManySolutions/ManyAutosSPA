@@ -55,7 +55,7 @@
         delivery service. We will pick your car from your home and deliver it back to you after it has been serviced and
         looks brand new. We will sanitize your car thoroughly before returning it to you.</p>
         <p>We provide the best services and we focus on the sanitization of the vehicles. You will not get a better plan
-          than our <Nuxtlink to='/car-repair-services-installments-during-covid-19'>car repair services installment during covid-19</Nuxtlink>.</p>
+          than our <Nuxtlink to='/car-repair-during-covid-19'>car repair services installment during covid-19</Nuxtlink>.</p>
 
       </div>
   </page-layout>
