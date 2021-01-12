@@ -42,7 +42,7 @@
     class='covid-sec-2'
   >
     <v-row>
-      <v-col cols=12 class="text-center mb-7 pb-lg-5">
+      <v-col cols=12 class="text-center ">
         <p style='max-width:700px' class='m-auto mb-5 mb-md-10'>
           We will ask you to help us a little by following the necessary measures with us
         </p>
