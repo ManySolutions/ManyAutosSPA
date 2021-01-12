@@ -1,6 +1,6 @@
 <template>
   <page-layout
-    title='Car Repair During COVID 19 | Car Repair Instalment Plan'
+    title='Car Repair During COVID 19 | Car Repair Installment Plan'
     heading-bg='customer-v2/static-pages/registergarages.jpg'
   >
     <v-container class="covid-page" style="padding-top:50px;">
@@ -37,6 +37,7 @@
         </div>
       </v-row>
     </v-container>
+    <!-- covid sec 2 start -->
       <v-container 
     class='covid-sec-2'
   >
@@ -125,8 +126,32 @@
             </p>
           </div>
       </v-col>
-    </v-row>
+    </v-row> 
+    <!-- covid sec 2 end -->
   </v-container>
+<v-container>
+  <v-row>
+      <v-col cols=12 class="text-left mb-7 pb-lg-5 covid-sec-3">
+        <div class="col-heading">
+            <h2 class=" text-left mt-12">
+              <span class="">Collection and delivery service</span>
+            </h2>
+            <p class='text-left'>
+             We are providing you the collection and delivery service. We know that you might be hesitant in bringing
+             your car to the garage. You don’t have to worry, we will collect your car from your doorstep and deliver it
+             back to you once it has been serviced. We will sanitize your car before returning it to you. 
+            </p>
+             <h3 class=" text-left mt-12">
+              <span class="">Online payment and receipts</span>
+            </h3>
+            <p class='text-left'>
+             To avoid any contact, all the receipts and documents of your car will be sent to you online. You can
+             according to our <strong>auto repair payment plan</strong>, but all the payments would be done online. 
+            </p>
+          </div>
+      </v-col>
+    </v-row>
+</v-container>
   </page-layout>
 </template>
 
@@ -239,6 +264,7 @@ export default {
     max-width: 70%;
   }
 }
+// covid-sec-2 
 .covid-sec-2 .media-body h6{
     color: #06182d;
     font-size: 17px;
@@ -321,4 +347,25 @@ export default {
     margin-top: -25px;
   }
 }
+
+// covid-sec-2 end
+
+// covid-sec-3 start
+.covid-sec-3 h2{
+    color:#00b4d8;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.covid-sec-3 h3{
+
+    color:#00b4d8;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
 </style>
