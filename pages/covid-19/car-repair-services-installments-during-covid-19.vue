@@ -99,7 +99,7 @@
           </div>
         </div>
         
-        <div class="media text-right">
+        <div class="media media-med text-right">
           <div class="media-body mb-0 med">
             <h6 class="position-relative d-lg-flex align-items-lg-end text-center">
               <i class="text-primary ico-ma-check-circle mr-2"></i>
@@ -313,7 +313,12 @@ export default {
 }
 @media (min-width: 1264px){
   .covid-sec-2 .media .media-body.med {
-    margin-top: 30px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1264px){
+  .covid-sec-2 .media.media-med {
+    margin-top: -25px;
   }
 }
 </style>
