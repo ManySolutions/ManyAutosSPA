@@ -4,6 +4,11 @@
     heading-bg='customer-v2/static-pages/registergarages.jpg'
   >
     <v-container class="covid-page" style="padding-top:50px;">
+       <v-row>
+      <v-col cols=12 class="text-center ">
+        <h1 style="margin-bottom: 20px; font-weight: 300;">Car Repair Pay Later Service </h1>
+      </v-col>
+    </v-row>
       <v-row>
         <div class="col-12">
           <div class="row align-items-center pb-4  text-center booking">
@@ -58,7 +63,7 @@
           
       </v-col>
 
-      <v-col cols=12 lg=3 order-lg=1>
+      <v-col cols=12 lg=4 order-lg=1>
         <div class="media text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end justify-content-lg-end text-center">
@@ -86,7 +91,7 @@
         </div>
       </v-col>
 
-      <v-col cols=12 lg=3 order-lg=3 >
+      <v-col cols=12 lg=4 order-lg=3 >
         <div class="media-second text-left">
           <div class="media-body">
             <h6 class="position-relative d-lg-flex align-items-lg-end text-center">
