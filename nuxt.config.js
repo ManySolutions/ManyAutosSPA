@@ -20,7 +20,11 @@ export default {
       {
         src: 'https://www.googletagmanager.com/gtag/js?id=UA-175329070-1',
         async: true,
-      }
+      },
+      {
+        src: 'https://static.manyautosltd.com/assets/smartsupp.js',
+        async: true,
+      },
     ]
   },
 
@@ -40,8 +44,8 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     { src: '~/plugins/persistedState.client.js' },
-    { src: '~/plugins/jsonld'}
-
+    { src: '~/plugins/jsonld'},
+    { src: '~plugins/ga.js', mode: 'client' }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
