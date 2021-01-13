@@ -286,7 +286,7 @@
       >
         <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-left">
           <img
-            src="https://static.manyautosltd.com/uploads/pexels-matheus-bertelli-799443.jpg"
+            src="https://static.manyautosltd.com/uploads/online-payment.jpg"
             alt="car repair services installments during covid 19"
             class="image-one pl-md-8"
           />
