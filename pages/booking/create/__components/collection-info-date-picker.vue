@@ -8,8 +8,7 @@
       <v-menu
         ref="menu"
         v-model="menu"
-        :close-on-content-click="false"
-        :return-value.sync="date"
+        :close-on-content-click="true"
         transition="scale-transition"
         offset-y
         min-width="290px"

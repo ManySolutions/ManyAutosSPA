@@ -188,6 +188,7 @@ export default {
       lng: null,
       note: '',
       user: {},
+      paymentPlanId: null,
     },
 
     step: 1,
@@ -200,7 +201,7 @@ export default {
   computed: {
     ...mapGetters('booking', ['isCartEmpty']),
     ...mapGetters('user', ['isAuth']),
-    ...mapState('user', ['info']),
+    ...mapState('user', ['info', 'paymentPlanId']),
     ...mapState('booking', ['cartContent', 'modelId']),
 
     isStep1Valid() {
@@ -242,7 +243,8 @@ export default {
   mounted() {
     const { isCartEmpty } = this;
 
-    if (isCartEmpty) this.$router.push('/booking/create')
+    if (isCartEmpty) this.$router.push('/booking/create');
+    this.form.paymentPlanId = this.paymentPlanId;
   },
 
   methods: {
@@ -258,7 +260,7 @@ export default {
     handleInvalidUser() {
       this.form.user = {};
     },
-    handleUser({ email, password, mobileNo, countryCode, name }) {
+    handleUser({ email, password, mobileNo, countryCode, name, s_name, f_name }) {
       this.form.user = {
         ...this.form.user,
         email,
@@ -266,6 +268,8 @@ export default {
         name,
         mobile_no: mobileNo,
         country_code: countryCode,
+        s_name,
+        f_name,
       };
     },
     handleOtherChange({ note }) {

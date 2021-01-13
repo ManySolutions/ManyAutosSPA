@@ -8,6 +8,19 @@
           <div class="overline mb-4 font-weight-600">
             YOUR ADDED SERVICES
           </div>
+          <div
+            class='mb-3'
+            v-if='paymentPlanId'
+          >
+            <v-chip
+              filter
+              color='primary'
+            >
+              <v-icon class='mr-2'>mdi-check-decagram</v-icon>
+              <strong>4-Payments</strong>&nbsp; Plan have been Selected
+            </v-chip>
+          </div>
+          <!-- /paymist plan using -->
           <div>
             <v-skeleton-loader
               v-if='isCartLoading'
@@ -135,6 +148,7 @@ export default {
 
   computed: {
     ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError']),
+    ...mapState('user', ['paymentPlanId']),
 
     ...mapGetters('booking', ['cartCount']),
 

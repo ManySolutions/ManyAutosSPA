@@ -1,14 +1,29 @@
 <template>
   <div>
-    <v-text-field
-      v-model='name'
-      label="Full Name"
-      placeholder="John doe"
-      filled
-      rounded
-      :error='!!errors["user.name"]'
-      :hint="errors['user.name'] ? errors['user.name'][0] : null"
-    ></v-text-field>
+    <v-row>
+      <v-col>
+        <v-text-field
+          v-model='f_name'
+          label="First Name"
+          placeholder="John"
+          filled
+          rounded
+          :error='!!errors["user.f_name"]'
+          :hint="errors['user.f_name'] ? errors['user.f_name'][0] : null"
+        ></v-text-field>
+      </v-col>
+      <v-col>
+        <v-text-field
+          v-model='s_name'
+          label="Last Name"
+          placeholder="John doe"
+          filled
+          rounded
+          :error='!!errors["user.s_name"]'
+          :hint="errors['user.s_name'] ? errors['user.s_name'][0] : null"
+        ></v-text-field>
+      </v-col>
+    </v-row>
     <v-text-field
       v-model='email'
       label="Your Email"
