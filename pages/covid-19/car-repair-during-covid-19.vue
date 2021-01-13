@@ -157,6 +157,75 @@
       </v-col>
     </v-row>
 </v-container>
+<section class="about-section style-3 bg-about padding-tb pt-10 pb-10" >
+    <v-container>
+        <v-row class=" justify-content-center align-items-center flex-row-reverse">
+            <v-col cols="12" lg="6" class=" wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <div class="about-thumb">
+                    <img src="https://static.manyautosltd.com/uploads/covid.jpg" alt="covid" />
+            </div>
+            </v-col>
+            <v-col cols="12" lg="6" class=" wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                <div class="about-content">
+                    <div class="ab-title">
+                        <span>About (2020-nCoV)</span>
+                        <h2>Auto Repair Payment Plans</h2>
+                        <p>Covid-19 has affected everyone in a different way. Many people are struggling financially due
+                          to it. We understand your situation and want to make things easy for you. We provide you
+                          the <NuxtLink to='/car-service'>car repair pay later service</NuxtLink>. You can pay your dues in installments for the next 4 or 6
+                          months.</p>
+                        <p>This <strong>vehicle servicing installments plan</strong> is devised for your ease and comfort. We don’t want
+                          your car to lose its charm during covid-19.</p>
+                        <ul class="lab-ul">
+                            <li>
+                                <div class="ab-thumb">
+                                    <img src="https://static.manyautosltd.com/uploads/whocanapply.png" alt="whocanapply" />
+                                </div>
+                                <div class="ab-content">
+                                    <h3>Who can apply</h3>
+                                    <p>Anyone who is a resident of the United Kingdom and is 18 years of age or above
+                                      can apply for our payment plan.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ab-thumb">
+                                    <img src="https://static.manyautosltd.com/uploads/pound-sterling.png" alt="pound-sterling" />
+                                </div>
+                                <div class="ab-content">
+                                    <h3>Deposit</h3>
+                                    <p>You have to pay a 25% deposit at the time of the service and the rest can be paid
+                                      in installments for the next 4 or 6 months.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ab-thumb">
+                                    <img src="https://static.manyautosltd.com/uploads/free.png" alt="free" />
+                                </div>
+                                <div class="ab-content">
+                                    <h3>Interest-free</h3>
+                                    <p>Our <NuxtLink to='/'>car repair service installment during covid-19</NuxtLink>
+                                     is interest-free. No extra
+                                      money would be charged from you.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ab-thumb">
+                                    <img src="https://static.manyautosltd.com/uploads/question.png" alt="question" />
+                                </div>
+                                <div class="ab-content">
+                                    <h3>When do I apply</h3>
+                                    <p>You can apply right after we give you a quote for your services and purchases.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </v-col>
+        </v-row>
+    </v-container>
+</section>
+
+
   </page-layout>
 </template>
 
@@ -167,7 +236,7 @@ const URL = process.env.APP_URL;
 
 export default {
   components: {
-    PageLayout
+    PageLayout,
   },
 
   head: {
@@ -372,5 +441,62 @@ export default {
     margin-bottom: 5px;
 
 }
+// last section
+.bg-about {
+    background: #06264d;
+}
+.about-section.style-3 .about-content .ab-title > span {
+    color: #00ff99;
+    display: inline-block;
+    font-size: 18px;
+}
+.bg-about h2 {
+  color: #fff;
+}
+@media (min-width: 576px){
+  h2 {
+    font-size: 30px;
+    line-height: 48px;
+}
+}
+.bg-about p {
+  color: #fff;
+}
+@media (min-width: 576px){
+  p {
+    font-size: 16px;
+}
+}
+.about-section .about-content .ab-title ul li .ab-content h3 {
+    margin-bottom: 5px;
+    color: #fff;
+}
+@media (min-width: 576px){
+  .about-section .about-content .ab-title ul li .ab-content h3 {
+    font-size: 20px;
+}
+}
+.about-section .about-content .ab-title ul {
+    margin-top: 30px;
+}
+.about-section .about-content .ab-title ul li{
+    display: flex;
+    flex-wrap: wrap;
+}
+// .ab-thumb img {
+//   border-radius: 50%;
+// }
+.about-section .about-content .ab-title ul li .ab-thumb {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
 
+.about-section .about-content .ab-title ul li .ab-content {
+    width: calc(100% - 95px);
+}
+.about-section .about-content .ab-title ul li {
+    justify-content: space-between;
+    padding: 15px 0;
+}
 </style>
