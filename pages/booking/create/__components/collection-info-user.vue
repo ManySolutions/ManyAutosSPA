@@ -82,13 +82,15 @@ export default {
     countryList,
     countryCode: '44',
     name: '',
+    f_name: '',
+    s_name: '',
   }),
 
   computed: {
     isFormValid() {
-      const { email, password, mobileNo, countryCode, name} = this;
+      const { email, password, mobileNo, countryCode, name, f_name, s_name} = this;
 
-      return ( email && password && mobileNo && countryCode && name );
+      return ( email && password && mobileNo && countryCode && f_name && s_name );
     }
   },
 
@@ -101,10 +103,11 @@ export default {
           this.$emit('invalid');
         }
         
-        const { email, password, mobileNo, countryCode, name} = data;
+        const { email, password, mobileNo, countryCode, name, f_name, s_name} = data;
 
         this.$emit('user', {
-          email, password, mobileNo, countryCode, name
+          email, password, mobileNo, countryCode, name,
+          f_name, s_name
         });
       },
       

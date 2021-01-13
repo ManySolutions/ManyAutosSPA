@@ -185,12 +185,12 @@ export default {
 
 <style lang="scss" scoped>
 .footer-main{
-  background:#394f52;
+  background:#2b3d40;
   &::v-deep .v-list-item__icon:first-child {
     margin-right: 12px;
   }
   .footer-lighter {
-    background: #3a4c4f;
+    background: #314548;
   }
   .logo-footer{
     width: 200px;

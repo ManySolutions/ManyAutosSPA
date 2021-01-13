@@ -121,8 +121,11 @@ export default {
         wght: [300, 400, 600, 700, 800],
         ital: [400]
       },
-      Montserrat: {
-        wght: [200, 300, 500, 600, 700, 800],
+      // Montserrat: {
+      //   wght: [200, 300, 500, 600, 700, 800],
+      // },
+      Roboto: {
+        wght: [200, 300, 400, 600, 800],
       },
     },
 
@@ -135,7 +138,7 @@ export default {
   watchers: {
     webpack: {
       // poll: 1000,
-      // ignored: ['node_modules']
+      ignored: ['node_modules']
     }
   },
 
