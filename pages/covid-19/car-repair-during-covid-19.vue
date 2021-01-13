@@ -3,11 +3,11 @@
     title='Car Repair During COVID 19 | Car Repair Installment Plan'
     heading-bg='customer-v2/static-pages/registergarages.jpg'
   >
-    <v-container class="covid-page" style="padding-top:50px;">
+    <v-container class="covid-page" style="padding-top:50px; margin-bottom: 50px;">
       <v-row>
-        <v-col cols=12 class="text-center ">
+        <!-- <v-col cols=12 class="text-center ">
           <h1 style="margin-bottom: 20px; font-weight: 300;">Car Repair Pay Later Service </h1>
-        </v-col>
+        </v-col> -->
       </v-row>
       <v-row>
         <div class="col-12">
@@ -47,10 +47,10 @@
       </v-row>
     </v-container>
       <!-- Sec 2 -->
-        <section class="service-section home-3 pt-15 pb-9" style="background-image: url(assets/css/bg-image/service-bg.jpg);">
+        <section class="service-section home-3 pt-15 pb-9">
     <v-container class="container">
         <div class="section-header wow fadeInUp text-center mb-15" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-            <!-- <h2>Corona Virus Symptoms</h2> -->
+            <h2>Important Measures for Covid-19 Prevention</h2>
             <p>We will ask you to help us a little by following the necessary measures with us</p>
         </div>
         <div class="section-wrapper">
@@ -163,8 +163,8 @@
     <v-row class=" justify-content-center align-items-center flex-row-reverse">
       <v-col cols="12" lg="6" class=" wow fadeInUp" data-wow-delay="0.3s"
         style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-        <div class="about-thumb">
-          <img src="https://static.manyautosltd.com/uploads/covid.jpg" alt="covid" />
+        <div class="about-thumb d-none d-lg-block text-center">
+          <img src="https://static.manyautosltd.com/uploads/covid-4.png" alt="covid" />
         </div>
       </v-col>
       <v-col cols="12" lg="6" class=" wow fadeInUp" data-wow-delay="0.4s"
@@ -354,10 +354,14 @@ export default {
 }
 // covid-sec-2 
 .service-section.home-3 {
-    // background-position: center;
-    // background-size: cover;
-    // background-repeat: no-repeat;
+    background-image: url('https://static.manyautosltd.com/uploads/covid-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color:rgb(0, 53, 105) ;
+}
+.service-section .section-header h2{
+  color: #fff;
 }
 .service-section .section-header p{
   color: #fff;
@@ -379,7 +383,7 @@ export default {
 }
 .service-item.style-2 .service-inner {
     text-align: center;
-    background: rgba(6, 38, 77, 0.5);
+    background: #06264c;
     margin: 10px;
     min-height: 238px;
 }
@@ -429,24 +433,34 @@ export default {
 // covid-sec-2 end
 // covid-sec-3 start
 .covid-sec-3 h2{
-    color:#00b4d8;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 300;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .covid-sec-3 h3{
 
-    color:#00b4d8;
-    font-size: 1.25rem;
-    font-weight: 500;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 300;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.covid-sec-3 p{
+
+  font-size: 18px;
 
 }
 // last section
 .bg-about {
     background: #06264d;
+    margin-bottom: -41px;
+}
+@media (min-width:960px){
+  .bg-about{
+    margin-bottom: -111px;
+  }
 }
 .about-section.style-3 .about-content .ab-title > span {
     color: #00ff99;
@@ -470,6 +484,10 @@ export default {
     font-size: 16px;
 }
 }
+.about-section .about-thumb img{
+
+  max-width: 100%;
+}
 .about-section .about-content .ab-title ul li .ab-content h3 {
     margin-bottom: 5px;
     color: #fff;
@@ -481,20 +499,21 @@ export default {
 }
 .about-section .about-content .ab-title ul {
     margin-top: 30px;
+    margin-left: -7px;
+    padding-left: 0px;
 }
 .about-section .about-content .ab-title ul li{
     display: flex;
     flex-wrap: wrap;
 }
-// .ab-thumb img {
-//   border-radius: 50%;
-// }
 .about-section .about-content .ab-title ul li .ab-thumb {
     width: 80px;
     height: 80px;
     text-align: center;
 }
-
+.about-section .about-content .ab-title ul li .ab-thumb img{
+    max-width: 60%;
+}
 .about-section .about-content .ab-title ul li .ab-content {
     width: calc(100% - 95px);
 }
