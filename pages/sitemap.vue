@@ -11,7 +11,7 @@
               Landing Page
             </h4>
           </a>
-          <div style="margin-bottom: 35px;">
+          <div style="margin-bottom: 50px;">
             <v-btn
               text
               color='primary'
@@ -30,7 +30,7 @@
               Help
             </h4>
           </a>
-          <div>
+          <div style="margin-bottom: 50px;">
             <v-btn
               text
               color='primary'
@@ -51,7 +51,7 @@
               Action Pages
             </h4>
           </a>
-          <div style="margin-bottom: 35px;">
+          <div style="margin-bottom: 50px;">
             <v-btn
               text
               color='primary'
@@ -70,7 +70,7 @@
               Locations
             </h4>
           </a>
-          <div>
+          <div style="margin-bottom: 50px;">
             <v-btn
               text
               color='primary'
@@ -91,7 +91,7 @@
               Car Services
             </h4>
           </a>
-          <div>
+          <div style="margin-bottom: 50px;">
             <v-btn
               text
               color='primary'
@@ -111,7 +111,7 @@
               Car Repairs
             </h4>
           </a>
-          <div>
+          <div style="margin-bottom: 50px;">
             <v-btn
               text
               color='primary'
