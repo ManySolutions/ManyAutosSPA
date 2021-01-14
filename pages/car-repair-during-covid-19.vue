@@ -4,6 +4,7 @@
     headingBgStatic='https://static.manyautosltd.com/uploads/covid-cover.jpg'
     :has-quote-button='false'
     cls='car-repair-during-covid-19'
+    sub-title='Car Repair Pay Later Service'
   >
     <v-container
       class="covid-page"
@@ -37,7 +38,7 @@
               </p>
               <p class="text-sec text-22">
                 With the support from our network of garages, we are following
-                all the social distancing measures and offering Auto repair
+                all the social distancing measures and offering Car repair
                 payment plans so you can have a safe and affordable experience.
               </p>
             </v-col>
@@ -120,7 +121,7 @@
                     </h3>
                     <p class="text-h6">
                       Social distancing rules are followed in our garage. Every
-                      person has to keep a 2-meter distance from each other and
+                      person has to keep a 2-metre distance from each other and
                       avoid any kind of contact.
                     </p>
                   </div>
@@ -286,7 +287,7 @@
       >
         <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-left">
           <img
-            src="https://static.manyautosltd.com/uploads/pexels-matheus-bertelli-799443.jpg"
+            src="https://static.manyautosltd.com/uploads/online-payment.jpg"
             alt="car repair services installments during covid 19"
             class="image-one pl-md-8"
           />
@@ -298,7 +299,7 @@
           <p class="text-sec mt-4">
             To avoid any contact, all the receipts and documents of your car
             will be sent to you online. You can according to our 
-            <strong>auto repair payment plan</strong>, 
+            <strong>car repair payment plan</strong>, 
             but all the payments would be done online.   
           </p>
         </v-col>
@@ -343,8 +344,8 @@
           >
             <div class="about-content">
               <div class="ab-title">
-                <span>About (2020-nCoV)</span>
-                <h2 class='text-h3 mb-5'>Auto Repair Payment Plans</h2>
+                <span>About (2021-nCoV)</span>
+                <h2 class='text-h3 mb-5'>Car Repair Payment Plans</h2>
                 <p class='text-sec'>
                   Covid-19 has affected everyone in a different way. Many people
                   are struggling financially due to it. We understand your
@@ -463,7 +464,7 @@ export default {
       {
         name: "keywords",
         content:
-          "car repair payment plan, pay later auto repair, car service installments, vehicle service plan, fix now pay later ",
+          "car repair payment plan, pay later car repair, car service installments, vehicle service plan, fix now pay later ",
       },
       {
         property: "og:title",

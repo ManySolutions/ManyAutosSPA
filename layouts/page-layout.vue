@@ -8,7 +8,7 @@
         ></div>
         <img :src="headingBgStatic" :alt="title" class='d-none'>
       </template>
-      <h1>{{ title }}</h1>
+      <h1>{{ subTitle || title }}</h1>
       <div class="slantdiv"></div>
 
       <template v-if='hasQuoteButton'>
@@ -41,6 +41,7 @@ export default {
       type: Boolean,
     },
     title: String,
+    subTitle: String,
     cls: String,
   },
 }
