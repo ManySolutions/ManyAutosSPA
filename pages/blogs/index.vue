@@ -64,12 +64,12 @@ export default {
           img: 'https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg',
           url: '/blogs/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing'  
         },
-        //  {
-        //   title:'Best Auto Repair Services Installment Plan During COVID 2021',
-        //   excerpt:'It is a very rare sight to see the whole world experiencing something together. Covid-19 has affected all 7.8 billion lives equally. The only way to survive is if we get through this ...',
-        //   img: 'https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg',
-        //   url: '/blogs/best-auto-repair-services-installment-plan-during-covid-2021'  
-        // }
+         {
+          title:'Best Auto Repair Services Installment Plan During COVID 2021',
+          excerpt:'It is a very rare sight to see the whole world experiencing something together. Covid-19 has affected all 7.8 billion lives equally. The only way to survive is if we get through this ...',
+          img: 'https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg',
+          url: '/blogs/best-auto-repair-services-installment-plan-during-covid-2021'  
+        }
         
 
       ]

@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title='Best Auto Repair Services Installment Plan During COVID 2021'
-    headingBgStatic='https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled.jpg'
+    headingBgStatic='https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg'
   >
     <div class="container" style="padding-top: 70px;">
       <p>It is a very rare sight to see the whole world experiencing something together. Covid-19 has affected all 7.8
@@ -46,7 +46,7 @@
          You can benefit from our <NuxtLink to='/vehicle-engine-diagnostic-services'>car repair payment plan</NuxtLink> during covid-19. The plan is that you can pay your dues in
          installments.
        </p>
-       <p>The <Nuxtlink to='/car-service'>vehicle servicing installments plan</Nuxtlink> is efficient for everyone. You just have to deposit 25% initial
+       <p>The <NuxtLink to='/car-service'>vehicle servicing installments plan</NuxtLink> is efficient for everyone. You just have to deposit 25% initial
          payment and the rest of the amount can be paid in installments for 4 or 6 months.</p>
        <p>This car repair pay later service is interest-free. No extra interest money would be charged from you except
          for the cost of the services that you booked.</p>
@@ -55,7 +55,7 @@
         delivery service. We will pick your car from your home and deliver it back to you after it has been serviced and
         looks brand new. We will sanitize your car thoroughly before returning it to you.</p>
         <p>We provide the best services and we focus on the sanitization of the vehicles. You will not get a better plan
-          than our <Nuxtlink to='/car-repair-during-covid-19'>car repair services installment during covid-19</Nuxtlink>.</p>
+          than our <NuxtLink to='/covid-19/car-repair-during-covid-19'>car repair services installment during covid-19</NuxtLink>.</p>
 
       </div>
   </page-layout>
