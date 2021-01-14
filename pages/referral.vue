@@ -20,7 +20,8 @@
                 </v-col>
             </v-row>
             <div class="refer-content text-center" style="background-color: #F2F9FF;">
-            <p class="refer-content-text">Earn £10 for every qualified referral to ManyAutos, plus each referral will get a £10 sign-up bonus.</p>
+            <p class="refer-content-text">Earn £10 for every qualified referral to ManyAutos, plus each referral will
+              get a £10 sign-up bonus.</p>
             <v-container class="three-points d-none d-md-block">
                 <v-row>
                     <v-col md="4">
@@ -311,7 +312,7 @@ export default {
     color: #ef7200;
     margin-top: 20px;
     padding: 20px;
-    max-width: 340px;
+    max-width: 356px;
     margin: auto;
 }
 .refer-page .second-card .sec-3 .text-field{
