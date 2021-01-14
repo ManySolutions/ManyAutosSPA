@@ -11,7 +11,7 @@
               Landing Page
             </h4>
           </a>
-          <div>
+          <div style="margin-bottom: 35px;">
             <v-btn
               text
               color='primary'
@@ -20,13 +20,13 @@
               :to="index.url"
               class='text-capitalize pl-0'
               block
-              style="display:inline-block; margin-bottom:10px;"
+              style="display:inline-block;"
             >
               {{ index.title }}
             </v-btn>
           </div>
           <a href="#help" id="help" class='has-hashed'>
-            <h4 class="text-left text-uppercase pb-5">
+            <h4 class="text-left text-uppercase pb-5 ">
               Help
             </h4>
           </a>
@@ -51,7 +51,7 @@
               Action Pages
             </h4>
           </a>
-          <div>
+          <div style="margin-bottom: 35px;">
             <v-btn
               text
               color='primary'
@@ -60,6 +60,26 @@
               :to="index.url"
               class='text-capitalize pl-0'
               block
+              style="display:inline-block;"
+            >
+              {{ index.title }}
+            </v-btn>
+          </div>
+          <a href="#help" id="help" class='has-hashed'>
+            <h4 class="text-left text-uppercase pb-5 ">
+              Locations
+            </h4>
+          </a>
+          <div>
+            <v-btn
+              text
+              color='primary'
+              v-for='(index, i) in locationLinks'
+              :key='i'
+              :to="index.url"
+              class='text-capitalize pl-0'
+              block
+              style="display:inline-block;"
             >
               {{ index.title }}
             </v-btn>
@@ -137,6 +157,25 @@ export default {
       {title:'My bookings' , url:'/my/booking'},
       {title:'Register As Garage' , url:'/request-to-register-your-garage'},
     ],
+    locationLinks:[
+      {title: 'Basingstoke', url: '/basingstoke'},
+      {title: 'Bracknell', url: '/bracknell'},
+      {title: 'Bradfield', url: '/bradfield'},
+      {title: 'Aldershot', url: '/aldershot'},
+      {title: 'Goring', url: '/goring'},
+      {title: 'Henley On Thames', url: '/henley-on-thames'},
+      {title: 'Farnborough', url: '/farnborough'},
+      {title: 'Maidenhead', url: '/maidenhead'},
+      {title: 'Newbury', url: '/newbury'},
+      {title: 'Pangbourne', url: '/pangbourne'},
+      {title: 'Sonning', url: '/sonning'},
+      {title: 'Spencers Wood', url: '/spencers-wood'},
+      {title: 'Thatcham', url: '/thatcham'},
+      {title: 'Twyford', url: '/twyford'},
+      {title: 'Woking', url: '/woking'},
+      {title: 'Wokingham', url: '/wokingham'},
+      {title: 'Woodley', url: '/woodley'},
+    ],
      carServiceLinks:[
         {title: 'Daewoo Car Service', url: '/daewoo-service'},
         {title: 'Fiat Car Service', url: '/fiat-service'},
@@ -184,13 +223,9 @@ export default {
         {title: 'Abs ', url: '/abs'},
         {title: 'Air Filter Replacement', url: '/air-filter-replacement'},
         {title: 'Air Suspension', url: '/air-suspension'},
-        {title: 'Aldershot', url: '/aldershot'},
         {title: 'Alternator', url: '/alternator'},
         {title: 'Anti Roll Bar Link', url: '/anti-roll-bar-link'},
         {title: 'Auto Locksmith', url: '/auto-locksmith'},
-        {title: 'Basingstoke', url: '/basingstoke'},
-        {title: 'Bracknell', url: '/bracknell'},
-        {title: 'Bradfield', url: '/bradfield'},
         {title: 'Brake Caliper', url: '/brake-caliper'},
         {title: 'Brake Disc', url: '/brake-disc'},
         {title: 'Brake Drums', url: '/brake-drums'},
@@ -216,35 +251,25 @@ export default {
         {title: 'EGR', url: '/egr'},
         {title: 'Exhaust Repair', url: '/exhaust-repair'},
         {title: 'Exhaust Services', url: '/exhaust-services'},
-        {title: 'Farnborough', url: '/farnborough'},
         {title: 'Finance', url: '/finance'},
         {title: 'Flywheel', url: '/flywheel'},
         {title: 'Fuel Filter', url: '/fuel-filter'},
         {title: 'Fuel Injector', url: '/fuel-injector'},
         {title: 'Fuel Pump', url: '/fuel-pump'},
         {title: 'Glow Plug', url: '/glow-plug'},
-        {title: 'Goring', url: '/goring'},
         {title: 'Handbrake Cable', url: '/handbrake-cable'},
         {title: 'Head Gasket', url: '/head-gasket'},
-        {title: 'Henley On Thames', url: '/henley-on-thames'},
-        {title: 'Maidenhead', url: '/maidenhead'},
         {title: 'New Tyres', url: '/new-tyres'},
-        {title: 'Newbury', url: '/newbury'},
         {title: 'Oil Change', url: '/oil-change'},
         {title: 'Online Service Book', url: '/online-service-book'},
-        {title: 'Pangbourne', url: '/pangbourne'},
         {title: 'Radiator', url: '/radiator'},
-        {title: 'Sonning', url: '/sonning'},
-        {title: 'Spencers Wood', url: '/spencers-wood'},
         {title: 'Starter Motor', url: '/starter-motor'},
         {title: 'Steering Services', url: '/steering-services'},
         {title: 'Suspension Arm', url: '/suspension-arm'},
         {title: 'Suspension Rear Axle', url: '/suspension-rear-axle'},
         {title: 'Suspension Services', url: '/suspension-services'},
-        {title: 'Thatcham', url: '/thatcham'},
         {title: 'Thermostat Service', url: '/thermostat-service'},
         {title: 'Timing Belt', url: '/timing-belt'},
-        {title: 'Twyford', url: '/twyford'},
         {title: 'Tyre Balancing', url: '/tyre-balancing'},
         {title: 'Unwanted Cars', url: '/unwanted-cars'},
         {title: 'Vacuum Pump', url: '/vacuum-Pump'},
@@ -252,9 +277,6 @@ export default {
         {title: 'Water pump Replacement', url: '/water-pump-replacement'},
         {title: 'Wheel Alignment and Tracking', url: '/wheel-alignment-and-tracking'},
         {title: 'Wheel Cylinder', url: '/wheel-cylinder'},
-        {title: 'Woking', url: '/woking'},
-        {title: 'Wokingham', url: '/wokingham'},
-        {title: 'Woodley', url: '/woodley'},
     ],
 
   }),
