@@ -10,7 +10,7 @@
           </div>
           <div
             class='mb-3'
-            v-if='paymentPlanId'
+            v-if='hasPaymentPlan'
           >
             <v-chip
               filter
@@ -147,8 +147,8 @@ export default {
   }),
 
   computed: {
-    ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError']),
-    ...mapState('user', ['paymentPlanId']),
+    ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError', 'hasPaymentPlan']),
+    ...mapState('user', ['']),
 
     ...mapGetters('booking', ['cartCount']),
 

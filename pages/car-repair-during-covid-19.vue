@@ -23,7 +23,7 @@
           >
             <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-left">
               <img
-                src="https://static.manyautosltd.com/uploads/pexels-matheus-bertelli-799443.jpg"
+                src="https://static.manyautosltd.com/uploads/car-repair-services-installments-during-covid-19.jpg"
                 alt="car repair services installments during covid 19"
                 class="image-one pl-md-8"
               />
@@ -326,9 +326,7 @@
                 src="https://static.manyautosltd.com/uploads/covid-4.png"
                 alt="covid"
               />
-              <v-btn x-large outlined color="secondary" to="/">
-                <strong> Book now with 4-Payments Plan </strong>
-              </v-btn>
+              <car-repair-during-covid-19-dialog></car-repair-during-covid-19-dialog>
             </div>
           </v-col>
           <v-col
@@ -430,9 +428,7 @@
                 </ul>
               </div>
               <div class="pt-10 text-center d-lg-none">
-                <v-btn x-large outlined color="secondary" to="/">
-                  <strong> Book now with 4-Payments Plan </strong>
-                </v-btn>
+                <car-repair-during-covid-19-dialog></car-repair-during-covid-19-dialog>
               </div>
             </div>
           </v-col>
@@ -444,12 +440,14 @@
 
 <script>
 import PageLayout from "@/layouts/page-layout";
+import CarRepairDuringCovid19Dialog from './__components/car-repair-during-covid-19--dialog.vue';
 
 const URL = process.env.APP_URL;
 
 export default {
   components: {
     PageLayout,
+    CarRepairDuringCovid19Dialog,
   },
 
   head: {

@@ -9,6 +9,7 @@ export const state = () => ({
   cartContent: [],
   cartError: null,
   isCartLoading: false,
+  hasPaymentPlan: null,
 })
 
 export const mutations = {
@@ -37,11 +38,16 @@ export const mutations = {
     state.cartUpdatedAt= null;
     state.cartReceivedAt= null;
     state.cartContent= [];
+    state.hasPaymentPlan = false;
   },
 
   SET_CART_LOADING(state, isLoading) {
     state.isCartLoading = isLoading
-  }
+  },
+
+  HAS_PAYMENT_PLAN(state, status) {
+    state.hasPaymentPlan = status;
+  },
 }
 
 

@@ -8,19 +8,21 @@
           placeholder="John"
           filled
           rounded
-          :error='!!errors["user.f_name"]'
-          :hint="errors['user.f_name'] ? errors['user.f_name'][0] : null"
+          :error='!!errors["f_name"]'
+          :persistent-hint='!!errors["f_name"]'
+          :hint="errors['f_name'] ? errors['f_name'][0] : null"
         ></v-text-field>
       </v-col>
       <v-col>
         <v-text-field
           v-model='s_name'
           label="Last Name"
-          placeholder="John doe"
+          placeholder="Doe"
           filled
           rounded
-          :error='!!errors["user.s_name"]'
-          :hint="errors['user.s_name'] ? errors['user.s_name'][0] : null"
+          :error='!!errors["s_name"]'
+          :persistent-hint='!!errors["s_name"]'
+          :hint="errors['s_name'] ? errors['s_name'][0] : null"
         ></v-text-field>
       </v-col>
     </v-row>
@@ -30,8 +32,9 @@
       placeholder="example@xyz.com"
       filled
       rounded
-      :error='!!errors["user.email"]'
-      :hint="errors['user.email'] ? errors['user.email'][0] : null"
+      :error='!!errors["email"]'
+      :persistent-hint='!!errors["email"]'
+      :hint="errors['email'] ? errors['email'][0] : null"
       type='email'
     ></v-text-field>
     <v-text-field
@@ -40,8 +43,9 @@
       placeholder="****"
       filled
       rounded
-      :error='!!errors["user.password"]'
-      :hint="errors['user.password'] ? errors['user.password'][0] : null"
+      :error='!!errors["password"]'
+      :persistent-hint='!!errors["password"]'
+      :hint="errors['password'] ? errors['password'][0] : null"
       type='password'
     ></v-text-field>
     <v-select
@@ -49,8 +53,9 @@
       :items='countryList'
       filled
       rounded
-      :error='!!errors["user.countryCode"]'
-      :hint="errors['user.countryCode'] ? errors['user.countryCode'][0] : null"
+      :error='!!errors["country_code"]'
+      :persistent-hint='!!errors["country_code"]'
+      :hint="errors['country_code'] ? errors['country_code'][0] : null"
       label="Choose Country"
       item-text='name'
       item-value='code'
@@ -61,8 +66,9 @@
       placeholder="71928974001"
       filled
       rounded
-      :error='!!errors["user.mobileNo"]'
-      :hint="errors['user.mobileNo'] ? errors['user.mobileNo'][0] : null"
+      :error='!!errors["mobile_no"]'
+      :persistent-hint='!!errors["mobile_no"]'
+      :hint="errors['mobile_no'] ? errors['mobile_no'][0] : null"
     ></v-text-field>
   </div>
 </template>

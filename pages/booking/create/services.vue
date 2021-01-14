@@ -16,6 +16,18 @@
               {{ vehicleName }}
             </span>
           </h1>
+          <div
+            class='mb-10 text-center'
+            v-if='hasPaymentPlan'
+          >
+            <v-chip
+              filter
+              color='primary'
+            >
+              <v-icon class='mr-2'>mdi-check-decagram</v-icon>
+              <strong>4-Payments</strong>&nbsp; Plan have been Selected
+            </v-chip>
+          </div>
         </v-col>
       </v-row>
 
@@ -65,6 +77,7 @@
 
 <script>
 import BaseServiceGrid from '@/components/base-components/base-service-grid';
+import { mapState } from 'vuex';
 
 export default {
   components: {
@@ -72,6 +85,10 @@ export default {
   },
   
   props: ['motPrice', 'vehicleName'],
+
+  computed: {
+    ...mapState('booking', ['hasPaymentPlan']),
+  }
 }
 </script>
 

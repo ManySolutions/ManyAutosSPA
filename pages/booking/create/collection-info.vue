@@ -118,10 +118,21 @@
             @change='handleOtherChange'
           ></collection-info-other>
           <v-row justify="end">
+            <v-col v-if='errorMsg' cols=12 lg=6 xl=7>
+              <v-alert
+                color="red"
+                dense
+                text
+                type="error"
+              >
+                {{ errorMsg }}
+              </v-alert>
+            </v-col>
             <v-col cols=4 md=3 lg=2>
               <v-btn
                 @click="step = 3"
                 large
+                :block='isDevice.md'
               >
                 Back
               </v-btn>
@@ -188,7 +199,7 @@ export default {
       lng: null,
       note: '',
       user: {},
-      paymentPlanId: null,
+      has_payment_plan: false,
     },
 
     step: 1,
@@ -196,12 +207,13 @@ export default {
     isLoading: false,
 
     errors: {},
+    errorMsg: null,
   }),
 
   computed: {
-    ...mapGetters('booking', ['isCartEmpty']),
+    ...mapGetters('booking', ['isCartEmpty', 'hasPaymentPlan']),
     ...mapGetters('user', ['isAuth']),
-    ...mapState('user', ['info', 'paymentPlanId']),
+    ...mapState('user', ['info']),
     ...mapState('booking', ['cartContent', 'modelId']),
 
     isStep1Valid() {
@@ -244,7 +256,7 @@ export default {
     const { isCartEmpty } = this;
 
     if (isCartEmpty) this.$router.push('/booking/create');
-    this.form.paymentPlanId = this.paymentPlanId;
+    this.form.has_payment_plan = this.hasPaymentPlan;
   },
 
   methods: {
@@ -279,6 +291,7 @@ export default {
       if (!this.isFormValid) return
 
       this.isLoading = true;
+      this.errorMsg = null;
       const { form, cartContent, modelId } = this;
 
       createBooking({
@@ -291,6 +304,7 @@ export default {
 
           if (!status) {
             toastr.error('Failed: ' + message);
+            this.errorMsg = message;
             this.errors = errors;
 
             return data;
