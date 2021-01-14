@@ -23,7 +23,7 @@
           >
             <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-left">
               <img
-                src="https://static.manyautosltd.com/uploads/pexels-matheus-bertelli-799443.jpg"
+                src="https://static.manyautosltd.com/uploads/covid-road.jpg"
                 alt="car repair services installments during covid 19"
                 class="image-one pl-md-8"
               />
@@ -324,7 +324,7 @@
             <div class="about-thumb d-none d-lg-block text-center">
               <img
                 src="https://static.manyautosltd.com/uploads/covid-4.png"
-                alt="covid"
+                alt="car repair payment plan"
               />
               <v-btn x-large outlined color="secondary" to="/">
                 <strong> Book now with 4-Payments Plan </strong>

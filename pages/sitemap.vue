@@ -11,7 +11,7 @@
               Landing Page
             </h4>
           </a>
-          <div>
+          <div style="margin-bottom: 35px;">
             <v-btn
               text
               color='primary'
@@ -20,13 +20,13 @@
               :to="index.url"
               class='text-capitalize pl-0'
               block
-              style="display:inline-block; margin-bottom:10px;"
+              style="display:inline-block;"
             >
               {{ index.title }}
             </v-btn>
           </div>
           <a href="#help" id="help" class='has-hashed'>
-            <h4 class="text-left text-uppercase pb-5">
+            <h4 class="text-left text-uppercase pb-5 ">
               Help
             </h4>
           </a>
@@ -51,7 +51,7 @@
               Action Pages
             </h4>
           </a>
-          <div>
+          <div style="margin-bottom: 35px;">
             <v-btn
               text
               color='primary'
@@ -60,13 +60,13 @@
               :to="index.url"
               class='text-capitalize pl-0'
               block
-              style="display:inline-block; margin-bottom:10px;"
+              style="display:inline-block;"
             >
               {{ index.title }}
             </v-btn>
           </div>
           <a href="#help" id="help" class='has-hashed'>
-            <h4 class="text-left text-uppercase pb-5">
+            <h4 class="text-left text-uppercase pb-5 ">
               Locations
             </h4>
           </a>
