@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title='Car Repair During COVID 19 | Car Repair Installment Plan'
-    heading-bg='customer-v2/static-pages/registergarages.jpg'
+    headingBgStatic='https://static.manyautosltd.com/uploads/covid-cover.jpg'
   >
     <v-container class="covid-page" style="padding-top:50px; margin-bottom: 50px;">
       <v-row>
