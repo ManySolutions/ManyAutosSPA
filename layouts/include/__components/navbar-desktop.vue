@@ -18,9 +18,9 @@
       
       <template v-for='(menu, i) in navbarMenu'>
         <v-menu
+          v-if='menu.children'
           offset-y
           :key='i'
-          v-if='menu.children'
           open-on-hover
           eager
         >
@@ -48,13 +48,18 @@
         </v-menu>
         <v-btn
           v-else
-          text
-          color=primary
+          :text='!menu.btn'
+          :color='menu.color || `primary`'
           :key='i'
           :to='menu.url'
           class='text-capitalize font-weight-600'
+          :rounded='menu.rounded'
+          :plan='menu.plan'
+          :small='menu.small'
+          :elevation="menu.elevation"
         >
-          {{ menu.title }}
+          <v-icon v-if='menu.icon' small class='mr-2' color='primary'>{{menu.icon}}</v-icon>
+          <span class='primary--text'>{{ menu.title }}</span>
         </v-btn>
       </template>
       <navbar-user-menu></navbar-user-menu>
@@ -69,6 +74,16 @@ export default {
   components: { navbarUserMenu },
   data: () => ({
     navbarMenu: [
+      { 
+        title: "Covid19 Car Repair", 
+        url: "/car-repair-during-covid-19", 
+        btn: true,
+        rounded: true, 
+        icon: 'mdi-alert-decagram-outline',
+        small: false,
+        color: 'blue-grey darken-1',
+        elevation: 0,
+      },
       { title: "Car Services", url: "#", children: [
         { title: "Audi Car Service", url: "/audi-service" },
         { title: "BMW Car Service", url: "/BMW-service" },

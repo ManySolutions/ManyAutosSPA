@@ -2,7 +2,7 @@
   <div class='car-repair-plan-form'>
     <v-form @submit.prevent="handleSubmit()">
       <v-row>
-        <v-col cols=8>
+        <v-col cols=12 md=8>
           <v-text-field
             v-model='reg'
             label="Your car Reg No. here"
@@ -10,9 +10,10 @@
             outlined
             filled
             dark
+            hide-details
           ></v-text-field>
         </v-col>
-        <v-col cols=4>
+        <v-col cols=12 md=4>
           <v-btn x-large color="secondary" block :loading='isLoading' type="submit">
             <strong> Book now </strong>
           </v-btn>

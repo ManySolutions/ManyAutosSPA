@@ -16,15 +16,24 @@
         >
           <v-btn
             :to='item.url'
-            color='default'
+            :text='!item.btn'
+            :color='item.color || `default`'
+            :rounded='item.rounded'
+            :plan='item.plan'
+            :small='item.small'
+            :elevation="item.elevation"
             exact-active-class="primary--text"
-            text
             block
             class='text-capitalize text-left my-1'
             large
             @click="item.children ? handleGetChildren(i) : ''"
           >
-            <span class='w-100 font-weight-600'>
+            <span class='w-100 font-weight-600'
+              :class='item.textColor ? `${item.textColor}--text` : ``'
+            >
+              <v-icon v-if='item.icon' small class='mr-2' :color='item.textColor || `default`'>
+                {{item.icon}}
+              </v-icon>
               {{ item.title }}
             </span>
             <v-icon v-if='item.children'>mdi-chevron-right</v-icon>
@@ -118,6 +127,17 @@ export default {
         {title: 'Alternator', url: '/alternator'},
         {title: 'View More...', url: '/sitemap#car-repairs'},
       ]},
+      { 
+        title: "Covid19 Car Repair", 
+        url: "/car-repair-during-covid-19", 
+        btn: true,
+        rounded: true, 
+        icon: 'mdi-alert-decagram-outline',
+        small: true,
+        color: 'grey lighten-4',
+        elevation: 0,
+        textColor: 'primary'
+      },
       // {title: 'Contact Us', url: '/contact'},
     ],
     activeChild: null,
