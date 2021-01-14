@@ -10,7 +10,7 @@
         cols=5
         align-self="center"
       >
-        <v-btn
+        <!-- <v-btn
           text 
           color='teal lighten-6'
           class='pl-0 d-md-none'
@@ -24,6 +24,24 @@
           </v-icon>
           <span class="text-large">
             01189 876300
+          </span>
+        </v-btn> -->
+        <v-btn
+          text 
+          color='primary lighten-6'
+          class=' d-md-none'
+          to="/car-repair-during-covid-19"
+          elevation="0"
+          rounded
+        >
+          <v-icon 
+            dark
+            class='mr-1'
+          >
+           mdi-alert-decagram-outline
+          </v-icon>
+          <span class="text-small">
+            Covid19 Car Repair
           </span>
         </v-btn>
         <span class='d-none d-md-block'>
@@ -48,6 +66,16 @@
           <span class="text-large">
             01189 876300
           </span>
+        </v-btn>
+        <v-btn
+          text
+          style='min-width: 0px'
+          class='px-1 d-md-none'
+          href='tel:01189876300'
+        >
+          <v-icon color='teal lighten-6'>
+            mdi-cellphone-basic
+          </v-icon>
         </v-btn>
         <v-btn
           text
