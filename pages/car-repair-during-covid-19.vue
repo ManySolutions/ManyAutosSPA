@@ -151,7 +151,7 @@
                   <div class="service-content">
                     <h3 class='text-h6 font-weight-600'>Masks are compulsory</h3>
                     <p class="text-h6">
-                      All the employees and customers are supposed to wear masks
+                      All the employees and customers are required to wear masks
                       at all times. You won’t be allowed to enter the garage
                       without a face mask.
                     </p>
@@ -244,7 +244,7 @@
                   <div class="service-content">
                     <h3 class='text-h6 font-weight-600'>Checking for everyone’s safety</h3>
                     <p class="text-h6">
-                      We will check our employee's fever every day and look out
+                      We will check our employee's temperature for a fever every day and look out
                       for any symptoms regarding covid-19. This will be done for
                       your safety and your peace of mind.
                     </p>
@@ -297,10 +297,10 @@
             Online payment and receipts
           </h2>
           <p class="text-sec mt-4">
-            To avoid any contact, all the receipts and documents of your car
+            To avoid contact, all the receipts and documents of your car
             will be sent to you online. You can according to our 
             <strong>car repair payment plan</strong>, 
-            but all the payments would be done online.   
+            payments can be made online or via mobile terminal to avoid handling money.   
           </p>
         </v-col>
       </v-row>
@@ -356,8 +356,7 @@
                 </p>
                 <p class='text-sec'>
                   This <strong>vehicle servicing installments plan</strong> is
-                  devised for your ease and comfort. We don’t want your car to
-                  lose its charm during covid-19.
+                  devised for your ease and comfort.
                 </p>
                 <ul class="lab-ul">
                   <li>
@@ -384,9 +383,9 @@
                     </div>
                     <div class="ab-content">
                       <h3 class="text-h6 font-weight-600">Deposit</h3>
-                      <p  class='text-sec'>
-                        You have to pay a 25% deposit at the time of the service
-                        and the rest can be paid in installments for the next 4
+                      <p class='text-sec'>
+                        A 25% initial deposit is required and the rest can be paid in installments for the next
+                        4
                         months.
                       </p>
                     </div>
