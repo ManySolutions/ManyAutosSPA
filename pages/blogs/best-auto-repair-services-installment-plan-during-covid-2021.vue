@@ -43,10 +43,10 @@
        <p class="margin-bottom-10 text-justify text-teal">Our technicians follow the rules and stay 6 feet away from each other during the whole appointment.</p>
        <h2>Payment plans that we are offering</h2>
        <p>We have devised a suitable payment plan after considering the financial condition of many of our customers.
-         You can benefit from our <NuxtLink to='/car-repair-during-covid-19'>car repair payment plan</NuxtLink> during covid-19. The plan is that you can pay your dues in
+         You can benefit from our <NuxtLink to='/'>car repair payment plan</NuxtLink> during covid-19. The plan is that you can pay your dues in
          installments.
        </p>
-       <p>The <NuxtLink to='/car-repair-during-covid-19'>vehicle servicing installments plan</NuxtLink> is efficient for everyone. You just have to deposit 25% initial
+       <p>The <NuxtLink to='/car-service'>vehicle servicing installments plan</NuxtLink> is efficient for everyone. You just have to deposit 25% initial
          payment and the rest of the amount can be paid in installments for 4 or 6 months.</p>
        <p>This car repair pay later service is interest-free. No extra interest money would be charged from you except
          for the cost of the services that you booked.</p>
