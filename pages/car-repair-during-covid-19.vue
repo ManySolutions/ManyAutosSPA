@@ -326,7 +326,7 @@
                 src="https://static.manyautosltd.com/uploads/covid-4.png"
                 alt="car repair payment plan"
               />
-              <car-repair-during-covid-19-dialog></car-repair-during-covid-19-dialog>
+              <car-repair-during-covid-19-dialog v-if='isDevice.lg'></car-repair-during-covid-19-dialog>
             </div>
           </v-col>
           <v-col
@@ -427,19 +427,22 @@
                 </ul>
               </div>
               <div class="pt-10 text-center d-lg-none">
-                <car-repair-during-covid-19-dialog></car-repair-during-covid-19-dialog>
+                <car-repair-during-covid-19-dialog v-if='!isDevice.lg'></car-repair-during-covid-19-dialog>
               </div>
             </div>
           </v-col>
         </v-row>
       </v-container>
     </section>
+
+    <car-repair-during-covid-19-bar></car-repair-during-covid-19-bar>
   </page-layout>
 </template>
 
 <script>
 import PageLayout from "@/layouts/page-layout";
 import CarRepairDuringCovid19Dialog from './__components/car-repair-during-covid-19--dialog.vue';
+import CarRepairDuringCovid19Bar from './__components/car-repair-during-covid-19--bar.vue';
 
 const URL = process.env.APP_URL;
 
@@ -447,6 +450,7 @@ export default {
   components: {
     PageLayout,
     CarRepairDuringCovid19Dialog,
+    CarRepairDuringCovid19Bar,
   },
 
   head: {
