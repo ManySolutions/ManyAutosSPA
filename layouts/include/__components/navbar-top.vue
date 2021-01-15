@@ -8,6 +8,7 @@
     >
       <v-col 
         cols=5
+        md=7
         align-self="center"
       >
         <!-- <v-btn

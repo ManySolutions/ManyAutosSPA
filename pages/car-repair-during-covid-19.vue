@@ -21,14 +21,14 @@
             class="row align-items-center text-center booking"
             justify='center'
           >
-            <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-left">
+            <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-right">
               <img
                 src="https://static.manyautosltd.com/uploads/covid-road.jpg"
                 alt="car repair services installments during covid 19"
                 class="image-one pl-md-8"
               />
             </v-col>
-            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-1">
+            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-1 text-left">
               <h2 class="green2 text-h3 mb-7">
                 Helping You To Get Back On The Road
               </h2>
@@ -49,14 +49,14 @@
             class="row align-items-center text-center booking home-sec-gaps"
             justify='center'
           >
-            <v-col cols=12 md=6 xl=4 class="margin-top-25 text-md-right">
+            <v-col cols=12 md=6 xl=4 class="margin-top-25 text-md-left">
               <img
                 src="https://static.manyautosltd.com/uploads/open-in-covid19.jpg"
                 alt="open in covid19"
                 class="image-two pr-md-8"
               />
             </v-col>
-            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-2 order-md-2">
+            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-2 order-md-2 text-left">
               <h2 class="green2 text-h3 mb-7">We Are Open And Unaffected by COVID-19 </h2>
               <p class="text-sec mt-4">
                 Our garages are open and providing the services to maintain your
@@ -263,7 +263,7 @@
         class="row align-items-center text-center booking home-sec-gaps pb-0"
         justify='center'
       >
-        <v-col cols=12 md=6 xl=4 class="margin-top-25 text-md-right">
+        <v-col cols=12 md=6 xl=4 class="margin-top-25 text-md-left">
           <img
             src="https://app.manyautosltd.com/assets/customer-v2/static-pages/collection.jpg"
             alt="open in covid19"
@@ -285,14 +285,14 @@
         class="row align-items-center text-center booking home-sec-gaps"
         justify='center'
       >
-        <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-left">
+        <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-right">
           <img
             src="https://static.manyautosltd.com/uploads/online-payment.jpg"
             alt="car repair services installments during covid 19"
             class="image-one pl-md-8"
           />
         </v-col>
-        <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-1 text-md-right">
+        <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-1 text-md-left">
           <h2 class="green2 text-h3 mb-7">
             Online payment and receipts
           </h2>
@@ -326,7 +326,7 @@
                 src="https://static.manyautosltd.com/uploads/covid-4.png"
                 alt="car repair payment plan"
               />
-              <car-repair-during-covid-19-dialog></car-repair-during-covid-19-dialog>
+              <car-repair-during-covid-19-dialog v-if='isDevice.lg'></car-repair-during-covid-19-dialog>
             </div>
           </v-col>
           <v-col
@@ -427,19 +427,22 @@
                 </ul>
               </div>
               <div class="pt-10 text-center d-lg-none">
-                <car-repair-during-covid-19-dialog></car-repair-during-covid-19-dialog>
+                <car-repair-during-covid-19-dialog v-if='!isDevice.lg'></car-repair-during-covid-19-dialog>
               </div>
             </div>
           </v-col>
         </v-row>
       </v-container>
     </section>
+
+    <car-repair-during-covid-19-bar></car-repair-during-covid-19-bar>
   </page-layout>
 </template>
 
 <script>
 import PageLayout from "@/layouts/page-layout";
 import CarRepairDuringCovid19Dialog from './__components/car-repair-during-covid-19--dialog.vue';
+import CarRepairDuringCovid19Bar from './__components/car-repair-during-covid-19--bar.vue';
 
 const URL = process.env.APP_URL;
 
@@ -447,6 +450,7 @@ export default {
   components: {
     PageLayout,
     CarRepairDuringCovid19Dialog,
+    CarRepairDuringCovid19Bar,
   },
 
   head: {

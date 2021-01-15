@@ -1,7 +1,7 @@
 <template>
   <div class='navbar-container'>
     <navbar-top></navbar-top>
-    <navbar-mobile v-if='isMinDevice'></navbar-mobile>
+    <navbar-mobile v-if='!isDevice.lg'></navbar-mobile>
     <navbar-desktop v-else></navbar-desktop>
   </div>
 </template>
