@@ -211,10 +211,10 @@ export default {
   }),
 
   computed: {
-    ...mapGetters('booking', ['isCartEmpty', 'hasPaymentPlan']),
+    ...mapGetters('booking', ['isCartEmpty']),
     ...mapGetters('user', ['isAuth']),
     ...mapState('user', ['info']),
-    ...mapState('booking', ['cartContent', 'modelId']),
+    ...mapState('booking', ['cartContent', 'modelId', 'hasPaymentPlan']),
 
     isStep1Valid() {
       const { collection_date } = this.form;
