@@ -12,7 +12,7 @@
           :loading='isLoading'
           class="elevation-1"
         >
-          <template #item.actions='{ item }'>
+          <template item.actions='{ item }'>
             <div class="d-table">
               <div class='d-table-cell'>
                 <v-btn
