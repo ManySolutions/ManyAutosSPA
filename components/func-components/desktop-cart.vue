@@ -8,18 +8,7 @@
           <div class="overline mb-4 font-weight-600">
             YOUR ADDED SERVICES
           </div>
-          <div
-            class='mb-3'
-            v-if='hasPaymentPlan'
-          >
-            <v-chip
-              filter
-              color='primary'
-            >
-              <v-icon class='mr-2'>mdi-check-decagram</v-icon>
-              <strong>4-Payments</strong>&nbsp; Plan have been Selected
-            </v-chip>
-          </div>
+          <index-selected-payment-plan></index-selected-payment-plan>
           <!-- /paymist plan using -->
           <div>
             <v-skeleton-loader
@@ -140,14 +129,16 @@
 <script>
 // import $ from 'jquery';
 import { mapState, mapGetters, mapActions } from 'vuex';
+import indexSelectedPaymentPlan from '~/pages/booking/create/__components/index-selected-payment-plan.vue';
 
 export default {
+  components: { indexSelectedPaymentPlan },
   data: () => ({
     currencySymbol: process.env.CURRENCY_SYMBOL,
   }),
 
   computed: {
-    ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError', 'hasPaymentPlan']),
+    ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError']),
     ...mapState('user', ['']),
 
     ...mapGetters('booking', ['cartCount']),

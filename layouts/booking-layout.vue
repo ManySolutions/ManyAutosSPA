@@ -8,6 +8,9 @@
         <v-col>
           <h1 class='heading__title text-center pb-lg-5'>
             <slot name='title'></slot>
+            <index-selected-payment-plan
+              v-if='!isDevice.md'
+            ></index-selected-payment-plan>
           </h1>
         </v-col>
       </v-row>
@@ -42,8 +45,9 @@
 </template>
 <script>
 import desktopCart from '~/components/func-components/desktop-cart.vue'
+import IndexSelectedPaymentPlan from '~/pages/booking/create/__components/index-selected-payment-plan.vue'
 export default {
-  components: { desktopCart },
+  components: { desktopCart, IndexSelectedPaymentPlan },
   props: {
     breadcrumbs: [Array, Object],
   }
