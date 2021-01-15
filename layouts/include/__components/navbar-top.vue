@@ -34,7 +34,7 @@
           elevation="0"
           rounded
         >
-          <v-icon 
+          <v-icon
             dark
             class='mr-1'
           >
