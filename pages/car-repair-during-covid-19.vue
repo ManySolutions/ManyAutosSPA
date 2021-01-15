@@ -28,7 +28,7 @@
                 class="image-one pl-md-8"
               />
             </v-col>
-            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-1">
+            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-1 text-center">
               <h2 class="green2 text-h3 mb-7">
                 Helping You To Get Back On The Road
               </h2>
@@ -56,7 +56,7 @@
                 class="image-two pr-md-8"
               />
             </v-col>
-            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-2 order-md-2">
+            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-2 order-md-2 text-center">
               <h2 class="green2 text-h3 mb-7">We Are Open And Unaffected by COVID-19 </h2>
               <p class="text-sec mt-4">
                 Our garages are open and providing the services to maintain your
@@ -270,7 +270,7 @@
             class="image-two pr-md-8"
           />
         </v-col>
-        <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-2 order-md-2 text-md-left">
+        <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-2 order-md-2 text-md-center">
           <h2 class="green2 text-h3 mb-7">Collection and Delivery Service</h2>
           <p class="text-sec mt-4">
             We are providing you the collection and delivery service. We know
@@ -292,7 +292,7 @@
             class="image-one pl-md-8"
           />
         </v-col>
-        <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-1 text-md-right">
+        <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-1 text-md-center">
           <h2 class="green2 text-h3 mb-7">
             Online payment and receipts
           </h2>
