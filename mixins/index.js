@@ -16,9 +16,7 @@ export default {
       xl: false,
     },
     winSize: null,
-    apiUrl: process.client && window.location.hostname == 'localhost'
-      ? process.env.LOCAL_API_URL
-      : process.env.PRODUCTION_API_URL
+    apiUrl: process.env.API_URL,
   }),
 
   computed: {
@@ -73,14 +71,7 @@ export default {
 
   methods: {
     assets(url) {
-      let baseURL = process.env.PRODUCTION_ASSETS_URL;
-
-      if (process.client) {
-        if ( window.location.hostname == 'localhost' )
-          baseURL = process.env.LOCAL_ASSETS_URL
-      }
-
-      return baseURL + url;
+      return process.env.ASSETS_URL + url;
     },
   },
 

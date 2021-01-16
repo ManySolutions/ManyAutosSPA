@@ -1,5 +1,5 @@
 <template>
-  <div class='car-repair-plan-form'>
+  <div class='car-repair-plan-form' id='covidPlanForm'>
     <v-form @submit.prevent="handleSubmit()">
       <v-row>
         <v-col cols=12 md=8>
