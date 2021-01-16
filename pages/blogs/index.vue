@@ -69,6 +69,12 @@ export default {
           excerpt:'It is a very rare sight to see the whole world experiencing something together. Covid-19 has affected all 7.8 billion lives equally. The only way to survive is if we get through this ...',
           img: 'https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg',
           url: '/blogs/best-auto-repair-services-installment-plan-during-covid-2021'  
+        },
+        {
+          title:'6 Factors Show Why Our Garage Is The Best Option For You',
+          excerpt:'It is a difficult thing to trust anyone with our valuables. It is even more when it comes to our most valuable possession, that is our cars. A lot of trusts is required to send your car ...',
+          img: 'https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png',
+          url: '/blogs/6-factors-show-why-our-garage-is-the-best-option-for-you'  
         }
       ]
     }
