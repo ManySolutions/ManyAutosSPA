@@ -49,6 +49,7 @@
             Your services list
           </v-card-title>
           <v-card-text>
+            <index-selected-payment-plan></index-selected-payment-plan>
             <v-skeleton-loader
               v-if='isCartLoading'
               type='list-item, list-item, list-item'
@@ -165,8 +166,10 @@
 import $ from 'jquery';
 import { mapState, mapGetters, mapActions } from 'vuex';
 import { getCartInstance } from '~/api/cart';
+import IndexSelectedPaymentPlan from '~/pages/booking/create/__components/index-selected-payment-plan.vue';
 
 export default {
+  components: { IndexSelectedPaymentPlan, },
   data: () => ({
     drawer: false,
     currencySymbol: process.env.CURRENCY_SYMBOL,

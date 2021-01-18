@@ -67,7 +67,7 @@ export default {
     totalBookings: 30,
   }),
 
-  watch: {
+  watch: { 
     options: {
       handler(options) {
         console.log(options)

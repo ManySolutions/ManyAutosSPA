@@ -67,8 +67,19 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
   ],
-
+  sitemap: {
+    hostname: 'https://manyautosltd.com/',
+    gzip: true,
+    exclude: [
+      '/my',
+      '/test',
+      '/booking/**',
+      '/my\booking/**'
+    ],
+  },
+  
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 

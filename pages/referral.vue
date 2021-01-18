@@ -102,6 +102,8 @@
                 v-model="text1" ref="textToCopy"
                 single-line
                 outlined
+                solo
+                readonly
           ></v-text-field>
             </div>
             <div>
