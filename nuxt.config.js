@@ -57,6 +57,8 @@ export default {
     '@nuxtjs/vuetify',
 
     '@nuxtjs/google-fonts',
+
+    'nuxt-compress',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -121,9 +123,9 @@ export default {
         wght: [300, 400, 600, 700, 800],
         ital: [400]
       },
-      // Montserrat: {
-      //   wght: [200, 300, 500, 600, 700, 800],
-      // },
+      Montserrat: {
+        wght: [300, 600, 700, 800],
+      },
       Roboto: {
         wght: [200, 300, 400, 600, 800],
       },
