@@ -11,6 +11,7 @@
             filled
             dark
             hide-details
+            class='reg-input'
           ></v-text-field>
         </v-col>
         <v-col cols=12 md=4>
@@ -62,5 +63,10 @@ export default {
 .car-repair-plan-form {
   max-width: 500px;
   margin: 0px auto;
+}
+.reg-input ::v-deep input {
+  font-size: 20px; 
+  text-transform: uppercase;
+  margin-top: 0;
 }
 </style>

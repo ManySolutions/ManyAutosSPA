@@ -9,7 +9,7 @@
         color='primary'
       >
         <v-icon class='mr-2'>mdi-check-decagram</v-icon>
-        <strong>4-Payments</strong>&nbsp; Plan have been Selected
+        <strong>3 Installments</strong>&nbsp; Plan has been Selected
       </v-chip>
     </div>
   </client-only>
