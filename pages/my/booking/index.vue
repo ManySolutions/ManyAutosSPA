@@ -89,5 +89,9 @@ export default {
       }).finally(() => this.isLoading = false);
     }
   },
+
+  head: {
+    title: 'All Bookings | ManyAutos LTD'
+  },
 }
 </script>

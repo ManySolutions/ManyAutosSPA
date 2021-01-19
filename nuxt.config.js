@@ -6,7 +6,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - ManyAutos',
+    titleTemplate: '%s',
     title: 'ManyAutos',
     meta: [
       { charset: 'utf-8' },
@@ -67,18 +67,11 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+
+    '@nuxtjs/gtm',
+    
     '@nuxtjs/sitemap',
   ],
-  sitemap: {
-    hostname: 'https://manyautosltd.com/',
-    gzip: true,
-    exclude: [
-      '/my',
-      '/test',
-      '/booking/**',
-      '/my\booking/**'
-    ],
-  },
   
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
@@ -147,12 +140,30 @@ export default {
     preload: true,
   },
 
+  gtm: {
+    id: 'GTM-PNBGDT6'
+  },
+
 
   watchers: {
     webpack: {
       // poll: 1000,
       ignored: ['node_modules']
     }
+  },
+
+
+  sitemap: {
+    // gzip: true,
+    exclude: [
+      '/my',
+      '/my/**',
+      '/test',
+      '/booking/**',
+      '/referral',
+      '/sitemap',
+      '/register-your-garage/**'
+    ],
   },
 
 

@@ -65,6 +65,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -140,6 +142,20 @@ export default {
       // poll: 1000,
       ignored: ['node_modules']
     }
+  },
+
+
+  sitemap: {
+    // gzip: true,
+    exclude: [
+      '/my',
+      '/my/**',
+      '/test',
+      '/booking/**',
+      '/referral',
+      '/sitemap',
+      '/register-your-garage/**'
+    ],
   },
 
 

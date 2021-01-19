@@ -44,6 +44,10 @@ export default {
     subTitle: String,
     cls: String,
   },
+  
+  head: {
+    titleTemplate: '%s | ManyAutos LTD',
+  },
 }
 </script>
 

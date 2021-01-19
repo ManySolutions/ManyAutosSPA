@@ -24,6 +24,69 @@ export default {
  components: {
     CarRegFormCard,
   },
+
+  head: {
+    title: 'Book Your Car Service With Us Now | ManyAutos LTD',
+
+    meta: [
+      {
+        name: 'description', 
+        content: 'We repair and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+      },
+      {
+        name: 'keywords', 
+        content: 'abs controllers, new abs Controllers, abs controllers repair, abs sensor replace, abs controllers replacement'
+      },
+      {
+        property: "og:title", 
+        content: "ABS Controllers | ManyAutos LTD"
+      },
+      {
+        property: "og:type", 
+        content: "website"
+      },
+      {
+        property: "og:url", 
+        content: URL
+      },
+      {
+        property: "og:image", 
+        content: "logo-default.png"
+      },
+      {
+        property: "og:site_name", 
+        content: "ManyAutos LTD"
+      },
+      {
+        property: "og:description", 
+        content: "We repair and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+      },
+      {
+        name: "twitter:card", 
+        content: "summary"
+      },
+      {
+        name: "twitter:title", 
+        content: "ABS Controllers | ManyAutos LTD"
+      },
+      {
+        name: "twitter:description", 
+        content: "We repair and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+      },
+      {
+        name: "twitter:image", 
+        content: "logo-default.png"
+      },
+      {
+        itemprop: "image", 
+        content: "logo-default.png"
+      },
+      {
+        property: "og:type", 
+        content: "business.business"
+      },
+    ]
+  }
 }
 </script>
 
