@@ -18,10 +18,6 @@ export default {
     ],
     script: [
       {
-        src: 'https://www.googletagmanager.com/gtag/js?id=UA-175329070-1',
-        async: true,
-      },
-      {
         src: 'https://static.manyautosltd.com/assets/smartsupp.js',
         async: true,
       },
@@ -121,6 +117,15 @@ export default {
     // }
   },
 
+  "nuxt-compress": {
+    gzip: {
+      cache: true
+    },
+    brotli: {
+      threshold: 10240
+    }
+  },
+
   googleFonts: {
     families: {
       'Open+Sans': {
@@ -154,6 +159,7 @@ export default {
 
 
   sitemap: {
+    hostname: 'https://manyautosltd.com',
     // gzip: true,
     exclude: [
       '/my',
@@ -170,7 +176,7 @@ export default {
   env: {
     ENVIRONMENT: 'development',
     CURRENCY_SYMBOL: '£',
-    APP_URL: 'http://www.manyautosltd.com',
+    APP_URL: 'https://manyautosltd.com',
     API_URL: 'https://app.manyautosltd.com/api/v2/c/',
     ASSETS_URL: 'https://app.manyautosltd.com/assets/',
     RECAPTCHA_SITE_KEY: '6LdIdBcaAAAAAGoHmtHlYIa7vSFbJ4Ja0_gQCBlX',

@@ -18,10 +18,6 @@ export default {
     ],
     script: [
       {
-        src: 'https://www.googletagmanager.com/gtag/js?id=UA-175329070-1',
-        async: true,
-      },
-      {
         src: 'https://static.manyautosltd.com/assets/smartsupp.js',
         async: true,
       },
