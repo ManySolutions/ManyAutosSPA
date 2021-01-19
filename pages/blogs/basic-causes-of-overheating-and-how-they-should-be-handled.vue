@@ -78,7 +78,8 @@ export default {
 
     meta: [
       {
-        hid: 'description', name: 'description', 
+        hid: "description",
+        name: 'description', 
         content: 'Browse the blog to know about the causes of overheating and how you can attain your car fuel pump repair services online at lowest rate during this COVID pandemic.'
       },
       {
