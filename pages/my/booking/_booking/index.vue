@@ -180,7 +180,11 @@ export default {
         .catch(err => toastr.error('Error while fetching records: '+ err ))
         .finally(() => this.isLoading = false)
     }
-  }
+  },
+
+  head: {
+    title: 'Booking Details | ManyAutos LTD'
+  },
 }
 </script>
 

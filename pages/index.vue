@@ -222,7 +222,6 @@ export default {
             sameAs: [
               "https://www.facebook.com/manyautos.co.uk",
               "https://twitter.com/manyautos",
-              "https://www.instagram.com/manyauto/",
             ],
           },
           logo: {

@@ -18,10 +18,6 @@ export default {
     ],
     script: [
       {
-        src: 'https://www.googletagmanager.com/gtag/js?id=UA-175329070-1',
-        async: true,
-      },
-      {
         src: 'https://static.manyautosltd.com/assets/smartsupp.js',
         async: true,
       },
@@ -65,6 +61,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -121,9 +119,9 @@ export default {
         wght: [300, 400, 600, 700, 800],
         ital: [400]
       },
-      // Montserrat: {
-      //   wght: [200, 300, 500, 600, 700, 800],
-      // },
+      Montserrat: {
+        wght: [300, 600, 700, 800],
+      },
       Roboto: {
         wght: [200, 300, 400, 600, 800],
       },
@@ -140,6 +138,20 @@ export default {
       // poll: 1000,
       ignored: ['node_modules']
     }
+  },
+
+
+  sitemap: {
+    // gzip: true,
+    exclude: [
+      '/my',
+      '/my/**',
+      '/test',
+      '/booking/**',
+      '/referral',
+      '/sitemap',
+      '/register-your-garage/**'
+    ],
   },
 
 

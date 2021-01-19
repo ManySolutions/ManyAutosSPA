@@ -32,24 +32,6 @@ export default ({ app }) => {
    */
   ga('create', 'UA-103265211-1', 'auto')
 
-
-  /**
-   * Google Tag Code
-   */
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-  gtag("config", "UA-175329070-1");
-  // Google Tag Manager
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-NSDC9RR');
-  // End Google Tag Manager
-
   /*
    ** Every time the route changes (fired on initialization too)
    */
@@ -59,7 +41,5 @@ export default ({ app }) => {
      */
     ga('set', 'page', to.fullPath)
     ga('send', 'pageview')
-
-    gtag("js", new Date());
   })
 }

@@ -15,9 +15,9 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
@@ -49,7 +49,7 @@ h1.heading__title, .h1.heading__title {
   }
 }
 .heading__title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-transform: capitalize;
   line-height: initial;
@@ -67,7 +67,7 @@ h1.heading__title, .h1.heading__title {
     }
   }
   .heading__span {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     color: theme-color('primary');
   }

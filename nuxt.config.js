@@ -6,7 +6,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - ManyAutos',
+    titleTemplate: '%s',
     title: 'ManyAutos',
     meta: [
       { charset: 'utf-8' },
@@ -17,10 +17,6 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      {
-        src: 'https://www.googletagmanager.com/gtag/js?id=UA-175329070-1',
-        async: true,
-      },
       {
         src: 'https://static.manyautosltd.com/assets/smartsupp.js',
         async: true,
@@ -57,6 +53,8 @@ export default {
     '@nuxtjs/vuetify',
 
     '@nuxtjs/google-fonts',
+
+    'nuxt-compress',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -65,6 +63,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+<<<<<<< HEAD
     '@nuxtjs/sitemap'
   ],                                                                                                                                                                  
   sitemap: {
@@ -75,6 +74,13 @@ export default {
     //   '/booking',
     // ],
   },
+=======
+
+    '@nuxtjs/gtm',
+    
+    '@nuxtjs/sitemap',
+  ],
+>>>>>>> 3e63a847ce454b01f99020b88edb7a92bf6f9c7b
   
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
@@ -124,15 +130,24 @@ export default {
     // }
   },
 
+  "nuxt-compress": {
+    gzip: {
+      cache: true
+    },
+    brotli: {
+      threshold: 10240
+    }
+  },
+
   googleFonts: {
     families: {
       'Open+Sans': {
         wght: [300, 400, 600, 700, 800],
         ital: [400]
       },
-      // Montserrat: {
-      //   wght: [200, 300, 500, 600, 700, 800],
-      // },
+      Montserrat: {
+        wght: [300, 600, 700, 800],
+      },
       Roboto: {
         wght: [200, 300, 400, 600, 800],
       },
@@ -141,6 +156,10 @@ export default {
     display: 'swap',
 
     preload: true,
+  },
+
+  gtm: {
+    id: 'GTM-PNBGDT6'
   },
 
 
@@ -152,10 +171,25 @@ export default {
   },
 
 
+  sitemap: {
+    hostname: 'https://manyautosltd.com',
+    // gzip: true,
+    exclude: [
+      '/my',
+      '/my/**',
+      '/test',
+      '/booking/**',
+      '/referral',
+      '/sitemap',
+      '/register-your-garage/**'
+    ],
+  },
+
+
   env: {
     ENVIRONMENT: 'development',
     CURRENCY_SYMBOL: '£',
-    APP_URL: 'http://www.manyautosltd.com',
+    APP_URL: 'https://manyautosltd.com',
     API_URL: 'https://app.manyautosltd.com/api/v2/c/',
     ASSETS_URL: 'https://app.manyautosltd.com/assets/',
     RECAPTCHA_SITE_KEY: '6LdIdBcaAAAAAGoHmtHlYIa7vSFbJ4Ja0_gQCBlX',
