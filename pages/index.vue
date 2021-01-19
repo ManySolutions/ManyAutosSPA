@@ -60,7 +60,7 @@
       <index-our-services></index-our-services>
       <index-car-parts></index-car-parts>
       <car-reg-form></car-reg-form>
-      <!-- <index-reviews></index-reviews> -->
+      <index-reviews></index-reviews>
       <index-faq></index-faq>
     </v-row>
     <index-services></index-services>
