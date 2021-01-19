@@ -5,6 +5,26 @@
   >
     <subscribe-popup></subscribe-popup>
     <request-quote-popup></request-quote-popup>
+     <v-btn
+            class="ma-2 mt-7"
+            color="purple"
+            target="_blank"
+            @click="openWin();"
+            dark
+            x-large
+            block
+        > 
+        <v-icon
+        class="fb-btn mr-2"
+            dark
+            left
+            large
+        >
+            mdi-facebook
+
+        </v-icon>
+            Share on faceBook
+      </v-btn>
   </page-layout>
 </template>
 
@@ -21,7 +41,15 @@ export default {
     SubscribePopup,
     RequestQuotePopup,
   },
-
+ methods: {
+        
+        openWin() {
+            window.open("https://www.facebook.com/sharer/sharer.php?u=https://manyautosltd.com/blogs/basic-causes-of-overheating-and-how-they-should-be-handled", "myWindow", "width=200,height=100");
+        },
+        openWinTwo() {
+            window.open("https://twitter.com/intent/tweet?url=https://www.manyautosltd.com&text=", "myWindow", "width=200,height=100");
+        }
+      },
   head: {
     title: 'Test',
 

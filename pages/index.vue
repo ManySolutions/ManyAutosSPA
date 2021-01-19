@@ -218,11 +218,11 @@ export default {
               "https://app.manyautosltd.com/assets/customer-v2/logo-default.png",
             url: "https://www.manyautosltd.com/",
             description:
-              "Do you need  Car servicing, MOT or Repair Work? Compare prices across 15,158 local garages and specialists with WhoCanFixMyCar.com.",
+              "Do you need  Car servicing, MOT or Repair Work? Compare our prices with other garages.",
             sameAs: [
-              "https://www.facebook.com/whocanfixmycar",
-              "https://twitter.com/whocanfixmycar",
-              "https://www.linkedin.com/company/who-can-fix-my-car",
+              "https://www.facebook.com/manyautos.co.uk",
+              "https://twitter.com/manyautos",
+              "https://www.instagram.com/manyauto/",
             ],
           },
           logo: {
