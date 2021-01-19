@@ -89,7 +89,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'You should focus on the sounds made by your vehicle, as they tell you about your vehicle’s condition. Learn more about the signs that mean you need a new fuel or water pump.'
       },
       {

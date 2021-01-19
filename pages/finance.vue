@@ -81,7 +81,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Interest-free finance packages are available over a 3, 4, 5, or 6 months basis, allowing you to budget effectively. Applying is quick and easy, and we can advise you if you are eligible within 5 minutes.'
       },
       {

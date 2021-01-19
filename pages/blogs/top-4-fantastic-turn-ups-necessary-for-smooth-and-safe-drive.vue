@@ -75,7 +75,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Regular turn ups are important for a risk-free drive. They can benefit you in multiple ways. Read to more about the benefits of regular maintenance and repairs.'
       },
       {

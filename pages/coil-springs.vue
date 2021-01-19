@@ -185,7 +185,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'We repair and replace Coil Springs for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
       },
       {

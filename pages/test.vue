@@ -55,7 +55,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300.'
       },
       {

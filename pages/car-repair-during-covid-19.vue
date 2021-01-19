@@ -458,7 +458,7 @@ export default {
 
     meta: [
       {
-        name: "description",
+        hid: 'description', name: 'description',
         content:
           "We provide our customers with a risk-free environment. We are concerned for you and want to help you during covid-19. We are offering an affordable payment plan for you.",
       },

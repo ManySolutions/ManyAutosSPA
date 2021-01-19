@@ -76,7 +76,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Get a FREE car exhaust check and find out more about the range of exhaust services like car exhaust repair,car exhaust fitting, Exhaust cleaning, car exhaust replacement in Reading. Book right now an exhaust fitting at low cost in our Reading workshop UK'
       },
       {

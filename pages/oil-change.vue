@@ -388,7 +388,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Many Autos aim to provide you the best prices for the oil change through out the UK.  Our centres are highly qualified for it.'
       },
       {

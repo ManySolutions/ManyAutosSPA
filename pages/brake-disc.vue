@@ -209,7 +209,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'We carry out brake pads replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . We only use oem quality brake pads and our aim is to provide you the best prices and service through out the UK'
       },
       {

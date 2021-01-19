@@ -83,7 +83,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more.Our trained technicians quickly identify the problem and stop costly component failures.'
       },
       {

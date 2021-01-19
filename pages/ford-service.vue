@@ -1201,7 +1201,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Ford service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
       },
       {

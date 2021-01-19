@@ -111,7 +111,13 @@ export default {
 
     meta: [
       {
-        name: "description",
+        hid: 'description', name: 'description',
+        content:
+          "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
+      },
+      {
+        hid: "og:description",
+        name: "og:description",
         content:
           "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
       },

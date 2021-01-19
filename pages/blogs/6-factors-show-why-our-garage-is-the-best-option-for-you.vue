@@ -79,7 +79,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'You should consider certain factors before choosing a garage. Those factors affect you & the service of your car. Read to know why our garage is the best option for you.'
       },
       {

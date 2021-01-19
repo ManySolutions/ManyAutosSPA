@@ -430,7 +430,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Get a FREE car exhaust check and find out more about the range of exhaust repair, exhaust fitting, Exhaust cleaning, exhaust replacement. Book right now with competitive price'
       },
       {

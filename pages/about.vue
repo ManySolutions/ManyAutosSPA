@@ -58,7 +58,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'A company responsible for your car’s repair & maintenance. We provide you with the best & affordable services. Click to know about our company & our reliable employees.'
       },
       {

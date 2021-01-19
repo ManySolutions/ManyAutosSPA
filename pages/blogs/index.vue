@@ -92,7 +92,7 @@ export default {
 
      meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Now you can get in depth knowledge for safe and smooth car repair services & online car garages. Browse and learn everything about vehicle diagnostics with solution.'
       },
       {

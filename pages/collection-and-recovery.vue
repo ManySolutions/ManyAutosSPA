@@ -77,7 +77,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Many Autos LTD cover all aspects of car maintenance and offer collection and recovery services in UK. Vehicle delivery and recovery gives the ultimate convenience of the car coming to you.Call Many Autos today on 01189 876300 via our Contact page for more information on our full range of services.'
       },
       {

@@ -169,7 +169,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'These terms and conditions apply to all the services offered on our website. You may read it carefully before you start using the site.'
       },
       {

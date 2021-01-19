@@ -166,7 +166,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'We will provide you free collection and delivery, if you book service with us. You can book your service online or give us a call on 01189 876300 to speak to advisor to book the service'
       },
       {

@@ -159,7 +159,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'Manyautos prioritize your privacy & your concerns. We keep all of your data safe & prevent it from getting used wrongly. Learn more about your rights & how we protect your data.'
       },
       {

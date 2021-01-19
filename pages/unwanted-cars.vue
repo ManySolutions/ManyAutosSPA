@@ -246,7 +246,7 @@ export default {
 
     meta: [
       {
-        name: 'description', 
+        hid: 'description', name: 'description', 
         content: 'We repair and replace Car key arm for all makes and models in United Kingdom.'
       },
       {
