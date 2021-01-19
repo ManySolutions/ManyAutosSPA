@@ -1,30 +1,16 @@
 <template>
   <div>
-    <div class="owl-carousel">
-      <slot></slot>
-    </div>
   </div>
 </template>
 
 <script>
+// import $ from 'jquery';
 
 export default {
+  components: {
+  },
+
   head: {
-    script: [
-      {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'
-      },
-    ],
-    link: [
-      {
-        rel: 'stylesheet',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'
-      },
-    ]
   },
 
   props: {
@@ -32,27 +18,6 @@ export default {
   },
 
   mounted() {
-    $(document).ready(function(){
-      $(".owl-carousel").owlCarousel({
-        loop:true,
-        margin:10,
-        nav:false,
-        dots: false,
-        autoheight: true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        },
-        ...this.options
-      });
-    });
   }
 }
 </script>

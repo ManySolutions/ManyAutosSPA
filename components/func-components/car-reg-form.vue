@@ -11,14 +11,16 @@
         <v-row>
           <v-col cols=7>
             <v-text-field
-              label="Your car reg"
+              :label="large?null:`Your Car Reg`"
+              :placeholder="large?`YOUR CAR REG HERE`:null"
               outlined
               hide-details
               v-model='reg'
-              height='44px'
               dense
               background-color="white"
               class='font-weight-600'
+              :class='large?`input-is-large`:``'
+              :height='large?`54px`:`44px`'
             ></v-text-field>
             <small v-if='error' class='red--text'>
               {{ errorMessage }}
@@ -31,6 +33,7 @@
               :color='hasBgImage ? "primary" : "secondary"'
               block
               large
+              :x-large='large'
               type='submit'
               :loading='isLoading'
             >
@@ -67,6 +70,8 @@ export default {
   props: {
     hasActiveCar: Boolean,
     hasBgImage: Boolean,
+    hasNoBg: Boolean,
+    large: Boolean,
   },
 
   data: () => ({
@@ -83,6 +88,8 @@ export default {
         : ''
     },
     bgCls() {
+      if (this.hasNoBg) return '';
+
       return this.hasBgImage
         ? `reg-bg-image`
         : `reg-bg-simple`
@@ -161,5 +168,11 @@ export default {
     z-index: 1;
     position: relative;
   }
+}
+.input-is-large ::v-deep input {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 </style>
