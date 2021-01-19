@@ -68,7 +68,7 @@ export default {
     '@nuxtjs/sitemap',
   ],
   sitemap: {
-    hostname: 'http://localhost:3030',
+    hostname: 'https://manyautosltd.com/',
     gzip: true,
     exclude: [
       '/my',
