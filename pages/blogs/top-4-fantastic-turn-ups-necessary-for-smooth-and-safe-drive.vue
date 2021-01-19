@@ -44,7 +44,7 @@
         MOT. The passing of the test depends on the condition of your car. If you want to book a <NuxtLink to='/mot'>mot in Reading</NuxtLink>, UK, you
         can visit our website and book an MOT for your car. We have our MOT centers with DVSA approved professionals.
       </p>
-       <p class="margin-bottom-10 text-justify text-teal">Our garages are the best for <NuxtLink to='/'>car repair in Reading</NuxtLink>, UK. We
+       <p class="margin-bottom-10 text-justify text-teal">Our garages are the best for <NuxtLink to='/clutch-replacement'>car repair in Reading</NuxtLink>, UK. We
          provide honest and authentic car maintenance services.
       </p>
 
