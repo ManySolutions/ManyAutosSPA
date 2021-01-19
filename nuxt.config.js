@@ -63,24 +63,11 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-<<<<<<< HEAD
-    '@nuxtjs/sitemap'
-  ],                                                                                                                                                                  
-  sitemap: {
-    // exclude: [
-    //   '/my',
-    //   '/test',
-    //   '/booking/**',
-    //   '/booking',
-    // ],
-  },
-=======
 
     '@nuxtjs/gtm',
     
     '@nuxtjs/sitemap',
   ],
->>>>>>> 3e63a847ce454b01f99020b88edb7a92bf6f9c7b
   
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
