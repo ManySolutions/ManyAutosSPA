@@ -65,8 +65,19 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
   ],
-
+  sitemap: {
+    hostname: 'http://localhost:3030',
+    gzip: true,
+    exclude: [
+      '/my',
+      '/test',
+      '/booking/**',
+      '/my\booking/**'
+    ],
+  },
+  
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 

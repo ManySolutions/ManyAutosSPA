@@ -6,7 +6,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - ManyAutos',
+    titleTemplate: '%s',
     title: 'ManyAutos',
     meta: [
       { charset: 'utf-8' },
