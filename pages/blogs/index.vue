@@ -120,7 +120,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        property: "og:description", 
+        hid: 'og:description', name: 'og:description', property: 'og:description', 
         content: "Now you can get in depth knowledge for safe and smooth car repair services & online car garages. Browse and learn everything about vehicle diagnostics with solution."
       },
       {

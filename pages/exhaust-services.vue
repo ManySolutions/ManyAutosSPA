@@ -104,7 +104,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        property: "og:description", 
+        hid: 'og:description', name: 'og:description', property: 'og:description', 
         content: "Get a FREE car exhaust check and find out more about the range of exhaust services like car exhaust repair,car exhaust fitting, Exhaust cleaning, car exhaust replacement in Reading. Book right now an exhaust fitting at low cost in our Reading workshop UK"
       },
       {

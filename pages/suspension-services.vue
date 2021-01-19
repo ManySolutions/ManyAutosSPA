@@ -102,7 +102,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        property: "og:description", 
+        hid: 'og:description', name: 'og:description', property: 'og:description', 
         content: "Many Autos LTD expert technician fix suspension problems right now. Our offers services Suspension ARMS, Suspension Bushes, Shock Absorbers, Coil Springs, suspension repair & suspension replacement and free check in Reading."
       },
       {

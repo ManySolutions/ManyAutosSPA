@@ -106,7 +106,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        property: "og:description", 
+        hid: 'og:description', name: 'og:description', property: 'og:description', 
         content: "Browse the blog to know about the causes of overheating and how you can attain your car fuel pump repair services online at lowest rate during this COVID pandemic."
       },
       {

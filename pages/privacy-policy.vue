@@ -187,7 +187,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        property: "og:description", 
+        hid: 'og:description', name: 'og:description', property: 'og:description', 
         content: "Manyautos prioritize your privacy & your concerns. We keep all of your data safe & prevent it from getting used wrongly. Learn more about your rights & how we protect your data."
       },
       {

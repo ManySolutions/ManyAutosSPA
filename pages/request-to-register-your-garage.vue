@@ -214,7 +214,7 @@ export default {
         content: "ManyAutos LTD",
       },
       {
-        property: "og:description",
+        hid: 'og:description', name: 'og:description', property: 'og:description',
         content:
           "Is your car or other vehicle need an MOT test? Are you looking for a best deal with peace of mind? You can book you MOT with us and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online or by calling us at 01189 876300.",
       },

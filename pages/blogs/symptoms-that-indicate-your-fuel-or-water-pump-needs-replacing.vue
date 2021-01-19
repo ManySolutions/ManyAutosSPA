@@ -117,7 +117,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        property: "og:description", 
+        hid: 'og:description', name: 'og:description', property: 'og:description', 
         content: "You should focus on the sounds made by your vehicle, as they tell you about your vehicle’s condition. Learn more about the signs that mean you need a new fuel or water pump."
       },
       {

@@ -116,12 +116,6 @@ export default {
           "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
       },
       {
-        hid: "og:description",
-        name: "og:description",
-        content:
-          "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
-      },
-      {
         name: "keywords",
         content:
           "car services, car maintenance, vehicle repair, car repair, car mechanic, car garage in uk, online repair center, Mot and repair center",
@@ -149,7 +143,7 @@ export default {
         content: "ManyAutos LTD",
       },
       {
-        property: "og:description",
+        hid: 'og:description', name: 'og:description', property: 'og:description',
         content:
           "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
       },

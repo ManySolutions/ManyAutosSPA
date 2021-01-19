@@ -92,7 +92,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        property: "og:description", 
+        hid: 'og:description', name: 'og:description', property: 'og:description', 
         content: "Many Autos LTD offers Steering repair & Steering replacement and free check steering in Reading. Our expert technician fix Vehicle steering problems in cheap rates. Call us right now or click here for more detail."
       },
       {

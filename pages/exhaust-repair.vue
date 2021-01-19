@@ -458,7 +458,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        property: "og:description", 
+        hid: 'og:description', name: 'og:description', property: 'og:description', 
         content: "Get a FREE car exhaust check and find out more about the range of exhaust repair, exhaust fitting, Exhaust cleaning, exhaust replacement. Book right now with competitive price"
       },
       {

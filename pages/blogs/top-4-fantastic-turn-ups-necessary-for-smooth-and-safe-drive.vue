@@ -103,7 +103,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        property: "og:description", 
+        hid: 'og:description', name: 'og:description', property: 'og:description', 
         content: "Regular turn ups are important for a risk-free drive. They can benefit you in multiple ways. Read to more about the benefits of regular maintenance and repairs."
       },
       {

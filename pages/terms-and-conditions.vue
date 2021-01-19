@@ -197,7 +197,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        property: "og:description", 
+        hid: 'og:description', name: 'og:description', property: 'og:description', 
         content: "These terms and conditions apply to all the services offered on our website. You may read it carefully before you start using the site."
       },
       {
