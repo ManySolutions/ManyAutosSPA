@@ -14,36 +14,41 @@
           cols=12
           class='mb-4'
         >
-          <base-owl-carousel>
-            <v-sheet
-              v-for="(review, i) in reviews"
-              :key="i"
-              height="100%"
-              class='py-4'
-              color="blue-grey darken-2"
-              dark
-            >
-              <v-row
-                justify="center"
-                align="center"
-                class='fill-height'
+          <client-only>
+            <carousel :perPageCustom="[[480, 2], [768, 3]]" :pagination='false'>
+              <slide
+                v-for="(review, i) in reviews"
+                :key="i"
               >
-                <v-col>
-                  <p class='text-center px-3 font-weight-300 font-19'>
-                    "{{ review.content }}" 
-                  </p>
-                  <h5 class="text-h6 card-title text-center">
-                    <span class='text-primary'>
-                      {{ review.name }}
-                    </span>
-                    <small>
-                      {{ review.date }}
-                    </small>
-                  </h5>
-                </v-col>
-              </v-row>
-            </v-sheet>
-          </base-owl-carousel>
+                <v-sheet
+                  height="100%"
+                  class='py-4 mx-3'
+                  color="blue-grey darken-2"
+                  dark
+                >
+                  <v-row
+                    justify="center"
+                    align="center"
+                    class='fill-height'
+                  >
+                    <v-col>
+                      <p class='text-center px-3 font-weight-300 font-19'>
+                        "{{ review.content }}" 
+                      </p>
+                      <h5 class="text-h6 card-title text-center">
+                        <span class='text-primary'>
+                          {{ review.name }}
+                        </span>
+                        <small>
+                          {{ review.date }}
+                        </small>
+                      </h5>
+                    </v-col>
+                  </v-row>
+                </v-sheet>
+              </slide>
+            </carousel>
+          </client-only>
         </v-col>
       </v-row>
     </v-container>
@@ -51,9 +56,8 @@
 </template>
 
 <script>
-import baseOwlCarousel from '~/components/base-components/base-owl-carousel.vue'
 export default {
-  components: { baseOwlCarousel },
+  components: { },
   data: () => ({
     model: 0,
     reviews: [
@@ -114,6 +118,9 @@ export default {
     .heading__title {
       margin-bottom: 60px;
     }
+  }
+  ::v-deep .VueCarousel-pagination {
+    display: none;
   }
 }
 </style>
