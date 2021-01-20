@@ -76,12 +76,12 @@ export default {
           img: 'https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png',
           url: '/blogs/6-factors-show-why-our-garage-is-the-best-option-for-you'  
          },
-        // {
-        //   title:'Top 4 Fantastic Turn-Ups Necessary For Smooth And Safe Drive',
-        //   excerpt:'We all know that the vehicle requires regular oil and filter change for it to run smoothly. But that is not the only thing it requires. Every part of your vehicle should be inspected...',
-        //   img: 'https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive.jpg',
-        //   url: '/blogs/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive'  
-        // }
+        {
+          title:'Top 4 Fantastic Turn-Ups Necessary For Smooth And Safe Drive',
+          excerpt:'We all know that the vehicle requires regular oil and filter change for it to run smoothly. But that is not the only thing it requires. Every part of your vehicle should be inspected...',
+          img: 'https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive.jpg',
+          url: '/blogs/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive'  
+        }
       ]
     }
 
