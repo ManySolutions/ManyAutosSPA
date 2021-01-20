@@ -13,18 +13,14 @@
           class="elevation-1"
         >
           <template #item.actions='{ item }'>
-            <div class="d-table">
-              <div class='d-table-cell'>
-                <v-btn
-                  v-if='item.is_payable'
-                  color='amber lighten-1'
-                  :href='item.payment_website'
-                  class='px-2 mr-3'
-                  target="_blank"
-                >
-                  <v-icon class='mr-2'>mdi-credit-card</v-icon>
-                  Pay Now
-                </v-btn>
+            <div :class="!item.has_payment_assist ? 'd-table' : 'py-2'">
+              <div :class="!item.has_payment_assist ? 'd-table-cell' : 'pb-2'" v-if='item.is_payable'>
+                <index-payment-buttons
+                  is-payable
+                  :payment-url="item.payment_website"
+                  :id='item.id'
+                  :has-payment-assist="item.has_payment_assist"
+                ></index-payment-buttons>
               </div>
               <v-badge
                 :content='item.requests_count'
@@ -52,7 +48,10 @@
 
 <script>
 import { getBookings } from '~/api/booking';
+import indexPaymentButtons from './_booking/__components/index-payment-buttons.vue';
+
 export default {
+  components: { indexPaymentButtons }, 
   data: () => ({
     headers: [
       { text: 'Order ID#', value: 'id', sortable: true },
@@ -87,7 +86,7 @@ export default {
       getBookings(this.http).then(res => {
         this.bookings = res;
       }).finally(() => this.isLoading = false);
-    }
+    },
   },
 
   head: {
