@@ -5,30 +5,23 @@
         <v-form>
           <v-card class="mx-auto mt-5" max-width="344">
             <v-card-text>
-              <h2 class="set-pass text-center pt-5 mb-10">
-                Set Your Password
+              <h2 class="forgot-pass text-center pt-5 mb-10">
+                Forgot Your Password?
               </h2>
                <v-text-field
-                label="Password"
-                placeholder="*****"
-                type="password"
+                label="Your Email"
+                placeholder="youremail@gmail.com"
+                type="email"
                 outlined
               >
-              </v-text-field>
-              <v-text-field
-                label="Confirm Password"
-                placeholder="*****"
-                type="password"
-                outlined
-              >
-              </v-text-field>          
+              </v-text-field>         
               <div class="update text-center">
                 <v-btn 
-                  color="primary" 
+                  color="secondary" 
                   large 
                   block
                 > 
-                Update Password
+                Reset my Password
                 </v-btn>
               </div>
             </v-card-text>
