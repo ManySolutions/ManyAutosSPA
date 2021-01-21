@@ -86,7 +86,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "A company responsible for your car’s repair & maintenance. We provide you with the best & affordable services. Click to know about our company & our reliable employees."
       },
       {

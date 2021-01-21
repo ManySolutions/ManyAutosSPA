@@ -113,7 +113,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "We prioritize the maintenance of cars but we also understand your concerns about safety and finance. We offer a safe environment and the best payment plans for your cars."
       },
       {

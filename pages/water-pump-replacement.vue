@@ -381,7 +381,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "Many Autos aim to provide you the best prices for the water pump replacement through out the UK.  Our centres are highly qualified to deal with any water pump issues  with your vehicle. New water pump fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
       },
       {

@@ -260,7 +260,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "We repair and Service all makes and models off vehicle in Bracknell, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Bracknell."
       },
       {

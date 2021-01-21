@@ -416,7 +416,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "Many Autos aim to provide you the best prices for the oil change through out the UK.  Our centres are highly qualified for it."
       },
       {

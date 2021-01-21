@@ -115,7 +115,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "You should consider certain factors before choosing a garage. Those factors affect you & the service of your car. Read to know why our garage is the best option for you."
       },
       {

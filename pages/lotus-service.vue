@@ -1230,7 +1230,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Lotus service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
       },
       {

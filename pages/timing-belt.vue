@@ -354,7 +354,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "Many Autos aim to provide you the best prices for the timing belt replacement through out the UK.  Our centres are highly qualified to deal with any timing belt issues  with your vehicle. New timing belt fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
       },
       {

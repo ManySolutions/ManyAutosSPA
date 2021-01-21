@@ -122,7 +122,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "Many Autos keeps it simple: you book, we collect, service and deliver. We aim to provide you the best prices for fro a hassle free service through out the UK. Simply book the service and we will take care of the rest. We offer free collection and delivery. Book online or call us at 01189 876300"
       },
       {

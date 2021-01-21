@@ -201,7 +201,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "We carry out air filter replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . We only use oem quality part and our aim is to provide you the best prices and service through out the UK."
       },
       {

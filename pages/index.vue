@@ -143,7 +143,7 @@ export default {
         content: "ManyAutos LTD",
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description',
+        hid: 'og:description',  property: 'og:description',
         content:
           "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
       },

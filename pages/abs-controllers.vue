@@ -180,7 +180,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "We repair and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
       },
       {

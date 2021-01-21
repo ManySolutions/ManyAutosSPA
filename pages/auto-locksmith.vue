@@ -205,7 +205,7 @@ export default {
         content: "ManyAutos LTD"
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description', 
+        hid: 'og:description',  property: 'og:description', 
         content: "We repair and replace Car key arm for all makes and models in United Kingdom."
       },
       {

@@ -489,7 +489,7 @@ export default {
         content: "ManyAutos LTD",
       },
       {
-        hid: 'og:description', name: 'og:description', property: 'og:description',
+        hid: 'og:description',  property: 'og:description',
         content:
           "We provide our customers with a risk-free environment. We are concerned for you and want to help you during covid-19. We are offering an affordable payment plan for you.",
       },
