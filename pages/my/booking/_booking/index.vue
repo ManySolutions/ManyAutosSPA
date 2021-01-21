@@ -14,6 +14,18 @@
       type='card-heading, list-item-three-line, list-item-three-line, list-item-three-line'
     ></v-skeleton-loader>
     <v-card v-else-if='booking'>
+      <template v-if='booking.is_payable'>
+        <v-card-text style='background: #FF7043' >
+          <span style='color: white'>
+            Your vehicle has be repaired, please pay now by clicking here</span>
+          <index-payment-buttons
+            is-payable
+            :payment-url="booking.payment_website"
+            :id='bookingId'
+            :has-payment-assist="booking.has_payment_assist"
+          ></index-payment-buttons>
+        </v-card-text>
+      </template>
       <v-card-title>
         <span>
           Booking 
@@ -119,8 +131,9 @@
 import toastr from 'toastr';
 import { getSingleBooking } from '~/api/booking';
 import BookingAdditionalRequests from '../__components/booking-additional-requests.vue';
+import IndexPaymentButtons from './__components/index-payment-buttons.vue';
 export default {
-  components: { BookingAdditionalRequests },
+  components: { BookingAdditionalRequests, IndexPaymentButtons },
   data: () => ({
     headers: [
       { text: 'Service Name', value: 'name', sortable: false },
