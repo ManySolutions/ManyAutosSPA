@@ -17,5 +17,5 @@ export async function generateTicket(data, $http=null) {
 }
 
 export async function autologin(user, signature) {
-  return (await http.post(`/autologin/${user}?signature=${signature}`).data)
+  return (await http.post(`/autologin/${user}?signature=${signature}`)).data
 }
