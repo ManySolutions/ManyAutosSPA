@@ -2,6 +2,7 @@
   <page-layout
     title='6 Factors Show Why Our Garage Is The Best Option For You'
     headingBgStatic='https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png'
+    has-share-button
   >
     <div class="container" style="padding-top: 70px;">
       <p>It is a difficult thing to trust anyone with our valuables. It is even more when it comes to our most valuable
@@ -63,7 +64,7 @@ const URL = process.env.APP_URL;
 
 export default {
   components: {
-    PageLayout
+    PageLayout,
   },
      props: {
     hasQuoteButton: {
@@ -72,6 +73,13 @@ export default {
     },
     title: String,
     cls: String,
+  },
+   data(){
+    return {
+      user:{
+        title:'https://manyautosltd.com/blogs/6-factors-show-why-our-garage-is-the-best-option-for-you'
+      }
+    }
   },
 
   head: {

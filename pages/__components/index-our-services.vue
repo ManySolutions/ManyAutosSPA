@@ -63,7 +63,8 @@
               We offer advance bookings for your MOT for peace of mind. The motive of this test is to check the
               condition, roadworthiness, safety, and exhaust emissions of your car. This test is a legal requirement for
               all vehicles in the United Kingdom that are more than 3 years old. We have our
-              <NuxtLink to='/mot'>car repair and MOT centers</NuxtLink> center with DVSA approved examiners.
+              <v-btn text color='primary' to="/mot" class='px-0 text-capitalize'>car repair and MOT centers</v-btn>
+              center with DVSA approved examiners.
             </p>
           </div>
         </div>

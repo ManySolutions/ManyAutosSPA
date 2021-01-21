@@ -28,11 +28,18 @@
     </div>
 
     <slot></slot>
+
+    <client-only v-if='hasShareButton'>
+      <blog-social-links></blog-social-links>
+    </client-only>
   </div>
 </template>
 
 <script>
+import blogSocialLinks from "~/components/func-components/blog-social-links.vue"
+
 export default {
+  components: { blogSocialLinks },
   props: {
     headingBg: String,
     headingBgStatic: String,
@@ -43,6 +50,7 @@ export default {
     title: String,
     subTitle: String,
     cls: String,
+    hasShareButton: Boolean,
   },
   
   head: {

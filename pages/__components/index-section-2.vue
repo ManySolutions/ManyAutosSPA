@@ -10,7 +10,8 @@
         </h2>
         <p class='font-weight-300 m-auto' style='max-width:900px;'>
           Our motto here at <span class="font-weight-bold">Many Autos</span> is to provide our clients with absolutely
-          the best <nuxt-link to="/car-service"> vehicle maintenance services</nuxt-link>. 
+          the best <v-btn text color='primary' to="/car-service" class='px-0 text-capitalize'>vehicle maintenance
+            services</v-btn>. 
           You will receive the same honest and satisfactory treatment and services whenever you visit our garage.
           We provide maintenance service in all categories of vehicles.
           Our mechanics are certified to Service, Repair & MOT for the following makes:

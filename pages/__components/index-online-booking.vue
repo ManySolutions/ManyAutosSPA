@@ -8,9 +8,8 @@
         <h1 class='heading__title heading__title--bar mb-4' style="font-weight:lighter">
           Online Booking At<br> <span class='font-weight-bold text-primary'>Many Autos</span>
         </h1>
-        <p class="mt-10 mb-10">Booking a service for your car has never been so easy. We have a <NuxtLink
-            to='/service-booking'>book online vehicle
-            repair service</NuxtLink> system,
+        <p class="mt-10 mb-10">Booking a service for your car has never been so easy. We have a <v-btn text
+            color='primary' to="/service-booking" class='px-0 text-capitalize'>book online vehicle repair service</v-btn> system,
           which is not offered by many <span class="font-weight-bold">online repairs center in the UK.</span> Just
           enter your car’s registration number,
           select from the available services with instant, upfront prices, and you are done.</p>

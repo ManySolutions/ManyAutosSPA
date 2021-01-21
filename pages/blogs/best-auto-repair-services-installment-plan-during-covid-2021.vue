@@ -2,6 +2,7 @@
   <page-layout
     title='Best Auto Repair Services Installment Plan During COVID 2021'
     headingBgStatic='https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg'
+    has-share-button
   >
     <div class="container" style="padding-top: 70px;">
       <p>It is a very rare sight to see the whole world experiencing something together. Covid-19 has affected all 7.8

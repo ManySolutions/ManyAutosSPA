@@ -2,6 +2,7 @@
   <page-layout
     title='Top 4 Fantastic Turn-Ups Necessary For Smooth And Safe Drive'
     headingBgStatic='https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive.jpg'
+    has-share-button
   >
     <div class="container" style="padding-top: 70px;">
       <p>We all know that the vehicle requires regular oil and filter change for it to run smoothly. But that is not the
