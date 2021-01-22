@@ -115,38 +115,43 @@ export default {
 
     meta: [
       {
-        hid: "description",
+        hid: 'description',
         name: "description",
         content:
           "Browse the blog to know about the causes of overheating and how you can attain your car fuel pump repair services online at lowest rate during this COVID pandemic.",
       },
       {
-        name: "keywords",
+        name: 'keywords',
         content:
           "car fuel system repairs, gas tank repair, fuel pump, car thermostat replacement, custom performance exhaust, vehicle custom exhaust",
       },
       {
+        hid: 'og:title',
         property: "og:title",
         content: "Basic Causes of Overheating and How They Should be Handled",
       },
       {
+        hid: 'og:type',
         property: "og:type",
         content: "website",
       },
       {
+        hid: 'og:url',
         property: "og:url",
-        content: URL,
+        content:'https://manyautosltd.com/blogs/basic-causes-of-overheating-and-how-they-should-be-handled',
       },
       {
+        hid: 'og:image',
         property: "og:image",
-        content: "logo-default.png",
+        content: "https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled.jpg",
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name",
         content: "ManyAutos LTD",
       },
       {
-        hid: "og:description",
+        hid: 'og:description',
         property: "og:description",
         content:
           "Browse the blog to know about the causes of overheating and how you can attain your car fuel pump repair services online at lowest rate during this COVID pandemic.",
@@ -166,13 +171,14 @@ export default {
       },
       {
         name: "twitter:image",
-        content: "logo-default.png",
+        content: "https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled.jpg",
       },
       {
         itemprop: "image",
-        content: "logo-default.png",
+        content: "https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled.jpg",
       },
       {
+        hid:'og:type',
         property: "og:type",
         content: "business.business",
       },

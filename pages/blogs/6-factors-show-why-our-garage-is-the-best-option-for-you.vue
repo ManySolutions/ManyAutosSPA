@@ -95,22 +95,27 @@ export default {
         content: 'car services in UK, online car muffler, repair service in the UK, auto repair shop, auto car garages, car garage in london, reading car garage'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "6 Factors Show Why Our Garage Is The Best Option For You"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
-        content: URL
+        content: 'https://manyautosltd.com/blogs/6-factors-show-why-our-garage-is-the-best-option-for-you'
       },
       {
+        hid: 'og:image',
         property: "og:image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -132,13 +137,14 @@ export default {
       },
       {
         name: "twitter:image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png"
       },
       {
         itemprop: "image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png"
       },
       {
+        hid:'og:type',
         property: "og:type", 
         content: "business.business"
       },

@@ -93,22 +93,27 @@ export default {
         content: 'car repair services installment during covid19, auto servicing installments plan, car repair payment plan, car repair payment plans, vehicle repair pay later service, vehicle repair services,'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Best Auto Repair Services Installment Plan During COVID 2021"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
-        content: URL
+        content: 'https://manyautosltd.com/blogs/best-auto-repair-services-installment-plan-during-covid-2021'
       },
       {
+        hid: 'og:image',
         property: "og:image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -130,13 +135,14 @@ export default {
       },
       {
         name: "twitter:image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg"
       },
       {
         itemprop: "image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

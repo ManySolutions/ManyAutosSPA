@@ -84,22 +84,27 @@ export default {
         content: 'car repair in reading, mot reading, fuel injector replacement, wheel cylinder function, driving safety tips, car maintenance'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Top 4 Fantastic Turn-Ups Necessary For Smooth And Safe Drive"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
-        content: URL
+        content: 'https://manyautosltd.com/blogs/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive'
       },
       {
+        hid: 'og:image',
         property: "og:image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive.jpg"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -121,13 +126,14 @@ export default {
       },
       {
         name: "twitter:image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive.jpg"
       },
       {
         itemprop: "image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive.jpg"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

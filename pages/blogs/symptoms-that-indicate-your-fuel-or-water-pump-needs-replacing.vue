@@ -98,22 +98,27 @@ export default {
         content: 'fuel pump repair, air suspension specialists near me, car water pump repair'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Symptoms That Indicate your Fuel or Water Pump Needs Replacing"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
-        content: URL
+        content: 'https://manyautosltd.com/blogs/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing'
       },
       {
+        hid: 'og:image',
         property: "og:image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg"
       },
       {
+        hid: 'og:site_map',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -135,13 +140,14 @@ export default {
       },
       {
         name: "twitter:image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg"
       },
       {
         itemprop: "image", 
-        content: "logo-default.png"
+        content: "https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },
