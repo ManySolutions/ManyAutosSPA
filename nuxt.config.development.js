@@ -152,7 +152,6 @@ export default {
       '/test',
       '/booking/**',
       '/referral',
-      '/sitemap',
       '/register-your-garage/**'
     ],
   },
