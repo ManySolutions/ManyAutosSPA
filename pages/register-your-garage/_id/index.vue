@@ -246,7 +246,11 @@ export default {
       this.errors = {};
 
       Object.keys(form).map((index) => {
-        formData.append(index, form[index]);
+        let elm = null;
+        if (index == 'address') elm = JSON.stringify(form[index])
+        else elm = form[index]
+
+        formData.append(index, elm);
       });
 
       registerGarage(id, formData).then(data => {
