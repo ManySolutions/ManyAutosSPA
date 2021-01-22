@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title='Best Auto Repair Services Installment Plan During COVID 2021'
-    headingBgStatic='https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg'
+    headingBgStatic='https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-20211.jpg'
     has-share-button
   >
     <div class="container" style="padding-top: 70px;">
@@ -110,7 +110,7 @@ export default {
       {
         hid: 'og:image',
         property: "og:image", 
-        content: "https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg"
+        content: "https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-20211.jpg"
       },
       {
         hid: 'og:site_name',
@@ -135,11 +135,11 @@ export default {
       },
       {
         name: "twitter:image", 
-        content: "https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg"
+        content: "https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-20211.jpg"
       },
       {
         itemprop: "image", 
-        content: "https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-2021.jpg"
+        content: "https://static.manyautosltd.com/uploads/best-auto-repair-services-installment-plan-during-covid-20211.jpg"
       },
       {
         hid: 'og:type',

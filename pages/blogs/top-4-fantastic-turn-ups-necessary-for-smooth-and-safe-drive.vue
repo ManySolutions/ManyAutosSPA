@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title='Top 4 Fantastic Turn-Ups Necessary For Smooth And Safe Drive'
-    headingBgStatic='https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive.jpg'
+    headingBgStatic='https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive1.jpg'
     has-share-button
   >
     <div class="container" style="padding-top: 70px;">
@@ -101,7 +101,7 @@ export default {
       {
         hid: 'og:image',
         property: "og:image", 
-        content: "https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive.jpg"
+        content: "https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive1.jpg"
       },
       {
         hid: 'og:site_name',
@@ -126,11 +126,11 @@ export default {
       },
       {
         name: "twitter:image", 
-        content: "https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive.jpg"
+        content: "https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive1.jpg"
       },
       {
         itemprop: "image", 
-        content: "https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive.jpg"
+        content: "https://static.manyautosltd.com/uploads/top-4-fantastic-turn-ups-necessary-for-smooth-and-safe-drive1.jpg"
       },
       {
         hid: 'og:type',

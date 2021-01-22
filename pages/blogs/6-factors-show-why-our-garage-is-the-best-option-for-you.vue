@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title='6 Factors Show Why Our Garage Is The Best Option For You'
-    headingBgStatic='https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png'
+    headingBgStatic='https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You1.png'
     has-share-button
   >
     <div class="container" style="padding-top: 70px;">
@@ -112,7 +112,7 @@ export default {
       {
         hid: 'og:image',
         property: "og:image", 
-        content: "https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png"
+        content: "https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You1.png"
       },
       {
         hid: 'og:site_name',
@@ -137,11 +137,11 @@ export default {
       },
       {
         name: "twitter:image", 
-        content: "https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png"
+        content: "https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You1.png"
       },
       {
         itemprop: "image", 
-        content: "https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png"
+        content: "https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You1.png"
       },
       {
         hid:'og:type',

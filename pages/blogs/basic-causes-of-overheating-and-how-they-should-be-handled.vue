@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title="Basic Causes of Overheating and How They Should be Handled"
-    headingBgStatic="https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled.jpg"
+    headingBgStatic="https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled1.jpg"
     has-share-button
   >
     <div class="container" style="padding-top: 70px">
@@ -143,7 +143,7 @@ export default {
       {
         hid: 'og:image',
         property: "og:image",
-        content: "https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled.jpg",
+        content: "https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled1.jpg",
       },
       {
         hid: 'og:site_name',
@@ -171,11 +171,11 @@ export default {
       },
       {
         name: "twitter:image",
-        content: "https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled.jpg",
+        content: "https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled1.jpg",
       },
       {
         itemprop: "image",
-        content: "https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled.jpg",
+        content: "https://static.manyautosltd.com/uploads/basic-causes-of-overheating-and-how-they-should-be-handled1.jpg",
       },
       {
         hid:'og:type',

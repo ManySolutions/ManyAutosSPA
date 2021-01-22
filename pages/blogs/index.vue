@@ -76,6 +76,18 @@ export default {
           img: 'https://static.manyautosltd.com/uploads/6-Factors-Show-Why-Our-Garage-Is-The-Best-Option-For-You.png',
           url: '/blogs/6-factors-show-why-our-garage-is-the-best-option-for-you'  
          },
+        //  {
+        //   title:'How to Find Car Repair and Maintenance Services Online',
+        //   excerpt:'Purchasing a car is somewhat easy as you are aware of the features you want within it. The difficult part is to maintain your car due to the standard running costs. Buying it is...',
+        //   img: 'https://static.manyautosltd.com/uploads/how-to-find-car-repair-and-maintenance-services-online.jpg',
+        //   url: '/blogs/how-to-find-car-repair-and-maintenance-services-online'  
+        //  },
+        //  {
+        //   title:'Vehicle Parts That Require Maintenance Over Time to Run Smoothly',
+        //   excerpt:'Each part of our car needs maintenance from time to time. Some parts have a shorter lifespan than the rest of the parts. They should be repaired and also replaced if...',
+        //   img: 'https://static.manyautosltd.com/uploads/how-to-find-car-repair-and-maintenance-services-online.jpg',
+        //   url: '/blogs/vehicle-parts-that-require-maintenance-over-time-to-run-smoothly'  
+        //  },
         // {
         //   title:'Top 4 Fantastic Turn-Ups Necessary For Smooth And Safe Drive',
         //   excerpt:'We all know that the vehicle requires regular oil and filter change for it to run smoothly. But that is not the only thing it requires. Every part of your vehicle should be inspected...',

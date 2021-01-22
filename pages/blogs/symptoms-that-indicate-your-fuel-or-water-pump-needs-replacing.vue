@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title='Symptoms That Indicate your Fuel or Water Pump Needs Replacing'
-    heading-bg-static='https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg'
+    heading-bg-static='https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing1.jpg'
     has-share-button
   >
   <div class="container" style="padding-top: 70px;">
@@ -115,7 +115,7 @@ export default {
       {
         hid: 'og:image',
         property: "og:image", 
-        content: "https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg"
+        content: "https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing1.jpg"
       },
       {
         hid: 'og:site_map',
@@ -140,11 +140,11 @@ export default {
       },
       {
         name: "twitter:image", 
-        content: "https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg"
+        content: "https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing1.jpg"
       },
       {
         itemprop: "image", 
-        content: "https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing.jpg"
+        content: "https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing1.jpg"
       },
       {
         hid: 'og:type',
