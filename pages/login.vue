@@ -123,7 +123,7 @@ export default {
           const { status, errors, access_token, user, message } = res;
 
           if (!status) {
-            this.errors = errors;
+            this.errors = errors || {};
             this.errorMessage = message;
             return;
           }

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt --port 3030 -c nuxt.config.development.js",
+    "dev": "nuxt --port 3030 -c nuxt.config.development.js --max-old-space-size=4096",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
