@@ -1,7 +1,7 @@
 <template>
   <page-layout
     title="Vehicle Parts That Require Maintenance Over Time to Run Smoothly"
-    headingBgStatic="https://static.manyautosltd.com/uploads/how-to-find-car-repair-and-maintenance-services-online1.jpg"
+    headingBgStatic="https://static.manyautosltd.com/uploads/vehicle-parts-that-require-maintenance-over-time-to-run-smoothly1.jpg"
     has-share-button
   >
     <div class="container" style="padding-top: 70px">
@@ -20,7 +20,7 @@
         replaced every time you come for an oil change. We recommend you to change the oil of your car every 3000
         miles.
       </p>
-      <h3>Servicing of the air Conditioner</h3>
+      <h3>Servicing of the air conditioner</h3>
       <p class="margin-bottom-10 text-justify text-teal">
         The air conditioner can live up to a year. You don’t have to change it every time but it would need servicing.
         All the dust and the particles get stuck in the air conditioner that can be removed by servicing. It is easy to
@@ -42,10 +42,10 @@
       <p class="margin-bottom-10 text-justify text-teal">
         A car cannot start without a battery. Without a properly working battery, your car will keep sitting in your
         garage. You need to take extra care of your battery so it wouldn’t fail in the middle of anywhere and leave you
-        stranded. We recommend charging the battery of the car every 4 years; it doesn’t matter how many miles it has
+        stranded. We recommend charging the battery of the car every 4 years,it doesn’t matter how many miles it has
         been driven. If you live in a hot tropical climate, then you need to change your car’s battery every 3 years.
       </p>
-      <h3>Life of the brake Pads</h3>
+      <h3>Life of the brake pads</h3>
       <p class="margin-bottom-10 text-justify text-teal">
        Brake pads play a role in stopping your car when you press the brakes. We recommend changing them every 3 years,
        although the replacement can depend on the size of the vehicle. Brake pads used in heavier vehicles wear out
@@ -56,11 +56,12 @@
       <p class="margin-bottom-10 text-justify text-teal">
        You need a perfect braking system for a safe drive. Faulty brakes can cause threatening accidents. You should
        keep a look at all the parts of the braking system and get them replaced whenever they need it. Some of its parts
-       wear out sooner than the others. Parts like the brake pads,<NuxtLink to="/water-pump-replacement">abs pump</NuxtLink>, brake fluid, and the brake discs should be
-       given extra attention, as your safety depends on them.
+       wear out sooner than the others. Parts like the brake pads,<NuxtLink to="/water-pump-replacement">abs pump</NuxtLink>,brake fluid, and the brake discs should be
+       given extra attention, as your safety depends on them.                                                                            
       </p>
       <p class="margin-bottom-10 text-justify text-teal">
-        You can visit our website if you need any kind of services and are looking for <NuxtLink to="/car-service">car garages in reading</NuxtLink>. We will be at your service.
+        You can visit our website if you need any kind of services and are looking for <NuxtLink to="/car-service">car garages in Reading</NuxtLink>.
+        We will be at your service.
       </p>
     </div>
   </page-layout>
@@ -87,7 +88,7 @@ export default {
     return {
       user: {
         title:
-          "https://manyautosltd.com/blogs/how-to-find-car-repair-and-maintenance-services-online",
+          "https://manyautosltd.com/blogs/vehicle-parts-that-require-maintenance-over-time-to-run-smoothly",
       },
     };
   },
@@ -120,12 +121,12 @@ export default {
       {
         hid: 'og:url',
         property: "og:url",
-        content:'https://manyautosltd.com/blogs/how-to-find-car-repair-and-maintenance-services-online',
+        content:'https://manyautosltd.com/blogs/vehicle-parts-that-require-maintenance-over-time-to-run-smoothly',
       },
       {
         hid: 'og:image',
         property: "og:image",
-        content: "https://static.manyautosltd.com/uploads/how-to-find-car-repair-and-maintenance-services-online1.jpg",
+        content: "https://static.manyautosltd.com/uploads/vehicle-parts-that-require-maintenance-over-time-to-run-smoothly1.jpg",
       },
       {
         hid: 'og:site_name',
@@ -153,11 +154,11 @@ export default {
       },
       {
         name: "twitter:image",
-        content: "https://static.manyautosltd.com/uploads/how-to-find-car-repair-and-maintenance-services-online1.jpg",
+        content: "https://static.manyautosltd.com/uploads/vehicle-parts-that-require-maintenance-over-time-to-run-smoothly1.jpg",
       },
       {
         itemprop: "image",
-        content: "https://static.manyautosltd.com/uploads/how-to-find-car-repair-and-maintenance-services-online1.jpg",
+        content: "https://static.manyautosltd.com/uploads/vehicle-parts-that-require-maintenance-over-time-to-run-smoothly1.jpg",
       },
       {
         hid:'og:type',
