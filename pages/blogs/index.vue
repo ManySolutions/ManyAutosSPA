@@ -88,6 +88,12 @@ export default {
           img: 'https://static.manyautosltd.com/uploads/vehicle-parts-that-require-maintenance-over-time-to-run-smoothly.jpg',
           url: '/blogs/vehicle-parts-that-require-maintenance-over-time-to-run-smoothly'  
          },
+         {
+          title:'The Ultimate Guide to Brake Pads: Working and Symptoms of Faulty Pads',
+          excerpt:'Brake pads are one of the most important safety features in all the cars and it is important to them and the role they play. They are fitted in the caliper sitting between the middle gap of...',
+          img: 'https://static.manyautosltd.com/uploads/the-ultimate-guide-to-brake-pads-working-and-symptoms-of-faulty-pads.jpg',
+          url: '/blogs/the-ultimate-guide-to-brake-pads-working-and-symptoms-of-faulty-pads'  
+         },
         // {
         //   title:'Top 4 Fantastic Turn-Ups Necessary For Smooth And Safe Drive',
         //   excerpt:'We all know that the vehicle requires regular oil and filter change for it to run smoothly. But that is not the only thing it requires. Every part of your vehicle should be inspected...',
