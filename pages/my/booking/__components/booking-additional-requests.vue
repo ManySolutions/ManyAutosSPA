@@ -11,7 +11,7 @@
       <v-data-table
         :headers='headers'
         :items='requests'
-        :items-per-page="1"
+        :items-per-page="isDevice.lg ? 5 : 1"
         disable-sort
         disable-filtering
         light
