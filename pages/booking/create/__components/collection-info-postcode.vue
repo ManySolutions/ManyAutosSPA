@@ -39,6 +39,7 @@
 <script>
 import Vue from 'vue';
 import { getAddress } from '~/api/postcode';
+import { fbqFindLocation } from '~/api/fbq';
 
 export default {
   props: {
@@ -83,6 +84,15 @@ export default {
             this.postcode = res.postcode;
             this.lat = res.latitude;
             this.lng = res.longitude;
+
+            if (res.postcode) {
+              fbqFindLocation(
+                this.$fb,
+                res.postcode,
+                res.lat,
+                res.lng,
+              );
+            }
           })
           .catch(err => {
             console.log(err)
@@ -102,6 +112,17 @@ export default {
       this.$emit('selected', {
         postcode, lat, lng, address
       });
+
+      fbqFindLocation(
+        this.$fb,
+        postcode,
+        lat,
+        lng,
+        address.town_or_city,
+        address.county,
+        address.district,
+        address.country
+      );
     }
   },
 }

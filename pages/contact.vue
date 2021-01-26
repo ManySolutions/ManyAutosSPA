@@ -12,16 +12,32 @@
                 <v-alert v-if='alert.status' :type='alert.status'>
                   {{ alert.message }}
                 </v-alert>
-                <v-text-field
-                  v-model="form.name"
-                  label="Name"
-                  placeholder="Your Name"
-                  outlined
-                  :error="!!errors.name"
-                  :hint="errors.name ? errors.name[0] : null"
-                  persistent-hint
-                >
-                </v-text-field>
+                <v-row>
+                  <v-col class='py-0'>
+                    <v-text-field
+                      v-model="form.f_name"
+                      label="First Name"
+                      placeholder="Your First Name"
+                      outlined
+                      :error="!!errors.f_name"
+                      :hint="errors.f_name ? errors.f_name[0] : null"
+                      persistent-hint
+                    >
+                    </v-text-field>
+                  </v-col>
+                  <v-col class='py-0'>
+                    <v-text-field
+                      v-model="form.s_name"
+                      label="Name"
+                      placeholder="Your Last Name"
+                      outlined
+                      :error="!!errors.s_name"
+                      :hint="errors.s_name ? errors.s_name[0] : null"
+                      persistent-hint
+                    >
+                    </v-text-field>
+                  </v-col>
+                </v-row>
                 <v-text-field
                   v-model="form.mobile_no"
                   label="Contact No."
@@ -162,6 +178,7 @@ import { mapActions } from "vuex";
 import { generateTicket } from "~/api/user";
 import { countryList } from "~/utils/vars";
 import pageLayout from "~/layouts/page-layout.vue";
+import { fbqContact } from '~/api/fbq';
 
 export default {
   components: { pageLayout },
@@ -173,6 +190,8 @@ export default {
         name: "",
         message: '',
         reg_no: '',
+        f_name: '',
+        s_name: '',
       },
       errors: {},
       isLoading: false,
@@ -181,10 +200,6 @@ export default {
         message: '',
       },
     };
-  },
-
-  mounted() {
-    this.$fb.track('track', 'Contact');
   },
 
   methods: {
@@ -199,7 +214,9 @@ export default {
         message: '',
       };
 
-      generateTicket(this.form, this.http)
+      const {form} = this;
+
+      generateTicket(form, this.http)
         .then((res) => {
           const { status, message, errors } = res;
 
@@ -212,6 +229,15 @@ export default {
             }
             return;
           }
+
+          fbqContact(
+            this.$fb,
+            form.f_name,
+            form.s_name,
+            form.email,
+            form.mobile_no,
+            form.reg_no
+          );
 
           toastr.success(message);
 

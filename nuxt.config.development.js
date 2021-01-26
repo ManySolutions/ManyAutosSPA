@@ -171,9 +171,11 @@ export default {
   env: {
     ENVIRONMENT: 'development',
     CURRENCY_SYMBOL: '£',
+    CURRENCY_CODE: 'GBP',
     APP_URL: 'http://localhost:3000',
     API_URL: 'http://manyautos.local/api/v2/c/',
     ASSETS_URL: 'https://app.manyautosltd.com/assets/',
     RECAPTCHA_SITE_KEY: '6LdIdBcaAAAAAGoHmtHlYIa7vSFbJ4Ja0_gQCBlX',
+    FBQ_TEST_CODE: 'TEST27350',
   }
 }

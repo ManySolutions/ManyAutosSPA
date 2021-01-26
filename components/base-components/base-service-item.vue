@@ -93,6 +93,7 @@
 
 <script>
 import {mapState} from 'vuex';
+import { fbqAddToCart } from '~/api/fbq';
 
 export default {
   props: [
@@ -131,6 +132,13 @@ export default {
   methods: {
     handleAdd() {
       this.isLoading = true;
+
+      fbqAddToCart(
+        this.$fb,
+        this.id, 
+        this.title,
+        this.price
+      );
 
       setTimeout(() => {
         this.$store.commit('booking/ADD_TO_CART', this.id);

@@ -61,6 +61,7 @@
   </div>
 </template>
 <script>
+import { fbqLead } from '~/api/fbq';
 import { getVehicleDetails } from '~/api/vehicle';
 import indexActiveCar from "~/pages/__components/index-active-car.vue";
 
@@ -107,6 +108,12 @@ export default {
             this.error = true;
             this.errorMessage = res.message;
           } else {
+            fbqLead(
+              this.$fb, 
+              this.reg, 
+              res.vehicle.Mfr +' '+ res.vehicle.Range
+            );
+
             this.$store.commit('booking/REGISTER_VEHICLE', {
               vehicle: res.vehicle,
               modelId: res.vehicle.Model_ID

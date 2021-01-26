@@ -8,16 +8,32 @@
               <h2 class="register-title text-center pt-5 mb-10">
                 Create Account
               </h2>
-              <v-text-field 
-                v-model='form.name'
-                label="Name" 
-                placeholder="Your Name" 
-                outlined
-                :error='!!errors.name'
-                :hint="errors.name ? errors.name[0] : null"
-                persistent-hint
-              >
-              </v-text-field>
+              <v-row>
+                <v-col class='py-0'>
+                  <v-text-field
+                    v-model="form.f_name"
+                    label="First Name"
+                    placeholder="Your First Name"
+                    outlined
+                    :error="!!errors.f_name"
+                    :hint="errors.f_name ? errors.f_name[0] : null"
+                    persistent-hint
+                  >
+                  </v-text-field>
+                </v-col>
+                <v-col class='py-0'>
+                  <v-text-field
+                    v-model="form.s_name"
+                    label="Name"
+                    placeholder="Your Last Name"
+                    outlined
+                    :error="!!errors.s_name"
+                    :hint="errors.s_name ? errors.s_name[0] : null"
+                    persistent-hint
+                  >
+                  </v-text-field>
+                </v-col>
+              </v-row>
               <v-text-field
                 v-model='form.email'
                 type='email'
@@ -108,6 +124,7 @@ import toastr from 'toastr';
 import { mapActions } from 'vuex';
 import { registerUser } from '~/api/user';
 import { countryList } from '~/utils/vars';
+import { fbqCompleteRegistration } from '~/api/fbq';
 
 export default {
   data() {
@@ -120,6 +137,8 @@ export default {
         mobile_no: '',
         is_sms: true,
         name: '',
+        f_name: '',
+        s_name: '',
       },
       countryList,
       errors: {},
@@ -133,8 +152,9 @@ export default {
     handleSubmit() {
       this.isLoading = true;
       this.errors = {};
+      const {form} = this;
       
-      registerUser(this.form).then(res => {
+      registerUser(form).then(res => {
         const {status, message, errors, user, access_token} = res;
 
         if (!status) {
@@ -142,6 +162,15 @@ export default {
           toastr.error(message);
           return;
         }
+
+        // fbqCompleteRegistration(
+        //   this.$fb,
+        //   form.f_name,
+        //   form.s_name,
+        //   form.email,
+        //   form.mobile_no,
+        //   form.country_code
+        // );
 
         this.authorize({ accessToken: access_token, user});
         toastr.success(message);
