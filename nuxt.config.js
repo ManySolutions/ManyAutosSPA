@@ -69,6 +69,8 @@ export default {
     '@nuxtjs/sitemap',
 
     'vue-social-sharing/nuxt',
+
+    'nuxt-facebook-pixel-module',
   ],
   
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -171,6 +173,16 @@ export default {
       '/referral',
       '/register-your-garage/**'
     ],
+  },
+
+
+  facebook: {
+    /* module options */
+    track: 'PageView',
+    pixelId: '241591920870712',
+    autoPageView: true,
+    disabled: false,
+    debug: true,
   },
 
 
