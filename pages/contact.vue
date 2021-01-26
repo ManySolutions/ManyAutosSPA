@@ -183,6 +183,10 @@ export default {
     };
   },
 
+  mounted() {
+    this.$fb.track('track', 'Contact');
+  },
+
   methods: {
     ...mapActions("user", ["authorize"]),
 
@@ -231,7 +235,9 @@ export default {
           this.errors = errors;
           toastr.error(message);
         })
-        .finally(() => (this.isLoading = false));
+        .finally(() => {
+          this.isLoading = false;
+        });
     },
   },
 };
