@@ -168,6 +168,7 @@ import CollectionInfoPostcode from './__components/collection-info-postcode.vue'
 import CollectionInfoUser from './__components/collection-info-user';
 import { createBooking } from '~/api/booking';
 import BookingLayout from '~/layouts/booking-layout.vue';
+import { fbqInitiateCheckout, fbqPurchase } from '~/api/fbq';
 
 export default {
   components: { 
@@ -211,7 +212,7 @@ export default {
   }),
 
   computed: {
-    ...mapGetters('booking', ['isCartEmpty']),
+    ...mapGetters('booking', ['isCartEmpty', 'cartCount']),
     ...mapGetters('user', ['isAuth']),
     ...mapState('user', ['info']),
     ...mapState('booking', ['cartContent', 'modelId', 'hasPaymentPlan']),
@@ -257,6 +258,14 @@ export default {
 
     if (isCartEmpty) this.$router.push('/booking/create');
     this.form.has_payment_plan = this.hasPaymentPlan;
+
+    fbqInitiateCheckout(
+      this.$fb,
+      'car_repair',
+      this.cartContent.cart_details,
+      this.cartCount,
+      this.cartContent.cart_subtotal,
+    );
   },
 
   methods: {
@@ -300,7 +309,7 @@ export default {
         model_id: modelId
       }, this.http).then(res => res.data)
         .then(data => {
-          const { status, message, access_token, user, errors } = data;
+          const { status, message, access_token, user, errors, id } = data;
 
           if (!status) {
             toastr.error('Failed: ' + message);
@@ -309,6 +318,16 @@ export default {
 
             return data;
           }
+
+          fbqPurchase(
+            this.$fb,
+            this.cartContent.cart_details,
+            this.cartCount,
+            this.cartContent.cart_subtotal,
+            this.info.id || user.id,
+            id,
+            this.hasPaymentPlan ? '1' : null
+          );
 
           this.$store.dispatch('booking/clearCart');
           

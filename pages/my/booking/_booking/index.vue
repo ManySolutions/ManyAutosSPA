@@ -112,7 +112,21 @@
 
       <v-spacer></v-spacer>
       <v-card-subtitle>
-        Services List
+        <v-row>
+          <v-col>
+            Services List
+          </v-col>
+          <v-col>
+            <div class='text-md-right'>
+              <span>
+                Total Cost 
+                <span class='font-weight-700'>
+                  {{ currencySymbol + booking.total_cost }}
+                </span>
+              </span>
+            </div>
+          </v-col>
+        </v-row>
       </v-card-subtitle>
       <v-card-text>
         <v-data-table
@@ -121,7 +135,8 @@
           :items-per-page="5"
           disable-sort
           disable-filtering
-        ></v-data-table>
+        >
+        </v-data-table>
       </v-card-text>
       <!-- /vehicle info -->
     </v-card>
