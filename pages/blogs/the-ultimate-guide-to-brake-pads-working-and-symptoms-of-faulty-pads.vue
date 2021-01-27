@@ -80,7 +80,7 @@ export default {
     return {
       user: {
         title:
-          "https://manyautosltd.com/blogs/vehicle-parts-that-require-maintenance-over-time-to-run-smoothly",
+          "https://manyautosltd.com/blogs/the-ultimate-guide-to-brake-pads-working-and-symptoms-of-faulty-pads",
       },
     };
   },
@@ -103,7 +103,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title",
-        content: "Vehicle Parts That Require Maintenance Over Time to Run Smoothly",
+        content: "The Ultimate Guide to Brake Pads: Working and Symptoms of Faulty Pads",
       },
       {
         hid: 'og:type',
@@ -137,7 +137,7 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Vehicle Parts That Require Maintenance Over Time to Run Smoothly",
+        content: "The Ultimate Guide to Brake Pads: Working and Symptoms of Faulty Pads",
       },
       {
         name: "twitter:description",
