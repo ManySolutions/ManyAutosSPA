@@ -1,68 +1,49 @@
 <template>
   <page-layout
-    title='Symptoms That Indicate your Fuel or Water Pump Needs Replacing'
+    title='Symptoms That Indicate your Fuel Pump Needs Replacement'
     heading-bg-static='https://static.manyautosltd.com/uploads/symptoms-that-indicate-your-fuel-or-water-pump-needs-replacing1.jpg'
     has-share-button
   >
   <div class="container" style="padding-top: 70px;">
       <p>Pumps can be a delicate part of the vehicle. Their maintenance is necessary for the car to run smoothly. You
-        need to listen carefully for any weird sounds made by the engine because most of time the sounds signal to some
-        faults in the parts of the vehicle.
+        need to listen carefully for any weird sounds made by the engine because most of the time the sounds signal some
+        faults in the parts of the vehicle. One of the most important components of a vehicle is the fuel pump.
       </p>
-      <h2>Here are some points that can help you to identify a faulty pump</h2>
-      <h3>Fuel pump</h3>
-      <p class="margin-bottom-10 text-justify text-teal">The fuel pump provides pressure which supplies the fuel to the
-        engine. Engines require a consistent flow of gasoline to work properly. The symptoms of a faulty fuel pump are
-        the easiest to notice as compared to the other parts of the vehicle. Following are the warning signs that mean
-        your fuel pump needs a replacement.
+      <h2>Fuel pump</h2>
+      <p class="margin-bottom-10 text-justify text-teal">The <nuxt-link to="/fuel-injector">fuel pump</nuxt-link> provides pressure which supplies the fuel to the
+        engine. Engines require a consistent flow of fuel to work properly. The symptoms of a faulty fuel pump are the
+        easiest to notice as compared to the other parts of the vehicle. Following are the warning signs that mean your
+        fuel pump needs a replacement.</p>
+      <h2>Here are some points that can help you to identify a faulty fuel pump</h2>
+      <h3>How does your car start?</h3>
+      <p class="margin-bottom-10 text-justify text-teal">If your vehicle is struggling to start or is not working at
+        all, your car’s fuel pump may be damaged. We suggest you get your car checked, you can contact our garage to
+        arrange a recovery service for you, as driving your car to the garage won’t be an option.
       </p>
-      <h3>How does your car start</h3>
+      <h3>High-pitched whining</h3>
       <p class="margin-bottom-10 text-justify text-teal">If your vehicle is struggling to start or is not working at
         all, your car’s fuel pump may be damaged. We suggest you get your car checked, you can contact our garage for
         the doorstep car service as driving your car to a garage won’t be an option.
-      </p>
-      <h3>High-pitched whining</h3>
-      <p class="margin-bottom-10 text-justify text-teal">Another sign that there is some issue with your fuel pump is a
-        loud squeal or whine from the engine when you drive. The noises indicate that some components of the engine have
-        worn out. they can lead to more serious and costly mechanic failures. We recommend you to get it replaced.
-        Replacing a worn-out fuel pump will prevent any further problems.
       </p>
       <h3>Engine stuttering</h3>
       <p class="margin-bottom-10 text-justify text-teal">A clear sign that your engine’s fuel pump isn’t working is the
         jolt and stuttering of the engine when you are driving steadily. It happens when the pump struggles to provide
         the right amount of fuel to the engine, making it difficult for the engine to keep a steady speed. It can be
         extremely dangerous because it affects the level of control you have over your vehicle. If a problem like this
-        occurs, we recommend you to visit our garage and we will provide you with the best <nuxt-link to="/">fuel pump repair</nuxt-link>.
+        occurs, we recommend you to visit our garage and we will provide you with the best <nuxt-link to="/fuel-pump">fuel pump repair</nuxt-link>.
       </p>
-      <h3>Water pump</h3>
-      <p class="margin-bottom-10 text-justify text-teal">Your engine needs a consistent flow of coolant to run properly
-        during summer days. The water pump is one of the main components of a vehicle. It should work properly for a
-        consistent operating temperature. When the water pumps start to wear, it affects the performance of the engine.
-        You need to keep an eye on any damages or failure of the pump and focus on your <nuxt-link to="/timing-belt">car water pump
-          repair</nuxt-link>.</p>
-      <h2>Here are signs that mean your water pump needs replacement</h2>
-      <h3>Coolant leak</h3>
-      <p class="margin-bottom-10 text-justify text-teal">The water pump consists of many gaskets and seals that contain
-        the coolant and ensure a steady flow of coolant from the radiator to the engine. Over time these seals and
-        gaskets wear out, crack, dry up or break completely. The breakage causes the coolant to leak and drip on the
-        ground. If you notice a leak, you can visit our garage, we will check thoroughly and get your car water pump
-        fixed before it gets worse.
-      </p>
-      <h3>Overheating engine</h3>
-      <p class="margin-bottom-10 text-justify text-teal">When the water pump fails to provide the coolant to the
-        engine, it starts to overheat. If not treated on time, it will cause serious additional damages to the engine.
-        If you notice the engine's temperature gauge running hot frequently, then you should take your car to a
-        mechanic and get the water pump replaced.</p>
-      <h3>Steam from the radiator</h3>
-      <p class="margin-bottom-10 text-justify text-teal">If you notice some steam coming from the front of your motor,
-        it is an instant symptom of overheating. As we talked about before, it is caused when the coolant is not
-        supplied to the radiator properly. It is risky to drive an overheating car. you should call a mechanic and get
-        your car repaired.
+      <h3>Loss of power when driving uphill</h3>
+      <p class="margin-bottom-10 text-justify text-teal">Another indication of faulty fuel is that your car loses power
+        when it is put under pressure. More fuel is required by the vehicle when it is going uphill or carrying a heavy
+        load. If your car loses power in such a situation, then it is evident that the fuel pump needs replacement.
       </p>
       <p class="margin-bottom-10 text-justify text-teal">If you want to know more about your car and its parts, you can
-        ask our mechanics and technicians. You can search online for qualified <nuxt-link to="/vehicle-engine-diagnostic-services/">air suspension specialists near me</nuxt-link>, but
-        they won’t guide you in a way we would.
-      </p>
+        ask our mechanics and <nuxt-link to="/">trained technicians</nuxt-link>. They will help you and answer all your inquiries.</p>
+      <h3>What is the next step?</h3>
+      <p class="margin-bottom-10 text-justify text-teal">If you experience any of these things, you should consult a
+        professional immediately. We provide the finest services for your vehicle. We will inspect your vehicle and
+        repair your fuel pump at an affordable price. You don’t even have to visit our garage for the service. Just book
+        a service online and we will collect your car at a pre-decided time.</p>
     </div>
   </page-layout>
 </template>
@@ -86,21 +67,21 @@ export default {
   },
 
   head: {
-    title: 'Symptoms That Indicate your Fuel or Water Pump Needs Replacing',
+    title: 'Symptoms That Indicate your Fuel Pump Needs Replacement',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'You should focus on the sounds made by your vehicle, as they tell you about your vehicle’s condition. Learn more about the signs that mean you need a new fuel or water pump.'
+        content: 'The fuel pump is a high-priority part of a vehicle. Is it important to know when your pump needs repair or replacement? Read to learn more about the matter.'
       },
       {
         name: 'keywords', 
-        content: 'fuel pump repair, air suspension specialists near me, car water pump repair'
+        content: 'Fuel pump repair, trained technician, fuel pump'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Symptoms That Indicate your Fuel or Water Pump Needs Replacing"
+        content: "Symptoms That Indicate your Fuel Pump Needs Replacement"
       },
       {
         hid: 'og:type',
@@ -124,7 +105,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "You should focus on the sounds made by your vehicle, as they tell you about your vehicle’s condition. Learn more about the signs that mean you need a new fuel or water pump."
+        content: "The fuel pump is a high-priority part of a vehicle. Is it important to know when your pump needs repair or replacement? Read to learn more about the matter."
       },
       {
         name: "twitter:card", 
@@ -132,11 +113,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Symptoms That Indicate your Fuel or Water Pump Needs Replacing"
+        content: "Symptoms That Indicate your Fuel Pump Needs Replacement"
       },
       {
         name: "twitter:description", 
-        content: "You should focus on the sounds made by your vehicle, as they tell you about your vehicle’s condition. Learn more about the signs that mean you need a new fuel or water pump."
+        content: "The fuel pump is a high-priority part of a vehicle. Is it important to know when your pump needs repair or replacement? Read to learn more about the matter."
       },
       {
         name: "twitter:image", 
