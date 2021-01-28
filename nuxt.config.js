@@ -179,7 +179,7 @@ export default {
   facebook: {
     /* module options */
     track: 'PageView',
-    pixelId: '241591920870712',
+    pixelId: '681518625859649',
     autoPageView: true,
     disabled: false,
     debug: false,
