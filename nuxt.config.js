@@ -179,7 +179,7 @@ export default {
   facebook: {
     /* module options */
     track: 'PageView',
-    pixelId: '241591920870712',
+    pixelId: '681518625859649',
     autoPageView: true,
     disabled: false,
     debug: false,
@@ -189,6 +189,7 @@ export default {
   env: {
     ENVIRONMENT: 'development',
     CURRENCY_SYMBOL: '£',
+    CURRENCY_CODE: 'GBP',
     APP_URL: 'https://manyautosltd.com',
     API_URL: 'https://app.manyautosltd.com/api/v2/c/',
     ASSETS_URL: 'https://app.manyautosltd.com/assets/',
