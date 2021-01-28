@@ -94,6 +94,12 @@ export default {
           img: 'https://static.manyautosltd.com/uploads/the-ultimate-guide-to-brake-pads-working-and-symptoms-of-faulty-pads.jpg',
           url: '/blogs/the-ultimate-guide-to-brake-pads-working-and-symptoms-of-faulty-pads'  
          },
+         {
+          title:'Top Advantages of Regular Car Maintenance Services',
+          excerpt:'Like other machines and devices, the car also needs maintenance regularly so it can be used easily, without any difficulty. If you do not take regular maintenance services for your car...',
+          // img: 'https://static.manyautosltd.com/uploads/the-ultimate-guide-to-brake-pads-working-and-symptoms-of-faulty-pads.jpg',
+          url: '/blogs/top-advantages-of-regular-car-maintenance-services'  
+         },
         // {
         //   title:'Top 4 Fantastic Turn-Ups Necessary For Smooth And Safe Drive',
         //   excerpt:'We all know that the vehicle requires regular oil and filter change for it to run smoothly. But that is not the only thing it requires. Every part of your vehicle should be inspected...',

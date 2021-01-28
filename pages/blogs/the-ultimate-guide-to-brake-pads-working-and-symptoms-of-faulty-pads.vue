@@ -17,15 +17,15 @@
        This in turn slows down the vehicle and brings it to a complete stop.
       </p>
       <p class="margin-bottom-10 text-justify text-teal">
-        There are different <NuxtLink to="/brake-caliper">types of brake calipers</NuxtLink> available, you can choose according to your preference.
+        There are different <NuxtLink to="/brake-caliper">types of brake calipers</NuxtLink> available, you can choose
+        according to your preference.
       </p>
       <h2>Why the brakes are replaced regularly?</h2>
       <p class="margin-bottom-10 text-justify text-teal">
         The lifespan of <NuxtLink to="/brake-pads">brake pads</NuxtLink> is dependent on how the car is driven and the quality of the brake pads as cheap pads
         tend to wear out faster. On motorways, less braking is required compared to urban areas as you have to stop for
-        traffic, roundabouts, junctions, crossings, traffic lights, etc. Probably the most used system in a car is the
-        braking system hence the brake parts are often replaced, like the <NuxtLink to="/brake-pipe">brake pipe replacement</NuxtLink>, fluid replacement,
-        etc.
+        traffic, roundabouts, junctions, crossings, traffic lights, etc. Probably the most used system in a car is the braking system hence the brakes
+        parts are often replaced.
       </p>
       <h2>Things that indicate you have faulty brake pads</h2>
       <p class="margin-bottom-10 text-justify text-teal">
@@ -41,7 +41,7 @@
             pedal, then it could mean that the brake discs are warped due to heat buildup. The brake discs assist the
             car to brake correctly and smoothly. Check the pads regularly to make sure that they are not worn out. If it
             is thin, it can lead to a weaker system that will eventually not allow the brakes to work at all.</li>
-          <li>If your car pulls to one side when you apply the brakes it could mean that one side has more worn than the
+          <li>If your car pulls to one side when you apply the brakes it could mean that one side has worn more than the
             other. The car will pull to one side without the movement of the steering wheel. This is risky as your car
             should not be making turns unless you are the one enforcing it.</li>
       </ul>
