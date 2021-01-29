@@ -94,6 +94,12 @@ export default {
           img: 'https://static.manyautosltd.com/uploads/the-ultimate-guide-to-brake-pads-working-and-symptoms-of-faulty-pads.jpg',
           url: '/blogs/the-ultimate-guide-to-brake-pads-working-and-symptoms-of-faulty-pads'  
          },
+        //  {
+        //   title:'Car Battery: It’s Working, Components and How Can It Be Recharged',
+        //   excerpt:'A саr’s bаttеrу iѕ one of its most important parts. The reason for this is that it роwеrѕ аll thе еlесtriсаl соmроnеntѕ оf your саr. It iѕ usually a rechargeable 12 vоlt lеаd-асid...',
+        //   img: 'https://static.manyautosltd.com/uploads/car-battery-it’s-working-components-and-how-can-it-be-recharged.png',
+        //   url: '/blogs/car-battery-it’s-working-components-and-how-can-it-be-recharged'  
+        //  },
          {
           title:'Top Advantages of Regular Car Maintenance Services',
           excerpt:'Like other machines and devices, the car also needs maintenance regularly so it can be used easily, without any difficulty. If you do not take regular maintenance services for your car...',
