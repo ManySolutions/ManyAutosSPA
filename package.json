@@ -13,6 +13,7 @@
     "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/sitemap": "^2.4.0",
+    "@tinymce/tinymce-vue": "^3.2.8",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
     "mobile-device-detect": "^0.4.3",

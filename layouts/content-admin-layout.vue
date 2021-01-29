@@ -59,6 +59,7 @@
             :key="k"
             link
             :to='"/apps/content-admin" + item.url'
+            exact
           >
             <v-list-item-icon>
               <v-icon>{{ item.icon }}</v-icon>
@@ -90,13 +91,13 @@
         </span>
       </v-toolbar-title>
     </v-app-bar>
-    <v-content>
+    <v-main>
       <v-container
         fluid
       >
         <nuxt></nuxt>
       </v-container>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 
@@ -110,7 +111,7 @@
           { title: 'Blogs', icon: 'mdi-view-dashboard', children: [
             { title: 'View All', url: '/blogs/list' },
             { title: 'Create New', url: '/blogs/create' },
-            { title: 'Trash', url: '/create/trash' },
+            { title: 'Trash', url: '/blogs/trash' },
           ] },
         ],
         right: null,
