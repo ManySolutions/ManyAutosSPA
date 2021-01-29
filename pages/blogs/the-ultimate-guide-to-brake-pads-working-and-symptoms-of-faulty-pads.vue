@@ -24,7 +24,7 @@
       <p class="margin-bottom-10 text-justify text-teal">
         The lifespan of <NuxtLink to="/brake-pads">brake pads</NuxtLink> is dependent on how the car is driven and the quality of the brake pads as cheap pads
         tend to wear out faster. On motorways, less braking is required compared to urban areas as you have to stop for
-        traffic, roundabouts, junctions, crossings, traffic lights, etc. Probably the most used system in a car is the breaking system hence the brakes
+        traffic, roundabouts, junctions, crossings, traffic lights, etc. Probably the most used system in a car is the braking system hence the brakes
         parts are often replaced.
       </p>
       <h2>Things that indicate you have faulty brake pads</h2>
