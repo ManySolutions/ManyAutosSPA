@@ -5,6 +5,7 @@
       :key='k'
       :network="network.network" 
       :url="url"
+      :title='network.text'
     >
       <v-btn 
         class="mr-2 mb-2" 
@@ -23,7 +24,6 @@
         {{ network.text }}
       </v-btn>
     </ShareNetwork>
-
   </div>
 </template>
 <script>

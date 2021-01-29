@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import axios from 'axios'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -162,18 +163,32 @@ export default {
   },
 
 
-  sitemap: {
-    hostname: 'https://manyautosltd.com',
-    // gzip: true,
-    exclude: [
-      '/my',
-      '/my/**',
-      '/test',
-      '/booking/**',
-      '/referral',
-      '/register-your-garage/**'
-    ],
-  },
+  sitemap: [
+    {
+      hostname: 'https://manyautosltd.com',
+      // gzip: true,
+      exclude: [
+        '/my',
+        '/my/**',
+        '/apps/**',
+        '/test',
+        '/booking/**',
+        '/referral',
+        '/register-your-garage/**'
+      ],
+    },
+    {
+      path: '/sitemap-blogs.xml',
+      exclude: [
+        '/**'
+      ],
+      routes: async () => {
+        const {data} = await axios.get(`http://manyautos.local/api/v2/c/customer/blogs/slugs`);
+
+        return data.map(v => '/blogs/' + v.slug)
+      }
+    }
+  ],
 
 
   facebook: {
