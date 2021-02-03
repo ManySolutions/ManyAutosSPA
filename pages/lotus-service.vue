@@ -1083,7 +1083,7 @@
            </v-expansion-panels>
   
   <div class="col-12">
-      <h2 class="h2-service-heading pt-3 pb-3">Common BMW Problems found during a full service</h2>
+      <h2 class="h2-service-heading pt-3 pb-3">Common Lotus Problems found during a full service</h2>
   </div>
             <v-expansion-panels popout>
               <v-expansion-panel  class="icon">

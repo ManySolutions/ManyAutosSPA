@@ -1082,7 +1082,7 @@
            </v-expansion-panels>
   
   <div class="col-12">
-      <h2 class="h2-service-heading pt-3 pb-3">Common BMW Problems found during a full service</h2>
+      <h2 class="h2-service-heading pt-3 pb-3">Common Skoda Problems found during a full service</h2>
   </div>
             <v-expansion-panels popout>
               <v-expansion-panel  class="icon">
@@ -1096,7 +1096,7 @@
                   may face electrical faults as a result of leaking oil in your Skoda. If your engine oil is
                   leaking in your Skoda, a mechanic will be sure to find it during a full service as there are a
                   number of tell-tale signs. It would be hard not to miss as the liquid would be likely to be dripping
-                  form the undercarriage of the car..
+                  form the undercarriage of the car.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel >
