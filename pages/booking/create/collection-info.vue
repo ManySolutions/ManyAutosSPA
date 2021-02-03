@@ -18,6 +18,7 @@
         <v-stepper-step
           :complete="step > 1"
           step="1"
+          :editable='isStep1Valid'
         >
           Choose collection date
           <small>Our collection timing is between 09:00 to 11:00</small>
@@ -41,6 +42,7 @@
         <v-stepper-step
           :complete="step > 2"
           step="2"
+          :editable='isStep2Valid'
         >
           Select Collection Address
         </v-stepper-step>
@@ -75,6 +77,7 @@
         <v-stepper-step
           :complete="step > 3"
           step="3"
+          :editable='isStep3Valid'
         >
           Personal Information
         </v-stepper-step>
@@ -109,6 +112,7 @@
         <v-stepper-step
           :complete="step > 4"
           step="4"
+          :editable='isFormValid'
         >
           Finish Booking
         </v-stepper-step>
@@ -151,7 +155,6 @@
             </v-col>
           </v-row>
         </v-stepper-content>
-
         <!-- / step 2 ended -->
         
       </v-stepper>

@@ -1,8 +1,13 @@
 <template>
   <div class='navbar-container'>
-    <navbar-top></navbar-top>
-    <navbar-mobile v-if='!isDevice.lg'></navbar-mobile>
-    <navbar-desktop v-else></navbar-desktop>
+    <template v-if='isDevice.lg'>
+      <navbar-top-v2></navbar-top-v2>
+      <navbar-desktop></navbar-desktop>
+    </template>
+    <template v-else>
+      <navbar-top></navbar-top>
+      <navbar-mobile></navbar-mobile>
+    </template>
   </div>
 </template>
 
@@ -10,9 +15,10 @@
 import NavbarDesktop from './__components/navbar-desktop.vue';
 import navbarMobile from './__components/navbar-mobile.vue';
 import NavbarTop from './__components/navbar-top.vue';
+import NavbarTopV2 from './__components/v2/navbar-top.vue';
 
 export default {
-  components: { navbarMobile, NavbarTop, NavbarDesktop },
+  components: { navbarMobile, NavbarTop, NavbarTopV2, NavbarDesktop },
 
   data: () => ({
 

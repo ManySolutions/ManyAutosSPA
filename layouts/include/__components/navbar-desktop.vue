@@ -1,77 +1,89 @@
 <template>
-  <div>
-    <v-app-bar 
-      color="blue-grey darken-2" 
-      dark
-      elevation="3"
-    >
-      <v-toolbar-title
-        ><img
-          :src="assets('customer-v2/logo-default.png')"
-          :alt="appTitle"
-          class="logo"
-          @click="$router.push('/')"
-      />
-      </v-toolbar-title>
+  <v-sheet
+    color="blue-grey darken-2" 
+    dark
+    elevation="3"
+  >
+    <v-container class='p-0'>
+      <v-row>
+        <v-col class='p-0'>
+          <v-app-bar 
+            color="blue-grey darken-2" 
+            dark
+            elevation="0"
+          >
+            <template v-for='(menu, i) in navbarMenu'>
+              <v-menu
+                v-if='menu.children'
+                offset-y
+                :key='i'
+                open-on-hover
+                eager
+              >
+                <template v-slot:activator="{ on, attrs }">
+                  <v-btn 
+                    text 
+                    color=primary 
+                    class='text-capitalize font-weight-600'
+                    v-bind="attrs" 
+                    v-on="on"
+                  >
+                    {{ menu.title }}
+                    <v-icon>mdi-menu-down</v-icon>
+                  </v-btn>
+                </template>
+                <v-list>
+                  <v-list-item
+                    v-for="(child, index) in menu.children"
+                    :key="i + index"
+                    :to="child.url"
+                  >
+                    <v-list-item-title>{{ child.title }}</v-list-item-title>
+                  </v-list-item>
+                </v-list>
+              </v-menu>
+              <v-btn
+                v-else
+                :text='!menu.btn'
+                :color='menu.color || `primary`'
+                :key='i'
+                :to='menu.url'
+                class='text-capitalize font-weight-600'
+                :rounded='menu.rounded'
+                :plan='menu.plan'
+                :small='menu.small'
+                :elevation="menu.elevation"
+              >
+                <v-icon v-if='menu.icon' small class='mr-2' color='primary'>{{menu.icon}}</v-icon>
+                <span class='primary--text'>{{ menu.title }}</span>
+              </v-btn>
+            </template>
 
-      <v-spacer></v-spacer>
-      
-      <template v-for='(menu, i) in navbarMenu'>
-        <v-menu
-          v-if='menu.children'
-          offset-y
-          :key='i'
-          open-on-hover
-          eager
-        >
-          <template v-slot:activator="{ on, attrs }">
-            <v-btn 
-              text 
-              color=primary 
-              class='text-capitalize font-weight-600'
-              v-bind="attrs" 
-              v-on="on"
+            <v-spacer></v-spacer>
+
+            <v-btn
+              v-for='(social, j) in socials'
+              :key='j + 100'
+              elevation='0'
+              style='min-width: 0px'
+              class='px-2 mr-2'
+              :href='social.url'
+              target="_blank"
+              :color='social.color' 
+              dark
             >
-              {{ menu.title }}
-              <v-icon>mdi-menu-down</v-icon>
+              <v-icon v-text='social.icon'></v-icon>
             </v-btn>
-          </template>
-          <v-list>
-            <v-list-item
-              v-for="(child, index) in menu.children"
-              :key="index"
-              :to="child.url"
-            >
-              <v-list-item-title>{{ child.title }}</v-list-item-title>
-            </v-list-item>
-          </v-list>
-        </v-menu>
-        <v-btn
-          v-else
-          :text='!menu.btn'
-          :color='menu.color || `primary`'
-          :key='i'
-          :to='menu.url'
-          class='text-capitalize font-weight-600'
-          :rounded='menu.rounded'
-          :plan='menu.plan'
-          :small='menu.small'
-          :elevation="menu.elevation"
-        >
-          <v-icon v-if='menu.icon' small class='mr-2' color='primary'>{{menu.icon}}</v-icon>
-          <span class='primary--text'>{{ menu.title }}</span>
-        </v-btn>
-      </template>
-      <navbar-user-menu></navbar-user-menu>
-    </v-app-bar>
-  </div>
+          </v-app-bar>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-sheet>
 </template>
 
 <script>
-import navbarUserMenu from "./navbar-user-menu.vue"
 
 export default {
-  components: { navbarUserMenu },
   data: () => ({
     navbarMenu: [
       { 
@@ -81,7 +93,7 @@ export default {
         rounded: true, 
         icon: 'mdi-alert-decagram-outline',
         small: false,
-        color: 'blue-grey darken-1',
+        color: 'blue-grey darken-2',
         elevation: 0,
       },
       { title: "Car Services", url: "#", children: [
@@ -105,8 +117,32 @@ export default {
       { title: "Book A Service", url: "/service-booking" },
       { title: "Blogs", url: "/blogs" },
       // { title: "About Us", url: "/about" },
+    ],
+    socials: [
+      {
+        icon: 'mdi-facebook', 
+        url: 'https://www.facebook.com/manyautos.co.uk',
+        color: 'blue darken-1'
+      },
+      {
+        icon: 'mdi-instagram', 
+        url: 'https://www.instagram.com/manyauto/',
+        color: 'red darken-1'
+      },
+      {
+        icon: 'mdi-twitter', 
+        url: 'https://twitter.com/manyautos',
+        color: 'blue darken-3'
+      },
+       {
+        icon: 'mdi-youtube', 
+        url: 'https://www.youtube.com/channel/UCj5peOCn-mwfKkOplGkrD4w',
+        color: 'red darken-1'
+      },
     ]
   }),
+
+  mounted() {}
 };
 </script>
 

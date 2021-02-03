@@ -1,130 +1,45 @@
 <template>
   <v-row
-    :style='`background-image: url(${assets("customer-v2/alex-suprun.jpg")})`'
-    class='has-bg-overlay home-sec-2 home-sec-gaps'
+    style='background-image: url(https://static.manyautosltd.com/uploads/car-mechanic-wearing-white-uniform-stand-holding-wrench.jpg)'
+    class='has-bg-overlay home-sec-2'
   >
     <v-col cols=12>
       <div class='sec-2 text-center'>
-        <h2 class='h1 text-white heading__title mb-5 font-weight-100'>
-          Affordable & Professional <strong>Car Repair Services in UK</strong>
+        <h2 class='h1 text-white heading__title mb-5'>
+          Affordable & Professional Car Repair Services
         </h2>
         <p class='font-weight-300 m-auto' style='max-width:900px;'>
-          Our motto here at <span class="font-weight-bold">Many Autos</span> is to provide our clients with absolutely
-          the best <v-btn text color='primary' to="/car-service" class='px-0 text-capitalize'>vehicle maintenance
-            services</v-btn>. 
+          Our motto is to provide our clients with absolutely
+          the best 
+          <NuxtLink to="/car-service" class='text-white'
+          >
+            vehicle maintenance services
+          </NuxtLink>.
           You will receive the same honest and satisfactory treatment and services whenever you visit our garage.
           We provide maintenance service in all categories of vehicles.
-          Our mechanics are certified to Service, Repair & MOT for the following makes:
-        </p>
-        <table class='w-100 m-auto pt-8' style='max-width: 700px;'>
-          <tbody>
-            <tr>
-              <td 
-                v-for='(list, i) in carsList'
-                :key="i"
-              >
-                <span
-                  v-for='(car, j) in list'
-                  :key="j"
-                  class='d-block text-left car-text'
-                >
-                  <v-icon color='primary' class='mr-sm-2' small>mdi-check</v-icon>
-                  {{ car.name }}
-                </span>
-              </td>
-            </tr>
-          </tbody>
-        </table>
         <div class='pt-10 text-center'>
           <v-btn
             large outlined
             color='primary'
-            to='/sitemap#car-services'
+            to='/sitemap#car-repairs'
           >
             <strong>
-              View all vehicles
+              View all services
             </strong>
             <v-icon>mdi-chevron-right</v-icon>
           </v-btn>
         </div>
       </div>
+      <v-img src='https://static.manyautosltd.com/uploads/handsome-tyre-repairman-isolated-white.png'
+        class='service-man-img d-none d-lg-block'
+      ></v-img>
     </v-col>
   </v-row>
 </template>
 
 <script>
-import { carsList,  } from '~/utils/vars';
-
 export default {
   data: () => ({
-    carsList: [
-      [
-        { 
-          code: 'renault-service', 
-          name: 'Renault'
-        },
-        {
-          code: 'audi-service', 
-          name: 'Audi' 
-        },
-        { 
-          code: 'bmw-service', 
-          name: 'BMW' 
-        },
-        { 
-          code: 'citroen-service', 
-          name: 'Citroen' 
-        },
-        { 
-          code: 'land-rover-service', 
-          name: 'Land Rover' 
-        },
-      ],
-      [
-        { 
-          code: 'daewoo-service', 
-          name: 'Daewoo' 
-        },
-        { 
-          code: 'fiat-service', 
-          name: 'Fiat' 
-        },
-        { 
-          code: 'ford-service', 
-          name: 'Ford'
-        },
-        { 
-          code: 'honda-service', 
-          name: 'Honda' 
-        },
-        { 
-          code: 'kia-service', 
-          name: 'Kia' 
-        },
-      ],
-      [
-        {
-          code: 'lexus-service', 
-          name: 'Lexus' 
-        },
-        { 
-          code: 'mazda-service', 
-          name: 'Mazda' 
-        },
-        { 
-          code: 'mercedes-service', 
-          name: 'Mercedes' 
-        },
-        { 
-          code: 'mini-service', 
-          name: 'Mini' 
-        },
-        { 
-          code: 'mitsubishi-service', 
-          name: 'Mitsubishi' 
-        },
-      ]
-    ],
   }),
 
   computed: {
@@ -146,7 +61,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(13 168 199 / 77%);
+    background: linear-gradient(94deg, rgba(13, 168, 199, 0.77), rgba(13, 168, 199, 1));
   }
   &:after {
     background: rgb(51 51 51 / 67%);
@@ -162,6 +77,14 @@ export default {
   position: relative;
   z-index: 1;
   color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  @media (min-width: 960px) {
+    padding-right: 100px;
+  }
+  p {
+    font-size: 20px;
+  }
 }
 .home-sec-2 {
   background-size: cover;
@@ -173,5 +96,11 @@ export default {
   text-transform: capitalize;
   letter-spacing: 1px;
   padding-bottom: 10px;
+}
+.service-man-img{
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  z-index: 1;
 }
 </style>

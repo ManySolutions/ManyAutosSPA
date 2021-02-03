@@ -1,14 +1,20 @@
 <template>
-  <v-container class="pickup-section mb-10">
+  <v-container class="pickup-section">
     <v-row>
-      <v-col cols="12" md="6" order-md="2" class='text letter-image'>
-        <img src="~/static/imgs/pickup.jpg" alt="" class="center" />
+      <v-col cols="12" md="6" order-md="2" class='letter-image'>
+        <v-img 
+          src="https://static.manyautosltd.com/uploads/pickup-2.jpg" 
+          alt="" 
+        />
       </v-col>
-      <v-col cols="12" md="6" order-md="1" class='text'>
-        <h1 class='heading__title heading__title--bar mb-10' style="font-weight:lighter">
-          Pickup And Delivery<br> <span class='font-weight-bold text-primary text-right'>Anywhere Anytime</span>
+      <v-col cols="12" md="6" order-md="1" class='text-center' align-self="center">
+        <h1 class='heading__title mb-10 text-center' style="font-weight:lighter">
+          <span class=''> Pickup and Delivery </span>
+          <br>
+          <span class='font-weight-bold'>Anywhere Anytime</span>
         </h1>
-        <p>We collect your car from a place of your choice and deliver it back to you after it is repaired and
+        <p>
+          We collect your car from a place of your choice and deliver it back to you after it is repaired and
           serviced. If your car is not road worthy, we can arrange a recovery service for you at extra cost.
         </p>
       </v-col>
@@ -27,6 +33,15 @@
 
 .pickup-section .heading__title {
   text-align: right;
+}
+.heading__title {
+  text-transform: initial;
+}
+p {
+  // font-size: 22px;
+  max-width: 740px;
+  text-align: center;
+  margin: 0px auto;
 }
 
 .pickup-section .text {
