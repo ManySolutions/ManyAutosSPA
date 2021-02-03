@@ -70,8 +70,12 @@
       <index-our-services></index-our-services>
       <car-reg-form has-bg-image></car-reg-form>
       <index-car-parts></index-car-parts>
+    </v-row>
+    <v-row class='my-12 my-lg-0'>
       <index-online-booking></index-online-booking>
       <index-pickup-and-delivery></index-pickup-and-delivery>
+    </v-row>
+    <v-row>
       <car-reg-form has-bg-image></car-reg-form>
       <index-reviews></index-reviews>
       <index-faq></index-faq>

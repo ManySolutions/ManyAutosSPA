@@ -95,7 +95,7 @@
     margin-right: auto;
   }
   .heading__title {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 }
 </style>

@@ -1,12 +1,12 @@
 <template>
-  <v-container class="booking-section mb-10">
+  <v-container class="booking-section">
     <v-row>
       <v-col cols="12" md="6" class="text letter-image position-relative">
         <v-img
           src="https://static.manyautosltd.com/uploads/online-ticket-booking.png"
         ></v-img>
       </v-col>
-      <v-col cols="12" md="6" class="text mb-10" align-self="center">
+      <v-col cols="12" md="6" align-self="center">
         <div class="text-center">
           <h1 class="heading__title mb-4 text-center" style="font-weight:lighter">
             Online Booking at

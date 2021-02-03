@@ -15,7 +15,7 @@
           class='mb-4'
         >
           <client-only>
-            <carousel :perPageCustom="[[480, 2], [768, 3]]" :pagination='false'>
+            <carousel :perPageCustom="[[0, 1], [480, 2], [768, 3]]" :pagination='false'>
               <slide
                 v-for="(review, i) in reviews"
                 :key="i"
@@ -136,7 +136,7 @@ export default {
       margin-right: auto;
     }
     .heading__title {
-      margin-bottom: 30px;
+      margin-bottom: 10px;
     }
   }
   ::v-deep {
