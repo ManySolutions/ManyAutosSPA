@@ -322,15 +322,17 @@ export default {
             return data;
           }
 
-          fbqPurchase(
-            this.$fb,
-            this.cartContent.cart_details,
-            this.cartCount,
-            this.cartContent.cart_subtotal,
-            this.info.id || user.id,
-            id,
-            this.hasPaymentPlan ? '1' : null
-          );
+          try {
+            fbqPurchase(
+              this.$fb,
+              this.cartContent.cart_details,
+              this.cartCount,
+              this.cartContent.cart_subtotal,
+              this.info.id || user.id,
+              id,
+              this.hasPaymentPlan ? '1' : null
+            );
+          } catch (error) { }
 
           this.$store.dispatch('booking/clearCart');
           
