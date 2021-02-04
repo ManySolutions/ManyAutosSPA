@@ -161,4 +161,8 @@ h3{
     margin-top: 20px;
 }
 }
+.wrap-text {
+  -webkit-line-clamp: unset !important;
+  white-space: normal;
+}
 </style>>
