@@ -2,6 +2,17 @@
   <v-container fluid class="pt-0">
     <v-row class="home-top">
       <v-col>
+        <div class="img-container">
+          <v-img
+            v-for='(item, i) in slides'
+            :key='i' 
+            :class="'imgs-inner-' + i"
+            :src="'https://static.manyautosltd.com/uploads/' + item"
+            hidden
+            width='100%'
+            height='100%'
+          ></v-img>
+        </div>
         <div class="home-sec-1">
           <h1 class="text-center py-5">
             <span class="text-lg">We offer</span>
@@ -25,7 +36,7 @@
             <small class="text-sm"> for your car maintenance </small>
           </h1>
 
-          <car-reg-form-card></car-reg-form-card>
+          <car-reg-form-card id='home-reg-form'></car-reg-form-card>
 
           <v-row class="top-h-icons">
             <v-col cols="4" class="top-hi">
@@ -51,24 +62,30 @@
       </v-col>
     </v-row>
     <!-- /first section for registration -->
-    <index-section-2></index-section-2>
     <v-row>
       <index-how-it-works></index-how-it-works>
+    </v-row>
+    <index-section-2></index-section-2>
+    <v-row>
+      <index-our-services></index-our-services>
+      <car-reg-form has-bg-image></car-reg-form>
+      <index-car-parts></index-car-parts>
+    </v-row>
+    <v-row class='my-12 my-lg-0'>
       <index-online-booking></index-online-booking>
       <index-pickup-and-delivery></index-pickup-and-delivery>
+    </v-row>
+    <v-row>
       <car-reg-form has-bg-image></car-reg-form>
-      <index-our-services></index-our-services>
-      <index-car-parts></index-car-parts>
-      <car-reg-form></car-reg-form>
       <index-reviews></index-reviews>
       <index-faq></index-faq>
     </v-row>
-    <index-services></index-services>
+    <!-- <index-services></index-services> -->
   </v-container>
 </template>
 
 <script>
-// import $ from 'jquery';
+import $ from 'jquery';
 import BaseTextSlider from "~/components/base-components/base-text-slider.vue";
 import IndexHowItWorks from "~/pages/__components/index-how-it-works.vue";
 import IndexOurServices from "~/pages/__components/index-our-services.vue";
@@ -100,12 +117,37 @@ export default {
     IndexServices,
   },
 
-  data: () => ({}),
+  data: () => ({
+    slides: [
+      'masked-mechanic-checks-car-service-station.jpg',
+      'mechanic-man-woman-customer-wearing-medical-face-mask-protection-coronavirus-check-car-condition-before-delivery.jpg',
+      'auto-mechanic-checking-car.jpg'
+    ],
+    slideCount: 0,
+    interval: null,
+  }),
 
-  mounted() {
+  watch: {
+    slideCount(slideCount) {
+      $('.img-container > div').fadeOut(500);
+      $('.img-container > .imgs-inner-' + slideCount).fadeIn(500);
+    }
   },
 
-  methods: {},
+  mounted() {
+    this.slidesBg();
+  },
+
+  methods: {
+    slidesBg() {
+      this.interval = setInterval(() => {
+        if (this.slideCount >= 2)
+          this.slideCount = 0
+        else
+          this.slideCount++
+      }, 20000)
+    }
+  },
 
   head: {
     title: "Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance",
@@ -272,9 +314,31 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.img-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: black;
+  overflow: hidden;
+  &:before {
+    content: "";
+    background: rgb(69 90 100 / 86%);
+    // background: rgb(47 82 87 / 90%);
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}
 .text-lg {
   font-size: 34px;
   letter-spacing: 1px;
+  color: white;
   @media (min-width: 960px) {
     font-size: 44px;
   }
@@ -286,6 +350,7 @@ export default {
   display: block;
   margin: auto;
   text-align: center;
+  color: white;
   @media (min-width: 960px) {
     margin-top: 10px;
     font-size: 22px;
@@ -294,20 +359,9 @@ export default {
 
 .home-top {
   padding-bottom: 20px;
-  background: url("~static/imgs/88246.png") top center;
-  background-size: cover;
+  // background-image: url("https://static.manyautosltd.com/uploads/black---mechanic-man-woman-customer-wearing-medical-face-mask-protection-coronavirus-check-car-condition-before-delivery.jpg") top center;
+  // background-size: cover;
   position: relative;
-  &:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgb(255 255 255 / 59%);
-    top: 0;
-  }
-  & > * {
-    z-index: 1;
-  }
   @media (min-width: 960px) {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -315,12 +369,15 @@ export default {
 }
 .home-sec-1 {
   padding-bottom: 30px;
+  position: relative;
+  z-index: 1;
 }
 
 .top-h-icons {
   padding-top: 30px;
   max-width: 500px;
   margin: 0px auto;
+  color: white;
   .top-hi {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -345,6 +402,7 @@ export default {
     span i {
       margin-bottom: 20px;
       font-size: 31px;
+      color: white;
     }
   }
 }

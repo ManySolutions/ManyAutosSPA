@@ -394,5 +394,9 @@ export default {
     display: block;
   }
 }
-
+::v-deep .v-btn.v-btn--text {
+  white-space: normal;
+  height: auto !important;
+  margin-bottom: 14px;
+}
 </style>

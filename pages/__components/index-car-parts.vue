@@ -4,7 +4,7 @@
       <v-row cols="12">
         <v-col class="mb-7">
           <h1
-            class="heading__title heading__title--bar text-center"
+            class="heading__title text-center"
             style="font-weight: lighter"
           >
             A Huge Range of
@@ -16,7 +16,7 @@
       <v-row class="text-center">
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps mb-5 pb-3 pb-lg-5">
-            <img :src="assets('customer-v2/icons/brake-disc.png')" alt="" />
+            <v-img class='img' :src="assets('customer-v2/icons/brake-disc.png')" alt="" />
             <div class="step-content">
               <h6 class="fw-600 mb-3 mt-4">Braking</h6>
               <p class="color-dark mb-0">
@@ -28,7 +28,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps mb-5 pb-3 pb-lg-5">
-            <img :src="assets('customer-v2/icons/air-filter.png')" alt="" />
+            <v-img class='img' :src="assets('customer-v2/icons/air-filter.png')" alt="" />
             <div class="step-content">
               <h6 class="fw-600 mb-3 mt-4">Filter</h6>
               <p class="color-dark mb-0">
@@ -40,7 +40,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps mb-5 pb-3 pb-lg-5">
-            <img
+            <v-img class='img'
               :src="assets('customer-v2/icons/steering-wheel.png')"
               alt=""
             />
@@ -55,7 +55,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps mb-5 pb-3 pb-lg-0 mb-lg-0">
-            <img :src="assets('customer-v2/icons/suspension.png')" alt="" />
+            <v-img class='img' :src="assets('customer-v2/icons/suspension.png')" alt="" />
             <div class="step-content">
               <h6 class="fw-600 mb-3 mt-4">Suspension</h6>
               <p class="color-dark mb-0">
@@ -67,7 +67,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps mb-5 pb-3 pb-lg-0 mb-lg-0">
-            <img :src="assets('customer-v2/icons/headlight.png')" alt="" />
+            <v-img class='img' :src="assets('customer-v2/icons/headlight.png')" alt="" />
             <div class="step-content">
               <h6 class="fw-600 mb-3 mt-4">Visibility</h6>
               <p class="color-dark mb-0">
@@ -79,7 +79,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="steps">
-            <img :src="assets('customer-v2/icons/engineering.png')" alt="" />
+            <v-img class='img' :src="assets('customer-v2/icons/engineering.png')" alt="" />
             <div class="step-content">
               <h6 class="fw-600 mb-3 mt-4">And More...</h6>
               <p class="color-dark mb-0">
@@ -106,8 +106,10 @@
 .heading__title--bar:after {
   background: #caf0f8;
 }
-.steps img {
+.steps .img {
   height: 70px;
+  width: 70px;
+  margin: auto;
 }
 .steps .step-content h6 {
   color: #06182d;

@@ -1,68 +1,93 @@
 <template>
-  <v-container class="booking-section mb-10">
+  <v-container class="booking-section">
     <v-row>
-      <v-col cols="12" md="6" class='text letter-image'>
-        <img src="~/static/imgs/online-image.jpg" alt="" class="center" />
+      <v-col cols="12" md="6" class="text letter-image position-relative">
+        <v-img
+          src="https://static.manyautosltd.com/uploads/online-ticket-booking.png"
+        ></v-img>
       </v-col>
-      <v-col cols="12" md="6" class='text mb-10'>
-        <h1 class='heading__title heading__title--bar mb-4' style="font-weight:lighter">
-          Online Booking At<br> <span class='font-weight-bold text-primary'>Many Autos</span>
-        </h1>
-        <p class="mt-10 mb-10">Booking a service for your car has never been so easy. We have a <v-btn text
-            color='primary' to="/service-booking" class='px-0 text-capitalize'>book online vehicle repair service</v-btn> system,
-          which is not offered by many <span class="font-weight-bold">online repairs center in the UK.</span> Just
-          enter your car’s registration number,
-          select from the available services with instant, upfront prices, and you are done.</p>
-            <v-btn
-            color="primary"
-            large
-            to="/service-booking"
+      <v-col cols="12" md="6" align-self="center">
+        <div class="text-center">
+          <h1 class="heading__title mb-4 text-center" style="font-weight:lighter">
+            Online Booking at
+            <br />
+            <span class='font-weight-bold'> ManyAutos </span>
+            <!-- <v-img
+              src="https://static.manyautosltd.com/uploads/logo-default-dark.png"
+              alt="ManyAutos LTD"
+              width="240px"
+              class="m-auto"
+            ></v-img> -->
+          </h1>
+          <p class="mt-10 mb-10">
+            Booking a service for your car has never been so easy. We have a
+            <NuxtLink
+              to="/service-booking"
+              style='color: inherit'
             >
-            Book Now
-            </v-btn>
-        </v-col>
-      </v-row>
-    </v-container>
+              book online vehicle repair service
+            </NuxtLink> 
+            system, which is not offered by many
+            online repairs center in the UK.
+            Just enter your car’s registration number, select from the available
+            services with instant, upfront prices, and you are done.
+          </p>
+          <!-- <v-btn color="secondary" x-large to="/service-booking"> Book Now Online </v-btn> -->
+        </div>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 <style lang="scss"scoped>
 .heading__title--bar:after {
-  background: #CAF0F8;
+  background: #caf0f8;
   text-align: left;
 }
 
 .heading__title--bar {
   padding-bottom: 10px;
 }
+.heading__title {
+  text-transform: initial;
+}
+p {
+  // font-size: 22px;
+  max-width: 740px;
+  text-align: center;
+  margin: 0px auto;
+}
 
 .booking-section .text {
-
   text-align: left;
 }
 
-@media (max-width:962px) {
+@media (max-width: 962px) {
   .booking-section .text {
-
     text-align: center;
   }
 }
 
-@media (min-width:568px) and (max-width:962px) {
+@media (min-width: 568px) and (max-width: 962px) {
   .booking-section .center {
     width: 50%;
     text-align: center;
   }
 }
 
-@media (min-width:568px) and (max-width:962px) {
+@media (min-width: 568px) and (max-width: 962px) {
   .heading__title {
     margin-top: -35px;
   }
 }
 
-@media (min-width:1260px){
-   .booking-section img{
-      max-width: 90%;
+@media (min-width: 1260px) {
+  .booking-section img {
+    max-width: 90%;
   }
+}
+
+@media (min-width:960px) {
+  
 }
 </style>
 

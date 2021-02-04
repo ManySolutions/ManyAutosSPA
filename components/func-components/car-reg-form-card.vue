@@ -1,5 +1,5 @@
 <template>
-  <v-card class="reg-card">
+  <v-card class="reg-card" :id='id'>
     <v-card-title class="text-center d-block">
       <strong>Book with us now</strong>
     </v-card-title>
@@ -53,7 +53,10 @@ import IndexActiveCar from '~/pages/__components/index-active-car.vue';
 export default {
   components: {
     IndexActiveCar,
-  }, 
+  },
+  props: {
+    id: String,
+  },
   data: () => ({
     reg: '',
     isLoading: false,

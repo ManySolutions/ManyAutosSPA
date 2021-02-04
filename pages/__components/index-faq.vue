@@ -4,7 +4,7 @@
   >
     <v-row justify="center">
       <v-col cols=12 class="">
-        <h1 class="heading__title heading__title-bar text-center">
+        <h1 class="heading__title heading__title-bar text-center" style="font-weight:lighter">
           <span class="font-weight-bold">FAQ</span>
         </h1>
       </v-col>
@@ -95,7 +95,7 @@
     margin-right: auto;
   }
   .heading__title {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 }
 </style>

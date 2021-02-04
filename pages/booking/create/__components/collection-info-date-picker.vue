@@ -92,10 +92,11 @@ export default {
           addDays = 1;
         }
       }
-
+      
       const dateToStart = moment().add(addDays, 'days').format('YYYY-MM-DD');
+      var dt = moment(val, "YYYY-MM-DD HH:mm:ss");
 
-      return moment(val).isSameOrAfter(dateToStart);
+      return dt.format('dddd') != 'Sunday' && moment(val).isSameOrAfter(dateToStart);
     }
   }
 }

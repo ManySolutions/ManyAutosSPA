@@ -13,16 +13,27 @@
       <strong class='text-primary font-weight-700'>MOT</strong>
       With Us Now
     </h1>
-    <car-reg-form-card></car-reg-form-card>
+    <car-reg-form-card id='servie-reg-form'></car-reg-form-card>
   </div>
 </template>
 
 <script>
 import CarRegFormCard from '~/components/func-components/car-reg-form-card.vue';
+import $ from 'jquery';
 
 export default {
  components: {
     CarRegFormCard,
+  },
+
+  mounted() {
+    $(document).ready(() => {
+      $([document.documentElement, document.body]).animate({
+          scrollTop: $("#servie-reg-form").offset().top - 300
+      }, 1000);
+
+      $('#servie-reg-form').find('input').focus()
+    })
   },
 
   head: {
