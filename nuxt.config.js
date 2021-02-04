@@ -165,8 +165,8 @@ export default {
 
   sitemap: [
     {
+      path: '/sitemap-web.xml',
       hostname: 'https://manyautosltd.com',
-      // gzip: true,
       exclude: [
         '/my',
         '/my/**',
@@ -178,16 +178,22 @@ export default {
       ],
     },
     {
-      path: '/sitemap-blogs.xml',
+      path: '/sitemap-blog.xml',
+      hostname: 'https://manyautosltd.com',
       exclude: [
         '/**'
       ],
       routes: async () => {
-        const {data} = await axios.get(`http://manyautos.local/api/v2/c/customer/blogs/slugs`);
+        const {data} = await axios.get(`https://app.manyautosltd.com/api/v2/c/customer/blogs/slugs`);
 
         return data.map(v => '/blogs/' + v.slug)
       }
-    }
+    },
+    {
+      sitemaps: [{
+        path: '/sitemap.xml'
+      }]
+    },
   ],
 
 
