@@ -120,7 +120,7 @@ export default {
       loginUser(this.form)
         .then(res => res.data)
         .then(res => {
-          const { status, errors, access_token, user, message } = res;
+          const { status, errors, access_token, user, message, role } = res;
 
           if (!status) {
             this.errors = errors || {};
@@ -129,7 +129,7 @@ export default {
           }
 
           toastr.success('You have been successfully logged in');
-          this.authorize({ accessToken: access_token, user});
+          this.authorize({ accessToken: access_token, user, role});
           setTimeout(() => window.location.href=this.redirectUrl, 300);
         })
         .catch((err) => {

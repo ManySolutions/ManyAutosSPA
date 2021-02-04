@@ -102,6 +102,7 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex';
   export default {
     data () {
       return {
@@ -117,6 +118,15 @@
         right: null,
       }
     },
+
+    computed: {
+      ...mapGetters('user', ['isContentAdmin'])
+    },
+
+    created() {
+      if (!this.isContentAdmin)
+        return this.$router.push('/')
+    }
   }
 </script>
 

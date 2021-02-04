@@ -111,7 +111,7 @@
 
 <script>
 import Editor from '@tinymce/tinymce-vue';
-import {getBlog, postBlog, updateBlog} from '~/api/content-admin/blog';
+import {getBlog,  updateBlog} from '~/api/content-admin/blog';
 import toastr from 'toastr';
 
 export default {
@@ -169,14 +169,18 @@ export default {
 
       const formData = new FormData;
 
-      Object.keys(this.form).map(v => 
+      Object.keys(this.form).map(v => {
+        const elm = this.form[v];
+        
+        if (!elm) return;
+
         formData.append(
           v, 
           typeof this.form[v] == 'boolean'
           ? !!this.form[v]
           : this.form[v]
         )
-      );
+      });
 
       updateBlog(this.http, this.$route.params.id, formData).then(res => {
         const { status, message, errors} = res;

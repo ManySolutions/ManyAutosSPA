@@ -31,7 +31,7 @@ import { begin_payment_assist } from '~/api/payment';
 
 export default {
   props: {
-    id: String,
+    id: [String, Number],
     isPayable: Boolean,
     hasPaymentAssist: Boolean,
     paymentUrl: String,

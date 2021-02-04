@@ -44,6 +44,25 @@
               {{ index.title }}
             </v-btn>
           </div>
+          <a href="#blogs" id="blogs" class='has-hashed'>
+            <h4 class="text-left text-uppercase pb-5 ">
+              Blogs
+            </h4>
+          </a>
+          <div style="margin-bottom: 50px;">
+            <v-btn
+              text
+              color='primary'
+              v-for='(index, i) in blogs'
+              :key='i'
+              :to="`/blogs/${index.slug}`"
+              class='text-capitalize pl-0'
+              block
+              style="display:inline-block;"
+            >
+              {{ index.title }}
+            </v-btn>
+          </div>
         </v-col>
         <v-col cols='12' md="3">
           <a href="#action-pages" id="action-pages" class='has-hashed'>
@@ -282,6 +301,14 @@ export default {
   }),
   components: {
     PageLayout
+  },
+
+  async asyncData({$axios}) {
+    const {data} = await $axios.get(`${process.env.API_URL}customer/blogs/slugs`);
+    console.log(data);
+    return {
+      blogs: data
+    };
   },
 
   head: {
