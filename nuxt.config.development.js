@@ -55,6 +55,8 @@ export default {
     '@nuxtjs/vuetify',
 
     '@nuxtjs/google-fonts',
+
+    '@nuxtjs/device',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)

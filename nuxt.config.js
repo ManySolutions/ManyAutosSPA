@@ -56,6 +56,8 @@ export default {
     '@nuxtjs/google-fonts',
 
     'nuxt-compress',
+
+    '@nuxtjs/device',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -191,6 +193,7 @@ export default {
     },
     {
       path: '/sitemap.xml',
+      hostname: 'https://manyautosltd.com',
       sitemaps: [
         {
           path: '/sitemap-web.xml'
