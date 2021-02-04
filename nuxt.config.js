@@ -190,9 +190,15 @@ export default {
       }
     },
     {
-      sitemaps: [{
-        path: '/sitemap.xml'
-      }]
+      path: '/sitemap.xml',
+      sitemaps: [
+        {
+          path: '/sitemap-web.xml'
+        },
+        {
+          path: '/sitemap-blog.xml'
+        },
+      ]
     },
   ],
 
