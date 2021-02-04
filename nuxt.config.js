@@ -153,7 +153,8 @@ export default {
   },
 
   gtm: {
-    id: 'GTM-PNBGDT6'
+    id: 'GTM-PNBGDT6',
+    pageTracking: true,
   },
 
 
