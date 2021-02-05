@@ -46,7 +46,7 @@
   </v-card>
 </v-col>
  <!-- section 2 -->
-<v-col cols="12" class="user-button
+<!-- <v-col cols="12" class="user-button
 d-flex d-md-none">
 <v-card
       class="mx-auto"
@@ -58,13 +58,16 @@ d-flex d-md-none">
           prepend-icon="mdi-account-circle"
         >
           <template v-slot:activator>
-            <v-list-item-title>Users</v-list-item-title>
+            <v-list-item-title class="title">
+              User
+            </v-list-item-title>
           </template>
           <referral-links></referral-links> 
         </v-list-group>
       </v-list>
     </v-card>
-</v-col>
+</v-col> -->
+
  <!-- section 2 -->
 
     <v-col col="12" sm="4" md="3">
