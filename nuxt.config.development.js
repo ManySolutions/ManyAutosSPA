@@ -55,6 +55,8 @@ export default {
     '@nuxtjs/vuetify',
 
     '@nuxtjs/google-fonts',
+
+    '@nuxtjs/device',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -149,8 +151,8 @@ export default {
 
   sitemap: [
     {
+      path: '/sitemap-web.xml',
       hostname: 'https://manyautosltd.com',
-      // gzip: true,
       exclude: [
         '/my',
         '/my/**',
@@ -162,7 +164,8 @@ export default {
       ],
     },
     {
-      path: '/sitemap-blogs.xml',
+      path: '/sitemap-blog.xml',
+      hostname: 'https://manyautosltd.com',
       exclude: [
         '/**'
       ],
@@ -171,7 +174,18 @@ export default {
 
         return data.map(v => '/blogs/' + v.slug)
       }
-    }
+    },
+    {
+      path: '/sitemap.xml',
+      sitemaps: [
+        {
+          path: '/sitemap-web.xml'
+        },
+        {
+          path: '/sitemap-blog.xml'
+        },
+      ]
+    },
   ],
 
   facebook: {

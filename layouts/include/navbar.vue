@@ -1,6 +1,6 @@
 <template>
   <div class='navbar-container'>
-    <template v-if='isDevice.lg'>
+    <template v-if='$device.isDesktop && !isMobileSize'>
       <navbar-top-v2></navbar-top-v2>
       <navbar-desktop></navbar-desktop>
     </template>
@@ -23,6 +23,15 @@ export default {
   data: () => ({
 
   }),
+
+  computed: {
+    isMobileSize() {
+      if (this.winSize && !this.isDevice.lg)
+        return true
+      else 
+        return false;
+    }
+  },
 }
 </script>
 

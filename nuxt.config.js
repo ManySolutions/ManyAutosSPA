@@ -56,6 +56,8 @@ export default {
     '@nuxtjs/google-fonts',
 
     'nuxt-compress',
+
+    '@nuxtjs/device',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -151,7 +153,8 @@ export default {
   },
 
   gtm: {
-    id: 'GTM-PNBGDT6'
+    id: 'GTM-PNBGDT6',
+    pageTracking: true,
   },
 
 
@@ -165,8 +168,8 @@ export default {
 
   sitemap: [
     {
+      path: '/sitemap-web.xml',
       hostname: 'https://manyautosltd.com',
-      // gzip: true,
       exclude: [
         '/my',
         '/my/**',
@@ -178,16 +181,29 @@ export default {
       ],
     },
     {
-      path: '/sitemap-blogs.xml',
+      path: '/sitemap-blog.xml',
+      hostname: 'https://manyautosltd.com',
       exclude: [
         '/**'
       ],
       routes: async () => {
-        const {data} = await axios.get(`http://manyautos.local/api/v2/c/customer/blogs/slugs`);
+        const {data} = await axios.get(`https://app.manyautosltd.com/api/v2/c/customer/blogs/slugs`);
 
         return data.map(v => '/blogs/' + v.slug)
       }
-    }
+    },
+    {
+      path: '/sitemap.xml',
+      hostname: 'https://manyautosltd.com',
+      sitemaps: [
+        {
+          path: '/sitemap-web.xml'
+        },
+        {
+          path: '/sitemap-blog.xml'
+        },
+      ]
+    },
   ],
 
 

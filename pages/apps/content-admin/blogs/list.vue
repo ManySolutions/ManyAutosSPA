@@ -55,6 +55,7 @@ export default {
       { text: 'Publish Date', value: 'published_at', sortable: true},
       { text: 'Author', value: 'author', sortable: false},
       { text: 'Status', value: 'status', sortable: false},
+      { text: 'Views', value: 'views', sortable: false},
       { text: 'Actions', value: 'actions', sortable: false},
     ],
     items: [],

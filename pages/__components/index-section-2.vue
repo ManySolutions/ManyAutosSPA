@@ -2,13 +2,14 @@
   <v-row
     style='background-image: url(https://static.manyautosltd.com/uploads/car-mechanic-wearing-white-uniform-stand-holding-wrench.jpg)'
     class='has-bg-overlay home-sec-2'
+    justify="center"
   >
-    <v-col cols=12>
+    <v-col cols=12 lg=9>
       <div class='sec-2 text-center'>
         <h2 class='h1 text-white heading__title mb-5'>
           Affordable & Professional Car Repair Services
         </h2>
-        <p class='font-weight-300 m-auto' style='max-width:900px;'>
+        <p class='font-weight-300 m-auto'>
           Our motto is to provide our clients with absolutely
           the best 
           <NuxtLink to="/car-service" class='text-white'
@@ -30,8 +31,10 @@
           </v-btn>
         </div>
       </div>
+    </v-col>
+    <v-col cols=12 lg=3 class=' d-none d-lg-block'>
       <v-img src='https://static.manyautosltd.com/uploads/handsome-tyre-repairman-isolated-white.png'
-        class='service-man-img d-none d-lg-block'
+        class='service-man-img'
       ></v-img>
     </v-col>
   </v-row>
@@ -79,8 +82,11 @@ export default {
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
-  @media (min-width: 960px) {
-    padding-right: 100px;
+  @media (min-width: 1264px) {
+    padding-right: 190px;
+  }
+  @media (min-width: 1500px) {
+    padding-right: 110px;
   }
   p {
     font-size: 20px;
@@ -99,7 +105,7 @@ export default {
 }
 .service-man-img{
   position: absolute;
-  right: 30px;
+  right: 10px;
   bottom: 0;
   z-index: 1;
 }
