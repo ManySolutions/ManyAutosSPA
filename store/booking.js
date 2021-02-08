@@ -16,6 +16,11 @@ export const mutations = {
   REGISTER_VEHICLE(state, {vehicle, modelId}) {
     state.vehicle = vehicle;
     state.modelId = modelId;
+    state.hasPaymentPlan = null;
+    state.cart = [];
+    state.cartContent = [];
+    state.cartUpdatedAt = null;
+    state.cartReceivedAt = null;
   },
 
   ADD_TO_CART(state, key) {

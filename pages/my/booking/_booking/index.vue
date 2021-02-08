@@ -176,7 +176,7 @@ export default {
     color() {
       const {booking} = this;
 
-      return booking.vehicle
+      return booking.vehicle && booking.vehicle.Colour
         ? (booking.vehicle.Colour).toLowerCase()
         : null;
     },

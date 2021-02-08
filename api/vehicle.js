@@ -19,3 +19,8 @@ export async function getPartsByGroupCode(modelId, groupCode) {
   return (await http.get(`/get_vehicle_parts/${modelId}/${groupCode}`)).data
 }
 
+export async function saveCustomVehicle(model_id, reg_no='') {
+  return (await http.post(`/vehicle/manual/store`, {
+    model_id, reg_no
+  })).data
+}

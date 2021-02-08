@@ -104,6 +104,10 @@ export default {
 
       getVehicleDetails(this.reg)
         .then(res => {
+          if (res.no_reg_found) {
+            this.$router.push('/search/vehicle?no_reg_found=true&reg_no='+this.reg)
+          }
+          
           if (res.status && res.status == false) {
             this.error = true;
             this.errorMessage = res.message;
