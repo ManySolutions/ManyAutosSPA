@@ -64,6 +64,10 @@
                     <td class='font-weight-600'>Collection Date</td>
                     <td>{{ booking.info.collection_date }}</td>
                   </tr>
+                  <tr v-if='booking.info.note'>
+                    <td class='font-weight-600'>Note</td>
+                    <td>{{ booking.info.note }}</td>
+                  </tr>
                 </tbody>
               </template>
             </v-simple-table>

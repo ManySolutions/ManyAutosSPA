@@ -15,7 +15,7 @@
     >
       <span>
         <strong>
-          Continue with {{ vehicle.RegistrationNumber }}
+          Continue with {{ vehicleName }}
         </strong>
       </span>
       <v-icon class='ml-4'>
@@ -55,6 +55,15 @@ export default {
       const { modelId, vehicle } = this;
       
       return modelId && Object.keys(vehicle).length
+    },
+
+    vehicleName() {
+      const {vehicle} = this;
+      
+      if (vehicle.RegistrationNumber)
+        return vehicle.RegistrationNumber
+
+      return vehicle.Mfr;
     }
   },
 }
