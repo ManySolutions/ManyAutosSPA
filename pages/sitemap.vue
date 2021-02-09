@@ -104,46 +104,6 @@
             </v-btn>
           </div>
         </v-col>
-        <v-col cols='12' md="3" >
-          <a href="#car-services" id="car-services" class='has-hashed'>
-            <h4 class="text-left text-uppercase pb-5">
-              Car Services
-            </h4>
-          </a>
-          <div style="margin-bottom: 50px;">
-            <v-btn
-              text
-              color='primary'
-              v-for='(index, i) in carServiceLinks'
-              :key='i'
-              :to="index.url"
-              class='text-capitalize pl-0'
-              block
-            >
-              {{ index.title }}
-            </v-btn>
-          </div>
-        </v-col>
-        <v-col cols='12' md="3">
-          <a href="#car-repairs" id="car-repairs" class='has-hashed'>
-            <h4 class="text-left text-uppercase pb-5">
-              Car Repairs
-            </h4>
-          </a>
-          <div style="margin-bottom: 50px;">
-            <v-btn
-              text
-              color='primary'
-              v-for='(index, i) in carRepairLinks'
-              :key='i'
-              :to="index.url"
-              class='text-capitalize pl-0'
-              block
-            >
-              {{ index.title }}
-            </v-btn>
-          </div>
-        </v-col>
       </v-row>
     </v-container>
   </page-layout>
