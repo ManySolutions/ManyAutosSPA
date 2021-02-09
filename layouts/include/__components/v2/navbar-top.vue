@@ -42,7 +42,7 @@
               elevation="3"
               id='scrollToRegForm'
               :to='$route.name != "index" ? "/service-booking" : "" '
-              @click='handleFocusBtn()'
+              @click='$route.name == "index" ? handleFocusBtn() : ""'
             >
               Get Instant Quote
             </v-btn>
