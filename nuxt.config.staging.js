@@ -181,7 +181,7 @@ export default {
         '/**'
       ],
       routes: async () => {
-        const {data} = await axios.get(`http://staging-v32020.manyautos.co.uk/api/v2/c/customer/blogs/slugs`);
+        const {data} = await axios.get(`https://staging-v32020.manyautos.co.uk/api/v2/c/customer/blogs/slugs`);
 
         return data.map(v => '/blogs/' + v.slug)
       }
@@ -214,7 +214,7 @@ export default {
     CURRENCY_SYMBOL: '£',
     CURRENCY_CODE: 'GBP',
     APP_URL: 'https://staging-2021.manyautosltd.com',
-    API_URL: 'http://staging-v32020.manyautos.co.uk/api/v2/c/',
+    API_URL: 'https://staging-v32020.manyautos.co.uk/api/v2/c/',
     ASSETS_URL: 'https://app.manyautosltd.com/assets/',
     RECAPTCHA_SITE_KEY: '6LdIdBcaAAAAAGoHmtHlYIa7vSFbJ4Ja0_gQCBlX',
     FBQ_TEST_CODE: 'TEST27350',
