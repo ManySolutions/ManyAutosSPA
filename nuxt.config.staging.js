@@ -8,7 +8,7 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: '%s',
-    title: 'ManyAutos Staging',
+    title: 'ManyAutos',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -216,7 +216,7 @@ export default {
     APP_URL: 'https://staging-2021.manyautosltd.com',
     API_URL: 'https://staging-v32020.manyautos.co.uk/api/v2/c/',
     ASSETS_URL: 'https://app.manyautosltd.com/assets/',
-    // RECAPTCHA_SITE_KEY: '6LdIdBcaAAAAAGoHmtHlYIa7vSFbJ4Ja0_gQCBlX',
+    RECAPTCHA_SITE_KEY: '6LdIdBcaAAAAAGoHmtHlYIa7vSFbJ4Ja0_gQCBlX',
     FBQ_TEST_CODE: 'TEST27350',
   }
 }

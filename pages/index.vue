@@ -33,10 +33,12 @@
                 </span>
               </template>
             </client-only>
-            <small class="text-sm"> for your car maintenance </small>
+            <small class="text-sm">for your car maintenance </small>
           </h1>
 
-          <car-reg-form-card id='home-reg-form'></car-reg-form-card>
+          <car-reg-form-card 
+            id='home-reg-form'
+          ></car-reg-form-card>
 
           <v-row class="top-h-icons">
             <v-col cols="4" class="top-hi">
