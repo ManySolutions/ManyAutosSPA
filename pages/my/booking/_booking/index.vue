@@ -1,5 +1,5 @@
 <template>
-  <v-container class='booking-single'>
+  <v-container class='booking-single py-0'>
     <v-row>
       <v-col>
         <v-breadcrumbs

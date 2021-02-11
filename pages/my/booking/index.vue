@@ -1,8 +1,8 @@
 <template>
-  <v-container>
+  <v-container class=' py-0'>
     <v-row>
       <v-col>
-        <h1 class='text-h4 text-center py-4'>
+        <h1 class='text-h4 text-center'>
           All Bookings
         </h1>
         <v-data-table

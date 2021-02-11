@@ -75,6 +75,8 @@ export const getters = {
 
 export const actions = {
   getCart({ state, commit }) {
+    commit('SET_CART_LOADING', false);
+    
     const { modelId, cart, cartUpdatedAt, cartReceivedAt } = state;
 
     if (cartUpdatedAt < cartReceivedAt) {

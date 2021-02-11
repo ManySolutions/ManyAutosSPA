@@ -134,6 +134,10 @@ export default {
     }
   },
 
+  beforeDestroy() {
+    clearInterval(this.interval);
+  },
+
   mounted() {
     this.slidesBg();
   },
