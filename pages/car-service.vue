@@ -16,8 +16,8 @@
           comprehensive 70 points check. and an <strong>Interim Service</strong> also known as minor service which includes 50 points
           check. If you are looking for an <strong>affordable car repair garage</strong>, then you have come to the right place.
       </p>
-      <h1 class="myheading text-left fs36 os pw200 pillar pspec pmb1 pmt1 textDark" style="margin: -70px 0 20px 0;font-size:2rem;">
-        Importance of vehicle repair servicing and finding the right car garage</h1>
+      <h2 class="myheading text-left fs36 os pw200 pillar pspec pmb1 pmt1 textDark" style="margin: -70px 0 20px 0;font-size:2rem;">
+        Importance of vehicle repair servicing and finding the right car garage</h2>
       <p class="text-teal text-18 justify">
           The service that we offer comes hand in hand with the type of service you want to carry out for your car. If
           you look at <strong>car services in UK</strong>, not all garages offer or have trained technicians to complete additional
@@ -1224,7 +1224,6 @@ export default {
   },
   data: () => ({
       panel: [0],
-      readonly: false,
     }),
 
   head: {
