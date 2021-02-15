@@ -23,3 +23,11 @@ export async function autologin(user, signature) {
 export async function updatePassword($http, user, signature, payload) {
   return (await $http.post(`/auth/set_password/${user}?signature=${signature}`, payload)).data
 }
+
+export async function getRefferalLink($http) {
+  return (await (http || $http).get(`/auth/referral_link`)).data
+}
+
+export async function getReferralOverview($http) {
+  return (await (http || $http).get(`/auth/referral_orders`)).data
+}
