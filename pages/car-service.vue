@@ -7,69 +7,94 @@
 <div class="row">
   <div class="col-12 col-md-9">
   <div class="col-12 margin-top-15">
-      <h2 class="myheading text-center fs36 os pw200 pillar pspec pmb1 pmt1 textDark" style="margin: -70px 0 50px 0;font-size:2rem;">Which service should I choose?</h2>
-      <p>
-          The type of service you choose for your car will be dependent on various factors, including the condition of your car, the number of miles you drive and the last time your car was serviced. We offer two types of service for you <strong>Full Service</strong> which includes a comprehensive 70 points check while <strong>Interim Service</strong> has a 50 points check. Find out what include in these services.
+      <h1 class="myheading text-left fs36 os pw200 pillar pspec pmb1 pmt1 textDark" style="margin: -70px 0 20px 0;font-size:2rem;">
+        Recommended car services by trained technicians – Interim service or full service</h1>
+      <p class="text-teal text-18 justify mb-15">
+          The type of service you choose for your car is dependent on various factors. For example, the condition of
+          your car, the number of miles you drive or have been currently driven and the last time your car was serviced.
+          We offer two types of service for your car, a <strong>Full Service</strong> also known as major service, which includes a
+          comprehensive 70 points check. and an <strong>Interim Service</strong> also known as minor service which includes 50 points
+          check. If you are looking for an <strong>affordable car repair garage</strong>, then you have come to the right place.
+      </p>
+      <h1 class="myheading text-left fs36 os pw200 pillar pspec pmb1 pmt1 textDark" style="margin: -70px 0 20px 0;font-size:2rem;">
+        Importance of vehicle repair servicing and finding the right car garage</h1>
+      <p class="text-teal text-18 justify">
+          The service that we offer comes hand in hand with the type of service you want to carry out for your car. If
+          you look at <strong>car services in UK</strong>, not all garages offer or have trained technicians to complete additional
+          <NuxtLink to="/oil-change">car services and repair</NuxtLink> that are required or recommended from the 50- or 70-point checks completed. We at Many
+          Autos offer <strong>premier car services</strong> to all our customers.
+      </p>
+      <p class="text-teal text-18 justify">There are many factors we look for when trying to find the right car garage and mechanics with the most
+        important one being trustworthy. When looking through search engines for <strong>online garage services in UK</strong>, you will
+        notice that we are upfront and transparent with the costs of services requested by our customers. Our reviews
+        confirm that our customers <strong>book online vehicle repair services</strong> with confidence.
+      </p>
+      <p class="text-teal text-18 justify">At Many Autos we cater for all models within the Car range. If you do not see your vehicle in the list below,
+        please call us and we will give you a quote for your car service accordingly.
       </p>
   </div>
  
 <v-expansion-panels popout>
   <v-expansion-panel  class="icon">
     <v-expansion-panel-header class="card-header">
-      Car Service
+      Types of car services and what is included in more details
     </v-expansion-panel-header>
     <v-expansion-panel-content eager class="card-header-body">
-      Full Service includes a comprehensive 70-point check, Interim Service has a 50-point check. At Many Autos we use
-      the latest equipment, allowing our qualified technicians and mechanics to diagnose any problems quickly and
-      efficiently. Forgetting to service the vehicle as per manufacturer schedule can cause airborne debris such as
-      leaves and dust to find their way into the engine, in particular the cylinders. This grime can then mix with the
-      engine oil, which, when moves around the engine can slowly wear away engine components due to its abrasive nature.
-      If left for a while clogged filters can cause serious damage to engine, reducing its performance and costing you
-      more money than the cost of a normal service. At Many Autos we keep a range of different service parts in stock
-      for every make and model, so you can get the service you need to keep the vehicle engine running at the highest
-      possible standard.
+      <strong>Full Service</strong> includes a comprehensive 70-point check, <strong>Interim Service</strong> has a 50-point check. At Many Autos we use
+      the latest equipment, allowing our <strong>qualified technicians</strong> and <strong>car mechanics</strong> to 
+      complete a <NuxtLink to="/vehicle-engine-diagnostic-services">full car diagnostic</NuxtLink> and
+      resolve any problems quickly and efficiently. Forgetting to service the vehicle as per manufacturer schedule can
+      cause airborne debris such as leaves and dust to find their way into the engine, in particular the cylinders. This
+      grime can then mix with the <strong>engine oil</strong>, which, when moves around the engine can slowly wear away engine components
+      due to its abrasive nature. If left for a while clogged filters can cause serious damage to engine, reducing its
+      performance and costing you more money than the cost of a normal service. At Many Autos we keep a range of
+      different service parts in stock for every make and model, so you can get the service you need to keep the vehicle
+      engine running at the highest possible standard.
     </v-expansion-panel-content>
   </v-expansion-panel>
   <v-expansion-panel >
     <v-expansion-panel-header class="card-header">
-      Air Filters
+      Importance of Air Filters and why you should replace them
     </v-expansion-panel-header>
     <v-expansion-panel-content eager class="card-header-body">
       Air filters prevent dirt and other materials from getting into vehicle engines and should be changed as per
-      service schedule to ensure trouble-free engine function. Fuel Filter. The purpose of fuel filters is to prevent
-      debris from getting into vehicle engine and contaminating fuel supply.
+      service schedule to ensure trouble-free engine function.
     </v-expansion-panel-content>
   </v-expansion-panel>
   <v-expansion-panel >
     <v-expansion-panel-header class="card-header">
-      Oil Filter
+      The role of a Fuel Filter
     </v-expansion-panel-header>
     <v-expansion-panel-content eager class="card-header-body">
-      An oil filter is a vital component it is Designed to protect the engine from dangerous contaminants.
-
+      The purpose of fuel filters is to prevent debris from getting into vehicle engine and contaminating fuel supply.
     </v-expansion-panel-content>
   </v-expansion-panel>
   <v-expansion-panel >
     <v-expansion-panel-header class="card-header">
-      Pollen Filter
+      Significance of an Oil Filter is to keep your engine oil clean
     </v-expansion-panel-header>
     <v-expansion-panel-content eager class="card-header-body">
-      <p class="text-teal text-18 justify">The pollen filter actually filters out more than just pollen it stops all
-        kinds of debris, pollution and odours from entering the cabin and clogging up the heating, ventilation and
+      An oil filter is a vital component, and it is designed to protect the engine from dangerous contaminants.
+    </v-expansion-panel-content>
+  </v-expansion-panel>
+  <v-expansion-panel >
+    <v-expansion-panel-header class="card-header">
+      Pollen Filter also known as Cabin Filter
+    </v-expansion-panel-header>
+    <v-expansion-panel-content eager class="card-header-body">
+      <p  class="text-teal text-18 justify">The pollen filter filters out more than just pollen it stops all kinds of
+        debris, pollution, and odours from entering the cabin and clogging up the heating, ventilation, and
         air-conditioning systems.</p>
     </v-expansion-panel-content>
   </v-expansion-panel>
   <v-expansion-panel >
     <v-expansion-panel-header class="card-header">
-      Engine Oil
+      Why it is vital to have good grade Engine Oil
     </v-expansion-panel-header>
     <v-expansion-panel-content eager class="card-header-body">
       <p class="text-teal text-18 justify">The grade and type of engine oil used can also impact the car's economy and
-        emissions, so it is essential to use the correct grade engine oil. Unlike blood, engine oils don't self-cleanse
+        emissions, so it is essential to use the correct grade engine oil. Unlike blood, engine oils do not self-cleanse
         and after a short amount of time will start to degrade and become progressively dirtier and less efficient.</p>
-      <p class="text-teal text-18 justify">At Many Autos we cater for all models within the Car range.
-        If you do not see your vehicle in the list below, please call us and we will give you a quote for your car
-        service accordingly.</p>
     </v-expansion-panel-content>
   </v-expansion-panel>
 
@@ -1129,7 +1154,9 @@
   </div>
   
       <div class="col-12 col-md-3">
-          <v-expansion-panels popout>
+          <v-expansion-panels v-model="panel"
+          multiple
+          popout>
               <v-expansion-panel  class="icon">
                 <v-expansion-panel-header class="card-header" style="font-weight:bold;">
                   Usefull Guides
@@ -1195,22 +1222,26 @@ export default {
   components: {
     PageLayout
   },
+  data: () => ({
+      panel: [0],
+      readonly: false,
+    }),
 
   head: {
-    title: 'Car Service',
+    title: 'Best Car Servicing | Interim Car Repair Services | Manyautos Uk',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Interim  or  full service carried out by trained technicians, book online today for a  quotation, free collection and delivery, 1 year warranty on parts and labour.'
       },
       {
         name: 'keywords', 
-        content: 'Car service, Car service deal in Reading, Car full services,Car full services  in Reading, Car interim service, Car major service deal in Reading, Car servicing in Reading, car service, car servicing, car services'
+        content: 'car services in uk, car services and repairs, premier car services, affordable car repair garage, online garage services in uk, Book Online vehicle Repair services'
       },
       {
         property: "og:title", 
-        content: "Car Service | ManyAutos LTD"
+        content: "Best Car Servicing | Interim Car Repair Services | Manyautos Uk"
       },
       {
         property: "og:type", 
@@ -1230,7 +1261,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Interim  or  full service carried out by trained technicians, book online today for a  quotation, free collection and delivery, 1 year warranty on parts and labour."
       },
       {
         name: "twitter:card", 
@@ -1238,11 +1269,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Car Service | ManyAutos LTD"
+        content: "Best Car Servicing | Interim Car Repair Services | Manyautos Uk"
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Interim  or  full service carried out by trained technicians, book online today for a  quotation, free collection and delivery, 1 year warranty on parts and labour."
       },
       {
         name: "twitter:image", 
