@@ -24,7 +24,7 @@
       </span>
     </v-btn>
 
-    <v-menu offset-y v-else>
+    <v-menu offset-y v-else open-on-hover >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
           text
@@ -108,6 +108,14 @@ export default {
       {
         name: 'All Bookings',
         url: 'my-booking'
+      },
+      {
+        name: 'Refer a friend',
+        url: 'my-referral'
+      },
+      {
+        name: 'Your Earnings',
+        url: 'my-referral-overview'
       },
     ],
   }),
