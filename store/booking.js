@@ -10,6 +10,7 @@ export const state = () => ({
   cartError: null,
   isCartLoading: false,
   hasPaymentPlan: null,
+  referralId: null,
 })
 
 export const mutations = {
@@ -21,6 +22,7 @@ export const mutations = {
     state.cartContent = [];
     state.cartUpdatedAt = null;
     state.cartReceivedAt = null;
+    state.isCartLoading = false;
   },
 
   ADD_TO_CART(state, key) {
@@ -44,6 +46,7 @@ export const mutations = {
     state.cartReceivedAt= null;
     state.cartContent= [];
     state.hasPaymentPlan = false;
+    state.referralId = null;
   },
 
   SET_CART_LOADING(state, isLoading) {
@@ -52,6 +55,14 @@ export const mutations = {
 
   HAS_PAYMENT_PLAN(state, status) {
     state.hasPaymentPlan = status;
+  },
+
+  SET_REFERRAL_ID(state, id) {
+    state.referralId = id;
+  },
+
+  REMOVE_REFERRAL_ID(state) {
+    state.referralId = null;
   },
 }
 
@@ -76,7 +87,7 @@ export const getters = {
 export const actions = {
   getCart({ state, commit }) {
     commit('SET_CART_LOADING', false);
-    
+
     const { modelId, cart, cartUpdatedAt, cartReceivedAt } = state;
 
     if (cartUpdatedAt < cartReceivedAt) {

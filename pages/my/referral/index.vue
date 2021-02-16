@@ -150,7 +150,7 @@
 					</div>
 				</div>
 				<!-- section 3 -->
-				<div class="sec-3 text-center">
+				<form @submit.prevent="handleSendEmail" class="sec-3 text-center">
 					<span
 						>Email a Friend
 						<v-icon style="color: #ef7200">mdi-help-circle-outline</v-icon>
@@ -160,22 +160,31 @@
 							label="Enter your friend's email address"
 							single-line
 							outlined
+							v-model='email'
 						>
 						</v-text-field>
 					</div>
-					<v-btn class="ma-2" color="secondary" dark x-large block> Go </v-btn>
-				</div>
+					<v-btn 
+						class="ma-2" color="secondary" dark x-large block
+						type='submit'
+						:loading='sendLoading'
+					> 
+						Go 
+					</v-btn>
+				</form>
 			</v-card-text>
     </v-card>
   </div>
 </template>
 <script>
 import toastr from 'toastr';
-import { getRefferalLink } from '~/api/user';
+import { getRefferalLink, sendReferralEmail } from '~/api/user';
 export default {
   data: () => ({
 		referralLink: '',
 		amount: 0,
+		email: '',
+		sendLoading: false,
 	}),
 	computed: {
 		referralAmount() {
@@ -210,7 +219,21 @@ export default {
         "myWindow",
         "width=400,height=200"
       );
-    },
+		},
+		handleSendEmail() {
+			const {email} = this;
+			this.sendLoading = true;
+
+			sendReferralEmail(this.http, {email})
+				.then(({status, message}) => {
+					if (status) {
+						toastr.success(message)
+						this.email = '';
+					} else {
+						toastr.error(message)
+					}
+				}).finally(() => this.sendLoading = false)
+		}
   },
 };
 </script>

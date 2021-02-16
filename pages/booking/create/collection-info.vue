@@ -204,6 +204,7 @@ export default {
       note: '',
       user: {},
       has_payment_plan: false,
+      referrer_id: null,
     },
 
     step: 1,
@@ -218,7 +219,7 @@ export default {
     ...mapGetters('booking', ['isCartEmpty', 'cartCount']),
     ...mapGetters('user', ['isAuth']),
     ...mapState('user', ['info']),
-    ...mapState('booking', ['cartContent', 'modelId', 'hasPaymentPlan']),
+    ...mapState('booking', ['cartContent', 'modelId', 'hasPaymentPlan', 'referralId']),
 
     isStep1Valid() {
       const { collection_date } = this.form;
@@ -261,6 +262,7 @@ export default {
 
     if (isCartEmpty) this.$router.push('/booking/create');
     this.form.has_payment_plan = this.hasPaymentPlan;
+    this.form.referrer_id = this.referralId;
 
     fbqInitiateCheckout(
       this.$fb,

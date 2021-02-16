@@ -218,7 +218,7 @@ export default {
 
 
   env: {
-    ENVIRONMENT: 'development',
+    ENVIRONMENT: 'production',
     CURRENCY_SYMBOL: '£',
     CURRENCY_CODE: 'GBP',
     APP_URL: 'https://manyautosltd.com',
