@@ -1154,8 +1154,7 @@
   </div>
   
       <div class="col-12 col-md-3">
-          <v-expansion-panels v-model="panel"
-          multiple
+          <v-expansion-panels v-model="panel"          
           popout>
               <v-expansion-panel  class="icon">
                 <v-expansion-panel-header class="card-header" style="font-weight:bold;">
@@ -1222,9 +1221,18 @@ export default {
   components: {
     PageLayout
   },
+  
   data: () => ({
-      panel: [0],
+      panel: 0,
     }),
+
+   mounted () {
+
+       if (this.$device.ismobile)
+         return this.panel = null;
+         
+
+  },
 
   head: {
     title: 'Best Car Servicing | Interim Car Repair Services | Manyautos Uk',
