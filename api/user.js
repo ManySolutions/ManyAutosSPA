@@ -32,8 +32,8 @@ export async function getReferralOverview($http) {
   return (await (http || $http).get(`/auth/referral_orders`)).data
 }
 
-export async function claimReferral($http) {
-  return (await (http || $http).post(`/auth/referral_payment_request`)).data
+export async function claimReferral($http, data) {
+  return (await (http || $http).post(`/auth/referral_payment_request`, data)).data
 }
 
 export async function sendReferralEmail($http, data) {

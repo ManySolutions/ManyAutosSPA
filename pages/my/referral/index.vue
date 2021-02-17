@@ -1,179 +1,188 @@
 <template>
   <div class="refer-page">
     <h1 class="refer-title">Refer-A-Friend</h1>
-    <v-card class="card mx-auto text-center" outlined>
-      <v-row class="raf-banner">
-        <v-col md="4" class="first-logo d-none d-md-block">
-          <img
-            src="~/static/imgs/referral.png"
-            alt="referral"
-            class="center"
-            style="max-width: 40%"
-          />
-        </v-col>
-        <v-col md="4">
-          <div class="first-heading">Earn {{referralAmount}} by Referring Your Friend</div>
-        </v-col>
-        <v-col md="4" class="first-logo d-none d-md-block">
-          <img
-            src="~/static/imgs/referral-one.png"
-            alt="referral-one"
-            class="center"
-            style="max-width: 40%"
-          />
-        </v-col>
-      </v-row>
-      <div class="refer-content text-center" style="background-color: #f2f9ff">
-        <p class="refer-content-text">
-          Earn {{referralAmount}} for every qualified referral to ManyAutos.
-        </p>
-        <v-container class="three-points d-none d-md-block">
-          <v-row>
-            <v-col md="4">
-              <table>
-                <tbody>
-                  <tr>
-                    <td style="padding-bottom: 18px">
-                      <v-icon left large color="primary">
-                        mdi-numeric-1-circle
-                      </v-icon>
-                    </td>
-                    <td>
-                      <p><strong>Share your referral link</strong> with your friends</p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </v-col>
-            <v-col md="4">
-              <table>
-                <tbody>
-                  <tr>
-                    <td style="padding-bottom: 40px">
-                      <v-icon left large color="primary">
-                        mdi-numeric-2-circle
-                      </v-icon>
-                    </td>
-                    <td>
-                      <p>
-                        They come and <strong>book their vehicle</strong> with
-												ManyAutos
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </v-col>
-            <v-col md="4">
-              <table>
-                <tbody>
-                  <tr>
-                    <td style="padding-bottom: 18px">
-                      <v-icon left large color="primary">
-                        mdi-numeric-3-circle
-                      </v-icon>
-                    </td>
-                    <td>
-                      <p>You get a <strong>{{referralAmount}} referral bonus</strong>. <br> Repeat!</p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </v-col>
-          </v-row>
-        </v-container>
-      </div>
-    </v-card>
-    <!-- section 1 -->
-    <v-card class="second-card mt-10">
-      <v-card-title>
-				Refer a Friend and Get &nbsp;<strong>{{referralAmount}}</strong>
-			</v-card-title>
-			<v-divider></v-divider>
-      <v-card-text>
-				<div class="sec-1 text-center">
-					<span
-						>Share Your Unique Link
-						<v-icon style="color: #ef7200">mdi-help-circle-outline</v-icon>
-					</span>
-					<div class="text-field mt-10">
-						<v-text-field
-							:label="referralLink"
-							ref="textToCopy"
-							single-line
-							outlined
-							solo
-							readonly
-							:value='referralLink'
-						></v-text-field>
-					</div>
-					<div>
-						<v-btn text color="primary" class="py-0 px-0" @click="copyText">
-							<span class="text-large">Copy Link</span>
-						</v-btn>
-					</div>
-				</div>
-				<!-- section 2 -->
-				<div class="sec-2 text-center">
-					<span
-						>Share on Social Media
-						<v-icon style="color: #ef7200">mdi-help-circle-outline</v-icon>
-					</span>
+    <template v-if='isLoading'>
+      <v-progress-linear
+        indeterminate
+        color="primary"
+        :size="50"
+      ></v-progress-linear>
+    </template>
+    <template v-else>
+      <v-card class="card mx-auto text-center" outlined>
+        <v-row class="raf-banner">
+          <v-col md="4" class="first-logo d-none d-md-block">
+            <img
+              src="~/static/imgs/referral.png"
+              alt="referral"
+              class="center"
+              style="max-width: 40%"
+            />
+          </v-col>
+          <v-col md="4">
+            <div class="first-heading">Earn {{referralAmount}} by Referring Your Friend</div>
+          </v-col>
+          <v-col md="4" class="first-logo d-none d-md-block">
+            <img
+              src="~/static/imgs/referral-one.png"
+              alt="referral-one"
+              class="center"
+              style="max-width: 40%"
+            />
+          </v-col>
+        </v-row>
+        <div class="refer-content text-center" style="background-color: #f2f9ff">
+          <p class="refer-content-text">
+            Earn {{referralAmount}} for every qualified referral to ManyAutos.
+          </p>
+          <v-container class="three-points d-none d-md-block">
+            <v-row>
+              <v-col md="4">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td style="padding-bottom: 18px">
+                        <v-icon left large color="primary">
+                          mdi-numeric-1-circle
+                        </v-icon>
+                      </td>
+                      <td>
+                        <p><strong>Share your referral link</strong> with your friends</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </v-col>
+              <v-col md="4">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td style="padding-bottom: 40px">
+                        <v-icon left large color="primary">
+                          mdi-numeric-2-circle
+                        </v-icon>
+                      </td>
+                      <td>
+                        <p>
+                          They come and <strong>book their vehicle</strong> with
+                          ManyAutos
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </v-col>
+              <v-col md="4">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td style="padding-bottom: 18px">
+                        <v-icon left large color="primary">
+                          mdi-numeric-3-circle
+                        </v-icon>
+                      </td>
+                      <td>
+                        <p>You get a <strong>{{referralAmount}} referral bonus</strong>. <br> Repeat!</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </v-col>
+            </v-row>
+          </v-container>
+        </div>
+      </v-card>
+      <!-- section 1 -->
+      <v-card class="second-card mt-10">
+        <v-card-title>
+          Refer a Friend and Get &nbsp;<strong>{{referralAmount}}</strong>
+        </v-card-title>
+        <v-divider></v-divider>
+        <v-card-text>
+          <div class="sec-1 text-center">
+            <span
+              >Share Your Unique Link
+              <v-icon style="color: #ef7200">mdi-help-circle-outline</v-icon>
+            </span>
+            <div class="text-field mt-10">
+              <v-text-field
+                :label="referralLink"
+                ref="textToCopy"
+                single-line
+                outlined
+                solo
+                readonly
+                :value='referralLink'
+              ></v-text-field>
+            </div>
+            <div>
+              <v-btn text color="primary" class="py-0 px-0" @click="copyText">
+                <span class="text-large">Copy Link</span>
+              </v-btn>
+            </div>
+          </div>
+          <!-- section 2 -->
+          <div class="sec-2 text-center">
+            <span
+              >Share on Social Media
+              <v-icon style="color: #ef7200">mdi-help-circle-outline</v-icon>
+            </span>
 
-					<div class="all-btn">
-						<v-btn
-							class="ma-2 mt-7"
-							color="purple"
-							target="_blank"
-							@click="openWin()"
-							dark
-							x-large
-							block
-						>
-							<v-icon class="fb-btn mr-2" dark left large> mdi-facebook </v-icon>
-							Share on faceBook
-						</v-btn>
-						<v-btn
-							class="ma-2"
-							color="primary"
-							target="_blank"
-							@click="openWinTwo()"
-							dark
-							x-large
-							block
-						>
-							<v-icon class="twitter-btn mr-2" dark left large>
-								mdi-twitter
-							</v-icon>
-							Share on Twitter
-						</v-btn>
-					</div>
-				</div>
-				<!-- section 3 -->
-				<form @submit.prevent="handleSendEmail" class="sec-3 text-center">
-					<span
-						>Email a Friend
-						<v-icon style="color: #ef7200">mdi-help-circle-outline</v-icon>
-					</span>
-					<div class="text-field">
-						<v-text-field
-							label="Enter your friend's email address"
-							single-line
-							outlined
-							v-model='email'
-						>
-						</v-text-field>
-					</div>
-					<v-btn 
-						class="ma-2" color="secondary" dark x-large block
-						type='submit'
-						:loading='sendLoading'
-					> 
-						Go 
-					</v-btn>
-				</form>
-			</v-card-text>
-    </v-card>
+            <div class="all-btn">
+              <v-btn
+                class="ma-2 mt-7"
+                color="purple"
+                target="_blank"
+                @click="openWin()"
+                dark
+                x-large
+                block
+              >
+                <v-icon class="fb-btn mr-2" dark left large> mdi-facebook </v-icon>
+                Share on faceBook
+              </v-btn>
+              <v-btn
+                class="ma-2"
+                color="primary"
+                target="_blank"
+                @click="openWinTwo()"
+                dark
+                x-large
+                block
+              >
+                <v-icon class="twitter-btn mr-2" dark left large>
+                  mdi-twitter
+                </v-icon>
+                Share on Twitter
+              </v-btn>
+            </div>
+          </div>
+          <!-- section 3 -->
+          <form @submit.prevent="handleSendEmail" class="sec-3 text-center">
+            <span
+              >Email a Friend
+              <v-icon style="color: #ef7200">mdi-help-circle-outline</v-icon>
+            </span>
+            <div class="text-field">
+              <v-text-field
+                label="Enter your friend's email address"
+                single-line
+                outlined
+                v-model='email'
+              >
+              </v-text-field>
+            </div>
+            <v-btn 
+              class="ma-2" color="secondary" dark x-large block
+              type='submit'
+              :loading='sendLoading'
+            > 
+              Go 
+            </v-btn>
+          </form>
+        </v-card-text>
+      </v-card>
+    </template>
   </div>
 </template>
 <script>
@@ -185,20 +194,24 @@ export default {
 		amount: 0,
 		email: '',
 		sendLoading: false,
+    isLoading: true,
 	}),
 	computed: {
 		referralAmount() {
 			return process.env.CURRENCY_SYMBOL + this.amount;
 		}
 	},
-	asyncData(context) {
-		// console.log(context.store.state);
+	mounted() {
+		this.getLink();
 	},
   methods: {
 		async getLink() {
 			const {link, amount} = (await getRefferalLink(this.http));
 			this.referralLink = `${process.env.APP_URL}/rf/${link}`;
 			this.amount = amount;
+
+      if (link || amount)
+        this.isLoading = false;
 		},
     copyText() {
       let textToCopy = this.$refs.textToCopy.$el.querySelector("input");

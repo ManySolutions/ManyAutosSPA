@@ -86,6 +86,48 @@
         </v-col>
       </v-row>
     </v-card-text>
+
+    <v-dialog
+      v-model='dialog'
+      max-width="400px"
+    >
+      <v-card>
+        <v-card-title class="headline">
+          Your Bank details
+        </v-card-title>
+
+        <v-card-text>
+          The money will be transfered to your provided bank details.
+          <br><br>
+
+          <v-text-field outlined v-model="form.account_no" label="Account No"
+            :error='!!errors.account_no'
+            :persistent-hint='!!errors.account_no'
+            :hint="errors.account_no ? errors.account_no[0] : null"
+            class='mb-3'
+          ></v-text-field>
+          <v-text-field outlined v-model="form.sort_code" label="Sort Code"
+            :error='!!errors.sort_code'
+            :persistent-hint='!!errors.sort_code'
+            :hint="errors.sort_code ? errors.sort_code[0] : null"
+          ></v-text-field>
+        </v-card-text>
+
+        <v-divider></v-divider>
+
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn
+            color="primary"
+            text
+            @click="handleClaim"
+            :loading='isClaimLoading'
+          >
+            Submit
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
   </v-card>
 </template>
 <script>
@@ -109,6 +151,12 @@ export default {
       currencySymbol: process.env.CURRENCY_SYMBOL,
       isLoading: true,
       isClaimLoading: false,
+      form : {
+        account_no: '',
+        sort_code: '',
+      },
+      dialog: false,
+      errors: {},
     };
   },
   computed: {
@@ -134,6 +182,7 @@ export default {
   },
   methods: {
     getOverview() {
+      this.isLoading = true;
       getReferralOverview(this.http).then(res => {
         this.records = {...this.records, ...res};
         this.isLoading = false;
@@ -141,18 +190,25 @@ export default {
     },
     handleClaim() {
       this.isClaimLoading = true;
-      claimReferral(this.http).then(res => {
-        const { status, message} = res;
+      claimReferral(this.http, this.form).then(res => {
+        const { status, message, errors, is_bank_invalid} = res;
         
         if (!status) {
           toastr.error(message);
-        } else {
-          toastr.success(message);
-          this.records.is_claimable = false;
-          this.records.claimable_count = 0;
-          this.records.total = 0;
-          this.records.claim_amount = 0;
+
+          if (is_bank_invalid) {
+            this.errors = errors;
+            this.dialog = true;
+          }
+          return;
         }
+        
+        toastr.success(message);
+          
+        this.records.is_claimable = false;
+        this.dialog = false;
+
+        this.getOverview();
       }).finally(() => this.isClaimLoading = false);
     }
   }
