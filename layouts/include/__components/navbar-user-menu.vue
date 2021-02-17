@@ -51,6 +51,7 @@
           exact
           exact-active-class="text-primary"
         >
+          <v-icon v-if='item.icon' small class='mr-2'>{{ item.icon }}</v-icon>
           <v-list-item-title>{{ item.name }}</v-list-item-title>
         </v-list-item>
         <v-divider></v-divider>
@@ -121,7 +122,11 @@ export default {
   }),
 
   computed: {
-    ...mapState('user', ['info'])
+    ...mapState('user', ['info', 'roles'])
+  },
+
+  mounted() {
+    this.setContentAdminMenu();
   },
 
   methods: {
@@ -132,7 +137,15 @@ export default {
         this.logout();
         window.location.reload();
       })
-      
+    },
+
+    setContentAdminMenu() {
+      if ( !this.roles.includes('content-admin') )
+        return;
+
+      this.items.push(
+        {name: 'Manage Blogs', url: 'apps-content-admin-blogs-list', icon: 'mdi-table-of-contents'}
+      )
     }
   }
 }

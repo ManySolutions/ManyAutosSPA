@@ -4,6 +4,11 @@
       Deleted Blogs
     </h3>
 
+    <v-progress-linear
+      v-if='isLoading'
+      indeterminate
+      color='primary'
+    ></v-progress-linear>
     <v-data-table
       :headers="headers"
       :items="items"
@@ -50,6 +55,7 @@ export default {
       { text: 'Actions', value: 'actions', sortable: false},
     ],
     items: [],
+    isLoading: true,
   }),
 
   mounted() {
@@ -62,7 +68,7 @@ export default {
         ...v, 
         loading: false,
         is_restored: false,
-      })));
+      }))).finally(() => this.isLoading = false);
     },
     
     handleRestore(id) {

@@ -6,6 +6,11 @@
         @submit.prevent="handleSubmit()"
         ref="form"
       >
+        <v-progress-linear
+          v-if='isLoading'
+          indeterminate
+          color='primary'
+        ></v-progress-linear>
         <v-card>
           <v-card-title>
             Edit Blog #{{$route.params.id}}
@@ -140,6 +145,7 @@ export default {
     isUpdating: false,
     isPublishing: false,
     oldStatus: '',
+    isLoading: true,
   }),
 
   mounted() {
@@ -162,7 +168,7 @@ export default {
           slug: blog.slug,
           featured_image_path: blog.media[0].path,
         };
-      });
+      }).finally(() => this.isLoading = false);
     },
 
     handleSubmit() {
