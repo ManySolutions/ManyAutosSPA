@@ -39,7 +39,7 @@
                       </v-icon>
                     </td>
                     <td>
-                      <p>Your <strong>share referral link</strong> with your friends</p>
+                      <p><strong>Share your referral link</strong> with your friends</p>
                     </td>
                   </tr>
                 </tbody>
@@ -191,8 +191,8 @@ export default {
 			return process.env.CURRENCY_SYMBOL + this.amount;
 		}
 	},
-	mounted() {
-		this.getLink();
+	asyncData(context) {
+		// console.log(context.store.state);
 	},
   methods: {
 		async getLink() {

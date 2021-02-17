@@ -5,6 +5,9 @@
       color="primary"
       indeterminate
     ></v-progress-linear>
+    <v-card-title>
+      Your Referrals Earning
+    </v-card-title>
     <v-card-text>
       <v-row class="total-row text-center">
         <v-col col="12" sm="4" md="3">
