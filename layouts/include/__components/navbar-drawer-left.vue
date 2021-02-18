@@ -128,6 +128,17 @@ export default {
         {title: 'View More...', url: '/sitemap#car-repairs'},
       ]},
       { 
+        title: "Refer & Earn Online", 
+        url: "/refer-a-friend", 
+        btn: true,
+        rounded: true, 
+        icon: 'mdi-alert-decagram-outline',
+        small: true,
+        color: 'grey lighten-4',
+        elevation: 0,
+        textColor: 'primary'
+      },
+      { 
         title: "Covid19 Car Repair", 
         url: "/car-repair-during-covid-19", 
         btn: true,

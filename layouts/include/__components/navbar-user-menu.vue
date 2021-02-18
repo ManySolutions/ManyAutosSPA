@@ -24,7 +24,7 @@
       </span>
     </v-btn>
 
-    <v-menu offset-y v-else >
+    <v-menu offset-y v-else open-on-hover >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
           text

@@ -8,7 +8,7 @@
         :size="50"
       ></v-progress-linear>
     </template>
-    <template v-else>
+    <template>
       <v-card class="card mx-auto text-center" outlined>
         <v-row class="raf-banner">
           <v-col md="4" class="first-logo d-none d-md-block">
@@ -191,7 +191,7 @@ import { getRefferalLink, sendReferralEmail } from '~/api/user';
 export default {
   data: () => ({
 		referralLink: '',
-		amount: 0,
+		amount: 10,
 		email: '',
 		sendLoading: false,
     isLoading: true,
