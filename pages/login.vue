@@ -5,7 +5,7 @@
         <v-form @submit.prevent="login()">
           <v-card 
             class="mx-auto mt-5" 
-            max-width="344"
+            max-width="480"
           >
             <v-card-text>
               <h2 class="text-h5 font-weight-600 text-center pt-5 mb-10">
