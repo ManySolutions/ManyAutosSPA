@@ -49,9 +49,6 @@
               "
             >
               <h2 class='text-h3 mb-4 font-weight-300'>3 Simple steps to start earning</h2>
-              <!-- <p class="text-h6">
-                Earn rewards by sharing your unique link with clients.
-              </p> -->
             </div>
           </v-col>
         </v-row>
@@ -70,10 +67,6 @@
               <div class="service-item style-2">
                 <div class="service-inner">
                   <div class="service-thumb">
-                    <!-- <img
-                      src="https://static.manyautosltd.com/uploads/check.png"
-                      alt="check"
-                    /> -->
                     <v-icon
                     x-large
                     color="white"
@@ -106,10 +99,6 @@
               <div class="service-item style-2 mt-10">
                 <div class="service-inner">
                   <div class="service-thumb">
-                    <!-- <img
-                      src="https://static.manyautosltd.com/uploads/check.png"
-                      alt="check"
-                    /> -->
                     <v-icon
                     x-large
                     color="white"
@@ -139,10 +128,6 @@
               <div class="service-item style-2 mt-10">
                 <div class="service-inner">
                   <div class="service-thumb">
-                    <!-- <img
-                      src="https://static.manyautosltd.com/uploads/check.png"
-                      alt="check"
-                    /> -->
                     <v-icon
                     x-large
                     color="white"
