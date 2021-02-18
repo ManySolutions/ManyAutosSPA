@@ -140,7 +140,7 @@ export default {
     },
 
     setContentAdminMenu() {
-      if ( !this.roles.includes('content-admin') )
+      if ( this.roles && !this.roles.includes('content-admin') )
         return;
 
       this.items.push(

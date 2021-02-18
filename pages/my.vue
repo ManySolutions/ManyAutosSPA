@@ -14,7 +14,7 @@
               </v-list-item-icon>
               <v-list-item-content>
                 <v-list-item-title class="title">
-                  {{ 'Hi, '+ info.name }}
+                  {{ 'Hi, '+ (info ? info.name : '') }}
                 </v-list-item-title>
                 <v-list-item-subtitle>
                   {{ 'Navigation' }}
