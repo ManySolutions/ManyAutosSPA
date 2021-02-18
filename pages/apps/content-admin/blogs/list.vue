@@ -4,6 +4,11 @@
       All Blogs
     </h3>
 
+    <v-progress-linear
+      v-if='isLoading'
+      indeterminate
+      color='primary'
+    ></v-progress-linear>
     <v-data-table
       :headers="headers"
       :items="items"
@@ -59,6 +64,7 @@ export default {
       { text: 'Actions', value: 'actions', sortable: false},
     ],
     items: [],
+    isLoading: true,
   }),
 
   mounted() {
@@ -70,7 +76,7 @@ export default {
       getAllBlogs(this.http).then(res => this.items = res.list.map(v => ({
         ...v, 
         loading: false
-      })));
+      }))).finally(() => this.isLoading = false);
     },
 
     handlePublish(id, status) {

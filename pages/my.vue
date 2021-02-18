@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-col cols=12 md=4 lg=3 xl=2>
+      <v-col v-if='$device.isDesktop' cols=12 md=4 lg=3 xl=2>
         <v-card
           height="400"
           width="256"
@@ -14,7 +14,7 @@
               </v-list-item-icon>
               <v-list-item-content>
                 <v-list-item-title class="title">
-                  {{ 'Hi, Syed' }}
+                  {{ 'Hi, '+ (info ? info.name : '') }}
                 </v-list-item-title>
                 <v-list-item-subtitle>
                   {{ 'Navigation' }}
@@ -51,6 +51,8 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 export default {
   data: () => ({
     menus: [
@@ -59,6 +61,11 @@ export default {
       {title: 'Your Earnings', url: '/my/referral/overview'},
     ]
   }),
+
+  computed: {
+    ...mapState('user', ['info'])
+  },
+
   mounted() {
     if (!this.isAuth ) {
       this.$router.push({ name: 'login', query: {

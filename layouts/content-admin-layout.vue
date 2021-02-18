@@ -14,7 +14,7 @@
             Content Admin Panel
           </v-list-item-title>
           <v-list-item-subtitle>
-            John Doe
+            {{ info ? info.name : ''}}
           </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
@@ -102,7 +102,7 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex';
+  import { mapGetters, mapState } from 'vuex';
   export default {
     data () {
       return {
@@ -120,7 +120,8 @@
     },
 
     computed: {
-      ...mapGetters('user', ['isContentAdmin'])
+      ...mapGetters('user', ['isContentAdmin']),
+      ...mapState('user', ['info'])
     },
 
     created() {

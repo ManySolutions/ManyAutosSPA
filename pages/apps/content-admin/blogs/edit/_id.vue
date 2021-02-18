@@ -6,6 +6,11 @@
         @submit.prevent="handleSubmit()"
         ref="form"
       >
+        <v-progress-linear
+          v-if='isLoading'
+          indeterminate
+          color='primary'
+        ></v-progress-linear>
         <v-card>
           <v-card-title>
             Edit Blog #{{$route.params.id}}
@@ -50,6 +55,8 @@
                 v-model='form.description'
                 required
                 :initialValue='form.description'
+                plugins='a11ychecker advcode casechange formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste paste table advtable tinymcespellchecker'
+                toolbar='a11ycheck addcomment showcomments casechange checklist code formatpainter pageembed permanentpen table'
               ></editor>
               <small v-if='errors.description' class='red--text d-block'>
                 {{ errors.description[0] }}
@@ -138,6 +145,7 @@ export default {
     isUpdating: false,
     isPublishing: false,
     oldStatus: '',
+    isLoading: true,
   }),
 
   mounted() {
@@ -160,7 +168,7 @@ export default {
           slug: blog.slug,
           featured_image_path: blog.media[0].path,
         };
-      });
+      }).finally(() => this.isLoading = false);
     },
 
     handleSubmit() {

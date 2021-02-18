@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center">
-    <v-col lg='6' md=8>
+    <v-col lg='8' md=10>
       
       <v-form 
         @submit.prevent="handleSubmit()"
@@ -50,6 +50,8 @@
                 api-key='3jnbfshn83xk4kof0whkkztpmhtwsy3av8hgjgnfa6ns6alt'
                 v-model='form.description'
                 required
+                plugins='a11ychecker advcode casechange formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste paste table advtable tinymcespellchecker'
+                toolbar='a11ycheck addcomment showcomments casechange checklist code formatpainter pageembed permanentpen table'
               ></editor>
               <small v-if='errors.description' class='red--text'>
                 {{ errors.description[0] }}
