@@ -2,7 +2,7 @@
   <page-layout title="Contact Us">
     <v-container>
       <v-row justify="center">
-        <v-col cols="12" md="6" lg="4">
+        <v-col cols="12" md="8" lg="6">
           <v-form @submit.prevent="handleSubmit()">
             <v-card class="mx-auto mt-5" max-width="500">
               <v-card-text>
@@ -28,7 +28,7 @@
                   <v-col class='py-0'>
                     <v-text-field
                       v-model="form.s_name"
-                      label="Name"
+                      label="Last Name"
                       placeholder="Your Last Name"
                       outlined
                       :error="!!errors.s_name"
@@ -42,7 +42,6 @@
                   v-model="form.mobile_no"
                   label="Contact No."
                   placeholder="Your Contact no."
-                  type='number'
                   outlined
                   :error="!!errors.mobile_no"
                   :hint="errors.mobile_no ? errors.mobile_no[0] : null"
@@ -95,7 +94,7 @@
         </v-col>
         <!-- /contact form -->
 
-        <v-col cols="12" md="6" lg="4">
+        <v-col cols="12" md="4" lg="4">
           <span>
             <h2 class="contact-heading mb-3 mt-7">Contact Details</h2>
           </span>

@@ -155,7 +155,7 @@
           <v-col cols="12" md="7">
               <div>
                   <img
-                      src="https://static.manyautosltd.com/uploads/referral-image.jpg"
+                      src="https://static.manyautosltd.com/uploads/referral-image.png"
                       alt="referral">
               </div>
           </v-col>

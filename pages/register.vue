@@ -3,7 +3,7 @@
     <v-row>
       <v-col cols="12">
         <v-form @submit.prevent="handleSubmit()">
-          <v-card class="mx-auto mt-5" max-width="344">
+          <v-card class="mx-auto mt-5" max-width="480">
             <v-card-text>
               <h2 class="register-title text-center pt-5 mb-10">
                 Create Account
