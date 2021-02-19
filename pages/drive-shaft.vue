@@ -354,22 +354,27 @@ export default {
         content: 'new drive shaft, drive shaft, drive shaft repair, drive shaft replacement, drive shaft service, new drive shaft in reading, drive shaft in reading, drive shaft repair in reading, drive shaft replacement in reading, drive shaft service in reading,  free collection and delivery'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Drive Shaft Replacement, Repair, Service | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -398,6 +403,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

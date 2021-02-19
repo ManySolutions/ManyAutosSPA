@@ -140,22 +140,27 @@ export default {
         content: 'brake hose, new brake hose, front brake hose, rear brake hose, brake hose repair, brake hose replace, brake hose replacement'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Brake Hose | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -184,6 +189,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

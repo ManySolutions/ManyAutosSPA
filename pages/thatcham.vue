@@ -240,22 +240,27 @@ export default {
         content: 'MOT and car repair services inThatcham ,Car services in Thatcham , collection and delivery from Thatcham, finance for cars repair in Thatcham, clutch repairs in Thatcham, MOT tests in Thatcham, alternator repair and replacement in Thatcham, Cambelt changing service in Thatcham, head gasket repair in  Thatcham'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Thatcham | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -284,6 +289,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

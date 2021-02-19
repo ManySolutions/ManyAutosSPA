@@ -176,22 +176,27 @@ export default {
         content: 'injectors, fuel injector, new injectors, injectors repair, injectors replace, injectors replacement, injectors in reading, fuel injector in reading, new injectors in reading, injectors repair in reading, injectors replace in reading, injectors replacement in reading'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Injectors, Free Collection & Delivery | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -220,6 +225,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

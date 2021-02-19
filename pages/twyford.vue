@@ -240,22 +240,27 @@ export default {
         content: 'MOT and car repair services inTwyford ,Car services in Twyford , collection and delivery from Twyford, finance for cars repair in Twyford, clutch repairs in Twyford, MOT tests in Twyford, alternator repair and replacement in Twyford, Cambelt changing service in Twyford, head gasket repair in  Twyford'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Twyford | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -284,6 +289,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

@@ -47,6 +47,72 @@ export default {
     return {
       title: `Book Your Car MOT, Service or Diagnostics ${isWith}| ManyAutos LTD`,
 
+<<<<<<< HEAD
+    meta: [
+      {
+        hid: 'description', name: 'description', 
+        content: 'We repair and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+      },
+      {
+        name: 'keywords', 
+        content: 'abs controllers, new abs Controllers, abs controllers repair, abs sensor replace, abs controllers replacement'
+      },
+      {
+        hid: 'og:title',
+        property: "og:title", 
+        content: "ABS Controllers | ManyAutos LTD"
+      },
+      {
+        hid: 'og:type',
+        property: "og:type", 
+        content: "website"
+      },
+      {
+        hid: 'og:url',
+        property: "og:url", 
+        content: URL
+      },
+      {
+        hid: 'og:image',
+        property: "og:image", 
+        content: "logo-default.png"
+      },
+      {
+        hid: 'og:site_name',
+        property: "og:site_name", 
+        content: "ManyAutos LTD"
+      },
+      {
+        hid: 'og:description',  property: 'og:description', 
+        content: "We repair and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+      },
+      {
+        name: "twitter:card", 
+        content: "summary"
+      },
+      {
+        name: "twitter:title", 
+        content: "ABS Controllers | ManyAutos LTD"
+      },
+      {
+        name: "twitter:description", 
+        content: "We repair and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+      },
+      {
+        name: "twitter:image", 
+        content: "logo-default.png"
+      },
+      {
+        itemprop: "image", 
+        content: "logo-default.png"
+      },
+      {
+        hid: 'og:type',
+        property: "og:type", 
+        content: "business.business"
+      },
+    ]
+=======
       meta: [
         {
           hid: 'description', name: 'description', 
@@ -106,6 +172,7 @@ export default {
         },
       ]
     }
+>>>>>>> 6e323a917f0a8be4509e76d4cb530d9ca9275b87
   }
 }
 </script>

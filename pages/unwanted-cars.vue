@@ -254,22 +254,27 @@ export default {
         content: 'Scraping your car, Cash paid for unwanted cars, Cash paid for unwanted car Aldershot, Cash paid for unwanted car Basingstoke, Cash paid for unwanted car Bracknell, Cash paid for unwanted car Bradfield, Cash paid for unwanted car Farnborough, Cash paid for unwanted car Goring,, Cash paid for unwanted car Henley-on-Thames, Cash paid for unwanted car Newbury, Cash paid for unwanted car Maidenhead, Cash paid for unwanted carh Pangbourne, Cash paid for unwanted car Reading, Cash paid for unwanted car Sonning, ACash paid for unwanted car Spencers Wood, Cash paid for unwanted car Thatcham,Cash paid for unwanted car Twyford, Cash paid for unwanted car Wokingham, Cash paid for unwanted car Woking, Cash paid for unwanted car woodley, Cash paid for Scrap car,Cash paid for unwanted car,unwanted car collection,'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Scraping your car | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -298,6 +303,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

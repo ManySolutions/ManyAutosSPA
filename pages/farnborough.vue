@@ -240,22 +240,27 @@ export default {
         content: 'MOT and car repair services inFarnborough ,Car services in Farnborough , collection and delivery from Farnborough, finance for cars repair in Farnborough, clutch repairs in Farnborough, MOT tests in Farnborough, alternator repair and replacement in Farnborough, Cambelt changing service in Farnborough, head gasket repair in  Farnborough'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Farnborough | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -284,6 +289,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

@@ -172,22 +172,27 @@ export default {
         content: 'master cylinder, brake cylinder, brake master cylinder, brake master cylinder sensor, new brake master cylinder, brake master cylinder repair, brake master cylinder replace, brake master cylinder replacement'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Brake Master Cylinder | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -216,6 +221,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

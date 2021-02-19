@@ -198,22 +198,27 @@ export default {
         content: 'fuel pump, pump, new fuel pump, fuel pump repair, fuel pump replace, fuel pump replacement, fuel pump in in reading, pump in in reading, new fuel pump in in reading, fuel pump repair in in reading, fuel pump replace in in reading, fuel pump replacement in in reading, free collection and delivery in in reading'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Fuel Pump Replacement, Free Collection & Delivery | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -242,6 +247,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

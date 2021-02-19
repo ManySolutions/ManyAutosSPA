@@ -240,22 +240,27 @@ export default {
         content: 'MOT and car repair services inHenley-On-Thames ,Car services in Henley-On-Thames , collection and delivery from Henley-On-Thames, finance for cars repair in Henley-On-Thames, clutch repairs in Henley-On-Thames, MOT tests in Henley-On-Thames, alternator repair and replacement in Henley-On-Thames, Cambelt changing service in Henley-On-Thames, head gasket repair in  Henley-On-Thames'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Henley-On-Thames | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -284,6 +289,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

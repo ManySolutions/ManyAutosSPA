@@ -240,22 +240,27 @@ export default {
         content: 'MOT and car repair services inWoodley ,Car services in Woodley , collection and delivery from Woodley, finance for cars repair in Woodley, clutch repairs in Woodley, MOT tests in Woodley, alternator repair and replacement in Woodley, Cambelt changing service in Woodley, head gasket repair in  Woodley'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Woodley | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -284,6 +289,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },
