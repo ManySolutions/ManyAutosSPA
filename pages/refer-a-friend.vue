@@ -31,7 +31,7 @@
               dark
               @click='handleClick'
             > 
-              <strong>{{ isAuth ? 'Reffer & Earn Now' : 'Register Now & Start Earning' }}</strong>  
+              <strong>{{ isAuth ? 'Refer & Earn Now' : 'Register Now & Start Earning' }}</strong>  
             </v-btn>
           </div>
         </v-col>
@@ -170,7 +170,7 @@
               dark
               @click='handleClick'
             > 
-              <strong>{{ isAuth ? 'Reffer & Earn Now' : 'Register Now & Start Earning' }}</strong>  
+              <strong>{{ isAuth ? 'Refer & Earn Now' : 'Register Now & Start Earning' }}</strong>  
             </v-btn>
           </div>
         </v-col>
