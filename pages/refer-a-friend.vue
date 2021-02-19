@@ -212,7 +212,7 @@ export default {
   },
 
   head: {
-    title: "Refer A Friend And Earn",
+    title: "Refer A Friend And Earn £10 | ManyAutos LTD",
 
     meta: [
       {
@@ -228,7 +228,7 @@ export default {
       },
       {
         property: "og:title",
-        content: "Refer A Friend And Earn | ManyAutos LTD",
+        content: "Refer A Friend And Earn £10 | ManyAutos LTD",
       },
       {
         property: "og:type",
@@ -258,7 +258,7 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Refer A Friend And Earn | ManyAutos LTD",
+        content: "Refer A Friend And Earn £10 | ManyAutos LTD",
       },
       {
         name: "twitter:description",

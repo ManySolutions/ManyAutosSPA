@@ -1,8 +1,8 @@
 <template>
   <div>
-    <service-booking></service-booking>
+    <service-booking :page-title-name='name'></service-booking>
 
-    <v-dialog
+    <!-- <v-dialog
       v-model="dialog"
       persistent
       width="400"
@@ -20,33 +20,107 @@
           ></v-progress-linear>
         </v-card-text>
       </v-card>
-    </v-dialog>
+    </v-dialog> -->
   </div>
 </template>
 
 <script>
 import { verifyReferral } from '~/api/user';
 import serviceBooking from '../service-booking.vue';
-// $('#servie-reg-form').find('input').focus()
 export default {
   components: { serviceBooking },
   data: () => ({
-    dialog: true,
+    id: null,
+    name: '',
   }),
   computed: {
-    hash() {
-      return this.$route.params.key;
+  },
+  async asyncData({ params }) {
+    const res = await verifyReferral(params.key);
+
+    if (typeof res == 'undefined') {
+      console.log('undefined referrer', res);
+      return {};
+    }
+
+    return {
+      id: res.id || null,
+      name: res.name || '',
     }
   },
   mounted(){
-    this.verify(this.hash);
+    this.verify();
   },
   methods: {
-    verify(hash) {
-      verifyReferral(hash).then(res => {
-        this.$store.commit('booking/SET_REFERRAL_ID', res);
-      }).finally(() => this.dialog = false)
+    verify() {
+      this.$store.commit('booking/SET_REFERRAL_ID', this.id);
     }
   },
+
+  head() {
+    const {name, $route} = this;
+    const {key} = $route.params;
+
+    return {
+      meta: [
+        {
+          hid: 'description', name: 'description', 
+          content: `Book MOT, Service or any Repairs for you vehicle with ${name}. Here at ManyAutos! We also provide free collection and Delivery service from your home or place of work.`
+        },
+        {
+          name: 'keywords', 
+          content: 'many autos ltd, book MOT, book diagnostics, book car service, automotive service,car services,full car service,garage service'
+        },
+        {
+          property: "og:title", 
+          content: `${name} Referred You to Book Your Car MOT, Service or Diagnostics With ManyAutos LTD`
+        },
+        {
+          property: "og:type", 
+          content: "website"
+        },
+        {
+          property: "og:url", 
+          content: process.env.APP_URL + '/rf/' + key
+        },
+        {
+          property: "og:image", 
+          content: "https://static.manyautosltd.com/uploads/masked-mechanic-checks-car-service-station.jpg"
+        },
+        {
+          property: "og:site_name", 
+          content: "ManyAutos LTD"
+        },
+        {
+          hid: 'og:description',  property: 'og:description', 
+          content: `Book MOT, Service or any Repairs for you vehicle with ${name}. Here at ManyAutos! We also provide free collection and Delivery service from your home or place of work.`
+        },
+        {
+          name: "twitter:card", 
+          content: "summary"
+        },
+        {
+          name: "twitter:title", 
+          content: "Book Your Car MOT, Service or Diagnostics | ManyAutos LTD"
+        },
+        {
+          name: "twitter:description", 
+          content: `Book MOT, Service or any Repairs for you vehicle with ${name}. Here at ManyAutos! We also provide free collection and Delivery service from your home or place of work.`
+        },
+        {
+          name: "twitter:image", 
+          content: "https://static.manyautosltd.com/uploads/masked-mechanic-checks-car-service-station.jpg"
+        },
+        {
+          itemprop: "image", 
+          content: "https://static.manyautosltd.com/uploads/masked-mechanic-checks-car-service-station.jpg"
+        },
+        {
+          property: "og:type", 
+          content: "business.business"
+        },
+      ]
+    }
+  }
 }
 </script>

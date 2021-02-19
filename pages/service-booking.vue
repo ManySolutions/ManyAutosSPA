@@ -11,7 +11,7 @@
       </strong>
       <span style='text-transform: initial'>or</span>
       <strong class='text-primary font-weight-700'>MOT</strong>
-      With Us Now
+      With {{ pageTitleName || 'Us Now' }}
     </h1>
     <car-reg-form-card id='servie-reg-form'></car-reg-form-card>
   </div>
@@ -26,6 +26,10 @@ export default {
     CarRegFormCard,
   },
 
+  props: {
+    pageTitleName: String,
+  },
+
   mounted() {
     $(document).ready(() => {
       $([document.documentElement, document.body]).animate({
@@ -36,67 +40,72 @@ export default {
     })
   },
 
-  head: {
-    title: 'Book Your Car Service With Us Now | ManyAutos LTD',
+  head() {
+    const {pageTitleName} = this;
+    const isWith = pageTitleName ? `With ${pageTitleName} ` : '';
+    
+    return {
+      title: `Book Your Car MOT, Service or Diagnostics ${isWith}| ManyAutos LTD`,
 
-    meta: [
-      {
-        hid: 'description', name: 'description', 
-        content: 'We repair and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
-      },
-      {
-        name: 'keywords', 
-        content: 'abs controllers, new abs Controllers, abs controllers repair, abs sensor replace, abs controllers replacement'
-      },
-      {
-        property: "og:title", 
-        content: "ABS Controllers | ManyAutos LTD"
-      },
-      {
-        property: "og:type", 
-        content: "website"
-      },
-      {
-        property: "og:url", 
-        content: URL
-      },
-      {
-        property: "og:image", 
-        content: "logo-default.png"
-      },
-      {
-        property: "og:site_name", 
-        content: "ManyAutos LTD"
-      },
-      {
-        hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
-      },
-      {
-        name: "twitter:card", 
-        content: "summary"
-      },
-      {
-        name: "twitter:title", 
-        content: "ABS Controllers | ManyAutos LTD"
-      },
-      {
-        name: "twitter:description", 
-        content: "We repair and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
-      },
-      {
-        name: "twitter:image", 
-        content: "logo-default.png"
-      },
-      {
-        itemprop: "image", 
-        content: "logo-default.png"
-      },
-      {
-        property: "og:type", 
-        content: "business.business"
-      },
-    ]
+      meta: [
+        {
+          hid: 'description', name: 'description', 
+          content: 'Book MOT, Service or any Repairs for you vehicle. We also provide free collection and Delivery service from your home or place of work.'
+        },
+        {
+          name: 'keywords', 
+          content: 'many autos ltd, book MOT, book diagnostics, book car service, automotive service,car services,full car service,garage service'
+        },
+        {
+          property: "og:title", 
+          content: "Book Your Car MOT, Service or Diagnostics | ManyAutos LTD"
+        },
+        {
+          property: "og:type", 
+          content: "website"
+        },
+        {
+          property: "og:url", 
+          content: process.env.APP_URL + '/service-booking'
+        },
+        {
+          property: "og:image", 
+          content: "https://static.manyautosltd.com/uploads/masked-mechanic-checks-car-service-station.jpg"
+        },
+        {
+          property: "og:site_name", 
+          content: "ManyAutos LTD"
+        },
+        {
+          hid: 'og:description',  property: 'og:description', 
+          content: "Book MOT, Service or any Repairs for you vehicle. We also provide free collection and Delivery service from your home or place of work."
+        },
+        {
+          name: "twitter:card", 
+          content: "summary"
+        },
+        {
+          name: "twitter:title", 
+          content: "Book Your Car MOT, Service or Diagnostics | ManyAutos LTD"
+        },
+        {
+          name: "twitter:description", 
+          content: "Book MOT, Service or any Repairs for you vehicle. We also provide free collection and Delivery service from your home or place of work."
+        },
+        {
+          name: "twitter:image", 
+          content: "https://static.manyautosltd.com/uploads/masked-mechanic-checks-car-service-station.jpg"
+        },
+        {
+          itemprop: "image", 
+          content: "https://static.manyautosltd.com/uploads/masked-mechanic-checks-car-service-station.jpg"
+        },
+        {
+          property: "og:type", 
+          content: "business.business"
+        },
+      ]
+    }
   }
 }
 </script>
