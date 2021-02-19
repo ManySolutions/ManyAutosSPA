@@ -2,9 +2,9 @@
   <v-sheet
     color='#33434a'
   >
-    <v-container>
+    <v-container class='navbar-top-container'>
       <v-row justify="center" align="center">
-        <v-col class='d-none d-lg-block'>
+        <v-col cols=12 sm=3 class='d-none d-lg-block'>
           <NuxtLink to="/">
             <v-img 
               :src="assets('customer-v2/logo-default.png')" 
@@ -12,8 +12,44 @@
             ></v-img>
           </NuxtLink>
         </v-col>
-        <v-col>
+        <v-col cols=12 sm=9>
           <div class="d-flex flex-row justify-end align-center">
+            <v-btn
+              text 
+              color='primary lighten-6'
+              class='text-capitalize mr-3'
+              :to="isAuth ? '/my/referral' : '/refer-a-friend'"
+              elevation="0"
+            >
+              <v-icon
+                dark
+                class='mr-2'
+                color='white'
+              >
+                mdi-account-cash-outline
+              </v-icon>
+              <span class="text-small font-weight-600">
+                {{ isAuth ? 'Refer & Earn £10 Now' : 'Refer a Friend & Earn £10' }} 
+              </span>
+            </v-btn>
+            <v-btn
+              text 
+              color='primary lighten-6'
+              class='text-capitalize mr-3'
+              to="/car-repair-during-covid-19"
+              elevation="0"
+            >
+              <v-icon
+                dark
+                class='mr-2'
+                color='white'
+              >
+                mdi-virus-outline
+              </v-icon>
+              <span class="text-small font-weight-600">
+                {{ 'Covid19 Installment Plan' }} 
+              </span>
+            </v-btn>
             <v-btn
               text
               :color='colorSecond'
@@ -55,6 +91,7 @@
 <script>
 import navbarUserMenu from '../navbar-user-menu.vue'
 import $ from 'jquery';
+import {mapGetters} from 'vuex';
 
 export default {
   components: { navbarUserMenu },
@@ -63,6 +100,10 @@ export default {
     colorFirst: 'white',
     colorSecond: 'primary'
   }),
+
+  computed: {
+    ...mapGetters('user', ['isAuth']),  
+  },
 
   watch: {
   },
@@ -92,5 +133,11 @@ span.top-text-bottom {
     display: block;
     font-size: 18px;
     font-weight: 700;
+}
+
+.navbar-top-container {
+  @media (min-width: 1264px) and (max-width: 1904px) {
+    max-width: 1585px;
+  }
 }
 </style>

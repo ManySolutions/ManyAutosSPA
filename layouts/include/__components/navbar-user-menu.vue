@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <client-only>
     <v-btn
       v-if='desktopView && !isAuth'
       text
@@ -89,7 +89,7 @@
         </v-card-text>
       </v-card>
     </v-menu>
-  </div>
+  </client-only>
 </template>
 
 <script>
@@ -135,7 +135,7 @@ export default {
     handleLogout() {
       logoutUser(this.http).then(res => {
         this.logout();
-        window.location.reload();
+        window.location.href = '/login'
       })
     },
 

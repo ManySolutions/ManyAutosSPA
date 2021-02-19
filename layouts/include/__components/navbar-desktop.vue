@@ -4,7 +4,7 @@
     dark
     elevation="3"
   >
-    <v-container class='p-0'>
+    <v-container class='p-0 navbar-top-container'>
       <v-row>
         <v-col class='p-0'>
           <v-app-bar 
@@ -86,16 +86,17 @@
 export default {
   data: () => ({
     navbarMenu: [
-      { 
-        title: "Refer & Earn Online", 
-        url: "/refer-a-friend", 
-        btn: true,
-        rounded: true, 
-        icon: 'mdi-alert-decagram-outline',
-        small: false,
-        color: 'blue-grey darken-2',
-        elevation: 0,
-      },
+      // { 
+      //   title: "Refer & Earn Online", 
+      //   url: "/refer-a-friend", 
+      //   btn: true,
+      //   rounded: true, 
+      //   icon: 'mdi-alert-decagram-outline',
+      //   small: false,
+      //   color: 'blue-grey darken-2',
+      //   elevation: 0,
+      // },
+      { title: "Home", url: "/" },
       { title: "Car Services", url: "#", children: [
         { title: "Audi Car Service", url: "/audi-service" },
         { title: "BMW Car Service", url: "/BMW-service" },
@@ -153,5 +154,10 @@ export default {
   cursor: pointer;
   position: relative;
   top: 3px;
+}
+.navbar-top-container {
+  @media (min-width: 1264px) and (max-width: 1904px) {
+    max-width: 1585px;
+  }
 }
 </style>
