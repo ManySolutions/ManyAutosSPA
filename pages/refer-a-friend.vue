@@ -31,7 +31,7 @@
               dark
               @click='handleClick'
             > 
-              <strong>Register Now & Start Earning</strong>  
+              <strong>{{ isAuth ? 'Reffer & Earn Now' : 'Register Now & Start Earning' }}</strong>  
             </v-btn>
           </div>
         </v-col>
@@ -170,7 +170,7 @@
               dark
               @click='handleClick'
             > 
-              <strong>Register Now & Start Earning</strong>  
+              <strong>{{ isAuth ? 'Reffer & Earn Now' : 'Register Now & Start Earning' }}</strong>  
             </v-btn>
           </div>
         </v-col>
@@ -181,6 +181,7 @@
 
 <script>
 import PageLayout from "@/layouts/page-layout";
+import { mapGetters } from 'vuex'
 
 const URL = process.env.APP_URL;
 
@@ -189,16 +190,24 @@ export default {
     PageLayout,
   },
 
+  computed: {
+    ...mapGetters('user', ['isAuth']),
+  },
+
   mounted() {
 
   },
 
   methods: {
     handleClick() {
-      this.$store.commit('settings/SET_REDIRECT', {
-        to: '/my/referral', referrer: 'register'
-      });
-      this.$router.push({ name: 'register'})
+      if (this.isAuth) {
+        this.$router.push('/my/referral');
+      } else {
+        this.$store.commit('settings/SET_REDIRECT', {
+          to: '/my/referral', referrer: 'register'
+        });
+        this.$router.push({ name: 'register'})
+      }
     }
   },
 
