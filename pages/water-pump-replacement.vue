@@ -361,22 +361,27 @@ export default {
         content: 'new water pump, water pump, water pump repair, water pump replacement, water pump service, new water pump in reading, drive shaft in reading, water pump repair in reading, water pump replacement in reading, water pump service in reading,  free collection and delivery'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Water pump replacement, Repair, Service | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -405,6 +410,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

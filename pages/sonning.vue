@@ -240,22 +240,27 @@ export default {
         content: 'MOT and car repair services in Sonning ,Car services in  Sonning , collection and delivery from  Sonning, finance for cars repair in  Sonning, clutch repairs in  Sonning, MOT tests in  Sonning, alternator repair and replacement in  Sonning, Cambelt changing service in  Sonning, head gasket repair in   Sonning'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: " Sonning | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -284,6 +289,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

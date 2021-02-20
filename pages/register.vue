@@ -179,7 +179,71 @@ export default {
         if (err >= 400) toastr.error('Unauthorized')
       }).finally(() => this.isLoading = false);
     }
-  }
+  },
+    //   meta: [
+    //   {
+    //     hid: 'description', name: 'description', 
+    //     content: 'Looking for affordable car repairs and MOT test? You’ve come to the right place. Register into our system and choose a service online.'
+    //   },
+    //   {
+    //     name: 'keywords', 
+    //     content: 'car repairs ,MOT test , collection and delivery from Woodley, finance for cars repair in Woodley, clutch repairs in Woodley, MOT tests in Woodley, alternator repair and replacement in Woodley, Cambelt changing service in Woodley, head gasket repair in  Woodley'
+    //   },
+    //   {
+    //     hid: 'og:title',
+    //     property: "og:title", 
+    //     content: "Woodley | ManyAutos LTD"
+    //   },
+    //   {
+    //     hid: 'og:type',
+    //     property: "og:type", 
+    //     content: "website"
+    //   },
+    //   {
+    //     hid: 'og:url',
+    //     property: "og:url", 
+    //     content: URL
+    //   },
+    //   {
+    //     hid: 'og:image',
+    //     property: "og:image", 
+    //     content: "logo-default.png"
+    //   },
+    //   {
+    //     hid: 'og:site_name',
+    //     property: "og:site_name", 
+    //     content: "ManyAutos LTD"
+    //   },
+    //   {
+    //     hid: 'og:description',  property: 'og:description', 
+    //     content: "Looking for affordable car repairs and MOT test? You’ve come to the right place. Register into our system and choose a service online."
+    //   },
+    //   {
+    //     name: "twitter:card", 
+    //     content: "summary"
+    //   },
+    //   {
+    //     name: "twitter:title", 
+    //     content: "Woodley | ManyAutos LTD"
+    //   },
+    //   {
+    //     name: "twitter:description", 
+    //     content: "Looking for affordable car repairs and MOT test? You’ve come to the right place. Register into our system and choose a service online."
+    //   },
+    //   {
+    //     name: "twitter:image", 
+    //     content: "logo-default.png"
+    //   },
+    //   {
+    //     itemprop: "image", 
+    //     content: "logo-default.png"
+    //   },
+    //   {
+    //     hid: 'og:type',
+    //     property: "og:type", 
+    //     content: "business.business"
+    //   },
+    // ]
 };
 </script>
 <style lang="scss" scoped>

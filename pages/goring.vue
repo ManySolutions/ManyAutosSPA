@@ -240,22 +240,27 @@ export default {
         content: 'MOT and car repair services inGoring ,Car services in Goring , collection and delivery from Goring, finance for cars repair in Goring, clutch repairs in Goring, MOT tests in Goring, alternator repair and replacement in Goring, Cambelt changing service in Goring, head gasket repair in  Goring'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Goring | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -284,6 +289,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

@@ -240,22 +240,27 @@ export default {
         content: 'MOT and car repair services inBradfield ,Car services in Bradfield , collection and delivery from Bradfield, finance for cars repair in Bradfield, clutch repairs in Bradfield, MOT tests in Bradfield, alternator repair and replacement in Bradfield, Cambelt changing service in Bradfield, head gasket repair in  Bradfield'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Bradfield | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -284,6 +289,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

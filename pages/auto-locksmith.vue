@@ -177,7 +177,8 @@ export default {
 
     meta: [
       {
-        hid: 'description', name: 'description', 
+        hid: 'description',
+        name: 'description', 
         content: 'We repair and replace Car key arm for all makes and models in United Kingdom.'
       },
       {
@@ -185,22 +186,27 @@ export default {
         content: 'Car key, Locksmith, Auto Locksmith, Auto Locksmith Aldershot, Auto Locksmith Basingstoke, Auto Locksmith Bracknell, Auto Locksmith Bradfield, Auto Locksmith Farnborough, Auto Locksmith Goring,, Auto Locksmith Henley-on-Thames, Auto Locksmith Newbury, Auto Locksmith Maidenhead, Auto Locksmith Pangbourne, Auto Locksmith Reading, Auto Locksmith Sonning, Auto Locksmith Spencers Wood, Auto Locksmith Thatcham,Auto Locksmith Twyford, Auto Locksmith Wokingham, Auto Locksmith Woking, Auto Locksmith woodley,'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Auto Locksmith | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -229,6 +235,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

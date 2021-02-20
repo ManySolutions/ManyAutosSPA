@@ -168,24 +168,29 @@ export default {
           "car services, car maintenance, vehicle repair, car repair, car mechanic, car garage in uk, online repair center, Mot and repair center",
       },
       {
+        hid: 'og:title',
         property: "og:title",
         content:
           "Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance",
       },
       {
+        hid: 'og:type',
         property: "og:type",
         content: "website",
       },
       {
+        hid: 'og:url',
         property: "og:url",
         content: URL,
       },
       {
+        hid: 'og:image',
         property: "og:image",
         content:
           "https://app.manyautosltd.com/assets/customer-v2/logo-default.png",
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name",
         content: "ManyAutos LTD",
       },
@@ -219,6 +224,7 @@ export default {
           "https://app.manyautosltd.com/assets/customer-v2/logo-default.png",
       },
       {
+        hid: 'og:type',
         property: "og:type",
         content: "business.business",
       },

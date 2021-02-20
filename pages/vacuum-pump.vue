@@ -162,22 +162,27 @@ export default {
         content: 'vacuum, pumps, vacuum pump, new vacuum pump, vacuum pump repair, vacuum pump replace, vacuum pump replacement, vacuum in reading, pump in reading, vacuum pump in reading, new vacuum pump in reading, vacuum pump repair in reading, vacuum pump replace in reading, vacuum pump replacement in reading'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Vacuum Pump | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -206,6 +211,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

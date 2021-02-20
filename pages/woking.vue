@@ -240,22 +240,27 @@ export default {
         content: 'MOT and car repair services in Woking ,Car services in Woking , collection and delivery from Woking, finance for cars repair in Woking, clutch repairs in Woking, MOT tests in Woking, alternator repair and replacement in Woking, Cambelt changing service in Woking, head gasket repair in  Woking'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Woking | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -284,6 +289,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

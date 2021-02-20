@@ -174,22 +174,27 @@ export default {
         content: 'free collection, free delivery, free collection and delivery, collection and delivery, free vehicle collection, free vehicle delivery, free collection and delivery with Mot, free collection and delivery with service'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Collection and delivery | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -218,6 +223,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

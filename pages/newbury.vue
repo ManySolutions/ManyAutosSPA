@@ -240,22 +240,27 @@ export default {
         content: 'MOT and car repair services inNewbury ,Car services in Newbury , collection and delivery from Newbury, finance for cars repair in Newbury, clutch repairs in Newbury, MOT tests in Newbury, alternator repair and replacement in Newbury, Cambelt changing service in Newbury, head gasket repair in  Newbury'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Newbury | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -284,6 +289,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

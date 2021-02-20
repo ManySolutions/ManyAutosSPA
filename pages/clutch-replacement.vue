@@ -443,22 +443,27 @@ export default {
         content: 'new clutch, clutch diagnostic, clutch repair, clutch replacement, clutch pedal, clutch master cylinder, clutch concentric slave cylinder, clutch cable, clutch plates, clutch release bearing, clutch fork,, free collection and delivery'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Car Clutch Replacement | ManyAutos LTD"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -487,6 +492,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

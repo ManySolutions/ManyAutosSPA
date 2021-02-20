@@ -1247,22 +1247,27 @@ export default {
         content: 'car services in uk, car services and repairs, premier car services, affordable car repair garage, online garage services in uk, Book Online vehicle Repair services'
       },
       {
+        hid: 'og:title',
         property: "og:title", 
         content: "Best Car Servicing | Interim Car Repair Services | Manyautos Uk"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -1291,6 +1296,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },

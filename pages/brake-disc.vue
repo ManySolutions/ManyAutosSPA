@@ -217,22 +217,27 @@ export default {
         content: 'brake pads replacement, brake service, brake pads service, brake pads installation, brake disc replacement reading, disc service reading, free collection and delivery'
       },
       {
+        hid: '',
         property: "og:title", 
         content: "Brake Discs | ManyAutos LTD"
       },
       {
+        hid: '',
         property: "og:type", 
         content: "website"
       },
       {
+        hid: '',
         property: "og:url", 
         content: URL
       },
       {
+        hid: '',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
+        hid: '',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -261,6 +266,7 @@ export default {
         content: "logo-default.png"
       },
       {
+        hid: 'og:type',
         property: "og:type", 
         content: "business.business"
       },
