@@ -1,42 +1,46 @@
 <template>
   <page-layout
-    title="Refer your friends to us and we'll pay you"
-    heading-bg='customer-v2/static-pages/registergarages.jpg'
-    :has-quote-button='false'
+    title="Earn Money Online by Referring a Friend"
+    heading-bg-static="https://static.manyautosltd.com/uploads/referral-image.png"
+    :has-quote-button="false"
   >
-
     <v-container class="main-container">
-      <v-row>
-          <v-col cols="12" sm="6">
-              <div class="heading-first text-center">
-                    <h2 class="colorify-cash">EARN</h2>
-                    <h1 class="colorify-cash lg">£10</h1>
-                    <h4 class="colorify-cash one"><em>COMMISSION</em></h4>
-                    <h4 class="colorify-cash">per referral</h4>
-                </div>
-          </v-col>
-          <v-col cols="12" sm="6">
-              <div class="second pt-15 text-center">
-                  <h4>Refer a friend and earn. No limits</h4>
-                  <p class="text-teal text-18 justify pt-5">Any successful referral will earn you £10. Don't hesitate to
-                    start telling everyone about our great service and free collection and delivery!</p>
-              </div>
-            <div class="my-2 text-center">
-            <v-btn
-              x-large
-              color="success"
+      <v-row justify="center">
+        <v-col cols="12" sm="6" md=4>
+          <div class="heading-first text-center primary--text">
+            <h2 class="colorify-cash">EARN</h2>
+            <h1 class="colorify-cash lg">£10</h1>
+            <h4 class="colorify-cash one"><em>COMMISSION</em></h4>
+            <h4 class="colorify-cash">per referral</h4>
+          </div>
+        </v-col>
+        <v-col cols="12" sm="6" md=4>
+          <div class="second pt-md-15 text-center">
+            <h4>Earn <strong>£10</strong> Online by Referring a Friend</h4>
+            <p class="text-teal text-18 justify pt-5">
+              Refer a friend and earn. No limits. Any successful referral will earn you £10. Don't hesitate to start
+              telling everyone about our great service and free collection and
+              delivery!
+            </p>
+          </div>
+          <div class="mt-7 text-center">
+            <v-btn 
+              :x-large='$device.isDesktop' 
+              :large='$device.isMobile' 
+              color="secondary" 
               dark
-            >
-              Register Now
+              @click='handleClick'
+            > 
+              <strong>{{ isAuth ? 'Refer & Earn Now' : 'Register Now & Start Earning' }}</strong>  
             </v-btn>
           </div>
-          </v-col>
+        </v-col>
       </v-row>
-  </v-container>
+    </v-container>
     <!-- /section 1  -->
 
-    <section class="service-section home-3 home-sec-gaps mt-15">
-      <v-container class="container pb-16">
+    <section class="service-section home-3 mt-15 py-16 primary darken-4">
+      <v-container>
         <v-row>
           <v-col>
             <div
@@ -48,7 +52,9 @@
                 animation-name: fadeInUp;
               "
             >
-              <h2 class='text-h3 mb-4 font-weight-300'>3 Simple steps to start earning</h2>
+              <h2 class="text-h3 mb-4 font-weight-300">
+                3 Simple steps to start earning
+              </h2>
             </div>
           </v-col>
         </v-row>
@@ -65,22 +71,17 @@
               "
             >
               <div class="service-item style-2">
-                <div class="service-inner">
+                <div class="service-inner primary darken-2">
                   <div class="service-thumb">
-                    <v-icon
-                    x-large
-                    color="white"
-                    >
-                        mdi-numeric-1-circle
+                    <v-icon x-large color="white">
+                      mdi-numeric-1-circle
                     </v-icon>
                   </div>
                   <div class="service-content">
-                    <h3 class='text-h6 font-weight-600'>
-                      Refer
-                    </h3>
+                    <h3 class="text-h6 font-weight-600">Refer</h3>
                     <p class="text-h6">
-                      Share your unique link or refer via email. Both options are available one you log in to your
-                      dashboard.
+                      Share your unique link or refer via email. Both options
+                      are available one you log in to your dashboard.
                     </p>
                   </div>
                 </div>
@@ -97,19 +98,16 @@
               "
             >
               <div class="service-item style-2 mt-10">
-                <div class="service-inner">
+                <div class="service-inner primary darken-2">
                   <div class="service-thumb">
-                    <v-icon
-                    x-large
-                    color="white"
-                    >
-                        mdi-numeric-2-circle
+                    <v-icon x-large color="white">
+                      mdi-numeric-2-circle
                     </v-icon>
                   </div>
                   <div class="service-content">
-                    <h3 class='text-h6 font-weight-600'>Dashboard</h3>
+                    <h3 class="text-h6 font-weight-600">Dashboard</h3>
                     <p class="text-h6">
-                       Watch your total grow as your referrals are completed.
+                      Watch your total grow as your referrals are completed.
                     </p>
                   </div>
                 </div>
@@ -126,50 +124,53 @@
               "
             >
               <div class="service-item style-2 mt-10">
-                <div class="service-inner">
+                <div class="service-inner primary darken-2">
                   <div class="service-thumb">
-                    <v-icon
-                    x-large
-                    color="white"
-                    >
-                        mdi-numeric-3-circle
+                    <v-icon x-large color="white">
+                      mdi-numeric-3-circle
                     </v-icon>
                   </div>
                   <div class="service-content">
-                    <h3 class='text-h6 font-weight-600'>Withdraw</h3>
+                    <h3 class="text-h6 font-weight-600">Withdraw</h3>
                     <p class="text-h6">
-                      Click 'Claim now' when you are ready. Enter your bank details and receive payment within 10
-                      working days.
+                      Click 'Claim now' when you are ready. Enter your bank
+                      details and receive payment within 10 working days.
                     </p>
                   </div>
                 </div>
               </div>
-            </v-col>      
+            </v-col>
           </v-row>
         </div>
       </v-container>
     </section>
-    <!-- /section 2 -->    
-    <v-container class="last-section mt-10">
+    <!-- /section 2 -->
+    <v-container class="last-section py-10">
       <v-row>
-          <v-col cols="12" md="7">
-              <div>
-                  <img
-                      src="https://static.manyautosltd.com/uploads/referral-image.png"
-                      alt="referral">
-              </div>
-          </v-col>
-        <v-col cols="12" md="5" class="last my-auto">
+        <v-col cols="12" md="7" lg=5>
+          <div>
+            <img
+              src="https://static.manyautosltd.com/uploads/referral-image.png"
+              alt="referral"
+            />
+          </div>
+        </v-col>
+        <v-col cols="12" md="5" lg=3 class="last my-auto">
           <div class="second pt-md-10 text-center">
-            <h2>Refer a friend</h2>
-            <p class="text-teal text-18 justify pt-5">Spread the word and keep earning!</p>
+            <h2>Refer a Friend & Earn <br><strong>£10 Online</strong></h2>
+            <p class="text-teal text-18 justify pt-5">
+              Spread the word and keep earning!
+            </p>
           </div>
           <div class="my-2 text-center">
             <v-btn 
-            x-large 
-            color="success"
-            dark>
-              Register Now
+              :x-large='$device.isDesktop' 
+              :large='$device.isMobile' 
+              color="secondary" 
+              dark
+              @click='handleClick'
+            > 
+              <strong>{{ isAuth ? 'Refer & Earn Now' : 'Register Now & Start Earning' }}</strong>  
             </v-btn>
           </div>
         </v-col>
@@ -179,101 +180,127 @@
 </template>
 
 <script>
-import PageLayout from '@/layouts/page-layout';
+import PageLayout from "@/layouts/page-layout";
+import { mapGetters } from 'vuex'
 
 const URL = process.env.APP_URL;
 
 export default {
   components: {
-    PageLayout
+    PageLayout,
+  },
+
+  computed: {
+    ...mapGetters('user', ['isAuth']),
+  },
+
+  mounted() {
+
+  },
+
+  methods: {
+    handleClick() {
+      if (this.isAuth) {
+        this.$router.push('/my/referral');
+      } else {
+        this.$store.commit('settings/SET_REDIRECT', {
+          to: '/my/referral', referrer: 'register'
+        });
+        this.$router.push({ name: 'register'})
+      }
+    }
   },
 
   head: {
-    title: 'About Us',
+    title: "Refer A Friend And Earn £10 | ManyAutos LTD",
 
     meta: [
       {
-        hid: 'description', name: 'description', 
-        content: 'Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300.'
+        hid: "description",
+        name: "description",
+        content:
+          "Any successful referral will earn you £10. Don't hesitate to start. Share your unique link or refer via email and start earning £10 with ManyAutosLTD",
       },
       {
-        name: 'keywords', 
-        content: 'many autos ltd automotive service,car services,full car service,garage service'
+        name: "keywords",
+        content:
+          "many autos ltd, refer a friend, earn money, earn £10, automotive service,car services,full car service,garage service",
       },
       {
-        property: "og:title", 
-        content: "About Us | ManyAutos LTD"
+        property: "og:title",
+        content: "Refer A Friend And Earn £10 | ManyAutos LTD",
       },
       {
-        property: "og:type", 
-        content: "website"
+        property: "og:type",
+        content: "website",
       },
       {
-        property: "og:url", 
-        content: URL
+        property: "og:url",
+        content: process.env.APP_URL + '/refer-a-friend',
       },
       {
-        property: "og:image", 
-        content: "logo-default.png"
+        property: "og:image",
+        content: "https://static.manyautosltd.com/uploads/referral-image.png",
       },
       {
-        property: "og:site_name", 
-        content: "ManyAutos LTD"
+        property: "og:site_name",
+        content: "ManyAutos LTD",
       },
       {
-        hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
+        hid: "og:description",
+        property: "og:description",
+        content:
+          "Any successful referral will earn you £10. Don't hesitate to start. Share your unique link or refer via email and start earning £10 with ManyAutosLTD",
       },
       {
-        name: "twitter:card", 
-        content: "summary"
+        name: "twitter:card",
+        content: "summary",
       },
       {
-        name: "twitter:title", 
-        content: "About Us | ManyAutos LTD"
+        name: "twitter:title",
+        content: "Refer A Friend And Earn £10 | ManyAutos LTD",
       },
       {
-        name: "twitter:description", 
-        content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
+        name: "twitter:description",
+        content:
+          "Any successful referral will earn you £10. Don't hesitate to start. Share your unique link or refer via email and start earning £10 with ManyAutosLTD",
       },
       {
-        name: "twitter:image", 
-        content: "logo-default.png"
+        name: "twitter:image",
+        content: "https://static.manyautosltd.com/uploads/referral-image.png",
       },
       {
-        itemprop: "image", 
-        content: "logo-default.png"
+        itemprop: "image",
+        content: "https://static.manyautosltd.com/uploads/referral-image.png",
       },
       {
-        property: "og:type", 
-        content: "business.business"
+        property: "og:type",
+        content: "business.business",
       },
-    ]
-  }
-}
+    ],
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-
 .main-container .heading-first .colorify-cash {
-    color: #003569eb !important;
-    font-weight: 600;
+  font-weight: 600;
 }
-.main-container .heading-first h2{
-    font-size: 2.5rem;
-    margin-top: 0;
-    margin-bottom: -1rem;
+.main-container .heading-first h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: -1rem;
 }
-.main-container .heading-first h1{
-    font-size: 6rem;
+.main-container .heading-first h1 {
+  font-size: 6rem;
 }
-.main-container .heading-first h4{
-    font-size: 1.5rem;
+.main-container .heading-first h4 {
+  font-size: 1.5rem;
 }
-.main-container .second h4{
-    font-size: 21px;
-    color: #373a3c;
-    font-weight: 600;
+.main-container .second h4 {
+  font-size: 21px;
+  color: #373a3c;
+  font-weight: 600;
 }
 
 // covid-sec-2
@@ -290,7 +317,7 @@ export default {
   font-size: 2.5rem;
 }
 .service-section p {
-    font-weight: 300;
+  font-weight: 300;
 }
 .service-section .section-header p {
   color: #fff;
@@ -314,7 +341,7 @@ export default {
   background: #1c416d;
   margin: auto;
   max-width: 550px;
-  opacity: .8;
+  opacity: 0.8;
 }
 .service-item .service-inner {
   padding: 20px;
@@ -344,7 +371,6 @@ export default {
     width: calc(100% - 105px);
     text-align: left;
   }
-
 }
 @media (min-width: 600px) and (max-width: 992px) {
   .service-item.style-2 .service-inner {
@@ -352,26 +378,25 @@ export default {
   }
 }
 .v-application .text-h3 {
-    font-size: 2.5rem !important;
+  font-size: 2.5rem !important;
 }
 
-.last-section .second h2{
-    font-size: 2rem;
-    color: #003569eb;
-    font-weight: 600;
+.last-section .second h2 {
+  font-size: 2rem;
+  color: #003569eb;
+  font-weight: 600;
 }
-.last-section .second p{
-    font-size: 18px;
-    font-weight: 400;
+.last-section .second p {
+  font-size: 18px;
+  font-weight: 400;
 }
 
-@media (min-width: 960px){
-    .home-sec-gaps {
+@media (min-width: 960px) {
+  .home-sec-gaps {
     padding-bottom: 0px !important;
-}
+  }
 }
 
 // covid-sec-2 end
-
 </style>
 

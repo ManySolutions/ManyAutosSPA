@@ -8,7 +8,7 @@
         :size="50"
       ></v-progress-linear>
     </template>
-    <template v-else>
+    <template>
       <v-card class="card mx-auto text-center" outlined>
         <v-row class="raf-banner">
           <v-col md="4" class="first-logo d-none d-md-block">
@@ -191,7 +191,7 @@ import { getRefferalLink, sendReferralEmail } from '~/api/user';
 export default {
   data: () => ({
 		referralLink: '',
-		amount: 0,
+		amount: 10,
 		email: '',
 		sendLoading: false,
     isLoading: true,
@@ -247,6 +247,74 @@ export default {
 					}
 				}).finally(() => this.sendLoading = false)
 		}
+  },
+
+  head: {
+    title: 'Refer A Friend & Earn £10 | ManyAutos LTD',
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Book MOT, Service or any Repairs required. We will collect & deliver your car free of charge",
+      },
+      {
+        name: "keywords",
+        content:
+          "many autos ltd, refer a friend, earn money, earn £10, automotive service,car services,full car service,garage service",
+      },
+      {
+        property: "og:title",
+        content: "Book MOT, Service or Any Repair For Your Car | ManyAutos LTD",
+      },
+      {
+        property: "og:type",
+        content: "website",
+      },
+      {
+        property: "og:url",
+        content: process.env.APP_URL + '/refer-a-friend',
+      },
+      {
+        property: "og:image",
+        content: "https://static.manyautosltd.com/uploads/referral-image.png",
+      },
+      {
+        property: "og:site_name",
+        content: "ManyAutos LTD",
+      },
+      {
+        hid: "og:description",
+        property: "og:description",
+        content:
+          "Book MOT, Service or any Repairs required. We will collect & deliver your car free of charge",
+      },
+      {
+        name: "twitter:card",
+        content: "summary",
+      },
+      {
+        name: "twitter:title",
+        content: "Book MOT, Service or Any Repair For Your Car | ManyAutos LTD",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Book MOT, Service or any Repairs required. We will collect & deliver your car free of charge",
+      },
+      {
+        name: "twitter:image",
+        content: "https://static.manyautosltd.com/uploads/referral-image.png",
+      },
+      {
+        itemprop: "image",
+        content: "https://static.manyautosltd.com/uploads/referral-image.png",
+      },
+      {
+        property: "og:type",
+        content: "business.business",
+      },
+    ],
   },
 };
 </script>

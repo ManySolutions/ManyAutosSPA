@@ -121,7 +121,7 @@
 </template>
 <script>
 import toastr from 'toastr';
-import { mapActions } from 'vuex';
+import { mapActions, mapState, mapGetters } from 'vuex';
 import { registerUser } from '~/api/user';
 import { countryList } from '~/utils/vars';
 import { fbqCompleteRegistration } from '~/api/fbq';
@@ -146,13 +146,31 @@ export default {
     };
   },
 
+  computed: {
+    ...mapState('settings', ['redirect']),
+    ...mapGetters('user', ['isAuth']),
+  },
+
+
+  mounted() {
+    const { redirect, isAuth } = this;
+
+    if (isAuth) {
+      if ( redirect.referrer == 'register' ) {
+        this.$router.push(redirect.to)
+      } else {
+        this.$router.push({name: 'index'})
+      }
+    }
+  },
+
   methods: {
     ...mapActions('user', ['authorize']),
 
     handleSubmit() {
       this.isLoading = true;
       this.errors = {};
-      const {form} = this;
+      const {form, redirect} = this;
       
       registerUser(form).then(res => {
         const {status, message, errors, user, access_token} = res;
@@ -174,7 +192,12 @@ export default {
 
         this.authorize({ accessToken: access_token, user});
         toastr.success(message);
-        this.$router.push({name: 'index'});
+      
+        if ( redirect.referrer == 'register' ) {
+          this.$router.push(redirect.to)
+        } else {
+          this.$router.push({name: 'index'})
+        }
       }).catch(err => {
         if (err >= 400) toastr.error('Unauthorized')
       }).finally(() => this.isLoading = false);

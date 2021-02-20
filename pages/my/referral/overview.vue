@@ -6,7 +6,7 @@
       indeterminate
     ></v-progress-linear>
     <v-card-title>
-      Your Referrals Earning
+      Your Referral's Earning
     </v-card-title>
     <v-card-text>
       <v-row class="total-row text-center">
@@ -211,6 +211,10 @@ export default {
         this.getOverview();
       }).finally(() => this.isClaimLoading = false);
     }
+  },
+
+  head: {
+    title: 'Your Referral\'s Earning | ManyAutos LTD',
   }
 };
 </script>

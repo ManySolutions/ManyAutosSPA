@@ -87,8 +87,8 @@ export default {
   data: () => ({
     navbarMenu: [
       { 
-        title: "Covid19 Car Repair", 
-        url: "/car-repair-during-covid-19", 
+        title: "Refer & Earn Online", 
+        url: "/refer-a-friend", 
         btn: true,
         rounded: true, 
         icon: 'mdi-alert-decagram-outline',

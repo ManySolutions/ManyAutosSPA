@@ -30,19 +30,21 @@
         <v-btn
           text 
           color='primary lighten-6'
-          class=' d-md-none'
-          to="/car-repair-during-covid-19"
+          class=' d-md-none px-2'
+          to="/refer-a-friend"
           elevation="0"
           rounded
+          small
         >
           <v-icon
             dark
             class='mr-1'
+            small
           >
            mdi-alert-decagram-outline
           </v-icon>
-          <span class="text-small">
-            Covid19 Car Repair
+          <span class="text-small font-weight-600">
+            {{ isAuth ? 'Refer & Earn £10 Now' : 'Refer a Friend & Earn £10' }} 
           </span>
         </v-btn>
         <span class='d-none d-md-block'>
@@ -78,7 +80,7 @@
             mdi-cellphone-basic
           </v-icon>
         </v-btn>
-        <v-btn
+        <!-- <v-btn
           text
           elevation='0'
           style='min-width: 0px'
@@ -89,7 +91,7 @@
           <v-icon color='teal lighten-6'>
             mdi-whatsapp
           </v-icon>
-        </v-btn>
+        </v-btn> -->
         <v-btn
           text
           elevation='0'
@@ -121,8 +123,12 @@
 </template>
 
 <script>
+import { mapGetters} from 'vuex'
+
 export default {
-  
+  computed: {
+    ...mapGetters('user', ['isAuth']),
+  }  
 }
 </script>
 
