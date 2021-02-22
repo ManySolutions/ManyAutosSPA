@@ -146,7 +146,9 @@ export default {
       {title: 'Contact Us', url: '/contact'},
       {title: 'Site Map', url: '/sitemap'},
       {title: 'Register as Garage', url: '/request-to-register-your-garage'},
-      {title: 'Book a service', url: '/service-booking'},
+      {title: 'Book a Service', url: '/service-booking'},
+      {title: 'Login', url: '/login'},
+      {title: 'Create a New Account', url: '/register'},
     ],
     contacts: [
       { content: '01189 876300', url: 'tel:+441189876300', title: 'Phone', icon: 'mdi-cellphone-basic'},
