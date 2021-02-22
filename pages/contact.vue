@@ -265,6 +265,74 @@ export default {
         });
     },
   },
+  head: {
+    title: 'Contact | ManyAutos LTD',
+
+    meta: [
+      {
+        hid: 'description', name: 'description', 
+        content: 'We value your opinion and feedback. Contact us if you want any help regarding our services or if you have any complains. We will be at your service.'
+      },
+      {
+        name: 'keywords', 
+        content: 'contact car services, contact garage in Reading, contact garages,car body repair near me, car garages near me'
+      },
+      {
+        hid: 'og:title',
+        property: "og:title", 
+        content: "Contact | ManyAutos LTD"
+      },
+      {
+        hid: 'og:type',
+        property: "og:type", 
+        content: "website"
+      },
+      {
+        hid: 'og:url',
+        property: "og:url", 
+        content: URL
+      },
+      {
+        hid: 'og:image',
+        property: "og:image", 
+        content: "logo-default.png"
+      },
+      {
+        hid: 'og:site_name',
+        property: "og:site_name", 
+        content: "ManyAutos LTD"
+      },
+      {
+        hid: 'og:description',  property: 'og:description', 
+        content: "We value your opinion and feedback. Contact us if you want any help regarding our services or if you have any complains. We will be at your service."
+      },
+      {
+        name: "twitter:card", 
+        content: "summary"
+      },
+      {
+        name: "twitter:title", 
+        content: "Contact | ManyAutos LTD"
+      },
+      {
+        name: "twitter:description", 
+        content: "We value your opinion and feedback. Contact us if you want any help regarding our services or if you have any complains. We will be at your service."
+      },
+      {
+        name: "twitter:image", 
+        content: "logo-default.png"
+      },
+      {
+        itemprop: "image", 
+        content: "logo-default.png"
+      },
+      {
+        hid: 'og:type',
+        property: "og:type", 
+        content: "business.business"
+      },
+    ]
+  }
 };
 </script>
 <style lang="scss" scoped>

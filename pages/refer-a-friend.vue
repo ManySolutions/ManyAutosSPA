@@ -227,22 +227,27 @@ export default {
           "many autos ltd, refer a friend, earn money, earn £10, automotive service,car services,full car service,garage service",
       },
       {
+        hid: 'og:title',
         property: "og:title",
         content: "Refer A Friend And Earn £10 | ManyAutos LTD",
       },
       {
+        hid: 'og:type',
         property: "og:type",
         content: "website",
       },
       {
+        hid: 'og:url',
         property: "og:url",
         content: process.env.APP_URL + '/refer-a-friend',
       },
       {
+        hid: 'og:image',
         property: "og:image",
         content: "https://static.manyautosltd.com/uploads/referral-image.png",
       },
       {
+        hid: 'og:site_name',
         property: "og:site_name",
         content: "ManyAutos LTD",
       },
@@ -274,6 +279,7 @@ export default {
         content: "https://static.manyautosltd.com/uploads/referral-image.png",
       },
       {
+        hid: 'og:type',
         property: "og:type",
         content: "business.business",
       },

@@ -139,6 +139,74 @@ export default {
         })
         .finally(() => this.isLoading = false)
     }
+  },
+   head: {
+    title: 'Login | ManyAutos LTD',
+
+    meta: [
+      {
+        hid: 'description', name: 'description', 
+        content: 'Login into your account and have a look at all the records of your vehicle’s services and repairs. Keep your car in a good shape always.'
+      },
+      {
+        name: 'keywords', 
+        content: 'many autos ltd, book MOT, car maintenance, auto shops,car garages near me, car servicing'
+      },
+      {
+        hid: 'og:title',
+        property: "og:title", 
+        content: "Login | ManyAutos LTD"
+      },
+      {
+        hid: 'og:type',
+        property: "og:type", 
+        content: "website"
+      },
+      {
+        hid: 'og:url',
+        property: "og:url", 
+        content: URL
+      },
+      {
+        hid: 'og:image',
+        property: "og:image", 
+        content: "logo-default.png"
+      },
+      {
+        hid: 'og:site_name',
+        property: "og:site_name", 
+        content: "ManyAutos LTD"
+      },
+      {
+        hid: 'og:description',  property: 'og:description', 
+        content: "Login into your account and have a look at all the records of your vehicle’s services and repairs. Keep your car in a good shape always."
+      },
+      {
+        name: "twitter:card", 
+        content: "summary"
+      },
+      {
+        name: "twitter:title", 
+        content: "Login | ManyAutos LTD"
+      },
+      {
+        name: "twitter:description", 
+        content: "Login into your account and have a look at all the records of your vehicle’s services and repairs. Keep your car in a good shape always."
+      },
+      {
+        name: "twitter:image", 
+        content: "logo-default.png"
+      },
+      {
+        itemprop: "image", 
+        content: "logo-default.png"
+      },
+      {
+        hid: 'og:type',
+        property: "og:type", 
+        content: "business.business"
+      },
+    ]
   }
 }
 </script>
