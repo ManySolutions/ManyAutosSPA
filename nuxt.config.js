@@ -178,7 +178,8 @@ export default {
         '/mot-car-check',
         '/booking/**',
         '/register-your-garage/**',
-        '/rf/**'
+        '/rf/**',
+        '/autologin/**',
       ],
     },
     {
