@@ -86,7 +86,7 @@
 <script>
 import toastr from 'toastr';
 import { loginUser } from '~/api/user';
-import { mapActions } from 'vuex';
+import { mapActions, mapState } from 'vuex';
 
 export default {
   data: () => ({
@@ -109,6 +109,10 @@ export default {
     }
   },
 
+  computed: {
+    ...mapState('settings', ['redirect'])
+  },
+
   methods: {
     ...mapActions('user', ['authorize']),
 
@@ -116,6 +120,7 @@ export default {
       this.errors = {};
       this.errorMessage = null;
       this.isLoading = true;
+      const {redirect} = this;
 
       loginUser(this.form)
         .then(res => res.data)
@@ -130,7 +135,13 @@ export default {
 
           toastr.success('You have been successfully logged in');
           this.authorize({ accessToken: access_token, user, role});
-          setTimeout(() => window.location.href=this.redirectUrl, 300);
+
+          if ( redirect.referrer == 'login' || redirect.referrer == 'login-and-register' ) {
+            this.$store.commit('settings/RESET_REDIRECT');
+            setTimeout(() => window.location.href=redirect.to, 300);
+          } else {
+            setTimeout(() => window.location.href=this.redirectUrl, 300);
+          }
         })
         .catch((err) => {
           if (err >= 400) {

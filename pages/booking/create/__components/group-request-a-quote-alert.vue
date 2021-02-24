@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if='alert'>
     <v-alert 
       type='info' 
       color='info lighten-1' 
@@ -71,7 +71,7 @@ export default {
     }
   },
   beforeMount() {
-    // this.$store.commit('booking/TOGGLE_GET_QUOTE_ALERT', true);
+    this.$store.commit('booking/TOGGLE_GET_QUOTE_ALERT', false);
     this.alert = this.isGetQuoteAlert
   },
 

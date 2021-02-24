@@ -219,6 +219,8 @@ export default {
       if (cart.length > this.beforeCartSize) {
         this.showNextIco = true;
       }
+
+      this.getCart();
     },
 
     showNextIco(showNextIco) {

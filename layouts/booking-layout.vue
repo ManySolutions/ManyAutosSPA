@@ -33,6 +33,7 @@
           <v-sheet 
             elevation="2"
             class='px-lg-7 py-3'
+            v-if='!noTabs'
           >
             <v-tabs 
             >
@@ -73,6 +74,7 @@ export default {
   components: { desktopCart, IndexSelectedPaymentPlan },
   props: {
     breadcrumbs: [Array, Object],
+    noTabs: Boolean
   }
 }
 </script>

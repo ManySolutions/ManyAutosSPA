@@ -116,6 +116,7 @@
           large
           to='/booking/create/collection-info'
           v-if='hasBookNowBtn'
+          :disabled='isCartEmpty'
         >
           <strong>
             Book Now

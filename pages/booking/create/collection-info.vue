@@ -1,5 +1,5 @@
 <template>
-  <booking-layout :breadcrumbs="breadcrumbs">
+  <booking-layout :breadcrumbs="breadcrumbs" no-tabs>
     <template #title>
       <span class='font-weight-light'>
         Fill collection information to complete order
@@ -90,7 +90,7 @@
             v-if='!isAuth'
           ></collection-info-user>
           <v-alert v-else type='success'>
-            You booking will be create as 
+            Your booking will be created as 
             <strong>{{ info ? info.email : '' }}</strong>
           </v-alert>
           <v-btn
@@ -159,6 +159,43 @@
         
       </v-stepper>
     </v-form>
+
+    <v-dialog
+      v-model="is_login_dialog"
+      max-width="490"
+    >
+      <v-card>
+        <v-card-title class="headline">
+          Account Already Exists
+        </v-card-title>
+
+        <v-card-text>
+          An account against the email <strong>{{ form.user.email }}</strong>
+          already exists. If it's you please try to login first, 
+          else please use another email address.
+        </v-card-text>
+
+        <v-card-actions>
+          <v-spacer></v-spacer>
+
+          <v-btn
+            color="primary darken-1"
+            text
+            @click="is_login_dialog = false; step = 3"
+          >
+            Use another email
+          </v-btn>
+
+          <v-btn
+            color="green darken-1"
+            text
+            to='/login'
+          >
+            Login
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
   </booking-layout>
 </template>
 
@@ -213,6 +250,8 @@ export default {
 
     errors: {},
     errorMsg: null,
+
+    is_login_dialog: false,
   }),
 
   computed: {
@@ -235,7 +274,7 @@ export default {
     isStep3Valid() {
       const { user } = this.form;
 
-      return ( Object.keys(user).length >= 4 || this.isAuth );
+      return this.isStep2Valid && ( Object.keys(user).length >= 4 || this.isAuth );
     },
     isFormValid() {
       const { isStep1Valid, isStep2Valid, isStep3Valid } = this;
@@ -314,7 +353,17 @@ export default {
         model_id: modelId
       }, this.http).then(res => res.data)
         .then(data => {
-          const { status, message, access_token, user, errors, id } = data;
+          const { 
+            status, message, access_token, user, errors, id, is_email_exist 
+          } = data;
+
+          if (is_email_exist) {
+            this.is_login_dialog = true;
+            this.$store.commit('settings/SET_REDIRECT', {
+              to: '/booking/create/collection-info',
+              referrer: 'login'
+            });
+          }
 
           if (!status) {
             toastr.error('Failed: ' + message);
@@ -330,7 +379,7 @@ export default {
               this.cartContent.cart_details,
               this.cartCount,
               this.cartContent.cart_subtotal,
-              this.info.id || user.id,
+              this.info ? this.info.id : user.id,
               id,
               this.hasPaymentPlan ? '1' : null
             );
