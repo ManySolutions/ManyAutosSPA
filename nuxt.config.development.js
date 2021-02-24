@@ -71,6 +71,7 @@ export default {
     '@nuxtjs/sitemap',
 
     'nuxt-facebook-pixel-module',
+
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
