@@ -22,7 +22,8 @@
   </v-sheet>
 </template>
 <script>
-import { getVehicleDetails } from '~/api/vehicle';
+// import { getVehicleDetails } from '~/api/vehicle';
+import $ from 'jquery';
 
 export default {
   data: () => ({}),
@@ -33,14 +34,12 @@ export default {
         $('.car-repair-covid-bar').css('bottom', 0);
       }, 5000);
 
-
-
       var lastScrollTop = 0;
-      var formTop = $("#covidPlanForm").offset().top - $(window).height() + $("#covidPlanForm").height();
+      var formTop = $("#covidToStartScroll").offset().top - $(window).height() + $("#covidToStartScroll").height();
       $(window).scroll(function(event){
         var st = $(this).scrollTop();
 
-        if (st > lastScrollTop || st >= formTop){
+        if (st <= formTop) { // st > lastScrollTop || 
           $('.car-repair-covid-bar').css({
             'bottom': -200,
             'transition-duration': '.3s',
@@ -77,9 +76,10 @@ export default {
     left: 50%;
     transform: translateX(-50%);
     z-index: 10000000000;
-    background: white;
+    background: #00b4d8;
     width: 100%;
     box-shadow: 1px 5px 16px 1px #102b6591 !important;
     transition: bottom .3s linear;
+    color: white;
 }
 </style>
