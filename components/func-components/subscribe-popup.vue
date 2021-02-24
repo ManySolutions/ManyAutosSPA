@@ -35,11 +35,27 @@
         </v-toolbar>
           <v-container>
               <v-row>
-                     <v-col md="6" class='text-right d-none d-md-block letter-image'>
-                    <img :src="assets('/frontend/letter.png')" alt="" class="center">
-                    </v-col>
-                  <v-col md="6"> 
-                    <div class="text-center d-inline-block subscribe-section">
+                  <v-col cols="12" md="6" class='text-center letter-image pt-15'>
+                    <div class="for-mobile active d-none d-md-block"                     
+                    >
+                     <img
+                        src="https://static.manyautosltd.com/uploads/mot-desktop.png"
+                        alt="MOT Desktop"
+                        class="center"                     
+                      />     
+                    </div>
+                    <div class="for-desktop active d-flex d-md-none"
+                      >
+                      <img
+                        src="https://static.manyautosltd.com/uploads/mot-mobile.png"
+                        alt="MOT Mobile"
+                        class="center"             
+                      />
+                    </div>
+                  </v-col>
+              
+                  <v-col cols="12" md="6" class="subscribe-section text-center pt-15 mb-12"> 
+                    <div class="text-center d-inline-block">
                       <h1 class='mb-12 d-block font-weight-bold heading-title text-center'>
                         Subscribe For
                         <span class='text-primary'>MOT </span>
@@ -88,12 +104,18 @@
   }
 </script>
 <style lang="scss" scoped>
-.letter-image{
+
+@media (min-width:992px) {
+  .letter-image{
 
     margin-top: 120px;
 }
+  
+}
+@media (min-width:992px) {
 .subscribe-section{
 
     margin-top: 120px;
+}
 }
 </style>

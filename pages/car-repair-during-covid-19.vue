@@ -6,9 +6,142 @@
     cls='car-repair-during-covid-19'
     sub-title='Car Repair Pay Later Service'
   >
+      <section class="about-section style-3 bg-about padding-tb home-sec-gaps">
+      <v-container>
+        <v-row
+          class="justify-content-center align-items-center flex-row-reverse"
+        >
+          <v-col
+            cols="12"
+            lg="6"
+            class="wow fadeInUp"
+            data-wow-delay="0.3s"
+            style="
+              visibility: visible;
+              animation-delay: 0.3s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="about-thumb d-none d-lg-block text-center">
+              <img
+                src="https://static.manyautosltd.com/uploads/covid-4.png"
+                alt="car repair payment plan"
+              />
+              <car-repair-during-covid-19-dialog v-if='isDevice.lg'></car-repair-during-covid-19-dialog>
+            </div>
+          </v-col>
+          <v-col
+            cols="12"
+            lg="6"
+            class="wow fadeInUp"
+            data-wow-delay="0.4s"
+            style="
+              visibility: visible;
+              animation-delay: 0.4s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="about-content">
+              <div class="ab-title">
+                <span>About (2021-nCoV)</span>
+                <h2 class='text-h3 mb-5'>Car Repair Payment Plans</h2>
+                <p class='text-sec'>
+                  Covid-19 has affected everyone in a different way. Many people
+                  are struggling financially due to it. We understand your
+                  situation and want to make things easy for you. We provide you
+                  the
+                  <NuxtLink to="/car-service"
+                    >car repair pay later service</NuxtLink
+                  >. You can pay your dues in installments for the next 4 
+                  months.
+                </p>
+                <p class='text-sec'>
+                  This <strong>vehicle servicing installments plan</strong> is
+                  devised for your ease and comfort.
+                </p>
+                <ul class="lab-ul">
+                  <li>
+                    <div class="ab-thumb">
+                      <img
+                        src="https://static.manyautosltd.com/uploads/whocanapply.png"
+                        alt="whocanapply"
+                      />
+                    </div>
+                    <div class="ab-content">
+                      <h3 class="text-h6 font-weight-600">Who can apply</h3>
+                      <p  class='text-sec'>
+                        Anyone who is a resident of the United Kingdom and is 18
+                        years of age or above can apply for our payment plan.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="ab-thumb">
+                      <img
+                        src="https://static.manyautosltd.com/uploads/deposit.png"
+                        alt="deposit"
+                      />
+                    </div>
+                    <div class="ab-content">
+                      <h3 class="text-h6 font-weight-600">Deposit</h3>
+                      <p class='text-sec'>
+                        A 25% initial deposit is required and the rest can be paid in installments for the next
+                        4
+                        months.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="ab-thumb">
+                      <img
+                        src="https://static.manyautosltd.com/uploads/interest-free.png"
+                        alt="interest-free"
+                      />
+                    </div>
+                    <div class="ab-content">
+                      <h3 class="text-h6 font-weight-600">Interest-free</h3>
+                      <p  class='text-sec'>
+                        Our <NuxtLink to="/"
+                          >car repair service installment during
+                          covid-19</NuxtLink
+                        >
+                         is interest-free. No extra money would be charged from
+                        you.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="ab-thumb">
+                      <img
+                        src="https://static.manyautosltd.com/uploads/apply.png"
+                        alt="apply"
+                      />
+                    </div>
+                    <div class="ab-content">
+                      <h3 class="text-h6 font-weight-600">When do I apply</h3>
+                      <p  class='text-sec'>
+                        You can apply right after we give you a quote for your
+                        services and purchases.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="pt-10 text-center d-lg-none">
+                <car-repair-during-covid-19-dialog v-if='!isDevice.lg'></car-repair-during-covid-19-dialog>
+              </div>
+            </div>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+
+
+
+
     <v-container
       class="covid-page"
-      style="padding-top: 50px; margin-bottom: 50px"
+      style="padding-top: 120px;"
     >
       <v-row>
         <!-- <v-col cols=12 class="text-center ">
@@ -260,7 +393,7 @@
 
     <v-container>
       <v-row 
-        class="row align-items-center text-center booking home-sec-gaps pb-0"
+        class="row align-items-center text-center booking home-sec-gaps pb-0 mt-5"
         justify='center'
       >
         <v-col cols=12 md=6 xl=4 class="margin-top-25 text-md-left">
@@ -282,7 +415,7 @@
         </v-col>
       </v-row>
       <v-row 
-        class="row align-items-center text-center booking home-sec-gaps"
+        class="row align-items-center text-center booking "
         justify='center'
       >
         <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-right">
@@ -305,7 +438,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <section class="about-section style-3 bg-about padding-tb home-sec-gaps">
+    <!-- <section class="about-section style-3 bg-about padding-tb home-sec-gaps">
       <v-container>
         <v-row
           class="justify-content-center align-items-center flex-row-reverse"
@@ -433,7 +566,7 @@
           </v-col>
         </v-row>
       </v-container>
-    </section>
+    </section> -->
 
     <car-repair-during-covid-19-bar></car-repair-during-covid-19-bar>
   </page-layout>
@@ -650,13 +783,13 @@ export default {
 // last section
 .bg-about {
   background-color: #144575;
-  margin-bottom: -41px;
+  // margin-bottom: -41px;
 }
-@media (min-width: 960px) {
-  .bg-about {
-    margin-bottom: -111px;
-  }
-}
+// @media (min-width: 960px) {
+//   .bg-about {
+//     margin-bottom: -111px;
+//   }
+// }
 .about-section.style-3 .about-content .ab-title > span {
   color: #00ff99;
   display: inline-block;
@@ -726,13 +859,22 @@ a {
     font-weight: 300 !important;
 }
 
-</style>
 
-<style lang='scss'>
-@media (min-width: 960px) {
+</style>
+ <style lang="scss">
+ @media (min-width: 960px) {
   .car-repair-during-covid-19 div.static-page-heading {
     padding-top: 160px !important;
     padding-bottom: 270px !important;
   }
 }
-</style>
+.car-repair-during-covid-19.page.static-page .static-page-heading .slantdiv {
+    background: #144575 !important;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: skew(0deg, -2deg) translate(0px, 46px);
+}
+ </style>
