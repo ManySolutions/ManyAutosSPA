@@ -6,7 +6,7 @@
       </span>
     </template>
 
-    <v-card>
+    <v-card tile>
       <v-card-subtitle>Part's Groups List</v-card-subtitle>
       <v-card-text>
         <v-skeleton-loader

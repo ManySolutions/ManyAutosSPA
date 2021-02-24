@@ -11,6 +11,7 @@ export const state = () => ({
   isCartLoading: false,
   hasPaymentPlan: null,
   referralId: null,
+  isGetQuoteAlert: true,
 })
 
 export const mutations = {
@@ -63,6 +64,10 @@ export const mutations = {
 
   REMOVE_REFERRAL_ID(state) {
     state.referralId = null;
+  },
+
+  TOGGLE_GET_QUOTE_ALERT(state, status) {
+    state.isGetQuoteAlert = status;
   },
 }
 

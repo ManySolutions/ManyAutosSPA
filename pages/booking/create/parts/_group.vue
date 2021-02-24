@@ -21,6 +21,7 @@
       elevation="1"
     >
       <v-card-text>
+        <group-request-a-quote-alert></group-request-a-quote-alert>
         <template v-if='isLoading'>
           <base-service-item
             v-for='n in 4'
@@ -34,7 +35,7 @@
         </template>
         <base-service-item
           v-for="(operation, j) in components"
-          :key='j'
+          :key='j + 100'
           :title='operation.Operation'
           :price='parseFloat(operation.Price) + parseFloat(operation.LabourCost)'
           :id='operation.PartNo.trim() + "-" + operation.ItemID'
@@ -48,9 +49,11 @@
 <script>
 import { getPartsByGroupCode } from '~/api/vehicle';
 import BookingLayout from '~/layouts/booking-layout.vue';
+import GroupRequestAQuoteAlert from '../__components/group-request-a-quote-alert.vue';
 export default {
   components: {
-    BookingLayout
+    BookingLayout,
+    GroupRequestAQuoteAlert
   },
 
   props: ['vehicleName', 'modelId'],
