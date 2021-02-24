@@ -175,6 +175,8 @@ export default {
       {title:'Create Your Account' , url:'/register'},
       {title:'My bookings' , url:'/my/booking'},
       {title:'Register As Garage' , url:'/request-to-register-your-garage'},
+      {title:'Covid19 Installment Plan' , url:'/car-repair-during-covid-19'},
+      {title:'Refer A Friend & Earn' , url:'/refer-a-friend'},
     ],
     locationLinks:[
       {title: 'Basingstoke', url: '/basingstoke'},

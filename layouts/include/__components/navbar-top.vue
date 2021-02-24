@@ -7,7 +7,7 @@
       class=''
     >
       <v-col 
-        cols=5
+        cols=6
         sm=9
         align-self="center"
       >
@@ -49,7 +49,7 @@
         </v-btn>
       </v-col>
       <v-col
-        cols=5
+        cols=6
         sm=3
         class='text-right top-social'
       >
