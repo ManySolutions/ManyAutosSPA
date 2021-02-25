@@ -165,7 +165,7 @@
               <h2 class="green2 text-h3 mb-7">
                 Helping You To Get Back On The Road
               </h2>
-              <p class="text-sec mt-4">
+              <p class="text-sec mt-4" id='covidToStartScroll'>
                 We always say that customers are our topmost priority. In
                 critical times like this, we want to help you in any way we can.
               </p>

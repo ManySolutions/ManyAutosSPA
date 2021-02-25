@@ -96,7 +96,14 @@ export default {
     isFormValid() {
       const { email, password, mobileNo, countryCode, name, f_name, s_name} = this;
 
-      return ( email && password && mobileNo && countryCode && f_name && s_name );
+      return ( 
+        email != '' 
+        && password != '' 
+        && mobileNo != '' 
+        && countryCode != '' 
+        && f_name != '' 
+        && s_name != '' 
+      );
     }
   },
 

@@ -159,9 +159,11 @@ export default {
         '/my/**',
         '/apps/**',
         '/test',
+        '/mot-car-check',
         '/booking/**',
-        '/referral',
-        '/register-your-garage/**'
+        '/register-your-garage/**',
+        '/rf/**',
+        '/autologin/**',
       ],
     },
     {

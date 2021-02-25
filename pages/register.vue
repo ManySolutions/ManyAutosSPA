@@ -193,7 +193,8 @@ export default {
         this.authorize({ accessToken: access_token, user});
         toastr.success(message);
       
-        if ( redirect.referrer == 'register' ) {
+        if ( redirect.referrer == 'register' || redirect.referrer == 'login-and-register' ) {
+          this.$store.commit('settings/RESET_REDIRECT');
           this.$router.push(redirect.to)
         } else {
           this.$router.push({name: 'index'})

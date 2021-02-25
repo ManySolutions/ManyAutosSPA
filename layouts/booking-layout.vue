@@ -30,6 +30,30 @@
 
       <v-row justify="center">
         <v-col cols=12 md=8 xl=6>
+          <v-sheet 
+            elevation="2"
+            class='px-lg-7 py-3'
+            v-if='!noTabs'
+          >
+            <v-tabs 
+            >
+              <v-tab
+                to="/booking/create/mot-and-servicing"
+              >
+                MOT & Servicing
+              </v-tab>
+              <v-tab
+                to="/booking/create/parts"
+              >
+                Repairs
+              </v-tab>
+              <v-tab
+                to="/booking/create/diagnostics"
+              >
+                Diagnostics
+              </v-tab>
+            </v-tabs>
+          </v-sheet>
           <slot></slot>
         </v-col>
         <v-col
@@ -50,6 +74,7 @@ export default {
   components: { desktopCart, IndexSelectedPaymentPlan },
   props: {
     breadcrumbs: [Array, Object],
+    noTabs: Boolean
   }
 }
 </script>
