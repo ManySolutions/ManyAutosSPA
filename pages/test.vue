@@ -152,5 +152,9 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #dddee0!important;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 </style>
