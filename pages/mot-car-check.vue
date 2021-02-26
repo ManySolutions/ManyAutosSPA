@@ -11,13 +11,21 @@
               style="font-weight:200;"> & </span> <strong>MOT history</strong>
           </h1>
           <p class="text-teal text-18 justify pb-8">
-            Curious about when your MOT is due? Eager to know the MOT history of your next purchase? You’ve come to the
-            right place.
+            Curious about your MOT due date? Eager to know the MOT history of your next purchase? You took the
+            right decision by choosing us.
           </p>
           <v-form class="myinput">
-            <v-text-field label="Enter your Car reg" outlined></v-text-field>
+            <v-text-field label="Enter your Car reg" 
+            outlined
+            >
+            </v-text-field>
             <div class="text-center button">
-              <v-btn class="subscribe-btn" color="primary" dark x-large block>
+              <v-btn class="subscribe-btn" 
+              color="primary" 
+              dark 
+              x-large 
+              block
+              >
                 Check Mot & Details
               </v-btn>
             </div>
@@ -181,8 +189,8 @@
            <p class="text-teal text-18 justify pb-5">
              At Manyautos, we share the pride in your ride. You only need to give the registration number and we will
              provide you with all the relevant information regarding the vehicle you’ve searched for. We can tell what
-             you need to know. Want to know when the <strong>MOT expires?</strong> Want to know why a vehicle failed the MOT? No worries,
-             we will let you know.
+             you need to know. Do you want to know the expiry date of your Mot? Want to know why a vehicle failed the
+             MOT? No problem, we will answer all your queries.
            </p>
            <p class="text-teal text-18 justify pb-5">
              You can even check the date at which the MOT was performed, the mileage that was recorded at the time, and

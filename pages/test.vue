@@ -3,31 +3,6 @@
     title='Test'
     heading-bg='customer-v2/static-pages/registergarages.jpg'
   >
-  <section class="intro-mot bg-light"
-    style="background-image: url('https://static.manyautosltd.com/uploads/Final MOT status.png');">
-    <v-container>
-      <v-row>
-        <v-col cols="12" md="4">
-          <div class="search-area">
-            <header class="section-head">
-              <h1>Check a car's <strong>MOT status </strong>&amp; <strong>MOT history</strong></h1>
-              <h4></h4>
-              <p>Wondering when your MOT due date is? Keen to check the MOT history of a car you’re buying? We’ve got
-                you covered.</p>
-            </header>
-             <v-form class="myinput">
-            <v-text-field label="Enter your Car reg" outlined></v-text-field>
-            <div class="text-center button">
-              <v-btn class="subscribe-btn" color="primary" dark x-large block>
-                Check Mot & Details
-              </v-btn>
-            </div>
-          </v-form>
-          </div>
-        </v-col>
-      </v-row>
-    </v-container>
-  </section>
     <subscribe-popup></subscribe-popup>
     <request-quote-popup></request-quote-popup>
      <v-btn
@@ -147,14 +122,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.intro-mot {
-    background-position: 100% 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #dddee0!important;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 </style>
