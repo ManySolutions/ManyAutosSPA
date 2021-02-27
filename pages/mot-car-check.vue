@@ -21,7 +21,7 @@
             </v-text-field>
             <div class="text-center button">
               <v-btn class="subscribe-btn" 
-              color="primary" 
+              color="secondary" 
               dark 
               x-large 
               block
@@ -34,7 +34,7 @@
       </v-col>
       <v-col cols="12" md="8" class="image-section text-center my-auto d-none d-md-block">
         <img
-          src="https://static.manyautosltd.com/uploads/car-battery-it’s-working-components-and-how-can-it-be-recharge.png"
+          src="https://static.manyautosltd.com/uploads/Car battery & its working components.png"
           alt="MOT Desktop" class="center" />
       </v-col>
     </v-row>
@@ -176,13 +176,14 @@
     </v-container>
 </div> -->
 <!-- section 2 -->
-
- <div class="sectionthree mt-9 mb-10" style="background: #f1f1f1;">
+<section class="mot-section-three text-white"
+ style="background-image: url(https://static.manyautosltd.com/uploads/car-mechanic-wearing-white-uniform-stand-holding-wrench2.jpg)">
+ <div class="sectionthree mt-9 mb-10">
    <v-container>
      <v-row class="section-three mt-10">
        <v-col cols="12" md="6">
          <div>
-           <h2 class="heading-three pb-5">
+           <h2 class="heading-three text-white pb-5">
              <span style="font-weight:200;">Check MOT history and current</span> <strong>MOT status</strong>
              <span style="font-weight:200;">with ManyAutos.co.uk</span> <strong>free car check</strong>
            </h2>
@@ -212,7 +213,7 @@
          <div class="mot-sub-image">
            <img src="https://static.manyautosltd.com/uploads/mechainc-using-tablet-front-van.jpg" alt="MOT Check"
              class="center" />
-           <h3 class="sub-heading">
+           <h3 class="sub-heading" style="color:#fff">
              Revealing hidden vehicle history
            </h3>
          </div>
@@ -232,11 +233,13 @@
      </v-row>
    </v-container>
  </div>
+</section>
+
 
  <!-- last section -->
 
 
-  <v-container class="home-r-in">
+  <v-container class="home-r-in mb-5">
     <v-row justify="center">
       <v-col cols=12 >
         <h1 class="heading__title heading__title-bar text-center" style="font-weight:lighter">
@@ -394,13 +397,13 @@ components: {
          line-height: 2.9375rem;
          color: #464646;
     }
-    .section-three h2 {
+    
+}
+.section-three h2 {
          font-size: 2.15rem;
          line-height: 2.9375rem;
          color: #464646;
     }
-}
-
 .home-sec-gaps p {
     font-size: 17px;
     font-weight: 350;
@@ -437,6 +440,19 @@ components: {
 .section-two span {
     font-weight: 350;
     font-size: 17px;
+}
+
+.mot-section-three {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.sectionthree{
+  width: 100%;
+  height: 100%;
+  background-color:#005469e0
 }
 
 .mot-sub-image h3 {
