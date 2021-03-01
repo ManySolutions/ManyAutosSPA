@@ -153,8 +153,8 @@ export default {
     contacts: [
       { content: '01189 876300', url: 'tel:+441189876300', title: 'Phone', icon: 'mdi-cellphone-basic'},
       { 
-        content: 'team@manyautos.co.uk', 
-        url: 'mailto:team@manyautos.co.uk', 
+        content: 'info@manyautosltd.com', 
+        url: 'mailto:info@manyautosltd.com', 
         title: 'Email', 
         icon: 'mdi-email'
       }

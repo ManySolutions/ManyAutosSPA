@@ -1,40 +1,49 @@
 <template>
 <div class="home-sec-gaps">
 
-    <section class="intro-mot bg-light mb-10" style="margin-top:-40px">
-      <v-container>
-        <v-row>
-          <v-col cols="12" md="6" lg="4">
-            <v-card elevation="2">
-              <v-card-text>
-                <div class="search-area">
-                <header class="section-head">
-                  <h1 style="color: #464646; font-weight:600;">Check a car's <strong>MOT status </strong>&amp;
-                    <strong>MOT history</strong></h1>
-                  <p class="text-teal text-18 justify pb-5 pt-8">Wondering when your MOT due date is? Keen to check the
-                    MOT history of a car you’re buying? We’ve got
-                    you covered.</p>
-                </header>
-                <v-form class="myinput">
-                  <v-text-field label="Enter your Car reg" outlined></v-text-field>
-                  <div class="text-center button">
-                    <v-btn class="subscribe-btn" color="primary" dark x-large block>
-                      Check Mot & Details
-                    </v-btn>
-                  </div>
-                </v-form>
-              </div>
-              </v-card-text>
-            </v-card>
-          </v-col>
-        </v-row>
-      </v-container>
-    </section>
-
+<div class="first-section">
+  <v-container>
+    <v-row>
+      <v-col cols="12" md="4" class="mot-section pt-15 mb-12">
+        <div class=" d-inline-block">
+          <h1 class='mb-8 d-block  heading-title'>
+            <span style="font-weight:200;">Check a car's</span> <strong>MOT status</strong><span
+              style="font-weight:200;"> & </span> <strong>MOT history</strong>
+          </h1>
+          <p class="text-teal text-18 justify pb-8">
+            Curious about your MOT due date? Eager to know the MOT history of your next purchase? You took the
+            right decision by choosing us.
+          </p>
+          <v-form class="myinput">
+            <v-text-field label="Enter your Car reg" 
+            outlined
+            >
+            </v-text-field>
+            <div class="text-center button">
+              <v-btn class="subscribe-btn" 
+              color="secondary" 
+              dark 
+              x-large 
+              block
+              >
+                Check Mot & Details
+              </v-btn>
+            </div>
+          </v-form>
+        </div>
+      </v-col>
+      <v-col cols="12" md="8" class="image-section text-center my-auto d-none d-md-block">
+        <img
+          src="https://static.manyautosltd.com/uploads/Car battery & its working components.png"
+          alt="MOT Desktop" class="center" />
+      </v-col>
+    </v-row>
+  </v-container>
+</div>
 
 <!-- section 2 -->
 
-<div class="section-two mb-16">
+<!-- <div class="section-two mb-16">
     <v-container>
         <v-row>
             <v-col cols="12">
@@ -165,41 +174,38 @@
                 </v-col>
             </v-row>
     </v-container>
-</div>
+</div> -->
 <!-- section 2 -->
-
- <div class="sectionthree mb-10" style="background: #f1f1f1;">
+<section class="mot-section-three text-white"
+ style="background-image: url(https://static.manyautosltd.com/uploads/car-mechanic-wearing-white-uniform-stand-holding-wrench2.jpg)">
+ <div class="sectionthree mt-9 mb-10">
    <v-container>
      <v-row class="section-three mt-10">
        <v-col cols="12" md="6">
          <div>
-           <h2 class="heading-three pb-5">
+           <h2 class="heading-three text-white pb-5">
              <span style="font-weight:200;">Check MOT history and current</span> <strong>MOT status</strong>
              <span style="font-weight:200;">with ManyAutos.co.uk</span> <strong>free car check</strong>
            </h2>
            <p class="text-teal text-18 justify pb-5">
-             If you need to check if a car is taxed, the online DVLA tax check has got you covered – but where can you
-             turn for an MOT check? Or to check a vehicle’s MOT history?
+             At Manyautos, we share the pride in your ride. You only need to give the registration number and we will
+             provide you with all the relevant information regarding the vehicle you’ve searched for. We can tell what
+             you need to know. Do you want to know the expiry date of your Mot? Want to know why a vehicle failed the
+             MOT? No problem, we will answer all your queries.
            </p>
            <p class="text-teal text-18 justify pb-5">
-             At ManyAutos.co.uk we only need a registration number from you; then we’ll provide a huge amount of MOT
-             information relating to the vehicle you’ve searched for. Wondering when the MOT expires? No problem. Want
-             to
-             check why an MOT was refused? Again, no problem.
+             You can even check the date at which the MOT was performed, the mileage that was recorded at the time, and
+             also a list of defects or advisory that was issued.
            </p>
            <p class="text-teal text-18 justify pb-5">
-             In fact, you can even check the date of the MOT, the mileage that was recorded when the MOT was carried
-             out,
-             and a list of defects or advisory notices issued at the time.
+             It doesn’t matter if you have forgotten when your next MOT is due, or you would like to gather information
+             about a vehicle that you’re planning to buy; we will help you. You can use our handy reminder tool to set a
+             reminder when your MOT is next due.
            </p>
            <p class="text-teal text-18 justify pb-5">
-             Whether you’ve simply forgotten when your next MOT is due, or you’d like to verify the information you’ve
-             been given about a car you’re planning to buy; we can help.
-           </p>
-           <p class="text-teal text-18 justify pb-5">
-             Our MOT checking service could save you a lot of money too – even accidentally driving without an MOT could
-             lead a hefty fine or your car being impounded, and buying a vehicle with an unknown history could lead to a
-             string of expensive repairs. Avoid unnecessary costs and complications with our free online MOT check.
+             The advantage of an <strong>MOT checking service</strong> is that it saves a lot of your money. If you are caught driving
+             without an MOT you could be fined up to £1000. Buying a car without knowing its history could lead to
+             several expensive repairs. You can avoid all this hassle and complications with our online <strong>MOT check</strong>.
            </p>
          </div>
        </v-col>
@@ -207,26 +213,99 @@
          <div class="mot-sub-image">
            <img src="https://static.manyautosltd.com/uploads/mechainc-using-tablet-front-van.jpg" alt="MOT Check"
              class="center" />
-           <h3 class="sub-heading">
-             Uncovering any hidden vehicle history
+           <h3 class="sub-heading" style="color:#fff">
+             Revealing hidden vehicle history
            </h3>
          </div>
          <div>
-           <p class="text-teal text-18 justify pb-5">
-             An MOT check is a great way to check whether the information you’re being told about a vehicle adds up.
+           <p class="text-teal text-18 justify pt-2 pb-5">
+             An MOT check is a great way to check whether the information you’re being told about a vehicle is true or not.
            </p>
            <p class="text-teal text-18 justify pb-5">
-             For example; according to industry authorities, 1 in every 20 vehicles sold has a mileage discrepancy – an
-             odometer reading that doesn’t seem to match the car’s history. Without previous MOT certificates, this can
-             be difficult to prove – so a free MOT check will mean you can take a digital look back over every
-             certificate issued and check to make sure there’s been adjustments or errors made.
+             For instance; according to the industry authorities, 1 in every 20 vehicles that are sold has a mileage
+             discrepancy. There is an odometer reading which does not match with the car’s history. This thing would be
+             impossible to prove without an MOT certificate. So, a free MOT check gives you a chance to have a digital
+             look back at every certificate that was once issued and also check if there have been any errors or
+             adjustments made.
            </p>
          </div>
        </v-col>
      </v-row>
    </v-container>
  </div>
-  <index-faq></index-faq>
+</section>
+
+
+ <!-- last section -->
+
+
+  <v-container class="home-r-in mb-5">
+    <v-row justify="center">
+      <v-col cols=12 >
+        <h1 class="heading__title heading__title-bar text-center" style="font-weight:lighter">
+          <span class="font-weight-bold">FAQ</span>
+        </h1>
+      </v-col>
+      <v-col cols=12 class="faq-section">
+        <v-expansion-panels popout>
+          <v-expansion-panel  class="icon">
+            <v-expansion-panel-header class="card-header">
+              Do you do Class 7 MOTs?
+            </v-expansion-panel-header>
+            <v-expansion-panel-content eager class="card-header-body">
+              Sorry, we do not do class 7 MOTs at the moment. You can still use our reminder service free of charge to
+              be reminded when your MOT becomes due.
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel >
+            <v-expansion-panel-header class="card-header">
+              Can you collect a vehicle that has an expired MOT?
+            </v-expansion-panel-header>
+            <v-expansion-panel-content eager class="card-header-body">
+              Yes, our drivers can collect a vehicle that has an expired MOT. However, you will need to inform us if the
+              tax has also expired. Collection and delivery is always free of charge if the vehicle is drivable.
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel >
+            <v-expansion-panel-header class="card-header">
+              When does a car need an MOT?
+            </v-expansion-panel-header>
+            <v-expansion-panel-content eager class="card-header-body">
+              A vehicle needs an MOT when it reaches 3 years old. Then the MOT needs to happen every year.
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel >
+            <v-expansion-panel-header class="card-header">
+              Will the police be forgiving if I tell them I just forgot?
+            </v-expansion-panel-header>
+            <v-expansion-panel-content eager class="card-header-body">
+              Probably not, we do not think it is worth the risk in finding out!
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel >
+            <v-expansion-panel-header class="card-header">
+              What happens if I drive with an expired MOT?
+            </v-expansion-panel-header>
+            <v-expansion-panel-content eager class="card-header-body">
+              You can be charged up to £1000 fine.
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel >
+            <v-expansion-panel-header class="card-header">
+              What if I just don’t drive the car with a failed MOT?
+            </v-expansion-panel-header>
+            <v-expansion-panel-content eager class="card-header-body">
+              The law says you cannot even park a vehicle on public roads if it does not have a valid MOT. You can face
+              prosecution if you get caught.
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
+      </v-col>
+    </v-row>
+  </v-container>
+
+  <!-- last section -->
+  <!-- <index-faq></index-faq> -->
     </div>
 </template>
 
@@ -318,13 +397,13 @@ components: {
          line-height: 2.9375rem;
          color: #464646;
     }
-    .section-three h2 {
+    
+}
+.section-three h2 {
          font-size: 2.15rem;
          line-height: 2.9375rem;
          color: #464646;
     }
-}
-
 .home-sec-gaps p {
     font-size: 17px;
     font-weight: 350;
@@ -337,30 +416,17 @@ components: {
     .section-two .mot-check img {
     width: 20%;
 }
+}
 @media (min-width: 960px){
   .home-sec-gaps {
-    padding-top: 39px !important;
-    padding-bottom: 40px !important;
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
 }
 }
-
-
 @media (max-width: 960px){
-    .home-sec-gaps .intro-mot {
-   background-color: #ffffff!important;
-}
-.intro-mot .search-area{
+.home-sec-gaps .first-section .mot-section{
   max-width:480px; 
   margin:auto;
-}
-}
-@media (min-width: 960px){
-  .home-sec-gaps .intro-mot {
-  background-image: url('https://static.manyautosltd.com/uploads/Website Image.png');
-  background-position: 100% 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #ffffff!important;
 }
 }
 .section-two .mot-check-heading h2 {
@@ -376,6 +442,19 @@ components: {
     font-size: 17px;
 }
 
+.mot-section-three {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.sectionthree{
+  width: 100%;
+  height: 100%;
+  background-color:#005469e0
+}
+
 .mot-sub-image h3 {
     padding-bottom: 17px;
     padding-top: 8px;
@@ -383,5 +462,31 @@ components: {
     font-weight: 600;
     color: #464646;
 }
+.card-header{
+    background-color:#f6f6f6;
+    // color: #ffffff;
+    padding: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
 }
+.card-header-body{
+    // background-color: #f6f6f6;
+    padding-top: 16px;
+}
+.home-r-in .faq-section {
+  max-width: 650px;
+  margin: auto;
+}
+@media (min-width: 960px) {
+  .home-r-in {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heading__title {
+    margin-bottom: 30px;
+  }
+}
+
 </style>

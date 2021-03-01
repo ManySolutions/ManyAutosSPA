@@ -35,26 +35,26 @@
         </v-toolbar>
           <v-container>
               <v-row>
-                  <v-col cols="12" md="6" class='text-center letter-image pt-15'>
-                    <div class="for-mobile active d-none d-md-block"                     
+                  <v-col cols="12" md="6" class='text-center letter-image'>
+                    <div class="for-desktop active d-none d-md-block"                     
                     >
                      <img
                         src="https://static.manyautosltd.com/uploads/mot-desktop.png"
                         alt="MOT Desktop"
-                        class="center"                     
+                        class="center desktop"                     
                       />     
                     </div>
-                    <div class="for-desktop active d-flex d-md-none"
+                    <div class="for-mobile active d-flex d-md-none"
                       >
                       <img
-                        src="https://static.manyautosltd.com/uploads/mot-mobile.png"
+                        src="https://static.manyautosltd.com/uploads/mot-mobile2.png"
                         alt="MOT Mobile"
-                        class="center"             
+                        class="center mobile"             
                       />
                     </div>
                   </v-col>
               
-                  <v-col cols="12" md="6" class="subscribe-section text-center pt-15 mb-12"> 
+                  <v-col cols="12" md="6" class="subscribe-section text-center pt-5 mb-12"> 
                     <div class="text-center d-inline-block">
                       <h1 class='mb-12 d-block font-weight-bold heading-title text-center'>
                         Subscribe For
@@ -117,5 +117,9 @@
 
     margin-top: 120px;
 }
+}
+.for-mobile .mobile {
+  width: 45%;
+  margin: auto;
 }
 </style>
