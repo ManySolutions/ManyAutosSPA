@@ -1,5 +1,5 @@
 <template>
-  <div v-if='alert'>
+  <div>
     <v-alert 
       type='info' 
       color='info lighten-1' 
@@ -44,7 +44,9 @@
           </v-card-actions>
           
           <v-card-text>
-            <request-a-quote-form></request-a-quote-form>
+            <request-a-quote-form
+              @closeWindow='dialog = false'
+            ></request-a-quote-form>
           </v-card-text>
         </v-card>
         <!-- /card -->
@@ -71,7 +73,7 @@ export default {
     }
   },
   beforeMount() {
-    this.$store.commit('booking/TOGGLE_GET_QUOTE_ALERT', false);
+    this.$store.commit('booking/TOGGLE_GET_QUOTE_ALERT', true);
     this.alert = this.isGetQuoteAlert
   },
 

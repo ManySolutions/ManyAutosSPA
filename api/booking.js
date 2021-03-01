@@ -23,3 +23,11 @@ export async function serviceUpdate(orderId, serviceId, status, $http=null) {
     _method: 'PATCH'
   })).data;
 }
+
+export async function requestAQuote(data, $http=null) {
+  return (await ($http || http).post(`/request_a_quote`, data)).data;
+}
+
+export async function getQuoteInfo(key, signature, $http=null) {
+  return (await ($http || http).get(`/quote_request/${key}/create_booking?signature=${signature}`));
+}

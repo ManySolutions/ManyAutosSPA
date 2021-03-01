@@ -204,7 +204,7 @@ export default {
         this.$router.push('/my/referral');
       } else {
         this.$store.commit('settings/SET_REDIRECT', {
-          to: '/my/referral', referrer: 'register'
+          to: '/my/referral', referrer: 'login-and-register'
         });
         this.$router.push({ name: 'register'})
       }

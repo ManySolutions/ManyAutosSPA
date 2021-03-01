@@ -50,6 +50,10 @@ export const mutations = {
     state.referralId = null;
   },
 
+  REFRESH_CART(state, items) {
+    state.cart = items;
+  },
+
   SET_CART_LOADING(state, isLoading) {
     state.isCartLoading = isLoading
   },
