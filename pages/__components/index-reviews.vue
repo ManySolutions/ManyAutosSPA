@@ -46,6 +46,7 @@
                           :value="review.stars"
                           class='d-inline-block'
                           dense
+                          readonly
                         ></v-rating>
                       </h5>
                     </v-col>

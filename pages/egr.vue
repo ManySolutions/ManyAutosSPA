@@ -78,7 +78,7 @@
               <v-expansion-panel-content eager class="card-header-body">
                 ERG stands for Exhaust Gas Recirculation and it is a function performed within the combustion engine of
                 a car. The measure is sophisticated in the way it is carried out as exhaust gasses are recirculated back
-                into the inlet manifold to be used for combustion again. The reason that ERG takes place is to reduce
+                into the inlet manifold to be used for combustion again. The reason that EGR takes place is to reduce
                 the production of oxides of nitrogen which is harmful to breathe in and is damaging to the environment.
                 The impact of exhaust gas being recirculated is a drop-in engine performance and fuel economy. Diesel
                 cars are also subject to an increase in the production of soot and harmful particulates. However, new
@@ -94,7 +94,7 @@
             </v-expansion-panel>
             <v-expansion-panel  class="icon">
               <v-expansion-panel-header class="card-header">
-                ERG Valve Problems
+                EGR Valve Problems
               </v-expansion-panel-header>
               <v-expansion-panel-content eager class="card-header-body">
                 When there is a build-up of soot and particulate matter, the EGR valve can become stuck open or closed
@@ -159,7 +159,7 @@
             </v-expansion-panel>
             <v-expansion-panel >
               <v-expansion-panel-header class="card-header">
-                ERG Valve Replacement Free Collection and Delivery
+                EGR Valve Replacement Free Collection and Delivery
               </v-expansion-panel-header>
               <v-expansion-panel-content eager class="card-header-body">
                 <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to

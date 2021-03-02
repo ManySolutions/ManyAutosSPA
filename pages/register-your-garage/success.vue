@@ -9,9 +9,9 @@
             </div>
             <h1 class='mt-10 secondary--text'>Success!</h1> 
             <p class='my-7'>
-              Your garage has been registered successfully with us and acitve now.
+              Your garage has been registered successfully with us and active now.
               <br>
-              Click the button bellow to login to your garage panel and start earning from bookings
+              Click the button below to login to your garage panel and start earning from bookings
               from now onward.
             </p>
             <v-btn
@@ -21,7 +21,7 @@
               href='http://app.manyautosltd.com/admin'
             >
               <strong>
-                Login to your garage panel.
+                Login to your garage panel
               </strong>
             </v-btn>
           </v-card-text>

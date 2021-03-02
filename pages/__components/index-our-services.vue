@@ -14,12 +14,14 @@
     </v-row>
     <v-row justify="center">
       <v-col cols=12 lg=6 xl='4' order-lg=2 class="text-center">
-        <v-img 
+        <img src="https://static.manyautosltd.com/uploads/911.png"
+          alt="Our Services at ManyAutos LTD" class='pb-5 pt-4 img'>
+        <!-- <v-img 
           :src="assets('customer-v2/011.png')" 
           alt="Our Services at ManyAutos LTD"
           class='pb-5 pt-4 img'
         >
-        </v-img>
+        </v-img> -->
       </v-col>
 
       <v-col cols=12 lg=3 order-lg=1>
@@ -63,9 +65,7 @@
               We offer advance bookings for your MOT. MOT test include
               condition, roadworthiness, safety, and exhaust emissions of your car. 
               We have our
-              <NuxtLink text color='primary' to="/mot">
-                car repair and MOT centers
-              </NuxtLink>
+              <NuxtLink text color='primary' to="/mot">car repair and MOT centers</NuxtLink>
               with DVSA approved.
             </p>
           </div>

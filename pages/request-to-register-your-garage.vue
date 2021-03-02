@@ -91,7 +91,7 @@
               /></span>
               <v-icon class="logos" style="color: #00b4d8"
                 >mdi-timer-sand</v-icon
-              ><span class="icon">
+              ><span class="icon ml-2">
                 Payment is made 10 working days after job completion.<br
               /></span>
               <v-icon class="logos" style="color: #00b4d8"

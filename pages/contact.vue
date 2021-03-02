@@ -1,5 +1,7 @@
 <template>
-  <page-layout title="Contact Us">
+  <page-layout title="Contact Us"
+  headingBgStatic='https://static.manyautosltd.com/uploads/contact-us.jpg'
+  >
     <v-container>
       <v-row justify="center">
         <v-col cols="12" md="8" lg="6">

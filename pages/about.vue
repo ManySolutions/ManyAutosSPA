@@ -1,10 +1,10 @@
 <template>
   <page-layout
     title='About Us'
-    heading-bg='customer-v2/static-pages/allpics/about1.jpg'
+    headingBgStatic='https://static.manyautosltd.com/uploads/96.jpg'
   >
     <div class="container" style="padding-top: 70px;">
-      <p> <strong>Many Autos</strong> is a car repair and maintenance company which came into existence in 2001. We
+      <p><strong>Many Autos</strong> is a car repair and maintenance company which came into existence in 2001. We
         wanted to change the perspective of customers towards car maintenance.</p>
       <p>We have extremely skilled 50+ employees, who work in different departments of our company. Each department
         has its own experienced employees who work for the betterment of the company. </p>

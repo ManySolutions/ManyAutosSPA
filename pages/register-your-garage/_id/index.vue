@@ -8,7 +8,7 @@
         <v-row class="justify-content-center">
           <v-col cols="12" md="6">
             <v-form @submit.prevent="handleSubmit()">
-              <v-card class="mx-auto mt-5" max-width="344">
+              <v-card class="mx-auto mt-5" max-width="480">
                 <v-card-text>
                   <h3
                     class="register-title text-center pt-5 mb-10"

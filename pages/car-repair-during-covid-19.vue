@@ -137,8 +137,6 @@
     </section>
 
 
-
-
     <v-container
       class="covid-page"
       style="padding-top: 120px;"
@@ -156,12 +154,12 @@
           >
             <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-right">
               <img
-                src="https://static.manyautosltd.com/uploads/covid-road.jpg"
+                src="https://static.manyautosltd.com/uploads/covid-road_626x417.jpg"
                 alt="car repair services installments during covid 19"
                 class="image-one pl-md-8"
               />
             </v-col>
-            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-1 text-left">
+            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-1 text-md-left">
               <h2 class="green2 text-h3 mb-7">
                 Helping You To Get Back On The Road
               </h2>
@@ -189,7 +187,7 @@
                 class="image-two pr-md-8"
               />
             </v-col>
-            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-2 order-md-2 text-left">
+            <v-col cols=12 md=6 lg=5 class="margin-top-5-per sec-2 order-md-2 text-md-left">
               <h2 class="green2 text-h3 mb-7">We Are Open And Unaffected by COVID-19 </h2>
               <p class="text-sec mt-4">
                 Our garages are open and providing the services to maintain your
@@ -392,7 +390,9 @@
     <!-- /section 2 -->
 
     <v-container>
-      <v-row 
+    <v-row>
+      <v-col cols="12">
+          <v-row 
         class="row align-items-center text-center booking home-sec-gaps pb-0 mt-5"
         justify='center'
       >
@@ -414,13 +414,16 @@
           </p>
         </v-col>
       </v-row>
-      <v-row 
-        class="row align-items-center text-center booking "
+      </v-col>
+    <v-col cols="12">
+        <v-row 
+        class="row align-items-center text-center booking"
         justify='center'
+        style="padding-top:110px;"
       >
         <v-col cols=12 md=6 xl=4 class="margin-top-25 order-md-2 text-md-right">
           <img
-            src="https://static.manyautosltd.com/uploads/online-payment.jpg"
+            src="https://static.manyautosltd.com/uploads/online-payment_626x417.jpg"
             alt="car repair services installments during covid 19"
             class="image-one pl-md-8"
           />
@@ -437,6 +440,8 @@
           </p>
         </v-col>
       </v-row>
+    </v-col>
+    </v-row>
     </v-container>
     <!-- <section class="about-section style-3 bg-about padding-tb home-sec-gaps">
       <v-container>

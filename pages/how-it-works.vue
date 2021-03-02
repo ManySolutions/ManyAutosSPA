@@ -14,10 +14,10 @@
         <div class="col-12">
           <div class="row align-items-center pb-4 text-md-right text-center booking">
             <div class="col-md-6 margin-top-25 order-md-2 text-left">
-              <img :src="assets('customer-v2/static-pages/booking.png')" alt="You Do The Booking">
+              <img src="https://static.manyautosltd.com/uploads/booking1.png" alt="You Do The Booking">
 
             </div>
-            <div class="col-md-6 margin-top-5-per" style="margin-top:-35px;">
+            <div class="col-md-6 margin-top-5-per">
               <h2 class="green2">You Do The Booking</h2>
               <p class="text-teal text-22">It couldn't be easier to get started. Simply pick up the phone or book
                 online. Enter your vehicle registration, postcode and follow the simple steps to tell us what service
@@ -33,7 +33,7 @@
               <img :src="assets('customer-v2/static-pages/collection.jpg')" alt="We Do The Collection">
 
             </div>
-            <div class="col-md-6 margin-top-5-per" style="margin-top:-35px;">
+            <div class="col-md-6 margin-top-5-per text-md-left">
               <h2 class="green2">We Do The Collection</h2>
               <p class="text-teal text-22">
                 Take advantage of our free collection & delivery service from
@@ -48,10 +48,10 @@
         <div class="col-12">
           <div class="row align-items-center pb-4 text-md-right text-center booking">
             <div class="col-md-6 order-md-2">
-              <img style="display:block;" :src="assets('customer-v2/static-pages/service.jpg')" alt="We Do The Service">
+              <img :src="assets('customer-v2/static-pages/service.jpg')" alt="We Do The Service">
 
             </div>
-            <div class="col-md-6 margin-top-5-per" style="margin-top:-35px;">
+            <div class="col-md-6 margin-top-5-per">
               <h2 class="green2">We Do The Service</h2>
               <p class="text-teal text-22">Sit back, relax and we will do the work. We will keep you informed every step
                 of the way. If any additional work is required, one of our advisors will always seek authorisation from
@@ -67,7 +67,7 @@
               <img :src="assets('customer-v2/static-pages/delivery.jpg')" alt="We Do The Delivery">
 
             </div>
-            <div class="col-md-6 margin-top-10-per" style="margin-top: -35px;">
+            <div class="col-md-6 margin-top-10-per text-md-left">
               <h2 class="green2">We Do The Delivery</h2>
               <p class="text-teal text-22">Have your vehicle delivered to your home or work address free of charge, with
                 the service book stamped and including a 12 month warranty.</p>

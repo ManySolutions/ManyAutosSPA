@@ -1,11 +1,16 @@
 <template>
   <v-container class="booking-section">
     <v-row>
-      <v-col cols="12" md="6" class="text letter-image position-relative">
+      <!-- <v-col cols="12" md="6" class="text letter-image position-relative text-md-left">
         <v-img
-          src="https://static.manyautosltd.com/uploads/online-ticket-booking.png"
+          src="https://static.manyautosltd.com/uploads/online-ticket-booking_626x417.png"
         ></v-img>
+      </v-col> -->
+      <v-col cols="12" md="6" class="text-center ">
+        <img src="https://static.manyautosltd.com/uploads/online-ticket-booking_626x417.png"
+          alt="online-ticket-booking">
       </v-col>
+
       <v-col cols="12" md="6" align-self="center">
         <div class="text-center">
           <h1 class="heading__title mb-4 text-center" style="font-weight:lighter">
@@ -24,9 +29,7 @@
             <NuxtLink
               to="/service-booking"
               style='color: inherit'
-            >
-              book online vehicle repair service
-            </NuxtLink> 
+            >book online vehicle repair service</NuxtLink> 
             system, which is not offered by many
             online repairs center in the UK.
             Just enter your car’s registration number, select from the available
@@ -74,11 +77,11 @@ p {
   }
 }
 
-@media (min-width: 568px) and (max-width: 962px) {
-  .heading__title {
-    margin-top: -35px;
-  }
-}
+// @media (min-width: 568px) and (max-width: 962px) {
+//   .heading__title {
+//     margin-top: -35px;
+//   }
+// }
 
 @media (min-width: 1260px) {
   .booking-section img {

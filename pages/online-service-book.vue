@@ -22,10 +22,7 @@
               providing you with the best service which includes making sure we update your records once we have carried
               out the work on the vehicle.</p>
           </div>
-        </div>
-      </div>
-    </div>
-    <v-expansion-panels popout>
+      <v-expansion-panels popout>
       <v-expansion-panel  class="icon">
         <v-expansion-panel-header class="card-header">
           Why is this so important?
@@ -58,8 +55,13 @@
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>
-    <h4 class="text-center mt-10" style="font-size: 1.2rem;">For more help or advice please call us on <strong>01189876300</strong> to
+        <h4 class="text-center mt-10" style="font-size: 1.2rem;">For more help or advice please call us on <strong>01189876300</strong> to
       speak to one of our friendly team member.</h4>
+        </div>
+      </div>
+    </div>
+
+
   </page-layout>
 </template>
 

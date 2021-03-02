@@ -1,12 +1,18 @@
 <template>
   <v-container class="pickup-section">
     <v-row>
-      <v-col cols="12" md="6" order-md="2" class='letter-image'>
+      <!-- <v-col cols="12" md="6" order-md="2" class='letter-image'>
         <v-img 
           src="https://static.manyautosltd.com/uploads/pickup-2.jpg" 
           alt="" 
         />
+      </v-col> -->
+
+       <v-col cols="12" md="6" order-md="2" class="text-center">
+        <img src="https://static.manyautosltd.com/uploads/pickup-2_626x417.jpg"
+          alt="pickup and delivery">
       </v-col>
+
       <v-col cols="12" md="6" order-md="1" class='text-center' align-self="center">
         <h1 class='heading__title mb-10 text-center' style="font-weight:lighter">
           <span class=''> Pickup and Delivery </span>

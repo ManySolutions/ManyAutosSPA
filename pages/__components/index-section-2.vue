@@ -13,9 +13,7 @@
           Our motto is to provide our clients with absolutely
           the best 
           <NuxtLink to="/car-service" class='text-white'
-          >
-            vehicle maintenance services
-          </NuxtLink>.
+          >vehicle maintenance services</NuxtLink>.
           You will receive the same honest and satisfactory treatment and services whenever you visit our garage.
           We provide maintenance service in all categories of vehicles.
         <div class='pt-10 text-center'>

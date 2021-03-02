@@ -251,11 +251,11 @@
       <v-expansion-panel-content eager class="card-header-body">
         <div class="col-12 check-point-table">
           <div class="row padding-top-5">
-            <div class=" text-center" style="margin-left:15px;"><span
+            <div class="col-2 col-md-1 text-center interim1" ><span
                 class="h5-service-heading text-blue">Interim</span></div>
-            <div class=" text-center" style="margin-left:12px;"><span class="h5-service-heading text-blue">Full</span>
+            <div class="col-2 col-md-1 text-center full1" ><span class="h5-service-heading text-blue">Full</span>
             </div>
-            <div class=" text-center" style="margin-left:5px;"><span class="h5-service-heading text-blue">Vehicle on ground checks</span></div>
+            <div class="col-5 col-md-6 text-left ground1" ><span class="h5-service-heading text-blue">Vehicle on ground checks</span></div>
           </div>
           <hr>
           <div class="row check-point-data">
@@ -1408,13 +1408,19 @@ export default {
     font-size: 16px;
     line-height: normal;
 }
-.card-header-body{
-    background-color: #fff;
-    padding-top: 16px;
-}
-.v-expansion-panel-content__wrap {
-    padding: 0px;
-    flex: 1 1 auto;
-    max-width: 100%;
-}
+    .card-header-body{
+        background-color: #fff;
+        padding-top: 16px;
+    }
+    .v-expansion-panel-content__wrap {
+        padding: 0px;
+        flex: 1 1 auto;
+        max-width: 100%;
+    }
+
+    @media (max-width:768px){
+      .landing-page-container .full1 {
+        margin-left: 24px;
+      }
+    }
 </style>
