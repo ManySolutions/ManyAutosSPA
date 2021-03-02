@@ -158,7 +158,7 @@ export default {
       { text: 'Service Name', value: 'name', sortable: false },
       { text: 'Service Price', value: 'price', sortable: false },
       { text: 'Labour Cost', value: 'labour_cost', sortable: false },
-      { text: 'Total Cost (inc Yax)', value: 'total_cost', sortable: false },
+      { text: 'Total Cost (+VAT)', value: 'total_cost', sortable: false },
     ],
 
     booking: null,
