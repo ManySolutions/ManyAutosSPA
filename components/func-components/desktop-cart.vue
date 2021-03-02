@@ -71,13 +71,13 @@
               v-if='!isCartLoading'
             >
               <v-row>
-                <v-col class='pb-0'>
-                  Total Cost
+                <v-col class=''>
+                  Subtotal Cost
                 </v-col>
-                <v-col class='text-right pb-0'>
+                <v-col class='text-right '>
                   <span class='font-weight-700'>
                     {{ currencySymbol }}
-                    {{ cartTotal }}
+                    {{ cartSubTotal }}
                   </span>
                 </v-col>
               </v-row>
@@ -93,13 +93,13 @@
                 </v-col>
               </v-row>
               <v-row>
-                <v-col class=''>
-                  Subtotal Cost
+                <v-col class='pb-0'>
+                  Total Cost
                 </v-col>
-                <v-col class='text-right '>
+                <v-col class='text-right pb-0'>
                   <span class='font-weight-700'>
                     {{ currencySymbol }}
-                    {{ cartSubTotal }}
+                    {{ cartTotal }}
                   </span>
                 </v-col>
               </v-row>
