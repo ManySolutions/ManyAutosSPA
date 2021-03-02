@@ -73,7 +73,7 @@ export default {
     }
   },
   beforeMount() {
-    this.$store.commit('booking/TOGGLE_GET_QUOTE_ALERT', true);
+    // this.$store.commit('booking/TOGGLE_GET_QUOTE_ALERT', true);
     this.alert = this.isGetQuoteAlert
   },
 
