@@ -12,7 +12,16 @@
           :loading='isLoading'
           class="elevation-1"
         >
-          <template #item.actions='{ item }'>
+        <template #item.services="{ item }">
+            <v-chip
+              :color="getColor(item.services)"
+               dark
+            >
+               AC 
+            </v-chip>
+             {{ item.services }}
+        </template>
+          <template #item.actions='{ item }' >             
             <div :class="!item.has_payment_assist ? 'd-table' : 'py-2'">
               <div :class="!item.has_payment_assist ? 'd-table-cell' : 'pb-2'" v-if='item.is_payable'>
                 <index-payment-buttons
@@ -22,7 +31,8 @@
                   :has-payment-assist="item.has_payment_assist"
                 ></index-payment-buttons>
               </div>
-              <v-badge
+                  
+              <v-badge 
                 :content='item.requests_count'
                 :value='item.requests_count'
                 color='error'
@@ -87,6 +97,10 @@ export default {
         this.bookings = res;
       }).finally(() => this.isLoading = false);
     },
+    getColor (services) {
+      if (status === 'in progress') return 'blue'
+        else return 'green'
+      },
   },
 
   head: {

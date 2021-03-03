@@ -195,9 +195,9 @@ export default {
         disabled: false,
         debug: true,
     },
-],
 
-facebook: {
+
+    facebook: {
         /* module options */
         track: 'PageView',
         pixelId: '241591920870712',
