@@ -195,6 +195,16 @@ export default {
         disabled: false,
         debug: true,
     },
+],
+
+facebook: {
+        /* module options */
+        track: 'PageView',
+        pixelId: '241591920870712',
+        autoPageView: true,
+        disabled: false,
+        debug: true,
+    },
 
 
     env: {
@@ -202,7 +212,7 @@ export default {
         CURRENCY_SYMBOL: '£',
         CURRENCY_CODE: 'GBP',
         APP_URL: 'http://localhost:3030',
-        API_URL: 'https://staging-v32020.manyautos.co.uk/api/v2/c/',
+        API_URL: 'http://staging-v32020.manyautos.co.uk/api/v2/c/',
         ASSETS_URL: 'https://app.manyautosltd.com/assets/',
         RECAPTCHA_SITE_KEY: '6LdIdBcaAAAAAGoHmtHlYIa7vSFbJ4Ja0_gQCBlX',
         FBQ_TEST_CODE: 'TEST27350',
