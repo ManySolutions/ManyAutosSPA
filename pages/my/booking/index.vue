@@ -14,10 +14,11 @@
         >
         <template #item.services="{ item }">
             <v-chip
-              :color="getColor(item.services)"
+              :color="getColor(item.status)"
                dark
+               small
             >
-               AC 
+               {{ item.status }} 
             </v-chip>
              {{ item.services }}
         </template>
@@ -97,9 +98,17 @@ export default {
         this.bookings = res;
       }).finally(() => this.isLoading = false);
     },
-    getColor (services) {
-      if (status === 'in progress') return 'blue'
-        else return 'green'
+    getColor (status) {
+      if (status === 'in progress') 
+        return 'primary'
+      else if (status === 'waiting for payment')
+        return 'yellow darken-2'
+      else if (status === 'waiting for delivery')
+        return 'orange'
+        else if (status === 'completed')
+        return 'success'
+      else 
+        return 'dark'
       },
   },
 
