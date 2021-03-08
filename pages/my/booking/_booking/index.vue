@@ -31,6 +31,13 @@
           Booking 
           <span class='font-weight-700'>#{{ bookingId }}</span> 
           Details
+          <v-chip
+              :color="getColor(booking.info.status)"
+               dark
+               small
+            >
+               {{ booking.info.status }} 
+            </v-chip>
         </span>
       </v-card-title>
       <v-spacer></v-spacer>
@@ -211,7 +218,19 @@ export default {
         })
         .catch(err => toastr.error('Error while fetching records: '+ err ))
         .finally(() => this.isLoading = false)
-    }
+    },
+      getColor (status) {
+        if (status === 'in progress') 
+          return 'primary'
+        else if (status === 'waiting for payment')
+          return 'yellow darken-2'
+        else if (status === 'waiting for delivery')
+          return 'orange'
+          else if (status === 'completed')
+          return 'success'
+        else 
+          return 'dark'
+      },
   },
 
   head: {
