@@ -72,7 +72,7 @@ export default {
         .catch(err => {
           const {errors, message} = err.response.data;
 
-          if (err.response.status > 400) {
+          if (err.response.status > 400 && errors) {
             this.resStatus = 'error'
             this.resMsg = message;
             this.errors = errors
