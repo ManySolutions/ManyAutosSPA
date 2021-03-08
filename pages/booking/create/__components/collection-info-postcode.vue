@@ -11,6 +11,9 @@
     >
     </v-text-field>
 
+    <v-alert v-if='notFoundMsg' type='info' dense text>
+      {{ notFoundMsg }}
+    </v-alert>
     <p v-if='postcode'>
       Showing result for: 
       <strong>
@@ -57,6 +60,7 @@ export default {
     postcode: null,
     lat: null,
     lng: null,
+    notFoundMsg: null,
   }),
 
   computed: {
@@ -71,6 +75,7 @@ export default {
       this.lat = null
       this.lng = null
       this.model = null;
+      this.notFoundMsg = null;
 
       clearTimeout(this.ticker);
 
@@ -80,6 +85,11 @@ export default {
         // Lazily load input items
         getAddress(this.search)
           .then(res => {
+            if (typeof(res.status) != 'undefined' && res.status == false) {
+              this.notFoundMsg = res.msg;
+              return;
+            }
+
             this.entries = res.addresses;
             this.postcode = res.postcode;
             this.lat = res.latitude;

@@ -98,7 +98,7 @@
             >
               <v-row>
                 <v-col class='pb-0'>
-                  Total Cost
+                  SubTotal Cost
                 </v-col>
                 <v-col class='text-right pb-0'>
                   <span class='font-weight-700'>
@@ -120,7 +120,7 @@
               </v-row>
               <v-row>
                 <v-col class=''>
-                  Subtotal Cost
+                  Total Cost
                 </v-col>
                 <v-col class='text-right '>
                   <span class='font-weight-700'>
@@ -188,17 +188,18 @@ export default {
     },
 
     cartTaxes() {
-      return parseFloat(
-        this.cartContent.cart_subtotal - this.cartContent.cart_total
-      ).toFixed(2) || 0.00;
+      const {cart_subtotal, cart_total} = this.cartContent;
+      const calc = this.cartContent.cart_subtotal - this.cartContent.cart_total;
+
+      return  !Number.isNaN(calc) ? parseFloat(calc).toFixed(2) : '0.00';
     },
 
     cartTotal() {
-      return this.cartContent.cart_total || 0.00;
+      return this.cartContent.cart_total || '0.00';
     },
 
     cartSubTotal() {
-      return this.cartContent.cart_subtotal || 0.00;
+      return this.cartContent.cart_subtotal || '0.00';
     },
   },
 
