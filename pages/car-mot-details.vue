@@ -8,7 +8,7 @@
         <v-container fluid>
           <v-row>
             <v-col cols="12" class="text-left">
-              <v-breadcrumbs :items="items" active-class>
+              <v-breadcrumbs :items="items" active-class class="pt-0">
                 <template v-slot:divider>
                   <v-icon color="white">mdi-chevron-right</v-icon>
                 </template>

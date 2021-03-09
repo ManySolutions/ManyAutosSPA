@@ -1,27 +1,15 @@
 <template>
-  <div class="page static-page home-sec-gaps pt-0" :class='cls'>
-    
+  <div class="page static-page home-sec-gaps pt-0" :class='cls'>  
     <div class="static-page-heading" style=''>
       <template v-if='headingBg || headingBgStatic'>
         <div 
           class="bg-heading-overlay" 
           :style='`background-image: url("${headingBgStatic || assets(headingBg)}");`'
         > 
-        
           </div>
         <img :src="headingBgStatic" :alt="title" class='d-none'>
       </template>
-      <!-- <v-container fluid>
-          <v-row>
-            <v-col cols="12" class="text-left">
-              <v-breadcrumbs :items="items">
-                <template v-slot:divider>
-                  <v-icon color="white">mdi-chevron-right</v-icon>
-                </template>
-              </v-breadcrumbs>
-            </v-col>
-          </v-row>
-        </v-container> -->
+      
       <h1>{{ subTitle || title }}</h1>
       <div class="slantdiv"></div>
   
