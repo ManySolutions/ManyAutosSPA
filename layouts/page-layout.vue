@@ -29,19 +29,6 @@
       </template>
     </div>
 
-        <!-- <v-container class="bread text-center mt-15">
-          <v-row>
-            <v-breadcrumbs 
-            :items="items" 
-            large
-            >
-              <template v-slot:divider>
-                <v-icon>mdi-chevron-right</v-icon>
-              </template>
-            </v-breadcrumbs>
-          </v-row>
-        </v-container> -->
-
     <slot></slot>
 
     <client-only v-if='hasShareButton'>
