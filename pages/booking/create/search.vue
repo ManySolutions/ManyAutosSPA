@@ -7,11 +7,8 @@
       <span class='font-weight-light'>
         Choose
       </span>
-        MOT
-      <span class='font-weight-light text-lowercase'>or</span>
-      Servicing
+      {{ results.tag }}
       <span class='font-weight-light'>For Your</span>
-      <br>
       <span class='text-primary'>
         {{ vehicleName }}
       </span>
@@ -83,6 +80,7 @@ export default {
       type: null,
       results: [],
       message: null,
+      tag: null,
     },
   }),
 
@@ -143,6 +141,7 @@ export default {
   watch: {
     $route(route) {
       this.keyword = route.query.keyword;
+      this.breadcrumbs[this.breadcrumbs.length - 1].text = this.keyword;
 
       this.fetch();
     }

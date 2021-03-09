@@ -1,79 +1,81 @@
 <template>
-  <v-container 
-    fluid
-    class='py-0'
-  >
-    <v-row
-      class=''
+  <v-sheet color='#33434a'>
+    <v-container 
+      fluid
+      class='py-0'
     >
-      <v-col 
-        cols=6
-        sm=9
-        align-self="center"
+      <v-row
+        class=''
       >
-        <v-btn
-          text
-          color='primary'
-          class='text-capitalize mr-3'
-          :to="isAuth ? '/my/referral' : '/refer-a-friend'"
-          elevation="0"
+        <v-col 
+          cols=6
+          sm=9
+          align-self="center"
         >
-          <v-icon
-            dark
-            class='mr-2'
-            color='primary darken-1'
+          <v-btn
+            text
+            color='primary'
+            class='text-capitalize mr-3'
+            :to="isAuth ? '/my/referral' : '/refer-a-friend'"
+            elevation="0"
           >
-            mdi-account-cash-outline
-          </v-icon>
-          <span class="text-small font-weight-600">
-            {{ isAuth ? 'Refer & Earn £10 Now' : 'Refer a Friend & Earn £10' }} 
-          </span>
-        </v-btn>
-        <v-btn
-          text 
-          color='primary'
-          class='text-capitalize d-none d-md-inline-flex'
-          to="/car-repair-during-covid-19"
-          elevation="0"
+            <v-icon
+              dark
+              class='mr-2'
+              color='white'
+            >
+              mdi-account-cash-outline
+            </v-icon>
+            <span class="text-small font-weight-600">
+              {{ isAuth ? 'Refer & Earn £10 Now' : 'Refer a Friend & Earn £10' }} 
+            </span>
+          </v-btn>
+          <v-btn
+            text 
+            color='primary'
+            class='text-capitalize d-none d-md-inline-flex'
+            to="/car-repair-during-covid-19"
+            elevation="0"
+          >
+            <v-icon
+              dark
+              class='mr-2'
+              color='white'
+            >
+              mdi-virus-outline
+            </v-icon>
+            <span class="text-small font-weight-600">
+              {{ 'Covid19 Installment Plan' }} 
+            </span>
+          </v-btn>
+        </v-col>
+        <v-col
+          cols=6
+          sm=3
+          class='text-right top-social'
         >
-          <v-icon
-            dark
-            class='mr-2'
-            color='primary darken-1'
+          <v-btn
+            text 
+            color='teal'
+            class='px-0'
+            href='tel:01189876300'
           >
-            mdi-virus-outline
-          </v-icon>
-          <span class="text-small font-weight-600">
-            {{ 'Covid19 Installment Plan' }} 
-          </span>
-        </v-btn>
-      </v-col>
-      <v-col
-        cols=6
-        sm=3
-        class='text-right top-social'
-      >
-        <v-btn
-          text 
-          color='teal'
-          class='px-0'
-          href='tel:01189876300'
-        >
-          <v-icon 
-            dark
-            class='mr-sm-2'
-            color='teal darken-1'
-          >
-            mdi-phone-classic
-          </v-icon>
-          <span class="text-large d-none d-sm-inline-block">
-            01189 876300
-          </span>
-        </v-btn>
-      </v-col>
-    </v-row>
-    <!-- /navbar top -->
-  </v-container>
+            <v-icon 
+              dark
+              class='mr-sm-2'
+              color='white'
+            >
+              mdi-phone-classic
+            </v-icon>
+            <span class="text-large d-none d-sm-inline-block">
+              01189 876300
+            </span>
+          </v-btn>
+        </v-col>
+      </v-row>
+      <!-- /navbar top -->
+    </v-container>
+  </v-sheet>
 </template>
 
 <script>

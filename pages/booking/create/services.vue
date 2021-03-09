@@ -3,7 +3,7 @@
     :style='`background-image: url(${assets("frontend/bg-overlay.png")})`'
   >
     <v-container
-      class='home-sec-gaps container-1400 pt-15'
+      class='home-sec-gaps container-1400 pt-10'
     >
       <v-row>
         <v-col>
@@ -105,6 +105,9 @@ export default {
   background-attachment: fixed;
 }
 .lsh {
-  font-size: 35px;
-} 
+  font-size: 28px;
+  @media (min-width:992px) {
+    font-size: 35px;
+  }
+}
 </style>

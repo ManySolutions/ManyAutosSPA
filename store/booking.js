@@ -133,7 +133,7 @@ export const actions = {
   getSearchKeywords({ commit, state }) {
     if (!state.modelId) return;
 
-    if (state.searchKeywords.length) return;
+    // if (state.searchKeywords.length) return;
 
     getSearchKeywords(state.modelId).then(res => {
       commit('SET_SEARCH_KEYWORDS', res);

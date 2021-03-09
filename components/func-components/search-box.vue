@@ -13,7 +13,25 @@
       @input="handleInput"
       hide-details
       background-color="white"
-    ></v-autocomplete>
+      item-text="text"
+      item-value='text'
+    >
+      <template v-slot:item="{ item }">
+        <v-list-item-content>
+          <v-list-item-title>
+            {{ item.text }}
+            <v-chip
+              :color="item.color || `primary`"
+              label
+              v-text="item.tag"
+              dark
+              small
+              class='px-2'
+            ></v-chip>
+          </v-list-item-title>
+        </v-list-item-content>
+      </template>
+    </v-autocomplete>
   </v-form>
 </template>
 

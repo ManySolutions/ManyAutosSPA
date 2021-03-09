@@ -74,7 +74,7 @@
             <navbar-user-menu desktop-view></navbar-user-menu>
             <v-btn
               :color='colorSecond'
-              class=' ml-2'
+              class='gqbtn ml-2'
               elevation="3"
               id='scrollToRegForm'
               :to='$route.name != "index" ? "/service-booking" : "" '
@@ -138,6 +138,11 @@ span.top-text-bottom {
 .navbar-top-container {
   @media (min-width: 1264px) and (max-width: 1904px) {
     max-width: 1585px;
+  }
+}
+.gqbtn {
+  @media (max-width: 1344px) {
+    display: none;
   }
 }
 </style>
