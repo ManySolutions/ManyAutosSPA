@@ -10,10 +10,11 @@
         <v-btn
           color="primary"
           dark
+          large
           v-bind="attrs"
           v-on="on"
         >
-          MOT Alerts
+          MOT Alerts!
         </v-btn>
       </template>
       <v-card>

@@ -1,16 +1,30 @@
 <template>
   <div class="page static-page home-sec-gaps pt-0" :class='cls'>
+    
     <div class="static-page-heading" style=''>
       <template v-if='headingBg || headingBgStatic'>
         <div 
           class="bg-heading-overlay" 
           :style='`background-image: url("${headingBgStatic || assets(headingBg)}");`'
-        ></div>
+        > 
+        
+          </div>
         <img :src="headingBgStatic" :alt="title" class='d-none'>
       </template>
+      <!-- <v-container fluid>
+          <v-row>
+            <v-col cols="12" class="text-left">
+              <v-breadcrumbs :items="items">
+                <template v-slot:divider>
+                  <v-icon color="white">mdi-chevron-right</v-icon>
+                </template>
+              </v-breadcrumbs>
+            </v-col>
+          </v-row>
+        </v-container> -->
       <h1>{{ subTitle || title }}</h1>
       <div class="slantdiv"></div>
-
+  
       <template v-if='hasQuoteButton'>
         <div class="heading-button-container">
           <v-btn
@@ -27,11 +41,25 @@
       </template>
     </div>
 
+        <!-- <v-container class="bread text-center mt-15">
+          <v-row>
+            <v-breadcrumbs 
+            :items="items" 
+            large
+            >
+              <template v-slot:divider>
+                <v-icon>mdi-chevron-right</v-icon>
+              </template>
+            </v-breadcrumbs>
+          </v-row>
+        </v-container> -->
+
     <slot></slot>
 
     <client-only v-if='hasShareButton'>
       <blog-social-links></blog-social-links>
     </client-only>
+    
   </div>
 </template>
 
@@ -39,6 +67,27 @@
 import blogSocialLinks from "~/components/func-components/blog-social-links.vue"
 
 export default {
+  
+   data: () => ({
+      items: [
+        {
+          text: 'Home',
+          disabled: false,
+          to: '/',
+        },
+        {
+          text: 'MOT Check',
+          disabled: false,
+          to: {name: 'mot-car-check'},
+        },
+        {
+          text: 'FORD Details',
+          disabled: true,
+          to: {name: 'car-mot-details'},
+        },
+      ],
+    }),
+
   components: { blogSocialLinks },
   props: {
     headingBg: String,
