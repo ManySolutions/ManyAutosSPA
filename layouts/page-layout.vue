@@ -1,16 +1,18 @@
 <template>
-  <div class="page static-page home-sec-gaps pt-0" :class='cls'>
+  <div class="page static-page home-sec-gaps pt-0" :class='cls'>  
     <div class="static-page-heading" style=''>
       <template v-if='headingBg || headingBgStatic'>
         <div 
           class="bg-heading-overlay" 
           :style='`background-image: url("${headingBgStatic || assets(headingBg)}");`'
-        ></div>
+        > 
+          </div>
         <img :src="headingBgStatic" :alt="title" class='d-none'>
       </template>
+      
       <h1>{{ subTitle || title }}</h1>
       <div class="slantdiv"></div>
-
+  
       <template v-if='hasQuoteButton'>
         <div class="heading-button-container">
           <v-btn
@@ -32,6 +34,7 @@
     <client-only v-if='hasShareButton'>
       <blog-social-links></blog-social-links>
     </client-only>
+    
   </div>
 </template>
 
@@ -39,6 +42,27 @@
 import blogSocialLinks from "~/components/func-components/blog-social-links.vue"
 
 export default {
+  
+   data: () => ({
+      items: [
+        {
+          text: 'Home',
+          disabled: false,
+          to: '/',
+        },
+        {
+          text: 'MOT Check',
+          disabled: false,
+          to: {name: 'mot-car-check'},
+        },
+        {
+          text: 'FORD Details',
+          disabled: true,
+          to: {name: 'car-mot-details'},
+        },
+      ],
+    }),
+
   components: { blogSocialLinks },
   props: {
     headingBg: String,

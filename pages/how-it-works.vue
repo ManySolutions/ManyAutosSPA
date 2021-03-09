@@ -165,7 +165,7 @@ h2{
     font-size: 2rem;
 }
        .para{
-           padding-top: 130px;
+           padding-top: 57px;
            padding-bottom: 20px;
        }
    
