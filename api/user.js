@@ -43,3 +43,7 @@ export async function sendReferralEmail($http, data) {
 export async function verifyReferral(hash) {
   return (await http.get(`/verify_referral/${hash}`)).data
 }
+
+export async function forgotPassword(data) {
+  return (await http.post(`/password/forgot`, data)).data
+}

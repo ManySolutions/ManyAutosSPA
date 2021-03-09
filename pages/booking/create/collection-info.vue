@@ -19,6 +19,7 @@
           :complete="step > 1"
           step="1"
           :editable='isStep1Valid'
+          :rules="step_errors.step1 ? [() => false] : []"
         >
           Choose collection date
           <small>Our collection timing is between 09:00 to 11:00</small>
@@ -43,6 +44,7 @@
           :complete="step > 2"
           step="2"
           :editable='isStep2Valid'
+          :rules="step_errors.step2 ? [() => false] : []"
         >
           Select Collection Address
         </v-stepper-step>
@@ -78,6 +80,7 @@
           :complete="step > 3"
           step="3"
           :editable='isStep3Valid'
+          :rules="step_errors.step3 ? [() => false] : []"
         >
           Personal Information
         </v-stepper-step>
@@ -106,13 +109,13 @@
             Next
           </v-btn>
         </v-stepper-content>
-
-        <!-- / step 2 ended -->
+        <!-- / step 3 ended -->
         
         <v-stepper-step
           :complete="step > 4"
           step="4"
           :editable='isFormValid'
+          :rules="step_errors.step4 ? [() => false] : []"
         >
           Finish Booking
         </v-stepper-step>
@@ -155,7 +158,7 @@
             </v-col>
           </v-row>
         </v-stepper-content>
-        <!-- / step 2 ended -->
+        <!-- / step 4 ended -->
         
       </v-stepper>
     </v-form>
@@ -252,6 +255,13 @@ export default {
     errorMsg: null,
 
     is_login_dialog: false,
+
+    step_errors: {
+      step1: false,
+      step2: false,
+      step3: false,
+      step4: false,
+    },
   }),
 
   computed: {
@@ -345,13 +355,23 @@ export default {
 
       this.isLoading = true;
       this.errorMsg = null;
+      this.step_errors = {
+        step1: false,
+        step2: false,
+        step3: false,
+        step4: false,
+      };
       const { form, cartContent, modelId } = this;
 
-      createBooking({
-        ...form,
-        cart: cartContent.cart_details,
-        model_id: modelId
-      }, this.http).then(res => res.data)
+      createBooking(
+        {
+          ...form,
+          cart: cartContent.cart_details,
+          model_id: modelId
+        }, 
+        this.http
+      )
+        .then(res => res.data)
         .then(data => {
           const { 
             status, message, access_token, user, errors, id, is_email_exist 
@@ -369,6 +389,10 @@ export default {
             toastr.error('Failed: ' + message);
             this.errorMsg = message;
             this.errors = errors;
+            
+            if (data.is_date_error) this.step_errors.step1 = true;
+            if (data.is_address_error) this.step_errors.step2 = true;
+            if (data.is_personal_info_error) this.step_errors.step3 = true;
 
             return data;
           }
@@ -384,8 +408,6 @@ export default {
               this.hasPaymentPlan ? '1' : null
             );
           } catch (error) { }
-
-          this.$store.dispatch('booking/clearCart');
           
           if (access_token) {
             this.$store.dispatch('user/authorize', {
@@ -395,10 +417,7 @@ export default {
           }
 
           toastr.success(message);
-
-          setTimeout(() => {
-            window.location.href='/booking/create/success'
-          }, 500);
+          window.location.href='/booking/create/success'
         })
         .catch(err => toastr.error(err))
         .finally(() => this.isLoading = false);

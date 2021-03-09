@@ -71,13 +71,13 @@
               v-if='!isCartLoading'
             >
               <v-row>
-                <v-col class=''>
+                <v-col class='pb-0'>
                   Subtotal Cost
                 </v-col>
-                <v-col class='text-right '>
+                <v-col class='text-right pb-0'>
                   <span class='font-weight-700'>
                     {{ currencySymbol }}
-                    {{ cartSubTotal }}
+                    {{ cartTotal }}
                   </span>
                 </v-col>
               </v-row>
@@ -93,13 +93,13 @@
                 </v-col>
               </v-row>
               <v-row>
-                <v-col class='pb-0'>
+                <v-col class=''>
                   Total Cost
                 </v-col>
-                <v-col class='text-right pb-0'>
+                <v-col class='text-right'>
                   <span class='font-weight-700'>
                     {{ currencySymbol }}
-                    {{ cartTotal }}
+                    {{ cartSubTotal }}
                   </span>
                 </v-col>
               </v-row>
@@ -140,8 +140,6 @@ export default {
 
   computed: {
     ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError']),
-    ...mapState('user', ['']),
-
     ...mapGetters('booking', ['cartCount']),
 
     isCartEmpty() {
@@ -149,17 +147,18 @@ export default {
     },
 
     cartTaxes() {
-      return parseFloat(
-        this.cartContent.cart_subtotal - this.cartContent.cart_total
-      ).toFixed(2) || 0.00;
+      const {cart_subtotal, cart_total} = this.cartContent;
+      const calc = this.cartContent.cart_subtotal - this.cartContent.cart_total;
+
+      return  !Number.isNaN(calc) ? parseFloat(calc).toFixed(2) : '0.00';
     },
 
     cartTotal() {
-      return this.cartContent.cart_total || 0.00;
+      return this.cartContent.cart_total || '0.00';
     },
 
     cartSubTotal() {
-      return this.cartContent.cart_subtotal || 0.00;
+      return this.cartContent.cart_subtotal || '0.00';
     },
 
     hasBookNowBtn() {
@@ -173,7 +172,11 @@ export default {
     },
   },
 
+  beforeMount() {
+  },
+
   mounted() {
+    this.getCart();
   },
 
   methods: {
