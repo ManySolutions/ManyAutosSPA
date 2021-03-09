@@ -1,5 +1,5 @@
 <template>
-  <booking-layout :breadcrumbs="breadcrumbs" no-tabs>
+  <booking-layout :breadcrumbs="breadcrumbs" no-tabs no-search-box>
     <template #title>
       <span class='font-weight-light'>
         Fill collection information to complete order

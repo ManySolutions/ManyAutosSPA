@@ -21,7 +21,7 @@
       elevation="1"
     >
       <v-card-text>
-        <group-request-a-quote-alert></group-request-a-quote-alert>
+        <group-request-a-quote-alert is-textable></group-request-a-quote-alert>
         <template v-if='isLoading'>
           <base-service-item
             v-for='n in 4'

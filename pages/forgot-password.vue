@@ -35,6 +35,8 @@
 <script>
 import toastr from 'toastr';
 import { forgotPassword } from '~/api/user';
+import { mapGetters } from 'vuex';
+
 export default {
   data: () => ({
     form: {
@@ -45,6 +47,14 @@ export default {
     resMsg: null,
     resStatus: null,
   }),
+
+  computed: {
+    ...mapGetters('user', ['isAuth']),
+  },
+
+  mounted() {
+    if ( this.isAuth ) this.$router.push('/my/booking')
+  },
 
   methods: {
     handleSubmit() {

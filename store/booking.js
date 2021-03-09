@@ -1,3 +1,4 @@
+import { getSearchKeywords } from "~/api/booking";
 import { getCartInstance } from "~/api/cart";
 
 export const state = () => ({
@@ -12,6 +13,7 @@ export const state = () => ({
   hasPaymentPlan: null,
   referralId: null,
   isGetQuoteAlert: true,
+  searchKeywords: [],
 })
 
 export const mutations = {
@@ -24,6 +26,7 @@ export const mutations = {
     state.cartUpdatedAt = null;
     state.cartReceivedAt = null;
     state.isCartLoading = false;
+    state.searchKeywords = [];
   },
 
   ADD_TO_CART(state, key) {
@@ -73,6 +76,10 @@ export const mutations = {
   TOGGLE_GET_QUOTE_ALERT(state, status) {
     state.isGetQuoteAlert = status;
   },
+
+  SET_SEARCH_KEYWORDS(state, items) {
+    state.searchKeywords = items;
+  },
 }
 
 
@@ -119,6 +126,18 @@ export const actions = {
 
   clearCart({ commit }) {
     commit('CLEAR_CART');
+  },
+  /* **** */
+
+
+  getSearchKeywords({ commit, state }) {
+    if (!state.modelId) return;
+
+    if (state.searchKeywords.length) return;
+
+    getSearchKeywords(state.modelId).then(res => {
+      commit('SET_SEARCH_KEYWORDS', res);
+    });
   },
   /* **** */
 }

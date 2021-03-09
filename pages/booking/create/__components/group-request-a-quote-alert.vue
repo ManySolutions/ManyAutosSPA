@@ -2,10 +2,11 @@
   <div>
     <v-alert 
       type='info' 
-      color='info lighten-1' 
+      :color='color' 
       dismissible
       dark
       v-model="alert"
+      :text='isTextable'
     >
       If you cannot find your repair you are looking for?
       <v-dialog
@@ -59,6 +60,13 @@ import { mapState} from 'vuex';
 import RequestAQuoteForm from '~/components/func-components/request-a-quote-form.vue';
 export default {
   components: { RequestAQuoteForm },
+  props: {
+    color: {
+      default: 'info lighten-1',
+      type: String
+    },
+    isTextable: Boolean
+  },
   data: () => ({
     alert: false,
     dialog: false,
