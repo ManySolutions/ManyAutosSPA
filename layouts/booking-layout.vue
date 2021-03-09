@@ -30,7 +30,7 @@
         ></v-col>
       </v-row>
 
-      <v-row justify="center">
+      <v-row justify="center" v-if='!noSearchBox'>
         <v-col cols=12 md=8 xl=6>
           <search-box box-style='solo'></search-box>
         </v-col>
@@ -84,7 +84,8 @@ export default {
   components: { desktopCart, IndexSelectedPaymentPlan, SearchBox },
   props: {
     breadcrumbs: [Array, Object],
-    noTabs: Boolean
+    noTabs: Boolean,
+    noSearchBox: Boolean,
   }
 }
 </script>

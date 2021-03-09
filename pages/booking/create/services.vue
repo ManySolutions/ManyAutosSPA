@@ -3,7 +3,7 @@
     :style='`background-image: url(${assets("frontend/bg-overlay.png")})`'
   >
     <v-container
-      class='home-sec-gaps container-1400'
+      class='home-sec-gaps container-1400 pt-15'
     >
       <v-row>
         <v-col>

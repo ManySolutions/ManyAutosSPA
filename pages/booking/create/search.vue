@@ -51,9 +51,9 @@
           text
           type='primary'
         >
-          Type in the search box and click on a suggestion to find your repairs/services.
+          Type in the search box and click on a result to see your repairs/services.
         </v-alert>
-        <div v-if='!isLoading' class='mt-5'>
+        <div v-if='!isLoading && keyword' class='mt-5'>
           <v-divider></v-divider>
           <br>
           <group-request-a-quote-alert is-textable></group-request-a-quote-alert>
