@@ -61,6 +61,20 @@
           </base-service-grid>
         </v-col>
       </v-row>
+
+      <v-row justify="center" class='mt-15 text-center'>
+        <v-col cols=12 md=8 lg=6>
+          <h1 class='heading__title text-case-none lsh'>
+            <span class='font-weight-300'>Looking to search for any</span>
+            <strong class='font-weight-600'>service</strong>
+            <span class='font-weight-300'>or</span> 
+            <strong class='font-weight-600'>repair</strong>?
+          </h1>
+          <div class='mt-7' style='max-width: 750px; margin: auto'>
+            <search-box></search-box>
+          </div>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
@@ -68,11 +82,13 @@
 <script>
 import BaseServiceGrid from '@/components/base-components/base-service-grid';
 import IndexSelectedPaymentPlan from './__components/index-selected-payment-plan.vue';
+import SearchBox from '~/components/func-components/search-box.vue';
 
 export default {
   components: {
     BaseServiceGrid,
     IndexSelectedPaymentPlan,
+    SearchBox,
   },
   
   props: ['motPrice', 'vehicleName'],
@@ -88,4 +104,7 @@ export default {
   background-size: cover;
   background-attachment: fixed;
 }
+.lsh {
+  font-size: 35px;
+} 
 </style>

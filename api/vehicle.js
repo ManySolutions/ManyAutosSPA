@@ -10,6 +10,11 @@ export async function getServices(modelId) {
 }
 
 
+export async function getSearchPart(modelId, keyword) {
+  return (await http.get(`/search_service/?modelId=${modelId}&keyword=${keyword}`)).data
+}
+
+
 export async function getPartsGroup(modelId) {
   return (await http.get(`/get_parts_group/${modelId}`)).data
 }

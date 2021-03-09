@@ -31,3 +31,7 @@ export async function requestAQuote(data, $http=null) {
 export async function getQuoteInfo(key, signature, $http=null) {
   return (await ($http || http).get(`/quote_request/${key}/create_booking?signature=${signature}`));
 }
+
+export async function getSearchKeywords(modelId) {
+  return (await http.get(`/get_parts_keywords/${modelId}`)).data;
+}

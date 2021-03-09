@@ -10,10 +10,6 @@
     </client-only>
 
     <default-footer></default-footer>
-    
-    <client-only>
-      <g-analytics-code></g-analytics-code>
-    </client-only>
   </v-app>
 </template>
 

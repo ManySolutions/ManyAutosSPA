@@ -14,6 +14,8 @@
           </h1>
         </v-col>
       </v-row>
+
+      <slot name='before-breadcrumb'></slot>
       
       <v-row justify="center">
         <v-col cols=12 lg=8 xl=6>
@@ -26,6 +28,13 @@
           cols=12 lg=4 xl=3
           class='d-none d-md-block'
         ></v-col>
+      </v-row>
+
+      <v-row justify="center">
+        <v-col cols=12 md=8 xl=6>
+          <search-box box-style='solo'></search-box>
+        </v-col>
+        <v-col cols=12 md=4 xl=3></v-col>
       </v-row>
 
       <v-row justify="center">
@@ -69,9 +78,10 @@
 </template>
 <script>
 import desktopCart from '~/components/func-components/desktop-cart.vue'
+import SearchBox from '~/components/func-components/search-box.vue'
 import IndexSelectedPaymentPlan from '~/pages/booking/create/__components/index-selected-payment-plan.vue'
 export default {
-  components: { desktopCart, IndexSelectedPaymentPlan },
+  components: { desktopCart, IndexSelectedPaymentPlan, SearchBox },
   props: {
     breadcrumbs: [Array, Object],
     noTabs: Boolean

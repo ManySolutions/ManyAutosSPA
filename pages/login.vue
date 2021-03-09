@@ -5,7 +5,7 @@
         <v-form @submit.prevent="login()">
           <v-card 
             class="mx-auto mt-5" 
-            max-width="480"
+            max-width="420"
           >
             <v-card-text>
               <h2 class="text-h5 font-weight-600 text-center pt-5 mb-10">
@@ -57,6 +57,9 @@
                 >
                   Login
                 </v-btn>
+                <nuxt-link to="/forgot-password" class="mt-4 d-inline-block text-decoration-none">
+                  Forgot Your Password?
+                </nuxt-link>
               </div>
               <hr style="margin-top:25px;">
               <p 
@@ -86,7 +89,7 @@
 <script>
 import toastr from 'toastr';
 import { loginUser } from '~/api/user';
-import { mapActions, mapState } from 'vuex';
+import { mapActions, mapState, mapGetters } from 'vuex';
 
 export default {
   data: () => ({
@@ -107,10 +110,13 @@ export default {
     if (redirect_url) {
       this.redirectUrl = redirect_url;
     }
+
+    if ( this.isAuth ) this.$router.push('/my/booking')
   },
 
   computed: {
-    ...mapState('settings', ['redirect'])
+    ...mapState('settings', ['redirect']),
+    ...mapGetters('user', ['isAuth']),
   },
 
   methods: {

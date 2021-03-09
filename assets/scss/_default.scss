@@ -103,3 +103,7 @@ h1.heading__title, .h1.heading__title {
   position: relative;
   &:hover:before {content: "#";position: absolute;left: -20px;font-size: 22px;top: -50%;transform: translateY(50%);color: $primary;}
 }
+
+.text-case-none {
+  text-transform: initial !important;
+}
