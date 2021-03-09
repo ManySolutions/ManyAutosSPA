@@ -17,14 +17,13 @@
         <template v-slot:activator="{ on, attrs }">
           <v-btn
             color='secondary'
-            small
             class='ml-lg-2 mt-2 mt-md-0 font-weight-500'
             v-bind="attrs"
             v-on="on"
           >
             <span class='d-lg-none'>Request Quote Here</span>
             <span class='d-none d-lg-inline-block'>
-              Click Here To Request a Quote
+              Click Here
             </span>
           </v-btn>
         </template>
