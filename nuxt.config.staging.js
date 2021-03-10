@@ -209,6 +209,12 @@ export default {
     debug: true,
   },
 
+  loading: {
+    color: '#06d6a0',
+    height: '3px',
+    continuous: true,
+  },
+
 
   env: {
     ENVIRONMENT: 'development',

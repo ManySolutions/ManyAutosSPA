@@ -206,6 +206,17 @@ export default {
         debug: true,
     },
 
+    loading: {
+      color: '#06d6a0',
+      height: '3px',
+      continuous: true,
+    },
+    loadingIndicator: {
+      name: 'circle',
+      color: '#06d6a0',
+      background: 'white'
+    },
+
 
     env: {
         ENVIRONMENT: 'development',
