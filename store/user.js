@@ -1,3 +1,5 @@
+import toastr from 'toastr';
+
 export const state = () => ({
   accessToken: null,
   info: null,
@@ -29,6 +31,8 @@ export const actions = {
     commit('SET_ACCESS_TOKEN', null);
     commit('SET_INFO', null);
     commit('SET_ROLES', null);
+
+    toastr.success('Logged out successfully, please wait while redirecting');
   },
 };
 

@@ -1,6 +1,6 @@
 <template>
   <div class='car-repair-plan-form' id='covidPlanForm'>
-    <v-form @submit.prevent="handleSubmit()">
+    <v-form @submit.prevent="handleSubmit()" ref='form'>
       <v-row>
         <v-col cols=12 md=8>
           <v-text-field
@@ -12,6 +12,9 @@
             dark
             hide-details
             class='reg-input'
+            :rules='[
+              v => v.length >= 1 || `Enter your car reg no`
+            ]'
           ></v-text-field>
         </v-col>
         <v-col cols=12 md=4>
@@ -37,6 +40,8 @@ export default {
 
   methods: {
     handleSubmit() {
+      if (!this.$refs.form.validate()) return;
+      
       this.error = false;
       this.isLoading = true;
 

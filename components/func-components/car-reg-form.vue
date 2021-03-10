@@ -4,7 +4,7 @@
     :class='bgCls'
     :style='getBgImage'
   >
-    <v-form @submit.prevent="handleSubmit()">
+    <v-form @submit.prevent="handleSubmit()" ref='form'>
       <v-container
         class='z-index-1'
       >
@@ -21,6 +21,9 @@
               class='font-weight-600'
               :class='large?`input-is-large`:``'
               :height='large?`54px`:`44px`'
+              :rules='[
+                v => v.length >= 1 || `Enter your car reg no`
+              ]'
             ></v-text-field>
             <small v-if='error' class='red--text'>
               {{ errorMessage }}
@@ -99,6 +102,8 @@ export default {
 
   methods: {
     handleSubmit() {
+      if (!this.$refs.form.validate()) return;
+      
       this.error = false;
       this.isLoading = true;
 

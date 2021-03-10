@@ -8,7 +8,7 @@
       v-model="alert"
       :text='isTextable'
     >
-      If you cannot find your repair you are looking for?
+      If you cannot find your repair you are looking for
       <v-dialog
         v-model="dialog"
         fullscreen
