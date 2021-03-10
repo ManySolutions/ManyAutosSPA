@@ -176,6 +176,7 @@ export default {
         '/apps/**',
         '/test',
         '/mot-car-check',
+        '/car-mot-details',
         '/booking/**',
         '/register-your-garage/**',
         '/rf/**',
