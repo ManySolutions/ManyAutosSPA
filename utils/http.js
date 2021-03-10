@@ -1,5 +1,6 @@
 import axios from 'axios';
 // import nprogress from 'nprogress';
+import store from '@/store';
 
 let baseURL = process.env.API_URL;
 
