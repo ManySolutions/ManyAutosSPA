@@ -179,16 +179,16 @@ export default {
   },
 
   head: {
-    title: 'Brake Pad Sensor',
+    title: 'Brake Pad Sensor | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Brake Pad wear Sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD repair and replace Brake Pad wear Sensor for all makes in Reading, United Kingdom. Our team of Experts will help you with Brake pad wear sensor repair. Many Autos also provide free collection and Delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
-        content: 'brake pad wear sensor, brake pad sensor, brake sensor, wear sensor, new brake pad wear sensor, brake pad wear sensor repair, brake pad wear sensor replace, brake pad wear sensor replacement'
+        content: 'brake pad wear sensor, brake pad sensor, brake sensor, wear sensor, new brake pad wear sensor, brake pad wear sensor repair, brake pad wear sensor replace, brake pad wear sensor replacement, free Collection and Delivery'
       },
       {
         hid: 'og:title',
@@ -217,7 +217,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Brake Pad wear Sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Brake Pad wear Sensor for all makes in Reading, United Kingdom. Our team of Experts will help you with Brake pad wear sensor repair. Many Autos also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -229,7 +229,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Pad wear Sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Brake Pad wear Sensor for all makes in Reading, United Kingdom. Our team of Experts will help you with Brake pad wear sensor repair. Many Autos also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 

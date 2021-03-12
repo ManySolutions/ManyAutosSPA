@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Vauxhall Service',
+    title: 'Vauxhall Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Vauxhall service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Need Vauxhall services near your Area? Bring your Vauxhall at Many Autos LTD for Best Vauxhall Interim Service, Vauxhall major service, Vauxhall full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Vauxhall servicing in Reading UK.'
       },
       {
         name: 'keywords', 
-        content: 'vauxhall service, vauxhall service deal in Reading, vauxhall full services,vauxhall full services  in Reading, vauxhall interim service, vauxhall major service deal in Reading, vauxhall servicing in Reading, car service, car servicing, car services'
+        content: 'Vauxhall services, Vauxhall, Vauxhall Interim Service, Vauxhall major service, Vauxhall full service in Reading UK, car repair service, free collection and delivery services, Vauxhall servicing in Reading UK'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Vauxhall service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Need Vauxhall services near your Area? Bring your Vauxhall at Many Autos LTD for Best Vauxhall Interim Service, Vauxhall major service, Vauxhall full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Vauxhall servicing in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Vauxhall service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Need Vauxhall services near your Area? Bring your Vauxhall at Many Autos LTD for Best Vauxhall Interim Service, Vauxhall major service, Vauxhall full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Vauxhall servicing in Reading UK."
       },
       {
         name: "twitter:image", 

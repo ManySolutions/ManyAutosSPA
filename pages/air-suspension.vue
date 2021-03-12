@@ -166,12 +166,12 @@ export default {
   },
 
   head: {
-    title: 'Air Repair- Air Suspension Service',
+    title: 'Air Repair- Air Suspension Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We carry out air suspension replacement and service for all vehicle  makes and models. Get a free quote today online or by phone. We only use oem quality part and our aim is to provide you the best prices and service through out the UK'
+        content: 'Many Autos LTD carry out air suspension replacement and services for all vehicle  makes and models Book your Air Suspension Service online now Many Autos also Provide Free collection and Delivery in Reading UK.'
       },
       {
         name: 'keywords', 
@@ -204,7 +204,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We carry out air suspension replacement and service for all vehicle  makes and models. Get a free quote today online or by phone. We only use oem quality part and our aim is to provide you the best prices and service through out the UK"
+        content: "Many Autos LTD carry out air suspension replacement and services for all vehicle  makes and models Book your Air Suspension Service online now Many Autos also Provide Free collection and Delivery in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -216,7 +216,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We carry out air suspension replacement and service for all vehicle  makes and models. Get a free quote today online or by phone. We only use oem quality part and our aim is to provide you the best prices and service through out the UK"
+        content: "Many Autos LTD carry out air suspension replacement and services for all vehicle  makes and models Book your Air Suspension Service online now Many Autos also Provide Free collection and Delivery in Reading UK."
       },
       {
         name: "twitter:image", 

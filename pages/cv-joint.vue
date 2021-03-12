@@ -142,16 +142,16 @@ export default {
   },
 
   head: {
-    title: 'CV Joint',
+    title: 'CV Joint | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We replace CV joints for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD replace CV joints for all makes and models in Reading, United Kingdom. Our Experts are Highly Qualified for Drive Shaft , Cv Joint Kits, Propshhafts replacement. We also provide free collection and Delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
-        content: 'CV joints,CV Joint Kits, CV Boot , Driveshaft, Propshafts , Coupling,'
+        content: 'CV joints, CV Joint Kits, CV Boot , Driveshaft, Propshafts , Coupling, free collection and Delivery'
       },
       {
         hid: 'og:title',
@@ -180,7 +180,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We replace CV joints for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD replace CV joints for all makes and models in Reading, United Kingdom. Our Experts are Highly Qualified for Drive Shaft , Cv Joint Kits, Propshhafts replacement. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -192,7 +192,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We replace CV joints for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD replace CV joints for all makes and models in Reading, United Kingdom. Our Experts are Highly Qualified for Drive Shaft , Cv Joint Kits, Propshhafts replacement. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 

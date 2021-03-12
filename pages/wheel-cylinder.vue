@@ -188,16 +188,16 @@ export default {
   },
 
   head: {
-    title: 'Wheel Cylinder',
+    title: 'Wheel Cylinder | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We do Wheel Alignment and Tracking for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos Repair Wheel Cylinder of your car and also Do Wheel Alignment of all makes and models in Reading UK Bring your car for Wheel Alignment and wheel balancing at Many Autos LTD car repair and Mot center in Reading UK.'
       },
       {
         name: 'keywords', 
-        content: 'wheel alignment and tracking, tracking, wheel alignment, alignment, front wheel alignment, rear wheel alignment'
+        content: 'wheel alignment, wheel balancing, Repair Wheel Cylinder'
       },
       {
         hid: 'og:title',
@@ -226,7 +226,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We do Wheel Alignment and Tracking for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos Repair Wheel Cylinder of your car and also Do Wheel Alignment of all makes and models in Reading UK Bring your car for Wheel Alignment and wheel balancing at Many Autos LTD car repair and Mot center in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -238,7 +238,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We do Wheel Alignment and Tracking for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos Repair Wheel Cylinder of your car and also Do Wheel Alignment of all makes and models in Reading UK Bring your car for Wheel Alignment and wheel balancing at Many Autos LTD car repair and Mot center in Reading UK."
       },
       {
         name: "twitter:image", 

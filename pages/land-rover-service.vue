@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Land Rover Service',
+    title: 'Land Rover Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Land Rover service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Looking for car Garage in Reading for your Land Rover Service many Autos Provide Land Rover services in Reading UK (major Service, full Service, interim Service, MOT) book your Land Rover car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK.'
       },
       {
         name: 'keywords', 
-        content: 'land rover service, land rover service deal in Reading, land rover full services,land rover full services  in Reading, land rover interim service, land rover major service deal in Reading, land rover servicing in Reading, car service, car servicing, car services'
+        content: 'car Garage in Reading, Land Rover Service, Land Rover services in Reading UK, major Service, full Service, interim Service, MOT, Land Rover car service, car Repair and Servicing in UK '
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Land Rover service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Looking for car Garage in Reading for your Land Rover Service many Autos Provide Land Rover services in Reading UK (major Service, full Service, interim Service, MOT) book your Land Rover car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Land Rover service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Looking for car Garage in Reading for your Land Rover Service many Autos Provide Land Rover services in Reading UK (major Service, full Service, interim Service, MOT) book your Land Rover car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
       },
       {
         name: "twitter:image", 

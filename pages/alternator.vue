@@ -191,16 +191,16 @@ export default {
   },
 
   head: {
-    title: 'Alternator',
+    title: 'Alternator | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Alternator for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD  repair and replace Alternator for all makes and models Bring your car to best car garage in UK for Alternator Replacement We also provide free collection and Delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
-        content: 'alternator, new alternator, alternator repair, alternator replace, alternator replacement'
+        content: 'alternator, new alternator, alternator repair, alternator replace, alternator replacement, best car garage, Many Autos LTD'
       },
       {
         hid: 'og:title',
@@ -229,7 +229,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Alternator for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD  repair and replace Alternator for all makes and models Bring your car to best car garage in UK for Alternator Replacement We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -241,7 +241,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Alternator for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD  repair and replace Alternator for all makes and models Bring your car to best car garage in UK for Alternator Replacement We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 

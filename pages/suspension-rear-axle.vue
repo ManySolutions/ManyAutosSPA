@@ -200,16 +200,16 @@ export default {
   },
 
   head: {
-    title: 'Rear Axle',
+    title: 'Rear Axle | Many Autos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Rear Axle for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Broke your car’s Rear Axle? Don’t worry Many Autos provide Free Collection and delivery services to help our trusted clients with Rear axle Repair and Rear Axle Replacement we also provide Rear Axle carrier bushes service in Reading United Kingdom.'
       },
       {
         name: 'keywords', 
-        content: 'Rear Axle, suspension bush , Anti-Roll Bar, Coil Springs, suspension arm bush, suspension pin  bush,Shock Absorbers, suspension mounting,Rear Axle Bearing, Rear Axle Carrier bushes,'
+        content: 'Rear Axle, Rear Axle Carrier bushes, Rear axle Repair, Rear Axle Replacement'
       },
       {
         hid: 'og:title',
@@ -238,7 +238,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Rear Axle for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Broke your car’s Rear Axle? Don’t worry Many Autos provide Free Collection and delivery services to help our trusted clients with Rear axle Repair and Rear Axle Replacement we also provide Rear Axle carrier bushes service in Reading United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -250,7 +250,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Rear Axle for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Broke your car’s Rear Axle? Don’t worry Many Autos provide Free Collection and delivery services to help our trusted clients with Rear axle Repair and Rear Axle Replacement we also provide Rear Axle carrier bushes service in Reading United Kingdom."
       },
       {
         name: "twitter:image", 

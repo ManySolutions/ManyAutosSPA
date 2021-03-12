@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Ssangyong Service',
+    title: 'Ssangyong Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Ssangyong service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Ssangyong servicing in Reading. You can select our package For Ssangyong major Service, Ssangyong full Service, Ssangyong interim Service, Ssangyong MOT or you can select from additional service you required For Your Ssangyong makes and Models.'
       },
       {
         name: 'keywords', 
-        content: 'Ssangyong service, Ssangyong service deal in Reading, Ssangyong full services,Ssangyong full services  in Reading, Ssangyong interim service, Ssangyong major service deal in Reading, Ssangyong servicing in Reading, car service, car servicing, car services'
+        content: 'Ssangyong service, Ssangyong major Service, Ssangyong full Service, Ssangyong interim Service, Ssangyong MOT, Ssangyong servicing in Reading, car service, car servicing, car services, Ssangyong makes and Models'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Ssangyong service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Ssangyong servicing in Reading. You can select our package For Ssangyong major Service, Ssangyong full Service, Ssangyong interim Service, Ssangyong MOT or you can select from additional service you required For Your Ssangyong makes and Models."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Ssangyong service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Ssangyong servicing in Reading. You can select our package For Ssangyong major Service, Ssangyong full Service, Ssangyong interim Service, Ssangyong MOT or you can select from additional service you required For Your Ssangyong makes and Models."
       },
       {
         name: "twitter:image", 

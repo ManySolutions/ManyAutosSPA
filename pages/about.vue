@@ -54,21 +54,21 @@ export default {
   },
 
   head: {
-    title: 'About us Affordable Car Garages| Car Repair Services ',
+    title: 'Affordable Car Garages| About US',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'A company responsible for your car’s repair & maintenance. We provide you with the best & affordable services. Click to know about our company & our reliable employees.'
+        content: 'A company responsible for your car’s repair and maintenance. We provide you with the best affordable services visit our website or car Garage to Know more About us and how it works we Collect and deliver your car free of cost after Auto repair and car servicing.'
       },
       {
         name: 'keywords', 
-        content: 'auto repair, car servicing, car repair tips, car garages, car repairing information'
+        content: 'auto repair, car servicing, car repair tips, car garages, car repairing'
       },
       {
         hid: "og:title",
         property: "og:title", 
-        content: "About us Affordable Car Garages| Car Repair Services  | ManyAutos LTD"
+        content: "Affordable Car Garages| About US"
       },
       { 
         hid: "og:type",
@@ -92,7 +92,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "A company responsible for your car’s repair & maintenance. We provide you with the best & affordable services. Click to know about our company & our reliable employees."
+        content: "A company responsible for your car’s repair and maintenance. We provide you with the best affordable services visit our website or car Garage to Know more About us and how it works we Collect and deliver your car free of cost after Auto repair and car servicing."
       },
       {
         name: "twitter:card", 
@@ -100,11 +100,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "About us Affordable Car Garages| Car Repair Services  | ManyAutos LTD"
+        content: "Affordable Car Garages| About US"
       },
       {
         name: "twitter:description", 
-        content: "A company responsible for your car’s repair & maintenance. We provide you with the best & affordable services. Click to know about our company & our reliable employees."
+        content: "A company responsible for your car’s repair and maintenance. We provide you with the best affordable services visit our website or car Garage to Know more About us and how it works we Collect and deliver your car free of cost after Auto repair and car servicing."
       },
       {
         name: "twitter:image", 

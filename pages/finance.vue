@@ -77,12 +77,12 @@ export default {
   },
 
   head: {
-    title: 'Finance',
+    title: 'Finance | Car Finance',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Interest-free finance packages are available over a 3, 4, 5, or 6 months basis, allowing you to budget effectively. Applying is quick and easy, and we can advise you if you are eligible within 5 minutes.'
+        content: 'Interest-free finance packages are available over a 3, 4, 5, or 6 months basis, allowing you to budget effectively. Applying is quick and easy, and we can advise you if you are eligible within 5 minutes so Don’t waste your Time get your Car repair Finance From Many Autos LTD to Keep your Car in Good Health.'
       },
       {
         name: 'keywords', 
@@ -91,7 +91,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Finance | ManyAutos LTD"
+        content: "Finance | Car Finance"
       },
       {
         hid: 'og:type',
@@ -115,7 +115,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Interest-free finance packages are available over a 3, 4, 5, or 6 months basis, allowing you to budget effectively. Applying is quick and easy, and we can advise you if you are eligible within 5 minutes."
+        content: "Interest-free finance packages are available over a 3, 4, 5, or 6 months basis, allowing you to budget effectively. Applying is quick and easy, and we can advise you if you are eligible within 5 minutes so Don’t waste your Time get your Car repair Finance From Many Autos LTD to Keep your Car in Good Health."
       },
       {
         name: "twitter:card", 
@@ -123,11 +123,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Finance | ManyAutos LTD"
+        content: "Finance | Car Finance"
       },
       {
         name: "twitter:description", 
-        content: "Interest-free finance packages are available over a 3, 4, 5, or 6 months basis, allowing you to budget effectively. Applying is quick and easy, and we can advise you if you are eligible within 5 minutes."
+        content: "Interest-free finance packages are available over a 3, 4, 5, or 6 months basis, allowing you to budget effectively. Applying is quick and easy, and we can advise you if you are eligible within 5 minutes so Don’t waste your Time get your Car repair Finance From Many Autos LTD to Keep your Car in Good Health."
       },
       {
         name: "twitter:image", 

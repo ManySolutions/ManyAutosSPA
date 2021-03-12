@@ -134,12 +134,12 @@ export default {
   },
 
   head: {
-    title: 'Glow Plug',
+    title: 'Glow Plug | Glow plug Sensor',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Glow Plug for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work.'
+        content: 'We repair and replace Glow Plug for all makes and models. We also provide free collection and delivery service from your home or place of work book your car service for Glow Plug Sensor repair or to replace glow Plug.'
       },
       {
         name: 'keywords', 
@@ -148,7 +148,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Glow Plug | ManyAutos LTD"
+        content: "Glow Plug | Glow plug Sensor"
       },
       {
         hid: 'og:type',
@@ -172,7 +172,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Glow Plug for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work."
+        content: "We repair and replace Glow Plug for all makes and models. We also provide free collection and delivery service from your home or place of work book your car service for Glow Plug Sensor repair or to replace glow Plug."
       },
       {
         name: "twitter:card", 
@@ -180,11 +180,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Glow Plug | ManyAutos LTD"
+        content: "Glow Plug | Glow plug Sensor"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Glow Plug for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work."
+        content: "We repair and replace Glow Plug for all makes and models. We also provide free collection and delivery service from your home or place of work book your car service for Glow Plug Sensor repair or to replace glow Plug."
       },
       {
         name: "twitter:image", 

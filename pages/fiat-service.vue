@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Fiat Service',
+    title: 'Fiat Service near me | Many Autos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Fiat service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Many Autos is your all in one car solution. We are Providing best Quality fiat interim service, fiat major service in affordable Rates for Fiat service. You can select recommended package or select from additional service you required from our provided list. We Assure Quality car servicing and Quality Auto parts for your Fiat car service in Reading UK.'
       },
       {
         name: 'keywords', 
-        content: 'fiat service, fiat service deal in Reading, fiat full services,fiat full services  in Reading, fiat interim service, fiat major service deal in Reading, fiat servicing in Reading, car service, car servicing, car services'
+        content: 'fiat service, fiat interim service, fiat major service, car service, car servicing'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Fiat Service | ManyAutos LTD"
+        content: "Fiat Service near me | Many Autos LTD"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Fiat service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is your all in one car solution. We are Providing best Quality fiat interim service, fiat major service in affordable Rates for Fiat service. You can select recommended package or select from additional service you required from our provided list. We Assure Quality car servicing and Quality Auto parts for your Fiat car service in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Fiat Service | ManyAutos LTD"
+        content: "Fiat Service near me | Many Autos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Fiat service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is your all in one car solution. We are Providing best Quality fiat interim service, fiat major service in affordable Rates for Fiat service. You can select recommended package or select from additional service you required from our provided list. We Assure Quality car servicing and Quality Auto parts for your Fiat car service in Reading UK."
       },
       {
         name: "twitter:image", 

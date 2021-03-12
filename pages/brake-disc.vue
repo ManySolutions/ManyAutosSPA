@@ -205,16 +205,16 @@ export default {
   },
 
   head: {
-    title: 'Brake Discs',
+    title: 'Brake Discs | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We carry out brake pads replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . We only use oem quality brake pads and our aim is to provide you the best prices and service through out the UK'
+        content: 'Many Autos LTD  carry out brake pads replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . Many Autos LTD  only use quality brake pads and our aim is to provide you the best prices and service through out the UK we Also Provide Free Collection and Delivery Services just Book your car Service online now at Many Autos LTD for Brake Discs replacement'
       },
       {
         name: 'keywords', 
-        content: 'brake pads replacement, brake service, brake pads service, brake pads installation, brake disc replacement reading, disc service reading, free collection and delivery'
+        content: 'brake pads , brake service, brake pads service, brake pads installation, brake disc replacement reading, disc service reading, free collection and delivery, Brake Discs replacement, Car Service'
       },
       {
         hid: '',
@@ -243,7 +243,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We carry out brake pads replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . We only use oem quality brake pads and our aim is to provide you the best prices and service through out the UK"
+        content: "Many Autos LTD  carry out brake pads replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . Many Autos LTD  only use quality brake pads and our aim is to provide you the best prices and service through out the UK we Also Provide Free Collection and Delivery Services just Book your car Service online now at Many Autos LTD for Brake Discs replacement"
       },
       {
         name: "twitter:card", 
@@ -255,7 +255,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We carry out brake pads replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . We only use oem quality brake pads and our aim is to provide you the best prices and service through out the UK"
+        content: "Many Autos LTD  carry out brake pads replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . Many Autos LTD  only use quality brake pads and our aim is to provide you the best prices and service through out the UK we Also Provide Free Collection and Delivery Services just Book your car Service online now at Many Autos LTD for Brake Discs replacement"
       },
       {
         name: "twitter:image", 

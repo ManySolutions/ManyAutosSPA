@@ -45,21 +45,21 @@ export default {
     const isWith = pageTitleName ? `With ${pageTitleName} ` : '';
     
     return {
-      title: `Book Your Car MOT, Service or Diagnostics ${isWith}| ManyAutos LTD`,
+      title: `Book Your Car MOT, car service booking ${isWith}| ManyAutos LTD`,
 
       meta: [
         {
           hid: 'description', name: 'description', 
-          content: 'Book MOT, Service or any Repairs for you vehicle. We also provide free collection and Delivery service from your home or place of work.'
+          content: 'Book MOT, car Service booking or any Repairs for you vehicle. We also provide free collection and Delivery service from your home or place of work so Book Diagnostic services and Get Free Quote for Full car servicing.'
         },
         {
           name: 'keywords', 
-          content: 'many autos ltd, book MOT, book diagnostics, book car service, automotive service,car services,full car service,garage service'
+          content: 'many autos ltd, book MOT, book diagnostics, book car service, automotive service,car services, full car service ,garage service'
         },
         {
           hid: 'og:title',
           property: "og:title", 
-          content: "Book Your Car MOT, Service or Diagnostics | ManyAutos LTD"
+          content: "Book Your Car MOT, car service booking | ManyAutos LTD"
         },
         {
           hid: 'og:type',
@@ -83,7 +83,7 @@ export default {
         },
         {
           hid: 'og:description',  property: 'og:description', 
-          content: "Book MOT, Service or any Repairs for you vehicle. We also provide free collection and Delivery service from your home or place of work."
+          content: "Book MOT, car Service booking or any Repairs for you vehicle. We also provide free collection and Delivery service from your home or place of work so Book Diagnostic services and Get Free Quote for Full car servicing."
         },
         {
           name: "twitter:card", 
@@ -91,11 +91,11 @@ export default {
         },
         {
           name: "twitter:title", 
-          content: "Book Your Car MOT, Service or Diagnostics | ManyAutos LTD"
+          content: "Book Your Car MOT, car service booking | ManyAutos LTD"
         },
         {
           name: "twitter:description", 
-          content: "Book MOT, Service or any Repairs for you vehicle. We also provide free collection and Delivery service from your home or place of work."
+          content: "Book MOT, car Service booking or any Repairs for you vehicle. We also provide free collection and Delivery service from your home or place of work so Book Diagnostic services and Get Free Quote for Full car servicing."
         },
         {
           name: "twitter:image", 

@@ -294,21 +294,21 @@ export default {
   },
 
   head: {
-    title: 'MOT Test',
+    title: 'MOT Test,  MOT Test Center , MOT Reading ',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Is your car or other vehicle need an MOT test? Are you looking for a best deal with peace of mind? You can book you MOT with us and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online or by calling us at 01189 876300.'
+        content: 'Is your car or other vehicle need an MOT test? Are you looking for a best MOT Test center in your area? You can book MOT TEST with Many Autos LTD Trusted Garage for MOT in Reading   and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online.'
       },
       {
         name: 'keywords', 
-        content: 'MOT, MOT test, Car MOT test,vehicle MOT Test, MOT test in Reading, MOT with free collection, MOT with free delivery, MOT garage, MOT in Reading'
+        content: 'MOT, MOT test, Car MOT test, vehicle MOT Test, MOT test in Reading, MOT with free collection And  delivery, MOT garage, MOT in Reading'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "MOT Test | ManyAutos LTD"
+        content: "MOT Test,  MOT Test Center , MOT Reading "
       },
       {
         hid: 'og:type',
@@ -332,7 +332,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Is your car or other vehicle need an MOT test? Are you looking for a best deal with peace of mind? You can book you MOT with us and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online or by calling us at 01189 876300."
+        content: "Is your car or other vehicle need an MOT test? Are you looking for a best MOT Test center in your area? You can book MOT TEST with Many Autos LTD Trusted Garage for MOT in Reading   and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online."
       },
       {
         name: "twitter:card", 
@@ -340,11 +340,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "MOT Test | ManyAutos LTD"
+        content: "MOT Test,  MOT Test Center , MOT Reading "
       },
       {
         name: "twitter:description", 
-        content: "Is your car or other vehicle need an MOT test? Are you looking for a best deal with peace of mind? You can book you MOT with us and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online or by calling us at 01189 876300."
+        content: "Is your car or other vehicle need an MOT test? Are you looking for a best MOT Test center in your area? You can book MOT TEST with Many Autos LTD Trusted Garage for MOT in Reading   and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online."
       },
       {
         name: "twitter:image", 

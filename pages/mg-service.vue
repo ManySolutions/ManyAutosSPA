@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Mg Service',
+    title: 'Mg Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Mg service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer MG interim service, MG major service we deal MG servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of MG. Book Your Car Service online through manyautosltd.com.'
       },
       {
         name: 'keywords', 
-        content: 'Mg service, Mg service deal in Reading, Mg full services,Mg full services  in Reading, Mg interim service, Mg major service deal in Reading, Mg servicing in Reading, car service, car servicing, car services'
+        content: 'MG service, car garage , Car Repair Company in Reading, MG interim service, MG major service, MG servicing in Reading, car service, car servicing, car services, car service and repair'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Mg service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer MG interim service, MG major service we deal MG servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of MG. Book Your Car Service online through manyautosltd.com."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Mg service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer MG interim service, MG major service we deal MG servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of MG. Book Your Car Service online through manyautosltd.com."
       },
       {
         name: "twitter:image", 

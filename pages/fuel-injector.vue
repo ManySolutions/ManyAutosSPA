@@ -164,12 +164,12 @@ export default {
   },
 
   head: {
-    title: 'Injectors, Free Collection & Delivery',
-
+    title: 'Injectors, Fuel Injectors | ManyAutos LTD',
+  
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Injectors for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Fuel Injector is as much important as Fuel Filter for your car Fuel Injectors plays important role in Fuel Average and Smooth Driving of your car Many Autos LTD Repair and Replace Fuel injector of All Makes and models you can get your Quote online by Booking your car service online for Fuel injector repair or Fuel injector Replacement in Reading United Kingdom.'
       },
       {
         name: 'keywords', 
@@ -178,7 +178,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Injectors, Free Collection & Delivery | ManyAutos LTD"
+        content: "Injectors, Fuel Injectors | ManyAutos LTD"
       },
       {
         hid: 'og:type',
@@ -202,7 +202,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Injectors for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Fuel Injector is as much important as Fuel Filter for your car Fuel Injectors plays important role in Fuel Average and Smooth Driving of your car Many Autos LTD Repair and Replace Fuel injector of All Makes and models you can get your Quote online by Booking your car service online for Fuel injector repair or Fuel injector Replacement in Reading United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -210,11 +210,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Injectors, Free Collection & Delivery | ManyAutos LTD"
+        content: "Injectors, Fuel Injectors | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Injectors for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Fuel Injector is as much important as Fuel Filter for your car Fuel Injectors plays important role in Fuel Average and Smooth Driving of your car Many Autos LTD Repair and Replace Fuel injector of All Makes and models you can get your Quote online by Booking your car service online for Fuel injector repair or Fuel injector Replacement in Reading United Kingdom."
       },
       {
         name: "twitter:image", 

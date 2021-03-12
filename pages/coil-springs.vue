@@ -181,16 +181,16 @@ export default {
   },
 
   head: {
-    title: 'Coil Springs',
+    title: 'Coil Springs | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Coil Springs for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD repair and replace Coil Springs for all makes in Reading, United Kingdom. It is illegal and totally dangerous to drive the car with broken Coil Spring. We also provide free collection and Delivery service from your home. Book Your Car Service online for Coil Springs Repair.'
       },
       {
         name: 'keywords', 
-        content: 'coil springs, new coil spring, coil springs repair, coil springs replace, coil springs replacement'
+        content: 'coil springs, new coil spring, coil springs repair, coil springs replace, coil springs replacement, Broken Coil Spring, Free Collection and Delivery, Car Service'
       },
       {
         hid: 'og:title',
@@ -219,7 +219,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Coil Springs for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Coil Springs for all makes in Reading, United Kingdom. It is illegal and totally dangerous to drive the car with broken Coil Spring. We also provide free collection and Delivery service from your home. Book Your Car Service online for Coil Springs Repair."
       },
       {
         name: "twitter:card", 
@@ -231,7 +231,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Coil Springs for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Coil Springs for all makes in Reading, United Kingdom. It is illegal and totally dangerous to drive the car with broken Coil Spring. We also provide free collection and Delivery service from your home. Book Your Car Service online for Coil Springs Repair."
       },
       {
         name: "twitter:image", 

@@ -197,12 +197,12 @@ export default {
   },
 
   head: {
-    title: 'New Tyres',
+    title: 'New Tyres, tyre replacement | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Tyres for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'We repair and replace Tyres for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work get your tyre repair at many autos ltd you can also book your car’s tyre replacement services at Many Autos LTD.'
       },
       {
         name: 'keywords', 
@@ -211,7 +211,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "New Tyres | ManyAutos LTD"
+        content: "New Tyres, tyre replacement | ManyAutos LTD"
       },
       {
         hid: 'og:type',
@@ -235,7 +235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Tyres for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Tyres for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work get your tyre repair at many autos ltd you can also book your car’s tyre replacement services at Many Autos LTD."
       },
       {
         name: "twitter:card", 
@@ -243,11 +243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "New Tyres | ManyAutos LTD"
+        content: "New Tyres, tyre replacement | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Tyres for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Tyres for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work get your tyre repair at many autos ltd you can also book your car’s tyre replacement services at Many Autos LTD."
       },
       {
         name: "twitter:image", 

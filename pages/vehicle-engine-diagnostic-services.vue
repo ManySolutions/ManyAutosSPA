@@ -79,21 +79,21 @@ export default {
   },
 
   head: {
-    title: 'Free Car & Vehicle Diagnostics Test',
+    title: 'Vehicle Diagnostics Test | Many Autos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more.Our trained technicians quickly identify the problem and stop costly component failures.'
+        content: 'Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more. Our Experienced and expert car mechanic in Reading UK Identify  the problem and stop costly component failures of your car.'
       },
       {
         name: 'keywords', 
-        content: 'Free engine diagnostic test Reading,car engine diagnostic test,Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic Reading'
+        content: 'Free engine diagnostic test,car engine diagnostic test, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic Reading'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Free Car & Vehicle Diagnostics Test | ManyAutos LTD"
+        content: "Vehicle Diagnostics Test | Many Autos LTD"
       },
       {
         hid: 'og:type',
@@ -117,7 +117,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
+        content: "Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more. Our Experienced and expert car mechanic in Reading UK Identify  the problem and stop costly component failures of your car."
       },
       {
         name: "twitter:card", 
@@ -125,11 +125,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Free Car & Vehicle Diagnostics Test | ManyAutos LTD"
+        content: "Vehicle Diagnostics Test | Many Autos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
+        content: "Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more. Our Experienced and expert car mechanic in Reading UK Identify  the problem and stop costly component failures of your car."
       },
       {
         name: "twitter:image", 

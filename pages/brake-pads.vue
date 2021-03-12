@@ -305,21 +305,21 @@ export default {
   },
 
   head: {
-    title: 'Car Brake Pads | Automotive Replacement Brake Pads',
+    title: 'Car Brake Pads | Automotive Replacement Brake Pads | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Brake pads are one of the important safety features in all cars and it is important to understand them and what role they play.'
+        content: 'Brake pads are one of the important safety features in all cars and it is important to understand them and what role they play in safety of your car and your Family bring your car to Many Autos LTD Best car repair centre in UK for Brake Pads Repair or Brake Pads Replacement.'
       },
       {
         name: 'keywords', 
-        content: 'brake pads for life time, buy genuine brake pads, car disc brake, brake repair, types of brake calipers, brake pipe , brake services'
+        content: 'brake pads, buy genuine brake pads, car disc brake, brake repair, types of brake calipers, brake pipe , brake services, Brake Pads Repair, or Brake Pads Replacement, car repair centre in UK'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Car Brake Pads | Automotive Replacement Brake Pads"
+        content: "Car Brake Pads | Automotive Replacement Brake Pads | ManyAutos LTD"
       },
       {
         hid: 'og:type',
@@ -343,7 +343,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Brake pads are one of the important safety features in all cars and it is important to understand them and what role they play."
+        content: "Brake pads are one of the important safety features in all cars and it is important to understand them and what role they play in safety of your car and your Family bring your car to Many Autos LTD Best car repair centre in UK for Brake Pads Repair or Brake Pads Replacement."
       },
       {
         name: "twitter:card", 
@@ -351,11 +351,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Car Brake Pads | Automotive Replacement Brake Pads"
+        content: "Car Brake Pads | Automotive Replacement Brake Pads | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Brake pads are one of the important safety features in all cars and it is important to understand them and what role they play."
+        content: "Brake pads are one of the important safety features in all cars and it is important to understand them and what role they play in safety of your car and your Family bring your car to Many Autos LTD Best car repair centre in UK for Brake Pads Repair or Brake Pads Replacement."
       },
       {
         name: "twitter:image", 

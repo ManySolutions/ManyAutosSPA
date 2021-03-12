@@ -194,12 +194,12 @@ export default {
   },
 
   head: {
-    title: 'Brake Servo',
+    title: 'Brake Servo | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Brake Servo for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work'
+        content: 'We repair and replace Brake Servo for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work so just Visit Many Autos Website and Book your Free Collection Services online for Quality Brake Servo replacement in Reading.'
       },
       {
         name: 'keywords', 
@@ -232,7 +232,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Brake Servo for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work"
+        content: "We repair and replace Brake Servo for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work so just Visit Many Autos Website and Book your Free Collection Services online for Quality Brake Servo replacement in Reading."
       },
       {
         name: "twitter:card", 
@@ -244,7 +244,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Servo for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work"
+        content: "We repair and replace Brake Servo for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work so just Visit Many Autos Website and Book your Free Collection Services online for Quality Brake Servo replacement in Reading."
       },
       {
         name: "twitter:image", 

@@ -162,7 +162,7 @@ export default {
   },
 
   head: {
-    title: 'Collection and delivery',
+    title: 'Collection and delivery | ManyAutos LTD',
 
     meta: [
       {
@@ -171,7 +171,7 @@ export default {
       },
       {
         name: 'keywords', 
-        content: 'free collection, free delivery, free collection and delivery, collection and delivery, free vehicle collection, free vehicle delivery, free collection and delivery with Mot, free collection and delivery with service'
+        content: 'free collection, free delivery, free collection and delivery, collection and delivery, free vehicle collection, free vehicle delivery, free collection and delivery with Mot, free collection and delivery with service, Book Your Service Online'
       },
       {
         hid: 'og:title',

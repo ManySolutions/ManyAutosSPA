@@ -212,24 +212,24 @@ export default {
   },
 
   head: {
-    title: "Refer A Friend And Earn £10 | ManyAutos LTD",
+    title: "Earn £10 | refer A Friend And Earn £10",
 
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Any successful referral will earn you £10. Don't hesitate to start. Share your unique link or refer via email and start earning £10 with ManyAutosLTD",
+          "Don’t miss a chance to Earn £10 Daily By Referring any Friend or Family to bring their car for car repair and servicing Successful referral will get £10 avail this Bumper Offer from Many Autos LTD Automotive car repair servicing and Garage in Reading UK  ",
       },
       {
         name: "keywords",
         content:
-          "many autos ltd, refer a friend, earn money, earn £10, automotive service,car services,full car service,garage service",
+          "many autos ltd, refer a friend, earn money, earn £10, automotive service, car repair servicing and Garage in Reading UK",
       },
       {
         hid: 'og:title',
         property: "og:title",
-        content: "Refer A Friend And Earn £10 | ManyAutos LTD",
+        content: "Earn £10 | refer A Friend And Earn £10",
       },
       {
         hid: 'og:type',
@@ -255,7 +255,7 @@ export default {
         hid: "og:description",
         property: "og:description",
         content:
-          "Any successful referral will earn you £10. Don't hesitate to start. Share your unique link or refer via email and start earning £10 with ManyAutosLTD",
+          "Don’t miss a chance to Earn £10 Daily By Referring any Friend or Family to bring their car for car repair and servicing Successful referral will get £10 avail this Bumper Offer from Many Autos LTD Automotive car repair servicing and Garage in Reading UK  ",
       },
       {
         name: "twitter:card",
@@ -263,12 +263,12 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Refer A Friend And Earn £10 | ManyAutos LTD",
+        content: "Earn £10 | refer A Friend And Earn £10",
       },
       {
         name: "twitter:description",
         content:
-          "Any successful referral will earn you £10. Don't hesitate to start. Share your unique link or refer via email and start earning £10 with ManyAutosLTD",
+          "Don’t miss a chance to Earn £10 Daily By Referring any Friend or Family to bring their car for car repair and servicing Successful referral will get £10 avail this Bumper Offer from Many Autos LTD Automotive car repair servicing and Garage in Reading UK  ",
       },
       {
         name: "twitter:image",

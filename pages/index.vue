@@ -154,24 +154,24 @@ export default {
   },
 
   head: {
-    title: "Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance",
+    title: " Car Servicing, MOT Centre, car mechanic",
 
     meta: [
       {
         hid: 'description', name: 'description',
         content:
-          "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
+          "The most trusted car repair and mot centre, with best car servicing and professional car mechanic near your area. We’ll pick your car, service it and deliver it back for free. Book car service online now",
       },
       {
         name: "keywords",
         content:
-          "car services, car maintenance, vehicle repair, car repair, car mechanic, car garage in uk, online repair center, Mot and repair center",
+          "Car servicing,  car mechanic , vehicle repair, car repair, car mechanic, car garage in uk, online repair center, MOT center",
       },
       {
         hid: 'og:title',
         property: "og:title",
         content:
-          "Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance",
+          " Car Servicing, MOT Centre, car mechanic",
       },
       {
         hid: 'og:type',
@@ -197,7 +197,7 @@ export default {
       {
         hid: 'og:description',  property: 'og:description',
         content:
-          "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
+          "The most trusted car repair and mot centre, with best car servicing and professional car mechanic near your area. We’ll pick your car, service it and deliver it back for free. Book car service online now",
       },
       {
         name: "twitter:card",
@@ -206,12 +206,12 @@ export default {
       {
         name: "twitter:title",
         content:
-          "Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance",
+          " Car Servicing, MOT Centre, car mechanic",
       },
       {
         name: "twitter:description",
         content:
-          "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
+          "The most trusted car repair and mot centre, with best car servicing and professional car mechanic near your area. We’ll pick your car, service it and deliver it back for free. Book car service online now",
       },
       {
         name: "twitter:image",

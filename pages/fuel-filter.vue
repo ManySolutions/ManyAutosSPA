@@ -207,21 +207,21 @@ export default {
   },
 
   head: {
-    title: 'Fuel Filter',
+    title: 'Fuel Filter | fuel filter replacement',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Fuel Filter for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Fuel Filter is very Important for your car’s Fuel Average Fuel Filter Helps Prevent Dust in Fuel To keep Good Fuel Average of your car you need to Bring your car for Fuel Filter or Fuel Filter Replacement one in a month at best car Servicing Garage in UK Many Autos Provide Best Quality new Fuel Filter which keeps your car Fuel Clean.'
       },
       {
         name: 'keywords', 
-        content: 'fuel filter, new fuel filter, fuel filter replace, fuel filter replacement'
+        content: 'fuel filter, new fuel filter, fuel filter replace, fuel filter replacement, car servicing garage'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Fuel Filter | ManyAutos LTD"
+        content: "Fuel Filter | fuel filter replacement"
       },
       {
         hid: 'og:type',
@@ -245,7 +245,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Fuel Filter for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Fuel Filter is very Important for your car’s Fuel Average Fuel Filter Helps Prevent Dust in Fuel To keep Good Fuel Average of your car you need to Bring your car for Fuel Filter or Fuel Filter Replacement one in a month at best car Servicing Garage in UK Many Autos Provide Best Quality new Fuel Filter which keeps your car Fuel Clean."
       },
       {
         name: "twitter:card", 
@@ -253,11 +253,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Fuel Filter | ManyAutos LTD"
+        content: "Fuel Filter | fuel filter replacement"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Fuel Filter for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Fuel Filter is very Important for your car’s Fuel Average Fuel Filter Helps Prevent Dust in Fuel To keep Good Fuel Average of your car you need to Bring your car for Fuel Filter or Fuel Filter Replacement one in a month at best car Servicing Garage in UK Many Autos Provide Best Quality new Fuel Filter which keeps your car Fuel Clean."
       },
       {
         name: "twitter:image", 

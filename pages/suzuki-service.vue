@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Suzuki Service',
+    title: 'Suzuki Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Suzuki service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Save your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Suzuki servicing in Reading. You can select recommended package Suzuki major Service, Suzuki full Service, Suzuki interim Service, Suzuki MOT or select from additional service you required from our provided list.'
       },
       {
         name: 'keywords', 
-        content: 'Suzuki service, Suzuki service deal in Reading, Suzuki full services,Suzuki full services  in Reading, Suzuki interim service, Suzuki major service deal in Reading, Suzuki servicing in Reading, car service, car servicing, car services'
+        content: 'Suzuki service, Suzuki major Service, Suzuki full Service, Suzuki interim Service, Suzuki MOT, Suzuki servicing in Reading, car service, car servicing, car services, Many Autos LTD'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Suzuki service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Suzuki servicing in Reading. You can select recommended package Suzuki major Service, Suzuki full Service, Suzuki interim Service, Suzuki MOT or select from additional service you required from our provided list."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Suzuki service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Suzuki servicing in Reading. You can select recommended package Suzuki major Service, Suzuki full Service, Suzuki interim Service, Suzuki MOT or select from additional service you required from our provided list."
       },
       {
         name: "twitter:image", 

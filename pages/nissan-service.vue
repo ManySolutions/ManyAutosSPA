@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Nissan Service',
+    title: 'Nissan Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Nissan service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Finding car garage for your mighty Nissan full service? Many Autos as the Best car repair garage in Reading Offering Nissan interim service, Nissan major service we deal Nissan servicing in Reading bring your car at Many Autos LTD for car service and repair.'
       },
       {
         name: 'keywords', 
-        content: 'Nissan service, Nissan service deal in Reading, Nissan full services,Nissan full services  in Reading, Nissan interim service, Nissan major service deal in Reading, Nissan servicing in Reading, car service, car servicing, car services'
+        content: 'Nissan service, Nissan service deal in Reading, Nissan full service,Nissan full services in Reading, Nissan interim service, Nissan major service, Nissan servicing in Reading, Nissan servicing in Reading, car service, car servicing, car services'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Nissan service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Finding car garage for your mighty Nissan full service? Many Autos as the Best car repair garage in Reading Offering Nissan interim service, Nissan major service we deal Nissan servicing in Reading bring your car at Many Autos LTD for car service and repair."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Nissan service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Finding car garage for your mighty Nissan full service? Many Autos as the Best car repair garage in Reading Offering Nissan interim service, Nissan major service we deal Nissan servicing in Reading bring your car at Many Autos LTD for car service and repair."
       },
       {
         name: "twitter:image", 

@@ -390,12 +390,12 @@ export default {
   },
 
   head: {
-    title: 'Starter Motor Replacement, Repair, Service',
+    title: 'Starter Motor Replacement service | Many Autos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos aim to provide you the best prices for the starter motor replacement through out the UK.  Our centres are highly qualified to deal with any starter motor issues  with your vehicle. New starter motor fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)'
+        content: 'Many Autos aim to provide you the best prices for the starter motor replacement throughout the UK.  Our centres are highly qualified to deal with any starter motor issues with your vehicle. New starter motor fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). We Also Provide Free Collection and Delivery services for Starter motor repair '
       },
       {
         name: 'keywords', 
@@ -404,7 +404,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Starter Motor Replacement, Repair, Service | ManyAutos LTD"
+        content: "Starter Motor Replacement service | Many Autos LTD"
       },
       {
         hid: 'og:type',
@@ -428,7 +428,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos aim to provide you the best prices for the starter motor replacement through out the UK.  Our centres are highly qualified to deal with any starter motor issues  with your vehicle. New starter motor fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
+        content: "Many Autos aim to provide you the best prices for the starter motor replacement throughout the UK.  Our centres are highly qualified to deal with any starter motor issues with your vehicle. New starter motor fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). We Also Provide Free Collection and Delivery services for Starter motor repair "
       },
       {
         name: "twitter:card", 
@@ -436,11 +436,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Starter Motor Replacement, Repair, Service | ManyAutos LTD"
+        content: "Starter Motor Replacement service | Many Autos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos aim to provide you the best prices for the starter motor replacement through out the UK.  Our centres are highly qualified to deal with any starter motor issues  with your vehicle. New starter motor fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
+        content: "Many Autos aim to provide you the best prices for the starter motor replacement throughout the UK.  Our centres are highly qualified to deal with any starter motor issues with your vehicle. New starter motor fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). We Also Provide Free Collection and Delivery services for Starter motor repair "
       },
       {
         name: "twitter:image", 

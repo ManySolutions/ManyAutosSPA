@@ -217,12 +217,12 @@ export default {
   },
 
   head: {
-    title: 'Head Gasket',
+    title: 'Head Gasket Replacement | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Head Gasket for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'We repair and replace Head Gasket for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work to get services of head gasket replacement Book your car repair services online at many autos LTD.'
       },
       {
         name: 'keywords', 
@@ -231,7 +231,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Head Gasket | ManyAutos LTD"
+        content: "Head Gasket Replacement | ManyAutos LTD"
       },
       {
         hid: 'og:type',
@@ -255,7 +255,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Head Gasket for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Head Gasket for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work to get services of head gasket replacement Book your car repair services online at many autos LTD."
       },
       {
         name: "twitter:card", 
@@ -263,11 +263,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Head Gasket | ManyAutos LTD"
+        content: "Head Gasket Replacement  | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Head Gasket for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace Head Gasket for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work to get services of head gasket replacement Book your car repair services online at many autos LTD."
       },
       {
         name: "twitter:image", 

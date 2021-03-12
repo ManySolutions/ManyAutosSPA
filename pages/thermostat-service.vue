@@ -358,12 +358,12 @@ export default {
   },
 
   head: {
-    title: 'Thermostat Replacement, Repair, Service',
+    title: 'Thermostat Replacement | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos aim to provide you the best prices for the thermostat replacement through out the UK.  Our centres are highly qualified to deal with any thermostat issues  with your vehicle. New thermostat fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)'
+        content: 'Many Autos aim to provide you the best prices for the thermostat replacement throughout the UK.  Our centres are highly qualified to deal with any thermostat issues with your vehicle. New thermostat fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first Book your car’s Thermostat repair service online'
       },
       {
         name: 'keywords', 
@@ -372,7 +372,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Thermostat Replacement, Repair, Service | ManyAutos LTD"
+        content: "Thermostat Replacement | ManyAutos LTD"
       },
       {
         hid: 'og:type',
@@ -396,7 +396,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos aim to provide you the best prices for the thermostat replacement through out the UK.  Our centres are highly qualified to deal with any thermostat issues  with your vehicle. New thermostat fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
+        content: "Many Autos aim to provide you the best prices for the thermostat replacement throughout the UK.  Our centres are highly qualified to deal with any thermostat issues with your vehicle. New thermostat fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first Book your car’s Thermostat repair service online"
       },
       {
         name: "twitter:card", 
@@ -404,11 +404,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Thermostat Replacement, Repair, Service | ManyAutos LTD"
+        content: "Thermostat Replacement | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos aim to provide you the best prices for the thermostat replacement through out the UK.  Our centres are highly qualified to deal with any thermostat issues  with your vehicle. New thermostat fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
+        content: "Many Autos aim to provide you the best prices for the thermostat replacement throughout the UK.  Our centres are highly qualified to deal with any thermostat issues with your vehicle. New thermostat fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first Book your car’s Thermostat repair service online"
       },
       {
         name: "twitter:image", 

@@ -180,7 +180,7 @@ export default {
   },
 
   head: {
-    title: "Register Your Garage",
+    title: "Register Your Garage | ManyAutos LTD",
 
     meta: [
       {

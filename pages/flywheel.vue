@@ -317,21 +317,21 @@ export default {
   },
 
   head: {
-    title: 'Flywheel Replacement',
+    title: 'Flywheel Replacement | flywheel repair',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos aim to provide you the best prices for the flywheel replacement through out the UK.  Our centres are highly qualified to deal with any flywheel  issues  with your vehicle. New flywheel fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)'
+        content: 'Many Autos aim to provide you the best prices for the flywheel replacement throughout the UK.  Our centres are highly qualified to deal with any flywheel issues with your vehicle. New flywheel fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first) so BOOK your Online Car services at Many Autos LTD for Flywheel Repair and Replacement you can also avail free Service of Free Collection and Delivery'
       },
       {
         name: 'keywords', 
-        content: 'new flywheel, flywheel diagnostic, flywheel repair, flywheel replacement, free collection and delivery'
+        content: 'new flywheel, flywheel diagnostic, flywheel repair, flywheel replacement, free collection and delivery ,car service'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Flywheel Replacement | ManyAutos LTD"
+        content: "Flywheel Replacement | flywheel repair"
       },
       {
         hid: 'og:type',
@@ -355,7 +355,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos aim to provide you the best prices for the flywheel replacement through out the UK.  Our centres are highly qualified to deal with any flywheel  issues  with your vehicle. New flywheel fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
+        content: "Many Autos aim to provide you the best prices for the flywheel replacement throughout the UK.  Our centres are highly qualified to deal with any flywheel issues with your vehicle. New flywheel fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first) so BOOK your Online Car services at Many Autos LTD for Flywheel Repair and Replacement you can also avail free Service of Free Collection and Delivery"
       },
       {
         name: "twitter:card", 
@@ -363,11 +363,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Flywheel Replacement | ManyAutos LTD"
+        content: "Flywheel Replacement | flywheel repair"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos aim to provide you the best prices for the flywheel replacement through out the UK.  Our centres are highly qualified to deal with any flywheel  issues  with your vehicle. New flywheel fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
+        content: "Many Autos aim to provide you the best prices for the flywheel replacement throughout the UK.  Our centres are highly qualified to deal with any flywheel issues with your vehicle. New flywheel fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first) so BOOK your Online Car services at Many Autos LTD for Flywheel Repair and Replacement you can also avail free Service of Free Collection and Delivery"
       },
       {
         name: "twitter:image", 

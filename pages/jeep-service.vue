@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Jeep Service',
+    title: 'Jeep Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Jeep service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Jeep servicing in Reading. You can select our package For Jeep major Service, Jeep full Service, Jeep interim Service, Jeep MOT or you can select from additional service you required For Your Jeep makes and Models.'
       },
       {
         name: 'keywords', 
-        content: 'Jeep service, Jeep service deal in Reading, Jeep full services,Jeep full services  in Reading, Jeep interim service, Jeep major service deal in Reading, Jeep servicing in Reading, car service, car servicing, car services'
+        content: 'Jeep service, Jeep major Service, Jeep full Service, Jeep interim Service, Jeep MOT, Jeep servicing in Reading, car service, car servicing, car services, Jeep makes and Models'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Jeep service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Jeep servicing in Reading. You can select our package For Jeep major Service, Jeep full Service, Jeep interim Service, Jeep MOT or you can select from additional service you required For Your Jeep makes and Models."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Jeep service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Jeep servicing in Reading. You can select our package For Jeep major Service, Jeep full Service, Jeep interim Service, Jeep MOT or you can select from additional service you required For Your Jeep makes and Models."
       },
       {
         name: "twitter:image", 

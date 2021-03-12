@@ -142,21 +142,21 @@ export default {
   },
 
   head: {
-    title: 'Suspension Arm',
+    title: 'Suspension Arm | Suspension arm repair ',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace suspension arm for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'If you are Looking for Suspension arm Repair or Suspension arm Replacement than Bring your car at Many Autos LTD we Provide Suspension arm Repair and replacement services of all makes and models you can also avail our Free collection and delivery services.'
       },
       {
         name: 'keywords', 
-        content: 'suspension arm, suspension bush , wishbone Arm , lower arm , suspension arm bush, suspension pin  bush,'
+        content: 'suspension arm, suspension bush , wishbone Arm , lower arm , suspension arm bush, suspension pin  bush, Suspension arm Replacement, Suspension arm Repair'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Suspension Arm | ManyAutos LTD"
+        content: "Suspension Arm | Suspension arm repair"
       },
       {
         hid: 'og:type',
@@ -180,7 +180,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace suspension arm for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "If you are Looking for Suspension arm Repair or Suspension arm Replacement than Bring your car at Many Autos LTD we Provide Suspension arm Repair and replacement services of all makes and models you can also avail our Free collection and delivery services."
       },
       {
         name: "twitter:card", 
@@ -188,11 +188,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Suspension Arm | ManyAutos LTD"
+        content: "Suspension Arm | Suspension arm repair"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace suspension arm for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "If you are Looking for Suspension arm Repair or Suspension arm Replacement than Bring your car at Many Autos LTD we Provide Suspension arm Repair and replacement services of all makes and models you can also avail our Free collection and delivery services."
       },
       {
         name: "twitter:image", 

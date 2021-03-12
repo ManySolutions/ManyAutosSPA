@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Volvo Service',
+    title: 'Volvo Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Volvo service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Need Volvo services near your Area? Bring your Volvo at Many Autos LTD for Best Volvo Interim Service, Volvo major service, Volvo full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Volvo servicing in Reading UK.'
       },
       {
         name: 'keywords', 
-        content: 'volvo service, volvo service deal in Reading, volvo full services,volvo full services  in Reading, volvo interim service, volvo major service deal in Reading, volvo servicing in Reading, car service, car servicing, car services'
+        content: 'Volvo services, Volvo, Volvo Interim Service, Volvo major service, Volvo full service in Reading UK, car repair service, free collection and delivery services'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Volvo service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Need Volvo services near your Area? Bring your Volvo at Many Autos LTD for Best Volvo Interim Service, Volvo major service, Volvo full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Volvo servicing in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Volvo service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Need Volvo services near your Area? Bring your Volvo at Many Autos LTD for Best Volvo Interim Service, Volvo major service, Volvo full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Volvo servicing in Reading UK."
       },
       {
         name: "twitter:image", 

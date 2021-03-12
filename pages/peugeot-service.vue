@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Peugoet Service',
+    title: 'Peugoet Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Peugoet service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Need Peugeot services near your Area? Bring your Peugeot at Many Autos LTD for Best Peugeot Interim Service, Peugeot major service Peugeot full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Peugeot servicing in Reading UK.'
       },
       {
         name: 'keywords', 
-        content: 'peugoet service, peugoet service deal in Reading, peugoet full services,peugoet full services  in Reading, peugoet interim service, peugoet major service deal in Reading, peugoet servicing in Reading, car service, car servicing, car services'
+        content: 'Peugeot services, Peugeot, Peugeot Interim Service, Peugeot major service, Peugeot full service in Reading UK, Peugeot servicing in Reading UK'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Peugoet service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Need Peugeot services near your Area? Bring your Peugeot at Many Autos LTD for Best Peugeot Interim Service, Peugeot major service Peugeot full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Peugeot servicing in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Peugoet service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Need Peugeot services near your Area? Bring your Peugeot at Many Autos LTD for Best Peugeot Interim Service, Peugeot major service Peugeot full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Peugeot servicing in Reading UK."
       },
       {
         name: "twitter:image", 

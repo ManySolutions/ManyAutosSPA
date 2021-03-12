@@ -25,28 +25,28 @@
                     <v-col>
                       <h4 class="mb-1"></h4>
                       <strong>
-                        <h1>Ford B-MAX</h1>
+                        <h1>{{vehicle.mot_history[0].make}} {{vehicle.mot_history[0].model}}</h1>
                       </strong>
                     </v-col>
                   </v-row>
                   <v-row>
                     <v-col>
                       <h4 class="mb-1">Colour</h4>
-                      <h3>Silver</h3>
+                      <h3>{{vehicle.mot_history[0].primaryColour}}</h3>
                     </v-col>
                     <v-col>
                       <h4 class="mb-1">Fuel Type</h4>
-                      <h3>Petrol</h3>
+                      <h3>{{vehicle.mot_history[0].fuelType}}</h3>
                     </v-col>
                   </v-row>
                   <v-row>
                     <v-col>
                       <h4 class="mb-1">Date Registered</h4>
-                      <h3>08/07/2014</h3>
+                      <h3>{{vehicle.mot_history[0].firstUsedDate}}</h3>
                     </v-col>
                     <v-col>
                       <h4 class="mb-1">MOT Valid Until</h4>
-                      <h3>07/07/2021</h3>
+                      <h3>{{vehicle.expiry_date}}</h3>
                     </v-col>
                   </v-row>
                 </v-col>
@@ -66,8 +66,8 @@
                       </v-icon>
                       <span>MOT</span>
                     </div>
-                    <p>Days until next MOT is Due</p>
-                    <h2 class="mb-5">124 days</h2>
+                    <p>Current MOT has</p>
+                    <h2 class="mb-5">{{vehicle.next_mot_pending_in}}</h2>
                     <!-- <div class="btn-expiry mt-5">
                       <v-btn
                         class="ma-2"
@@ -91,6 +91,11 @@
 
     <v-container>
       <v-row>
+        <v-col cols="12" class="mot-heading text-center">
+          <div>
+          <h1>MOT History</h1>
+        </div>
+        </v-col>
         <v-col cols="12" lg="8" class="m-auto">
           <v-row>
             <v-col cols="12" class="panels">
@@ -99,10 +104,10 @@
                   <v-expansion-panel-header>
                     <v-row>
                       <v-col cols="6">
-                        <span class="date-top">10 June 2021</span>
+                        <span class="date-top">{{vehicle.mot_history[0].motTests[0].completedDate}}</span>
                       </v-col>
                       <v-col cols="6" class="status-top text-right pr-5">
-                        <span>Pass</span>
+                        <span>{{vehicle.mot_history[0].motTests[0].testResult}}</span>
                       </v-col>
                     </v-row>
                   </v-expansion-panel-header>
@@ -110,20 +115,21 @@
                     <v-row>
                       <v-col cols="12" sm="6">
                         <div class="pass-heading">
-                          <h1>Pass</h1>
+                          <h1>{{vehicle.mot_history[0].motTests[0].testResult}}</h1>
                         </div>
                       </v-col>
                       <v-col cols="12" sm="6">
                         <v-row>
-                          <v-col cols="6">
-                            <p class="vehicle-property">Milage</p>
+                          <v-col cols="6">                            
                             <p class="vehicle-property">MOT Test Num</p>
                             <p class="vehicle-property">Expiry Date</p>
+                            <p class="vehicle-property">Comments</p>
                           </v-col>
-                          <v-col cols="6">
-                            <p class="vehicle-property-value">7491 mi</p>
-                            <p class="vehicle-property-value">187696302039</p>
-                            <p class="vehicle-property-value">10 June 2021</p>
+                          <v-col cols="6">                            
+                            <p class="vehicle-property-value">{{vehicle.mot_history[0].motTests[0].motTestNumber}}</p>
+                            <p class="vehicle-property-value">{{vehicle.mot_history[0].motTests[0].expiryDate}}</p>
+                            <p class="vehicle-property-value"><strong>Text:</strong>{{vehicle.mot_history[0].motTests[0].rfrAndComments[0].text}}</p>
+                            <p class="vehicle-property-value"><strong>Type:</strong>{{vehicle.mot_history[0].motTests[0].rfrAndComments[0].type}}</p>
                           </v-col>
                         </v-row>
                       </v-col>
@@ -134,10 +140,10 @@
                   <v-expansion-panel-header>
                     <v-row>
                       <v-col cols="6">
-                        <span class="date-top-fail">10 June 2021</span>
+                        <span class="date-top-fail">{{vehicle.mot_history[0].motTests[2].completedDate}}</span>
                       </v-col>
                       <v-col cols="6" class="status-top-fail text-right pr-5">
-                        <span>Fail</span>
+                        <span>{{vehicle.mot_history[0].motTests[2].testResult}}</span>
                       </v-col>
                     </v-row>
                   </v-expansion-panel-header>
@@ -145,20 +151,21 @@
                     <v-row>
                       <v-col cols="12" sm="6">
                         <div class="pass-heading-fail">
-                          <h1>Fail</h1>
+                          <h1>{{vehicle.mot_history[0].motTests[2].testResult}}</h1>
                         </div>
                       </v-col>
                       <v-col cols="12" sm="6">
                         <v-row>
                           <v-col cols="6">
-                            <p class="vehicle-property">Milage</p>
-                            <p class="vehicle-property">MOT Test Num</p>
+                             <p class="vehicle-property">MOT Test Num</p>
                             <p class="vehicle-property">Expiry Date</p>
+                            <p class="vehicle-property">Comments</p>
                           </v-col>
                           <v-col cols="6">
-                            <p class="vehicle-property-value">7491 mi</p>
-                            <p class="vehicle-property-value">187696302039</p>
-                            <p class="vehicle-property-value">10 June 2021</p>
+                            <p class="vehicle-property-value">{{vehicle.mot_history[0].motTests[2].motTestNumber}}</p>
+                            <p class="vehicle-property-value">{{vehicle.mot_history[0].motTests[2].expiryDate}}</p>
+                            <p class="vehicle-property-value"><strong>Text:</strong>{{vehicle.mot_history[0].motTests[2].rfrAndComments[0].text}}</p>
+                            <p class="vehicle-property-value"><strong>Type:</strong>{{vehicle.mot_history[0].motTests[2].rfrAndComments[0].type}}</p>
                           </v-col>
                         </v-row>
                       </v-col>
@@ -201,6 +208,11 @@ import SubscribePopup from '~/components/func-components/subscribe-popup.vue';
         },
       ],
     }),
+    async asyncData({ app }) {
+        const vehicle = await app.$axios.$get('http://staging-v32020.manyautos.co.uk/api/v2/c/vehicle/last-mot-detail/HY59Xoo');
+        return { vehicle };
+    },
+   
   }
 </script>
 
@@ -265,6 +277,9 @@ import SubscribePopup from '~/components/func-components/subscribe-popup.vue';
 }
 .car-mot-details .panels .pass-heading-fail {
   color: red;
+}
+.car-mot-details .mot-heading {
+  color: #464646;
 }
 ::v-deep .theme--light.v-breadcrumbs .v-breadcrumbs__item--disabled {
   color: #fff;

@@ -242,21 +242,21 @@ export default {
   },
 
   head: {
-    title: 'Scraping your car',
+    title: 'Craping your car | Unwanted Cars ',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Car key arm for all makes and models in United Kingdom.'
+        content: 'Looking to scrap your car in Reading? Many Autos LTD Scrap and Crap Unwanted cars of all makes and Models in Reading UK we will collect your car for craping from your home or Workplace just book your online car service to get rid of your unwanted cars  and Many Autos Pay cash for your unwanted scrap car.'
       },
       {
         name: 'keywords', 
-        content: 'Scraping your car, Cash paid for unwanted cars, Cash paid for unwanted car Aldershot, Cash paid for unwanted car Basingstoke, Cash paid for unwanted car Bracknell, Cash paid for unwanted car Bradfield, Cash paid for unwanted car Farnborough, Cash paid for unwanted car Goring,, Cash paid for unwanted car Henley-on-Thames, Cash paid for unwanted car Newbury, Cash paid for unwanted car Maidenhead, Cash paid for unwanted carh Pangbourne, Cash paid for unwanted car Reading, Cash paid for unwanted car Sonning, ACash paid for unwanted car Spencers Wood, Cash paid for unwanted car Thatcham,Cash paid for unwanted car Twyford, Cash paid for unwanted car Wokingham, Cash paid for unwanted car Woking, Cash paid for unwanted car woodley, Cash paid for Scrap car,Cash paid for unwanted car,unwanted car collection,'
+        content: 'Scraping your car, Cash paid for unwanted cars, Scrap your car, Unwanted cars '
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Scraping your car | ManyAutos LTD"
+        content: "Craping your car | Unwanted Cars"
       },
       {
         hid: 'og:type',
@@ -280,7 +280,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Car key arm for all makes and models in United Kingdom."
+        content: "Looking to scrap your car in Reading? Many Autos LTD Scrap and Crap Unwanted cars of all makes and Models in Reading UK we will collect your car for craping from your home or Workplace just book your online car service to get rid of your unwanted cars  and Many Autos Pay cash for your unwanted scrap car."
       },
       {
         name: "twitter:card", 
@@ -288,11 +288,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Scraping your car | ManyAutos LTD"
+        content: "Craping your car | Unwanted Cars"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Car key arm for all makes and models in United Kingdom."
+        content: "Looking to scrap your car in Reading? Many Autos LTD Scrap and Crap Unwanted cars of all makes and Models in Reading UK we will collect your car for craping from your home or Workplace just book your online car service to get rid of your unwanted cars  and Many Autos Pay cash for your unwanted scrap car."
       },
       {
         name: "twitter:image", 

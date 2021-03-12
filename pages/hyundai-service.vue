@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Hyundai Service',
+    title: 'Hyundai Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Hyundai service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Hyundai interim service, Hyundai major service we deal Hyundai servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Hyundai. Book Your Car Service online through manyautosltd.com'
       },
       {
         name: 'keywords', 
-        content: 'hyundai service, hyundai service deal in Reading, hyundai full services,hyundai full services  in Reading, hyundai interim service, hyundai major service deal in Reading, hyundai servicing in Reading, car service, car servicing, car services'
+        content: 'Hyundai service, car garage , Car Repair Company in Reading, Hyundai interim service, Hyundai major service, Hyundai servicing in Reading, car service, car servicing, car services, car service and repair'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Hyundai service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Hyundai interim service, Hyundai major service we deal Hyundai servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Hyundai. Book Your Car Service online through manyautosltd.com"
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Hyundai service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Hyundai interim service, Hyundai major service we deal Hyundai servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Hyundai. Book Your Car Service online through manyautosltd.com"
       },
       {
         name: "twitter:image", 

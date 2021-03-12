@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Seat Service',
+    title: 'Seat Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Seat service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Seat service. You can select recommended package (major Service, full Service, interim Service, MOT) or select from additional service you required from our provided list visit our website for quality seat major service in Reading UK.'
       },
       {
         name: 'keywords', 
-        content: 'seat service, seat service deal in Reading, seat full services,seat full services  in Reading, seat interim service, seat major service deal in Reading, seat servicing in Reading, car service, car servicing, car services'
+        content: 'Seat service, major Service, full Service, interim Service, MOT, seat major service in Reading UK'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Seat service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Seat service. You can select recommended package (major Service, full Service, interim Service, MOT) or select from additional service you required from our provided list visit our website for quality seat major service in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Seat service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Seat service. You can select recommended package (major Service, full Service, interim Service, MOT) or select from additional service you required from our provided list visit our website for quality seat major service in Reading UK."
       },
       {
         name: "twitter:image", 

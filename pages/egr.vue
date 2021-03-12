@@ -207,21 +207,21 @@ export default {
   },
 
   head: {
-    title: 'EGR',
+    title: 'EGR Valve Replacement  | EGR Valve Repair',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace EGR valve for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos Provide Quality services of EGR valve, EGR Valve repair Many Autos Aim is to Provide Best car repair Services to Our Customer bring your car at the best car garage in Reading United Kingdom for EGR Valve Replacement.'
       },
       {
         name: 'keywords', 
-        content: 'egr, exhaust gas recirculation, egr valve, new egr valve, egr valve repair, egr valve replace, egr valve replacement'
+        content: 'exhaust gas recirculation, egr valve, new egr valve, egr valve repair, egr valve replace, egr valve replacement, Car Garage in Reading, Car Repair Services'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "EGR | ManyAutos LTD"
+        content: "EGR Valve Replacement  | EGR Valve Repair"
       },
       {
         hid: 'og:type',
@@ -245,7 +245,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace EGR valve for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos Provide Quality services of EGR valve, EGR Valve repair Many Autos Aim is to Provide Best car repair Services to Our Customer bring your car at the best car garage in Reading United Kingdom for EGR Valve Replacement."
       },
       {
         name: "twitter:card", 
@@ -253,11 +253,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "EGR | ManyAutos LTD"
+        content: "EGR Valve Replacement  | EGR Valve Repair"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace EGR valve for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos Provide Quality services of EGR valve, EGR Valve repair Many Autos Aim is to Provide Best car repair Services to Our Customer bring your car at the best car garage in Reading United Kingdom for EGR Valve Replacement."
       },
       {
         name: "twitter:image", 

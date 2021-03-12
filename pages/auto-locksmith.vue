@@ -173,17 +173,17 @@ export default {
   },
 
   head: {
-    title: 'Auto Locksmith',
+    title: 'Auto Locksmith | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description',
         name: 'description', 
-        content: 'We repair and replace Car key arm for all makes and models in United Kingdom.'
+        content: 'Locked Out of your Car? Contact Many Autos LTD Best Auto Locksmith in Reading UK and in surrounding areas we cover Different Areas of UK Basingstoke, Bracknell, Bradfield and Many more You can also get Free Quote online.'
       },
       {
         name: 'keywords', 
-        content: 'Car key, Locksmith, Auto Locksmith, Auto Locksmith Aldershot, Auto Locksmith Basingstoke, Auto Locksmith Bracknell, Auto Locksmith Bradfield, Auto Locksmith Farnborough, Auto Locksmith Goring,, Auto Locksmith Henley-on-Thames, Auto Locksmith Newbury, Auto Locksmith Maidenhead, Auto Locksmith Pangbourne, Auto Locksmith Reading, Auto Locksmith Sonning, Auto Locksmith Spencers Wood, Auto Locksmith Thatcham,Auto Locksmith Twyford, Auto Locksmith Wokingham, Auto Locksmith Woking, Auto Locksmith woodley,'
+        content: 'Car key, Locksmith, Auto Locksmith, Auto Locksmith Aldershot, Auto Locksmith Basingstoke, Auto Locksmith Bracknell, Auto Locksmith Bradfield, Auto Locksmith Farnborough, Auto Locksmith Goring,, Auto Locksmith Henley-on-Thames, Auto Locksmith Newbury, Auto Locksmith Maidenhead, Auto Locksmith Pangbourne, Auto Locksmith Reading, Auto Locksmith Sonning, Auto Locksmith Spencers Wood, Auto Locksmith Thatcham,Auto Locksmith Twyford, Auto Locksmith Wokingham, Auto Locksmith Woking, Auto Locksmith Woodley, Free Quote'
       },
       {
         hid: 'og:title',
@@ -212,7 +212,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Car key arm for all makes and models in United Kingdom."
+        content: "Locked Out of your Car? Contact Many Autos LTD Best Auto Locksmith in Reading UK and in surrounding areas we cover Different Areas of UK Basingstoke, Bracknell, Bradfield and Many more You can also get Free Quote online."
       },
       {
         name: "twitter:card", 
@@ -224,7 +224,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Car key arm for all makes and models in United Kingdom."
+        content: "Locked Out of your Car? Contact Many Autos LTD Best Auto Locksmith in Reading UK and in surrounding areas we cover Different Areas of UK Basingstoke, Bracknell, Bradfield and Many more You can also get Free Quote online."
       },
       {
         name: "twitter:image", 

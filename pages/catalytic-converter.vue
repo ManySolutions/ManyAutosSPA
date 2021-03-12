@@ -170,12 +170,12 @@ export default {
   },
 
   head: {
-    title: 'Catalytic Converter',
+    title: 'Catalytic Converter | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace catalytic converter for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'We repair and replace catalytic converter for all makes and models in Reading, United Kingdom new catalytic converter also available at Many Autos LTD or bring your car for catalytic converter replacement.'
       },
       {
         name: 'keywords', 
@@ -208,7 +208,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace catalytic converter for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace catalytic converter for all makes and models in Reading, United Kingdom new catalytic converter also available at Many Autos LTD or bring your car for catalytic converter replacement."
       },
       {
         name: "twitter:card", 
@@ -220,7 +220,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace catalytic converter for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace catalytic converter for all makes and models in Reading, United Kingdom new catalytic converter also available at Many Autos LTD or bring your car for catalytic converter replacement."
       },
       {
         name: "twitter:image", 

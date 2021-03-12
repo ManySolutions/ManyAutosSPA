@@ -1198,16 +1198,16 @@ export default {
   },
 
   head: {
-    title: 'Lotus Service',
+    title: 'Lotus Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Lotus service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Lotus interim service, Lotus major service we deal Lotus servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Lotus.'
       },
       {
         name: 'keywords', 
-        content: 'lotus service, lotus service deal in Reading, lotus full services,lotus full services  in Reading, lotus interim service, lotus major service deal in Reading, lotus servicing in Reading, car service, car servicing, car services'
+        content: 'Lotus service, car garage , Car Repair Company in Reading, Lotus interim service, Lotus major service, Lotus servicing in Reading, car service, car servicing, car services, car service and repair'
       },
       {
         hid: 'og:title',
@@ -1236,7 +1236,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Lotus service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Lotus interim service, Lotus major service we deal Lotus servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Lotus."
       },
       {
         name: "twitter:card", 
@@ -1248,7 +1248,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Lotus service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Lotus interim service, Lotus major service we deal Lotus servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Lotus."
       },
       {
         name: "twitter:image", 

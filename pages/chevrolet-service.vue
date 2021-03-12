@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Chevrolet Service',
+    title: 'Chevrolet Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Chevrolet service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Chevrolet  service. You can select recommended package of Chevrolet major Service, full Service, interim Service, MOT  or select from additional service you required from our provided list.'
       },
       {
         name: 'keywords', 
-        content: 'chevrolet service, chevrolet service deal in Reading, chevrolet full services,chevrolet full services  in Reading, chevrolet interim service, chevrolet major service deal in Reading, chevrolet servicing in Reading, car service, car servicing, car services'
+        content: 'Chevrolet  service, Chevrolet , Chevrolet full services, Chevrolet interim service, Chevrolet major service'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Chevrolet service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Chevrolet  service. You can select recommended package of Chevrolet major Service, full Service, interim Service, MOT  or select from additional service you required from our provided list."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Chevrolet service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Chevrolet  service. You can select recommended package of Chevrolet major Service, full Service, interim Service, MOT  or select from additional service you required from our provided list."
       },
       {
         name: "twitter:image", 

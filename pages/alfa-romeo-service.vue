@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Alfa Romeo Service',
+    title: 'Alfa Romeo Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Alfa Romeo service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Need Alfa Romeo services near your Area? Bring your Alfa Romeo at Many Autos LTD for Best Alfa Romeo Interim Service, Alfa Romeo major service Alfa Romeo full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Alfa Romeo servicing in Reading UK.'
       },
       {
         name: 'keywords', 
-        content: 'alfa Romeo service, alfa Romeo service deal in Reading, alfa Romeo full services,alfa Romeo full services  in Reading, alfa Romeo interim service, alfa Romeo major service deal in Reading, alfa Romeo servicing in Reading, car service, car servicing, car services'
+        content: 'Alfa Romeo services, Alfa Romeo, Alfa Romeo Interim Service, Alfa Romeo major service Alfa Romeo full service in Reading UK, free collection and delivery services, Alfa Romeo servicing in Reading UK'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Alfa Romeo service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Need Alfa Romeo services near your Area? Bring your Alfa Romeo at Many Autos LTD for Best Alfa Romeo Interim Service, Alfa Romeo major service Alfa Romeo full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Alfa Romeo servicing in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Alfa Romeo service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Need Alfa Romeo services near your Area? Bring your Alfa Romeo at Many Autos LTD for Best Alfa Romeo Interim Service, Alfa Romeo major service Alfa Romeo full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Alfa Romeo servicing in Reading UK."
       },
       {
         name: "twitter:image", 

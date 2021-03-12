@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Honda Service',
+    title: 'Honda Service near me | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Honda service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Looking for car Garage near your area for Honda Service many Autos Provide Honda service in Reading UK (major Service, full Service, interim Service, MOT) or select from additional service you can visit our website for your Honda servicing in reading.'
       },
       {
         name: 'keywords', 
-        content: 'honda service, honda service deal in Reading, honda full services,honda full services  in Reading, honda interim service, honda major service deal in Reading, honda servicing in Reading, car service, car servicing, car services'
+        content: 'honda service, honda service deal in Reading, full services, honda interim service, honda major service, car service'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Honda Service | ManyAutos LTD"
+        content: "Honda Service near me | ManyAutos LTD"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Honda service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Looking for car Garage near your area for Honda Service many Autos Provide Honda service in Reading UK (major Service, full Service, interim Service, MOT) or select from additional service you can visit our website for your Honda servicing in reading."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Honda Service | ManyAutos LTD"
+        content: "Honda Service near me | ManyAutos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Honda service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Looking for car Garage near your area for Honda Service many Autos Provide Honda service in Reading UK (major Service, full Service, interim Service, MOT) or select from additional service you can visit our website for your Honda servicing in reading."
       },
       {
         name: "twitter:image", 

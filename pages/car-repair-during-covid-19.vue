@@ -598,18 +598,18 @@ export default {
       {
         hid: 'description', name: 'description',
         content:
-          "We provide our customers with a risk-free environment. We are concerned for you and want to help you during covid-19. We are offering an affordable payment plan for you.",
+          "We provide our customers with a risk-free environment. We are concerned for you and want to help you with car repair  during covid-19. We are offering an affordable car repair Instalment plan for you avail our Fix now pay later service offer .",
       },
       {
         name: "keywords",
         content:
-          "car repair payment plan, pay later car repair, car service installments, vehicle service plan, fix now pay later ",
+          "car repair Instalment plan, pay later car repair, car service installments, vehicle service plan, fix now pay later, car repair  during covid-19",
       },
       {
         hid: 'og:title',
         property: "og:title",
         content:
-          "Car Repair During COVID 19 | Car Repair Instalment Plan | ManyAutos LTD",
+          "Car Repair During COVID 19 | Car Repair Instalment Plan",
       },
       {
         hid: 'og:type',
@@ -634,7 +634,7 @@ export default {
       {
         hid: 'og:description',  property: 'og:description',
         content:
-          "We provide our customers with a risk-free environment. We are concerned for you and want to help you during covid-19. We are offering an affordable payment plan for you.",
+          "We provide our customers with a risk-free environment. We are concerned for you and want to help you with car repair  during covid-19. We are offering an affordable car repair Instalment plan for you avail our Fix now pay later service offer .",
       },
       {
         name: "twitter:card",
@@ -643,12 +643,12 @@ export default {
       {
         name: "twitter:title",
         content:
-          "Car Repair During COVID 19 | Car Repair Instalment Plan | ManyAutos LTD",
+          "Car Repair During COVID 19 | Car Repair Instalment Plan",
       },
       {
         name: "twitter:description",
         content:
-          "We provide our customers with a risk-free environment. We are concerned for you and want to help you during covid-19. We are offering an affordable payment plan for you.",
+          "We provide our customers with a risk-free environment. We are concerned for you and want to help you with car repair  during covid-19. We are offering an affordable car repair Instalment plan for you avail our Fix now pay later service offer .",
       },
       {
         name: "twitter:image",

@@ -163,11 +163,11 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Login into your account and have a look at all the records of your vehicle’s services and repairs. Keep your car in a good shape always.'
+        content: 'Login into your account and have a look at all the records of your vehicle’s services and repairs. Keep your car in a good shape with Many Autos LTD and Book MOT or car maintenance services.'
       },
       {
         name: 'keywords', 
-        content: 'many autos ltd, book MOT, car maintenance, auto shops,car garages near me, car servicing'
+        content: 'many autos ltd, book MOT, car maintenance, auto shops,car garages near me, car servicing, Login'
       },
       {
         hid: 'og:title',
@@ -196,7 +196,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Login into your account and have a look at all the records of your vehicle’s services and repairs. Keep your car in a good shape always."
+        content: "Login into your account and have a look at all the records of your vehicle’s services and repairs. Keep your car in a good shape with Many Autos LTD and Book MOT or car maintenance services."
       },
       {
         name: "twitter:card", 
@@ -208,7 +208,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Login into your account and have a look at all the records of your vehicle’s services and repairs. Keep your car in a good shape always."
+        content: "Login into your account and have a look at all the records of your vehicle’s services and repairs. Keep your car in a good shape with Many Autos LTD and Book MOT or car maintenance services."
       },
       {
         name: "twitter:image", 

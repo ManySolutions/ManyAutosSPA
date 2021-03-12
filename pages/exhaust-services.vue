@@ -72,7 +72,7 @@ export default {
   },
 
   head: {
-    title: 'Exhaust Repair, Fitting & Replacement and Free Check Reading',
+    title: 'Exhaust Repair, Fitting & Replacement and Free Check Reading | ManyAutos LTD',
 
     meta: [
       {

@@ -128,16 +128,16 @@ export default {
   },
 
   head: {
-    title: 'Camshaft Sensor',
+    title: 'Camshaft Sensor | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Camshaft Sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD one of the Leading Car Garage in Reading repair and Replace camshaft sensor of your car we believe in Quality work Many autos LTD always Provide Best Quality Auto Parts, Bring your car to Repair camshaft sensor or camshaft sensor replacement.'
       },
       {
         name: 'keywords', 
-        content: 'camshaft sensor, new camshaft sensor, camshaft sensor repair, camshaft sensor replace, camshaft sensor replacement, camshaft sensor in reading, new camshaft sensor in reading, camshaft sensor repair in reading, camshaft sensor replace in reading, camshaft sensor replacement in reading'
+        content: 'camshaft sensor, new camshaft sensor, camshaft sensor repair, camshaft sensor replace, camshaft sensor replacement, camshaft sensor in reading, new camshaft sensor in reading, camshaft sensor repair in reading, camshaft sensor replace in reading, camshaft sensor replacement in reading, Car Garage in Reading'
       },
       {
         hid: 'og:title',
@@ -166,7 +166,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Camshaft Sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD one of the Leading Car Garage in Reading repair and Replace camshaft sensor of your car we believe in Quality work Many autos LTD always Provide Best Quality Auto Parts, Bring your car to Repair camshaft sensor or camshaft sensor replacement."
       },
       {
         name: "twitter:card", 
@@ -178,7 +178,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Camshaft Sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD one of the Leading Car Garage in Reading repair and Replace camshaft sensor of your car we believe in Quality work Many autos LTD always Provide Best Quality Auto Parts, Bring your car to Repair camshaft sensor or camshaft sensor replacement."
       },
       {
         name: "twitter:image", 

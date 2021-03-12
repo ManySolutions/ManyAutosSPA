@@ -118,16 +118,16 @@ export default {
   },
 
   head: {
-    title: 'Anti Roll Bar Link',
+    title: 'Anti Roll Bar Link | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We carry out anti roll bar link replacement and service for all vehicle  makes and models. Get a free quote today online or by phone. We only use oem quality part and our aim is to provide you the best prices and service through out the UK'
+        content: 'Many Autos LTD  carry out Anti roll bar link replacement and service for all vehicle  makes and models Many Autos Always Provide Best Quality car Repair Services in UK Book Your Car repair Service Online now we will collect and Deliver your car Free of cost.'
       },
       {
         name: 'keywords', 
-        content: 'anti roll bar link, anti roll bar, anti roll link, anti roll bar link installation, anti roll bar link replacement reading, anti roll bar link reading, free collection and delivery'
+        content: 'anti roll bar link, anti roll bar, anti roll link, anti roll bar link installation, anti roll bar link replacement reading, anti roll bar link reading, free collection and delivery, car Repair Services'
       },
       {
         hid: 'og:title',
@@ -156,7 +156,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We carry out anti roll bar link replacement and service for all vehicle  makes and models. Get a free quote today online or by phone. We only use oem quality part and our aim is to provide you the best prices and service through out the UK"
+        content: "Many Autos LTD  carry out Anti roll bar link replacement and service for all vehicle  makes and models Many Autos Always Provide Best Quality car Repair Services in UK Book Your Car repair Service Online now we will collect and Deliver your car Free of cost."
       },
       {
         name: "twitter:card", 
@@ -168,7 +168,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We carry out anti roll bar link replacement and service for all vehicle  makes and models. Get a free quote today online or by phone. We only use oem quality part and our aim is to provide you the best prices and service through out the UK"
+        content: "Many Autos LTD  carry out Anti roll bar link replacement and service for all vehicle  makes and models Many Autos Always Provide Best Quality car Repair Services in UK Book Your Car repair Service Online now we will collect and Deliver your car Free of cost."
       },
       {
         name: "twitter:image", 

@@ -431,7 +431,7 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Get a FREE car exhaust check and find out more about the range of exhaust repair, exhaust fitting, Exhaust cleaning, exhaust replacement. Book right now with competitive price'
+        content: 'Get a FREE car exhaust check and find out more about the range of exhaust repair, exhaust fitting, Exhaust cleaning, exhaust replacement. Book right now with competitive price we Bring Special offer of Free Collection and Delivery'
       },
       {
         name: 'keywords', 
@@ -464,7 +464,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Get a FREE car exhaust check and find out more about the range of exhaust repair, exhaust fitting, Exhaust cleaning, exhaust replacement. Book right now with competitive price"
+        content: "Get a FREE car exhaust check and find out more about the range of exhaust repair, exhaust fitting, Exhaust cleaning, exhaust replacement. Book right now with competitive price we Bring Special offer of Free Collection and Delivery"
       },
       {
         name: "twitter:card", 
@@ -476,7 +476,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Get a FREE car exhaust check and find out more about the range of exhaust repair, exhaust fitting, Exhaust cleaning, exhaust replacement. Book right now with competitive price"
+        content: "Get a FREE car exhaust check and find out more about the range of exhaust repair, exhaust fitting, Exhaust cleaning, exhaust replacement. Book right now with competitive price we Bring Special offer of Free Collection and Delivery"
       },
       {
         name: "twitter:image", 

@@ -174,16 +174,16 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We carry out air filter replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . We only use oem quality part and our aim is to provide you the best prices and service through out the UK.'
+        content: 'We carry out air filter replacement and repairs for all vehicle makes and models, Bring your car to expert car mechanic and Get a free quote today online or by phone . We only use Best  quality part and our aim is to provide you the best prices and services throughout the UK.'
       },
       {
         name: 'keywords', 
-        content: 'air filter replacement, air filter, air filter service, air filter installation,air filter replacement reading, air filter reading, air filter free collection and delivery'
+        content: 'air filter replacement, air filter, air filter service, air filter installation,air filter replacement, Expert car mechanic'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Air Filter - Air Filter Replacement | ManyAutos LTD"
+        content: "Air Filter - Air Filter Replacement"
       },
       {
         hid: 'og:type',
@@ -207,7 +207,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We carry out air filter replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . We only use oem quality part and our aim is to provide you the best prices and service through out the UK."
+        content: "We carry out air filter replacement and repairs for all vehicle makes and models, Bring your car to expert car mechanic and Get a free quote today online or by phone . We only use Best  quality part and our aim is to provide you the best prices and services throughout the UK."
       },
       {
         name: "twitter:card", 
@@ -215,11 +215,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Air Filter - Air Filter Replacement | ManyAutos LTD"
+        content: "Air Filter - Air Filter Replacement"
       },
       {
         name: "twitter:description", 
-        content: "We carry out air filter replacement and repairs for all vehicle  makes and models. Get a free quote today online or by phone . We only use oem quality part and our aim is to provide you the best prices and service through out the UK."
+        content: "We carry out air filter replacement and repairs for all vehicle makes and models, Bring your car to expert car mechanic and Get a free quote today online or by phone . We only use Best  quality part and our aim is to provide you the best prices and services throughout the UK."
       },
       {
         name: "twitter:image", 

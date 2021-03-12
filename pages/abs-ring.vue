@@ -191,21 +191,21 @@ export default {
   },
 
   head: {
-    title: 'ABS Ring',
+    title: 'ABS Ring, ABS Pump',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace ABS Ring for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD repair and replace ABS Ring for all makes and models in Reading, United Kingdom. Many Autos is One of the Best Cat Garage in Reading to Repair and Replace your car’s ABS Pump and ABS Ring.'
       },
       {
         name: 'keywords',
-        content: 'abs, abs ring, new abs ring, abs ring repair, abs ring replace, abs ring replacement'
+        content: 'abs, abs ring, new abs ring, abs ring repair, abs ring replace, abs ring replacement, ABS Pump'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "ABS Ring | ManyAutos LTD"
+        content: "ABS Ring, ABS Pump"
       },
       {
         hid: 'og:type',
@@ -229,7 +229,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace ABS Ring for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace ABS Ring for all makes and models in Reading, United Kingdom. Many Autos is One of the Best Cat Garage in Reading to Repair and Replace your car’s ABS Pump and ABS Ring."
       },
       {
         name: "twitter:card", 
@@ -237,11 +237,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "ABS Ring | ManyAutos LTD"
+        content: "ABS Ring, ABS Pump"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace ABS Ring for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace ABS Ring for all makes and models in Reading, United Kingdom. Many Autos is One of the Best Cat Garage in Reading to Repair and Replace your car’s ABS Pump and ABS Ring."
       },
       {
         name: "twitter:image", 

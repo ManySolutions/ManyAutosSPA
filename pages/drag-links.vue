@@ -154,16 +154,16 @@ export default {
   },
 
   head: {
-    title: 'Drag Links',
+    title: 'Drag Links | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Drag Links for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD repair and replace Drag Links for all makes and models in Reading, United Kingdom. Many Autos also provide mechanic’s for Drag Link Repair & Drag Link Replacement. You Can Book free collection and Delivery service from your home or place of work by visiting Many Autos LTD Online.'
       },
       {
         name: 'keywords', 
-        content: 'drag links , new drag links , drag links repair, drag link replacement, drag link end ball joint, drag links in reading, new drag links in reading, drag links repair in reading, drag link replacement in reading, drag link end ball joint in reading'
+        content: 'drag links , new drag links , drag links repair, drag link replacement, drag link end ball joint, drag links in reading, new drag links in reading, drag links repair in reading, drag link replacement in reading, drag link end ball joint in reading, free Collection and Delivery'
       },
       {
         hid: 'og:title',
@@ -192,7 +192,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Drag Links for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Drag Links for all makes and models in Reading, United Kingdom. Many Autos also provide mechanic’s for Drag Link Repair & Drag Link Replacement. You Can Book free collection and Delivery service from your home or place of work by visiting Many Autos LTD Online."
       },
       {
         name: "twitter:card", 
@@ -204,7 +204,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Drag Links for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Drag Links for all makes and models in Reading, United Kingdom. Many Autos also provide mechanic’s for Drag Link Repair & Drag Link Replacement. You Can Book free collection and Delivery service from your home or place of work by visiting Many Autos LTD Online."
       },
       {
         name: "twitter:image", 

@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'VW Service',
+    title: 'VW Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for VW service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer VW interim service, VW major service we deal VW servicing in Reading bring your car at Many Autos LTD for car service and repair.'
       },
       {
         name: 'keywords', 
-        content: 'VW service, VW service deal in Reading, VW full services,VW full services  in Reading, VW interim service, VW major service deal in Reading, VW servicing in Reading, car service, car servicing, car services'
+        content: 'VW service, Car Repair Company in Reading, Car Garage, VW interim service, VW major service, VW servicing in Reading, car service, car servicing, car services, car service and repair'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for VW service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer VW interim service, VW major service we deal VW servicing in Reading bring your car at Many Autos LTD for car service and repair."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for VW service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer VW interim service, VW major service we deal VW servicing in Reading bring your car at Many Autos LTD for car service and repair."
       },
       {
         name: "twitter:image", 

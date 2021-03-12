@@ -153,16 +153,16 @@ export default {
   },
 
   head: {
-    title: 'Brake Calipers',
+    title: 'Brake Calipers | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Brake Caliper for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Need Help with your car’s Brake or Need to Replace Brake Caliper Many Autos LTD  repair and replace Brake Caliper for all makes and models in Reading, United Kingdom.'
       },
       {
         name: 'keywords', 
-        content: 'right caliper, brake calipers, new brake caliper, brake caliper repair, brake caliper replace, brake calipers replacement'
+        content: 'right caliper, brake calipers, new brake caliper, brake caliper repair, brake caliper replace, brake calipers replacement, Many Autos LTD'
       },
       {
         hid: 'og:title',
@@ -191,7 +191,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Brake Caliper for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Need Help with your car’s Brake or Need to Replace Brake Caliper Many Autos LTD  repair and replace Brake Caliper for all makes and models in Reading, United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -203,7 +203,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Caliper for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Need Help with your car’s Brake or Need to Replace Brake Caliper Many Autos LTD  repair and replace Brake Caliper for all makes and models in Reading, United Kingdom."
       },
       {
         name: "twitter:image", 

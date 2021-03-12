@@ -203,16 +203,16 @@ export default {
   },
 
   head: {
-    title: 'Brake Pipe',
+    title: 'Brake Pipe | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Brake Pipe for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work.'
+        content: 'Many Autos LTD repair and replace Brake Pipe for all makes and models in Reading, United Kingdom To Ensure your car Safety You should Visit Many Autos LTD to Repair Brake Pipe or Brake Pipe Replacement, you can also book your car service online we provide free collection delivery service in Reading UK.'
       },
       {
         name: 'keywords', 
-        content: 'brake pipe, new brake pipe, rear brake pipe, front brake pipe, brake pipe repair, brake pipe replace, brake pipe replacement'
+        content: 'brake pipe, new brake pipe, rear brake pipe, front brake pipe, brake pipe repair, brake pipe replace, brake pipe replacement., free collection delivery service in Reading UK'
       },
       {
         hid: 'og:title',
@@ -241,7 +241,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Brake Pipe for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Brake Pipe for all makes and models in Reading, United Kingdom To Ensure your car Safety You should Visit Many Autos LTD to Repair Brake Pipe or Brake Pipe Replacement, you can also book your car service online we provide free collection delivery service in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -253,7 +253,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Pipe for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Brake Pipe for all makes and models in Reading, United Kingdom To Ensure your car Safety You should Visit Many Autos LTD to Repair Brake Pipe or Brake Pipe Replacement, you can also book your car service online we provide free collection delivery service in Reading UK."
       },
       {
         name: "twitter:image", 

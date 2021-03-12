@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Daewoo Service',
+    title: 'Daewoo Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Daewoo service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Daewoo service. You can select recommended package (major Service, full Service, interim Service, MOT) or select from additional service you required from our provided list we Provide best Daewoo deal in reading UK bring your car at one of the Leading car servicing Garage in Reading UK.'
       },
       {
         name: 'keywords', 
-        content: 'daewoo service, daewoo service deal in Reading, daewoo full services,daewoo full services  in Reading, daewoo interim service, daewoo major service deal in Reading, daewoo servicing in Reading, car service, car servicing, car services'
+        content: 'daewoo service, daewoo service deal in Reading, daewoo full services,daewoo full services in Reading, daewoo interim service, daewoo major service deal in Reading, daewoo servicing in Reading, car service, car servicing, car services'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Daewoo service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Daewoo service. You can select recommended package (major Service, full Service, interim Service, MOT) or select from additional service you required from our provided list we Provide best Daewoo deal in reading UK bring your car at one of the Leading car servicing Garage in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Daewoo service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Daewoo service. You can select recommended package (major Service, full Service, interim Service, MOT) or select from additional service you required from our provided list we Provide best Daewoo deal in reading UK bring your car at one of the Leading car servicing Garage in Reading UK."
       },
       {
         name: "twitter:image", 

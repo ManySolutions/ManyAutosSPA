@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Infiniti Service',
+    title: 'Infiniti Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Infiniti service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Infiniti interim service, Infiniti major service we deal Infiniti servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Infiniti.'
       },
       {
         name: 'keywords', 
-        content: 'infiniti service, infiniti service deal in Reading, infiniti full services,infiniti full services  in Reading, infiniti interim service, infiniti major service deal in Reading, infiniti servicing in Reading, car service, car servicing, car services'
+        content: 'Infiniti service, car garage , Car Repair Company in Reading, Infiniti interim service, Infiniti major service, Infiniti servicing in Reading, car service, car servicing, car services, car service and repair'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Infiniti service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Infiniti interim service, Infiniti major service we deal Infiniti servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Infiniti."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Infiniti service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Infiniti interim service, Infiniti major service we deal Infiniti servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Infiniti."
       },
       {
         name: "twitter:image", 

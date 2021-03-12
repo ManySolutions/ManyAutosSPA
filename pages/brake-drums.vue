@@ -186,16 +186,16 @@ export default {
   },
 
   head: {
-    title: 'Brake Drums',
+    title: 'Brake Drums | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Brake Drums for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD repair and replace Brake Drums for all makes and models in Reading, United Kingdom. Many Autos has team of experts for Brake Drum Replacement. Many Autos also provide free collection and Delivery service from your home or place of work. Just Book your Car Service online at Many Autos LTD.'
       },
       {
         name: 'keywords', 
-        content: 'brake drums, rear brake drums, new brake drums, brake drums repair, brake drums replace, brake drums replacement'
+        content: 'brake drums, rear brake drums, new brake drums, brake drums repair, brake drums replace, brake drums replacement, free collection and Delivery, Car Service'
       },
       {
         hid: 'og:title',
@@ -224,7 +224,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Brake Drums for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Brake Drums for all makes and models in Reading, United Kingdom. Many Autos has team of experts for Brake Drum Replacement. Many Autos also provide free collection and Delivery service from your home or place of work. Just Book your Car Service online at Many Autos LTD."
       },
       {
         name: "twitter:card", 
@@ -236,7 +236,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Drums for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Brake Drums for all makes and models in Reading, United Kingdom. Many Autos has team of experts for Brake Drum Replacement. Many Autos also provide free collection and Delivery service from your home or place of work. Just Book your Car Service online at Many Autos LTD."
       },
       {
         name: "twitter:image", 

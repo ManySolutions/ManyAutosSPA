@@ -152,16 +152,16 @@ export default {
   },
 
   head: {
-    title: 'Brake Fluid',
+    title: 'Brake Fluid | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We replace Brake Fluid for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Need help With Your Brake Fluid Replacement. Many Autos LTD replace Brake Fluid for all makes and models in Reading, United Kingdom. Many Autos LTD provide free collection and Delivery service anywhere in Reading.'
       },
       {
         name: 'keywords', 
-        content: 'brake fluid, new brake fluid, brake fluid service, brake fluid replace, brake fluid replacement'
+        content: 'brake fluid, new brake fluid, brake fluid service, brake fluid replace, brake fluid replacement, free Collection and Delivery, Many Autos LTD'
       },
       {
         hid: 'og:title',
@@ -190,7 +190,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We replace Brake Fluid for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Need help With Your Brake Fluid Replacement. Many Autos LTD replace Brake Fluid for all makes and models in Reading, United Kingdom. Many Autos LTD provide free collection and Delivery service anywhere in Reading."
       },
       {
         name: "twitter:card", 
@@ -202,7 +202,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We replace Brake Fluid for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Need help With Your Brake Fluid Replacement. Many Autos LTD replace Brake Fluid for all makes and models in Reading, United Kingdom. Many Autos LTD provide free collection and Delivery service anywhere in Reading."
       },
       {
         name: "twitter:image", 

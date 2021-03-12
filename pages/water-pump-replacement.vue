@@ -349,21 +349,21 @@ export default {
   },
 
   head: {
-    title: 'Water pump replacement, Repair, Service',
+    title: 'Water pump replacement| Many Autos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos aim to provide you the best prices for the water pump replacement through out the UK.  Our centres are highly qualified to deal with any water pump issues  with your vehicle. New water pump fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)'
+        content: 'Many Autos aim to provide you the best prices for the water pump replacement in the UK. We also Provide free collection and delivery services bring your car to Expert mechanic of your for New water pump fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first Book your online water pump repair and water pump services.'
       },
       {
         name: 'keywords', 
-        content: 'new water pump, water pump, water pump repair, water pump replacement, water pump service, new water pump in reading, drive shaft in reading, water pump repair in reading, water pump replacement in reading, water pump service in reading,  free collection and delivery'
+        content: 'new water pump, water pump, water pump repair, water pump replacement, water pump service, free collection and delivery'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Water pump replacement, Repair, Service | ManyAutos LTD"
+        content: "Water pump replacement| Many Autos LTD"
       },
       {
         hid: 'og:type',
@@ -387,7 +387,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos aim to provide you the best prices for the water pump replacement through out the UK.  Our centres are highly qualified to deal with any water pump issues  with your vehicle. New water pump fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
+        content: "Many Autos aim to provide you the best prices for the water pump replacement in the UK. We also Provide free collection and delivery services bring your car to Expert mechanic of your for New water pump fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first Book your online water pump repair and water pump services."
       },
       {
         name: "twitter:card", 
@@ -395,11 +395,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Water pump replacement, Repair, Service | ManyAutos LTD"
+        content: "Water pump replacement| Many Autos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos aim to provide you the best prices for the water pump replacement through out the UK.  Our centres are highly qualified to deal with any water pump issues  with your vehicle. New water pump fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
+        content: "Many Autos aim to provide you the best prices for the water pump replacement in the UK. We also Provide free collection and delivery services bring your car to Expert mechanic of your for New water pump fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first Book your online water pump repair and water pump services."
       },
       {
         name: "twitter:image", 

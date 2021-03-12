@@ -384,12 +384,12 @@ export default {
   },
 
   head: {
-    title: 'Oil Change',
+    title: 'Oil Change | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos aim to provide you the best prices for the oil change through out the UK.  Our centres are highly qualified for it.'
+        content: 'Many Autos aim to provide you the best prices for the oil change through out the UK.  Our centres are highly qualified for it we Also Provide Free Collection and Delivery Services in Reading UK just call us or book Online for Oil replacement or for Oil Services in Reading UK.'
       },
       {
         name: 'keywords', 
@@ -422,7 +422,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos aim to provide you the best prices for the oil change through out the UK.  Our centres are highly qualified for it."
+        content: "Many Autos aim to provide you the best prices for the oil change through out the UK.  Our centres are highly qualified for it we Also Provide Free Collection and Delivery Services in Reading UK just call us or book Online for Oil replacement or for Oil Services in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -434,7 +434,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Many Autos aim to provide you the best prices for the oil change through out the UK.  Our centres are highly qualified for it."
+        content: "Many Autos aim to provide you the best prices for the oil change through out the UK.  Our centres are highly qualified for it we Also Provide Free Collection and Delivery Services in Reading UK just call us or book Online for Oil replacement or for Oil Services in Reading UK."
       },
       {
         name: "twitter:image", 

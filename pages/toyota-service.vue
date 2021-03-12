@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Toyota Service',
+    title: 'Toyota Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Toyota service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Looking for Car repair Garage in Reading for Toyota service Many Autos pioneer of car garage in Reading Providing Quality Toyota Interim service, Toyota Major Service in Reading UK Book your car repair services online.'
       },
       {
         name: 'keywords', 
-        content: 'toyota service, toyota service deal in Reading, toyota full services,toyota full services  in Reading, toyota interim service, toyota major service deal in Reading, toyota servicing in Reading, car service, car servicing, car services'
+        content: 'Toyota service, car garage in Reading, Toyota Interim service, Toyota Major Service in Reading UK, car repair services'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Toyota service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Looking for Car repair Garage in Reading for Toyota service Many Autos pioneer of car garage in Reading Providing Quality Toyota Interim service, Toyota Major Service in Reading UK Book your car repair services online."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Toyota service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Looking for Car repair Garage in Reading for Toyota service Many Autos pioneer of car garage in Reading Providing Quality Toyota Interim service, Toyota Major Service in Reading UK Book your car repair services online."
       },
       {
         name: "twitter:image", 

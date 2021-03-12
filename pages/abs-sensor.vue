@@ -186,21 +186,21 @@ export default {
   },
 
   head: {
-    title: 'ABS Sensor',
+    title: 'ABS Sensor | ManyAutos LTD, ABS Ring ',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace ABS sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'We repair ABS Sensor for all makes and models At Many Autos You will Find a Best Car Mechanic of UK to Repair or Replace your car’s ABS Sensor, ABS Ring and ABS hydraulic unit book your car Service online now.'
       },
       {
         name: 'keywords',
-        content: 'abs sensor, new abs sensor, abs sensor repair, abs sensor replace, abs sensor replacement'
+        content: 'abs sensor, ABS Sensor, ABS Ring and ABS hydraulic unit, Many Autos, Best Car Mechanic'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "ABS Sensor | ManyAutos LTD"
+        content: "ABS Sensor | ManyAutos LTD, ABS Ring"
       },
       {
         hid: 'og:type',
@@ -224,7 +224,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace ABS sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair ABS Sensor for all makes and models At Many Autos You will Find a Best Car Mechanic of UK to Repair or Replace your car’s ABS Sensor, ABS Ring and ABS hydraulic unit book your car Service online now."
       },
       {
         name: "twitter:card", 
@@ -232,11 +232,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "ABS Sensor | ManyAutos LTD"
+        content: "ABS Sensor | ManyAutos LTD, ABS Ring"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace ABS sensor for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair ABS Sensor for all makes and models At Many Autos You will Find a Best Car Mechanic of UK to Repair or Replace your car’s ABS Sensor, ABS Ring and ABS hydraulic unit book your car Service online now."
       },
       {
         name: "twitter:image", 

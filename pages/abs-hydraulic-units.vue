@@ -118,16 +118,16 @@ export default {
   },
 
   head: {
-    title: 'ABS Hydraulic Units',
+    title: 'ABS Hydraulic Units, ABS controllers, Many Autos LTD ',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace ABS Hydraulic Units for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'We repair and replace ABS Hydraulic Units for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery call Many Autos to Repair or Replace your cars ABS Controllers.'
       },
       {
         name: 'keywords', 
-        content: 'abs hydraulic units, new abs hydraulic units, abs hydraulic units repair, abs hydraulic units replace, abs hydraulic units replacement'
+        content: 'abs hydraulic units, new abs hydraulic units, abs hydraulic units repair, abs hydraulic units replace, abs hydraulic units replacement, ABS Controllers, Many Autos LTD'
       },
       {
         hid: 'og:title',
@@ -156,7 +156,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace ABS Hydraulic Units for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace ABS Hydraulic Units for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery call Many Autos to Repair or Replace your cars ABS Controllers."
       },
       {
         name: "twitter:card", 
@@ -168,7 +168,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace ABS Hydraulic Units for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "We repair and replace ABS Hydraulic Units for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery call Many Autos to Repair or Replace your cars ABS Controllers."
       },
       {
         name: "twitter:image", 

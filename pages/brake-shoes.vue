@@ -168,16 +168,16 @@ export default {
   },
 
   head: {
-    title: 'Brake Shoes',
+    title: 'Brake Shoes | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD  repair and replace Brake Shoes for all makes and models in Reading, United Kingdom we Provide Best Quality Autos Parts in UK Bring your car to Expert Car Mechanic in UK for Brake shoes replacement, Brake shoes repair.'
       },
       {
         name: 'keywords', 
-        content: 'brake shoes, rear brake shoes, handbrake brake shoes, handbrake, new brake shoes, brake shoes repair, brake shoes replace, brake shoes replacement'
+        content: 'brake shoes, rear brake shoes, handbrake brake shoes, handbrake, new brake shoes, brake shoes repair, brake shoes replace, brake shoes replacement, Expert Car Mechanic in UK'
       },
       {
         hid: 'og:title',
@@ -206,7 +206,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD  repair and replace Brake Shoes for all makes and models in Reading, United Kingdom we Provide Best Quality Autos Parts in UK Bring your car to Expert Car Mechanic in UK for Brake shoes replacement, Brake shoes repair."
       },
       {
         name: "twitter:card", 
@@ -218,7 +218,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Shoes for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD  repair and replace Brake Shoes for all makes and models in Reading, United Kingdom we Provide Best Quality Autos Parts in UK Bring your car to Expert Car Mechanic in UK for Brake shoes replacement, Brake shoes repair."
       },
       {
         name: "twitter:image", 

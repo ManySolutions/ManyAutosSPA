@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Dacia Service',
+    title: 'Dacia Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Dacia service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Dacia service. You can select recommended package Dacia major Service, Dacia full Service, Dacia interim Service, MOT) or select from additional service you required from our provided list.'
       },
       {
         name: 'keywords', 
-        content: 'dacia service, dacia service deal in Reading, dacia full services,dacia full services  in Reading, dacia interim service, dacia major service deal in Reading, dacia servicing in Reading, car service, car servicing, car services'
+        content: 'Dacia service, Dacia major Service, Dacia full Service, Dacia interim Service, MOT'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Dacia service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Dacia service. You can select recommended package Dacia major Service, Dacia full Service, Dacia interim Service, MOT) or select from additional service you required from our provided list."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Dacia service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Dacia service. You can select recommended package Dacia major Service, Dacia full Service, Dacia interim Service, MOT) or select from additional service you required from our provided list."
       },
       {
         name: "twitter:image", 

@@ -1235,21 +1235,21 @@ export default {
   },
 
   head: {
-    title: 'Best Car Servicing | Interim Car Repair Services | Manyautos Uk',
+    title: 'Car Service near me | Many Autos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Interim  or  full service carried out by trained technicians, book online today for a  quotation, free collection and delivery, 1 year warranty on parts and labour.'
+        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service near you. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in Reading UK.'
       },
       {
         name: 'keywords', 
-        content: 'car services in uk, car services and repairs, premier car services, affordable car repair garage, online garage services in uk, Book Online vehicle Repair services'
+        content: 'Car service, full services  in Reading, Car interim service, Car major service deal in Reading, Car servicing in Reading'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Best Car Servicing | Interim Car Repair Services | Manyautos Uk"
+        content: "Car Service near me | Many Autos LTD"
       },
       {
         hid: 'og:type',
@@ -1273,7 +1273,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Interim  or  full service carried out by trained technicians, book online today for a  quotation, free collection and delivery, 1 year warranty on parts and labour."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service near you. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in Reading UK."
       },
       {
         name: "twitter:card", 
@@ -1281,11 +1281,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Best Car Servicing | Interim Car Repair Services | Manyautos Uk"
+        content: "Car Service near me | Many Autos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Interim  or  full service carried out by trained technicians, book online today for a  quotation, free collection and delivery, 1 year warranty on parts and labour."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service near you. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in Reading UK."
       },
       {
         name: "twitter:image", 

@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Skoda Service',
+    title: 'Skoda Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Skoda service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Save your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Skoda servicing in Reading. You can select recommended package Skoda major Service, Skoda full Service, Skoda interim Service, Skoda MOT or select from additional service you required from our provided list.'
       },
       {
         name: 'keywords', 
-        content: 'skoda service, skoda service deal in Reading, skoda full services,skoda full services  in Reading, skoda interim service, skoda major service deal in Reading, skoda servicing in Reading, car service, car servicing, car services'
+        content: 'Skoda service, Skoda major Service, Skoda full Service, Skoda interim Service, Skoda MOT, Skoda servicing in Reading, car service, car servicing, car services, Many Autos LTD'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Skoda service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Skoda servicing in Reading. You can select recommended package Skoda major Service, Skoda full Service, Skoda interim Service, Skoda MOT or select from additional service you required from our provided list."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Skoda service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Save your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Skoda servicing in Reading. You can select recommended package Skoda major Service, Skoda full Service, Skoda interim Service, Skoda MOT or select from additional service you required from our provided list."
       },
       {
         name: "twitter:image", 

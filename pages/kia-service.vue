@@ -1197,16 +1197,16 @@ export default {
   },
 
   head: {
-    title: 'Kia Service',
+    title: 'Kia Service | ManyAutos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Kia service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list.'
+        content: 'Looking for car Garage near your area for your car Kia Service many Autos Provide Kia service in Reading UK (major Service, full Service, interim Service, MOT) book your Kia car service online from our Website to get free Quote we Provide free collection and delivery services .'
       },
       {
         name: 'keywords', 
-        content: 'kia service, kia service deal in Reading, kia full services,kia full services  in Reading, kia interim service, kia major service deal in Reading, kia servicing in Reading, car service, car servicing, car services'
+        content: 'Kia Service, Kia service in Reading UK, major Service, full Service, interim Service, MOT, free collection and delivery services'
       },
       {
         hid: 'og:title',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Kia service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Looking for car Garage near your area for your car Kia Service many Autos Provide Kia service in Reading UK (major Service, full Service, interim Service, MOT) book your Kia car service online from our Website to get free Quote we Provide free collection and delivery services ."
       },
       {
         name: "twitter:card", 
@@ -1247,7 +1247,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Kia service. You can select recommended package (major Service,  full Service, interim Service, MOT) or select from additional service you required from our provided list."
+        content: "Looking for car Garage near your area for your car Kia Service many Autos Provide Kia service in Reading UK (major Service, full Service, interim Service, MOT) book your Kia car service online from our Website to get free Quote we Provide free collection and delivery services ."
       },
       {
         name: "twitter:image", 

@@ -70,21 +70,21 @@ export default {
   },
 
   head: {
-    title: 'Suspension Repair & Replacement',
+    title: 'Suspension Repair Replacement | Many Autos LTD',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD expert technician fix suspension problems right now. Our offers services Suspension ARMS, Suspension Bushes, Shock Absorbers, Coil Springs, suspension repair & suspension replacement and free check in Reading.'
+        content: 'Many Autos LTD expert technician fix suspension problems right now. Our offers services Suspension ARMS, Suspension Bushes, Shock Absorbers, Coil Springs, suspension repair and  suspension replacement and free check in Reading.'
       },
       {
         name: 'keywords', 
-        content: 'Suspension ARMS Reading, Suspension Bushes, Shock Absorbers in Reading, Coil Springs, suspension repair,suspension replacement Reading'
+        content: 'Suspension ARMS Reading, Suspension Bushes, Shock Absorbers in Reading, Coil Springs, suspension repair, suspension replacement Reading'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Suspension Repair & Replacement | ManyAutos LTD"
+        content: "Suspension Repair Replacement | Many Autos LTD"
       },
       {
         hid: 'og:type',
@@ -108,7 +108,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD expert technician fix suspension problems right now. Our offers services Suspension ARMS, Suspension Bushes, Shock Absorbers, Coil Springs, suspension repair & suspension replacement and free check in Reading."
+        content: "Many Autos LTD expert technician fix suspension problems right now. Our offers services Suspension ARMS, Suspension Bushes, Shock Absorbers, Coil Springs, suspension repair and  suspension replacement and free check in Reading."
       },
       {
         name: "twitter:card", 
@@ -116,11 +116,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Suspension Repair & Replacement | ManyAutos LTD"
+        content: "Suspension Repair Replacement | Many Autos LTD"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD expert technician fix suspension problems right now. Our offers services Suspension ARMS, Suspension Bushes, Shock Absorbers, Coil Springs, suspension repair & suspension replacement and free check in Reading."
+        content: "Many Autos LTD expert technician fix suspension problems right now. Our offers services Suspension ARMS, Suspension Bushes, Shock Absorbers, Coil Springs, suspension repair and  suspension replacement and free check in Reading."
       },
       {
         name: "twitter:image", 
