@@ -8,7 +8,7 @@
       v-model="alert"
       :text='isTextable'
     >
-      If you cannot find your repair you are looking for?
+      If you cannot find your repair you are looking for
       <v-dialog
         v-model="dialog"
         fullscreen
@@ -22,10 +22,7 @@
             v-bind="attrs"
             v-on="on"
           >
-            <span class='d-lg-none'>Request Quote Here</span>
-            <span class='d-none d-lg-inline-block'>
-              Click Here
-            </span>
+            Click Here
           </v-btn>
         </template>
 

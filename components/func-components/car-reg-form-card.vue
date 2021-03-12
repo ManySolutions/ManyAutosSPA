@@ -4,13 +4,16 @@
       <strong>Book with us now</strong>
     </v-card-title>
     <v-card-text>
-      <v-form @submit.prevent="handleSubmit()">
+      <v-form @submit.prevent="handleSubmit()" ref='form'>
         <v-text-field
           label="Your Car Registration No."
           outlined
           hide-details
           class="mb-2"
           v-model="reg"
+          :rules='[
+            v => v.length >= 1 || `Enter your car reg no`
+          ]'
         ></v-text-field>
         <small v-if="error" class="red--text">
           {{ errorMessage }}
@@ -66,8 +69,11 @@ export default {
 
   methods: {
     handleSubmit() {
+      if (!this.$refs.form.validate()) return;
+      
       this.error = false;
       this.isLoading = true;
+
 
       getVehicleDetails(this.reg)
         .then(res => {

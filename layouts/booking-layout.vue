@@ -34,7 +34,7 @@
         <v-col cols=12 md=8 xl=6>
           <search-box box-style='solo'></search-box>
         </v-col>
-        <v-col cols=12 md=4 xl=3></v-col>
+        <v-col v-if='isDevice.md' cols=12 md=4 xl=3></v-col>
       </v-row>
 
       <v-row justify="center">

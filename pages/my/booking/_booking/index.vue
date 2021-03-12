@@ -46,6 +46,7 @@
         <booking-additional-requests
           :items='booking.requests'
           :order-id='bookingId'
+          @approved='handleApproved'
         ></booking-additional-requests>
       </v-card-text>
       <!-- /additional requests -->
@@ -146,6 +147,7 @@
           :items-per-page="5"
           disable-sort
           disable-filtering
+          :loading='isServicesLoading'
         >
         </v-data-table>
       </v-card-text>
@@ -170,6 +172,7 @@ export default {
 
     booking: null,
     isLoading: false,
+    isServicesLoading: false,
 
     breadcrumbs: [
       {
@@ -219,18 +222,28 @@ export default {
         .catch(err => toastr.error('Error while fetching records: '+ err ))
         .finally(() => this.isLoading = false)
     },
-      getColor (status) {
-        if (status === 'in progress') 
-          return 'primary'
-        else if (status === 'waiting for payment')
-          return 'yellow darken-2'
-        else if (status === 'waiting for delivery')
-          return 'orange'
-          else if (status === 'completed')
-          return 'success'
-        else 
-          return 'dark'
-      },
+    handleApproved() {
+      this.isServicesLoading = true;
+
+      getSingleBooking(this.bookingId, this.http)
+        .then(res => {
+          this.booking = res;
+        })
+        .catch(err => toastr.error('Error while updating services: '+ err ))
+        .finally(() => this.isServicesLoading = false)
+    },
+    getColor (status) {
+      if (status === 'in progress') 
+        return 'primary'
+      else if (status === 'waiting for payment')
+        return 'yellow darken-2'
+      else if (status === 'waiting for delivery')
+        return 'orange'
+        else if (status === 'completed')
+        return 'success'
+      else 
+        return 'dark'
+    },
   },
 
   head: {
@@ -243,6 +256,10 @@ export default {
 .booking-single {
   &::v-deep thead.v-data-table-header.v-data-table-header-mobile {
     display: none;
+  }
+  td.white--text {
+    text-shadow: 0px 0px 4px black;
+    background: #e6e6e6;
   }
 }
 </style>

@@ -176,6 +176,7 @@ export default {
         '/apps/**',
         '/test',
         '/mot-car-check',
+        '/car-mot-details',
         '/booking/**',
         '/register-your-garage/**',
         '/rf/**',
@@ -216,6 +217,12 @@ export default {
     autoPageView: true,
     disabled: false,
     debug: false,
+  },
+
+  loading: {
+    color: '#06d6a0',
+    height: '3px',
+    continuous: true,
   },
 
 

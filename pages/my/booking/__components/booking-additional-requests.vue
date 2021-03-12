@@ -99,6 +99,7 @@ export default {
           }
 
           toastr.success(message);
+          this.$emit('approved');
           this.getRequests();
         })
         .catch(err => toastr.error('Error when updating your request action, please try again'))

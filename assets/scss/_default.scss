@@ -50,7 +50,7 @@ h1.heading__title, .h1.heading__title {
 }
 .heading__title {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
   line-height: initial;
   &--bar{
@@ -73,7 +73,6 @@ h1.heading__title, .h1.heading__title {
   }
   @media (min-width: 960px) {
     line-height: 57px;
-    font-weight: 600;
   }
 }
 .text-primary {
