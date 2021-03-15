@@ -210,7 +210,7 @@ export default {
   },
 
   loading: {
-    color: '#06d6a0',
+    color: '#00b4d8',
     height: '3px',
     continuous: true,
   },

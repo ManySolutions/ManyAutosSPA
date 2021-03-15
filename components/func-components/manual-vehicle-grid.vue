@@ -50,6 +50,10 @@ export default {
         modelId: vehicle.Model_ID
       });
 
+      if (this.$route.query.has_installment_plan) {
+        this.$store.commit('booking/HAS_PAYMENT_PLAN', true);
+      }
+
       this.$router.push('/booking/create/services');
 
       saveCustomVehicle(vehicle.Model_ID);
