@@ -1,4 +1,4 @@
-import { getSearchKeywords } from "~/api/booking";
+import { getSearchKeywords, getInstallmentDetails } from "~/api/booking";
 import { getCartInstance } from "~/api/cart";
 
 export const state = () => ({
@@ -14,6 +14,8 @@ export const state = () => ({
   referralId: null,
   isGetQuoteAlert: true,
   searchKeywords: [],
+  installmentPlanDetails: {},
+  loadingInstallment: false,
 })
 
 export const mutations = {
@@ -80,6 +82,14 @@ export const mutations = {
   SET_SEARCH_KEYWORDS(state, items) {
     state.searchKeywords = items;
   },
+
+  SET_INSTALLMET_DETAILS(state, items) {
+    state.installmentPlanDetails = items;
+  },
+
+  SET_LOADING_INSTALLMENT(state, status) {
+    state.loadingInstallment = status;
+  },
 }
 
 
@@ -101,7 +111,7 @@ export const getters = {
 
 
 export const actions = {
-  getCart({ state, commit }) {
+  getCart({ state, commit, dispatch }) {
     commit('SET_CART_LOADING', false);
 
     const { modelId, cart, cartUpdatedAt, cartReceivedAt } = state;
@@ -111,11 +121,13 @@ export const actions = {
     }
 
     commit('SET_CART_LOADING', true);
+    commit('SET_LOADING_INSTALLMENT', true);
     state.cartError = false;
 
     getCartInstance(modelId, cart)
       .then(res => {
         commit('UPDATE_CART_CONTENT', res);
+        dispatch('getInstallmentPlan');
       }).catch(err => {
         console.error('Some error occured while getting cart', err)
         state.cartError = err;
@@ -138,6 +150,16 @@ export const actions = {
     getSearchKeywords(state.modelId).then(res => {
       commit('SET_SEARCH_KEYWORDS', res);
     });
+  },
+  /* **** */
+
+  getInstallmentPlan({ commit, state }) {
+    commit('SET_LOADING_INSTALLMENT', true);
+    commit('SET_INSTALLMET_DETAILS', {});
+
+    getInstallmentDetails(state.cartContent.cart_subtotal)
+      .then(res => commit('SET_INSTALLMET_DETAILS', res.data))
+      .finally(() => commit('SET_LOADING_INSTALLMENT', false));
   },
   /* **** */
 }

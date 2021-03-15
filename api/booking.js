@@ -35,3 +35,7 @@ export async function getQuoteInfo(key, signature, $http=null) {
 export async function getSearchKeywords(modelId) {
   return (await http.get(`/get_parts_keywords/${modelId}`)).data;
 }
+
+export async function getInstallmentDetails(amount) {
+  return (await http.post(`/payment_plan`, {amount})).data;
+}
