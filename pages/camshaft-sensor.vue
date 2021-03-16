@@ -128,21 +128,21 @@ export default {
   },
 
   head: {
-    title: 'Camshaft Sensor | ManyAutos LTD',
+    title: 'Camshaft Sensor',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD one of the Leading Car Garage in Reading repair and Replace camshaft sensor of your car we believe in Quality work Many autos LTD always Provide Best Quality Auto Parts, Bring your car to Repair camshaft sensor or camshaft sensor replacement.'
+        content: 'Many Autos LTD one of the Leading Car Garage in United Kingdom repair and Replace camshaft sensor of your car we believe in Quality work Many autos LTD always Provide Best Quality Auto Parts, Bring your car to Repair camshaft sensor or camshaft sensor replacement.'
       },
       {
         name: 'keywords', 
-        content: 'camshaft sensor, new camshaft sensor, camshaft sensor repair, camshaft sensor replace, camshaft sensor replacement, camshaft sensor in reading, new camshaft sensor in reading, camshaft sensor repair in reading, camshaft sensor replace in reading, camshaft sensor replacement in reading, Car Garage in Reading'
+        content: 'camshaft sensor, new camshaft sensor, camshaft sensor repair, camshaft sensor replace, camshaft sensor replacement, camshaft sensor in United Kingdom, new camshaft sensor in United Kingdom, camshaft sensor repair in United Kingdom, camshaft sensor replace in United Kingdom, camshaft sensor replacement in United Kingdom, Car Garage in United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Camshaft Sensor | ManyAutos LTD"
+        content: "Camshaft Sensor"
       },
       {
         hid: 'og:type',
@@ -166,7 +166,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD one of the Leading Car Garage in Reading repair and Replace camshaft sensor of your car we believe in Quality work Many autos LTD always Provide Best Quality Auto Parts, Bring your car to Repair camshaft sensor or camshaft sensor replacement."
+        content: "Many Autos LTD one of the Leading Car Garage in United Kingdom repair and Replace camshaft sensor of your car we believe in Quality work Many autos LTD always Provide Best Quality Auto Parts, Bring your car to Repair camshaft sensor or camshaft sensor replacement."
       },
       {
         name: "twitter:card", 
@@ -174,11 +174,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Camshaft Sensor | ManyAutos LTD"
+        content: "Camshaft Sensor"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD one of the Leading Car Garage in Reading repair and Replace camshaft sensor of your car we believe in Quality work Many autos LTD always Provide Best Quality Auto Parts, Bring your car to Repair camshaft sensor or camshaft sensor replacement."
+        content: "Many Autos LTD one of the Leading Car Garage in United Kingdom repair and Replace camshaft sensor of your car we believe in Quality work Many autos LTD always Provide Best Quality Auto Parts, Bring your car to Repair camshaft sensor or camshaft sensor replacement."
       },
       {
         name: "twitter:image", 

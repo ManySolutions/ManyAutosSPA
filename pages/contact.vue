@@ -268,7 +268,7 @@ export default {
     },
   },
   head: {
-    title: 'Contact | ManyAutos LTD',
+    title: 'Contact',
 
     meta: [
       {
@@ -277,12 +277,12 @@ export default {
       },
       {
         name: 'keywords', 
-        content: 'contact car services, contact garage in Reading, contact garages,car body repair near me, car garages near me'
+        content: 'Contact car services, contact garage in United Kingdom, contact garages, car body repair near me, car garages near me'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Contact | ManyAutos LTD"
+        content: "Contact"
       },
       {
         hid: 'og:type',
@@ -314,7 +314,7 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Contact | ManyAutos LTD"
+        content: "Contact"
       },
       {
         name: "twitter:description", 

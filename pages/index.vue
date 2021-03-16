@@ -165,7 +165,7 @@ export default {
       {
         name: "keywords",
         content:
-          "Car servicing,  car mechanic , vehicle repair, car repair, car mechanic, car garage in uk, online repair center, MOT center",
+          "Car servicing, car mechanic, vehicle repair, car repair, car mechanic, car garage in UK, online repair centre, MOT centre",
       },
       {
         hid: 'og:title',

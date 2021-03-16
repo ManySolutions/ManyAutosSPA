@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Land Rover Service | ManyAutos LTD',
+    title: 'Land Rover Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking for car Garage in Reading for your Land Rover Service many Autos Provide Land Rover services in Reading UK (major Service, full Service, interim Service, MOT) book your Land Rover car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK.'
+        content: 'Kia Service, Kia service in United Kingdom, major Service, full Service, interim Service, MOT, free collection and delivery services.'
       },
       {
         name: 'keywords', 
-        content: 'car Garage in Reading, Land Rover Service, Land Rover services in Reading UK, major Service, full Service, interim Service, MOT, Land Rover car service, car Repair and Servicing in UK '
+        content: 'Car Garage in United Kingdom, Land Rover Service, Land Rover services in United Kingdom, major Service, full Service, interim Service, MOT, Land Rover car service, car Repair and Servicing in UK'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Land Rover Service | ManyAutos LTD"
+        content: "Land Rover Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking for car Garage in Reading for your Land Rover Service many Autos Provide Land Rover services in Reading UK (major Service, full Service, interim Service, MOT) book your Land Rover car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
+        content: "Kia Service, Kia service in United Kingdom, major Service, full Service, interim Service, MOT, free collection and delivery services."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Land Rover Service | ManyAutos LTD"
+        content: "Land Rover Service"
       },
       {
         name: "twitter:description", 
-        content: "Looking for car Garage in Reading for your Land Rover Service many Autos Provide Land Rover services in Reading UK (major Service, full Service, interim Service, MOT) book your Land Rover car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
+        content: "Kia Service, Kia service in United Kingdom, major Service, full Service, interim Service, MOT, free collection and delivery services."
       },
       {
         name: "twitter:image", 

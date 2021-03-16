@@ -188,12 +188,12 @@ export default {
   },
 
   head: {
-    title: 'Wheel Cylinder | ManyAutos LTD',
+    title: 'Wheel Cylinder',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos Repair Wheel Cylinder of your car and also Do Wheel Alignment of all makes and models in Reading UK Bring your car for Wheel Alignment and wheel balancing at Many Autos LTD car repair and Mot center in Reading UK.'
+        content: 'Many Autos Repair Wheel Cylinder of your car and also do wheel alignment of all makes and models in Reading UK Bring your car for Wheel Alignment and wheel balancing at Many Autos LTD car repair and Mot center in Reading UK.'
       },
       {
         name: 'keywords', 
@@ -202,7 +202,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Wheel Cylinder | ManyAutos LTD"
+        content: "Wheel Cylinder"
       },
       {
         hid: 'og:type',
@@ -234,7 +234,7 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Wheel Cylinder | ManyAutos LTD"
+        content: "Wheel Cylinder"
       },
       {
         name: "twitter:description", 

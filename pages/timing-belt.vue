@@ -327,11 +327,11 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos aim to provide you the best prices for the timing belt replacement throughout the UK.  We are highly qualified to deal with any timing belt repair issues with your vehicle. New timing belt fitted to your vehicle comes with 12 months or 12,000 miles warranty whichever comes first. To get Quality Cambelt repair and Cambelt replacement services in Reading call Many autos LTD or Book online car Service to get free Quote.'
+        content: 'Many Autos aim to provide you the best prices for the timing belt replacement throughout the UK.  We are highly qualified to deal with any timing belt repair issues with your vehicle. New timing belt fitted to your vehicle comes with 12 months or 12,000 miles warranty whichever comes first. To get Quality Cambelt repair and Cambelt replacement services in United Kingdom call many autos LTD or Book online car Service to get free Quote.'
       },
       {
         name: 'keywords', 
-        content: 'cambelt replacement, cambelt repair, cambelt service, new cambelt, cambelt replacement in reading, new timing belt, timing belt, timing belt repair, timing belt replacement, timing belt service, new timing belt in reading, stiming belt in reading, timing belt repair in reading, timing belt replacement in reading, timing belt service in reading'
+        content: 'cambelt replacement, cambelt repair, cambelt service, new cambelt, cambelt replacement in United Kingdom, new timing belt, timing belt, timing belt repair, timing belt replacement, timing belt service, new timing belt in United Kingdom, timing belt in United Kingdom, timing belt repair in United Kingdom, timing belt replacement in United Kingdom, timing belt service in United Kingdom'
       },
       {
         hid: 'og:title',
@@ -360,7 +360,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos aim to provide you the best prices for the timing belt replacement throughout the UK.  We are highly qualified to deal with any timing belt repair issues with your vehicle. New timing belt fitted to your vehicle comes with 12 months or 12,000 miles warranty whichever comes first. To get Quality Cambelt repair and Cambelt replacement services in Reading call Many autos LTD or Book online car Service to get free Quote."
+        content: "Many Autos aim to provide you the best prices for the timing belt replacement throughout the UK.  We are highly qualified to deal with any timing belt repair issues with your vehicle. New timing belt fitted to your vehicle comes with 12 months or 12,000 miles warranty whichever comes first. To get Quality Cambelt repair and Cambelt replacement services in United Kingdom call many autos LTD or Book online car Service to get free Quote."
       },
       {
         name: "twitter:card", 
@@ -372,7 +372,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Many Autos aim to provide you the best prices for the timing belt replacement throughout the UK.  We are highly qualified to deal with any timing belt repair issues with your vehicle. New timing belt fitted to your vehicle comes with 12 months or 12,000 miles warranty whichever comes first. To get Quality Cambelt repair and Cambelt replacement services in Reading call Many autos LTD or Book online car Service to get free Quote."
+        content: "Many Autos aim to provide you the best prices for the timing belt replacement throughout the UK.  We are highly qualified to deal with any timing belt repair issues with your vehicle. New timing belt fitted to your vehicle comes with 12 months or 12,000 miles warranty whichever comes first. To get Quality Cambelt repair and Cambelt replacement services in United Kingdom call many autos LTD or Book online car Service to get free Quote."
       },
       {
         name: "twitter:image", 

@@ -72,21 +72,21 @@ export default {
   },
 
   head: {
-    title: 'Exhaust Repair, Fitting & Replacement and Free Check Reading | ManyAutos LTD',
+    title: 'Exhaust Repair, Fitting & Replacementand free check United Kingdom',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Get a FREE car exhaust check and find out more about the range of exhaust services like car exhaust repair,car exhaust fitting, Exhaust cleaning, car exhaust replacement in Reading. Book right now an exhaust fitting at low cost in our Reading workshop UK'
+        content: 'Get a FREE car exhaust check and find out more about the range of exhaust services like car exhaust repair, car exhaust fitting, Exhaust cleaning, and car exhaust replacement in United Kingdom. Book right now an exhaust fitting at low cost in our United Kingdom workshop.'
       },
       {
         name: 'keywords', 
-        content: 'free exhaust check Reading,car exhaust repair Reading,car exhaust fitting Reading,car exhaust replacement in Reading, Low cost exhaust repair'
+        content: 'Free exhaust check United Kingdom, car exhaust repair United Kingdom, car exhaust fitting United Kingdom, car exhaust replacement in United Kingdom, Low cost exhaust repair'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Exhaust Repair, Fitting & Replacement and Free Check Reading | ManyAutos LTD"
+        content: "Exhaust Repair, Fitting & Replacementand free check United Kingdom"
       },
       {
         hid: 'og:type',
@@ -110,7 +110,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Get a FREE car exhaust check and find out more about the range of exhaust services like car exhaust repair,car exhaust fitting, Exhaust cleaning, car exhaust replacement in Reading. Book right now an exhaust fitting at low cost in our Reading workshop UK"
+        content: "Get a FREE car exhaust check and find out more about the range of exhaust services like car exhaust repair, car exhaust fitting, Exhaust cleaning, and car exhaust replacement in United Kingdom. Book right now an exhaust fitting at low cost in our United Kingdom workshop."
       },
       {
         name: "twitter:card", 
@@ -118,11 +118,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Exhaust Repair, Fitting & Replacement and Free Check Reading | ManyAutos LTD"
+        content: "Exhaust Repair, Fitting & Replacementand free check United Kingdom"
       },
       {
         name: "twitter:description", 
-        content: "Get a FREE car exhaust check and find out more about the range of exhaust services like car exhaust repair,car exhaust fitting, Exhaust cleaning, car exhaust replacement in Reading. Book right now an exhaust fitting at low cost in our Reading workshop UK"
+        content: "Get a FREE car exhaust check and find out more about the range of exhaust services like car exhaust repair, car exhaust fitting, Exhaust cleaning, and car exhaust replacement in United Kingdom. Book right now an exhaust fitting at low cost in our United Kingdom workshop."
       },
       {
         name: "twitter:image", 

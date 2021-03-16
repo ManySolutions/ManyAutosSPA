@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Lexus Service | ManyAutos LTD',
+    title: 'Lexus Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking for car Garage in Reading for your Lexus Service many Autos Provide Lexus services in Reading UK (major Service, full Service, interim Service, MOT) book your Lexus car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK.'
+        content: 'Looking for car Garage in United Kingdom for your Lexus Service many Autos Provide Lexus services in United Kingdom (major Service, full Service, interim Service, MOT) book your Lexus car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK.'
       },
       {
         name: 'keywords', 
-        content: 'Lexus Service, Lexus services in Reading UK, major Service, full Service, interim Service, MOT, Lexus car service'
+        content: 'Lexus Service, Lexus services in United Kingdom, Major Service, full Service, interim Service, MOT, and Lexus car service'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Lexus Service | ManyAutos LTD"
+        content: "Lexus Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking for car Garage in Reading for your Lexus Service many Autos Provide Lexus services in Reading UK (major Service, full Service, interim Service, MOT) book your Lexus car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
+        content: "Looking for car Garage in United Kingdom for your Lexus Service many Autos Provide Lexus services in United Kingdom (major Service, full Service, interim Service, MOT) book your Lexus car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Lexus Service | ManyAutos LTD"
+        content: "Lexus Service"
       },
       {
         name: "twitter:description", 
-        content: "Looking for car Garage in Reading for your Lexus Service many Autos Provide Lexus services in Reading UK (major Service, full Service, interim Service, MOT) book your Lexus car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
+        content: "Looking for car Garage in United Kingdom for your Lexus Service many Autos Provide Lexus services in United Kingdom (major Service, full Service, interim Service, MOT) book your Lexus car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
       },
       {
         name: "twitter:image", 

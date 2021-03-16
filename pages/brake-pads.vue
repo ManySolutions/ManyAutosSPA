@@ -305,7 +305,7 @@ export default {
   },
 
   head: {
-    title: 'Car Brake Pads | Automotive Replacement Brake Pads | ManyAutos LTD',
+    title: 'Car Brake Pads | Automotive Replacement Brake Pads',
 
     meta: [
       {
@@ -314,12 +314,12 @@ export default {
       },
       {
         name: 'keywords', 
-        content: 'brake pads, buy genuine brake pads, car disc brake, brake repair, types of brake calipers, brake pipe , brake services, Brake Pads Repair, or Brake Pads Replacement, car repair centre in UK'
+        content: 'Brake pads, buy genuine brake pads, car disc brake, brake repair, types of brake calipers, brake pipe, brake services, Brake Pads Repair, or Brake Pads Replacement, car repair centre in UK'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Car Brake Pads | Automotive Replacement Brake Pads | ManyAutos LTD"
+        content: "Car Brake Pads | Automotive Replacement Brake Pads"
       },
       {
         hid: 'og:type',
@@ -351,7 +351,7 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Car Brake Pads | Automotive Replacement Brake Pads | ManyAutos LTD"
+        content: "Car Brake Pads | Automotive Replacement Brake Pads"
       },
       {
         name: "twitter:description", 

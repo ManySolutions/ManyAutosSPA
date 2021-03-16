@@ -65,11 +65,11 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD offers Steering repair and Steering replacement and free check steering in Reading. Our expert technician fix Vehicle steering problems in cheap rates. Call us right now or click here for more detail.'
+        content: 'Many Autos LTD offers Steering repair and Steering replacement and free check steering in United Kingdom. Our expert technician fix Vehicle steering problems in cheap rates. Call us right now or click here for more detail.'
       },
       {
         name: 'keywords', 
-        content: 'Steering Repair services Reading,Steering replacement services Reading,free Steering check Reading,Cheap Steering Repair in Reading'
+        content: 'Steering Repair services United Kingdom, Steering replacement services United Kingdom, free Steering check United Kingdom, Cheap Steering Repair in United Kingdom'
       },
       {
         hid: 'og:title',
@@ -98,7 +98,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD offers Steering repair and Steering replacement and free check steering in Reading. Our expert technician fix Vehicle steering problems in cheap rates. Call us right now or click here for more detail."
+        content: "Many Autos LTD offers Steering repair and Steering replacement and free check steering in United Kingdom. Our expert technician fix Vehicle steering problems in cheap rates. Call us right now or click here for more detail."
       },
       {
         name: "twitter:card", 
@@ -110,7 +110,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD offers Steering repair and Steering replacement and free check steering in Reading. Our expert technician fix Vehicle steering problems in cheap rates. Call us right now or click here for more detail."
+        content: "Many Autos LTD offers Steering repair and Steering replacement and free check steering in United Kingdom. Our expert technician fix Vehicle steering problems in cheap rates. Call us right now or click here for more detail."
       },
       {
         name: "twitter:image", 

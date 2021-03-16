@@ -182,21 +182,21 @@ export default {
   },
 
   head: {
-    title: 'Radiator replacement, radiator replace | ManyAutos LTD ',
+    title: 'Radiator replacement, radiator replace',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Radiator for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work Many Autos Provide Quality and Quick radiator Replacement services to Save your time we aims to Provide best radiator repair services to our trusted clients.'
+        content: 'We repair and replace Radiator for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work Many Autos Provide Quality and Quick radiator Replacement services to Save your time we aims to Provide best radiator repair services to our trusted clients.'
       },
       {
         name: 'keywords', 
-        content: 'radiator, radiator repair, radiator replace, radiator replacement'
+        content: 'Radiator, radiator repair, radiator replace, radiator replacement'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Radiator replacement, radiator replace | ManyAutos LTD"
+        content: "Radiator replacement, radiator replace"
       },
       {
         hid: 'og:type',
@@ -220,7 +220,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Radiator for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work Many Autos Provide Quality and Quick radiator Replacement services to Save your time we aims to Provide best radiator repair services to our trusted clients."
+        content: "We repair and replace Radiator for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work Many Autos Provide Quality and Quick radiator Replacement services to Save your time we aims to Provide best radiator repair services to our trusted clients."
       },
       {
         name: "twitter:card", 
@@ -228,11 +228,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Radiator replacement, radiator replace | ManyAutos LTD"
+        content: "Radiator replacement, radiator replace"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Radiator for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work Many Autos Provide Quality and Quick radiator Replacement services to Save your time we aims to Provide best radiator repair services to our trusted clients."
+        content: "We repair and replace Radiator for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work Many Autos Provide Quality and Quick radiator Replacement services to Save your time we aims to Provide best radiator repair services to our trusted clients."
       },
       {
         name: "twitter:image", 

@@ -118,21 +118,21 @@ export default {
   },
 
   head: {
-    title: 'ABS Hydraulic Units, ABS controllers, Many Autos LTD ',
+    title: 'ABS Hydraulic Units, ABS controllers',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace ABS Hydraulic Units for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery call Many Autos to Repair or Replace your cars ABS Controllers.'
+        content: 'We repair and replace ABS Hydraulic Units for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery call Many Autos to Repair or Replace your cars ABS Controllers.'
       },
       {
         name: 'keywords', 
-        content: 'abs hydraulic units, new abs hydraulic units, abs hydraulic units repair, abs hydraulic units replace, abs hydraulic units replacement, ABS Controllers, Many Autos LTD'
+        content: 'Abs hydraulic units, new abs hydraulic units, abs hydraulic units repair, abs hydraulic units replace, abs hydraulic units replacement, ABS Controllers, Many Autos LTD'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "ABS Hydraulic Units | ManyAutos LTD"
+        content: "ABS Hydraulic Units"
       },
       {
         hid: 'og:type',
@@ -156,7 +156,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace ABS Hydraulic Units for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery call Many Autos to Repair or Replace your cars ABS Controllers."
+        content: "We repair and replace ABS Hydraulic Units for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery call Many Autos to Repair or Replace your cars ABS Controllers."
       },
       {
         name: "twitter:card", 
@@ -164,11 +164,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "ABS Hydraulic Units | ManyAutos LTD"
+        content: "ABS Hydraulic Units"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace ABS Hydraulic Units for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery call Many Autos to Repair or Replace your cars ABS Controllers."
+        content: "We repair and replace ABS Hydraulic Units for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery call Many Autos to Repair or Replace your cars ABS Controllers."
       },
       {
         name: "twitter:image", 

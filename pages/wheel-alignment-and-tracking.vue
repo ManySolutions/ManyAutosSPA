@@ -143,12 +143,12 @@ export default {
   },
 
   head: {
-    title: 'Wheel Alignment And Tracking | Many Autos LTD',
+    title: 'Wheel Alignment And Tracking',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We do Wheel Alignment and Tracking for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work keep your car Safe on the road by Maintaining Front wheel alignment and rear wheel alignment.'
+        content: 'We do Wheel Alignment and Tracking for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work keep your car Safe on the road by Maintaining Front wheel alignment and rear wheel alignment.'
       },
       {
         name: 'keywords', 
@@ -157,7 +157,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Wheel Alignment And Tracking | ManyAutos LTD"
+        content: "Wheel Alignment And Tracking"
       },
       {
         hid: 'og:type',
@@ -181,7 +181,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We do Wheel Alignment and Tracking for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work keep your car Safe on the road by Maintaining Front wheel alignment and rear wheel alignment."
+        content: "We do Wheel Alignment and Tracking for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work keep your car Safe on the road by Maintaining Front wheel alignment and rear wheel alignment."
       },
       {
         name: "twitter:card", 
@@ -189,11 +189,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Wheel Alignment And Tracking | ManyAutos LTD"
+        content: "Wheel Alignment And Tracking"
       },
       {
         name: "twitter:description", 
-        content: "We do Wheel Alignment and Tracking for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work keep your car Safe on the road by Maintaining Front wheel alignment and rear wheel alignment."
+        content: "We do Wheel Alignment and Tracking for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work keep your car Safe on the road by Maintaining Front wheel alignment and rear wheel alignment."
       },
       {
         name: "twitter:image", 

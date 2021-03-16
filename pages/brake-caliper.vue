@@ -153,12 +153,12 @@ export default {
   },
 
   head: {
-    title: 'Brake Calipers | ManyAutos LTD',
+    title: 'Brake Calipers',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Need Help with your car’s Brake or Need to Replace Brake Caliper Many Autos LTD  repair and replace Brake Caliper for all makes and models in Reading, United Kingdom.'
+        content: 'Need Help with your car’s Brake or Need to Replace Brake Caliper Many Autos LTD repair and replace Brake Caliper for all makes and models in United Kingdom.'
       },
       {
         name: 'keywords', 
@@ -167,7 +167,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Brake Calipers | ManyAutos LTD"
+        content: "Brake Calipers"
       },
       {
         hid: 'og:type',
@@ -191,7 +191,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Need Help with your car’s Brake or Need to Replace Brake Caliper Many Autos LTD  repair and replace Brake Caliper for all makes and models in Reading, United Kingdom."
+        content: "Need Help with your car’s Brake or Need to Replace Brake Caliper Many Autos LTD repair and replace Brake Caliper for all makes and models in United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -199,11 +199,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Calipers | ManyAutos LTD"
+        content: "Brake Calipers"
       },
       {
         name: "twitter:description", 
-        content: "Need Help with your car’s Brake or Need to Replace Brake Caliper Many Autos LTD  repair and replace Brake Caliper for all makes and models in Reading, United Kingdom."
+        content: "Need Help with your car’s Brake or Need to Replace Brake Caliper Many Autos LTD repair and replace Brake Caliper for all makes and models in United Kingdom."
       },
       {
         name: "twitter:image", 

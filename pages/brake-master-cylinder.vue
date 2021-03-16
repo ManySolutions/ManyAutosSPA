@@ -160,12 +160,12 @@ export default {
   },
 
   head: {
-    title: 'Brake Master Cylinder | ManyAutos LTD',
+    title: 'Brake Master Cylinder',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD repair and replace brake master cylinder for all makes and models in United Kingdom. Many Autos LTD also provide free collection and delivery service within Reading. Many Autos also have Car Garage Service in Reading. Feel Free to contact them for any Car Service Like Brake Master Cylinder Sensor.'
+        content: 'Many Autos LTD repair and replace brake master cylinder for all makes and models in United Kingdom. Many Autos LTD also provide free collection and delivery service within United Kingdom. Many Autos also have Car Garage Service in United Kingdom. Feel Free to contact them for any Car Service like Brake Master Cylinder Sensor.'
       },
       {
         name: 'keywords', 
@@ -174,7 +174,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Brake Master Cylinder | ManyAutos LTD"
+        content: "Brake Master Cylinder"
       },
       {
         hid: 'og:type',
@@ -198,7 +198,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD repair and replace brake master cylinder for all makes and models in United Kingdom. Many Autos LTD also provide free collection and delivery service within Reading. Many Autos also have Car Garage Service in Reading. Feel Free to contact them for any Car Service Like Brake Master Cylinder Sensor."
+        content: "Many Autos LTD repair and replace brake master cylinder for all makes and models in United Kingdom. Many Autos LTD also provide free collection and delivery service within United Kingdom. Many Autos also have Car Garage Service in United Kingdom. Feel Free to contact them for any Car Service like Brake Master Cylinder Sensor."
       },
       {
         name: "twitter:card", 
@@ -206,11 +206,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Master Cylinder | ManyAutos LTD"
+        content: "Brake Master Cylinder"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD repair and replace brake master cylinder for all makes and models in United Kingdom. Many Autos LTD also provide free collection and delivery service within Reading. Many Autos also have Car Garage Service in Reading. Feel Free to contact them for any Car Service Like Brake Master Cylinder Sensor."
+        content: "Many Autos LTD repair and replace brake master cylinder for all makes and models in United Kingdom. Many Autos LTD also provide free collection and delivery service within United Kingdom. Many Autos also have Car Garage Service in United Kingdom. Feel Free to contact them for any Car Service like Brake Master Cylinder Sensor."
       },
       {
         name: "twitter:image", 

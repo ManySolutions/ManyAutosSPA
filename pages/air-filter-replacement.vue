@@ -174,7 +174,7 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We carry out air filter replacement and repairs for all vehicle makes and models, Bring your car to expert car mechanic and Get a free quote today online or by phone . We only use Best  quality part and our aim is to provide you the best prices and services throughout the UK.'
+        content: 'We carry out air filter replacement and repairs for all vehicle makes and models, bring your car to expert car mechanic and Get a free quote today online or by phone. We only use Best quality part and our aim is to provide you the best prices and services throughout the UK.'
       },
       {
         name: 'keywords', 
@@ -207,7 +207,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We carry out air filter replacement and repairs for all vehicle makes and models, Bring your car to expert car mechanic and Get a free quote today online or by phone . We only use Best  quality part and our aim is to provide you the best prices and services throughout the UK."
+        content: "We carry out air filter replacement and repairs for all vehicle makes and models, bring your car to expert car mechanic and Get a free quote today online or by phone. We only use Best quality part and our aim is to provide you the best prices and services throughout the UK."
       },
       {
         name: "twitter:card", 
@@ -219,7 +219,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We carry out air filter replacement and repairs for all vehicle makes and models, Bring your car to expert car mechanic and Get a free quote today online or by phone . We only use Best  quality part and our aim is to provide you the best prices and services throughout the UK."
+        content: "We carry out air filter replacement and repairs for all vehicle makes and models, bring your car to expert car mechanic and Get a free quote today online or by phone. We only use Best quality part and our aim is to provide you the best prices and services throughout the UK."
       },
       {
         name: "twitter:image", 

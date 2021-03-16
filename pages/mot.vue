@@ -294,21 +294,21 @@ export default {
   },
 
   head: {
-    title: 'MOT Test,  MOT Test Center , MOT Reading ',
+    title: 'MOT Test',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Is your car or other vehicle need an MOT test? Are you looking for a best MOT Test center in your area? You can book MOT TEST with Many Autos LTD Trusted Garage for MOT in Reading   and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online.'
+        content: ' Your car or other vehicle need an MOT test? Are you looking for a best deal with peace of mind? Bring your car at Many Autos LTD here you will get affordable Prices for your car’s MOT test we also provide Mot test with Free collection and MOT with Free Delivery many Autos is the trusted MOT Garage Book your MOT United Kingdom online.'
       },
       {
         name: 'keywords', 
-        content: 'MOT, MOT test, Car MOT test, vehicle MOT Test, MOT test in Reading, MOT with free collection And  delivery, MOT garage, MOT in Reading'
+        content: 'MOT, MOT test, Car MOT test, vehicle MOT Test, MOT test in United Kingdom, MOT with free collection, MOT with free delivery, MOT garage, MOT in United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "MOT Test,  MOT Test Center , MOT Reading "
+        content: "MOT Test"
       },
       {
         hid: 'og:type',
@@ -332,7 +332,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Is your car or other vehicle need an MOT test? Are you looking for a best MOT Test center in your area? You can book MOT TEST with Many Autos LTD Trusted Garage for MOT in Reading   and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online."
+        content: " Your car or other vehicle need an MOT test? Are you looking for a best deal with peace of mind? Bring your car at Many Autos LTD here you will get affordable Prices for your car’s MOT test we also provide Mot test with Free collection and MOT with Free Delivery many Autos is the trusted MOT Garage Book your MOT United Kingdom online."
       },
       {
         name: "twitter:card", 
@@ -340,11 +340,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "MOT Test,  MOT Test Center , MOT Reading "
+        content: "MOT Test"
       },
       {
         name: "twitter:description", 
-        content: "Is your car or other vehicle need an MOT test? Are you looking for a best MOT Test center in your area? You can book MOT TEST with Many Autos LTD Trusted Garage for MOT in Reading   and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online."
+        content: " Your car or other vehicle need an MOT test? Are you looking for a best deal with peace of mind? Bring your car at Many Autos LTD here you will get affordable Prices for your car’s MOT test we also provide Mot test with Free collection and MOT with Free Delivery many Autos is the trusted MOT Garage Book your MOT United Kingdom online."
       },
       {
         name: "twitter:image", 

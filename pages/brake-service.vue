@@ -283,21 +283,21 @@ export default {
   },
 
   head: {
-    title: 'Brake Service | ManyAutos LTD',
+    title: 'Brake Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Facing problems with your car Brakes? Get your car’s Brake service from Best car garage in UK before it’s too late. Many Autos LTD Providing Best and quality Brake services, Brake Pads Replacement, Brake Pads Installation in Reading UK You can also avail free collection and Delivery services of Many Autos LTD by Booking your car Service Online.'
+        content: 'Facing problems with your car Brakes? Get your car’s Brake service from Best car garage in UK before it’s too late. Many Autos LTD Providing Best and quality Brake services, Brake Pads Replacement, Brake Pads Installation in United Kingdom You can also avail free collection and Delivery services of Many Autos LTD by booking your car Service Online.'
       },
       {
         name: 'keywords', 
-        content: 'brake pads replacement, brake service, brake pads service, brake pads installation, brake service reading, free collection and delivery'
+        content: 'Brake pads replacement, brake service, brake pads service, brake pads installation, brake service United Kingdom, free collection and delivery'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Brake Service | ManyAutos LTD"
+        content: "Brake Service"
       },
       {
         hid: 'og:type',
@@ -321,7 +321,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Facing problems with your car Brakes? Get your car’s Brake service from Best car garage in UK before it’s too late. Many Autos LTD Providing Best and quality Brake services, Brake Pads Replacement, Brake Pads Installation in Reading UK You can also avail free collection and Delivery services of Many Autos LTD by Booking your car Service Online."
+        content: "Facing problems with your car Brakes? Get your car’s Brake service from Best car garage in UK before it’s too late. Many Autos LTD Providing Best and quality Brake services, Brake Pads Replacement, Brake Pads Installation in United Kingdom You can also avail free collection and Delivery services of Many Autos LTD by booking your car Service Online."
       },
       {
         name: "twitter:card", 
@@ -329,11 +329,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Service | ManyAutos LTD"
+        content: "Brake Service"
       },
       {
         name: "twitter:description", 
-        content: "Facing problems with your car Brakes? Get your car’s Brake service from Best car garage in UK before it’s too late. Many Autos LTD Providing Best and quality Brake services, Brake Pads Replacement, Brake Pads Installation in Reading UK You can also avail free collection and Delivery services of Many Autos LTD by Booking your car Service Online."
+        content: "Facing problems with your car Brakes? Get your car’s Brake service from Best car garage in UK before it’s too late. Many Autos LTD Providing Best and quality Brake services, Brake Pads Replacement, Brake Pads Installation in United Kingdom You can also avail free collection and Delivery services of Many Autos LTD by booking your car Service Online."
       },
       {
         name: "twitter:image", 

@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Volvo Service | ManyAutos LTD',
+    title: 'Volvo Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Need Volvo services near your Area? Bring your Volvo at Many Autos LTD for Best Volvo Interim Service, Volvo major service, Volvo full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Volvo servicing in Reading UK.'
+        content: 'Need Volvo services near your Area? Bring your Volvo at Many Autos LTD for Best Volvo Interim Service, Volvo major service, Volvo full service in United Kingdom Book your car repair service online we also provide free collection and delivery services for Volvo servicing in United Kingdom.'
       },
       {
         name: 'keywords', 
-        content: 'Volvo services, Volvo, Volvo Interim Service, Volvo major service, Volvo full service in Reading UK, car repair service, free collection and delivery services'
+        content: 'Volvo services, Volvo, Volvo Interim Service, Volvo major service, Volvo full service in United Kingdom, car repair service, free collection and delivery services'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Volvo Service | ManyAutos LTD"
+        content: "Volvo Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Need Volvo services near your Area? Bring your Volvo at Many Autos LTD for Best Volvo Interim Service, Volvo major service, Volvo full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Volvo servicing in Reading UK."
+        content: "Need Volvo services near your Area? Bring your Volvo at Many Autos LTD for Best Volvo Interim Service, Volvo major service, Volvo full service in United Kingdom Book your car repair service online we also provide free collection and delivery services for Volvo servicing in United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Volvo Service | ManyAutos LTD"
+        content: "Volvo Service"
       },
       {
         name: "twitter:description", 
-        content: "Need Volvo services near your Area? Bring your Volvo at Many Autos LTD for Best Volvo Interim Service, Volvo major service, Volvo full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Volvo servicing in Reading UK."
+        content: "Need Volvo services near your Area? Bring your Volvo at Many Autos LTD for Best Volvo Interim Service, Volvo major service, Volvo full service in United Kingdom Book your car repair service online we also provide free collection and delivery services for Volvo servicing in United Kingdom."
       },
       {
         name: "twitter:image", 

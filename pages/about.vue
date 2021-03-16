@@ -59,11 +59,11 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'A company responsible for your car’s repair and maintenance. We provide you with the best affordable services visit our website or car Garage to Know more About us and how it works we Collect and deliver your car free of cost after Auto repair and car servicing.'
+        content: 'A company responsible for your car’s repair and maintenance. We provide you with the best affordable services visit our website or car Garage to know more about us and how it works we Collect and deliver your car free of cost after Auto repair and car servicing.'
       },
       {
         name: 'keywords', 
-        content: 'auto repair, car servicing, car repair tips, car garages, car repairing'
+        content: 'Auto repair, car servicing, car repair tips, car garages, car repairing'
       },
       {
         hid: "og:title",
@@ -92,7 +92,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "A company responsible for your car’s repair and maintenance. We provide you with the best affordable services visit our website or car Garage to Know more About us and how it works we Collect and deliver your car free of cost after Auto repair and car servicing."
+        content: "A company responsible for your car’s repair and maintenance. We provide you with the best affordable services visit our website or car Garage to know more about us and how it works we Collect and deliver your car free of cost after Auto repair and car servicing."
       },
       {
         name: "twitter:card", 
@@ -104,7 +104,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "A company responsible for your car’s repair and maintenance. We provide you with the best affordable services visit our website or car Garage to Know more About us and how it works we Collect and deliver your car free of cost after Auto repair and car servicing."
+        content: "A company responsible for your car’s repair and maintenance. We provide you with the best affordable services visit our website or car Garage to know more about us and how it works we Collect and deliver your car free of cost after Auto repair and car servicing."
       },
       {
         name: "twitter:image", 

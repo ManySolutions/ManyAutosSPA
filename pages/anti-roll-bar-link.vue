@@ -118,21 +118,21 @@ export default {
   },
 
   head: {
-    title: 'Anti Roll Bar Link | ManyAutos LTD',
+    title: 'Anti Roll Bar Link',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD  carry out Anti roll bar link replacement and service for all vehicle  makes and models Many Autos Always Provide Best Quality car Repair Services in UK Book Your Car repair Service Online now we will collect and Deliver your car Free of cost.'
+        content: 'Many Autos LTD carry out Anti roll bar link replacement and service for all vehicle makes and models Many Autos Always Provide Best Quality car Repair Services in UK Book Your Car repair Service Online now we will collect and Deliver your car Free of cost.'
       },
       {
         name: 'keywords', 
-        content: 'anti roll bar link, anti roll bar, anti roll link, anti roll bar link installation, anti roll bar link replacement reading, anti roll bar link reading, free collection and delivery, car Repair Services'
+        content: 'Anti-roll bar link, anti-roll bar, anti-roll link, anti-roll bar link installation, anti-roll bar link replacement United Kingdom, anti-roll bar link United Kingdom, free collection and delivery, car Repair Services'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Anti Roll Bar Link | ManyAutos LTD"
+        content: "Anti Roll Bar Link"
       },
       {
         hid: 'og:type',
@@ -156,7 +156,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD  carry out Anti roll bar link replacement and service for all vehicle  makes and models Many Autos Always Provide Best Quality car Repair Services in UK Book Your Car repair Service Online now we will collect and Deliver your car Free of cost."
+        content: "Many Autos LTD carry out Anti roll bar link replacement and service for all vehicle makes and models Many Autos Always Provide Best Quality car Repair Services in UK Book Your Car repair Service Online now we will collect and Deliver your car Free of cost."
       },
       {
         name: "twitter:card", 
@@ -164,11 +164,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Anti Roll Bar Link | ManyAutos LTD"
+        content: "Anti Roll Bar Link"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD  carry out Anti roll bar link replacement and service for all vehicle  makes and models Many Autos Always Provide Best Quality car Repair Services in UK Book Your Car repair Service Online now we will collect and Deliver your car Free of cost."
+        content: "Many Autos LTD carry out Anti roll bar link replacement and service for all vehicle makes and models Many Autos Always Provide Best Quality car Repair Services in UK Book Your Car repair Service Online now we will collect and Deliver your car Free of cost."
       },
       {
         name: "twitter:image", 

@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Jaguar Service | ManyAutos LTD',
+    title: 'Jaguar Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer jaguar interim service, jaguar major service we deal jaguar servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of jaguar.'
+        content: 'Many Autos is the Best car garage and Car Repair Company in United Kingdom. Many Autos LTD Offer jaguar interim service, jaguar major service we deal jaguar servicing in United Kingdom bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of jaguar.'
       },
       {
         name: 'keywords', 
-        content: 'jaguar service, car garage , Car Repair Company in Reading, jaguar interim service, jaguar major service, jaguar servicing in Reading, car service, car servicing, car services, car service and repair'
+        content: 'jaguar service, car garage , Car Repair Company in United Kingdom, jaguar interim service, jaguar major service, jaguar servicing in United Kingdom, car service, car servicing, car services, car service and repair'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Jaguar Service | ManyAutos LTD"
+        content: "Jaguar Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer jaguar interim service, jaguar major service we deal jaguar servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of jaguar."
+        content: "Many Autos is the Best car garage and Car Repair Company in United Kingdom. Many Autos LTD Offer jaguar interim service, jaguar major service we deal jaguar servicing in United Kingdom bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of jaguar."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Jaguar Service | ManyAutos LTD"
+        content: "Jaguar Service"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer jaguar interim service, jaguar major service we deal jaguar servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of jaguar."
+        content: "Many Autos is the Best car garage and Car Repair Company in United Kingdom. Many Autos LTD Offer jaguar interim service, jaguar major service we deal jaguar servicing in United Kingdom bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of jaguar."
       },
       {
         name: "twitter:image", 

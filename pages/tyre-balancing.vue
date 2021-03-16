@@ -100,21 +100,21 @@ export default {
   },
 
   head: {
-    title: 'Tyre Balancing | Many Autos  LTD',
+    title: 'Tyre Balancing',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We do tyre balancing for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work To get rear tyre balancing and front tyre balancing call at Many autos LTD or book your car repair service online.'
+        content: 'We do tyre balancing for all makes and models in United Kingdom, United Kingdom. We also provide free collection and delivery service from your home or place of work to get rear tyre balancing and front tyre balancing call at many autos LTD or book your car repair service online.'
       },
       {
         name: 'keywords', 
-        content: 'tyre balancing, balancing, rear tyre balancing, front tyre balancing'
+        content: 'Tyre balancing, balancing, rear tyre balancing, front tyre balancing'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Tyre Balancing | ManyAutos LTD"
+        content: "Tyre Balancing"
       },
       {
         hid: 'og:type',
@@ -138,7 +138,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We do tyre balancing for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work To get rear tyre balancing and front tyre balancing call at Many autos LTD or book your car repair service online."
+        content: "We do tyre balancing for all makes and models in United Kingdom, United Kingdom. We also provide free collection and delivery service from your home or place of work to get rear tyre balancing and front tyre balancing call at many autos LTD or book your car repair service online."
       },
       {
         name: "twitter:card", 
@@ -146,11 +146,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Tyre Balancing | ManyAutos LTD"
+        content: "Tyre Balancing"
       },
       {
         name: "twitter:description", 
-        content: "We do tyre balancing for all makes and models in Reading, United Kingdom. We also provide free collection and delivery service from your home or place of work To get rear tyre balancing and front tyre balancing call at Many autos LTD or book your car repair service online."
+        content: "We do tyre balancing for all makes and models in United Kingdom, United Kingdom. We also provide free collection and delivery service from your home or place of work to get rear tyre balancing and front tyre balancing call at many autos LTD or book your car repair service online."
       },
       {
         name: "twitter:image", 

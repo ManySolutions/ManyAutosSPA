@@ -205,11 +205,11 @@ export default {
     }
   },
   head: {
-    title: 'Register | ManyAutos LTD',
+    title: 'Register',
       meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking for affordable car repairs and MOT test? You’ve come to the right place. Register your car at Many Autos LTD Online car Repair services to Avail High Quality Car repairing and servicing in Reading UK we also Provide free collection and delivery services for MOT test and car body repair.'
+        content: 'Looking for affordable car repairs and MOT test? You’ve come to the right place. Register your car at Many Autos LTD Online car Repair services to Avail High Quality Car repairing and servicing in United Kingdom we also Provide free collection and delivery services for MOT test and car body repair.'
       },
       {
         name: 'keywords', 
@@ -218,7 +218,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Register | ManyAutos LTD"
+        content: "Register"
       },
       {
         hid: 'og:type',
@@ -242,7 +242,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking for affordable car repairs and MOT test? You’ve come to the right place. Register your car at Many Autos LTD Online car Repair services to Avail High Quality Car repairing and servicing in Reading UK we also Provide free collection and delivery services for MOT test and car body repair."
+        content: "Looking for affordable car repairs and MOT test? You’ve come to the right place. Register your car at Many Autos LTD Online car Repair services to Avail High Quality Car repairing and servicing in United Kingdom we also Provide free collection and delivery services for MOT test and car body repair."
       },
       {
         name: "twitter:card", 
@@ -250,11 +250,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Register | ManyAutos LTD"
+        content: "Register"
       },
       {
         name: "twitter:description", 
-        content: "Looking for affordable car repairs and MOT test? You’ve come to the right place. Register your car at Many Autos LTD Online car Repair services to Avail High Quality Car repairing and servicing in Reading UK we also Provide free collection and delivery services for MOT test and car body repair."
+        content: "Looking for affordable car repairs and MOT test? You’ve come to the right place. Register your car at Many Autos LTD Online car Repair services to Avail High Quality Car repairing and servicing in United Kingdom we also Provide free collection and delivery services for MOT test and car body repair."
       },
       {
         name: "twitter:image", 

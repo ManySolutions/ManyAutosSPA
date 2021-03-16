@@ -205,7 +205,7 @@ export default {
   },
 
   head: {
-    title: 'Brake Discs | ManyAutos LTD',
+    title: 'Brake Discs',
 
     meta: [
       {
@@ -214,30 +214,30 @@ export default {
       },
       {
         name: 'keywords', 
-        content: 'brake pads , brake service, brake pads service, brake pads installation, brake disc replacement reading, disc service reading, free collection and delivery, Brake Discs replacement, Car Service'
+        content: 'brake pads , brake service, brake pads service, brake pads installation, brake disc replacement United Kingdom, disc service United Kingdom, free collection and delivery, Brake Discs replacement, Car Service'
       },
       {
-        hid: '',
+        hid: 'og:title',
         property: "og:title", 
-        content: "Brake Discs | ManyAutos LTD"
+        content: "Brake Discs"
       },
       {
-        hid: '',
+        hid: 'og:type',
         property: "og:type", 
         content: "website"
       },
       {
-        hid: '',
+        hid: 'og:url',
         property: "og:url", 
         content: URL
       },
       {
-        hid: '',
+        hid: 'og:image',
         property: "og:image", 
         content: "logo-default.png"
       },
       {
-        hid: '',
+        hid: 'og:site_name',
         property: "og:site_name", 
         content: "ManyAutos LTD"
       },
@@ -251,7 +251,7 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Discs | ManyAutos LTD"
+        content: "Brake Discs"
       },
       {
         name: "twitter:description", 

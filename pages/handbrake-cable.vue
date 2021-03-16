@@ -184,12 +184,12 @@ export default {
   },
 
   head: {
-    title: 'Handbrake Cable Replacement | ManyAutos LTD',
+    title: 'Handbrake Cable Replacement',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Handbrake Cables for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work Just Book your car Repair Service Online for handbrake cable replacement.'
+        content: 'We repair and replace Handbrake Cables for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work Just Book your car Repair Service Online for handbrake cable replacement.'
       },
       {
         name: 'keywords', 
@@ -198,7 +198,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Handbrake Cable Replacement | ManyAutos LTD"
+        content: "Handbrake Cable Replacement"
       },
       {
         hid: 'og:type',
@@ -222,7 +222,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Handbrake Cables for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work Just Book your car Repair Service Online for handbrake cable replacement."
+        content: "We repair and replace Handbrake Cables for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work Just Book your car Repair Service Online for handbrake cable replacement."
       },
       {
         name: "twitter:card", 
@@ -230,11 +230,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Handbrake Cable Replacement | ManyAutos LTD"
+        content: "Handbrake Cable Replacement"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Handbrake Cables for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work Just Book your car Repair Service Online for handbrake cable replacement."
+        content: "We repair and replace Handbrake Cables for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work Just Book your car Repair Service Online for handbrake cable replacement."
       },
       {
         name: "twitter:image", 

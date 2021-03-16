@@ -598,7 +598,7 @@ export default {
       {
         hid: 'description', name: 'description',
         content:
-          "We provide our customers with a risk-free environment. We are concerned for you and want to help you with car repair  during covid-19. We are offering an affordable car repair Instalment plan for you avail our Fix now pay later service offer .",
+          "We provide our customers with a risk-free environment. We are concerned for you and want to help you with car repair during covid-19. We are offering an affordable car repair Instalment plan for you avail our Fix now pay later service offer .",
       },
       {
         name: "keywords",
@@ -634,7 +634,7 @@ export default {
       {
         hid: 'og:description',  property: 'og:description',
         content:
-          "We provide our customers with a risk-free environment. We are concerned for you and want to help you with car repair  during covid-19. We are offering an affordable car repair Instalment plan for you avail our Fix now pay later service offer .",
+          "We provide our customers with a risk-free environment. We are concerned for you and want to help you with car repair during covid-19. We are offering an affordable car repair Instalment plan for you avail our Fix now pay later service offer .",
       },
       {
         name: "twitter:card",
@@ -648,7 +648,7 @@ export default {
       {
         name: "twitter:description",
         content:
-          "We provide our customers with a risk-free environment. We are concerned for you and want to help you with car repair  during covid-19. We are offering an affordable car repair Instalment plan for you avail our Fix now pay later service offer .",
+          "We provide our customers with a risk-free environment. We are concerned for you and want to help you with car repair during covid-19. We are offering an affordable car repair Instalment plan for you avail our Fix now pay later service offer .",
       },
       {
         name: "twitter:image",

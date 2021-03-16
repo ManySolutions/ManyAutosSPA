@@ -152,12 +152,12 @@ export default {
   },
 
   head: {
-    title: 'Brake Fluid | ManyAutos LTD',
+    title: 'Brake Fluid',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Need help With Your Brake Fluid Replacement. Many Autos LTD replace Brake Fluid for all makes and models in Reading, United Kingdom. Many Autos LTD provide free collection and Delivery service anywhere in Reading.'
+        content: 'Need help With Your Brake Fluid Replacement. Many Autos LTD replace Brake Fluid for all makes and models in United Kingdom, United Kingdom. Many Autos LTD provide free collection and Delivery service anywhere in United Kingdom.'
       },
       {
         name: 'keywords', 
@@ -166,7 +166,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Brake Fluid | ManyAutos LTD"
+        content: "Brake Fluid"
       },
       {
         hid: 'og:type',
@@ -190,7 +190,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Need help With Your Brake Fluid Replacement. Many Autos LTD replace Brake Fluid for all makes and models in Reading, United Kingdom. Many Autos LTD provide free collection and Delivery service anywhere in Reading."
+        content: "Need help With Your Brake Fluid Replacement. Many Autos LTD replace Brake Fluid for all makes and models in United Kingdom, United Kingdom. Many Autos LTD provide free collection and Delivery service anywhere in United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -198,11 +198,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Fluid | ManyAutos LTD"
+        content: "Brake Fluid"
       },
       {
         name: "twitter:description", 
-        content: "Need help With Your Brake Fluid Replacement. Many Autos LTD replace Brake Fluid for all makes and models in Reading, United Kingdom. Many Autos LTD provide free collection and Delivery service anywhere in Reading."
+        content: "Need help With Your Brake Fluid Replacement. Many Autos LTD replace Brake Fluid for all makes and models in United Kingdom, United Kingdom. Many Autos LTD provide free collection and Delivery service anywhere in United Kingdom."
       },
       {
         name: "twitter:image", 

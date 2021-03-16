@@ -222,12 +222,12 @@ export default {
   },
 
   head: {
-    title: 'Car Clutch Problems | ManyAutos LTD',
+    title: 'Car Clutch Problems',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos aim to provide you the best prices for the clutch replacement through out the UK. Our centres are highly qualified to deal with any clutch issues with your vehicle. New clutch fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). Book your car Service online for clutch repair and for clutch diagnostic'
+        content: 'Many Autos aim to provide you the best prices for the clutch replacement throughout the UK. Our centres are highly qualified to deal with any clutch issues with your vehicle. New clutch fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). Book your car Service online for clutch repair and for clutch diagnostic'
       },
       {
         name: 'keywords', 
@@ -236,7 +236,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Car Clutch Problems | ManyAutos LTD"
+        content: "Car Clutch Problems"
       },
       {
         hid: 'og:type',
@@ -260,7 +260,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos aim to provide you the best prices for the clutch replacement through out the UK. Our centres are highly qualified to deal with any clutch issues with your vehicle. New clutch fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). Book your car Service online for clutch repair and for clutch diagnostic"
+        content: "Many Autos aim to provide you the best prices for the clutch replacement throughout the UK. Our centres are highly qualified to deal with any clutch issues with your vehicle. New clutch fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). Book your car Service online for clutch repair and for clutch diagnostic"
       },
       {
         name: "twitter:card", 
@@ -268,11 +268,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Car Clutch Problems | ManyAutos LTD"
+        content: "Car Clutch Problems"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos aim to provide you the best prices for the clutch replacement through out the UK. Our centres are highly qualified to deal with any clutch issues with your vehicle. New clutch fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). Book your car Service online for clutch repair and for clutch diagnostic"
+        content: "Many Autos aim to provide you the best prices for the clutch replacement throughout the UK. Our centres are highly qualified to deal with any clutch issues with your vehicle. New clutch fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). Book your car Service online for clutch repair and for clutch diagnostic"
       },
       {
         name: "twitter:image", 

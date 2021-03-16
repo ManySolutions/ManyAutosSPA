@@ -45,7 +45,7 @@ export default {
     const isWith = pageTitleName ? `With ${pageTitleName} ` : '';
     
     return {
-      title: `Book Your Car MOT, car service booking ${isWith}| ManyAutos LTD`,
+      title: `Book Your Car MOT, car service booking ${isWith}`,
 
       meta: [
         {
@@ -54,12 +54,12 @@ export default {
         },
         {
           name: 'keywords', 
-          content: 'many autos ltd, book MOT, book diagnostics, book car service, automotive service,car services, full car service ,garage service'
+          content: 'many autos ltd, book MOT, book diagnostics, book car service, automotive service, car services, full car service ,garage service'
         },
         {
           hid: 'og:title',
           property: "og:title", 
-          content: "Book Your Car MOT, car service booking | ManyAutos LTD"
+          content: "Book Your Car MOT, car service booking "
         },
         {
           hid: 'og:type',
@@ -91,7 +91,7 @@ export default {
         },
         {
           name: "twitter:title", 
-          content: "Book Your Car MOT, car service booking | ManyAutos LTD"
+          content: "Book Your Car MOT, car service booking "
         },
         {
           name: "twitter:description", 

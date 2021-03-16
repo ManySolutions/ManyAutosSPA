@@ -166,21 +166,21 @@ export default {
   },
 
   head: {
-    title: 'Air Repair- Air Suspension Service | ManyAutos LTD',
+    title: 'Air Repair- Air Suspension Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD carry out air suspension replacement and services for all vehicle  makes and models Book your Air Suspension Service online now Many Autos also Provide Free collection and Delivery in Reading UK.'
+        content: 'Many Autos LTD carry out air suspension replacement and services for all vehicle  makes and models Book your Air Suspension Service online now Many Autos also Provide Free collection and Delivery in United Kingdom.'
       },
       {
         name: 'keywords', 
-        content: 'air suspension, air filter, air suspension, air suspension installation, air suspension replacement reading, air suspension reading, free collection and delivery'
+        content: 'Air suspension, air filter, air suspension, air suspension installation, air suspension replacement United Kingdom, air suspension United Kingdom, free collection and delivery'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Air Repair- Air Suspension Service | ManyAutos LTD"
+        content: "Air Repair- Air Suspension Service"
       },
       {
         hid: 'og:type',
@@ -204,7 +204,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD carry out air suspension replacement and services for all vehicle  makes and models Book your Air Suspension Service online now Many Autos also Provide Free collection and Delivery in Reading UK."
+        content: "Many Autos LTD carry out air suspension replacement and services for all vehicle  makes and models Book your Air Suspension Service online now Many Autos also Provide Free collection and Delivery in United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -212,11 +212,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Air Repair- Air Suspension Service | ManyAutos LTD"
+        content: "Air Repair- Air Suspension Service"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD carry out air suspension replacement and services for all vehicle  makes and models Book your Air Suspension Service online now Many Autos also Provide Free collection and Delivery in Reading UK."
+        content: "Many Autos LTD carry out air suspension replacement and services for all vehicle  makes and models Book your Air Suspension Service online now Many Autos also Provide Free collection and Delivery in United Kingdom."
       },
       {
         name: "twitter:image", 

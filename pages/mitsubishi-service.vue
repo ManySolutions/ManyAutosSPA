@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Mitsubishi Service | ManyAutos LTD',
+    title: 'Mitsubishi Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking for car Garage in Reading for your Mitsubishi Service many Autos Provide Mitsubishi services in Reading UK (major Service, full Service, interim Service, MOT) book your Mitsubishi car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers.'
+        content: 'Looking for car Garage in United Kingdom for your Mitsubishi Service many Autos Provide Mitsubishi services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mitsubishi car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers.'
       },
       {
         name: 'keywords', 
-        content: 'car Garage in Reading, Mitsubishi Service, Mitsubishi services in Reading UK, major Service, full Service, interim Service, MOT, Mitsubishi car service, free collection and delivery services, car Repair and Servicing in UK, Auto Services'
+        content: 'car Garage in United Kingdom, Mitsubishi Service, Mitsubishi services in United Kingdom, major Service, full Service, interim Service, MOT, Mitsubishi car service, free collection and delivery services, car Repair and Servicing in UK, Auto Services'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Mitsubishi Service | ManyAutos LTD"
+        content: "Mitsubishi Service"
       },
       {
         property: "og:type", 
@@ -1234,7 +1234,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking for car Garage in Reading for your Mitsubishi Service many Autos Provide Mitsubishi services in Reading UK (major Service, full Service, interim Service, MOT) book your Mitsubishi car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
+        content: "Looking for car Garage in United Kingdom for your Mitsubishi Service many Autos Provide Mitsubishi services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mitsubishi car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
       },
       {
         name: "twitter:card", 
@@ -1242,11 +1242,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Mitsubishi Service | ManyAutos LTD"
+        content: "Mitsubishi Service"
       },
       {
         name: "twitter:description", 
-        content: "Looking for car Garage in Reading for your Mitsubishi Service many Autos Provide Mitsubishi services in Reading UK (major Service, full Service, interim Service, MOT) book your Mitsubishi car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
+        content: "Looking for car Garage in United Kingdom for your Mitsubishi Service many Autos Provide Mitsubishi services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mitsubishi car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
       },
       {
         name: "twitter:image", 

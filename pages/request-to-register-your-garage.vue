@@ -180,13 +180,13 @@ export default {
   },
 
   head: {
-    title: "Register Your Garage | ManyAutos LTD",
+    title: "Register Your Garage",
 
     meta: [
       {
         hid: 'description', name: 'description',
         content:
-          "Is your car or other vehicle need an MOT test? Are you looking for a best deal with peace of mind? You can book you MOT with us and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online or by calling us at 01189 876300.",
+          "Is your car or other vehicle need an MOT test? Are you looking for a best deal with peace of mind? You can book you MOT with us and enjoy a free collection and delivery service. You can Book you vehicle for MOT test online or by calling us at 01189 876300",
       },
       {
         name: "keywords",
@@ -196,7 +196,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title",
-        content: "Register Your Garage | ManyAutos LTD",
+        content: "Register Your Garage",
       },
       {
         hid: 'og:type',
@@ -229,7 +229,7 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Register Your Garage | ManyAutos LTD",
+        content: "Register Your Garage",
       },
       {
         name: "twitter:description",

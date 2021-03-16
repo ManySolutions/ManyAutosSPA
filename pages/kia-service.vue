@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Kia Service | ManyAutos LTD',
+    title: 'Kia Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking for car Garage near your area for your car Kia Service many Autos Provide Kia service in Reading UK (major Service, full Service, interim Service, MOT) book your Kia car service online from our Website to get free Quote we Provide free collection and delivery services .'
+        content: 'Looking for car Garage near your area for your car Kia Service many Autos Provide Kia service in United Kingdom (major Service, full Service, interim Service, MOT) book your Kia car service online from our Website to get free Quote we Provide free collection and delivery services.'
       },
       {
         name: 'keywords', 
-        content: 'Kia Service, Kia service in Reading UK, major Service, full Service, interim Service, MOT, free collection and delivery services'
+        content: 'Kia Service, Kia service in United Kingdom, major Service, full Service, interim Service, MOT, free collection and delivery services'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Kia Service | ManyAutos LTD"
+        content: "Kia Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking for car Garage near your area for your car Kia Service many Autos Provide Kia service in Reading UK (major Service, full Service, interim Service, MOT) book your Kia car service online from our Website to get free Quote we Provide free collection and delivery services ."
+        content: "Looking for car Garage near your area for your car Kia Service many Autos Provide Kia service in United Kingdom (major Service, full Service, interim Service, MOT) book your Kia car service online from our Website to get free Quote we Provide free collection and delivery services."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Kia Service | ManyAutos LTD"
+        content: "Kia Service"
       },
       {
         name: "twitter:description", 
-        content: "Looking for car Garage near your area for your car Kia Service many Autos Provide Kia service in Reading UK (major Service, full Service, interim Service, MOT) book your Kia car service online from our Website to get free Quote we Provide free collection and delivery services ."
+        content: "Looking for car Garage near your area for your car Kia Service many Autos Provide Kia service in United Kingdom (major Service, full Service, interim Service, MOT) book your Kia car service online from our Website to get free Quote we Provide free collection and delivery services."
       },
       {
         name: "twitter:image", 

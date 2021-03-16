@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Smart Service | ManyAutos LTD',
+    title: 'Smart Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Book Our Online Car Service for Saving your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Smart services in Reading . Many Autos as the Best car repair garage in Reading Offering Smart interim service, Smart major service for All Makes and Models.'
+        content: 'Book Our Online Car Service for Saving your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Smart services in United Kingdom. Many Autos as the Best car repair garage in United Kingdom Offering Smart interim service, Smart major service for All Makes and Models.'
       },
       {
         name: 'keywords', 
-        content: 'Smart service, Smart service deal in Reading, Smart interim service, Smart major service, Smart servicing in Reading, car service, car servicing, car services, Best car repair garage in Reading'
+        content: 'Smart service, Smart service deal in United Kingdom, Smart interim service, Smart major service, Smart servicing in United Kingdom, car service, car servicing, car services, Best car repair garage in United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Smart Service | ManyAutos LTD"
+        content: "Smart Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Book Our Online Car Service for Saving your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Smart services in Reading . Many Autos as the Best car repair garage in Reading Offering Smart interim service, Smart major service for All Makes and Models."
+        content: "Book Our Online Car Service for Saving your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Smart services in United Kingdom. Many Autos as the Best car repair garage in United Kingdom Offering Smart interim service, Smart major service for All Makes and Models."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Smart Service | ManyAutos LTD"
+        content: "Smart Service"
       },
       {
         name: "twitter:description", 
-        content: "Book Our Online Car Service for Saving your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Smart services in Reading . Many Autos as the Best car repair garage in Reading Offering Smart interim service, Smart major service for All Makes and Models."
+        content: "Book Our Online Car Service for Saving your time and money, Many Autos LTD is your all in one car solution. We will provide you best deal for Smart services in United Kingdom. Many Autos as the Best car repair garage in United Kingdom Offering Smart interim service, Smart major service for All Makes and Models."
       },
       {
         name: "twitter:image", 

@@ -194,12 +194,12 @@ export default {
   },
 
   head: {
-    title: 'Brake Servo | ManyAutos LTD',
+    title: 'Brake Servo',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Brake Servo for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work so just Visit Many Autos Website and Book your Free Collection Services online for Quality Brake Servo replacement in Reading.'
+        content: 'We repair and replace Brake Servo for all makes and models in United Kingdom. We also provide free collection and Delivery service from your home or place of work so just Visit Many Autos Website and Book your Free Collection Services online for Quality Brake Servo replacement in United Kingdom.'
       },
       {
         name: 'keywords', 
@@ -208,7 +208,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Brake Servo | ManyAutos LTD"
+        content: "Brake Servo"
       },
       {
         hid: 'og:type',
@@ -232,7 +232,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Brake Servo for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work so just Visit Many Autos Website and Book your Free Collection Services online for Quality Brake Servo replacement in Reading."
+        content: "We repair and replace Brake Servo for all makes and models in United Kingdom. We also provide free collection and Delivery service from your home or place of work so just Visit Many Autos Website and Book your Free Collection Services online for Quality Brake Servo replacement in United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -240,11 +240,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Servo | ManyAutos LTD"
+        content: "Brake Servo"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Brake Servo for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work so just Visit Many Autos Website and Book your Free Collection Services online for Quality Brake Servo replacement in Reading."
+        content: "We repair and replace Brake Servo for all makes and models in United Kingdom. We also provide free collection and Delivery service from your home or place of work so just Visit Many Autos Website and Book your Free Collection Services online for Quality Brake Servo replacement in United Kingdom."
       },
       {
         name: "twitter:image", 

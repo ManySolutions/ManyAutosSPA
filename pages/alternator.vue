@@ -191,12 +191,12 @@ export default {
   },
 
   head: {
-    title: 'Alternator | ManyAutos LTD',
+    title: 'Alternator',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD  repair and replace Alternator for all makes and models Bring your car to best car garage in UK for Alternator Replacement We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD repair and replace Alternator for all makes and models Bring your car to best car garage in UK for Alternator Replacement We also provide free collection and Delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
@@ -205,7 +205,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Alternator | ManyAutos LTD"
+        content: "Alternator"
       },
       {
         hid: 'og:type',
@@ -229,7 +229,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD  repair and replace Alternator for all makes and models Bring your car to best car garage in UK for Alternator Replacement We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Alternator for all makes and models Bring your car to best car garage in UK for Alternator Replacement We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -237,11 +237,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Alternator | ManyAutos LTD"
+        content: "Alternator"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD  repair and replace Alternator for all makes and models Bring your car to best car garage in UK for Alternator Replacement We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Alternator for all makes and models Bring your car to best car garage in UK for Alternator Replacement We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 

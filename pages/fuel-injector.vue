@@ -164,21 +164,21 @@ export default {
   },
 
   head: {
-    title: 'Injectors, Fuel Injectors | ManyAutos LTD',
+    title: 'Injectors, Fuel Injectors',
   
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Fuel Injector is as much important as Fuel Filter for your car Fuel Injectors plays important role in Fuel Average and Smooth Driving of your car Many Autos LTD Repair and Replace Fuel injector of All Makes and models you can get your Quote online by Booking your car service online for Fuel injector repair or Fuel injector Replacement in Reading United Kingdom.'
+        content: 'Fuel Injector is as much important as Fuel Filter for your car Fuel Injectors plays important role in Fuel Average and Smooth Driving of your car Many Autos LTD Repair and Replace Fuel injector of All Makes and models you can get your Quote online by Booking your car service online for Fuel injector repair or Fuel injector Replacement in United Kingdom United Kingdom.'
       },
       {
         name: 'keywords', 
-        content: 'injectors, fuel injector, new injectors, injectors repair, injectors replace, injectors replacement, injectors in reading, fuel injector in reading, new injectors in reading, injectors repair in reading, injectors replace in reading, injectors replacement in reading'
+        content: 'injectors, fuel injector, new injectors, injectors repair, injectors replace, injectors replacement, injectors in United Kingdom, fuel injector in United Kingdom, new injectors in United Kingdom, injectors repair in United Kingdom, injectors replace in United Kingdom, injectors replacement in United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Injectors, Fuel Injectors | ManyAutos LTD"
+        content: "Injectors, Fuel Injectors"
       },
       {
         hid: 'og:type',
@@ -202,7 +202,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Fuel Injector is as much important as Fuel Filter for your car Fuel Injectors plays important role in Fuel Average and Smooth Driving of your car Many Autos LTD Repair and Replace Fuel injector of All Makes and models you can get your Quote online by Booking your car service online for Fuel injector repair or Fuel injector Replacement in Reading United Kingdom."
+        content: "Fuel Injector is as much important as Fuel Filter for your car Fuel Injectors plays important role in Fuel Average and Smooth Driving of your car Many Autos LTD Repair and Replace Fuel injector of All Makes and models you can get your Quote online by Booking your car service online for Fuel injector repair or Fuel injector Replacement in United Kingdom United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -210,11 +210,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Injectors, Fuel Injectors | ManyAutos LTD"
+        content: "Injectors, Fuel Injectors"
       },
       {
         name: "twitter:description", 
-        content: "Fuel Injector is as much important as Fuel Filter for your car Fuel Injectors plays important role in Fuel Average and Smooth Driving of your car Many Autos LTD Repair and Replace Fuel injector of All Makes and models you can get your Quote online by Booking your car service online for Fuel injector repair or Fuel injector Replacement in Reading United Kingdom."
+        content: "Fuel Injector is as much important as Fuel Filter for your car Fuel Injectors plays important role in Fuel Average and Smooth Driving of your car Many Autos LTD Repair and Replace Fuel injector of All Makes and models you can get your Quote online by Booking your car service online for Fuel injector repair or Fuel injector Replacement in United Kingdom United Kingdom."
       },
       {
         name: "twitter:image", 

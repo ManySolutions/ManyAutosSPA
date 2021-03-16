@@ -247,7 +247,7 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking to scrap your car in Reading? Many Autos LTD Scrap and Crap Unwanted cars of all makes and Models in Reading UK we will collect your car for craping from your home or Workplace just book your online car service to get rid of your unwanted cars  and Many Autos Pay cash for your unwanted scrap car.'
+        content: 'Looking to scrap your car in United Kingdom? Many Autos LTD Scrap and Crap Unwanted cars of all makes and Models in United Kingdom we will collect your car for craping from your home or Workplace just book your online car service to get rid of your unwanted cars  and Many Autos Pay cash for your unwanted scrap car.'
       },
       {
         name: 'keywords', 
@@ -280,7 +280,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking to scrap your car in Reading? Many Autos LTD Scrap and Crap Unwanted cars of all makes and Models in Reading UK we will collect your car for craping from your home or Workplace just book your online car service to get rid of your unwanted cars  and Many Autos Pay cash for your unwanted scrap car."
+        content: "Looking to scrap your car in United Kingdom? Many Autos LTD Scrap and Crap Unwanted cars of all makes and Models in United Kingdom we will collect your car for craping from your home or Workplace just book your online car service to get rid of your unwanted cars  and Many Autos Pay cash for your unwanted scrap car."
       },
       {
         name: "twitter:card", 
@@ -292,7 +292,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "Looking to scrap your car in Reading? Many Autos LTD Scrap and Crap Unwanted cars of all makes and Models in Reading UK we will collect your car for craping from your home or Workplace just book your online car service to get rid of your unwanted cars  and Many Autos Pay cash for your unwanted scrap car."
+        content: "Looking to scrap your car in United Kingdom? Many Autos LTD Scrap and Crap Unwanted cars of all makes and Models in United Kingdom we will collect your car for craping from your home or Workplace just book your online car service to get rid of your unwanted cars  and Many Autos Pay cash for your unwanted scrap car."
       },
       {
         name: "twitter:image", 

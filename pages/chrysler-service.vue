@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Chrysler Service | ManyAutos LTD',
+    title: 'Chrysler Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Need Chrysler Service near your Area? Bring your Chrysler at Many Autos LTD for Best Chrysler Interim Service, Chrysler major service,  Chrysler full service in Reading UK,  Book your car repair service online we also provide free collection and delivery services for Chrysler servicing in Reading UK.'
+        content: 'Need Chrysler Service near your Area? Bring your Chrysler at Many Autos LTD for Best Chrysler Interim Service, Chrysler major service, Chrysler full service in United Kingdom, Book your car repair service online we also provide free collection and delivery services for Chrysler servicing in United Kingdom.'
       },
       {
         name: 'keywords', 
-        content: 'Chrysler Service, Chrysler, Chrysler Interim Service, Chrysler major service,  Chrysler full service in Reading UK, car repair service free collection and delivery services, Chrysler servicing in Reading UK '
+        content: 'Chrysler Service, Chrysler, Chrysler Interim Service, Chrysler major service,  Chrysler full service in United Kingdom, car repair service free collection and delivery services, Chrysler servicing in United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Chrysler Service | ManyAutos LTD"
+        content: "Chrysler Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Need Chrysler Service near your Area? Bring your Chrysler at Many Autos LTD for Best Chrysler Interim Service, Chrysler major service,  Chrysler full service in Reading UK,  Book your car repair service online we also provide free collection and delivery services for Chrysler servicing in Reading UK."
+        content: "Need Chrysler Service near your Area? Bring your Chrysler at Many Autos LTD for Best Chrysler Interim Service, Chrysler major service, Chrysler full service in United Kingdom, Book your car repair service online we also provide free collection and delivery services for Chrysler servicing in United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Chrysler Service | ManyAutos LTD"
+        content: "Chrysler Service"
       },
       {
         name: "twitter:description", 
-        content: "Need Chrysler Service near your Area? Bring your Chrysler at Many Autos LTD for Best Chrysler Interim Service, Chrysler major service,  Chrysler full service in Reading UK,  Book your car repair service online we also provide free collection and delivery services for Chrysler servicing in Reading UK."
+        content: "Need Chrysler Service near your Area? Bring your Chrysler at Many Autos LTD for Best Chrysler Interim Service, Chrysler major service, Chrysler full service in United Kingdom, Book your car repair service online we also provide free collection and delivery services for Chrysler servicing in United Kingdom."
       },
       {
         name: "twitter:image", 

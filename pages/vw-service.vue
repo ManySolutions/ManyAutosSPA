@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'VW Service | ManyAutos LTD',
+    title: 'VW Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer VW interim service, VW major service we deal VW servicing in Reading bring your car at Many Autos LTD for car service and repair.'
+        content: 'Many Autos is the Best car garage and Car Repair Company in United Kingdom. Many Autos LTD Offer VW interim service, VW major service we deal VW servicing in United Kingdom bring your car at Many Autos LTD for car service and repair.'
       },
       {
         name: 'keywords', 
-        content: 'VW service, Car Repair Company in Reading, Car Garage, VW interim service, VW major service, VW servicing in Reading, car service, car servicing, car services, car service and repair'
+        content: 'VW service, Car Repair Company in United Kingdom, Car Garage, VW interim service, VW major service, VW servicing in United Kingdom, car service, car servicing, car services, car service and repair'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "VW Service | ManyAutos LTD"
+        content: "VW Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer VW interim service, VW major service we deal VW servicing in Reading bring your car at Many Autos LTD for car service and repair."
+        content: "Many Autos is the Best car garage and Car Repair Company in United Kingdom. Many Autos LTD Offer VW interim service, VW major service we deal VW servicing in United Kingdom bring your car at Many Autos LTD for car service and repair."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "VW Service | ManyAutos LTD"
+        content: "VW Service"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer VW interim service, VW major service we deal VW servicing in Reading bring your car at Many Autos LTD for car service and repair."
+        content: "Many Autos is the Best car garage and Car Repair Company in United Kingdom. Many Autos LTD Offer VW interim service, VW major service we deal VW servicing in United Kingdom bring your car at Many Autos LTD for car service and repair."
       },
       {
         name: "twitter:image", 

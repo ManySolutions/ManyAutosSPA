@@ -390,21 +390,21 @@ export default {
   },
 
   head: {
-    title: 'Starter Motor Replacement service | Many Autos LTD',
+    title: 'Starter Motor Replacement service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos aim to provide you the best prices for the starter motor replacement throughout the UK.  Our centres are highly qualified to deal with any starter motor issues with your vehicle. New starter motor fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). We Also Provide Free Collection and Delivery services for Starter motor repair '
+        content: 'Many Autos aim to provide you the best prices for the starter motor replacement throughout the UK.  Our centres are highly qualified to deal with any starter motor issues with your vehicle. New starter motor fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). We Also Provide Free Collection and Delivery services for Starter motor repair.'
       },
       {
         name: 'keywords', 
-        content: 'new starter motor, starter motor, starter motor repair, starter motor replacement, starter motor service, new starter motor in reading, starter motor in reading, starter motor repair in reading, starter motor replacement in reading, starter motor service in reading,  free collection and delivery'
+        content: 'new starter motor, starter motor, starter motor repair, starter motor replacement, starter motor service, new starter motor in United Kingdom, starter motor in United Kingdom, starter motor repair in United Kingdom, starter motor replacement in United Kingdom, starter motor service in United Kingdom,  free collection and delivery'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Starter Motor Replacement service | Many Autos LTD"
+        content: "Starter Motor Replacement service"
       },
       {
         hid: 'og:type',
@@ -428,7 +428,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos aim to provide you the best prices for the starter motor replacement throughout the UK.  Our centres are highly qualified to deal with any starter motor issues with your vehicle. New starter motor fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). We Also Provide Free Collection and Delivery services for Starter motor repair "
+        content: "Many Autos aim to provide you the best prices for the starter motor replacement throughout the UK.  Our centres are highly qualified to deal with any starter motor issues with your vehicle. New starter motor fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). We Also Provide Free Collection and Delivery services for Starter motor repair."
       },
       {
         name: "twitter:card", 
@@ -436,11 +436,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Starter Motor Replacement service | Many Autos LTD"
+        content: "Starter Motor Replacement service"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos aim to provide you the best prices for the starter motor replacement throughout the UK.  Our centres are highly qualified to deal with any starter motor issues with your vehicle. New starter motor fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). We Also Provide Free Collection and Delivery services for Starter motor repair "
+        content: "Many Autos aim to provide you the best prices for the starter motor replacement throughout the UK.  Our centres are highly qualified to deal with any starter motor issues with your vehicle. New starter motor fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first). We Also Provide Free Collection and Delivery services for Starter motor repair."
       },
       {
         name: "twitter:image", 

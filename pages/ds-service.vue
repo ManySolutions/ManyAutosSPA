@@ -1197,12 +1197,12 @@ export default {
   },
 
   head: {
-    title: 'DS Service | ManyAutos LTD',
+    title: 'DS Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for DS service. You can select recommended package Of DS major Service, DS full Service,  DS interim Service ,DS MOT.'
+        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for DS service. You can select recommended package Of DS major Service, DS full Service, DS interim Service, DS MOT.'
       },
       {
         name: 'keywords', 
@@ -1211,7 +1211,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "DS Service | ManyAutos LTD"
+        content: "DS Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for DS service. You can select recommended package Of DS major Service, DS full Service,  DS interim Service ,DS MOT."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for DS service. You can select recommended package Of DS major Service, DS full Service, DS interim Service, DS MOT."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "DS Service | ManyAutos LTD"
+        content: "DS Service"
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for DS service. You can select recommended package Of DS major Service, DS full Service,  DS interim Service ,DS MOT."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for DS service. You can select recommended package Of DS major Service, DS full Service, DS interim Service, DS MOT."
       },
       {
         name: "twitter:image", 

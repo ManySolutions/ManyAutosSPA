@@ -173,22 +173,22 @@ export default {
   },
 
   head: {
-    title: 'Auto Locksmith | ManyAutos LTD',
+    title: 'Auto Locksmith',
 
     meta: [
       {
         hid: 'description',
         name: 'description', 
-        content: 'Locked Out of your Car? Contact Many Autos LTD Best Auto Locksmith in Reading UK and in surrounding areas we cover Different Areas of UK Basingstoke, Bracknell, Bradfield and Many more You can also get Free Quote online.'
+        content: 'Locked Out of your Car? Contact Many Autos LTD Best Auto Locksmith in United Kingdom and in surrounding areas we cover Different Areas of UK Basingstoke, Bracknell, Bradfield and Many more you can also get Free Quote online.'
       },
       {
         name: 'keywords', 
-        content: 'Car key, Locksmith, Auto Locksmith, Auto Locksmith Aldershot, Auto Locksmith Basingstoke, Auto Locksmith Bracknell, Auto Locksmith Bradfield, Auto Locksmith Farnborough, Auto Locksmith Goring,, Auto Locksmith Henley-on-Thames, Auto Locksmith Newbury, Auto Locksmith Maidenhead, Auto Locksmith Pangbourne, Auto Locksmith Reading, Auto Locksmith Sonning, Auto Locksmith Spencers Wood, Auto Locksmith Thatcham,Auto Locksmith Twyford, Auto Locksmith Wokingham, Auto Locksmith Woking, Auto Locksmith Woodley, Free Quote'
+        content: 'Car key, Locksmith, Auto Locksmith, Auto Locksmith Aldershot, Auto Locksmith Basingstoke, Auto Locksmith Bracknell, Auto Locksmith Bradfield, Auto Locksmith Farnborough, Auto Locksmith Goring,, Auto Locksmith Henley-on-Thames, Auto Locksmith Newbury, Auto Locksmith Maidenhead, Auto Locksmith Pang Bourne, Auto Locksmith United Kingdom, Auto Locksmith Sonning, Auto Locksmith Spencers Wood, Auto Locksmith Thatcham,Auto Locksmith Twyford, Auto Locksmith Wokingham, Auto Locksmith Woking, Auto Locksmith Woodley, Free Quote'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Auto Locksmith | ManyAutos LTD"
+        content: "Auto Locksmith"
       },
       {
         hid: 'og:type',
@@ -212,7 +212,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Locked Out of your Car? Contact Many Autos LTD Best Auto Locksmith in Reading UK and in surrounding areas we cover Different Areas of UK Basingstoke, Bracknell, Bradfield and Many more You can also get Free Quote online."
+        content: "Locked Out of your Car? Contact Many Autos LTD Best Auto Locksmith in United Kingdom and in surrounding areas we cover Different Areas of UK Basingstoke, Bracknell, Bradfield and Many more you can also get Free Quote online."
       },
       {
         name: "twitter:card", 
@@ -220,11 +220,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Auto Locksmith | ManyAutos LTD"
+        content: "Auto Locksmith"
       },
       {
         name: "twitter:description", 
-        content: "Locked Out of your Car? Contact Many Autos LTD Best Auto Locksmith in Reading UK and in surrounding areas we cover Different Areas of UK Basingstoke, Bracknell, Bradfield and Many more You can also get Free Quote online."
+        content: "Locked Out of your Car? Contact Many Autos LTD Best Auto Locksmith in United Kingdom and in surrounding areas we cover Different Areas of UK Basingstoke, Bracknell, Bradfield and Many more you can also get Free Quote online."
       },
       {
         name: "twitter:image", 

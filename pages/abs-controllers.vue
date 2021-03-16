@@ -153,11 +153,11 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair car ABS and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work Call or Visit Best Car Servicing Garage in UK.'
+        content: 'We repair car ABS and replace ABS Controllers for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work Call or Visit Best Car Servicing Garage in UK.'
       },
       {
         name: 'keywords', 
-        content: 'abs controllers, car ABS,  new abs Controllers, abs controllers repair, abs sensor replace, abs controllers replacement, Car Servicing Garage in UK'
+        content: 'Abs controllers, car ABS, new abs Controllers, abs controller’s repair, abs sensor replace, abs controller’s replacement, Car Servicing Garage in UK'
       },
       {
         hid: 'og:title',
@@ -186,7 +186,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair car ABS and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work Call or Visit Best Car Servicing Garage in UK."
+        content: "We repair car ABS and replace ABS Controllers for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work Call or Visit Best Car Servicing Garage in UK."
       },
       {
         name: "twitter:card", 
@@ -198,7 +198,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair car ABS and replace ABS Controllers for all makes and models in Reading, United Kingdom. We also provide free collection and Delivery service from your home or place of work Call or Visit Best Car Servicing Garage in UK."
+        content: "We repair car ABS and replace ABS Controllers for all makes and models in United Kingdom, United Kingdom. We also provide free collection and Delivery service from your home or place of work Call or Visit Best Car Servicing Garage in UK."
       },
       {
         name: "twitter:image", 

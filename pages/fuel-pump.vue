@@ -186,21 +186,21 @@ export default {
   },
 
   head: {
-    title: 'Fuel Pump Replacement, Fuel Pump Repair | ManyAutos LTD',
+    title: 'Fuel Pump Replacement, Fuel Pump Repair',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking for Fuel Pump Replacement in Reading ? We Repair and Replace Fuel Pump of all Makes and Models in Reading and United Kingdom you can Easily Contact us for your Fuel pump repair or if you Wants Fuel Pump Replacement we can collect your car from your Home or Workplace.'
+        content: 'Looking for Fuel Pump Replacement in United Kingdom? We Repair and Replace Fuel Pump of all Makes and Models in United Kingdom and United Kingdom you can Easily Contact us for your Fuel pump repair or if you Wants Fuel Pump Replacement we can collect your car from your Home or Workplace.'
       },
       {
         name: 'keywords', 
-        content: 'fuel pump, pump, new fuel pump, fuel pump repair, fuel pump replace, fuel pump replacement, fuel pump in reading, new fuel pump in in reading, fuel pump repair in in reading, fuel pump replace in in reading, fuel pump replacement in in reading, free collection and delivery in in reading'
+        content: 'fuel pump, pump, new fuel pump, fuel pump repair, fuel pump replace, fuel pump replacement, fuel pump in United Kingdom, new fuel pump in in United Kingdom, fuel pump repair in in United Kingdom, fuel pump replace in in United Kingdom, fuel pump replacement in in United Kingdom, free collection and delivery in in United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Fuel Pump Replacement, Fuel Pump Repair | ManyAutos LTD"
+        content: "Fuel Pump Replacement, Fuel Pump Repair"
       },
       {
         hid: 'og:type',
@@ -224,7 +224,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking for Fuel Pump Replacement in Reading ? We Repair and Replace Fuel Pump of all Makes and Models in Reading and United Kingdom you can Easily Contact us for your Fuel pump repair or if you Wants Fuel Pump Replacement we can collect your car from your Home or Workplace."
+        content: "Looking for Fuel Pump Replacement in United Kingdom? We Repair and Replace Fuel Pump of all Makes and Models in United Kingdom and United Kingdom you can Easily Contact us for your Fuel pump repair or if you Wants Fuel Pump Replacement we can collect your car from your Home or Workplace."
       },
       {
         name: "twitter:card", 
@@ -232,11 +232,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Fuel Pump Replacement, Fuel Pump Repair | ManyAutos LTD"
+        content: "Fuel Pump Replacement, Fuel Pump Repair"
       },
       {
         name: "twitter:description", 
-        content: "Looking for Fuel Pump Replacement in Reading ? We Repair and Replace Fuel Pump of all Makes and Models in Reading and United Kingdom you can Easily Contact us for your Fuel pump repair or if you Wants Fuel Pump Replacement we can collect your car from your Home or Workplace."
+        content: "Looking for Fuel Pump Replacement in United Kingdom? We Repair and Replace Fuel Pump of all Makes and Models in United Kingdom and United Kingdom you can Easily Contact us for your Fuel pump repair or if you Wants Fuel Pump Replacement we can collect your car from your Home or Workplace."
       },
       {
         name: "twitter:image", 

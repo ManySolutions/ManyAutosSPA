@@ -347,16 +347,16 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos aim to provide you the best prices for the drive shaft replacement through out the UK.  Our centres are highly qualified to deal with any drive shaft issues  with your vehicle. New drive shaft fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)'
+        content: 'Many Autos aim to provide you the best prices for the drive shaft replacement throughout the UK.  Our centres are highly qualified to deal with any drive shaft issues with your vehicle. New drive shaft fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first)'
       },
       {
         name: 'keywords', 
-        content: 'new drive shaft, drive shaft, drive shaft repair, drive shaft replacement, drive shaft service, new drive shaft in reading, drive shaft in reading, drive shaft repair in reading, drive shaft replacement in reading, drive shaft service in reading,  free collection and delivery'
+        content: 'new drive shaft, drive shaft, drive shaft repair, drive shaft replacement, drive shaft service, new drive shaft in United Kingdom, drive shaft in United Kingdom, drive shaft repair in United Kingdom, drive shaft replacement in United Kingdom, drive shaft service in United Kingdom,  free collection and delivery'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Drive Shaft Replacement, Repair, Service | ManyAutos LTD"
+        content: "Drive Shaft Replacement, Repair, Service"
       },
       {
         hid: 'og:type',
@@ -380,7 +380,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos aim to provide you the best prices for the drive shaft replacement through out the UK.  Our centres are highly qualified to deal with any drive shaft issues  with your vehicle. New drive shaft fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
+        content: "Many Autos aim to provide you the best prices for the drive shaft replacement throughout the UK.  Our centres are highly qualified to deal with any drive shaft issues with your vehicle. New drive shaft fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first)"
       },
       {
         name: "twitter:card", 
@@ -388,11 +388,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Drive Shaft Replacement, Repair, Service | ManyAutos LTD"
+        content: "Drive Shaft Replacement, Repair, Service"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos aim to provide you the best prices for the drive shaft replacement through out the UK.  Our centres are highly qualified to deal with any drive shaft issues  with your vehicle. New drive shaft fitted to your vehicle  comes with 12 months or 12,000 miles warranty (whichever comes first)"
+        content: "Many Autos aim to provide you the best prices for the drive shaft replacement throughout the UK.  Our centres are highly qualified to deal with any drive shaft issues with your vehicle. New drive shaft fitted to your vehicle comes with 12 months or 12,000 miles warranty (whichever comes first)"
       },
       {
         name: "twitter:image", 

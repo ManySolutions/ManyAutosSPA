@@ -219,12 +219,12 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Don’t miss a chance to Earn £10 Daily By Referring any Friend or Family to bring their car for car repair and servicing Successful referral will get £10 avail this Bumper Offer from Many Autos LTD Automotive car repair servicing and Garage in Reading UK  ",
+          "Don’t miss a chance to Earn £10 Daily By Referring any Friend or Family to bring their car for car repair and servicing Successful referral will get £10 avail this Bumper Offer from Many Autos LTD Automotive car repair servicing and Garage in United Kingdom.",
       },
       {
         name: "keywords",
         content:
-          "many autos ltd, refer a friend, earn money, earn £10, automotive service, car repair servicing and Garage in Reading UK",
+          "Many autos ltd, refer a friend, earn money, and earn £10, automotive service, car repair servicing and Garage in United Kingdom"
       },
       {
         hid: 'og:title',
@@ -255,7 +255,7 @@ export default {
         hid: "og:description",
         property: "og:description",
         content:
-          "Don’t miss a chance to Earn £10 Daily By Referring any Friend or Family to bring their car for car repair and servicing Successful referral will get £10 avail this Bumper Offer from Many Autos LTD Automotive car repair servicing and Garage in Reading UK  ",
+          "Don’t miss a chance to Earn £10 Daily By Referring any Friend or Family to bring their car for car repair and servicing Successful referral will get £10 avail this Bumper Offer from Many Autos LTD Automotive car repair servicing and Garage in United Kingdom.",
       },
       {
         name: "twitter:card",
@@ -268,7 +268,7 @@ export default {
       {
         name: "twitter:description",
         content:
-          "Don’t miss a chance to Earn £10 Daily By Referring any Friend or Family to bring their car for car repair and servicing Successful referral will get £10 avail this Bumper Offer from Many Autos LTD Automotive car repair servicing and Garage in Reading UK  ",
+          "Don’t miss a chance to Earn £10 Daily By Referring any Friend or Family to bring their car for car repair and servicing Successful referral will get £10 avail this Bumper Offer from Many Autos LTD Automotive car repair servicing and Garage in United Kingdom.",
       },
       {
         name: "twitter:image",

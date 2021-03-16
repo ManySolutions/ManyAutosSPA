@@ -179,12 +179,12 @@ export default {
   },
 
   head: {
-    title: 'Car ABS | ManyAutos LTD',
+    title: 'Car ABS',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Car ABS for all makes and models in Reading, United Kingdom Many Autos Provide Quality Repair and Replacing services in Reading UK We are Best car Garage in UK to Repair your car’s ABS, ABS Pump, ABS hydraulic unit and ABS Ring you can call us anytime anywhere Many Autos Will collect and Deliver your Car Free of Cost.'
+        content: 'We repair and replace Car ABS for all makes and models in United Kingdom, United Kingdom Many Autos Provide Quality Repair and Replacing services in United Kingdom We are Best car Garage in UK to Repair your car’s ABS, ABS Pump, ABS hydraulic unit and ABS Ring you can call us anytime anywhere Many Autos Will collect and Deliver your Car Free of Cost.'
       },
       {
         name: 'keywords', 
@@ -193,7 +193,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Car ABS | ManyAutos LTD"
+        content: "Car ABS"
       },
       {
         hid: 'og:type',
@@ -217,7 +217,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Car ABS for all makes and models in Reading, United Kingdom Many Autos Provide Quality Repair and Replacing services in Reading UK We are Best car Garage in UK to Repair your car’s ABS, ABS Pump, ABS hydraulic unit and ABS Ring you can call us anytime anywhere Many Autos Will collect and Deliver your Car Free of Cost."
+        content: "We repair and replace Car ABS for all makes and models in United Kingdom, United Kingdom Many Autos Provide Quality Repair and Replacing services in United Kingdom We are Best car Garage in UK to Repair your car’s ABS, ABS Pump, ABS hydraulic unit and ABS Ring you can call us anytime anywhere Many Autos Will collect and Deliver your Car Free of Cost."
       },
       {
         name: "twitter:card", 
@@ -225,11 +225,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Car ABS | ManyAutos LTD"
+        content: "Car ABS"
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Car ABS for all makes and models in Reading, United Kingdom Many Autos Provide Quality Repair and Replacing services in Reading UK We are Best car Garage in UK to Repair your car’s ABS, ABS Pump, ABS hydraulic unit and ABS Ring you can call us anytime anywhere Many Autos Will collect and Deliver your Car Free of Cost."
+        content: "We repair and replace Car ABS for all makes and models in United Kingdom, United Kingdom Many Autos Provide Quality Repair and Replacing services in United Kingdom We are Best car Garage in UK to Repair your car’s ABS, ABS Pump, ABS hydraulic unit and ABS Ring you can call us anytime anywhere Many Autos Will collect and Deliver your Car Free of Cost."
       },
       {
         name: "twitter:image", 

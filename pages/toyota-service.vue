@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Toyota Service | ManyAutos LTD',
+    title: 'Toyota Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking for Car repair Garage in Reading for Toyota service Many Autos pioneer of car garage in Reading Providing Quality Toyota Interim service, Toyota Major Service in Reading UK Book your car repair services online.'
+        content: 'Looking for Car repair Garage in United Kingdom for Toyota service Many Autos pioneer of car garage in United Kingdom Providing Quality Toyota Interim service, Toyota Major Service in United Kingdom Book your car repair services online.'
       },
       {
         name: 'keywords', 
-        content: 'Toyota service, car garage in Reading, Toyota Interim service, Toyota Major Service in Reading UK, car repair services'
+        content: 'Toyota service, car garage in United Kingdom, Toyota Interim service, Toyota Major Service in United Kingdom, car repair services'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Toyota Service | ManyAutos LTD"
+        content: "Toyota Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking for Car repair Garage in Reading for Toyota service Many Autos pioneer of car garage in Reading Providing Quality Toyota Interim service, Toyota Major Service in Reading UK Book your car repair services online."
+        content: "Looking for Car repair Garage in United Kingdom for Toyota service Many Autos pioneer of car garage in United Kingdom Providing Quality Toyota Interim service, Toyota Major Service in United Kingdom Book your car repair services online."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Toyota Service | ManyAutos LTD"
+        content: "Toyota Service"
       },
       {
         name: "twitter:description", 
-        content: "Looking for Car repair Garage in Reading for Toyota service Many Autos pioneer of car garage in Reading Providing Quality Toyota Interim service, Toyota Major Service in Reading UK Book your car repair services online."
+        content: "Looking for Car repair Garage in United Kingdom for Toyota service Many Autos pioneer of car garage in United Kingdom Providing Quality Toyota Interim service, Toyota Major Service in United Kingdom Book your car repair services online."
       },
       {
         name: "twitter:image", 

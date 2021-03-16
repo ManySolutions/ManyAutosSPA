@@ -150,21 +150,21 @@ export default {
   },
 
   head: {
-    title: 'Vacuum Pump | Many Autos LTD',
+    title: 'Vacuum Pump',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos Best car repair and MOT Center in Reading UK Providing Quality vacuum pump repair and Vacuum pump replacement services in Reading UK we Also Provide online Booking services to our Customers you will get services from Expert car mechanic of UK.'
+        content: 'Many Autos Best car repair and MOT Centre in United Kingdom Providing Quality vacuum pump repair and Vacuum pump replacement services in United Kingdom we Also Provide online Booking services to our Customers you will get services from Expert car mechanic of UK.'
       },
       {
         name: 'keywords', 
-        content: 'vacuum, pumps, vacuum pump repair, vacuum pump replace, vacuum pump replacement, vacuum in reading, pump in reading, vacuum pump in reading, new vacuum pump in reading, vacuum pump repair in reading, vacuum pump replace in reading, vacuum pump replacement in reading'
+        content: 'vacuum, pumps, vacuum pump repair, vacuum pump replace, vacuum pump replacement, vacuum in United Kingdom, pump in United Kingdom, vacuum pump in United Kingdom, new vacuum pump in United Kingdom, vacuum pump repair in United Kingdom, vacuum pump replace in United Kingdom, vacuum pump replacement in United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Vacuum Pump | ManyAutos LTD"
+        content: "Vacuum Pump"
       },
       {
         hid: 'og:type',
@@ -188,7 +188,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos Best car repair and MOT Center in Reading UK Providing Quality vacuum pump repair and Vacuum pump replacement services in Reading UK we Also Provide online Booking services to our Customers you will get services from Expert car mechanic of UK."
+        content: "Many Autos Best car repair and MOT Centre in United Kingdom Providing Quality vacuum pump repair and Vacuum pump replacement services in United Kingdom we Also Provide online Booking services to our Customers you will get services from Expert car mechanic of UK."
       },
       {
         name: "twitter:card", 
@@ -196,11 +196,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Vacuum Pump | ManyAutos LTD"
+        content: "Vacuum Pump"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos Best car repair and MOT Center in Reading UK Providing Quality vacuum pump repair and Vacuum pump replacement services in Reading UK we Also Provide online Booking services to our Customers you will get services from Expert car mechanic of UK."
+        content: "Many Autos Best car repair and MOT Centre in United Kingdom Providing Quality vacuum pump repair and Vacuum pump replacement services in United Kingdom we Also Provide online Booking services to our Customers you will get services from Expert car mechanic of UK."
       },
       {
         name: "twitter:image", 

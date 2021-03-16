@@ -99,15 +99,16 @@
         <v-col cols="12" lg="8" class="m-auto">
           <v-row>
             <v-col cols="12" class="panels">
-              <v-expansion-panels focusable>
-                <v-expansion-panel>
+              <v-expansion-panels>
+                <v-expansion-panel v-for='(vehicle, i) in motTests'
+                  :key='i' focusable>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
                   <v-expansion-panel-header>
                     <v-row>
                       <v-col cols="6">
-                        <span class="date-top">{{vehicle.mot_history[0].motTests[0].completedDate}}</span>
+                        <span class="date-top">{{vehicle.mot_history[0].motTests.completedDate}}</span>
                       </v-col>
                       <v-col cols="6" class="status-top text-right pr-5">
-                        <span>{{vehicle.mot_history[0].motTests[0].testResult}}</span>
+                        <span>{{vehicle.mot_history.motTests.testResult}}</span>
                       </v-col>
                     </v-row>
                   </v-expansion-panel-header>
@@ -115,7 +116,7 @@
                     <v-row>
                       <v-col cols="12" sm="6">
                         <div class="pass-heading">
-                          <h1>{{vehicle.mot_history[0].motTests[0].testResult}}</h1>
+                          <h1>{{vehicle.mot_history.motTests.testResult}}</h1>
                         </div>
                       </v-col>
                       <v-col cols="12" sm="6">
@@ -126,17 +127,17 @@
                             <p class="vehicle-property">Comments</p>
                           </v-col>
                           <v-col cols="6">                            
-                            <p class="vehicle-property-value">{{vehicle.mot_history[0].motTests[0].motTestNumber}}</p>
-                            <p class="vehicle-property-value">{{vehicle.mot_history[0].motTests[0].expiryDate}}</p>
-                            <p class="vehicle-property-value"><strong>Text:</strong>{{vehicle.mot_history[0].motTests[0].rfrAndComments[0].text}}</p>
-                            <p class="vehicle-property-value"><strong>Type:</strong>{{vehicle.mot_history[0].motTests[0].rfrAndComments[0].type}}</p>
+                            <p class="vehicle-property-value">{{vehicle.mot_history.motTests.motTestNumber}}</p>
+                            <p class="vehicle-property-value">{{vehicle.mot_history.motTests.expiryDate}}</p>
+                            <!-- <p class="vehicle-property-value"><strong>Text:</strong>{{vehicle.mot_history.motTests.rfrAndComments.text}}</p>
+                            <p class="vehicle-property-value"><strong>Type:</strong>{{vehicle.mot_history.motTests.rfrAndComments.type}}</p> -->
                           </v-col>
                         </v-row>
                       </v-col>
                     </v-row>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
-                <v-expansion-panel>
+                <!-- <v-expansion-panel>
                   <v-expansion-panel-header>
                     <v-row>
                       <v-col cols="6">
@@ -171,7 +172,7 @@
                       </v-col>
                     </v-row>
                   </v-expansion-panel-content>
-                </v-expansion-panel>
+                </v-expansion-panel> -->
               </v-expansion-panels>
             </v-col>
           </v-row>
@@ -207,6 +208,7 @@ import SubscribePopup from '~/components/func-components/subscribe-popup.vue';
           to: {name: 'car-mot-details'},
         },
       ],
+
     }),
     async asyncData({ app }) {
         const vehicle = await app.$axios.$get('http://staging-v32020.manyautos.co.uk/api/v2/c/vehicle/last-mot-detail/HY59Xoo');

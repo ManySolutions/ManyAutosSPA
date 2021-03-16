@@ -142,12 +142,12 @@ export default {
   },
 
   head: {
-    title: 'CV Joint | ManyAutos LTD',
+    title: 'CV Joint',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD replace CV joints for all makes and models in Reading, United Kingdom. Our Experts are Highly Qualified for Drive Shaft , Cv Joint Kits, Propshhafts replacement. We also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD replace CV joints for all makes and models in United Kingdom. Our Experts are Highly Qualified for Drive Shaft, Cv Joint Kits, and Propshhafts replacement. We also provide free collection and Delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
@@ -156,7 +156,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "CV Joint | ManyAutos LTD"
+        content: "CV Joint"
       },
       {
         hid: 'og:type',
@@ -180,7 +180,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD replace CV joints for all makes and models in Reading, United Kingdom. Our Experts are Highly Qualified for Drive Shaft , Cv Joint Kits, Propshhafts replacement. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD replace CV joints for all makes and models in United Kingdom. Our Experts are Highly Qualified for Drive Shaft, Cv Joint Kits, and Propshhafts replacement. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -188,11 +188,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "CV Joint | ManyAutos LTD"
+        content: "CV Joint"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD replace CV joints for all makes and models in Reading, United Kingdom. Our Experts are Highly Qualified for Drive Shaft , Cv Joint Kits, Propshhafts replacement. We also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD replace CV joints for all makes and models in United Kingdom. Our Experts are Highly Qualified for Drive Shaft, Cv Joint Kits, and Propshhafts replacement. We also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 

@@ -188,12 +188,12 @@ export default {
   },
 
   head: {
-    title: 'ABS Pump,  ManyAutos LTD, abs hydraulic units',
+    title: 'ABS Pump,abs hydraulic units',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD  repair and replace ABS Pump for all makes and models in Reading, United Kingdom. If your Car Needs ABS Hydraulic units Replacing or Repair Contact our Expert Car Mechanics in UK or book your car service online now.'
+        content: 'Many Autos LTD repair and replace ABS Pump for all makes and models in United Kingdom, United Kingdom. If your Car Needs ABS Hydraulic units replacing or Repair Contact our Expert Car Mechanics in UK or book your car service online now.'
       },
       {
         name: 'keywords', 
@@ -202,7 +202,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "ABS Pump,  ManyAutos LTD, abs hydraulic units"
+        content: "ABS Pump,abs hydraulic units"
       },
       {
         hid: 'og:type',
@@ -226,7 +226,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD  repair and replace ABS Pump for all makes and models in Reading, United Kingdom. If your Car Needs ABS Hydraulic units Replacing or Repair Contact our Expert Car Mechanics in UK or book your car service online now."
+        content: "Many Autos LTD repair and replace ABS Pump for all makes and models in United Kingdom, United Kingdom. If your Car Needs ABS Hydraulic units replacing or Repair Contact our Expert Car Mechanics in UK or book your car service online now."
       },
       {
         name: "twitter:card", 
@@ -234,11 +234,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "ABS Pump,  ManyAutos LTD, abs hydraulic units"
+        content: "ABS Pump,abs hydraulic units"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD  repair and replace ABS Pump for all makes and models in Reading, United Kingdom. If your Car Needs ABS Hydraulic units Replacing or Repair Contact our Expert Car Mechanics in UK or book your car service online now."
+        content: "Many Autos LTD repair and replace ABS Pump for all makes and models in United Kingdom, United Kingdom. If your Car Needs ABS Hydraulic units replacing or Repair Contact our Expert Car Mechanics in UK or book your car service online now."
       },
       {
         name: "twitter:image", 

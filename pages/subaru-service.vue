@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Subaru Service | ManyAutos LTD',
+    title: 'Subaru Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Subaru interim service, Subaru major service we deal Subaru servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Subaru.'
+        content: 'Many Autos is the Best car garage and Car Repair Company in United Kingdom. Many Autos LTD Offer Subaru interim service, Subaru major service we deal Subaru servicing in United Kingdom bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Subaru.'
       },
       {
         name: 'keywords', 
-        content: 'Subaru service, car garage , Car Repair Company in Reading, Subaru interim service, Subaru major service, Subaru servicing in Reading, car service, car servicing, car services, car service and repair'
+        content: 'Subaru service, car garage , Car Repair Company in United Kingdom, Subaru interim service, Subaru major service, Subaru servicing in United Kingdom, car service, car servicing, car services, car service and repair'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Subaru Service | ManyAutos LTD"
+        content: "Subaru Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Subaru interim service, Subaru major service we deal Subaru servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Subaru."
+        content: "Many Autos is the Best car garage and Car Repair Company in United Kingdom. Many Autos LTD Offer Subaru interim service, Subaru major service we deal Subaru servicing in United Kingdom bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Subaru."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Subaru Service | ManyAutos LTD"
+        content: "Subaru Service"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos is the Best car garage and Car Repair Company in Reading. Many Autos LTD Offer Subaru interim service, Subaru major service we deal Subaru servicing in Reading bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Subaru."
+        content: "Many Autos is the Best car garage and Car Repair Company in United Kingdom. Many Autos LTD Offer Subaru interim service, Subaru major service we deal Subaru servicing in United Kingdom bring your car at Many Autos LTD for car service and repair, Save your time and money by Selecting our Recommended Service We were providing for All makes and models of Subaru."
       },
       {
         name: "twitter:image", 

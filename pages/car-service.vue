@@ -1235,21 +1235,21 @@ export default {
   },
 
   head: {
-    title: 'Car Service near me | Many Autos LTD',
+    title: 'Car Service near me',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service near you. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in Reading UK.'
+        content: 'Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom.'
       },
       {
         name: 'keywords', 
-        content: 'Car service, full services  in Reading, Car interim service, Car major service deal in Reading, Car servicing in Reading'
+        content: 'Car service, full services  in United Kingdom, Car interim service, Car major service deal in United Kingdom, Car servicing in United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Car Service near me | Many Autos LTD"
+        content: "Car Service near me"
       },
       {
         hid: 'og:type',
@@ -1273,7 +1273,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service near you. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in Reading UK."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -1281,11 +1281,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Car Service near me | Many Autos LTD"
+        content: "Car Service near me"
       },
       {
         name: "twitter:description", 
-        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service near you. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in Reading UK."
+        content: "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom."
       },
       {
         name: "twitter:image", 

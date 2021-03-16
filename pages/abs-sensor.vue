@@ -186,7 +186,7 @@ export default {
   },
 
   head: {
-    title: 'ABS Sensor | ManyAutos LTD, ABS Ring ',
+    title: 'ABS Sensor, ABS Ring ',
 
     meta: [
       {
@@ -200,7 +200,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "ABS Sensor | ManyAutos LTD, ABS Ring"
+        content: "ABS Sensor, ABS Ring"
       },
       {
         hid: 'og:type',
@@ -232,7 +232,7 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "ABS Sensor | ManyAutos LTD, ABS Ring"
+        content: "ABS Sensor, ABS Ring"
       },
       {
         name: "twitter:description", 

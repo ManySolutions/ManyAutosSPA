@@ -158,7 +158,7 @@ export default {
     }
   },
    head: {
-    title: 'Login | ManyAutos LTD',
+    title: 'Login',
 
     meta: [
       {
@@ -172,7 +172,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Login | ManyAutos LTD"
+        content: "Login"
       },
       {
         hid: 'og:type',
@@ -204,7 +204,7 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Login | ManyAutos LTD"
+        content: "Login"
       },
       {
         name: "twitter:description", 

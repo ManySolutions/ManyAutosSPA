@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Mazda Service | ManyAutos LTD',
+    title: 'Mazda Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking for car Garage in Reading for your Mazda Service many Autos Provide Mazda  services in Reading UK (major Service, full Service, interim Service, MOT) book your Mazda car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK.'
+        content: 'Looking for car Garage in United Kingdom for your Mazda Service many Autos Provide Mazda  services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mazda car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK.'
       },
       {
         name: 'keywords', 
-        content: 'Mazda Service, Mazda  services in Reading UK, major Service, full Service, interim Service, MOT, free collection and delivery services, free collection and delivery services'
+        content: 'Mazda Service, Mazda services in United Kingdom, Major Service, full Service, interim Service, MOT, free collection and delivery services, free collection and delivery services'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Mazda Service | ManyAutos LTD"
+        content: "Mazda Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking for car Garage in Reading for your Mazda Service many Autos Provide Mazda  services in Reading UK (major Service, full Service, interim Service, MOT) book your Mazda car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
+        content: "Looking for car Garage in United Kingdom for your Mazda Service many Autos Provide Mazda  services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mazda car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Mazda Service | ManyAutos LTD"
+        content: "Mazda Service"
       },
       {
         name: "twitter:description", 
-        content: "Looking for car Garage in Reading for your Mazda Service many Autos Provide Mazda  services in Reading UK (major Service, full Service, interim Service, MOT) book your Mazda car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
+        content: "Looking for car Garage in United Kingdom for your Mazda Service many Autos Provide Mazda  services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mazda car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK."
       },
       {
         name: "twitter:image", 

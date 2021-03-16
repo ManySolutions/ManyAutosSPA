@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Mini Service | ManyAutos LTD',
+    title: 'Mini Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking for car Garage in Reading for your Mini Service many Autos Provide Mini services in Reading UK (major Service, full Service, interim Service, MOT) book your Mini car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers.'
+        content: 'Looking for car Garage in United Kingdom for your Mini Service many Autos Provide Mini services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mini car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers.'
       },
       {
         name: 'keywords', 
-        content: 'Mini Service, Mini services in Reading UK, major Service, full Service, interim Service, MOT, Mini car service, free collection and delivery services, car Repair and Servicing in UK, Auto Services'
+        content: 'Mini Service, Mini services in United Kingdom, major Service, full Service, interim Service, MOT, Mini car service, free collection and delivery services, car Repair and Servicing in UK, Auto Services'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Mini Service | ManyAutos LTD"
+        content: "Mini Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking for car Garage in Reading for your Mini Service many Autos Provide Mini services in Reading UK (major Service, full Service, interim Service, MOT) book your Mini car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
+        content: "Looking for car Garage in United Kingdom for your Mini Service many Autos Provide Mini services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mini car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Mini Service | ManyAutos LTD"
+        content: "Mini Service"
       },
       {
         name: "twitter:description", 
-        content: "Looking for car Garage in Reading for your Mini Service many Autos Provide Mini services in Reading UK (major Service, full Service, interim Service, MOT) book your Mini car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
+        content: "Looking for car Garage in United Kingdom for your Mini Service many Autos Provide Mini services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mini car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
       },
       {
         name: "twitter:image", 

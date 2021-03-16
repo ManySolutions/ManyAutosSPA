@@ -79,21 +79,21 @@ export default {
   },
 
   head: {
-    title: 'Vehicle Diagnostics Test | Many Autos LTD',
+    title: 'Vehicle Diagnostics Test',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more. Our Experienced and expert car mechanic in Reading UK Identify  the problem and stop costly component failures of your car.'
+        content: 'Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more. Our Experienced and expert car mechanic in United Kingdom identify the problem and stop costly component failures of your car.'
       },
       {
         name: 'keywords', 
-        content: 'Free engine diagnostic test,car engine diagnostic test, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic Reading'
+        content: 'Free engine diagnostic test, car engine diagnostic test, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Vehicle Diagnostics Test | Many Autos LTD"
+        content: "Vehicle Diagnostics Test"
       },
       {
         hid: 'og:type',
@@ -117,7 +117,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more. Our Experienced and expert car mechanic in Reading UK Identify  the problem and stop costly component failures of your car."
+        content: "Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more. Our Experienced and expert car mechanic in United Kingdom identify the problem and stop costly component failures of your car."
       },
       {
         name: "twitter:card", 
@@ -125,11 +125,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Vehicle Diagnostics Test | Many Autos LTD"
+        content: "Vehicle Diagnostics Test"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more. Our Experienced and expert car mechanic in Reading UK Identify  the problem and stop costly component failures of your car."
+        content: "Many Autos provides a complete vehicle diagnostic service like Engine diagnostic, Fault diagnostic, EML diagnostic, Exhaust Emissions diagnostic, Brake diagnostic, Clutch diagnostic and much more. Our Experienced and expert car mechanic in United Kingdom identify the problem and stop costly component failures of your car."
       },
       {
         name: "twitter:image", 

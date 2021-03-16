@@ -200,7 +200,7 @@ export default {
   },
 
   head: {
-    title: 'Rear Axle | Many Autos LTD',
+    title: 'Rear Axle',
 
     meta: [
       {
@@ -214,7 +214,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Rear Axle | ManyAutos LTD"
+        content: "Rear Axle"
       },
       {
         hid: 'og:type',
@@ -246,7 +246,7 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Rear Axle | ManyAutos LTD"
+        content: "Rear Axle"
       },
       {
         name: "twitter:description", 

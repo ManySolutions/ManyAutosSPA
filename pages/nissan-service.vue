@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Nissan Service | ManyAutos LTD',
+    title: 'Nissan Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Finding car garage for your mighty Nissan full service? Many Autos as the Best car repair garage in Reading Offering Nissan interim service, Nissan major service we deal Nissan servicing in Reading bring your car at Many Autos LTD for car service and repair.'
+        content: 'Finding car garage for your mighty Nissan full service? Many Autos as the Best car repair garage in United Kingdom Offering Nissan interim service, Nissan major service we deal Nissan servicing in United Kingdom bring your car at Many Autos LTD for car service and repair.'
       },
       {
         name: 'keywords', 
-        content: 'Nissan service, Nissan service deal in Reading, Nissan full service,Nissan full services in Reading, Nissan interim service, Nissan major service, Nissan servicing in Reading, Nissan servicing in Reading, car service, car servicing, car services'
+        content: 'Nissan service, Nissan service deal in United Kingdom, Nissan full service, Nissan full services in United Kingdom, Nissan interim service, Nissan major service, Nissan servicing in United Kingdom, Nissan servicing in United Kingdom, car service, car servicing, car services'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Nissan Service | ManyAutos LTD"
+        content: "Nissan Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Finding car garage for your mighty Nissan full service? Many Autos as the Best car repair garage in Reading Offering Nissan interim service, Nissan major service we deal Nissan servicing in Reading bring your car at Many Autos LTD for car service and repair."
+        content: "Finding car garage for your mighty Nissan full service? Many Autos as the Best car repair garage in United Kingdom Offering Nissan interim service, Nissan major service we deal Nissan servicing in United Kingdom bring your car at Many Autos LTD for car service and repair."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Nissan Service | ManyAutos LTD"
+        content: "Nissan Service"
       },
       {
         name: "twitter:description", 
-        content: "Finding car garage for your mighty Nissan full service? Many Autos as the Best car repair garage in Reading Offering Nissan interim service, Nissan major service we deal Nissan servicing in Reading bring your car at Many Autos LTD for car service and repair."
+        content: "Finding car garage for your mighty Nissan full service? Many Autos as the Best car repair garage in United Kingdom Offering Nissan interim service, Nissan major service we deal Nissan servicing in United Kingdom bring your car at Many Autos LTD for car service and repair."
       },
       {
         name: "twitter:image", 

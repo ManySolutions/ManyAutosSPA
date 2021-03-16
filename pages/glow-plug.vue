@@ -139,11 +139,11 @@ export default {
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'We repair and replace Glow Plug for all makes and models. We also provide free collection and delivery service from your home or place of work book your car service for Glow Plug Sensor repair or to replace glow Plug.'
+        content: 'We repair and replace Glow Plug for all makes and models in United Kingdom, United Kingdom. We also provide free collection and delivery service from your home or place of work book your car service for Glow Plug Sensor repair or to replace glow Plug.'
       },
       {
         name: 'keywords', 
-        content: 'glow plug, new glow plug, new glow plug sensor, glow plug repair, glow plug replace, glow plug replacement'
+        content: 'Glow plug, new glow plug, new glow plug sensor, glow plug repair, glow plug replace, glow plug replacement'
       },
       {
         hid: 'og:title',
@@ -172,7 +172,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "We repair and replace Glow Plug for all makes and models. We also provide free collection and delivery service from your home or place of work book your car service for Glow Plug Sensor repair or to replace glow Plug."
+        content: "We repair and replace Glow Plug for all makes and models in United Kingdom, United Kingdom. We also provide free collection and delivery service from your home or place of work book your car service for Glow Plug Sensor repair or to replace glow Plug."
       },
       {
         name: "twitter:card", 
@@ -184,7 +184,7 @@ export default {
       },
       {
         name: "twitter:description", 
-        content: "We repair and replace Glow Plug for all makes and models. We also provide free collection and delivery service from your home or place of work book your car service for Glow Plug Sensor repair or to replace glow Plug."
+        content: "We repair and replace Glow Plug for all makes and models in United Kingdom, United Kingdom. We also provide free collection and delivery service from your home or place of work book your car service for Glow Plug Sensor repair or to replace glow Plug."
       },
       {
         name: "twitter:image", 

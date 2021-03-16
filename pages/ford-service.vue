@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Ford Service near me | Many Autos LTD',
+    title: 'Ford Service near me',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Finding car garage for your mighty Ford full service? Many Autos as the Best car repair garage in Reading Offering Ford interim service, ford major service we deal Ford servicing in Reading bring your car at Many Autos LTD for car service and repair.'
+        content: 'Finding car garage for your mighty Ford full service? Many Autos as the Best car repair garage in United Kingdom Offering Ford interim service, ford major service we deal Ford servicing in United Kingdom bring your car at Many Autos LTD for car service and repair.'
       },
       {
         name: 'keywords', 
-        content: 'Ford service, ford full services, ford interim service, ford major service, ford servicing in Reading, car service'
+        content: 'Ford service, ford full services, ford interim service, ford major service, ford servicing in United Kingdom, car service'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Ford Service near me | Many Autos LTD"
+        content: "Ford Service near me"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Finding car garage for your mighty Ford full service? Many Autos as the Best car repair garage in Reading Offering Ford interim service, ford major service we deal Ford servicing in Reading bring your car at Many Autos LTD for car service and repair."
+        content: "Finding car garage for your mighty Ford full service? Many Autos as the Best car repair garage in United Kingdom Offering Ford interim service, ford major service we deal Ford servicing in United Kingdom bring your car at Many Autos LTD for car service and repair."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Ford Service near me | Many Autos LTD"
+        content: "Ford Service near me"
       },
       {
         name: "twitter:description", 
-        content: "Finding car garage for your mighty Ford full service? Many Autos as the Best car repair garage in Reading Offering Ford interim service, ford major service we deal Ford servicing in Reading bring your car at Many Autos LTD for car service and repair."
+        content: "Finding car garage for your mighty Ford full service? Many Autos as the Best car repair garage in United Kingdom Offering Ford interim service, ford major service we deal Ford servicing in United Kingdom bring your car at Many Autos LTD for car service and repair."
       },
       {
         name: "twitter:image", 

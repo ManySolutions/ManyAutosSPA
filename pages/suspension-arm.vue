@@ -142,7 +142,7 @@ export default {
   },
 
   head: {
-    title: 'Suspension Arm | Suspension arm repair ',
+    title: 'Suspension Arm | Suspension Arm repair ',
 
     meta: [
       {
@@ -151,12 +151,12 @@ export default {
       },
       {
         name: 'keywords', 
-        content: 'suspension arm, suspension bush , wishbone Arm , lower arm , suspension arm bush, suspension pin  bush, Suspension arm Replacement, Suspension arm Repair'
+        content: 'Suspension arm, suspension bush, wishbone Arm, lower arm, suspension arm bush, suspension pin bush, Suspension arm Replacement, Suspension arm Repair'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Suspension Arm | Suspension arm repair"
+        content: "Suspension Arm | Suspension Arm repair"
       },
       {
         hid: 'og:type',
@@ -188,7 +188,7 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Suspension Arm | Suspension arm repair"
+        content: "Suspension Arm | Suspension Arm repair"
       },
       {
         name: "twitter:description", 

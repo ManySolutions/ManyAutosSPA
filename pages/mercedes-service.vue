@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Mercedes Service | ManyAutos LTD',
+    title: 'Mercedes Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Looking for car Garage in Reading for your Mercedes Service many Autos Provide Mercedes  services in Reading UK (major Service, full Service, interim Service, MOT) book your Mercedes car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers.'
+        content: 'Looking for car Garage in United Kingdom for your Mercedes Service many Autos Provide Mercedes services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mercedes car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers.'
       },
       {
         name: 'keywords', 
-        content: 'Mercedes Service, Provide Mercedes  services in Reading UK, major Service, full Service, interim Service, MOT, Mercedes car service, car Repair and Servicing in UK, Auto Services'
+        content: 'Mercedes Service, Provide Mercedes services in United Kingdom, Major Service, full Service, interim Service, MOT, Mercedes car service, car Repair and Servicing in UK, Auto Services'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Mercedes Service | ManyAutos LTD"
+        content: "Mercedes Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Looking for car Garage in Reading for your Mercedes Service many Autos Provide Mercedes  services in Reading UK (major Service, full Service, interim Service, MOT) book your Mercedes car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
+        content: "Looking for car Garage in United Kingdom for your Mercedes Service many Autos Provide Mercedes services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mercedes car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Mercedes Service | ManyAutos LTD"
+        content: "Mercedes Service"
       },
       {
         name: "twitter:description", 
-        content: "Looking for car Garage in Reading for your Mercedes Service many Autos Provide Mercedes  services in Reading UK (major Service, full Service, interim Service, MOT) book your Mercedes car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
+        content: "Looking for car Garage in United Kingdom for your Mercedes Service many Autos Provide Mercedes services in United Kingdom (major Service, full Service, interim Service, MOT) book your Mercedes car service online from our Website to get free Quote we Provide free collection and delivery services we Provide Quality car Repair and Servicing in UK we aims to Provide Best Auto Services to our Customers."
       },
       {
         name: "twitter:image", 

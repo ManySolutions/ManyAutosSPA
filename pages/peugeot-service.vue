@@ -1197,21 +1197,21 @@ export default {
   },
 
   head: {
-    title: 'Peugoet Service | ManyAutos LTD',
+    title: 'Peugoet Service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Need Peugeot services near your Area? Bring your Peugeot at Many Autos LTD for Best Peugeot Interim Service, Peugeot major service Peugeot full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Peugeot servicing in Reading UK.'
+        content: 'Need Peugeot services near your Area? Bring your Peugeot at Many Autos LTD for Best Peugeot Interim Service, Peugeot major service Peugeot full service in United Kingdom Book your car repair service online we also provide free collection and delivery services for Peugeot servicing in United Kingdom.'
       },
       {
         name: 'keywords', 
-        content: 'Peugeot services, Peugeot, Peugeot Interim Service, Peugeot major service, Peugeot full service in Reading UK, Peugeot servicing in Reading UK'
+        content: 'Peugeot services, Peugeot, Peugeot Interim Service, Peugeot major service, Peugeot full service in United Kingdom, Peugeot servicing in United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Peugoet Service | ManyAutos LTD"
+        content: "Peugoet Service"
       },
       {
         hid: 'og:type',
@@ -1235,7 +1235,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Need Peugeot services near your Area? Bring your Peugeot at Many Autos LTD for Best Peugeot Interim Service, Peugeot major service Peugeot full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Peugeot servicing in Reading UK."
+        content: "Need Peugeot services near your Area? Bring your Peugeot at Many Autos LTD for Best Peugeot Interim Service, Peugeot major service Peugeot full service in United Kingdom Book your car repair service online we also provide free collection and delivery services for Peugeot servicing in United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -1243,11 +1243,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Peugoet Service | ManyAutos LTD"
+        content: "Peugoet Service"
       },
       {
         name: "twitter:description", 
-        content: "Need Peugeot services near your Area? Bring your Peugeot at Many Autos LTD for Best Peugeot Interim Service, Peugeot major service Peugeot full service in Reading UK Book your car repair service online we also provide free collection and delivery services for Peugeot servicing in Reading UK."
+        content: "Need Peugeot services near your Area? Bring your Peugeot at Many Autos LTD for Best Peugeot Interim Service, Peugeot major service Peugeot full service in United Kingdom Book your car repair service online we also provide free collection and delivery services for Peugeot servicing in United Kingdom."
       },
       {
         name: "twitter:image", 

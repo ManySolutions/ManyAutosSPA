@@ -90,21 +90,21 @@ export default {
   },
 
   head: {
-    title: 'How it works | ManyAutos LTD',
+    title: 'How it works',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos keeps it simple: you book, we collect, service and deliver. We aim to provide you the best prices for fro a hassle free service through out the UK. Simply book the car service for MOT, car repair we also provide free collection and delivery services and we will take care of the rest. We offer free collection and delivery. Book online or call us at 01189 876300.'
+        content: 'Many Autos keeps it simple: you book, we collect, service and deliver. We aim to provide you the best prices for fro a hassle free service throughout the UK. Simply book the car service for MOT, car repair we also provide free collection and delivery services and we will take care of the rest. We offer free collection and delivery. Book online or call us at 01189 876300.'
       },
       {
         name: 'keywords', 
-        content: 'how it works, free collection and delivery, car service, repair, MOT, free collection, free delivery, collection and delivery'
+        content: 'How it works, free collection and delivery, car service, repair, MOT, free collection, free delivery, collection and delivery'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "How it works | ManyAutos LTD"
+        content: "How it works"
       },
       {
         hid: 'og:type',
@@ -128,7 +128,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos keeps it simple: you book, we collect, service and deliver. We aim to provide you the best prices for fro a hassle free service through out the UK. Simply book the car service for MOT, car repair we also provide free collection and delivery services and we will take care of the rest. We offer free collection and delivery. Book online or call us at 01189 876300."
+        content: "Many Autos keeps it simple: you book, we collect, service and deliver. We aim to provide you the best prices for fro a hassle free service throughout the UK. Simply book the car service for MOT, car repair we also provide free collection and delivery services and we will take care of the rest. We offer free collection and delivery. Book online or call us at 01189 876300."
       },
       {
         name: "twitter:card", 
@@ -136,11 +136,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "How it works | ManyAutos LTD"
+        content: "How it works"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos keeps it simple: you book, we collect, service and deliver. We aim to provide you the best prices for fro a hassle free service through out the UK. Simply book the car service for MOT, car repair we also provide free collection and delivery services and we will take care of the rest. We offer free collection and delivery. Book online or call us at 01189 876300."
+        content: "Many Autos keeps it simple: you book, we collect, service and deliver. We aim to provide you the best prices for fro a hassle free service throughout the UK. Simply book the car service for MOT, car repair we also provide free collection and delivery services and we will take care of the rest. We offer free collection and delivery. Book online or call us at 01189 876300."
       },
       {
         name: "twitter:image", 

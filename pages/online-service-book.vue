@@ -76,21 +76,21 @@ export default {
   },
 
   head: {
-    title: 'Online service | Many Autos LTD',
+    title: 'Online service',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos One of the Leading car Garage in Reading UK providing service and repair of all makes and models in United Kingdom. We also provide free collection and Delivery service from your home or place of work you just need to book your online service to get free quote online.'
+        content: 'Many Autos One of the Leading car Garage in United Kingdom providing service and repair of all makes and models in United Kingdom. We also provide free collection and Delivery service from your home or place of work you just need to book your online service to get free quote online.'
       },
       {
         name: 'keywords', 
-        content: ' online service, Free quote online, free collection and Delivery, car Garage in Reading'
+        content: 'Online service, Free quote online, free collection and Delivery, car Garage in United Kingdom'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Online service| Many Autos LTD"
+        content: "Online service"
       },
       {
         hid: 'og:type',
@@ -114,7 +114,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos One of the Leading car Garage in Reading UK providing service and repair of all makes and models in United Kingdom. We also provide free collection and Delivery service from your home or place of work you just need to book your online service to get free quote online."
+        content: "Many Autos One of the Leading car Garage in United Kingdom providing service and repair of all makes and models in United Kingdom. We also provide free collection and Delivery service from your home or place of work you just need to book your online service to get free quote online."
       },
       {
         name: "twitter:card", 
@@ -122,11 +122,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Online service| Many Autos LTD"
+        content: "Online service"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos One of the Leading car Garage in Reading UK providing service and repair of all makes and models in United Kingdom. We also provide free collection and Delivery service from your home or place of work you just need to book your online service to get free quote online."
+        content: "Many Autos One of the Leading car Garage in United Kingdom providing service and repair of all makes and models in United Kingdom. We also provide free collection and Delivery service from your home or place of work you just need to book your online service to get free quote online."
       },
       {
         name: "twitter:image", 

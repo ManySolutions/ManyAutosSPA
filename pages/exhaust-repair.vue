@@ -435,12 +435,12 @@ export default {
       },
       {
         name: 'keywords', 
-        content: 'exhaust repair,exhaust check, car exhaust repair, exhaust system, free exhaust check Reading, car exhaust repair Reading, exhaust repair Reading, car exhaust fitting Reading,car exhaust replacement in Reading, Low cost exhaust repair, free collection and delivery'
+        content: 'exhaust repair, exhaust check, car exhaust repair, exhaust system, free exhaust check United Kingdom, car exhaust repair United Kingdom, exhaust repair United Kingdom, car exhaust fitting United Kingdom, car exhaust replacement in United Kingdom, Low cost exhaust repair, free collection and delivery'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Exhaust Repair, Fitting & Replacement, Free Collection & Delivery | ManyAutos LTD"
+        content: "Exhaust Repair, Fitting & Replacement, Free Collection & Delivery"
       },
       {
         hid: 'og:type',
@@ -472,7 +472,7 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Exhaust Repair, Fitting & Replacement, Free Collection & Delivery | ManyAutos LTD"
+        content: "Exhaust Repair, Fitting & Replacement, Free Collection & Delivery"
       },
       {
         name: "twitter:description", 

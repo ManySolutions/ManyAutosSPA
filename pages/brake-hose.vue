@@ -128,12 +128,12 @@ export default {
   },
 
   head: {
-    title: 'Brake Hose | ManyAutos LTD',
+    title: 'Brake Hose',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD repair and replace Brake Hose for all makes and models in Reading, United Kingdom. if you need help with front brake hose feel free to book your car service online at Many Autos LTD. Many Autos also provide free collection and Delivery service from your home or place of work.'
+        content: 'Many Autos LTD repair and replace Brake Hose for all makes and models in United Kingdom. If you need help with front brake hose feel free to book your car service online at Many Autos LTD. Many Autos also provide free collection and Delivery service from your home or place of work.'
       },
       {
         name: 'keywords', 
@@ -142,7 +142,7 @@ export default {
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Brake Hose | ManyAutos LTD"
+        content: "Brake Hose"
       },
       {
         hid: 'og:type',
@@ -166,7 +166,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD repair and replace Brake Hose for all makes and models in Reading, United Kingdom. if you need help with front brake hose feel free to book your car service online at Many Autos LTD. Many Autos also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Brake Hose for all makes and models in United Kingdom. If you need help with front brake hose feel free to book your car service online at Many Autos LTD. Many Autos also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:card", 
@@ -174,11 +174,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Brake Hose | ManyAutos LTD"
+        content: "Brake Hose"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD repair and replace Brake Hose for all makes and models in Reading, United Kingdom. if you need help with front brake hose feel free to book your car service online at Many Autos LTD. Many Autos also provide free collection and Delivery service from your home or place of work."
+        content: "Many Autos LTD repair and replace Brake Hose for all makes and models in United Kingdom. If you need help with front brake hose feel free to book your car service online at Many Autos LTD. Many Autos also provide free collection and Delivery service from your home or place of work."
       },
       {
         name: "twitter:image", 

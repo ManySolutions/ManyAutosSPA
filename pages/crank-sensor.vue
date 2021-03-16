@@ -171,21 +171,21 @@ export default {
   },
 
   head: {
-    title: 'Crank Sensor | ManyAutos LTD',
+    title: 'Crank Sensor',
 
     meta: [
       {
         hid: 'description', name: 'description', 
-        content: 'Many Autos LTD repair and replace Crank Shaft Sensor for all makes and models in Reading, United Kingdom. Many Autos provide team to Replace Crank Sensor in Reading. We also provide free collection and Delivery service from your home or place of work Or Book your Car Service Online at manyautosltd.com for New crank Service in Reading.'
+        content: 'Many Autos LTD repair and replace Crank Shaft Sensor for all makes and models in United Kingdom. Many Autos provide team to Replace Crank Sensor in United Kingdom. We also provide free collection and Delivery service from your home or place of work Or Book your Car Service Online at manyautosltd.com for New crank Service in United Kingdom.'
       },
       {
         name: 'keywords', 
-        content: 'crank sensor, new crank sensor, crank sensor repair, crank sensor replace, crank sensor replacement, crank sensor in reading, new crank sensor in reading, crank sensor repair in reading, crank sensor replace in reading, crank sensor replacement in reading, Book your Car Service Online, Free Collection and delivery'
+        content: 'crank sensor, new crank sensor, crank sensor repair, crank sensor replace, crank sensor replacement, crank sensor in United Kingdom, new crank sensor in United Kingdom, crank sensor repair in United Kingdom, crank sensor replace in United Kingdom, crank sensor replacement in United Kingdom, Book your Car Service Online, Free Collection and delivery'
       },
       {
         hid: 'og:title',
         property: "og:title", 
-        content: "Crank Sensor | ManyAutos LTD"
+        content: "Crank Sensor"
       },
       {
         hid: 'og:type',
@@ -209,7 +209,7 @@ export default {
       },
       {
         hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos LTD repair and replace Crank Shaft Sensor for all makes and models in Reading, United Kingdom. Many Autos provide team to Replace Crank Sensor in Reading. We also provide free collection and Delivery service from your home or place of work Or Book your Car Service Online at manyautosltd.com for New crank Service in Reading."
+        content: "Many Autos LTD repair and replace Crank Shaft Sensor for all makes and models in United Kingdom. Many Autos provide team to Replace Crank Sensor in United Kingdom. We also provide free collection and Delivery service from your home or place of work Or Book your Car Service Online at manyautosltd.com for New crank Service in United Kingdom."
       },
       {
         name: "twitter:card", 
@@ -217,11 +217,11 @@ export default {
       },
       {
         name: "twitter:title", 
-        content: "Crank Sensor | ManyAutos LTD"
+        content: "Crank Sensor"
       },
       {
         name: "twitter:description", 
-        content: "Many Autos LTD repair and replace Crank Shaft Sensor for all makes and models in Reading, United Kingdom. Many Autos provide team to Replace Crank Sensor in Reading. We also provide free collection and Delivery service from your home or place of work Or Book your Car Service Online at manyautosltd.com for New crank Service in Reading."
+        content: "Many Autos LTD repair and replace Crank Shaft Sensor for all makes and models in United Kingdom. Many Autos provide team to Replace Crank Sensor in United Kingdom. We also provide free collection and Delivery service from your home or place of work Or Book your Car Service Online at manyautosltd.com for New crank Service in United Kingdom."
       },
       {
         name: "twitter:image", 
