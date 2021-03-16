@@ -105,6 +105,10 @@
               </v-row>
             </v-card>
             <!-- /total costs -->
+            
+            <br v-if='hasPaymentPlan'/>
+            <installment-plan-details v-if='hasPaymentPlan'></installment-plan-details>
+            <!-- installments -->
           </div>
         </v-list-item-content>
       </v-list-item>
@@ -131,15 +135,16 @@
 // import $ from 'jquery';
 import { mapState, mapGetters, mapActions } from 'vuex';
 import indexSelectedPaymentPlan from '~/pages/booking/create/__components/index-selected-payment-plan.vue';
+import InstallmentPlanDetails from './installment-plan-details.vue';
 
 export default {
-  components: { indexSelectedPaymentPlan },
+  components: { indexSelectedPaymentPlan, InstallmentPlanDetails },
   data: () => ({
     currencySymbol: process.env.CURRENCY_SYMBOL,
   }),
 
   computed: {
-    ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError']),
+    ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError', 'hasPaymentPlan']),
     ...mapGetters('booking', ['cartCount']),
 
     isCartEmpty() {

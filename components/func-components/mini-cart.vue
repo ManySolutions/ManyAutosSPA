@@ -132,6 +132,9 @@
             </v-card>
             <!-- /total costs -->
 
+            <br v-if='hasPaymentPlan'/>
+            <installment-plan-details v-if='hasPaymentPlan'></installment-plan-details>
+            <!-- installments -->
           </v-card-text>
           <v-card-actions>
             <v-skeleton-loader
@@ -167,9 +170,10 @@ import $ from 'jquery';
 import { mapState, mapGetters, mapActions } from 'vuex';
 import { getCartInstance } from '~/api/cart';
 import IndexSelectedPaymentPlan from '~/pages/booking/create/__components/index-selected-payment-plan.vue';
+import InstallmentPlanDetails from './installment-plan-details.vue';
 
 export default {
-  components: { IndexSelectedPaymentPlan, },
+  components: { IndexSelectedPaymentPlan, InstallmentPlanDetails, },
   data: () => ({
     drawer: false,
     currencySymbol: process.env.CURRENCY_SYMBOL,
@@ -179,8 +183,7 @@ export default {
   }),
 
   computed: {
-    ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError']),
-
+    ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError', 'hasPaymentPlan']),
     ...mapGetters('booking', ['cartCount']),
 
     isCartEmpty() {
