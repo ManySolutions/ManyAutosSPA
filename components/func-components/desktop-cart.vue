@@ -73,7 +73,7 @@
             >
               <v-row>
                 <v-col class='pb-0'>
-                  Subtotal Cost
+                  Subtotal
                 </v-col>
                 <v-col class='text-right pb-0'>
                   <span class='font-weight-700'>
@@ -95,7 +95,7 @@
               </v-row>
               <v-row>
                 <v-col class=''>
-                  Total Cost
+                  Total
                 </v-col>
                 <v-col class='text-right'>
                   <span class='font-weight-700'>
