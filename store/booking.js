@@ -1,5 +1,5 @@
 import { getSearchKeywords, getInstallmentDetails } from "~/api/booking";
-import { getCartInstance } from "~/api/cart";
+import { addToCart, deleteInCart, getCart, getCartInstance } from "~/api/cart";
 
 export const state = () => ({
   vehicle: null,
@@ -50,7 +50,7 @@ export const mutations = {
     state.cart = [];
     state.cartUpdatedAt= null;
     state.cartReceivedAt= null;
-    state.cartContent= [];
+    state.cartContent.items = [];
     state.hasPaymentPlan = false;
     state.referralId = null;
   },
@@ -100,18 +100,26 @@ export const getters = {
       : null
   },
 
-  cartCount(state) {
-    return state.cart.length || 0;
+  cart(state) {
+    return state.cartContent.items;
   },
 
-  isCartEmpty(state) {
-    return !(state.cart.length)
-  }
+  cartCount(state, getters) {
+    return Object.keys(state.cartContent.items || {}).length;
+  },
+
+  isCartEmpty(state, getters) {
+    return !!Object.keys(state.cartContent.items || {}).length;
+  },
+
+  cartKey(state) {
+    return state.cartContent.key || '';
+  },
 }
 
 
 export const actions = {
-  getCart({ state, commit, dispatch }) {
+  getCart({ state, commit, dispatch, getters }) {
     commit('SET_CART_LOADING', false);
 
     const { modelId, cart, cartUpdatedAt, cartReceivedAt } = state;
@@ -124,7 +132,7 @@ export const actions = {
     commit('SET_LOADING_INSTALLMENT', true);
     state.cartError = false;
 
-    getCartInstance(modelId, cart)
+    getCart(getters.cartKey || null)
       .then(res => {
         commit('UPDATE_CART_CONTENT', res);
         dispatch('getInstallmentPlan');
@@ -132,6 +140,38 @@ export const actions = {
         console.error('Some error occured while getting cart', err)
         state.cartError = err;
       }).finally(res => commit('SET_CART_LOADING', false))
+  },
+  /* **** */
+
+
+  addToCart({getters, state, commit, dispatch}, {id, modelId}) {
+    commit('SET_CART_LOADING', true);
+    commit('SET_LOADING_INSTALLMENT', true);
+    state.cartError = false;
+
+    addToCart(getters.cartKey, id, modelId).then(res => {
+      commit('UPDATE_CART_CONTENT', res);
+      dispatch('getInstallmentPlan');
+    }).catch(err => {
+      console.error('Some error occured while getting cart', err)
+      state.cartError = err;
+    }).finally(res => commit('SET_CART_LOADING', false))
+  },
+  /* **** */
+
+
+  removeFromCart({getters, state, commit, dispatch}, id) {
+    commit('SET_CART_LOADING', true);
+    commit('SET_LOADING_INSTALLMENT', true);
+    state.cartError = false;
+
+    deleteInCart(getters.cartKey, id).then(res => {
+      commit('UPDATE_CART_CONTENT', res);
+      dispatch('getInstallmentPlan');
+    }).catch(err => {
+      console.error('Some error occured while getting cart', err)
+      state.cartError = err;
+    }).finally(res => commit('SET_CART_LOADING', false))
   },
   /* **** */
 
@@ -154,6 +194,8 @@ export const actions = {
   /* **** */
 
   getInstallmentPlan({ commit, state }) {
+    if (!state.hasPaymentPlan) return;
+    
     commit('SET_LOADING_INSTALLMENT', true);
     commit('SET_INSTALLMET_DETAILS', {});
 

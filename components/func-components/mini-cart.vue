@@ -1,6 +1,6 @@
 <template>
   <div class='mini-cart'>
-    <template v-if='!isCartEmpty'>
+    <template>
       <v-btn
         color="secondary"
         dark
@@ -64,7 +64,20 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for='(item, i) in cartContent.cart_details'
+                  <tr v-if='isCartEmpty'>
+                    <td colspan="3">
+                      <v-alert
+                        type="warning"
+                        class='mt-4'
+                        color='blue lighten-3'
+                      >
+                        {{ 'No service added by you yet!' }}
+                      </v-alert>
+                    </td>
+                  </tr>
+                  <tr
+                    v-else 
+                    v-for='(item, i) in cart'
                     :key='i'
                   >
                     <td>
@@ -78,7 +91,7 @@
                         color='error'
                         small
                         icon
-                        @click='handleRemove(i)'
+                        @click='handleRemove(item.id)'
                       >
                         <v-icon>
                           mdi-delete
@@ -142,11 +155,12 @@
               type='button'
             ></v-skeleton-loader>
             <v-btn
-              v-else
+              v-else-if='hasBookNowBtn'
               color='secondary'
               block large
               dark
               to='/booking/create/collection-info'
+              :disabled='isCartEmpty'
             >
               <strong>
                 Book now
@@ -176,33 +190,36 @@ export default {
   components: { IndexSelectedPaymentPlan, InstallmentPlanDetails, },
   data: () => ({
     drawer: false,
-    currencySymbol: process.env.CURRENCY_SYMBOL,
     switchIcon: 10000,
     beforeCartSize: 0,
     showNextIco: false,
   }),
 
   computed: {
-    ...mapState('booking', ['cartContent', 'isCartLoading', 'cart', 'cartError', 'hasPaymentPlan']),
-    ...mapGetters('booking', ['cartCount']),
+    ...mapState('booking', ['cartContent', 'isCartLoading', 'cartError', 'hasPaymentPlan']),
+    ...mapGetters('booking', ['cartCount', 'cart']),
 
     isCartEmpty() {
       return this.cartCount > 0 ? false : true;
     },
 
     cartTaxes() {
-      const {cart_subtotal, cart_total} = this.cartContent;
-      const calc = this.cartContent.cart_subtotal - this.cartContent.cart_total;
+      const {subtotal, total} = this.cartContent;
+      const calc = subtotal - total;
 
       return  !Number.isNaN(calc) ? parseFloat(calc).toFixed(2) : '0.00';
     },
 
     cartTotal() {
-      return this.cartContent.cart_total || '0.00';
+      return this.cartContent.total || '0.00';
     },
 
     cartSubTotal() {
-      return this.cartContent.cart_subtotal || '0.00';
+      return this.cartContent.subtotal || '0.00';
+    },
+
+    hasBookNowBtn() {
+      return this.$route.name != "booking-create-collection-info";
     },
   },
 
@@ -213,14 +230,8 @@ export default {
       this.getCart();
     },
 
-    isCartEmpty(isCartEmpty) {
-      if (isCartEmpty) {
-        this.drawer = false;
-      }
-    },
-
     cart(cart) {
-      if (cart.length > this.beforeCartSize) {
+      if (Object.keys(cart).length > this.beforeCartSize) {
         this.showNextIco = true;
       }
 
@@ -251,26 +262,8 @@ export default {
   methods: {
     ...mapActions('booking', ['getCart']),
 
-    handleRemove(key) {
-      const cartIndex = this._cartIndex(key);
-      console.log(cartIndex);
-      if (cartIndex == null) return;
-
-      this.$store.commit('booking/REMOVE_FROM_CART', cartIndex);
-
-      this.getCart();
-    },
-
-    _cartIndex(item) {
-      let i;
-
-      for (i = 0; i < this.cart.length; i++) {
-        let elem = this.cart[i];
-
-        if (elem == item) return i;
-      }
-
-      return null;
+    handleRemove(id) {
+      this.$store.dispatch('booking/removeFromCart', id)
     },
   }
 }

@@ -65,6 +65,7 @@
         @click="handleRemove()"
         @mouseleave="isHover = false"
         :loading='isLoading'
+        :disabled='isCartLoading'
       >
         <v-icon class='mr-2' small>
           {{ isHover ? 'mdi-close-circle' : 'mdi-check-circle-outline' }}
@@ -92,7 +93,7 @@
 </template>
 
 <script>
-import {mapState} from 'vuex';
+import {mapState, mapGetters} from 'vuex';
 import { fbqAddToCart } from '~/api/fbq';
 
 export default {
@@ -107,54 +108,43 @@ export default {
     isHover: false,
   }),
   computed: {
-    ...mapState('booking', ['cart', 'isCartLoading']),
+    ...mapState('booking', ['isCartLoading', 'modelId']),
+    ...mapGetters('booking', ['cart']),
 
     priceFormatted() {
       return parseFloat(this.price).toFixed(2);
     },
 
     isInCart() {
-      return this.cart.includes(this.id);
+      return this.id in this.cart;
     },
-    
-    cartIndex() {
-      let i;
-
-      for (i = 0; i < this.cart.length; i++) {
-        let elem = this.cart[i];
-
-        if (elem == this.id) return i;
-      }
-
-      return null;
+  },
+  watch: {
+    isCartLoading(isCartLoading) {
+      if (!isCartLoading) this.isLoading = false;
     },
   },
   methods: {
     handleAdd() {
       this.isLoading = true;
+      const {id, title, price, modelId} = this;
 
       fbqAddToCart(
         this.$fb,
-        this.id, 
-        this.title,
-        this.price
+        id, 
+        title,
+        price
       );
 
-      setTimeout(() => {
-        this.$store.commit('booking/ADD_TO_CART', this.id);
-
-        this.isLoading = false;
-      },500)
+      this.$store.dispatch('booking/addToCart', {
+        id,
+        modelId
+      });
     },
     handleRemove() {
       this.isLoading = true;
-      if (this.cartIndex == null) return;
 
-      setTimeout(() => {
-        this.$store.commit('booking/REMOVE_FROM_CART', this.cartIndex);
-
-        this.isLoading = false;
-      },200)
+      this.$store.dispatch('booking/removeFromCart', this.id)
     },
   },
 }
