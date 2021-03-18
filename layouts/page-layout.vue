@@ -128,9 +128,11 @@ export default {
       padding-top: 90px;
 
       h1 {
-        font-size: 28px;
+        // font-size: 28px;
         text-align: center;
         position: relative;
+        font-size: 33px;
+        font-weight: 600;
         @media (min-width: 960px) {
           font-size: 38px;
         }

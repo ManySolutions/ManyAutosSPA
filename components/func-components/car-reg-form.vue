@@ -9,7 +9,7 @@
         class='z-index-1'
       >
         <v-row>
-          <v-col cols=7>
+          <v-col :cols='fullwidth ? 12 : 7'>
             <v-text-field
               :label="large?null:`Your Car Reg`"
               :placeholder="large?`YOUR CAR REG HERE`:null"
@@ -31,7 +31,7 @@
               <NuxtLink to="/">Manual Search</NuxtLink>
             </small>
           </v-col>
-          <v-col cols=5>
+          <v-col :cols='fullwidth ? 12 : 5'>
             <v-btn
               :color='hasBgImage ? "primary" : "secondary"'
               block
@@ -76,6 +76,7 @@ export default {
     hasBgImage: Boolean,
     hasNoBg: Boolean,
     large: Boolean,
+    fullwidth: Boolean,
   },
 
   data: () => ({
