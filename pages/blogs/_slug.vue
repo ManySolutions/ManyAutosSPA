@@ -14,7 +14,7 @@
           <div>
             <div class="taggbox-container" style=" width:100%;height:100%;overflow: auto;margin-bottom:30px;">
               <div class="taggbox-socialwall" data-wall-id="52496" view-url="https://widget.taggbox.com/52496"> </div>
-              <script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script>
+              <!-- <script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script> -->
             </div>
           </div>
           <v-card elevation="2" class='card-sticky'>
@@ -37,6 +37,8 @@
 <script>
 import CarRegForm from '~/components/func-components/car-reg-form.vue';
 import pageLayout from '~/layouts/page-layout.vue'
+import $ from 'jquery';
+
 export default {
   components: { pageLayout, CarRegForm },
   
@@ -44,6 +46,15 @@ export default {
     const req = (await $axios.get(`${process.env.API_URL}customer/list/blog/${params.slug}`)).data;
 
     return { req }
+  },
+
+  mounted() {
+    $.ajax({
+        url: 'https://widget.taggbox.com/embed.min.js',
+        dataType: 'script',
+        // success: callback,
+        async: true
+    });
   },
 
   head() {
