@@ -47,10 +47,9 @@ export const mutations = {
   },
 
   CLEAR_CART(state) {
-    state.cart = [];
     state.cartUpdatedAt= null;
     state.cartReceivedAt= null;
-    state.cartContent.items = [];
+    state.cartContent = {};
     state.hasPaymentPlan = false;
     state.referralId = null;
   },
@@ -104,12 +103,12 @@ export const getters = {
     return state.cartContent.items;
   },
 
-  cartCount(state, getters) {
+  cartCount(state) {
     return Object.keys(state.cartContent.items || {}).length;
   },
 
-  isCartEmpty(state, getters) {
-    return !!Object.keys(state.cartContent.items || {}).length;
+  isCartEmpty(state) {
+    return !Object.keys(state.cartContent.items || {}).length;
   },
 
   cartKey(state) {
@@ -199,7 +198,7 @@ export const actions = {
     commit('SET_LOADING_INSTALLMENT', true);
     commit('SET_INSTALLMET_DETAILS', {});
 
-    getInstallmentDetails(state.cartContent.cart_subtotal)
+    getInstallmentDetails(state.cartContent.subtotal)
       .then(res => commit('SET_INSTALLMET_DETAILS', res.data))
       .finally(() => commit('SET_LOADING_INSTALLMENT', false));
   },
