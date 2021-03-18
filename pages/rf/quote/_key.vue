@@ -42,13 +42,12 @@ export default {
         .then(res => res.data)
         .then(res => {
           const {
-            cart_total, cart_subtotal, cart_details, user, access_token, role,
-            keys
+            total, subtotal, items, user, access_token, role,
+            key
           } = res;
 
-          this.$store.commit('booking/REFRESH_CART', keys)
           this.$store.commit('booking/UPDATE_CART_CONTENT', {
-            cart_total, cart_subtotal, cart_details
+            total, subtotal, items, key
           });
           this.$store.dispatch('user/authorize', {
             accessToken: access_token, user, role
