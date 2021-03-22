@@ -140,6 +140,7 @@ export default {
 
       & + div {
         padding-top: 30px;
+        position: relative;
       }
     }
   }
