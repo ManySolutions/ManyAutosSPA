@@ -1,7 +1,9 @@
 <template>
   <v-card class="reg-card" :id='id'>
     <v-card-title class="text-center d-block">
-      <strong>Book with us now</strong>
+      <strong>
+        {{ title }}
+      </strong>
     </v-card-title>
     <v-card-text>
       <v-form @submit.prevent="handleSubmit()" ref='form'>
@@ -59,6 +61,10 @@ export default {
   },
   props: {
     id: String,
+    title: {
+      default: 'Book with us now',
+      type: String
+    },
   },
   data: () => ({
     reg: '',

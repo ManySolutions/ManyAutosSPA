@@ -73,6 +73,10 @@ export default {
     assets(url) {
       return process.env.ASSETS_URL + url;
     },
+
+    hasSlot(slot) {
+      return !!this.$slots[slot] || !!this.$scopedSlots[slot];
+    }
   },
 
   mounted() {
