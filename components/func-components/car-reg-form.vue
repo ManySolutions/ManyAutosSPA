@@ -9,10 +9,9 @@
         class='z-index-1'
       >
         <v-row>
-          <v-col cols=12>
+          <v-col cols=12 v-if='title'>
             <h4 
               class='heading__title text-h4 reg-heading' 
-              v-if='title' 
               v-html='title'
               :class='hasBgImage ? "text-white" : ""'
             ></h4>
