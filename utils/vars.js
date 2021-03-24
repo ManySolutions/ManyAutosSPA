@@ -318,155 +318,280 @@ export const carsList = [
   },
   {
     code: 'audi-service', 
-    name: 'Audi' 
+    name: 'Audi Car Service' 
   },
   { 
     code: 'bmw-service', 
-    name: 'BMW' 
+    name: 'BMW Car Service' 
   },
   { 
     code: 'citroen-service', 
-    name: 'Citroen' 
+    name: 'Citroen Car Service' 
   },
   { 
     code: 'daewoo-service', 
-    name: 'Daewoo' 
+    name: 'Daewoo Car Service' 
   },
   { 
     code: 'fiat-service', 
-    name: 'Fiat' 
+    name: 'Fiat Car Service' 
   },
   { 
     code: 'ford-service', 
-    name: 'Ford'
+    name: 'For Car Serviced'
   },
   { 
     code: 'honda-service', 
-    name: 'Honda' 
+    name: 'Honda Car Service' 
   },
   { 
     code: 'kia-service', 
-    name: 'Kia' 
+    name: 'Kia Car Service' 
   },
   { 
     code: 'land-rover-service', 
-    name: 'Land Rover' 
+    name: 'Land Rover Car Service' 
   },
   {
     code: 'lexus-service', 
-    name: 'Lexus' 
+    name: 'Lexus Car Service' 
   },
   { 
     code: 'mazda-service', 
-    name: 'Mazda' 
+    name: 'Mazda Car Service' 
   },
   { 
     code: 'mercedes-service', 
-    name: 'Mercedes' 
+    name: 'Mercedes Car Service' 
   },
   { 
     code: 'mini-service', 
-    name: 'Mini' 
+    name: 'Mini Car Service' 
   },
   { 
     code: 'mitsubishi-service', 
-    name: 'Mitsubishi' 
+    name: 'Mitsubishi Car Service' 
   },
   { 
     code: 'renault-service', 
-    name: 'Renault'
+    name: 'Renaul Car Servicet'
   },
   { 
     code: 'saab-service', 
-    name: 'Saab' 
+    name: 'Saab Car Service' 
   },
   {
     code: 'seat-service', 
-    name: 'Seat' 
+    name: 'Seat Car Service' 
   },
   { 
     code: 'toyota-service', 
-    name: 'Toyota' 
+    name: 'Toyota Car Service' 
   },
   { 
     code: 'vauxhall-service', 
-    name: 'Vauxhall' 
+    name: 'Vauxhall Car Service' 
   },
   { 
     code: 'volvo-service', 
-    name: 'Volvo' 
+    name: 'Volvo Car Service' 
   },
   { 
     code: 'peugeot-service', 
-    name: 'Peugeot' 
+    name: 'Peugeot Car Service' 
   },
   { 
     code: 'chevrolet-service', 
-    name: 'Chevrolet' 
+    name: 'Chevrolet Car Service' 
   },
   { 
     code: 'chrysler-service', 
-    name: 'Chrysler' 
+    name: 'Chrysler Car Service' 
   },
   { 
     code: 'ds-service', 
-    name: 'Ds' 
+    name: 'Ds Car Service' 
   },
   {
     code: 'dacia-service', 
-    name: 'Dacia' 
+    name: 'Dacia Car Service' 
   },
   { 
     code: 'nissan-service', 
-    name: 'Nissan' 
+    name: 'Nissan Car Service' 
   },
   { 
     code: 'vw-service', 
-    name: 'VW' 
+    name: 'VW Car Service' 
   },
   { 
     code: 'jeep-service', 
-    name: 'Jeep' 
+    name: 'Jeep Car Service' 
   },
   { 
     code: 'infiniti-service', 
-    name: 'Infiniti' 
+    name: 'Infiniti Car Service' 
   },
   { 
     code: 'lotus-service', 
-    name: 'Lotus'
+    name: 'Lotu Car Services'
   },
   { 
     code: 'mg-service', 
-    name: 'Mg' 
+    name: 'Mg Car Service' 
   },
   { 
     code: 'hyundai-service', 
-    name: 'Hyundai' 
+    name: 'Hyundai Car Service' 
   },
   { 
     code: 'jaguar-service', 
-    name: 'Jaguar' 
+    name: 'Jaguar Car Service' 
   },
   {
     code: 'skoda-service', 
-    name: 'Skoda' 
+    name: 'Skoda Car Service' 
   },
   { 
     code: 'smart-service', 
-    name: 'Smart' 
+    name: 'Smart Car Service' 
   },
   { 
     code: 'ssangyong-service', 
-    name: 'Ssangyong' 
+    name: 'Ssangyong Car Service' 
   },
   { 
     code: 'subaru-service', 
-    name: 'Subaru Service' 
+    name: 'Subaru Service Car Service' 
   },
   { 
     code: 'suzuki-service', 
-    name: 'Suzuki' 
+    name: 'Suzuki Car Service' 
   },
   
-]
+];
+
+export const carServicePages = [
+  {title: 'Daewoo Car Service', url: '/daewoo-service'},
+  {title: 'Fiat Car Service', url: '/fiat-service'},
+  {title: 'Ford Car Service', url: '/ford-service'},
+  {title: 'Honda Car Service', url: '/honda-service'},
+  {title: 'Kia Car Service', url: '/kia-service'},
+  {title: 'Land Rover Car Service', url: '/land-rover-service'},
+  {title: 'Lexus Car Service', url: '/lexus-service'},
+  {title: 'Mazda Car Service', url: '/mazda-service'},
+  {title: 'Mercedes Car Service', url: '/mercedes-service'},
+  {title: 'Mini Car Service', url: '/mini-service'},
+  {title: 'Mitsubishi Car Service', url: '/mitsubishi-service'},
+  {title: 'Renault Car Service', url: '/renault-service'},
+  {title: 'Saab Car Service', url: '/saab-service'},
+  {title: 'Seat Car Service', url: '/seat-service'},
+  {title: 'Toyota Car Service', url: '/toyota-service'},
+  {title: 'Vauxhall Car Service', url: '/vauxhall-service'},
+  {title: 'Volvo Car Service', url: '/volvo-service'},
+  {title: 'Peugoet Car Service', url: '/peugeot-service'},
+  {title: 'Alfa Romeo Car Service', url: '/alfa-romeo-service'},
+  {title: 'Chevrolet Car Service', url: '/chevrolet-service'},
+  {title: 'Chrysler Car Service', url: '/chrysler-service'},
+  {title: 'Ds Car Service', url: '/ds-service'},
+  {title: 'Dacia Car Service', url: '/dacia-service'},
+  {title: 'Nissan Car Service', url: '/nissan-service'},
+  {title: 'VW Car Service', url: '/vw-service'},
+  {title: 'Jeep Car Service', url: '/jeep-service'},
+  {title: 'Infiniti Car Service', url: '/infiniti-service'},
+  {title: 'Lotus Car Service', url: '/lotus-service'},
+  {title: 'Mg Car Service', url: '/mg-service'},
+  {title: 'Hyundai Car Service', url: '/hyundai-service'},
+  {title: 'Jaguar Car Service', url: '/jaguar-service'},
+  {title: 'Skoda Car Service', url: '/skoda-service'},
+  {title: 'Smart Car Service', url: '/smart-service'},
+  {title: 'Ssangyong Car Service', url: '/ssangyong-service'},
+  {title: 'Subaru Car Service', url: '/subaru-service'},
+  {title: 'Suzuki Car Service', url: '/suzuki-service'},
+];
+
+
+export const carRepairPages = [
+  {title: 'Abs Controllers Repair', url: '/abs-controllers'},
+  {title: 'Abs Hydraulic Units Repair', url: '/abs-hydraulic-units'},
+  {title: 'Abs Pump Repair', url: '/abs-pump'},
+  {title: 'Abs Ring Repair', url: '/abs-ring'},
+  {title: 'Abs Sensor Repair', url: '/abs-sensor'},
+  {title: 'Abs  Repair', url: '/abs'},
+  {title: 'Air Filter Replacement Repair', url: '/air-filter-replacement'},
+  {title: 'Air Suspension Repair', url: '/air-suspension'},
+  {title: 'Alternator Repair', url: '/alternator'},
+  {title: 'Anti Roll Bar Link Repair', url: '/anti-roll-bar-link'},
+  {title: 'Auto Locksmith Repair', url: '/auto-locksmith'},
+  {title: 'Brake Caliper Repair', url: '/brake-caliper'},
+  {title: 'Brake Disc Repair', url: '/brake-disc'},
+  {title: 'Brake Drums Repair', url: '/brake-drums'},
+  {title: 'Brake Fluid Repair', url: '/brake-fluid'},
+  {title: 'Brake Hose Repair', url: '/brake-hose'},
+  {title: 'Brake Master Cylinder Repair', url: '/brake-master-cylinder'},
+  {title: 'Brake Pad Sensor Repair', url: '/brake-pad-sensor'},
+  {title: 'Brake Pads Repair', url: '/brake-pads'},
+  {title: 'Brake Pipe Repair', url: '/brake-pipe'},
+  {title: 'Brake Service Repair', url: '/brake-service'},
+  {title: 'Brake Servo Repair', url: '/brake-servo'},
+  {title: 'Brake Shoes Repair', url: '/brake-shoes'},
+  {title: 'Camshaft Sensor Repair', url: '/camshaft-sensor'},
+  {title: 'Catalytic Converter Repair', url: '/catalytic-converter'},
+  {title: 'Clutch Problems Repair', url: '/clutch-problems'},
+  {title: 'Clutch Replacement Repair', url: '/clutch-replacement'},
+  {title: 'Coil Springs Repair', url: '/coil-springs'},
+  {title: 'Collection and Delivery Repair', url: '/collection-and-delivery'},
+  {title: 'Crank Sensor Repair', url: '/crank-sensor'},
+  {title: 'Cv Joint Repair', url: '/cv-joint'},
+  {title: 'Drag Links Repair', url: '/drag-links'},
+  {title: 'Drive Shaft Repair', url: '/drive-shaft'},
+  {title: 'EGR Repair', url: '/egr'},
+  {title: 'Exhaust Repair Repair', url: '/exhaust-repair'},
+  {title: 'Exhaust Services Repair', url: '/exhaust-services'},
+  {title: 'Finance Repair', url: '/finance'},
+  {title: 'Flywheel Repair', url: '/flywheel'},
+  {title: 'Fuel Filter Repair', url: '/fuel-filter'},
+  {title: 'Fuel Injector Repair', url: '/fuel-injector'},
+  {title: 'Fuel Pump Repair', url: '/fuel-pump'},
+  {title: 'Glow Plug Repair', url: '/glow-plug'},
+  {title: 'Handbrake Cable Repair', url: '/handbrake-cable'},
+  {title: 'Head Gasket Repair', url: '/head-gasket'},
+  {title: 'New Tyres Repair', url: '/new-tyres'},
+  {title: 'Oil Change Repair', url: '/oil-change'},
+  {title: 'Online Service Book Repair', url: '/online-service-book'},
+  {title: 'Radiator Repair', url: '/radiator'},
+  {title: 'Starter Motor Repair', url: '/starter-motor'},
+  {title: 'Steering Services Repair', url: '/steering-services'},
+  {title: 'Suspension Arm Repair', url: '/suspension-arm'},
+  {title: 'Suspension Rear Axle Repair', url: '/suspension-rear-axle'},
+  {title: 'Suspension Services Repair', url: '/suspension-services'},
+  {title: 'Thermostat Service Repair', url: '/thermostat-service'},
+  {title: 'Timing Belt Repair', url: '/timing-belt'},
+  {title: 'Tyre Balancing Repair', url: '/tyre-balancing'},
+  {title: 'Unwanted Cars Repair', url: '/unwanted-cars'},
+  {title: 'Vacuum Pump Repair', url: '/vacuum-Pump'},
+  {title: 'Vehicle Engine Diagnostic Services Repair', url: '/vehicle-engine-diagnostic-services'},
+  {title: 'Water pump Replacement Repair', url: '/water-pump-replacement'},
+  {title: 'Wheel Alignment and Tracking Repair', url: '/wheel-alignment-and-tracking'},
+  {title: 'Wheel Cylinder Repair', url: '/wheel-cylinder'},
+];
+
+export const serviceLocationPages = [
+  {title: 'Basingstoke', url: '/basingstoke'},
+  {title: 'Bracknell', url: '/bracknell'},
+  {title: 'Bradfield', url: '/bradfield'},
+  {title: 'Aldershot', url: '/aldershot'},
+  {title: 'Goring', url: '/goring'},
+  {title: 'Henley On Thames', url: '/henley-on-thames'},
+  {title: 'Farnborough', url: '/farnborough'},
+  {title: 'Maidenhead', url: '/maidenhead'},
+  {title: 'Newbury', url: '/newbury'},
+  {title: 'Pangbourne', url: '/pangbourne'},
+  {title: 'Sonning', url: '/sonning'},
+  {title: 'Spencers Wood', url: '/spencers-wood'},
+  {title: 'Thatcham', url: '/thatcham'},
+  {title: 'Twyford', url: '/twyford'},
+  {title: 'Woking', url: '/woking'},
+  {title: 'Wokingham', url: '/wokingham'},
+  {title: 'Woodley', url: '/woodley'},
+];

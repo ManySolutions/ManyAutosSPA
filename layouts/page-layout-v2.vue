@@ -1,5 +1,5 @@
 <template>
-  <div class="page static-page home-sec-gaps pt-0" :class="cls">
+  <div class="page static-page home-sec-gaps pt-0 pb-0" :class="cls">
     <div class="static-page-heading" style="">
       <template v-if="headingBg || headingBgStatic">
         <div
@@ -48,8 +48,7 @@
             <v-col cols=12 v-if='topic'>
               <h2 class='page-h2 text-center'>
                 <!-- <v-icon color='primary' size='30px'>mdi-information</v-icon> -->
-                How {{ topic }} Works at 
-                <span>ManyAutos</span>
+                How {{ topic }} Works
               </h2>
             </v-col>
             <v-col cols=12 md=6>
@@ -78,17 +77,19 @@
           <!-- /page faqs -->
 
           <v-row class='page-blog'>
-            <v-col cols=12 lg=4>
-              <v-card v-if='listMenu' outlined>
+            <v-col cols=12 lg=4 class=' d-none d-lg-block'>
+              <v-card v-if='listMenu' outlined class='list-fixed-height'>
                 <v-card-text>
-                  <ul class="list-group list-inline list-group-flush">
-                    <li 
-                      v-for='(item, itemI) in listMenu' :key='itemI'
-                      class="list-group-item"
-                    >
-                      <NuxtLink :to="item.url" v-html='item.title'></NuxtLink>
-                    </li>
-                  </ul>
+                  <div>
+                    <ul class="list-group list-inline list-group-flush">
+                      <li 
+                        v-for='(item, itemI) in listMenu' :key='itemI'
+                        class="list-group-item"
+                      >
+                        <NuxtLink :to="item.url" v-html='item.title'></NuxtLink>
+                      </li>
+                    </ul>
+                  </div>
                 </v-card-text>
               </v-card>
               <v-card class='page-reg-sticky'>
@@ -102,28 +103,107 @@
             </v-col>
             <v-col 
               v-if="hasSlot('blog')"
-              cols=12 lg=8 
+              cols=12 lg=8
+              class=''
             >
               <h2 class='page-h2  mt-0 pt-0'>
                 More about {{ topic }}
               </h2>
+              
               <slot name='blog'></slot>
+
+              <div class='mt-15'>
+                <div class="taggbox-container" style=" width:100%;height:100%;overflow: auto;margin-bottom:30px;">
+                  <div class="taggbox-socialwall" data-wall-id="52496" view-url="https://widget.taggbox.com/52496"> </div>
+                </div>
+              </div>
+              <!-- /google reviews -->
             </v-col>
           </v-row>
           <!-- /page blog -->
-          
-          <div class='mt-15'>
-            <div class="taggbox-container" style=" width:100%;height:100%;overflow: auto;margin-bottom:30px;">
-              <div class="taggbox-socialwall" data-wall-id="52496" view-url="https://widget.taggbox.com/52496"> </div>
-            </div>
+
+          <div class="mt-15" v-if='hasServicePages'>
+            <h4 class='mb-3'>Popular Services</h4>
+            <v-card outlined>
+              <v-card-text>
+                <v-row>
+                  <v-col 
+                    v-for='(service, serviceI) in carServicePages' 
+                    :key='serviceI'
+                    cols=12 sm=6 md=4 lg=3
+                    class='py-1'
+                  >
+                    <NuxtLink 
+                      :to='service.url'
+                      class='p-0'
+                    >
+                      {{ service.title }}
+                    </NuxtLink>
+                  </v-col>
+                </v-row>
+              </v-card-text>
+            </v-card>
           </div>
-          <!-- /google reviews -->
+          <!-- /service pages list -->
+
+          <div class="mt-10" v-if='hasLocationPages'>
+            <h4 class='mb-3'>Popular Locations</h4>
+            <v-card outlined>
+              <v-card-text>
+                <v-row>
+                  <v-col 
+                    v-for='(location, locationI) in serviceLocationPages' 
+                    :key='locationI'
+                    cols=12 sm=6 md=4 lg=3
+                    class='py-1'
+                  >
+                    <NuxtLink 
+                      :to='location.url'
+                      class='p-0'
+                    >
+                      {{ location.title }}
+                    </NuxtLink>
+                  </v-col>
+                </v-row>
+              </v-card-text>
+            </v-card>
+          </div>
+          <!-- /location pages list -->
+
+          <div class="mt-10" v-if='hasRepairPages'>
+            <h4 class='mb-3'>Popular Car Repairs</h4>
+            <v-card outlined>
+              <v-card-text>
+                <v-row>
+                  <v-col 
+                    v-for='(repair, repairI) in carRepairPages' 
+                    :key='repairI'
+                    cols=12 sm=6 md=4 lg=3
+                    class='py-1'
+                  >
+                    <NuxtLink 
+                      :to='repair.url'
+                      class='p-0'
+                    >
+                      {{ repair.title }}
+                    </NuxtLink>
+                  </v-col>
+                </v-row>
+              </v-card-text>
+            </v-card>
+          </div>
+          <!-- /repair pages repair list -->
 
         </v-col>
       </v-row>
     </v-container>
 
     <slot></slot>
+
+    <div class='mt-15'>
+      <car-reg-form has-bg-image large :title='`Book your ${topic} now`'></car-reg-form>
+    </div>
+
   </div>
 </template>
 
@@ -133,10 +213,13 @@ import BaseInfoIcons from '~/components/base-components/base-info-icons.vue'
 import blogSocialLinks from "~/components/func-components/blog-social-links.vue"
 import CarRegFormCard from '~/components/func-components/car-reg-form-card.vue'
 import CarRegForm from '~/components/func-components/car-reg-form.vue'
+import { carServicePages, serviceLocationPages, carRepairPages } from '@/utils/vars';
 
 export default {
   
-  data: () => ({}),
+  data: () => ({
+    carServicePages, serviceLocationPages, carRepairPages
+  }),
   components: { blogSocialLinks, CarRegFormCard, BaseInfoIcons, CarRegForm },
   props: {
     headingBg: String,
@@ -157,6 +240,18 @@ export default {
     moreFaqUrl: String,
     topic: String,
     redirectTo: String,
+    hasLocationPages: {
+      type: Boolean,
+      default: true,
+    },
+    hasServicePages: {
+      type: Boolean,
+      default: true,
+    },
+    hasRepairPages: {
+      type: Boolean,
+      default: true,
+    },
   },
 
   mounted() {
@@ -305,12 +400,20 @@ export default {
   margin-top: 50px;
 }
 
+.page-blog h2:not(.page-h2) {
+  margin-top: 40px;
+  margin-bottom: 17px;
+  font-size: 27px;
+  font-family: 'Open Sans', sans-serif;
+  color: #00b4d8;
+}
+
 .page-faq {
     margin-bottom: 40px;
 }
 
 ::v-deep {
-  .reg-form-sec {
+  .reg-form-sec:not(.is-large-form) {
     padding-top: 0px;
   }
   .v-card__title {
@@ -329,5 +432,11 @@ export default {
   position: sticky;
   top: 30px;
   margin-top: 30px;
+}
+
+.list-fixed-height {
+    // height: calc(100vh);
+    max-height: 700px;
+    overflow: auto;
 }
 </style>

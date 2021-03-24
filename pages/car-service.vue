@@ -6,12 +6,21 @@
     heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
     box-title='Book your car service now'
     :faqs='faqs'
-    topic='Car Service'
+    topic='Car Servicing With ManyAutos'
     :listMenu='listMenu'
     redirect-to='/booking/create/mot-and-servicing#INTERIM_SERVICE'
   >
     <template #overview>
-      <p class="text-teal text-18 justify">
+      <p>
+        Looking to get your car serviced? Look no further. Many Autos offers all of the car services that you need. 
+        We offer free collection and delivery of the vehicle for a hassle free experience. 
+        A regular service is recommended by all manufacturers to make sure that your car is kept in good condition.
+      </p>
+      <p>
+        Many Autos recommends a Full service every 12 months or 10,000 miles and an interim service 
+        every 6 months or 5000 miles.
+      </p>
+      <p class="">
         The service that we offer comes hand in hand with the type of
         service you want to carry out for your car. If you look at
         <strong>car services in UK</strong>, not all garages offer or have
@@ -20,257 +29,111 @@
         are required or recommended from the 50- or 70-point checks
         completed. We at Many Autos offer
         <strong>premier car services</strong> to all our customers.
-      </p>
-      <p class="text-teal text-18 justify">
-        There are many factors we look for when trying to find the right
-        car garage and mechanics with the most important one being
-        trustworthy. When looking through search engines for
-        <strong>online garage services in UK</strong>, you will notice
-        that we are upfront and transparent with the costs of services
-        requested by our customers. Our reviews confirm that our customers
-        <strong>book online vehicle repair services</strong> with
-        confidence.
-      </p>
-      <p class="text-teal text-18 justify">
-        At Many Autos we cater for all models within the Car range. If you
-        do not see your vehicle in the list below, please call us and we
-        will give you a quote for your car service accordingly.
       </p>
     </template>
     <template #blog>
-      <p class="text-teal text-18 justify mb-15">
-        The type of service you choose for your car is dependent on
-        various factors. For example, the condition of your car, the
-        number of miles you drive or have been currently driven and the
-        last time your car was serviced. We offer two types of service for
-        your car, a <strong>Full Service</strong> also known as major
-        service, which includes a comprehensive 70 points check. and
-        an <strong>Interim Service</strong> also known as minor
-        service which includes 50 points check. If you are looking for an
-        <strong>affordable car repair garage</strong>, then you have come
-        to the right place.
+      <p>
+        There are two different types of services available, which one you chose depends on the vehicle mileage 
+        and age since last service. The majority of car owners service their vehicles to the main 
+        manufacturer recommended schedule as recommended by us. Most modern vehicles will also tell you 
+        that a service is due. To be able to reset this warning, either an Interim or Full Service is required, 
+        depending on the needs of the vehicle. If you are looking for an
+        <strong>affordable car repair garage</strong>, then you have cometo the right place.
       </p>
-      <h3
-        class="font-weight-600"
-      >
-        Importance of vehicle repair servicing and finding the right car
-        garage
-      </h3>
-      <p class="text-teal text-18 justify">
-        The service that we offer comes hand in hand with the type of
-        service you want to carry out for your car. If you look at
-        <strong>car services in UK</strong>, not all garages offer or have
-        trained technicians to complete additional
-        <NuxtLink to="/oil-change">car services and repair</NuxtLink> that
-        are required or recommended from the 50- or 70-point checks
-        completed. We at Many Autos offer
-        <strong>premier car services</strong> to all our customers.
+      <h2 class="font-weight-600">
+        What is an interim service?
+      </h2>
+      <p>
+        An Interim Service is carried out in between the annually recommended full service. 
+        The interim service focuses on making sure that the main items are in good condition 
+        on your vehicle as well as replacing the oil and oil filter to prevent any problems in the future.
       </p>
-      <p class="text-teal text-18 justify">
-        There are many factors we look for when trying to find the right
-        car garage and mechanics with the most important one being
-        trustworthy. When looking through search engines for
-        <strong>online garage services in UK</strong>, you will notice
-        that we are upfront and transparent with the costs of services
-        requested by our customers. Our reviews confirm that our customers
-        <strong>book online vehicle repair services</strong> with
-        confidence.
+      <h2 class="font-weight-600">
+        What is a Full service?
+      </h2>
+      <p>
+        The full service is the recommended annual service carried out as per main manufacturer recommendations. 
+        The service changes the oil, oil filter and air filter on your vehicle. 
+        We also check and top up all under-bonnet fluids. The vehicle is raised on the ramp and an inspection 
+        of the vehicle is carried out as per our service schedule. Any items found that need your attention are 
+        highlighted so you are fully aware of the condition of your vehicle. 
       </p>
-      <p class="text-teal text-18 justify">
-        At Many Autos we cater for all models within the Car range. If you
-        do not see your vehicle in the list below, please call us and we
-        will give you a quote for your car service accordingly.
+      <h2 class="font-weight-600">
+        Which car service is best for me?
+      </h2>
+      <p>
+        If you are doing less than 2000 miles per year, then you can probably skip the interim service and stick 
+        with the annual full service. If you are doing more, then it is best to stick to the recommended schedule 
+        for servicing for your vehicle. 
       </p>
-
-      <v-expansion-panels>
-        <v-expansion-panel class="icon">
-          <v-expansion-panel-header class="card-header">
-            Types of car services and what is included in more details
-          </v-expansion-panel-header>
-          <v-expansion-panel-content eager class="card-header-body">
-            <strong>Full Service</strong> includes a comprehensive 70-point
-            check, <strong>Interim Service</strong> has a 50-point check. At
-            Many Autos we use the latest equipment, allowing our
-            <strong>qualified technicians</strong> and
-            <strong>car mechanics</strong> to complete a
-            <NuxtLink to="/vehicle-engine-diagnostic-services"
-              >full car diagnostic</NuxtLink
-            >
-            and resolve any problems quickly and efficiently. Forgetting to
-            service the vehicle as per manufacturer schedule can cause
-            airborne debris such as leaves and dust to find their way into
-            the engine, in particular the cylinders. This grime can then mix
-            with the <strong>engine oil</strong>, which, when moves around
-            the engine can slowly wear away engine components due to its
-            abrasive nature. If left for a while clogged filters can cause
-            serious damage to engine, reducing its performance and costing
-            you more money than the cost of a normal service. At Many Autos
-            we keep a range of different service parts in stock for every
-            make and model, so you can get the service you need to keep the
-            vehicle engine running at the highest possible standard.
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <v-expansion-panel>
-          <v-expansion-panel-header class="card-header">
-            Importance of Air Filters and why you should replace them
-          </v-expansion-panel-header>
-          <v-expansion-panel-content eager class="card-header-body">
-            Air filters prevent dirt and other materials from getting into
-            vehicle engines and should be changed as per service schedule to
-            ensure trouble-free engine function.
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <v-expansion-panel>
-          <v-expansion-panel-header class="card-header">
-            The role of a Fuel Filter
-          </v-expansion-panel-header>
-          <v-expansion-panel-content eager class="card-header-body">
-            The purpose of fuel filters is to prevent debris from getting
-            into vehicle engine and contaminating fuel supply.
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <v-expansion-panel>
-          <v-expansion-panel-header class="card-header">
-            Significance of an Oil Filter is to keep your engine oil clean
-          </v-expansion-panel-header>
-          <v-expansion-panel-content eager class="card-header-body">
-            An oil filter is a vital component, and it is designed to
-            protect the engine from dangerous contaminants.
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <v-expansion-panel>
-          <v-expansion-panel-header class="card-header">
-            Pollen Filter also known as Cabin Filter
-          </v-expansion-panel-header>
-          <v-expansion-panel-content eager class="card-header-body">
-            <p class="text-teal text-18 justify">
-              The pollen filter filters out more than just pollen it stops
-              all kinds of debris, pollution, and odours from entering the
-              cabin and clogging up the heating, ventilation, and
-              air-conditioning systems.
-            </p>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <v-expansion-panel>
-          <v-expansion-panel-header class="card-header">
-            Why it is vital to have good grade Engine Oil
-          </v-expansion-panel-header>
-          <v-expansion-panel-content eager class="card-header-body">
-            <p class="text-teal text-18 justify">
-              The grade and type of engine oil used can also impact the
-              car's economy and emissions, so it is essential to use the
-              correct grade engine oil. Unlike blood, engine oils do not
-              self-cleanse and after a short amount of time will start to
-              degrade and become progressively dirtier and less efficient.
-            </p>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-      </v-expansion-panels>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <h3
-              class="h2-service-heading text-blue"
-              style="font-size: 1.75rem"
-            >
-              6 Months
-            </h3>
-            <p>
-              Change oil and oil filter special oils at extra charge Top up
-              bonnet fluid levels. Check brakes. Check steering. Check
-              suspension. Check tyres. Check pollen filter. Collection and
-              delivery.
-            </p>
-          </div>
-          <div class="col-12 col-md-6">
-            <h3
-              class="h2-service-heading text-blue"
-              style="font-size: 1.75rem"
-            >
-              12 Months
-            </h3>
-            <p>
-              Change oil and oil filter special oils if required Top up
-              bonnet fluid levels. Check brakes remove wheels. Check brake
-              fluid. Check steering. Check suspension. Check tyres. Check
-              pollen filter. Change air filter. Replace spark plugs if
-              applicable (at extra cost). Collection and delivery.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12">
-        <h2 class="h3-service-heading text-blue pt-3">
-          See what's included in each service
-        </h2>
-      </div>
-      <div class="col-12 pb-3">
-        <span>
-          <span class="h3-service-heading">Interim Service Includes</span>
-          <span class="h3-service-heading text-blue"
-            >(50 Points Check)</span
-          >
-          <span class="h3-service-heading">Full Service Includes</span>
-          <span class="h3-service-heading text-blue"
-            >(70 Points Check)</span
-          >
-        </span>
-      </div>
-
-      <div class="col-12">
-        <h2 class="h2-service-heading pt-3 pb-3">
-          Common Car Problems found during a full service
-        </h2>
-      </div>
-      <v-expansion-panels popout>
-        <v-expansion-panel class="icon">
-          <v-expansion-panel-header class="card-header">
-            Car Oil Leaks or Burning Oil Smell
-          </v-expansion-panel-header>
-          <v-expansion-panel-content eager class="card-header-body">
-            It is known that Car engines commonly leak form the valve covers
-            or tensioner gasket seals. This can be a highly hazardous as
-            there is a risk of leaking oil hitting the exhaust which will in
-            turn cause the oil to burn. Engine oil also destroys wiring if
-            it comes into contact which is why you may face electrical
-            faults as a result of leaking oil in your Car. If your engine
-            oil is leaking in your Car, a mechanic will be sure to find it
-            during a full service as there are a number of tell-tale signs.
-            It would be hard not to miss as the liquid would be likely to be
-            dripping form the undercarriage of the car.
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <v-expansion-panel>
-          <v-expansion-panel-header class="card-header">
-            Clunking or Clicking when Turning your Car
-          </v-expansion-panel-header>
-          <v-expansion-panel-content eager class="card-header-body">
-            If the axle joint on an Car dries out, you are likely to hear a
-            clunking or clicking sound when making sharp turns. This happens
-            when the CV boot has been torn and grease has been split into
-            the interior engine. The axle joint needs grease to operate
-            properly and so when there isn’t any available, you’re going to
-            face problems. During an Car full service, a mechanic will be
-            likely to check on the health of the CV boot and axle joint if
-            you have been hearing strange noises coming from your car.
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <v-expansion-panel>
-          <v-expansion-panel-header class="card-header">
-            Car Exhaust Leak – Unhealthy Sound
-          </v-expansion-panel-header>
-          <v-expansion-panel-content eager class="card-header-body">
-            Many Car models have a flexible joint in the exhaust between the
-            down-pipe and the catalytic converters. This joint is prone to
-            weathering and often begins to leak. While the deeper exhaust
-            note can sound cool for a while, the results can be very
-            expensive. There are a range of other Car specific problems
-            which may be picked up during a full service, here are just a
-            few more of the other common issues.
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-      </v-expansion-panels>
+      <h2 class="font-weight-600">
+        What is included in a car service?
+      </h2>
+      <p>
+        A car service with Many Autos includes having the vehicle raised on a ramp, Oil and oil filter being replaced and multi-point checks carried out on the vehicle. 
+        <br><br>With an Interim service we will replace the oil and oil filter, check the engine for any high risk items and check all your under-bonnet fluids.
+        <br><br>With a Full Service we will also replace the air-filter and carry out all vehicle checks as per our service schedule.
+      </p>
+      <h2 class="font-weight-600">
+        Why does the oil and oil filter need changing?
+      </h2>
+      <p>
+        The oil and oil filter on vehicles needs regular maintenance as the engine depends on free flowing oil to 
+        be able to run smoothly. If the Oil is dirty or low, you run the risk of serious damage to the engine.
+      </p>
+      <h2 class="font-weight-600">
+        Why Does the Air filter need changing?
+      </h2>
+      <p>
+        The air filters job is to stop dirt and debris from getting in to the engine. If the filter gets 
+        too dirty and clogged, 
+        it will mean less air getting in to the engine and reduced performance.
+      </p>
+      <h2 class="font-weight-600">
+        When do I need to replace my brake fluid?
+      </h2>
+      <p>
+        The most common recommendation is 24 months or 24,000 miles. 
+        We will check as part of our routine service 
+        and let you know if we feel your vehicle needs a brake fluid change.
+      </p>
+      <h2 class="font-weight-600">
+        Why does my Coolant need a flush and refill?
+      </h2>
+      <p>
+        A coolant Flush and refull protects 
+        your engine from any rust and other deposits that may have built up in the coolant system over time.
+      </p>
+      <h2 class="font-weight-600">
+        When should I replace my cabin filter?
+      </h2>
+      <p>
+        We recommend that the cabin filter is replaced at least once a year. 
+        The cabin filter keeps the air you breath inside the vehicle clean from external pollutants and pollen.
+      </p>
+      <h2 class="font-weight-600">
+        Optional Extras
+      </h2>
+      <p>
+        During the process of a service you can choose to have some optional extras carried out as routine maintenance. 
+        We may even recommend some of these items if we feel they would be beneficial for you. 
+        Optional Extras
+        <br>
+        <ul>
+          <li>Brake Fluid Service</li>
+          <li>Coolant Flush and Refill</li>
+          <li>Cabin Filter</li>
+          <li>Air-con Regass</li>
+        </ul>
+      </p>
+      <h2 class="font-weight-600">
+        How often should I service my car?
+      </h2>
+      <p>
+        The most recommended option is to have your car serviced at regular intervals. 
+        Every 6 months or 6,000 miles for an Interim service and 12 months or 12,000 miles for a full service.
+        Whichever comes first.
+      </p>
     </template>
   </page-layout-v2>
 </template>
@@ -291,17 +154,17 @@ export default {
       {
         title: "What is a car service?",
         content:
-          "Usually, we recommend giving your car a full service every year or every 12,000 miles, whichever happens first.",
+          "A service replaces some essential items on your vehicle and includes multiple point checklist to ensure your vehicle is kept in a good condition and is safe to drive",
       },
       {
         title: "How much does it cost for my car service?",
         content:
-          "Save up to 30% on your car service. See our table above to browse our honest, upfront prices.",
+          "Save up to 30% on your car service. Enter your reg in the box opposite and get an exact price for your vehicle. No estimates, just clear upfront prices.",
       },
       {
-        title: "What happens when we service your car?",
+        title: "Why do I need to Service my car?",
         content:
-          "We service all makes and models of cars and vans up to 3,000kg, and we can save you time and money – typically more than an hour, and a bill that’s 65% cheaper than elsewhere to be precise!",
+          "A vehicle service is just as benificial for you as the driver as it is for the vehicle. You will get peace of mind that there are no imminent problems with the vehicle and if you have a warranty it is quite likely that regular vehicle maintenance is in the fine print for them to cover any work that may be needed in the future,",
       },
     ],
     listMenu: [

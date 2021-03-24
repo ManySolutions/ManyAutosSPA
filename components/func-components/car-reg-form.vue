@@ -1,7 +1,7 @@
 <template>
   <div 
     class="reg-form-sec w-100 overlay--darker"
-    :class='bgCls'
+    :class='clsx'
     :style='getBgImage'
   >
     <v-form @submit.prevent="handleSubmit()" ref='form'>
@@ -9,6 +9,14 @@
         class='z-index-1'
       >
         <v-row>
+          <v-col cols=12>
+            <h4 
+              class='heading__title text-h4 reg-heading' 
+              v-if='title' 
+              v-html='title'
+              :class='hasBgImage ? "text-white" : ""'
+            ></h4>
+          </v-col>
           <v-col :cols='fullwidth ? 12 : 7'>
             <v-text-field
               :label="large?null:`Your Car Reg`"
@@ -78,6 +86,7 @@ export default {
     hasNoBg: Boolean,
     large: Boolean,
     fullwidth: Boolean,
+    title: String,
   },
 
   data: () => ({
@@ -100,6 +109,14 @@ export default {
       return this.hasBgImage
         ? `reg-bg-image`
         : `reg-bg-simple`
+    },
+    clsx() {
+      let clsx = this.bgCls;
+
+      if (this.large) clsx += ' is-large-form'
+
+
+      return clsx;
     }
   },
 
@@ -160,6 +177,9 @@ export default {
     max-width: 500px;
     margin: 0px auto;
   }
+  &.is-large-form form {
+    max-width: 670px;
+  }
 
   &.reg-bg-image {
     background-position: center;
@@ -198,5 +218,9 @@ export default {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
+}
+h4.heading__title.reg-heading {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
 }
 </style>
