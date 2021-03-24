@@ -64,7 +64,7 @@
               </NuxtLink> -->
             </v-col>
             <v-col cols=12 md=6>
-              <v-card elevation="2">
+              <v-card elevation="2" class='faq-right-reg'>
                 <v-card-text>
                   <v-card-title class='text-center d-block'>
                     <strong v-html='boxTitle'></strong>
@@ -200,7 +200,7 @@
 
     <slot></slot>
 
-    <div class='mt-15'>
+    <div class='mt-15 page-bottom-reg'>
       <car-reg-form has-bg-image large :title='`Book your ${topic} now`'></car-reg-form>
     </div>
 
@@ -413,8 +413,11 @@ export default {
 }
 
 ::v-deep {
-  .reg-form-sec:not(.is-large-form) {
+  .reg-form-sec {
     padding-top: 0px;
+  }
+  .page-bottom-reg .reg-form-sec {
+    padding-top: 40px;
   }
   .v-card__title {
     color: #2f2f2f;
@@ -439,4 +442,10 @@ export default {
     max-height: 700px;
     overflow: auto;
 }
+
+.faq-right-reg {
+    max-width: 530px;
+    margin: auto;
+}
+
 </style>
