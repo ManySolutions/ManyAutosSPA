@@ -54,6 +54,7 @@
 import { fbqLead } from '~/api/fbq';
 import { getVehicleDetails } from '~/api/vehicle';
 import IndexActiveCar from '~/pages/__components/index-active-car.vue';
+import { mapState } from 'vuex';
 
 export default {
   components: {
@@ -72,14 +73,16 @@ export default {
     error: false,
     errorMessage: null,
   }),
-
+  computed: {
+    ...mapState('settings', ['redirect']),
+  },
   methods: {
     handleSubmit() {
       if (!this.$refs.form.validate()) return;
       
       this.error = false;
       this.isLoading = true;
-
+      const { redirect } = this;
 
       getVehicleDetails(this.reg)
         .then(res => {
@@ -102,7 +105,11 @@ export default {
               modelId: res.vehicle.Model_ID
             });
 
-            this.$router.push('/booking/create/services');
+            if (redirect.referrer == 'car-reg') {
+              this.$router.push(redirect.to);
+            } else {
+              this.$router.push('/booking/create/services');
+            }
           }
         }).finally(() => this.isLoading = false);
     }

@@ -67,6 +67,7 @@
 import { fbqLead } from '~/api/fbq';
 import { getVehicleDetails } from '~/api/vehicle';
 import indexActiveCar from "~/pages/__components/index-active-car.vue";
+import { mapState } from 'vuex';
 
 export default {
   components: { indexActiveCar }, 
@@ -87,6 +88,7 @@ export default {
   }),
 
   computed: {
+    ...mapState('settings', ['redirect']),
     getBgImage() {
       return this.hasBgImage
         ? `background-image: url(${this.assets("customer-v2/home-cover-bg.png")})`
@@ -107,6 +109,7 @@ export default {
       
       this.error = false;
       this.isLoading = true;
+      const { redirect } = this;
 
       getVehicleDetails(this.reg)
         .then(res => {
@@ -129,7 +132,11 @@ export default {
               modelId: res.vehicle.Model_ID
             });
 
-            this.$router.push('/booking/create/services');
+            if (redirect.referrer == 'car-reg') {
+              this.$router.push(redirect.to);
+            } else {
+              this.$router.push('/booking/create/services');
+            }
           }
         }).finally(() => this.isLoading = false);
     }

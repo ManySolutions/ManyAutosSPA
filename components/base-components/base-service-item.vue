@@ -1,5 +1,5 @@
 <template>
-  <div class='service-item'>
+  <div class='service-item' :id='id'>
     <v-skeleton-loader
       v-if='loading'
       type='article, button'

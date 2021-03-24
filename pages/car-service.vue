@@ -8,6 +8,7 @@
     :faqs='faqs'
     topic='Car Service'
     :listMenu='listMenu'
+    redirect-to='/booking/create/mot-and-servicing#INTERIM_SERVICE'
   >
     <template #overview>
       <p class="text-teal text-18 justify">

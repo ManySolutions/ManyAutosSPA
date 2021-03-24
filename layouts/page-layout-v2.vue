@@ -156,6 +156,7 @@ export default {
     faqs: [Array, Object],
     moreFaqUrl: String,
     topic: String,
+    redirectTo: String,
   },
 
   mounted() {
@@ -164,6 +165,11 @@ export default {
         dataType: 'script',
         // success: callback,
         async: true
+    });
+
+    this.$store.commit('settings/SET_REDIRECT', {
+      referrer: 'car-reg',
+      to: this.redirectTo
     });
   },
   
