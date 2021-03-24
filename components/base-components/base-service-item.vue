@@ -116,7 +116,11 @@ export default {
     },
 
     isInCart() {
-      return this.id in this.cart;
+      try {
+        return this.id in this.cart;
+      } catch (error) {
+        return false;
+      }
     },
   },
   watch: {
