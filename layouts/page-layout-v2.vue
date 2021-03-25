@@ -44,7 +44,7 @@
           <slot name='overview'></slot>
           <!-- /page overview -->
 
-          <v-row v-if='faqs' justify="center">
+          <v-row v-if='faqs' justify="center" align='center'>
             <v-col cols=12 v-if='topic'>
               <h2 class='page-h2 text-center'>
                 <!-- <v-icon color='primary' size='30px'>mdi-information</v-icon> -->
@@ -75,6 +75,13 @@
             </v-col>
           </v-row>
           <!-- /page faqs -->
+
+          <v-row class='page-default-sec'>
+            <v-col>
+              <slot></slot>
+            </v-col>
+          </v-row>
+          <!-- /default slot -->
 
           <v-row class='page-blog'>
             <v-col cols=12 lg=4 class=' d-none d-lg-block'>
@@ -197,8 +204,6 @@
         </v-col>
       </v-row>
     </v-container>
-
-    <slot></slot>
 
     <div class='mt-15 page-bottom-reg'>
       <car-reg-form has-bg-image large :title='`Book your ${topic} now`'></car-reg-form>

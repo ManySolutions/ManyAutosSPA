@@ -136,18 +136,22 @@
         Whichever comes first.
       </p>
     </template>
+
+    <car-service-table></car-service-table>
   </page-layout-v2>
 </template>
 
 <script>
 import PageLayoutV2 from "@/layouts/page-layout-v2";
 import { carServicePages } from '~/utils/vars';
+import CarServiceTable from '~/components/func-components/car-service-table.vue';
 
 const URL = process.env.APP_URL;
 
 export default {
   components: {
     PageLayoutV2,
+    CarServiceTable,
   },
 
   data: () => ({
