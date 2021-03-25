@@ -1,6 +1,6 @@
 <template>
   <page-layout-v2
-    title="Car Service Near Me"
+    title="Car Service | Book Your Car Service Online"
     subHeading="Book your car service on 30% off now"
     heading-bg="customer-v2/static-pages/service.jpg"
     heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
@@ -9,6 +9,7 @@
     topic='Car Servicing With ManyAutos'
     :listMenu='listMenu'
     redirect-to='/booking/create/mot-and-servicing#INTERIM_SERVICE'
+    :has-service-pages='false'
   >
     <template #overview>
       <p>
@@ -140,6 +141,7 @@
 
 <script>
 import PageLayoutV2 from "@/layouts/page-layout-v2";
+import { carServicePages } from '~/utils/vars';
 
 const URL = process.env.APP_URL;
 
@@ -167,28 +169,7 @@ export default {
           "A vehicle service is just as benificial for you as the driver as it is for the vehicle. You will get peace of mind that there are no imminent problems with the vehicle and if you have a warranty it is quite likely that regular vehicle maintenance is in the fine print for them to cover any work that may be needed in the future,",
       },
     ],
-    listMenu: [
-      { title: "Audi Car Service", url: "/" },
-      { title: "BMW Car Service", url: "/" },
-      { title: "Citreon Car Service", url: "/" },
-      { title: "Daewoo Car Service", url: "/" },
-      { title: "Fiat Car Service", url: "/" },
-      { title: "Ford Car Service", url: "/" },
-      { title: "Honda Car Service", url: "/" },
-      { title: "Kia service", url: "/" },
-      { title: "Lexus service", url: "/" },
-      { title: "Mazda service", url: "/" },
-      { title: "Mercedes service", url: "/" },
-      { title: "Mini service", url: "/" },
-      { title: "Renault service", url: "/" },
-      { title: "Saab Service", url: "/" },
-      { title: "Seat Service", url: "/" },
-      { title: "Toyota Service", url: "/" },
-      { title: "Vauxhall Service", url: "/" },
-      { title: "Volvo Service", url: "/" },
-      { title: "Peugeot service", url: "/" },
-      { title: "Chevrolet Service", url: "/" },
-    ],
+    listMenu: carServicePages,
   }),
 
   mounted() {
