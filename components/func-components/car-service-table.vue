@@ -72,9 +72,9 @@
             <template #added>Added</template>
           </btn-add-service>
           <br>
-          <a href='#' class='d-block mt-3'>
+          <!-- <a href='#' class='d-block mt-3'>
             Full Details
-          </a>
+          </a> -->
         </v-col>
         <v-col cols=3 class='text-center py-6'>
           <span class='d-block tbp-price'>
@@ -97,9 +97,9 @@
             <template #added>Added</template>
           </btn-add-service>
           <br>
-          <a href='#' class='d-block mt-3'>
+          <!-- <a href='#' class='d-block mt-3'>
             Full Details
-          </a>
+          </a> -->
         </v-col>
       </v-row>
     </v-sheet>
@@ -124,10 +124,10 @@ export default {
       {text: 'Engine oil and oil filter', interim: true, full: true},
       {text: 'Brake fluid and power steering fluids (top up)', interim: true, full: true},
       {text: 'Air filter', interim: false, full: true},
-      {text: 'Gearbox fluid (top up)', interim: false, full: true},
-      {text: 'Brake fluid (replacement) and bleed system', interim: false, full: true},
-      {text: 'Pollen filter (if fitted)', interim: false, full: true},
-      {text: 'Fuel filter (diesel only)', interim: false, full: true},
+      {text: 'Visually inspect condition of HT leads', interim: false, full: true},
+      {text: 'Check coolant systems', interim: false, full: true},
+      {text: 'Check engine cooling fan', interim: false, full: true},
+      {text: 'Visually inspect radiator and coolant pipes', interim: false, full: true},
     ],
     regDialog: false,
     clicked: null,
