@@ -16,6 +16,7 @@ export const state = () => ({
   searchKeywords: [],
   installmentPlanDetails: {},
   loadingInstallment: false,
+  regDialog: false,
 })
 
 export const mutations = {
@@ -88,6 +89,10 @@ export const mutations = {
 
   SET_LOADING_INSTALLMENT(state, status) {
     state.loadingInstallment = status;
+  },
+
+  TOGGLE_REG_DIALOG(state, status) {
+    state.regDialog = status;
   },
 }
 

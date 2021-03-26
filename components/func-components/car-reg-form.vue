@@ -86,6 +86,7 @@ export default {
     large: Boolean,
     fullwidth: Boolean,
     title: String,
+    hasNoRedirect: Boolean,
   },
 
   data: () => ({
@@ -125,7 +126,7 @@ export default {
       
       this.error = false;
       this.isLoading = true;
-      const { redirect } = this;
+      const { redirect, hasNoRedirect } = this;
 
       getVehicleDetails(this.reg)
         .then(res => {
@@ -148,10 +149,14 @@ export default {
               modelId: res.vehicle.Model_ID
             });
 
-            if (redirect.referrer == 'car-reg') {
-              this.$router.push(redirect.to);
-            } else {
-              this.$router.push('/booking/create/services');
+            this.$emit('success', res);
+
+            if (!hasNoRedirect) {
+              if (redirect.referrer == 'car-reg') {
+                this.$router.push(redirect.to);
+              } else {
+                this.$router.push('/booking/create/services');
+              }
             }
           }
         }).finally(() => this.isLoading = false);

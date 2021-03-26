@@ -137,7 +137,9 @@
       </p>
     </template>
 
-    <car-service-table></car-service-table>
+    <div style='padding-top: 50px;'>
+      <car-service-table></car-service-table>
+    </div>
   </page-layout-v2>
 </template>
 

@@ -119,12 +119,6 @@
               
               <slot name='blog'></slot>
 
-              <div class='mt-15'>
-                <div class="taggbox-container" style=" width:100%;height:100%;overflow: auto;margin-bottom:30px;">
-                  <div class="taggbox-socialwall" data-wall-id="52496" view-url="https://widget.taggbox.com/52496"> </div>
-                </div>
-              </div>
-              <!-- /google reviews -->
             </v-col>
           </v-row>
           <!-- /page blog -->
@@ -260,13 +254,6 @@ export default {
   },
 
   mounted() {
-    $.ajax({
-        url: 'https://widget.taggbox.com/embed.min.js',
-        dataType: 'script',
-        // success: callback,
-        async: true
-    });
-
     this.$store.commit('settings/SET_REDIRECT', {
       referrer: 'car-reg',
       to: this.redirectTo

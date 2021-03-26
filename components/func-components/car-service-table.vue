@@ -53,13 +53,24 @@
         <v-col cols=6 class=' py-6'></v-col>
         <v-col cols=3 class='text-center py-6 tbp-imp-foot-row'>
           <span class='d-block tbp-price'>
-            {{ currencySymbol }}900
+            <item-price 
+              id='FULL_SERVICE'
+              @see-pricing='handleInvalidReg(`FULL_SERVICE`)'
+            ></item-price>
           </span>
-          <v-btn
+          <btn-add-service
             color='secondary'
+            :small='isDevice.xs'
+            id='FULL_SERVICE'
+            :price='``'
+            title='Full Service'
+            @invalid-reg='handleInvalidReg(`FULL_SERVICE`)'
+            :openRegForm="false"
+            ref='FULL_SERVICE'
           >
             Book <span class='d-none d-md-block'>&nbsp;Full Service</span>
-          </v-btn>
+            <template #added>Added</template>
+          </btn-add-service>
           <br>
           <a href='#' class='d-block mt-3'>
             Full Details
@@ -67,13 +78,24 @@
         </v-col>
         <v-col cols=3 class='text-center py-6'>
           <span class='d-block tbp-price'>
-            {{ currencySymbol }}500
+            <item-price 
+              id='INTERIM_SERVICE'
+              @see-pricing='handleInvalidReg(`INTERIM_SERVICE`)'
+            ></item-price>
           </span>
-          <v-btn
+          <btn-add-service
             color='secondary'
+            :small='isDevice.xs'
+            id='INTERIM_SERVICE'
+            :price='``'
+            title='Interim Service'
+            @invalid-reg='handleInvalidReg(`INTERIM_SERVICE`)'
+            :openRegForm="false"
+            ref='INTERIM_SERVICE'
           >
             Book <span class='d-none d-md-block'>&nbsp;Interim Service</span>
-          </v-btn>
+            <template #added>Added</template>
+          </btn-add-service>
           <br>
           <a href='#' class='d-block mt-3'>
             Full Details
@@ -81,10 +103,21 @@
         </v-col>
       </v-row>
     </v-sheet>
+
+    <reg-dialog
+      :active='regDialog'
+      has-no-redirect
+      @success='handleSuccessReg'
+      @close='regDialog = false'
+    ></reg-dialog>
   </v-card>
 </template>
 <script>
+import RegDialog from '~/layouts/include/reg-dialog.vue'
+import BtnAddService from './btn-add-service.vue'
+import ItemPrice from './item-price.vue'
 export default {
+  components: { BtnAddService, ItemPrice, RegDialog },
   data: () => ({
     items : [
       {text: 'Maintenance Check', interim: true, full: true},
@@ -95,8 +128,26 @@ export default {
       {text: 'Brake fluid (replacement) and bleed system', interim: false, full: true},
       {text: 'Pollen filter (if fitted)', interim: false, full: true},
       {text: 'Fuel filter (diesel only)', interim: false, full: true},
-    ]
+    ],
+    regDialog: false,
+    clicked: null,
   }),
+  methods: {
+    handleInvalidReg(clicked) {
+      this.regDialog = true;
+      this.clicked = clicked;
+    },
+
+    handleSuccessReg() {
+      this.regDialog = false;
+      
+      if (this.clicked == 'FULL_SERVICE') {
+        this.$refs.FULL_SERVICE.$el.click();
+      } else {
+        this.$refs.INTERIM_SERVICE.$el.click();
+      }
+    }
+  },
 }
 </script>
 
@@ -121,5 +172,22 @@ export default {
     border-bottom: 3px solid #00b4d8;
     border-radius: 0px 0px 10px 10px;
     margin-bottom: -4px;
+}
+
+.tbp-price {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+    ~ a {
+        font-size: 10px;
+    }
+
+    @media (min-width:768px) {
+      font-size: 30px;
+      ~ a {
+        font-size: 17px;
+      }
+    }
 }
 </style>
