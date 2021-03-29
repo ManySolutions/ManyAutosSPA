@@ -64,6 +64,7 @@ export default {
   data: () => ({
     isLoading: false,
     isHover: false,
+    adding: false,
   }),
   computed: {
     ...mapState('booking', ['isCartLoading', 'modelId']),
@@ -79,9 +80,16 @@ export default {
   },
   watch: {
     isCartLoading(isCartLoading) {
+      const {id, cart, adding} = this;
+
       if (!isCartLoading) {
         this.isLoading = false;
         this.isHover = false;
+
+        if (adding && id in cart) {
+          this.$emit('added', id);
+          this.adding = false;
+        }
       }
     },
   },
@@ -90,6 +98,7 @@ export default {
       if (!this.isReg()) return;
 
       this.isLoading = true;
+      this.adding = true;
       const {id, title, price, modelId} = this;
 
       fbqAddToCart(
@@ -103,8 +112,6 @@ export default {
         id,
         modelId
       });
-
-      this.$emit('added');
     },
     handleRemove() {
       this.isLoading = true;

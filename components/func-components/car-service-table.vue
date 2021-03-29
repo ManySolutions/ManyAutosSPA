@@ -67,6 +67,7 @@
             @invalid-reg='handleInvalidReg(`FULL_SERVICE`)'
             :openRegForm="false"
             ref='FULL_SERVICE'
+            @added='handleAdded'
           >
             Book <span class='d-none d-md-block'>&nbsp;Full Service</span>
             <template #added>Added</template>
@@ -92,6 +93,7 @@
             @invalid-reg='handleInvalidReg(`INTERIM_SERVICE`)'
             :openRegForm="false"
             ref='INTERIM_SERVICE'
+            @added='handleAdded'
           >
             Book <span class='d-none d-md-block'>&nbsp;Interim Service</span>
             <template #added>Added</template>
@@ -110,14 +112,24 @@
       @success='handleSuccessReg'
       @close='regDialog = false'
     ></reg-dialog>
+
+    <v-dialog
+      v-model='cartDialog'
+      max-width="400px"
+    >
+      <client-only>
+        <desktop-cart></desktop-cart>
+      </client-only>
+    </v-dialog>
   </v-card>
 </template>
 <script>
 import RegDialog from '~/layouts/include/reg-dialog.vue'
 import BtnAddService from './btn-add-service.vue'
+import DesktopCart from './desktop-cart.vue'
 import ItemPrice from './item-price.vue'
 export default {
-  components: { BtnAddService, ItemPrice, RegDialog },
+  components: { BtnAddService, ItemPrice, RegDialog, DesktopCart },
   data: () => ({
     items : [
       {text: 'Maintenance Check', interim: true, full: true},
@@ -130,6 +142,7 @@ export default {
       {text: 'Visually inspect radiator and coolant pipes', interim: false, full: true},
     ],
     regDialog: false,
+    cartDialog: false,
     clicked: null,
   }),
   methods: {
@@ -146,6 +159,10 @@ export default {
       } else {
         this.$refs.INTERIM_SERVICE.$el.click();
       }
+    },
+
+    handleAdded() {
+      this.cartDialog = true;
     }
   },
 }
