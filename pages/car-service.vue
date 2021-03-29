@@ -183,14 +183,14 @@ export default {
   },
 
   head: {
-    title: "Car Service near me",
+    title: "Car Service | Book Your Car Service Online",
 
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom.",
+          "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (full Service, interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom.",
       },
       {
         name: "keywords",
@@ -200,7 +200,7 @@ export default {
       {
         hid: "og:title",
         property: "og:title",
-        content: "Car Service near me",
+        content: "Car Service | Book Your Car Service Online",
       },
       {
         hid: "og:type",
@@ -210,12 +210,12 @@ export default {
       {
         hid: "og:url",
         property: "og:url",
-        content: URL,
+        content: process.env.APP_URL + '/car-service',
       },
       {
         hid: "og:image",
         property: "og:image",
-        content: "logo-default.png",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/service.jpg",
       },
       {
         hid: "og:site_name",
@@ -234,7 +234,7 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Car Service near me",
+        content: "Car Service | Book Your Car Service Online",
       },
       {
         name: "twitter:description",
@@ -243,11 +243,11 @@ export default {
       },
       {
         name: "twitter:image",
-        content: "logo-default.png",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/service.jpg",
       },
       {
         itemprop: "image",
-        content: "logo-default.png",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/service.jpg",
       },
       {
         hid: "og:type",

@@ -203,6 +203,10 @@
       <car-reg-form has-bg-image large :title='`Book your ${topic} now`'></car-reg-form>
     </div>
 
+    <client-only>
+      <cart-bar></cart-bar>
+    </client-only>
+
   </div>
 </template>
 
@@ -213,13 +217,14 @@ import blogSocialLinks from "~/components/func-components/blog-social-links.vue"
 import CarRegFormCard from '~/components/func-components/car-reg-form-card.vue'
 import CarRegForm from '~/components/func-components/car-reg-form.vue'
 import { carServicePages, serviceLocationPages, carRepairPages } from '@/utils/vars';
+import CartBar from '~/components/func-components/cart-bar.vue';
 
 export default {
   
   data: () => ({
     carServicePages, serviceLocationPages, carRepairPages
   }),
-  components: { blogSocialLinks, CarRegFormCard, BaseInfoIcons, CarRegForm },
+  components: { blogSocialLinks, CarRegFormCard, BaseInfoIcons, CarRegForm, CartBar },
   props: {
     headingBg: String,
     headingBgStatic: String,

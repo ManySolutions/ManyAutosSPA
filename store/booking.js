@@ -119,6 +119,14 @@ export const getters = {
   cartKey(state) {
     return state.cartContent.key || '';
   },
+
+  cartTotal(state) {
+    return state.cartContent.total || '00.00';
+  },
+
+  cartSubTotal(state) {
+    return state.cartContent.subtotal || '00.00';
+  },
 }
 
 
