@@ -310,6 +310,7 @@ export default {
     const { isCartEmpty } = this;
 
     if (isCartEmpty) this.$router.push('/booking/create');
+    
     this.form.has_payment_plan = this.hasPaymentPlan;
     this.form.referrer_id = this.referralId;
 

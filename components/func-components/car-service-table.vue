@@ -5,22 +5,22 @@
   >
     <v-sheet color="#f6faff" class='tbp-heading px-3 px-md-7'>
       <v-row class='' align-content="center">
-        <v-col cols=6 class='text-primary py-6'>
+        <v-col cols=4 md=6 class='text-primary py-6 px-2 px-md-3'>
           <h3 class='heading__title m-0 line-height-none'>
-            <span class='font-weight-300'>What's Included in</span> 
+            <span class='font-weight-300'>What's <span class='d-none d-md-inline-block'>Included</span> in</span> 
             <span class='d-md-block'>Car Servicing?</span>
           </h3>
         </v-col>
-        <v-col cols=3 class='text-center tbp-imp py-6'>
-          Full <span class='d-none d-md-inline-block'>Service</span>
+        <v-col cols=4 md=3 class='text-center tbp-imp py-6 px-2 px-md-3'>
+          Full <br class='d-sm-none'> Service
           <br>
           <v-chip color='primary darken-2 px-1 px-md-3 font-weight-600' small>
             <v-icon small class='mr-md-2' color='yellow'>mdi-star</v-icon>
-            <span class='d-none d-md-inline-block'>Popular Service</span>
+            Popular <span class='d-none d-md-inline-block'>Service</span>
           </v-chip>
         </v-col>
-        <v-col cols=3 class='text-center py-6'>
-          Interim <span class='d-none d-md-inline-block'>Service</span>
+        <v-col cols=4 md=3 class='text-center py-6 px-2 px-md-3'>
+          Interim <br class='d-sm-none'> Service
         </v-col>
       </v-row>
     </v-sheet>
@@ -33,13 +33,13 @@
         :color='itemI % 2 == 0 ? `#fbfcfd` : `white`'
       >
         <v-row>
-          <v-col cols=6 class=' py-6'>
+          <v-col cols=4 md=6 class=' py-6 px-2 px-md-3 tbp-name'>
             {{item.text}}
           </v-col>
-          <v-col cols=3 class='text-center py-6 tbp-imp-row'>
+          <v-col cols=4 md=3 class='text-center py-6 px-2 px-md-3 tbp-imp-row'>
             <v-img src='/logo-icon.png' max-height=30 contain v-if='item.full'></v-img>
           </v-col>
-          <v-col cols=3 class='text-center py-6'>
+          <v-col cols=4 md=3 class='text-center py-6 px-2 px-md-3'>
             <v-img src='/logo-icon.png' max-height=30 contain v-if='item.interim'></v-img>
           </v-col>
         </v-row>
@@ -50,8 +50,8 @@
       color='#f7fbff'
     >
       <v-row>
-        <v-col cols=6 class=' py-6'></v-col>
-        <v-col cols=3 class='text-center py-6 tbp-imp-foot-row'>
+        <v-col cols=4 md=6 class=' py-6 px-2 px-md-3'></v-col>
+        <v-col cols=4 md=3 class='text-center py-6 px-2 px-md-3 tbp-imp-foot-row'>
           <span class='d-block tbp-price'>
             <item-price 
               id='FULL_SERVICE'
@@ -68,6 +68,7 @@
             :openRegForm="false"
             ref='FULL_SERVICE'
             @added='handleAdded'
+            cls='px-0 px-sm-3'
           >
             Book <span class='d-none d-md-block'>&nbsp;Full Service</span>
             <template #added>Added</template>
@@ -77,7 +78,7 @@
             Full Details
           </a> -->
         </v-col>
-        <v-col cols=3 class='text-center py-6'>
+        <v-col cols=4 md=3 class='text-center py-6 px-2 px-md-3'>
           <span class='d-block tbp-price'>
             <item-price 
               id='INTERIM_SERVICE'
@@ -94,6 +95,7 @@
             :openRegForm="false"
             ref='INTERIM_SERVICE'
             @added='handleAdded'
+            cls='px-0 px-sm-3'
           >
             Book <span class='d-none d-md-block'>&nbsp;Interim Service</span>
             <template #added>Added</template>
@@ -192,7 +194,7 @@ export default {
 }
 
 .tbp-price {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
 
@@ -206,5 +208,19 @@ export default {
         font-size: 17px;
       }
     }
+}
+
+@media (max-width: 550px) {
+  .heading__title {
+    font-size: 17px;
+  }
+}
+@media (max-width: 340px) {
+  .heading__title {
+    font-size: 15px;
+  }
+  .tbp-name {
+    font-size: 13px;
+  }
 }
 </style>

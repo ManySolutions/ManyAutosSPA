@@ -84,8 +84,20 @@
           <!-- /default slot -->
 
           <v-row class='page-blog'>
-            <v-col cols=12 lg=4 class=' d-none d-lg-block'>
-              <v-card v-if='listMenu' outlined class='list-fixed-height'>
+            <v-col 
+              v-if="hasSlot('blog')"
+              cols=12 lg=8
+              class=''
+              order-lg='2'
+            >
+              <h2 class='page-h2  mt-0 pt-0'>
+                More about {{ topic }}
+              </h2>
+              
+              <slot name='blog'></slot>
+            </v-col>
+            <v-col cols=12 lg=4 class='' order-lg="1">
+              <v-card v-if='listMenu' outlined class='list-fixed-height d-none d-lg-block'>
                 <v-card-text>
                   <div>
                     <ul class="list-group list-inline list-group-flush">
@@ -107,18 +119,6 @@
                   <car-reg-form large has-no-bg fullwidth></car-reg-form>
                 </v-card-text>
               </v-card>
-            </v-col>
-            <v-col 
-              v-if="hasSlot('blog')"
-              cols=12 lg=8
-              class=''
-            >
-              <h2 class='page-h2  mt-0 pt-0'>
-                More about {{ topic }}
-              </h2>
-              
-              <slot name='blog'></slot>
-
             </v-col>
           </v-row>
           <!-- /page blog -->

@@ -16,7 +16,7 @@
             large
             block
             color='secondary'
-            to='/booking/create/collection-info'
+            href='/booking/create/collection-info'
           >
             Book now
           </v-btn>
