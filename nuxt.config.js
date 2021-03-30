@@ -8,7 +8,7 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: '%s',
-    title: 'ManyAutos',
+    title: 'ManyAutos Garage in Reading',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
@@ -152,10 +152,10 @@ export default {
     preload: true,
   },
 
-  gtm: {
-    id: 'GTM-PNBGDT6',
-    pageTracking: true,
-  },
+  // gtm: {
+  //   id: 'GTM-PNBGDT6',
+  //   pageTracking: true,
+  // },
 
 
   watchers: {
@@ -168,8 +168,8 @@ export default {
 
   sitemap: [
     {
-      path: '/sitemap-web.xml',
-      hostname: 'https://manyautosltd.com',
+      path: '/sitemap.xml',
+      hostname: 'https://manyautosreading.co.uk',
       exclude: [
         '/my',
         '/my/**',
@@ -183,41 +183,7 @@ export default {
         '/autologin/**',
       ],
     },
-    {
-      path: '/sitemap-blog.xml',
-      hostname: 'https://manyautosltd.com',
-      exclude: [
-        '/**'
-      ],
-      routes: async () => {
-        const {data} = await axios.get(`https://app.manyautosltd.com/api/v2/c/customer/blogs/slugs`);
-
-        return data.map(v => '/blogs/' + v.slug)
-      }
-    },
-    {
-      path: '/sitemap.xml',
-      hostname: 'https://manyautosltd.com',
-      sitemaps: [
-        {
-          path: '/sitemap-web.xml'
-        },
-        {
-          path: '/sitemap-blog.xml'
-        },
-      ]
-    },
   ],
-
-
-  facebook: {
-    /* module options */
-    track: 'PageView',
-    pixelId: '681518625859649',
-    autoPageView: true,
-    disabled: false,
-    debug: false,
-  },
 
   loading: {
     color: '#00b4d8',
@@ -230,9 +196,8 @@ export default {
     ENVIRONMENT: 'production',
     CURRENCY_SYMBOL: '£',
     CURRENCY_CODE: 'GBP',
-    APP_URL: 'https://manyautosltd.com',
+    APP_URL: 'https://manyautosreading.co.uk',
     API_URL: 'https://app.manyautosltd.com/api/v2/c/',
     ASSETS_URL: 'https://app.manyautosltd.com/assets/',
-    RECAPTCHA_SITE_KEY: '6LdIdBcaAAAAAGoHmtHlYIa7vSFbJ4Ja0_gQCBlX',
   }
 }

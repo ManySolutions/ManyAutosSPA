@@ -237,9 +237,9 @@ export default {
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://www.manyautosltd.com/#organization",
+          "@id": "https://www.manyautosreading.co.uk/#organization",
           name: "ManyAutos",
-          url: "https://www.manyautosltd.com/",
+          url: "https://www.manyautosreading.co.uk/",
           sameAs: [
             "https://www.facebook.com/manyautos.co.uk",
             "https://twitter.com/manyautos",
@@ -266,10 +266,10 @@ export default {
           publisher: {
             "@type": "Organization",
             name: "ManyAutos",
-            "@id": "https://www.manyautosltd.com/",
+            "@id": "https://www.manyautosreading.co.uk/",
             logo:
               "https://app.manyautosltd.com/assets/customer-v2/logo-default.png",
-            url: "https://www.manyautosltd.com/",
+            url: "https://www.manyautosreading.co.uk/",
             description:
               "Do you need  Car servicing, MOT or Repair Work? Compare our prices with other garages.",
             sameAs: [
@@ -279,42 +279,42 @@ export default {
           },
           logo: {
             "@type": "ImageObject",
-            "@id": "https://www.manyautosltd.com/#logo",
+            "@id": "https://www.manyautosreading.co.uk/#logo",
             url:
               "https://app.manyautosltd.com/assets/customer-v2/logo-default.png",
             caption: "ManyAutos",
           },
           image: {
-            "@id": "https://www.manyautosltd.com/#logo",
+            "@id": "https://www.manyautosreading.co.uk/#logo",
           },
         },
         {
           "@type": "WebSite",
-          "@id": "https://www.manyautosltd.com/#website",
+          "@id": "https://www.manyautosreading.co.uk/#website",
           publisher: {
-            "@id": "https://www.manyautosltd.com/#organization",
+            "@id": "https://www.manyautosreading.co.uk/#organization",
           },
           name: "ManyAutos",
-          url: "https://www.manyautosltd.com/",
+          url: "https://www.manyautosreading.co.uk/",
           description:
             "The most trusted car repair and mot center, with best services and professional mechanics. We’ll pick your car, service it and deliver it back for free. Book services online now!",
           inLanguage: "en-US",
         },
         {
           "@type": "WebPage",
-          "@id": "https://www.manyautosltd.com//#webpage",
-          url: "https://www.manyautosltd.com/",
+          "@id": "https://www.manyautosreading.co.uk//#webpage",
+          url: "https://www.manyautosreading.co.uk/",
           inLanguage: "en-US",
           name:
             "Best Car Servicing | MOT & Repair Centre | Vehicle Maintenance",
           isPartOf: {
-            "@id": "https://www.manyautosltd.com/#website",
+            "@id": "https://www.manyautosreading.co.uk/#website",
           },
           about: {
-            "@id": "https://www.manyautosltd.com/#organization",
+            "@id": "https://www.manyautosreading.co.uk/#organization",
           },
           breadcrumb: {
-            "@id": "https://www.manyautosltd.com//#breadcrumb",
+            "@id": "https://www.manyautosreading.co.uk//#breadcrumb",
           },
         },
       ],
