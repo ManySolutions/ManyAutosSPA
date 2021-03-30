@@ -15,48 +15,12 @@
         <v-col cols=12 sm=9>
           <div class="d-flex flex-row justify-end align-center">
             <v-btn
-              text 
-              color='primary lighten-6'
-              class='text-capitalize mr-3'
-              :to="isAuth ? '/my/referral' : '/refer-a-friend'"
-              elevation="0"
-            >
-              <v-icon
-                dark
-                class='mr-2'
-                color='white'
-              >
-                mdi-account-cash-outline
-              </v-icon>
-              <span class="text-small font-weight-600">
-                {{ isAuth ? 'Refer & Earn £10 Now' : 'Refer a Friend & Earn £10' }} 
-              </span>
-            </v-btn>
-            <v-btn
-              text 
-              color='primary lighten-6'
-              class='text-capitalize mr-3'
-              to="/car-repair-during-covid-19"
-              elevation="0"
-            >
-              <v-icon
-                dark
-                class='mr-2'
-                color='white'
-              >
-                mdi-virus-outline
-              </v-icon>
-              <span class="text-small font-weight-600">
-                {{ 'Covid19 Installment Plan' }} 
-              </span>
-            </v-btn>
-            <v-btn
               text
               :color='colorSecond'
               class='px-1'
               href='tel:01189876300'
             >
-              <v-icon 
+              <v-icon
                 dark
                 class=''
                 :size="size"
@@ -71,7 +35,9 @@
                 <span class='top-text-bottom'>01189 876300</span>
               </span>
             </v-btn>
-            <navbar-user-menu desktop-view></navbar-user-menu>
+            <span class='d-none d-lg-inline-block'>
+              <navbar-user-menu desktop-view></navbar-user-menu>
+            </span>
             <v-btn
               :color='colorSecond'
               class='gqbtn ml-2'
@@ -80,7 +46,7 @@
               :to='$route.name != "index" ? "/service-booking" : "" '
               @click='$route.name == "index" ? handleFocusBtn() : ""'
             >
-              Get Instant Quote
+              Book now
             </v-btn>
           </div>
         </v-col>
@@ -138,11 +104,6 @@ span.top-text-bottom {
 .navbar-top-container {
   @media (min-width: 1264px) and (max-width: 1904px) {
     max-width: 1585px;
-  }
-}
-.gqbtn {
-  @media (max-width: 1344px) {
-    display: none;
   }
 }
 </style>

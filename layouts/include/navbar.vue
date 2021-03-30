@@ -1,11 +1,10 @@
 <template>
   <div class='navbar-container'>
+    <navbar-top-v2></navbar-top-v2>
     <template v-if='$device.isDesktop && !isMobileSize'>
-      <navbar-top-v2></navbar-top-v2>
       <navbar-desktop></navbar-desktop>
     </template>
     <template v-else>
-      <navbar-top></navbar-top>
       <navbar-mobile></navbar-mobile>
     </template>
   </div>

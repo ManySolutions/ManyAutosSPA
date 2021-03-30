@@ -86,38 +86,11 @@
 export default {
   data: () => ({
     navbarMenu: [
-      // { 
-      //   title: "Refer & Earn Online", 
-      //   url: "/refer-a-friend", 
-      //   btn: true,
-      //   rounded: true, 
-      //   icon: 'mdi-alert-decagram-outline',
-      //   small: false,
-      //   color: 'blue-grey darken-2',
-      //   elevation: 0,
-      // },
       { title: "Home", url: "/" },
-      { title: "Car Services", url: "#", children: [
-        { title: "Audi Car Service", url: "/audi-service" },
-        { title: "BMW Car Service", url: "/BMW-service" },
-        { title: "Citroen Car Service", url: "/citroen-service" },
-        { title: "Daewoo Car Service", url: "/daewoo-service" },
-        { title: "Fiat Car Service", url: "/fiat-service" },
-        { title: "View All Services...", url: "/sitemap#car-services" },
-      ] },
-      { title: "Car Repairs", url: "#", children: [
-        { title: "Abs Controllers", url: "/abs-controllers" },
-        { title: "Abs Hydraulic Units", url: "/abs-hydraulic-units" },
-        { title: "Abs Pump", url: "/abs-pump" },
-        { title: "Abs Ring", url: "/abs-ring" },
-        { title: "Abs Sensor", url: "/abs-sensor" },
-        { title: "View All Repairs...", url: "/sitemap#car-repairs" },
-      ] },
       { title: "MOT", url: "/mot" },
       { title: "How It Works?", url: "/how-it-works" },
       { title: "Book A Service", url: "/service-booking" },
-      { title: "Blogs", url: "/blogs" },
-      // { title: "About Us", url: "/about" },
+      { title: "About Us", url: "/about" },
     ],
     socials: [
       {

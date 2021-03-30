@@ -6,49 +6,7 @@
     >
       <v-row
         class=''
-      >
-        <v-col 
-          cols=6
-          sm=9
-          align-self="center"
-        >
-          <v-btn
-            text
-            color='primary'
-            class='text-capitalize mr-3'
-            :to="isAuth ? '/my/referral' : '/refer-a-friend'"
-            elevation="0"
-          >
-            <v-icon
-              dark
-              class='mr-2'
-              color='white'
-            >
-              mdi-account-cash-outline
-            </v-icon>
-            <span class="text-small font-weight-600">
-              {{ isAuth ? 'Refer & Earn £10 Now' : 'Refer a Friend & Earn £10' }} 
-            </span>
-          </v-btn>
-          <v-btn
-            text 
-            color='primary'
-            class='text-capitalize d-none d-md-inline-flex'
-            to="/car-repair-during-covid-19"
-            elevation="0"
-          >
-            <v-icon
-              dark
-              class='mr-2'
-              color='white'
-            >
-              mdi-virus-outline
-            </v-icon>
-            <span class="text-small font-weight-600">
-              {{ 'Covid19 Installment Plan' }} 
-            </span>
-          </v-btn>
-        </v-col>
+      >   
         <v-col
           cols=6
           sm=3
@@ -67,7 +25,7 @@
             >
               mdi-phone-classic
             </v-icon>
-            <span class="text-large d-none d-sm-inline-block">
+            <span class="text-large">
               01189 876300
             </span>
           </v-btn>
