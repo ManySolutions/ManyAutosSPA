@@ -100,7 +100,7 @@
           <v-row>
             <v-col cols="12" class="panels">
               <v-expansion-panels>
-                <v-expansion-panel v-for='(vehicle, i) in motTests'
+                <v-expansion-panel v-for='(vehicle, i) in vehicle.motTests'
                   :key='i' focusable>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
                   <v-expansion-panel-header>
                     <v-row>

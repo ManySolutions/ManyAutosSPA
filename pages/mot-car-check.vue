@@ -318,7 +318,6 @@ components: {
     
   },
 
-
   head: {
     title: 'MOT Car Check | ManyAutos LTD',
 
