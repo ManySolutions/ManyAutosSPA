@@ -57,6 +57,9 @@
                 :initialValue='form.description'
                 plugins='a11ychecker advcode casechange formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste paste table advtable tinymcespellchecker'
                 toolbar='a11ycheck addcomment showcomments casechange checklist code formatpainter pageembed permanentpen table'
+                :init='{
+                  height: 500,
+                }'
               ></editor>
               <small v-if='errors.description' class='red--text d-block'>
                 {{ errors.description[0] }}

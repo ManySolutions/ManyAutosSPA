@@ -115,7 +115,7 @@
       <v-row>
         <v-col>
           <p class='text-center text-caption text-white mb-0'>
-            © Many Autos LTD - All Rights Reserved
+            © {{ date }} Many Autos LTD - All Rights Reserved
           </p>
         </v-col>
       </v-row>
@@ -180,7 +180,9 @@ export default {
         url: 'https://www.youtube.com/channel/UCj5peOCn-mwfKkOplGkrD4w',
         color: 'red darken-1'
       },
-    ]
+    ],
+
+    date: new Date().toISOString().substr(0, 4),
   })
 }
 </script>

@@ -41,11 +41,8 @@ export default {
   },
 
   head() {
-    const {pageTitleName} = this;
-    const isWith = pageTitleName ? `With ${pageTitleName} ` : '';
-    
     return {
-      title: `Book Your Car MOT, car service booking ${isWith}`,
+      title: `Book Your Car MOT, Car Service, Diagnostics or Repair`,
 
       meta: [
         {

@@ -265,7 +265,7 @@ export default {
   }),
 
   computed: {
-    ...mapGetters('booking', ['isCartEmpty', 'cartCount']),
+    ...mapGetters('booking', ['isCartEmpty', 'cartCount', 'cart', 'cartKey']),
     ...mapGetters('user', ['isAuth']),
     ...mapState('user', ['info']),
     ...mapState('booking', ['cartContent', 'modelId', 'hasPaymentPlan', 'referralId']),
@@ -310,15 +310,16 @@ export default {
     const { isCartEmpty } = this;
 
     if (isCartEmpty) this.$router.push('/booking/create');
+    
     this.form.has_payment_plan = this.hasPaymentPlan;
     this.form.referrer_id = this.referralId;
 
     fbqInitiateCheckout(
       this.$fb,
       'car_repair',
-      this.cartContent.cart_details,
+      this.cart,
       this.cartCount,
-      this.cartContent.cart_subtotal,
+      this.cartContent.subtotal,
     );
   },
 
@@ -361,14 +362,14 @@ export default {
         step3: false,
         step4: false,
       };
-      const { form, cartContent, modelId } = this;
+      const { form, cartKey, modelId } = this;
 
       createBooking(
         {
           ...form,
-          cart: cartContent.cart_details,
+          key: cartKey,
           model_id: modelId
-        }, 
+        },
         this.http
       )
         .then(res => res.data)
@@ -400,9 +401,9 @@ export default {
           try {
             fbqPurchase(
               this.$fb,
-              this.cartContent.cart_details,
+              this.cart,
               this.cartCount,
-              this.cartContent.cart_subtotal,
+              this.cartContent.subtotal,
               this.info ? this.info.id : user.id,
               id,
               this.hasPaymentPlan ? '1' : null
@@ -419,7 +420,7 @@ export default {
           toastr.success(message);
           window.location.href='/booking/create/success'
         })
-        .catch(err => toastr.error(err))
+        .catch(err => toastr.error(err.response.body.message))
         .finally(() => this.isLoading = false);
     }
   }

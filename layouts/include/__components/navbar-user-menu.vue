@@ -140,12 +140,10 @@ export default {
     },
 
     setContentAdminMenu() {
-      if ( this.roles && !this.roles.includes('content-admin') )
-        return;
-
-      this.items.push(
-        {name: 'Manage Blogs', url: 'apps-content-admin-blogs-list', icon: 'mdi-table-of-contents'}
-      )
+      if ( this.roles && this.roles.includes('content-admin') )
+        this.items.push(
+          {name: 'Manage Blogs', url: 'apps-content-admin-blogs-list', icon: 'mdi-table-of-contents'}
+        )
     }
   }
 }

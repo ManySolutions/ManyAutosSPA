@@ -9,6 +9,10 @@
       <mini-cart v-if='isDevice.xs || (isDevice.sm && !isDevice.md)'></mini-cart>
     </client-only>
 
+    <client-only>
+      <reg-dialog></reg-dialog>
+    </client-only>
+
     <default-footer></default-footer>
   </v-app>
 </template>
@@ -17,7 +21,7 @@
 import Navbar from './include/navbar';
 import MiniCart from '~/components/func-components/mini-cart';
 import DefaultFooter from './include/default-footer.vue';
-import GAnalyticsCode from '~/components/func-components/g-analytics-code.vue';
+import RegDialog from './include/reg-dialog.vue';
 
 export default {
   name: 'default',
@@ -35,7 +39,7 @@ export default {
     Navbar,
     MiniCart,
     DefaultFooter,
-    GAnalyticsCode,
+    RegDialog,
   },
 
   data () {

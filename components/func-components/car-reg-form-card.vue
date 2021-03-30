@@ -1,7 +1,9 @@
 <template>
   <v-card class="reg-card" :id='id'>
     <v-card-title class="text-center d-block">
-      <strong>Book with us now</strong>
+      <strong>
+        {{ title }}
+      </strong>
     </v-card-title>
     <v-card-text>
       <v-form @submit.prevent="handleSubmit()" ref='form'>
@@ -52,6 +54,7 @@
 import { fbqLead } from '~/api/fbq';
 import { getVehicleDetails } from '~/api/vehicle';
 import IndexActiveCar from '~/pages/__components/index-active-car.vue';
+import { mapState } from 'vuex';
 
 export default {
   components: {
@@ -59,6 +62,10 @@ export default {
   },
   props: {
     id: String,
+    title: {
+      default: 'Book with us now',
+      type: String
+    },
   },
   data: () => ({
     reg: '',
@@ -66,14 +73,16 @@ export default {
     error: false,
     errorMessage: null,
   }),
-
+  computed: {
+    ...mapState('settings', ['redirect']),
+  },
   methods: {
     handleSubmit() {
       if (!this.$refs.form.validate()) return;
       
       this.error = false;
       this.isLoading = true;
-
+      const { redirect } = this;
 
       getVehicleDetails(this.reg)
         .then(res => {
@@ -96,7 +105,11 @@ export default {
               modelId: res.vehicle.Model_ID
             });
 
-            this.$router.push('/booking/create/services');
+            if (redirect.referrer == 'car-reg') {
+              this.$router.push(redirect.to);
+            } else {
+              this.$router.push('/booking/create/services');
+            }
           }
         }).finally(() => this.isLoading = false);
     }

@@ -1,7 +1,7 @@
 <template>
   <div 
     class="reg-form-sec w-100 overlay--darker"
-    :class='bgCls'
+    :class='clsx'
     :style='getBgImage'
   >
     <v-form @submit.prevent="handleSubmit()" ref='form'>
@@ -9,7 +9,14 @@
         class='z-index-1'
       >
         <v-row>
-          <v-col cols=7>
+          <v-col cols=12 v-if='title'>
+            <h4 
+              class='heading__title text-h4 reg-heading' 
+              v-html='title'
+              :class='hasBgImage ? "text-white" : ""'
+            ></h4>
+          </v-col>
+          <v-col :cols='fullwidth ? 12 : 7'>
             <v-text-field
               :label="large?null:`Your Car Reg`"
               :placeholder="large?`YOUR CAR REG HERE`:null"
@@ -31,7 +38,7 @@
               <NuxtLink to="/">Manual Search</NuxtLink>
             </small>
           </v-col>
-          <v-col cols=5>
+          <v-col :cols='fullwidth ? 12 : 5'>
             <v-btn
               :color='hasBgImage ? "primary" : "secondary"'
               block
@@ -67,6 +74,7 @@
 import { fbqLead } from '~/api/fbq';
 import { getVehicleDetails } from '~/api/vehicle';
 import indexActiveCar from "~/pages/__components/index-active-car.vue";
+import { mapState } from 'vuex';
 
 export default {
   components: { indexActiveCar }, 
@@ -76,6 +84,9 @@ export default {
     hasBgImage: Boolean,
     hasNoBg: Boolean,
     large: Boolean,
+    fullwidth: Boolean,
+    title: String,
+    hasNoRedirect: Boolean,
   },
 
   data: () => ({
@@ -86,6 +97,7 @@ export default {
   }),
 
   computed: {
+    ...mapState('settings', ['redirect']),
     getBgImage() {
       return this.hasBgImage
         ? `background-image: url(${this.assets("customer-v2/home-cover-bg.png")})`
@@ -97,6 +109,14 @@ export default {
       return this.hasBgImage
         ? `reg-bg-image`
         : `reg-bg-simple`
+    },
+    clsx() {
+      let clsx = this.bgCls;
+
+      if (this.large) clsx += ' is-large-form'
+
+
+      return clsx;
     }
   },
 
@@ -106,6 +126,7 @@ export default {
       
       this.error = false;
       this.isLoading = true;
+      const { redirect, hasNoRedirect } = this;
 
       getVehicleDetails(this.reg)
         .then(res => {
@@ -128,7 +149,15 @@ export default {
               modelId: res.vehicle.Model_ID
             });
 
-            this.$router.push('/booking/create/services');
+            this.$emit('success', res);
+
+            if (!hasNoRedirect) {
+              if (redirect.referrer == 'car-reg') {
+                this.$router.push(redirect.to);
+              } else {
+                this.$router.push('/booking/create/services');
+              }
+            }
           }
         }).finally(() => this.isLoading = false);
     }
@@ -151,6 +180,9 @@ export default {
   form {
     max-width: 500px;
     margin: 0px auto;
+  }
+  &.is-large-form form {
+    max-width: 670px;
   }
 
   &.reg-bg-image {
@@ -190,5 +222,9 @@ export default {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
+}
+h4.heading__title.reg-heading {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
 }
 </style>
