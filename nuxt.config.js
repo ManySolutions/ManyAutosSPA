@@ -73,7 +73,7 @@ export default {
 
     'vue-social-sharing/nuxt',
 
-    'nuxt-facebook-pixel-module',
+    // 'nuxt-facebook-pixel-module',
   ],
   
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -184,15 +184,6 @@ export default {
       ],
     },
   ],
-
-  facebook: {
-    /* module options */
-    track: 'PageView',
-    pixelId: '681518625859649',
-    autoPageView: true,
-    disabled: false,
-    debug: false,
-  },
 
   loading: {
     color: '#00b4d8',
