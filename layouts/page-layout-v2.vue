@@ -48,7 +48,7 @@
             <v-col cols=12 v-if='topic'>
               <h2 class='page-h2 text-center'>
                 <!-- <v-icon color='primary' size='30px'>mdi-information</v-icon> -->
-                How {{ topic }} Works
+                {{ topic }}
               </h2>
             </v-col>
             <v-col cols=12 md=6>
@@ -91,7 +91,7 @@
               order-lg='2'
             >
               <h2 class='page-h2  mt-0 pt-0'>
-                More about {{ topic }}
+                {{ topic1 }}
               </h2>
               
               <slot name='blog'></slot>
@@ -243,6 +243,7 @@ export default {
     faqs: [Array, Object],
     moreFaqUrl: String,
     topic: String,
+    topic1: String,
     redirectTo: String,
     hasLocationPages: {
       type: Boolean,

@@ -6,7 +6,8 @@
     heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
     box-title='Book your car service now'
     :faqs='faqs'
-    topic='Car Servicing With ManyAutos'
+    topic='How Car Servicing With ManyAutos Works'
+    topic1='More about Car Servicing With ManyAutos'
     :listMenu='listMenu'
     redirect-to='/booking/create/mot-and-servicing#INTERIM_SERVICE'
     :has-service-pages='false'
@@ -39,7 +40,7 @@
         manufacturer recommended schedule as recommended by us. Most modern vehicles will also tell you 
         that a service is due. To be able to reset this warning, either an Interim or Full Service is required, 
         depending on the needs of the vehicle. If you are looking for an
-        <strong>affordable car repair garage</strong>, then you have cometo the right place.
+        <strong>affordable car repair garage</strong>, then you have come to the right place.
       </p>
       <h2 class="font-weight-600">
         What is an interim service?
@@ -102,7 +103,7 @@
         Why does my Coolant need a flush and refill?
       </h2>
       <p>
-        A coolant Flush and refull protects 
+        A coolant Flush and refill protects 
         your engine from any rust and other deposits that may have built up in the coolant system over time.
       </p>
       <h2 class="font-weight-600">
@@ -172,7 +173,7 @@ export default {
       {
         title: "Why do I need to Service my car?",
         content:
-          "A vehicle service is just as benificial for you as the driver as it is for the vehicle. You will get peace of mind that there are no imminent problems with the vehicle and if you have a warranty it is quite likely that regular vehicle maintenance is in the fine print for them to cover any work that may be needed in the future,",
+          "A vehicle service is just as benificial for you as the driver as it is for the vehicle. You will get peace of mind that there are no imminent problems with the vehicle and if you have a warranty it is quite likely that regular vehicle maintenance is in the fine print for them to cover any work that may be needed in the future.",
       },
     ],
     listMenu: carServicePages,

@@ -1,0 +1,301 @@
+<template>
+  <page-layout-v2
+    title="Car Repair | Book Your Car Service Online"
+    subHeading="Book your car service on 30% off now"
+    heading-bg-static="https://static.manyautosltd.com/uploads/car-mechanic-installing-sensor-during-suspension-adjustment.jpg"
+    heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
+    box-title='Book your car service now'
+    :faqs='faqs'
+    topic='Free collection and delivery with ManyAutos'
+    topic1='More about Car repairs with Many Autos'
+    :listMenu='listMenu'
+    redirect-to='/booking/create/mot-and-servicing#INTERIM_SERVICE'
+    :has-service-pages='false'
+  >
+    <template #overview>
+      <p>
+        Many Autos have fully qualified mechanics ready and waiting to help you with your car repairs.
+      </p>
+    </template>
+    <template #blog>
+      <p>
+        Many Autos offers a hassle free collection and delivery service for all work as long as the car is drivable and
+        safe. We carry out almost all repair work that you could need. Our mechanics are trained and qualified and fully
+        backed up by a 12 month parts and labour warranty on all work done.
+      </p>
+      <h2 class="font-weight-600">
+        Will there be any surprise charges?
+      </h2>
+      <p>
+        No. The final price you see is the final price for the quoted work. If any further work is identified you will
+        be notified of each item of work, how serious or dangerous the work is and the cost. The final decision to carry
+        out any extra work is always with you.
+      </p>
+      <h2 class="font-weight-600">
+        How long will you keep my car?
+      </h2>
+      <p>
+          We are able to carry out 90% of all work same day. This includes MOT failures and repair work. You will be
+          told if your car needs longer than a day for any extensive work such as a Head Gasket replacement.
+      </p>
+      <h2 class="font-weight-600">
+        If I am not there, how will I know you actually did the work?
+      </h2>
+      <p>
+        All work is provided with clear invoicing and services come with a service schedule so you have written
+        confirmation of all work carried out. Should you require you can also request to have the old parts returned
+        with the vehicle once the work is complete.
+      </p>
+      <h2 class="font-weight-600">
+        What happens if the work I booked is not needed?
+      </h2>
+      <p>
+        Our mechanics will always do a brief check were possible to make sure that the repair work that you have booked
+        is actually necessary. If not we will contact you to confirm if you would like us to proceed, diagnose a fault
+        or just return the vehicle.
+      </p>
+      <h2 class="font-weight-600">
+        When will you take payment? 
+      </h2>
+      <p>
+        We will only take payment once the repair work has been completed and the all checks have been carried out. Once
+        we are satisfied that the repair work is complete we will send you a request for payment. Payment will be made
+        online via Credit or Debit card.
+      </p>
+    </template>
+
+    <!-- <div style='padding-top: 50px;'>
+      <car-service-table></car-service-table>
+    </div> -->
+  </page-layout-v2>
+</template>
+
+<script>
+import PageLayoutV2 from "@/layouts/page-layout-v2";
+import { carServicePages } from '~/utils/vars';
+import CarServiceTable from '~/components/func-components/car-service-table.vue';
+
+const URL = process.env.APP_URL;
+
+export default {
+  components: {
+    PageLayoutV2,
+    CarServiceTable,
+  },
+
+  data: () => ({
+    panel: 0,
+    faqs: [
+      {
+        title: "Do you offer a warranty?",
+        content:
+          "Yes, all repair work carried out with Many Autos is covered by a 12 months parts and labour warranty for worry free repairs.",
+      },
+      {
+        title: "Can you diagnose a problem with my car?",
+        content:
+          "We offer different diagnostic assessments for your vehicle. Select the one that is the most appropriate or drop us a call, message on live chat or email and we will answer any questions and help you decide.",
+      },
+      {
+        title: "How will I know you are charging me a fair price?",
+        content:
+          "We try to be clear and upfront with all our pricing. Just enter your reg number and see what your total repair cost will be. There are no hidden charges or fees.",
+      },
+    ],
+    listMenu: carServicePages,
+  }),
+
+  mounted() {
+    if (this.$device.ismobile) return (this.panel = null);
+  },
+
+  head: {
+    title: "Car Repair | Book Your Car Service Online",
+
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (full Service, interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom.",
+      },
+      {
+        name: "keywords",
+        content:
+          "Car service, full services  in United Kingdom, Car interim service, Car major service deal in United Kingdom, Car servicing in United Kingdom",
+      },
+      {
+        hid: "og:title",
+        property: "og:title",
+        content: "Car Service | Book Your Car Service Online",
+      },
+      {
+        hid: "og:type",
+        property: "og:type",
+        content: "website",
+      },
+      {
+        hid: "og:url",
+        property: "og:url",
+        content: process.env.APP_URL + '/car-service',
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/service.jpg",
+      },
+      {
+        hid: "og:site_name",
+        property: "og:site_name",
+        content: "ManyAutos LTD",
+      },
+      {
+        hid: "og:description",
+        property: "og:description",
+        content:
+          "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom.",
+      },
+      {
+        name: "twitter:card",
+        content: "summary",
+      },
+      {
+        name: "twitter:title",
+        content: "Car Service | Book Your Car Service Online",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom.",
+      },
+      {
+        name: "twitter:image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/service.jpg",
+      },
+      {
+        itemprop: "image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/service.jpg",
+      },
+      {
+        hid: "og:type",
+        property: "og:type",
+        content: "business.business",
+      },
+    ],
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.container .myheading {
+  font-weight: 200;
+  padding-top: 50px;
+  color: black;
+}
+
+.accordion {
+  border: 0;
+  color: black;
+  display: block;
+  background-color: #efefef;
+  border: 1px solid #ececec;
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+h3 {
+  color: black;
+  font-weight: 200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.accordion:hover {
+  color: #17a2b8;
+  text-decoration: underline;
+}
+.h3-service-heading {
+  font-weight: 200;
+  font-size: 17px;
+}
+.h2-service-heading {
+  font-weight: 200;
+}
+.h2-service-heading-months {
+  font-weight: 250;
+}
+@media (min-width: 1265px) {
+  span.h5-service-heading.full.text-blue {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1265px) {
+  span.h5-service-heading.initial.text-blue {
+    margin-left: 25px;
+  }
+}
+.h5-service-heading {
+  color: #00b4d8;
+  font-size: 15px;
+}
+
+.fa {
+  color: #00b4d8;
+  font-size: 1.2em;
+}
+
+hr {
+  width: 100%;
+}
+h4 {
+  color: #00b4d8;
+  border: 0;
+  display: block;
+  background-color: whitesmoke;
+  border: 1px solid #ececec;
+  padding: 10px 20px;
+  font-size: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+a {
+  color: #00b4d8;
+}
+.service-side-bar-links a {
+  color: black;
+  text-decoration: underline;
+
+  font-weight: 200;
+}
+.service-side-bar-links a:hover {
+  color: #00b4d8;
+}
+
+.card-header {
+  background: whitesmoke;
+  border: 1px solid #ececec;
+  color: #1ea5c7;
+  padding: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+}
+.card-header-body {
+  background-color: #fff;
+  padding-top: 16px;
+}
+.v-expansion-panel-content__wrap {
+  padding: 0px;
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .landing-page-container .full1 {
+    margin-left: 24px;
+  }
+}
+</style>

@@ -161,6 +161,7 @@ export default {
                 '/register-your-garage/**',
                 '/rf/**',
                 '/autologin/**',
+                '/car-repairs/**',
             ],
         },
         {
@@ -207,14 +208,14 @@ export default {
     },
 
     loading: {
-      color: '#00b4d8',
-      height: '3px',
-      continuous: true,
+        color: '#00b4d8',
+        height: '3px',
+        continuous: true,
     },
     loadingIndicator: {
-      name: 'circle',
-      color: '#06d6a0',
-      background: 'white'
+        name: 'circle',
+        color: '#06d6a0',
+        background: 'white'
     },
 
 

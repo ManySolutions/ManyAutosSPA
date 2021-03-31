@@ -77,6 +77,7 @@
           <!-- <a href='#' class='d-block mt-3'>
             Full Details
           </a> -->
+          <full-details-popup></full-details-popup>
         </v-col>
         <v-col cols=4 md=3 class='text-center py-6 px-2 px-md-3'>
           <span class='d-block tbp-price'>
@@ -104,6 +105,7 @@
           <!-- <a href='#' class='d-block mt-3'>
             Full Details
           </a> -->
+          <interim-details-popup></interim-details-popup>
         </v-col>
       </v-row>
     </v-sheet>
@@ -130,8 +132,10 @@ import RegDialog from '~/layouts/include/reg-dialog.vue'
 import BtnAddService from './btn-add-service.vue'
 import DesktopCart from './desktop-cart.vue'
 import ItemPrice from './item-price.vue'
+import FullDetailsPopup from '~/components/func-components/full-details-popup.vue'
+import InterimDetailsPopup from '~/components/func-components/interim-details-popup.vue'
 export default {
-  components: { BtnAddService, ItemPrice, RegDialog, DesktopCart },
+  components: { BtnAddService, ItemPrice, RegDialog, DesktopCart, FullDetailsPopup, InterimDetailsPopup },
   data: () => ({
     items : [
       {text: 'Maintenance Check', interim: true, full: true},
