@@ -1,16 +1,16 @@
 <template>
   <page-layout-v2
-    title="Car Repair | Book Your Car Service Online"
-    subHeading="Book your car service on 30% off now"
+    title="Car Repair | Book Your Car Repair Online"
+    subHeading="Book your car repair on 30% off now"
     heading-bg-static="https://static.manyautosltd.com/uploads/car-mechanic-installing-sensor-during-suspension-adjustment.jpg"
     heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
-    box-title='Book your car service now'
+    box-title='Book your car repair now'
     :faqs='faqs'
     topic='Free collection and delivery with ManyAutos'
-    topic1='More about Car repairs with Many Autos'
+    topic1='More about car repairs with Many Autos'
     :listMenu='listMenu'
     redirect-to='/booking/create/mot-and-servicing#INTERIM_SERVICE'
-    :has-service-pages='false'
+    :has-repair-pages='false'
   >
     <template #overview>
       <p>
@@ -50,7 +50,7 @@
         What happens if the work I booked is not needed?
       </h2>
       <p>
-        Our mechanics will always do a brief check were possible to make sure that the repair work that you have booked
+        Our mechanics will always do a brief check where possible to make sure that the repair work that you have booked
         is actually necessary. If not we will contact you to confirm if you would like us to proceed, diagnose a fault
         or just return the vehicle.
       </p>
@@ -72,7 +72,7 @@
 
 <script>
 import PageLayoutV2 from "@/layouts/page-layout-v2";
-import { carServicePages } from '~/utils/vars';
+import { carRepairPages } from '~/utils/vars';
 import CarServiceTable from '~/components/func-components/car-service-table.vue';
 
 const URL = process.env.APP_URL;
@@ -102,7 +102,7 @@ export default {
           "We try to be clear and upfront with all our pricing. Just enter your reg number and see what your total repair cost will be. There are no hidden charges or fees.",
       },
     ],
-    listMenu: carServicePages,
+    listMenu: carRepairPages,
   }),
 
   mounted() {

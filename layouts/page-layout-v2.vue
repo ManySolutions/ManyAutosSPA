@@ -46,7 +46,7 @@
 
           <v-row v-if='faqs' justify="center" align='center'>
             <v-col cols=12 v-if='topic'>
-              <h2 class='page-h2 text-center'>
+              <h2 class='page-h2 text-center' style="text-transform:capitalize;">
                 <!-- <v-icon color='primary' size='30px'>mdi-information</v-icon> -->
                 {{ topic }}
               </h2>
@@ -90,7 +90,7 @@
               class=''
               order-lg='2'
             >
-              <h2 class='page-h2  mt-0 pt-0'>
+              <h2 class='page-h2  mt-0 pt-0' style="text-transform:capitalize;">
                 {{ topic1 }}
               </h2>
               
@@ -445,5 +445,4 @@ export default {
     max-width: 530px;
     margin: auto;
 }
-
 </style>
