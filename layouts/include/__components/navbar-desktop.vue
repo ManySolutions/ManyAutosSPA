@@ -96,22 +96,22 @@ export default {
       {
         icon: 'mdi-facebook', 
         url: 'https://www.facebook.com/manyautos.co.uk',
-        color: 'blue darken-1'
+        color: 'transparent'
       },
       {
         icon: 'mdi-instagram', 
         url: 'https://www.instagram.com/manyauto/',
-        color: 'red darken-1'
+        color: 'transparent'
       },
       {
         icon: 'mdi-twitter', 
         url: 'https://twitter.com/manyautos',
-        color: 'blue darken-3'
+        color: 'transparent'
       },
        {
         icon: 'mdi-youtube', 
         url: 'https://www.youtube.com/channel/UCj5peOCn-mwfKkOplGkrD4w',
-        color: 'red darken-1'
+        color: 'transparent'
       },
     ]
   }),
