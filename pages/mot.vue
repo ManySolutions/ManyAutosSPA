@@ -14,9 +14,9 @@
       <p>
         MOT testing is required by law on all vehicles in the UK that are more than 3 years old. The yearly inspection is done by following strict criteria set out by the DVSA that decides if your car is in a roadworthy condition or not. The MOT checks include a broad range of vehicle safety checks including lights, tyres, seatbelts, and emissions and can only be carried out by an MOT garage with DVSA-approved examiners.
         <br><br>
-        During the MOT, a person chosen by the DVSA to assess your vehicle, will conduct a comprehensive inspection to make sure that the vehicle is in a roadworthy condition. However, it is different from having your vehicle serviced and the MOT test does not check the general mechanical condition of the automobile. Also, the evaluation is based on the condition of the vehicle on that particular day.
+        During the MOT the examiner will conduct a comprehensive inspection to make sure that the vehicle is in a roadworthy condition. However, it is different from having your vehicle serviced as the MOT test does not check the general mechanical condition of the vehicle. Also, the evaluation is based on the condition of the vehicle on that particular day.
         <br><br>
-        If the vehicle passes, the nominated examiner will separately list and tell you of any 'advisory' or 'minor' items that will require attention soon, so you can look out for them. If the vehicle fails you will be required to get the necessary repairs and replacements done, you may be entitled to a free re-test.
+        If the vehicle passes you will receive a separate list which will tell you of any 'advisory' or 'minor' items that will require attention soon, so you can look out for them. If the vehicle fails you will be required to get the necessary repairs and replacements done, you may be entitled to a free re-test once any repair work is carried out.
       </p>
     </template>
     <template #blog>
@@ -90,7 +90,7 @@
         MOT collection and delivery service
       </h2>
       <p>
-        There must be times when you are too busy to take your car for the test. We don’t want our clients to suffer by missing their appointment. So, we are offering a free MOT collection and delivery service. A team from our garage will collect your vehicle at the due date from a place of your choice. They will take your car to the <strong>garage near you for MOT</strong>. The car will be delivered back to you after the test is completed. 
+        There must be times when you are too busy to take your car for the test. We don’t want our clients to suffer by missing their appointment. So, we are offering a free MOT collection and delivery service. A team from our garage will collect your vehicle at the due date from a place of your choice. They will take your car to a <strong>garage near you for an MOT</strong>. The car will be delivered back to you after the test is completed. 
         <br>
         Many Autos operate a fleet of pool cars with a dedicated driver, so wherever we are collecting from, we need to be able to leave one of our pool vehicles either in your work car park/parking space or if in a residential area, we would need to be able to leave our car either at your house or on the road with a permit if required. We would be grateful if you could bear this in mind when booking to use our free Collection and delivery service. 
       </p>
@@ -116,15 +116,15 @@ export default {
     faqs: [
       {
         title: 'When is my MOT due?',
-        content: 'It is possible to forget the due date of your MOT. Now you can easily check if a car has an MOT certificate or when its MOT is due. You will require the car’s registration number to check the history of tests. Just enter the number and benefit from our free service.',
+        content: 'It is possible to forget the due date of your MOT. Now you can easily check if a car has an MOT certificate or when its MOT is due. You will require the car’s registration number to check the history of tests. Just enter the registration and benefit from our free service.',
       },
       {
         title: 'How can you book an MOT?',
-        content: 'It is super easy and convenient to book an MOT test for your car. You just have to register your car into our system and benefit from the <strong>online MOT booking</strong> service. You might think that ‘<strong>which MOT centre near me</strong> is the best for my car?’ well, it is not your concern anymore. We will get the absolute best and reliable garage for you.',
+        content: 'It is super easy and convenient to book an MOT test for your car. You just have to register your car into our system and benefit from the <strong>online MOT booking</strong> service. You might think that ‘<strong>which MOT centre near me</strong> is the best for my car?’ well, it is not your concern anymore. We will provide the best and most reliable service.',
       },
       {
         title: 'Do you get a grace period for MOT?',
-        content: 'No, there is no grace period after your MOT expires. It is illegal to drive your vehicle once the certificate expires. By doing that you will risk prosecution. You need to take your car for a test as soon as possible. It is also not possible to tax an automobile without a current MOT certificate.',
+        content: 'No, there is no grace period after your MOT expires.  It is illegal to drive your vehicle once the certificate expires,  in doing so you will risk prosecution. You need to take your car for a test as soon as possible. It is also not possible to tax an automobile without a current MOT certificate.',
       },
     ]
   }),
