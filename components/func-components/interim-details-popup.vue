@@ -26,12 +26,14 @@
         </v-card-text>
         <v-divider></v-divider>
         <v-card-actions>
+          <v-spacer></v-spacer>
           <btn-add-service
             color="secondary"
             id="INTERIM_SERVICE"
             :price="``"
             title="Interim Service"
           ></btn-add-service>
+          <v-spacer></v-spacer>
         </v-card-actions>
       </v-card>
     </v-dialog>

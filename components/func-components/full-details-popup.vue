@@ -9,6 +9,7 @@
         <v-card-title class="text-left headline">
           What's Included in Full Service?
         </v-card-title>
+        <v-divider></v-divider>
         <v-card-text>
           <v-list disabled>
             <v-list-item-group>
@@ -25,12 +26,14 @@
         </v-card-text>
         <v-divider></v-divider>
         <v-card-actions>
+          <v-spacer></v-spacer>
           <btn-add-service
             color="secondary"
             id="FULL_SERVICE"
             :price="``"
             title="Full Service"
           ></btn-add-service>
+          <v-spacer></v-spacer>
         </v-card-actions>
       </v-card>
     </v-dialog>
