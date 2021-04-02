@@ -43,7 +43,7 @@
                             {{review.title}}
                         </h2>
                         </div>
-                      <p class='text-center px-3 font-weight-300 font-19'>
+                      <p class='text-center px-3 font-weight-400 font-19' style="color:#777;">
                         "{{ review.content }}" 
                       </p>
                     </v-col>
