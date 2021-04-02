@@ -20,33 +20,33 @@
       </p>
     </template>
     <template #blog>
-      <h2 class="font-weight-400">
+      <h2 class="font-weight-600">
         Classification of problems:
       </h2>
       <p>
         At first, the vehicles could only pass, fail or receive an advisory regarding their condition, on the MOT test. Many changes were made to the test on 20th May 2018. Now the faults and problems are classified as minor, major and dangerous. All class 3,4,5 and 7 vehicles are tested against the new criteria; this includes all cars, motorhomes, buses, and goods vehicles up to 3,500kg. 
       </p>
-      <h3>
-        The three categories for the classification of problems are:
-      </h3>
       <h2 class="font-weight-600">
-        <span class='black--text'>1.</span>
-        Minor MOT faults
+        The three categories for the classification of problems are:
       </h2>
+      <h3 class="pl-3 primary--text lighten-3 font-weight-600">
+        <span class='primary--text'>1.</span>
+        Minor MOT faults
+      </h3>
       <p>
         A ‘minor’ fault would be viewed as one where the problem does not cause an immediate safety hazard but should be fixed soon. This is related to the existing system, but an advisory is given to items that the driver should know of and may cause a future MOT failure if not taken care of. An MOT certificate of passing the test will be issued if a vehicle only has some minor problems.
       </p>
-      <h2 class="font-weight-600">
-        <span class='black--text'>2.</span>
+      <h3 class="pl-3 primary--text lighten-3 font-weight-600 mt-6">
+        <span class='primary--text'>2.</span>
         Major MOT faults
-      </h2>
+      </h3>
       <p>
         A ‘major’ fault is more serious and poses a potential safety risk to the drivers and others. It is a defect that may have a damaging impact on the environment. These problems will lead to a MOT failure and the owner of the car will not be issued with an MOT certificate until the issues have been fixed. It is better to get the vehicle repaired as soon as possible.
       </p>
-      <h2 class="font-weight-600">
-        <span class='black--text'>3.</span>
+      <h3 class="pl-3 primary--text lighten-3 font-weight-600 mt-6">
+        <span class='primary--text'>3.</span>
         Dangerous MOT faults 
-      </h2>
+      </h3>
       <p>
         Meanwhile, a fault classed as ‘dangerous’ is one that has an immediate risk to the safety of the driver and other road users, the vehicle should not be driven until the issue has been taken care of. This will lead to an immediate MOT failure. It includes having loose steering or non-functioning brake lights. 
       </p>

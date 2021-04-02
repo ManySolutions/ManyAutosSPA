@@ -154,7 +154,7 @@ export default {
   },
 
   head: {
-    title: " Car Servicing, MOT Centre, car mechanic",
+    title: "Car Servicing, MOT Centre & Car Repair Garages Near You | ManyAutos LTD",
 
     meta: [
       {
@@ -171,7 +171,7 @@ export default {
         hid: 'og:title',
         property: "og:title",
         content:
-          " Car Servicing, MOT Centre, car mechanic",
+          " Car Servicing, MOT Centre & Car Repair Garages Near You | ManyAutos LTD",
       },
       {
         hid: 'og:type',
@@ -181,7 +181,7 @@ export default {
       {
         hid: 'og:url',
         property: "og:url",
-        content: URL,
+        content: process.env.APP_URL,
       },
       {
         hid: 'og:image',
@@ -206,7 +206,7 @@ export default {
       {
         name: "twitter:title",
         content:
-          " Car Servicing, MOT Centre, car mechanic",
+          " Car Servicing, MOT Centre & Car Repair Garages Near You | ManyAutos LTD",
       },
       {
         name: "twitter:description",
