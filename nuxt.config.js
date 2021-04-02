@@ -2,202 +2,191 @@ import colors from 'vuetify/es5/util/colors'
 import axios from 'axios'
 
 export default {
-  // Target (https://go.nuxtjs.dev/config-target)
-  target: 'server',
+    // Target (https://go.nuxtjs.dev/config-target)
+    target: 'server',
 
-  // Global page headers (https://go.nuxtjs.dev/config-head)
-  head: {
-    titleTemplate: '%s',
-    title: 'ManyAutos Garage in Reading',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    // Global page headers (https://go.nuxtjs.dev/config-head)
+    head: {
+        titleTemplate: '%s',
+        title: 'ManyAutos Garage in Reading',
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+        ],
+        link: [
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        ],
+        script: [{
+            src: 'https://static.manyautosltd.com/assets/smartsupp.js',
+            async: true,
+        }, ]
+    },
+
+    // Global CSS (https://go.nuxtjs.dev/config-css)
+    css: [
+        '@mdi/font/css/materialdesignicons.css',
+
+        '@/assets/css/bootstrap-utilities.min.css',
+
+        '@/assets/scss/style.scss',
+
+        '@/assets/vendor/icomoon/style.css',
+        '@/assets/vendor/icomoon-2/style.css',
+
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+
+    // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
+    plugins: [
+        { src: '~/plugins/persistedState.client.js' },
+        { src: '~/plugins/jsonld' },
+        { src: '~plugins/ga.js', mode: 'client' },
+        { src: './plugins/vue-carousel.js', mode: 'client' }
     ],
-    script: [
-      {
-        src: 'https://static.manyautosltd.com/assets/smartsupp.js',
-        async: true,
-      },
-    ]
-  },
 
-  // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
-    '@mdi/font/css/materialdesignicons.css',
+    // Auto import components (https://go.nuxtjs.dev/config-components)
+    components: true,
 
-    '@/assets/css/bootstrap-utilities.min.css',
+    // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
+    buildModules: [
+        // https://go.nuxtjs.dev/vuetify
+        '@nuxtjs/vuetify',
 
-    '@/assets/scss/style.scss',
+        '@nuxtjs/google-fonts',
 
-    '@/assets/vendor/icomoon/style.css',
-    '@/assets/vendor/icomoon-2/style.css',
+        'nuxt-compress',
 
-  ],
+        '@nuxtjs/device',
+    ],
 
-  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [
-    { src: '~/plugins/persistedState.client.js' },
-    { src: '~/plugins/jsonld'},
-    { src: '~plugins/ga.js', mode: 'client' },
-    { src: './plugins/vue-carousel.js', mode: 'client' }
-  ],
+    // Modules (https://go.nuxtjs.dev/config-modules)
+    modules: [
+        // https://go.nuxtjs.dev/axios
+        '@nuxtjs/axios',
+        // https://go.nuxtjs.dev/pwa
+        '@nuxtjs/pwa',
 
-  // Auto import components (https://go.nuxtjs.dev/config-components)
-  components: true,
+        // '@nuxtjs/gtm',
 
-  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [
-    // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify',
+        '@nuxtjs/sitemap',
 
-    '@nuxtjs/google-fonts',
+        'vue-social-sharing/nuxt',
 
-    'nuxt-compress',
+        // 'nuxt-facebook-pixel-module',
+    ],
 
-    '@nuxtjs/device',
-  ],
+    // Axios module configuration (https://go.nuxtjs.dev/config-axios)
+    axios: {},
 
-  // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
-
-    // '@nuxtjs/gtm',
-    
-    '@nuxtjs/sitemap',
-
-    'vue-social-sharing/nuxt',
-
-    // 'nuxt-facebook-pixel-module',
-  ],
-  
-  // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
-
-  // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
-  vuetify: {
-    // treeShake: true,
-    customVariables: ['~/assets/variables.scss'],
-    theme: {
-      dark: false,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
+    // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
+    vuetify: {
+        // treeShake: true,
+        customVariables: ['~/assets/variables.scss'],
+        theme: {
+            dark: false,
+            themes: {
+                dark: {
+                    primary: colors.blue.darken2,
+                    accent: colors.grey.darken3,
+                    secondary: colors.amber.darken3,
+                    info: colors.teal.lighten1,
+                    warning: colors.amber.base,
+                    error: colors.deepOrange.accent4,
+                    success: colors.green.accent3
+                },
+                light: {
+                    primary: '#0046e2',
+                    secondary: '#ef0f3a'
+                },
+            }
         },
-        light: {
-          primary: '#00b4d8',
-          secondary: '#06d6a0'
+        icons: {
+            iconfont: 'mdi'
+        }
+    },
+
+    // Build Configuration (https://go.nuxtjs.dev/config-build)
+    build: {
+        loaders: {
+            vue: {
+                prettify: false
+            }
         },
-      }
+        parallel: true,
+        cache: true,
+        hardSource: true,
+        /*
+         ** You can extend webpack config here
+         */
+        // extend(config, ctx) {
+        //   config.devtool = ctx.isClient ? 'eval-source-map' : 'inline-source-map'
+        // }
     },
-    icons: {
-      iconfont: 'mdi'
+
+    "nuxt-compress": {
+        gzip: {
+            cache: true
+        },
+        brotli: {
+            threshold: 10240
+        }
+    },
+
+    googleFonts: {
+        families: {
+            Roboto: {
+                wght: [200, 300, 400, 600, 800, 900],
+            },
+        },
+
+        display: 'swap',
+
+        preload: true,
+    },
+
+    // gtm: {
+    //   id: 'GTM-PNBGDT6',
+    //   pageTracking: true,
+    // },
+
+
+    watchers: {
+        webpack: {
+            // poll: 1000,
+            ignored: ['node_modules']
+        }
+    },
+
+
+    sitemap: [{
+        path: '/sitemap.xml',
+        hostname: 'https://manyautosreading.co.uk',
+        exclude: [
+            '/my',
+            '/my/**',
+            '/apps/**',
+            '/test',
+            '/mot-car-check',
+            '/car-mot-details',
+            '/booking/**',
+            '/register-your-garage/**',
+            '/rf/**',
+            '/autologin/**',
+        ],
+    }, ],
+
+    loading: {
+        color: '#00b4d8',
+        height: '3px',
+        continuous: true,
+    },
+
+
+    env: {
+        ENVIRONMENT: 'production',
+        CURRENCY_SYMBOL: '£',
+        CURRENCY_CODE: 'GBP',
+        APP_URL: 'https://manyautosreading.co.uk',
+        API_URL: 'https://app.manyautosltd.com/api/v2/c/',
+        ASSETS_URL: 'https://app.manyautosltd.com/assets/',
     }
-  },
-
-  // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {
-    loaders: {
-      vue: {
-        prettify: false
-      }
-    },
-    parallel: true,
-    cache: true,
-    hardSource: true,
-    /*
-    ** You can extend webpack config here
-    */
-    // extend(config, ctx) {
-    //   config.devtool = ctx.isClient ? 'eval-source-map' : 'inline-source-map'
-    // }
-  },
-
-  "nuxt-compress": {
-    gzip: {
-      cache: true
-    },
-    brotli: {
-      threshold: 10240
-    }
-  },
-
-  googleFonts: {
-    families: {
-      'Open+Sans': {
-        wght: [300, 400, 600, 700, 800],
-        ital: [400]
-      },
-      Montserrat: {
-        wght: [300, 600, 700, 800],
-      },
-      Roboto: {
-        wght: [200, 300, 400, 600, 800],
-      },
-    },
-
-    display: 'swap',
-
-    preload: true,
-  },
-
-  // gtm: {
-  //   id: 'GTM-PNBGDT6',
-  //   pageTracking: true,
-  // },
-
-
-  watchers: {
-    webpack: {
-      // poll: 1000,
-      ignored: ['node_modules']
-    }
-  },
-
-
-  sitemap: [
-    {
-      path: '/sitemap.xml',
-      hostname: 'https://manyautosreading.co.uk',
-      exclude: [
-        '/my',
-        '/my/**',
-        '/apps/**',
-        '/test',
-        '/mot-car-check',
-        '/car-mot-details',
-        '/booking/**',
-        '/register-your-garage/**',
-        '/rf/**',
-        '/autologin/**',
-      ],
-    },
-  ],
-
-  loading: {
-    color: '#00b4d8',
-    height: '3px',
-    continuous: true,
-  },
-
-
-  env: {
-    ENVIRONMENT: 'production',
-    CURRENCY_SYMBOL: '£',
-    CURRENCY_CODE: 'GBP',
-    APP_URL: 'https://manyautosreading.co.uk',
-    API_URL: 'https://app.manyautosltd.com/api/v2/c/',
-    ASSETS_URL: 'https://app.manyautosltd.com/assets/',
-  }
 }

@@ -1,77 +1,54 @@
 <template>
   <v-container fluid class="pt-0">
-    <v-row class="home-top">
-      <v-col>
-        <div class="img-container">
-          <v-img
-            v-for='(item, i) in slides'
-            :key='i' 
-            :class="'imgs-inner-' + i"
-            :src="'https://static.manyautosltd.com/uploads/' + item"
-            hidden
-            width='100%'
-            height='100%'
-          ></v-img>
-        </div>
-        <div class="home-sec-1">
-          <h1 class="text-center py-5">
-            <span class="text-lg">We offer</span>
-            <client-only>
-              <base-text-slider
-                :options="[
-                  'MOT',
-                  'Repairs',
-                  'Interim Service',
-                  'Full Service',
-                  'Diagnostic',
-                ]"
-              ></base-text-slider>
-              <template slot="placeholder">
-                <span class="text-primary">
-                  MOT, Car Repairs, Interim Service, Full Service and Car
-                  Diagnostics
-                </span>
-              </template>
-            </client-only>
-            <small class="text-sm"> for your car maintenance </small>
-          </h1>
-
-          <car-reg-form-card id='home-reg-form'></car-reg-form-card>
-
-          <v-row class="top-h-icons">
-            <v-col cols="4" class="top-hi">
-              <span class="d-block">
-                <v-icon>mdi-car-connected</v-icon>
-                <span> FREE COLLECTION AND DELIVERY </span>
-              </span>
-            </v-col>
-            <v-col cols="4" class="top-hi">
-              <span class="d-block">
-                <v-icon>mdi-quality-high</v-icon>
-                <span> TRUSTED HIGH QUALITY GARAGES </span>
-              </span>
-            </v-col>
-            <v-col cols="4" class="top-hi">
-              <span class="d-block">
-                <v-icon>mdi-security</v-icon>
-                <span> 12 MONTH WARRANTY AND GUARANTEE </span>
-              </span>
-            </v-col>
-          </v-row>
-        </div>
-      </v-col>
+    <v-row>
+        <section class="main-section text-white" style="background-image: url(https://static.manyautosltd.com/uploads/masked-mechanic-checks-car-service-station.jpg)">
+            <div class="mainsection" style="padding-top:150px; padding-bottom:150px;">
+                <v-container class="container pt-5 pb-5">
+                    <v-row class="row">
+                        <v-col cols="12" md="6" class="my-auto">
+                            <div>
+                                <h1 class="main-heading pb-3">
+                                    THE BEST CAR REPAIR COMPANY IN READING
+                                </h1>
+                                <p>Mntrinsicly redefine mission-critical quality vectors rather than cross functional
+                                  technologies cultivate an expanded array.</p>
+                            </div>
+                        </v-col>
+                        <v-col cols="12" md="6">
+                          <car-reg-form-card id='home-reg-form'></car-reg-form-card>
+                        </v-col>
+                    </v-row>
+                </v-container>
+            </div>
+        </section>
     </v-row>
     <!-- /first section for registration -->
     <v-row>
-      <index-how-it-works></index-how-it-works>
+      <!-- <index-how-it-works></index-how-it-works> -->
+      <index-welcome-garage></index-welcome-garage>
     </v-row>
-    <index-section-2></index-section-2>
+    <!-- <index-section-2></index-section-2> -->
     <v-row>
-      <index-our-services></index-our-services>
-      <car-reg-form has-bg-image></car-reg-form>
-      <index-car-parts></index-car-parts>
+      <index-what-we-do></index-what-we-do>
     </v-row>
-    <v-row class='my-12 my-lg-0'>
+    <v-row>
+     <!--  <index-our-services></index-our-services> -->
+      <car-reg-form has-bg-image></car-reg-form>
+      <!-- <index-car-parts></index-car-parts> -->
+    </v-row>
+    <v-row>
+      <index-how-we-work></index-how-we-work>
+    </v-row>
+    <v-row>
+      <index-our-best-work></index-our-best-work>
+    </v-row>
+    <v-row>
+      <car-reg-form has-bg-image></car-reg-form>
+    </v-row>
+    <v-row>
+      <index-why-we-are-best></index-why-we-are-best>
+    </v-row>
+    <!-- <v-row class='my-12 my-lg-0'>
       <index-online-booking></index-online-booking>
       <index-pickup-and-delivery></index-pickup-and-delivery>
     </v-row>
@@ -79,7 +56,7 @@
       <car-reg-form has-bg-image></car-reg-form>
       <index-reviews></index-reviews>
       <index-faq></index-faq>
-    </v-row>
+    </v-row>  -->
     <!-- <index-services></index-services> -->
   </v-container>
 </template>
@@ -88,6 +65,11 @@
 import $ from 'jquery';
 import BaseTextSlider from "~/components/base-components/base-text-slider.vue";
 import IndexHowItWorks from "~/pages/__components/index-how-it-works.vue";
+import IndexHowWeWork from "~/pages/__components/index-how-we-work.vue";
+import IndexWelcomeGarage from "~/pages/__components/index-welcome-garage.vue";
+import IndexWhatWeDo from "~/pages/__components/index-what-we-do.vue";
+import IndexOurBestWork from "~/pages/__components/index-our-best-work.vue";
+import IndexWhyWeAreBest from "~/pages/__components/index-why-we-are-best.vue";
 import IndexOurServices from "~/pages/__components/index-our-services.vue";
 import IndexCarParts from "~/pages/__components/index-car-parts.vue";
 import IndexReviews from "~/pages/__components/index-reviews.vue";
@@ -115,6 +97,11 @@ export default {
     IndexOnlineBooking,
     IndexPickupAndDelivery,
     IndexServices,
+    IndexWelcomeGarage,
+    IndexWhatWeDo,
+    IndexHowWeWork,
+    IndexOurBestWork,
+    IndexWhyWeAreBest,
   },
 
   data: () => ({
@@ -324,27 +311,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.img-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  background: black;
-  overflow: hidden;
-  &:before {
-    content: "";
-    background: rgb(69 90 100 / 86%);
-    // background: rgb(47 82 87 / 90%);
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
-}
 .text-lg {
   font-size: 34px;
   letter-spacing: 1px;
@@ -416,4 +382,56 @@ export default {
     }
   }
 }
+.main-section {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.mainsection {
+    width: 100%;
+    height: 100%;
+    // background-color: #7398f1f5;
+    // background: linear-gradient(94deg, rgba(13, 168, 199, 0.77), #0da8c7);
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 38%, rgba(255, 255, 255, 0.9) 47%, rgba(255, 255,
+    255, 0.2) 66%, rgba(255, 255, 255, 0) 70%);
+}
+.main-section .mainsection h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    color: #01133c;
+}
+.main-section .mainsection span {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    color: #ef0f3a;
+}
+.main-section .mainsection p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+}
+@media (max-width: 960px){
+
+.main-section .mainsection h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.main-section .mainsection p {
+    text-align: center;
+    color: #1e1313;
+}
+.mainsection {
+   
+    // background-image: linear-gradient(to right, rgb(255, 255, 255) 100%, rgba(255, 255, 255, 0.9) 100%, rgba(255, 255,
+    // 255, 0.2) 100%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(94deg, rgb(230 230 230 / 77%), #0da8c7);
+}
+}
+
 </style>

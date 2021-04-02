@@ -14,7 +14,7 @@
       >
         mdi-account-circle
       </v-icon>
-      <span class="text-large ml-2">
+      <span class="text-large text-dark ml-2">
         <span class='top-text'>Welcome</span>
         <span class='top-text'>
           <NuxtLink to="/login">Login</NuxtLink>
@@ -34,8 +34,12 @@
           style='min-width: auto'
           v-bind="attrs"
           v-on="on"
+          color="primary"
         >
-          <v-icon :size="size">
+          <v-icon 
+          :size="size"
+          color="primary"
+          >
             mdi-account-circle
           </v-icon>
           <span class='ml-2 text-capitalize' v-if='isAuth && desktopView'>

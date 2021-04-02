@@ -1,6 +1,6 @@
 <template>
   <v-sheet
-    color='#33434a'
+    color='#f5f5f5'
   >
     <v-container class='navbar-top-container'>
       <v-row justify="center" align="center">
@@ -24,22 +24,23 @@
                 dark
                 class=''
                 :size="size"
-                :color='colorFirst'
+                color="primary"
               >
                 mdi-phone-classic
               </v-icon>
               <span class="text-large ml-2">
-                <span class='top-text text-capitalize' :style='`color: ${colorFirst}`'>
+                <!-- <span class='top-text text-capitalize' :style='`color: ${colorFirst}`'> -->
+                <span class='top-text text-capitalize fw-bold' style="color:black">
                   Call Us To Book
                 </span>
-                <span class='top-text-bottom'>01189 876300</span>
+                <span class='top-text-bottom' style="color:#ef0f3a">01189 876300</span>
               </span>
             </v-btn>
             <span class='d-none d-lg-inline-block'>
               <navbar-user-menu desktop-view></navbar-user-menu>
             </span>
             <v-btn
-              :color='colorSecond'
+              color="secondary"
               class='gqbtn ml-2'
               elevation="3"
               id='scrollToRegForm'
@@ -53,7 +54,10 @@
       </v-row>
     </v-container>
   </v-sheet>
+  <!-- <span>of book now btn    :color='colorSecond'</span> -->
 </template>
+
+
 <script>
 import navbarUserMenu from '../navbar-user-menu.vue'
 import $ from 'jquery';

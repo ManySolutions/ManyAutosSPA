@@ -40,7 +40,7 @@
           </v-col>
           <v-col :cols='fullwidth ? 12 : 5'>
             <v-btn
-              :color='hasBgImage ? "primary" : "secondary"'
+              :color='hasBgImage ? "secondary" : "secondary"'
               block
               large
               :x-large='large'
