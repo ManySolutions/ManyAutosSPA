@@ -49,7 +49,7 @@
       class='tbp-footer px-3 px-md-7'
       color='#f7fbff'
     >
-      <v-row>
+      <v-row class='btn-content-font-small'>
         <v-col cols=4 md=6 class=' py-6 px-2 px-md-3'></v-col>
         <v-col cols=4 md=3 class='text-center py-6 px-2 px-md-3 tbp-imp-foot-row'>
           <span class='d-block tbp-price'>
@@ -73,10 +73,6 @@
             Book <span class='d-none d-md-block'>&nbsp;Full Service</span>
             <template #added>Added</template>
           </btn-add-service>
-          <br>
-          <!-- <a href='#' class='d-block mt-3'>
-            Full Details
-          </a> -->
           <full-details-popup></full-details-popup>
         </v-col>
         <v-col cols=4 md=3 class='text-center py-6 px-2 px-md-3'>
@@ -101,10 +97,6 @@
             Book <span class='d-none d-md-block'>&nbsp;Interim Service</span>
             <template #added>Added</template>
           </btn-add-service>
-          <br>
-          <!-- <a href='#' class='d-block mt-3'>
-            Full Details
-          </a> -->
           <interim-details-popup></interim-details-popup>
         </v-col>
       </v-row>
@@ -225,6 +217,15 @@ export default {
   }
   .tbp-name {
     font-size: 13px;
+  }
+  .btn-content-font-small ::v-deep {
+    .v-btn__content {
+      font-size: 11px;
+    }
+    .primary--text {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
   }
 }
 </style>

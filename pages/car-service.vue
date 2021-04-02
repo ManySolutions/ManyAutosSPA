@@ -1,13 +1,13 @@
 <template>
   <page-layout-v2
-    title="Car Service | Book Your Car Service Online"
-    subHeading="Book your car service on 30% off now"
+    title="Car Service Near You | Book Your Car Service Online"
+    subHeading="Book your car service on economical prices now"
     heading-bg="customer-v2/static-pages/service.jpg"
     heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
     box-title='Book your car service now'
     :faqs='faqs'
-    topic='How Car Servicing With ManyAutos Works'
-    topic1='More about Car Servicing With ManyAutos'
+    faq-topic='How Car Servicing With ManyAutos Works'
+    blog-topic='More about Car Servicing With ManyAutos'
     :listMenu='listMenu'
     redirect-to='/booking/create/mot-and-servicing#INTERIM_SERVICE'
     :has-service-pages='false'
@@ -184,7 +184,7 @@ export default {
   },
 
   head: {
-    title: "Car Service | Book Your Car Service Online",
+    title: "Car Service Near You | Book Your Car Service Online",
 
     meta: [
       {
@@ -201,7 +201,7 @@ export default {
       {
         hid: "og:title",
         property: "og:title",
-        content: "Car Service | Book Your Car Service Online",
+        content: "Car Service Near You | Book Your Car Service Online",
       },
       {
         hid: "og:type",
@@ -235,7 +235,7 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Car Service | Book Your Car Service Online",
+        content: "Car Service Near You | Book Your Car Service Online",
       },
       {
         name: "twitter:description",

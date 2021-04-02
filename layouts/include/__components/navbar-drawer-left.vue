@@ -97,11 +97,10 @@ export default {
     group: null,
     menu: [
       {title: 'Home', url: '/'},
-      {title: 'Car MOT Tests', url: '/mot'},
-      {title: 'How it Works?', url: '/how-it-works'},
-      {title: 'Book a Service', url: '/service-booking'},
-      {title: 'Blogs', url: '/blogs'},
-      {title: 'Car Services in UK', url: null, children: [
+      {title: 'Book Car MOT', url: '/mot'},
+      {title: 'Book Your Car Service', url: '/car-service'},
+      {title: 'Book Your Car Repair', url: '/car-repairs'},
+      {title: 'All Car Services', url: null, children: [
         {title: 'Audi Car Service', url: '/audi-service'},
         {title: 'BMW Car Service', url: '/BMW-service'},
         {title: 'Citroen Car Service', url: '/citroen-service'},
@@ -114,7 +113,7 @@ export default {
         {title: 'Lexus Car Service', url: '/lexus-service'},
         {title: 'View More...', url: '/sitemap#car-services'},
       ]},
-      {title: 'Car Repair in UK', url: null, children: [
+      {title: 'All Car Repairs', url: null, children: [
         {title: 'Abs Controllers', url: '/abs-controllers'},
         {title: 'Abs Hydraulic Units', url: '/abs-hydraulic-units'},
         {title: 'Abs Pump', url: '/abs-pump'},
@@ -127,6 +126,8 @@ export default {
         {title: 'Alternator', url: '/alternator'},
         {title: 'View More...', url: '/sitemap#car-repairs'},
       ]},
+      {title: 'How it Works?', url: '/how-it-works'},
+      {title: 'Blogs', url: '/blogs'},
       { 
         title: "Refer & Earn Online", 
         url: "/refer-a-friend", 

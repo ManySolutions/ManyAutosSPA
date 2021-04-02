@@ -45,10 +45,9 @@
           <!-- /page overview -->
 
           <v-row v-if='faqs' justify="center" align='center'>
-            <v-col cols=12 v-if='topic'>
+            <v-col cols=12 v-if='faqTopic'>
               <h2 class='page-h2 text-center' style="text-transform:capitalize;">
-                <!-- <v-icon color='primary' size='30px'>mdi-information</v-icon> -->
-                {{ topic }}
+                {{ faqTopic }}
               </h2>
             </v-col>
             <v-col cols=12 md=6>
@@ -90,8 +89,12 @@
               class=''
               order-lg='2'
             >
-              <h2 class='page-h2  mt-0 pt-0' style="text-transform:capitalize;">
-                {{ topic1 }}
+              <h2 
+                v-if='blogTopic' 
+                class='page-h2  mt-0 pt-0' 
+                style="text-transform:capitalize;"
+              >
+                {{ blogTopic }}
               </h2>
               
               <slot name='blog'></slot>
@@ -200,7 +203,7 @@
     </v-container>
 
     <div class='mt-15 page-bottom-reg'>
-      <car-reg-form has-bg-image large :title='`Book your ${topic} now`'></car-reg-form>
+      <car-reg-form has-bg-image large :title='boxTitle'></car-reg-form>
     </div>
 
     <client-only>
@@ -242,8 +245,8 @@ export default {
     listMenu: [Array, Object],
     faqs: [Array, Object],
     moreFaqUrl: String,
-    topic: String,
-    topic1: String,
+    faqTopic: String,
+    blogTopic: String,
     redirectTo: String,
     hasLocationPages: {
       type: Boolean,
@@ -311,7 +314,7 @@ export default {
         // font-size: 28px;
         text-align: center;
         position: relative;
-        font-size: 33px;
+        font-size: 28px;
         font-weight: 600;
         @media (min-width: 960px) {
           font-size: 38px;
@@ -421,6 +424,7 @@ export default {
     color: #2f2f2f;
     margin-bottom: 5px;
     padding-bottom: 0px;
+    word-break: break-word;
   }
 }
 

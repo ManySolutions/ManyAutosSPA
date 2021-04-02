@@ -6,13 +6,14 @@
         text 
         @click='active = true' 
         color='primary'
+        :class='cls'
       >See Pricing</v-btn>
       <v-skeleton-loader
         v-else-if='isLoading'
         type='list-item'
       ></v-skeleton-loader>
       <span v-else-if='price'>
-        {{ currencySymbol + '' +  price}}
+        {{ currencySymbol + '' +  formattedPrice}}
       </span>
       <span v-else>Pricing Not Available</span>
 
@@ -33,6 +34,7 @@ export default {
   components: { regDialog },
   props: {
     id: String,
+    cls: String,
   },
   data: () => ({
     price: null,
@@ -41,6 +43,12 @@ export default {
   }),
   computed: {
     ...mapState('booking', ['modelId']),
+
+    formattedPrice() {
+      const {price} = this;
+
+      return parseFloat(price).toFixed(2);
+    }
   },
   watch: {
     modelId(modelId) {
