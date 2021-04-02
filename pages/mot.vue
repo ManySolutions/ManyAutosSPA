@@ -3,7 +3,7 @@
     title="Book Your Car MOT | MOT Testing Service"
     sub-heading="Keep your car on the road, Book your MOT online now"
     heading-bg="customer-v2/static-pages/mot.jpg"
-    heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
+    heading-img='https://static.manyautosltd.com/uploads/car-mot-tes-image.png'
     box-title='Book your car MOT Test now'
     :faqs='faqs'
     faq-topic='How car MOT test works with ManyAutos'

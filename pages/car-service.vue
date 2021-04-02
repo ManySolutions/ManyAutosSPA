@@ -3,7 +3,7 @@
     title="Car Service Near You | Book Your Car Service Online"
     subHeading="Book your car service on economical prices now"
     heading-bg="customer-v2/static-pages/service.jpg"
-    heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
+    heading-img='https://static.manyautosltd.com/uploads/car-service-mechanice-image.png'
     box-title='Book your car service now'
     :faqs='faqs'
     faq-topic='How Car Servicing With ManyAutos Works'

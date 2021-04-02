@@ -27,7 +27,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .top-h-icons {
-  padding-top: 30px;
   max-width: 500px;
   margin: 0px auto;
   color: white;

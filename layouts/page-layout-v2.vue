@@ -387,9 +387,9 @@ export default {
   }
   .page-heading-img {
     position: relative;
-    max-height: 210px;
+    max-height: 260px;
     text-align: center;
-    margin: 40px auto;
+    margin: 30px auto;
   }
 }
 
