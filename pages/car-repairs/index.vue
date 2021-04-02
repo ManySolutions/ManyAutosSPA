@@ -1,20 +1,25 @@
 <template>
   <page-layout-v2
-    title="Car Repair | Book Your Car Repair Online"
-    subHeading="Book your car repair on 30% off now"
+    title="Car Repair Near You | Book Your Car Repair Online"
+    sub-heading="Book your car repair online on economical prices now"
     heading-bg-static="https://static.manyautosltd.com/uploads/car-mechanic-installing-sensor-during-suspension-adjustment.jpg"
     heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
     box-title='Book your car repair now'
     :faqs='faqs'
-    topic='Free collection and delivery with ManyAutos'
-    topic1='More about car repairs with Many Autos'
-    :listMenu='listMenu'
-    redirect-to='/booking/create/mot-and-servicing#INTERIM_SERVICE'
+    faq-topic='Free collection and delivery with ManyAutos'
+    blog-topic='More about car repairs with Many Autos'
+    :list-menu='listMenu'
+    redirect-to='/booking/create/parts'
     :has-repair-pages='false'
   >
     <template #overview>
       <p>
-        Many Autos have fully qualified mechanics ready and waiting to help you with your car repairs.
+        Manyautos provides the best car repairs and replacements. 
+        We will fully inspect your vehicle and let you know what repairs are required. 
+        All the repairs and maintenance is offered at competitive prices. We don’t compromise on 
+        the quality of work and the safety of our customers. Only authentic equipment and parts 
+        are used for the repairs. Our fully qualified mechanics are ready and waiting to 
+        help you with the services.
       </p>
     </template>
     <template #blog>
@@ -73,14 +78,12 @@
 <script>
 import PageLayoutV2 from "@/layouts/page-layout-v2";
 import { carRepairPages } from '~/utils/vars';
-import CarServiceTable from '~/components/func-components/car-service-table.vue';
 
 const URL = process.env.APP_URL;
 
 export default {
   components: {
     PageLayoutV2,
-    CarServiceTable,
   },
 
   data: () => ({
@@ -110,14 +113,14 @@ export default {
   },
 
   head: {
-    title: "Car Repair | Book Your Car Service Online",
+    title: "Car Repair Near You | Compare Prices",
 
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (full Service, interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom.",
+          "Find Car Repairs Near You from Approved Garages. We have plenty of local garages near you, to choose from. Find an expert local garage for your repairs at the best price.",
       },
       {
         name: "keywords",
@@ -127,7 +130,7 @@ export default {
       {
         hid: "og:title",
         property: "og:title",
-        content: "Car Service | Book Your Car Service Online",
+        content: "Car Repair Near You | Compare Prices",
       },
       {
         hid: "og:type",
@@ -137,12 +140,12 @@ export default {
       {
         hid: "og:url",
         property: "og:url",
-        content: process.env.APP_URL + '/car-service',
+        content: process.env.APP_URL + '/car-repairs',
       },
       {
         hid: "og:image",
         property: "og:image",
-        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/service.jpg",
+        content: "https://static.manyautosltd.com/uploads/car-mechanic-installing-sensor-during-suspension-adjustment.jpg",
       },
       {
         hid: "og:site_name",
@@ -153,7 +156,7 @@ export default {
         hid: "og:description",
         property: "og:description",
         content:
-          "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom.",
+          "Find Car Repairs Near You from Approved Garages. We have plenty of local garages near you, to choose from. Find an expert local garage for your repairs at the best price.",
       },
       {
         name: "twitter:card",
@@ -161,20 +164,20 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Car Service | Book Your Car Service Online",
+        content: "Car Repair Near You | Compare Prices",
       },
       {
         name: "twitter:description",
         content:
-          "Save your time and money, Many Autos is your all in one car solution. We will provide you best deal for Car service. You can select recommended package (major Service,  full Service, car  interim Service, MOT) or select from additional service you required from our provided list just visit our website Book your car service online or get free quote from Many Autos LTD best car repair and car services in United Kingdom.",
+          "Find Car Repairs Near You from Approved Garages. We have plenty of local garages near you, to choose from. Find an expert local garage for your repairs at the best price.",
       },
       {
         name: "twitter:image",
-        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/service.jpg",
+        content: "https://static.manyautosltd.com/uploads/car-mechanic-installing-sensor-during-suspension-adjustment.jpg",
       },
       {
         itemprop: "image",
-        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/service.jpg",
+        content: "https://static.manyautosltd.com/uploads/car-mechanic-installing-sensor-during-suspension-adjustment.jpg",
       },
       {
         hid: "og:type",
