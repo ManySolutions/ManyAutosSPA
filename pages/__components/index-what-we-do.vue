@@ -39,7 +39,7 @@
                         >
                             mdi-tools
                         </v-icon>
-                        <h2 class="text-center pt-2 pb-2">
+                        <h2 class="text-center pt-2 pb-2" style="color:#01133c;">
                             {{review.title}}
                         </h2>
                         </div>

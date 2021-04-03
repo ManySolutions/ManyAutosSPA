@@ -11,6 +11,7 @@
         dark
         class=''
         :size="size"
+        color="primary"
       >
         mdi-account-circle
       </v-icon>
@@ -38,7 +39,7 @@
         >
           <v-icon 
           :size="size"
-          color="primary"
+          color="#01133c"
           >
             mdi-account-circle
           </v-icon>

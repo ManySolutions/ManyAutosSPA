@@ -6,24 +6,29 @@
       <v-row>
         <v-col class="section" cols='12' md="6" lg="4" order-md="3" order-lg="1">
           <div class="logo-footer ml-0">
-            <img :src="assets('customer-v2/logo-default.png')" alt="">
+            <img src="https://static.manyautosltd.com/uploads/reading-default-logo.png" alt="">
           </div>
           <p
-            class='text-white text-body-1 font-weight-300'
-            style='max-width:90%'
+            class='text-body-1 font-weight-300'
+            style='max-width:90%;color:#777'
           >
             Book your car now for free collection and delivery with <span class="font-weight-bold">Many Autos</span>
             and take advantage of our up front, clear and fair pricing.
             We offer a 12 months’
             <client-only>
-              <v-icon dark>mdi-security</v-icon>
+              <v-icon 
+              dark
+              color="#777"
+              >
+              mdi-security
+              </v-icon>
             </client-only>
             warranty on our parts and labour. We have full faith and confidence in
             all our garages and mechanics that work here.
           </p>
         </v-col>
         <v-col cols='12' md="6" lg="3" order-md="1" order-lg="2">
-          <h4 class="text-white text-uppercase">
+          <h4 class="text-uppercase" style="color:#01133c;">
             Popular Car Services
           </h4>
           <div>
@@ -41,7 +46,7 @@
           </div>
         </v-col>
         <v-col cols='12' md="6" lg="2" order-md="2" order-lg="3">
-          <h4 class="text-white text-uppercase">
+          <h4 class="text-uppercase" style="color:#01133c;">
            Meet ManyAutos
           </h4>
           <div>
@@ -59,7 +64,7 @@
           </div>
         </v-col>
         <v-col cols='12' md="6" lg="3" order-md="4" order-lg="4">
-          <h4 class="text-white text-uppercase">
+          <h4 class="text-uppercase" style="color:#01133c;">
             Contact Us
           </h4>
           <div>
@@ -78,11 +83,11 @@
                   class='footer-lighter'
                 >
                   <v-list-item-icon>
-                    <v-icon v-text="item.icon"></v-icon>
+                    <v-icon v-text="item.icon" color="#0046e2"></v-icon>
                   </v-list-item-icon>
                   <v-list-item-content>
-                    <v-list-item-title v-text="item.title"></v-list-item-title>
-                    <v-list-item-subtitle v-text='item.content'></v-list-item-subtitle>
+                    <v-list-item-title v-text="item.title" style="color:#0046e2"></v-list-item-title>
+                    <v-list-item-subtitle v-text='item.content' style="color:#0046e2"></v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
               </v-list-item-group>
@@ -114,7 +119,7 @@
     >
       <v-row>
         <v-col>
-          <p class='text-center text-caption text-white mb-0'>
+          <p class='text-center text-caption mb-0'>
             © {{ date }} Many Autos LTD - All Rights Reserved
           </p>
         </v-col>
@@ -189,12 +194,12 @@ export default {
 
 <style lang="scss" scoped>
 .footer-main{
-  background:#2b3d40;
+  background:white;
   &::v-deep .v-list-item__icon:first-child {
     margin-right: 12px;
   }
   .footer-lighter {
-    background: #314548;
+    background: whitesmoke;
   }
   .logo-footer{
     width: 200px;
@@ -216,7 +221,7 @@ export default {
       content: "";
       display: block;
       height: 2px;
-      background: white;
+      background: #ef0f3a;
       position: absolute;
       bottom: 0px;
       width: 20%;
@@ -224,7 +229,7 @@ export default {
   }
 
   .footer-bottom {
-    background: #233234;
+    background: whitesmoke;
     padding-top: 0;
     padding-bottom: 0;
   }

@@ -12,7 +12,7 @@
             <v-col cols="12" lg="6" class="welcome-detail">
                 <div class="welcome-heading">
                     <h1>
-                        Welcome to ManyAutos
+                        Welcome to <span>ManyAutos</span>
                     </h1>
                 </div>
                 <div>
@@ -24,11 +24,11 @@
                 </div>
                 <div>
                     <ul class="pb-5">
-                        <li class="pb-2"><v-icon color="secondary" small> mdi-car </v-icon> 24 Month / 24,000km Nationwide Warranty monotone</li>
-                        <li class="pb-2"><v-icon color="secondary" small> mdi-car </v-icon> Customer Rewards Program and excellent technology</li>
-                        <li class="pb-2"><v-icon color="secondary" small> mdi-car </v-icon> 24-Hour Roadside Assistance plagiarize extensible</li>
-                        <li class="pb-2"><v-icon color="secondary" small> mdi-car </v-icon> Courtesy Local Shuttle Service progressively enable</li>
-                        <li class="pb-2"><v-icon color="secondary" small> mdi-car </v-icon> Courtesy Loaner Vehicle Completely iterate resource</li>
+                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> 24 Month / 24,000km Nationwide Warranty monotone</li>
+                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> Customer Rewards Program and excellent technology</li>
+                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> 24-Hour Roadside Assistance plagiarize extensible</li>
+                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> Courtesy Local Shuttle Service progressively enable</li>
+                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> Courtesy Loaner Vehicle Completely iterate resource</li>
                     </ul>
                 </div>
                 <div class="info-button mt-5">

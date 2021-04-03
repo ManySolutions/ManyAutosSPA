@@ -7,7 +7,7 @@
         <v-col cols=12 sm=3 class='d-none d-lg-block'>
           <NuxtLink to="/">
             <v-img 
-              :src="assets('customer-v2/logo-default.png')" 
+              src="https://static.manyautosltd.com/uploads/reading-default-logo.png" 
               max-width="200px"
             ></v-img>
           </NuxtLink>

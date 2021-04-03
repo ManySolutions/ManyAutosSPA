@@ -1,6 +1,6 @@
 <template>
   <v-sheet
-    color="white darken-2" 
+    color="#0046e2" 
     dark
     elevation="3"
   >
@@ -8,7 +8,7 @@
       <v-row>
         <v-col class='p-0'>
           <v-app-bar 
-            color="white darken-2" 
+            color="#0046e2" 
             dark
             elevation="0"
           >
@@ -23,7 +23,7 @@
                 <template v-slot:activator="{ on, attrs }">
                   <v-btn 
                     text 
-                    color=primary 
+                    color='white' 
                     class='text-capitalize font-weight-600'
                     v-bind="attrs" 
                     v-on="on"
@@ -45,7 +45,7 @@
               <v-btn
                 v-else
                 :text='!menu.btn'
-                :color='menu.color || `primary`'
+                color="white"
                 :key='i'
                 :to='menu.url'
                 class='text-capitalize font-weight-600'
@@ -54,11 +54,11 @@
                 :small='menu.small'
                 :elevation="menu.elevation"
               >
-                <v-icon v-if='menu.icon' small class='mr-2' color='primary'>{{menu.icon}}</v-icon>
-                <span class='primary--text'>{{ menu.title }}</span>
+                <v-icon v-if='menu.icon' small class='mr-2' color='white'>{{menu.icon}}</v-icon>
+                <span class='white--text'>{{ menu.title }}</span>
               </v-btn>
             </template>
-
+<!-- for upper btn <span>:color='menu.color || `white`'</span> -->
             <v-spacer></v-spacer>
 
             <v-btn

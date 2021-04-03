@@ -8,7 +8,7 @@
                         <v-col cols="12" md="6" class="my-auto">
                             <div>
                                 <h1 class="main-heading pb-3">
-                                    THE BEST CAR REPAIR COMPANY IN READING
+                                    THE BEST CAR REPAIR COMPANY IN <span>READING</span>
                                 </h1>
                                 <p>Mntrinsicly redefine mission-critical quality vectors rather than cross functional
                                   technologies cultivate an expanded array.</p>
@@ -408,7 +408,7 @@ export default {
     font-size: 48px;
     font-weight: 700;
     text-align: left;
-    color: #ef0f3a;
+    color: #0046e2;
 }
 .main-section .mainsection p {
     font-size: 18px;

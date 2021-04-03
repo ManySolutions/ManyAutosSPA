@@ -2,7 +2,7 @@
   <div>
     <v-card 
       elevation='3' 
-      class='container container--fluid py-2 blue-grey darken-2'
+      class='container container--fluid py-2 white darken-2'
       tile
     >
       <v-row
@@ -13,6 +13,7 @@
             text
             dark
             large
+            color="#01133c"
             class='px-3'
             style='min-width: auto'
             @click="drawer = true"
@@ -27,7 +28,7 @@
           class='text-center'
         >
           <img 
-            :src="assets('customer-v2/logo-default.png')" 
+            src="https://static.manyautosltd.com/uploads/reading-default-logo.png" 
             :alt="appTitle"
             class='logo'
             @click='$router.push("/")'

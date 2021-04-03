@@ -3,7 +3,7 @@
     <v-row>
       <section class="best-bacground-image text-white"
         style="background-image: url(https://static.manyautosltd.com/uploads/car-mechanic-wearing-white-uniform-stand-holding-wrench2.jpg)">
-        <div class="best-background" style="padding-top:100px; padding-bottom:125px;">
+        <div class="best-background" style="padding-top:125px; padding-bottom:125px;">
           <v-container class='our-best-work-page'>
             <v-row>
               <v-col cols=12 class="mb-7">
@@ -27,11 +27,10 @@
                       </div>
                       <div class="media-body">
                         <h2 class="featured-title">100% Guarantee</h2>
-                        <!-- <p class="featured-text">Conveniently disseminate visionary</p> -->
                       </div>
                     </div>
                   </div>
-                  <img src="https://static.manyautosltd.com/uploads/best-work.png">
+                  <img src="https://static.manyautosltd.com/uploads/1_800x534.jpg">
                 </div>
               </v-col>
 
@@ -41,17 +40,16 @@
                     <div class="featured-content media align-items-center">
                       <div class="media-icon"><span class="featured-icon">
                           <v-icon color="white" x-large>
-                            mdi-trophy-award
+                            mdi-security-network
                           </v-icon>
                         </span>
                       </div>
                       <div class="media-body">
-                        <h2 class="featured-title">100% Guarantee</h2>
-                        <!-- <p class="featured-text">Conveniently disseminate visionary</p> -->
+                        <h2 class="featured-title">Security & Trust</h2>
                       </div>
                     </div>
                   </div>
-                  <img src="https://static.manyautosltd.com/uploads/best-work.png">
+                  <img src="https://static.manyautosltd.com/uploads/2_800x533.jpg">
                 </div>
               </v-col>
 
@@ -61,17 +59,16 @@
                     <div class="featured-content media align-items-center">
                       <div class="media-icon"><span class="featured-icon">
                           <v-icon color="white" x-large>
-                            mdi-trophy-award
+                            mdi-calculator-variant
                           </v-icon>
                         </span>
                       </div>
                       <div class="media-body">
-                        <h2 class="featured-title">100% Guarantee</h2>
-                        <!-- <p class="featured-text">Conveniently disseminate visionary</p> -->
+                        <h2 class="featured-title">Estimate & Quote</h2>
                       </div>
                     </div>
                   </div>
-                  <img src="https://static.manyautosltd.com/uploads/best-work.png">
+                  <img src="https://static.manyautosltd.com/uploads/3_800x533.jpg">
                 </div>
               </v-col>
 
@@ -123,6 +120,7 @@
     padding: 30px 35px;
     z-index: 4;
     display: flex;
+    top: 183px;
   }
 
   .featured-layout4 .featured-title {
