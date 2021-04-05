@@ -20,7 +20,7 @@
                 :key="i"
               >
                 <v-sheet
-                  height="94%"
+                  height="96%"
                   class='py-4 mx-3 my-3'
                   color="white"
                   elevation="3"
@@ -32,7 +32,7 @@
                     class='fill-height'
                   >
                     <v-col>
-                        <div class="text-center">
+                        <div class="text-center mx-auto my-auto">
                         <v-icon
                         color="primary"
                         x-large
@@ -43,9 +43,11 @@
                             {{review.title}}
                         </h2>
                         </div>
-                      <p class='text-center px-3 font-weight-400 font-19' style="color:#777;">
+                      <div>
+                        <p class='text-center px-3 font-weight-400 font-19' style="color:#777;">
                         "{{ review.content }}" 
                       </p>
+                      </div>
                     </v-col>
                   </v-row>
                 </v-sheet>
