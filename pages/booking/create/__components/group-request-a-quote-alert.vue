@@ -2,7 +2,7 @@
   <div>
     <v-alert 
       type='info' 
-      :color='color' 
+      color="primary"
       dismissible
       dark
       v-model="alert"

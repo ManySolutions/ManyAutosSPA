@@ -6,12 +6,12 @@
       <span class='font-weight-light'>
         Choose
       </span>
-        MOT
+        <span style="color:#0046e2;">MOT</span>
       <span class='font-weight-light text-lowercase'>or</span>
-      Servicing
+      <span style="color:#0046e2;">Servicing</span>
       <span class='font-weight-light'>For Your</span>
       <br>
-      <span class='text-primary'>
+      <span class='text-primaryy' style="color:#0046e2;">
         {{ vehicleName }}
       </span>
     </template>

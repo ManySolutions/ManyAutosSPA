@@ -21,7 +21,7 @@
           cols=12 
           md=6
         >
-          <span class='ma-si-price'>
+          <span class='ma-si-price' style="color:#0046e2;">
             {{ currencySymbol }}
             {{ priceFormatted || '00.00' }}
           </span>
@@ -48,7 +48,12 @@
               :key='i'
               v-if='i'  
             >
-              <img :src="assets('frontend/check-icon.png')" alt="Check icon">
+              <!-- <img :src="assets('frontend/check-icon.png')" alt="Check icon"> -->
+              <v-icon 
+              color="primary"
+              >
+              mdi-check-circle
+              </v-icon>
               {{ i }}
             </li>
           </template>
@@ -68,7 +73,7 @@
         :disabled='isCartLoading'
       >
         <v-icon class='mr-2' small>
-          {{ isHover ? 'mdi-close-circle' : 'mdi-check-circle-outline' }}
+          {{ isHover ? 'mdi-close-circle' : 'mdi-check-circle' }}
         </v-icon>
         <strong>
           Added in cart

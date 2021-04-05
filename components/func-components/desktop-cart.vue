@@ -30,7 +30,7 @@
                       <v-alert
                         type="warning"
                         class='mt-4'
-                        color='blue lighten-3'
+                        color='primary'
                       >
                         {{ 'No service added by you yet!' }}
                       </v-alert>

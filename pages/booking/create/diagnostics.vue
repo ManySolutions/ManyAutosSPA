@@ -4,10 +4,10 @@
       <span class='font-weight-light'>
         Choose
       </span>
-        Diagnostics
+        <span style="color:#0046e2;">Diagnostics</span>
       <span class='font-weight-light'>For Your</span>
       <br>
-      <span class='text-primary'>
+      <span class='text-primaryy' style="color:#0046e2;">
         {{ vehicleName }}
       </span>
     </template>
