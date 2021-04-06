@@ -43,9 +43,13 @@ export default {
         .then(res => {
           const {
             total, subtotal, items, user, access_token, role,
-            key
+            key, vehicle
           } = res;
 
+          this.$store.commit('booking/REGISTER_VEHICLE', {
+            vehicle: vehicle,
+            modelId: vehicle.Model_ID
+          });
           this.$store.commit('booking/UPDATE_CART_CONTENT', {
             total, subtotal, items, key
           });
