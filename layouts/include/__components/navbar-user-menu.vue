@@ -115,14 +115,14 @@ export default {
         name: 'All Bookings',
         url: 'my-booking'
       },
-      {
-        name: 'Refer a friend',
-        url: 'my-referral'
-      },
-      {
-        name: 'Your Earnings',
-        url: 'my-referral-overview'
-      },
+      // {
+      //   name: 'Refer a friend',
+      //   url: 'my-referral'
+      // },
+      // {
+      //   name: 'Your Earnings',
+      //   url: 'my-referral-overview'
+      // },
     ],
   }),
 
@@ -147,7 +147,7 @@ export default {
     setContentAdminMenu() {
       if ( this.roles && this.roles.includes('content-admin') )
         this.items.push(
-          {name: 'Manage Blogs', url: 'apps-content-admin-blogs-list', icon: 'mdi-table-of-contents'}
+          // {name: 'Manage Blogs', url: 'apps-content-admin-blogs-list', icon: 'mdi-table-of-contents'}
         )
     }
   }

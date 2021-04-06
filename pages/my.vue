@@ -3,7 +3,7 @@
     <v-row justify="center">
       <v-col v-if='$device.isDesktop' cols=12 md=4 lg=3 xl=2>
         <v-card
-          height="400"
+          height="350"
           width="256"
           class="mx-auto"
         >
@@ -57,8 +57,8 @@ export default {
   data: () => ({
     menus: [
       {title: 'Bookings List', url: '/my/booking'},
-      {title: 'Refer A Friend', url: '/my/referral'},
-      {title: 'Your Earnings', url: '/my/referral/overview'},
+      // {title: 'Refer A Friend', url: '/my/referral'},
+      // {title: 'Your Earnings', url: '/my/referral/overview'},
     ]
   }),
 

@@ -5,8 +5,17 @@
     >
       <v-row>
         <v-col class="section" cols='12' md="6" lg="4" order-md="3" order-lg="1">
-          <div class="logo-footer ml-0">
-            <img src="https://static.manyautosltd.com/uploads/reading-default-logo.png" alt="">
+          <div class="logo-footer1 ml-0 d-none d-md-block">
+            <v-img 
+              src="https://static.manyautosltd.com/uploads/Changed dimensions.png" 
+              max-width="250px"
+            ></v-img>
+          </div>
+          <div class="logo-footer2 ml-0 d-block d-md-none">
+            <v-img 
+              src="https://static.manyautosltd.com/uploads/logo for mobile-01.png" 
+              max-width="250px"
+            ></v-img>
           </div>
           <p
             class='text-body-1 font-weight-300'
@@ -199,9 +208,18 @@ export default {
     margin-right: 12px;
   }
   .footer-lighter {
-    background: whitesmoke;
+    background: white;
   }
-  .logo-footer{
+  .logo-footer1{
+    width: 300px;
+    margin-bottom: 6px;
+    img {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .logo-footer2{
     width: 200px;
     margin-bottom: 6px;
     img {

@@ -28,7 +28,7 @@
           class='text-center'
         >
           <img 
-            src="https://static.manyautosltd.com/uploads/reading-default-logo.png" 
+            src="https://static.manyautosltd.com/uploads/logo for mobile-01.png" 
             :alt="appTitle"
             class='logo'
             @click='$router.push("/")'
@@ -79,7 +79,7 @@ export default {
 <style lang="scss" scoped>
 .logo {
   max-width: 100%;
-  max-height: 37px;
+  max-height: 43px;
   cursor: pointer;
 }
 

@@ -26,7 +26,7 @@
           <base-service-grid
             title='MOT & Servicing'
             btn-title='MOT & Servicing'
-            icon='car-service.png'
+            icon='MOT & Service icon (1).png'
             url='./mot-and-servicing'
           >
             Book your MOT for<br>
@@ -43,7 +43,7 @@
           <base-service-grid
             title='Repairs'
             btn-title='Repair other parts'
-            icon='car-repair.png'
+            icon='Car repair icon (1).png'
             url='./parts'
           >
             Get a quote for anyother repairs required for your car.
@@ -53,7 +53,7 @@
           <base-service-grid
             title='Diagnostic'
             btn-title='Diagnostic'
-            icon='diagnostic.png'
+            icon='icon diagnostic.png'
             url='./diagnostics'
           >
             Having problems? Book a diagnostic and we will 

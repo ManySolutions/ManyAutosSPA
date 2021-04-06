@@ -12,13 +12,13 @@
       <v-row class="mx-0 px-0 text-lg-center">
         <v-col cols=4 md=12>
           <img 
-            :src="assets('customer-v2/icons/' + icon)" 
+            :src='"https://static.manyautosltd.com/uploads/"  + icon'
             :alt="title"
             class='d-inline-block'
           >
         </v-col>
         <v-col cols=8 md=12>
-          <h2 class=''>{{ title }}</h2>
+          <h2 class='' style="color:#01133c">{{ title }}</h2>
           <p class='mt-0 rep-text'>
             <slot></slot>
           </p>
