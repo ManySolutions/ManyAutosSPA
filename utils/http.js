@@ -26,13 +26,13 @@ http.interceptors.response.use(response => {
 })
 
 
-http.interceptors.request.use(config => {
-  // nprogress.start();
+// http.interceptors.request.use(config => {
+//   // nprogress.start();
 
-  // if (store.state.user.accessToken)
-  //   config.headers.common['Authorization'] = 'Bearer ' + store.state.user.accessToken
+//   // if (store.state.user.accessToken)
+//   //   config.headers.common['Authorization'] = 'Bearer ' + store.state.user.accessToken
   
-  return config;
-})
+//   return config;
+// })
 
 export default http;
