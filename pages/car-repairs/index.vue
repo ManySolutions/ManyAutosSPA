@@ -49,6 +49,9 @@
       <h2 class="font-weight-600">
         How can I get a car repair quote?
       </h2>
+      <p>
+        Simply enter your registration number on our website, select the services you require and proceed with your booking. As simple as that. With all the pricings up front you have nothing to worry about. Payment will be taken when all the work has been completed and the car is ready to be sent back to you.
+      </p>
       <h2 class="font-weight-600">
         Will there be any surprise charges?
       </h2>
@@ -56,9 +59,6 @@
         No. The final price you see is the final price for the quoted work. If any further work is identified you will
         be notified of each item of work, how serious or dangerous the work is and the cost. The final decision to carry
         out any extra work is always with you.
-      </p>
-      <p>
-        Simply enter your registration number on our website, select the services you require and proceed with your booking. As simple as that. With all the pricings up front you have nothing to worry about. Payment will be taken when all the work has been completed and the car is ready to be sent back to you.
       </p>
       <h2 class="font-weight-600">
         What time do I have to drop off my car?
