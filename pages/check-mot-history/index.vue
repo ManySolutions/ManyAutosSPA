@@ -246,64 +246,64 @@ export default {
   head: {
     title: "Check MOT History | Check MOT Status | ManyAutosLTD",
 
-    // meta: [
-    //   {
-    //     hid: 'description', name: 'description',
-    //     content: 'Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300.'
-    //   },
-    //   {
-    //     name: 'keywords',
-    //     content: 'many autos ltd automotive service,car services,full car service,garage service'
-    //   },
-    //   {
-    //     property: "og:title",
-    //     content: "About Us | ManyAutos LTD"
-    //   },
-    //   {
-    //     property: "og:type",
-    //     content: "website"
-    //   },
-    //   {
-    //     property: "og:url",
-    //     content: URL
-    //   },
-    //   {
-    //     property: "og:image",
-    //     content: "logo-default.png"
-    //   },
-    //   {
-    //     property: "og:site_name",
-    //     content: "ManyAutos LTD"
-    //   },
-    //   {
-    //     hid: 'og:description',  property: 'og:description',
-    //     content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
-    //   },
-    //   {
-    //     name: "twitter:card",
-    //     content: "summary"
-    //   },
-    //   {
-    //     name: "twitter:title",
-    //     content: "About Us | ManyAutos LTD"
-    //   },
-    //   {
-    //     name: "twitter:description",
-    //     content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
-    //   },
-    //   {
-    //     name: "twitter:image",
-    //     content: "logo-default.png"
-    //   },
-    //   {
-    //     itemprop: "image",
-    //     content: "logo-default.png"
-    //   },
-    //   {
-    //     property: "og:type",
-    //     content: "business.business"
-    //   },
-    // ]
+    meta: [
+      {
+        hid: 'description', name: 'description',
+        content: 'Check your MOT history and status online now for free. Quickly and easily check your MOT expiry and check MOT advisories in one place. '
+      },
+      {
+        name: 'keywords',
+        content: 'check mot, check mot history, check car mot, check mot status, check mot online, check mot uk, check mot date, check mot expiry'
+      },
+      {
+        property: "og:title",
+        content: "Check MOT History | Check MOT Status | ManyAutosLTD"
+      },
+      {
+        property: "og:type",
+        content: "website"
+      },
+      {
+        property: "og:url",
+        content: process.env.APP_URL + '/check-mot-history'
+      },
+      {
+        property: "og:image",
+        content: "https://static.manyautosltd.com/uploads/car-mot-tes-image.png"
+      },
+      {
+        property: "og:site_name",
+        content: "ManyAutos LTD"
+      },
+      {
+        hid: 'og:description',  property: 'og:description',
+        content: "Check your MOT history and status online now for free. Quickly and easily check your MOT expiry and check MOT advisories in one place. "
+      },
+      {
+        name: "twitter:card",
+        content: "summary"
+      },
+      {
+        name: "twitter:title",
+        content: "Check MOT History | Check MOT Status | ManyAutosLTD"
+      },
+      {
+        name: "twitter:description",
+        content: "Check your MOT history and status online now for free. Quickly and easily check your MOT expiry and check MOT advisories in one place. "
+      },
+      {
+        name: "twitter:image",
+        content: "https://static.manyautosltd.com/uploads/car-mot-tes-image.png"
+      },
+      {
+        itemprop: "image",
+        content: "https://static.manyautosltd.com/uploads/car-mot-tes-image.png"
+      },
+      {
+        property: "og:type",
+        content: "business.business"
+      },
+    ]
   },
 };
 </script>
