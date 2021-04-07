@@ -98,7 +98,7 @@
                     Book MOT NOW
                   </v-btn>
                   <btn-add-service
-                    v-else
+                    v-else-if='isExpired || isCritical || isExpiryClosest'
                     :color='isExpired ? `secondary lighten-2` : `primary`'
                     cls='text-capitalize black--text font-weight-600'
                     @added='handleMOTAdded'
@@ -336,6 +336,9 @@ export default {
     },
     isCritical() {
       return !!this.vehicle.is_critical;
+    },
+    isExpiryClosest() {
+      return !!this.vehicle.is_expiry_closest;
     },
     isExpiringFuture() {
       return !!this.vehicle.is_expiring_in_future;
