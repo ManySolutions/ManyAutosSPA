@@ -98,10 +98,10 @@
                     Book MOT NOW
                   </v-btn>
                   <btn-add-service
-                    v-else-if='(isExpired || isCritical)'
+                    v-else
                     :color='isExpired ? `secondary lighten-2` : `primary`'
                     cls='text-capitalize black--text font-weight-600'
-                    @added='$router.push("/booking/create/mot-and-servicing")'
+                    @added='handleMOTAdded'
                     id="MOT"
                     x-large
                   >
@@ -307,6 +307,7 @@ export default {
     isLoading: true,
     isNotFound: false,
     isAddingMOT: false,
+    isBooked: false,
   }),
   computed: {
     ...mapState('booking', ['modelId']),
@@ -385,13 +386,6 @@ export default {
         return 'MOT'
       }
     },
-    isBooked() {
-      try {
-        return 'MOT' in this.cart;
-      } catch (error) {
-        return false;
-      }
-    }
   },
   watch: {
     isNotFound(isNotFound) {
@@ -400,6 +394,10 @@ export default {
   },
   mounted() {
     this.fetch();
+
+    try {
+      this.isBooked = 'MOT' in this.cart;
+    } catch (error) {}
   },
   methods: {
     fetch() {
@@ -444,14 +442,11 @@ export default {
         () => this.$router.push('/booking/create/mot-and-servicing')
         ,1000
       )
+    },
+    handleMOTAdded() {
+      this.$router.push("/booking/create/mot-and-servicing")
     }
   },
-  // async asyncData({ app }) {
-  //   const vehicle = await app.$axios.$get(
-  //     "http://staging-v32020.manyautos.co.uk/api/v2/c/vehicle/last-mot-detail/HY59Xoo"
-  //   );
-  //   return { vehicle };
-  // },
 };
 </script>
 
