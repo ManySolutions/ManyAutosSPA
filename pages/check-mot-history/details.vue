@@ -108,7 +108,7 @@
                     Book MOT Now
                     <template #added>MOT Booked</template>
                   </btn-add-service>
-                  <subscribe-popup></subscribe-popup>
+                  <subscribe-popup v-if='!(isExpired || isCritical)'></subscribe-popup>
                 </template>
               </v-sheet>
             </v-col>
