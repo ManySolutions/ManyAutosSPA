@@ -15,7 +15,7 @@
       @click="handleSubscribe"
       :loading="isLoading"
     >
-      <strong class="text-capitalize"> Subscribe MOT Alert </strong>
+      <span class="text-capitalize"> Subscribe MOT Alert </span>
     </v-btn>
 
     <v-dialog
@@ -27,7 +27,7 @@
     >
       <template v-slot:activator="{ on, attrs }">
         <v-btn color="secondary" dark x-large v-bind="attrs" v-on="on">
-          <strong class="text-capitalize"> Subscribe MOT Alert! </strong>
+          <span class="text-capitalize"> Subscribe MOT Alert! </span>
         </v-btn>
       </template>
       <v-card>
