@@ -175,7 +175,7 @@ export default {
         '/my/**',
         '/apps/**',
         '/test',
-        '/check-mot-history/*',
+        '/check-mot-history/details',
         '/booking/**',
         '/register-your-garage/**',
         '/rf/**',

@@ -6,13 +6,14 @@
           <v-col cols="12" md="4" class="mot-section pt-15 mb-12">
             <div class="d-inline-block">
               <h1 class="mb-8 d-block heading-title">
-                <span style="font-weight: 200">Check a car's</span>
-                <strong>MOT status</strong
-                ><span style="font-weight: 200"> & </span>
-                <strong>MOT history</strong>
+                <strong>Check MOT History</strong>
+                <span style="font-weight: 200">&</span>
+                <strong>Check MOT Status</strong>
               </h1>
               <p class="text-teal text-18 justify pb-8">
-                Curious about your MOT due date? Eager to know the MOT history
+                Curious about your MOT due date? Eager to know the 
+                <strong>MOT history</strong>
+                or <strong>MOT status</strong>
                 of your next purchase? You took the right decision by choosing
                 us.
               </p>
@@ -25,7 +26,7 @@
                 </v-text-field>
                 <div class="text-center button">
                   <v-btn
-                    class="subscribe-btn"
+                    class="subscribe-btn text-capitalize"
                     color="secondary"
                     dark
                     x-large
@@ -33,7 +34,7 @@
                     :loading="isLoading"
                     type="submit"
                   >
-                    Check Mot & Details
+                    Check Car MOT
                   </v-btn>
                 </div>
               </v-form>
@@ -76,7 +77,7 @@
                   to give the registration number and we will provide you with
                   all the relevant information regarding the vehicle you’ve
                   searched for. We can tell what you need to know. Do you want
-                  to know the expiry date of your Mot? Want to know why a
+                  to know the expiry date of your MOT? Want to know why a
                   vehicle failed the MOT? No problem, we will answer all your
                   queries.
                 </p>
@@ -98,7 +99,7 @@
                   without an MOT you could be fined up to £1000. Buying a car
                   without knowing its history could lead to several expensive
                   repairs. You can avoid all this hassle and complications with
-                  our online <strong>MOT check</strong>.
+                  our <strong>Check MOT online</strong> service.
                 </p>
               </div>
             </v-col>
@@ -243,7 +244,7 @@ export default {
   },
 
   head: {
-    title: "MOT Car Check | ManyAutos LTD",
+    title: "Check MOT History | Check MOT Status | ManyAutosLTD",
 
     // meta: [
     //   {
