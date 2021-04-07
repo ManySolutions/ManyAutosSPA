@@ -98,6 +98,7 @@ export default {
     menu: [
       {title: 'Home', url: '/'},
       {title: 'Book Car MOT', url: '/mot'},
+      {title: 'Check MOT History', url: '/check-mot-history'},
       {title: 'Book Your Car Service', url: '/car-service'},
       {title: 'Book Your Car Repair', url: '/car-repairs'},
       {title: 'All Car Services', url: null, children: [
