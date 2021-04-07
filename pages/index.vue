@@ -1,20 +1,20 @@
 <template>
   <v-container fluid class="pt-0">
     <v-row>
-        <section class="main-section text-white" style="background-image: url(https://static.manyautosltd.com/uploads/masked-mechanic-checks-car-service-station.jpg)">
-            <div class="mainsection" style="padding-top:150px; padding-bottom:150px;">
+        <section class="main-section text-white" style="background-image: url(https://static.manyautosltd.com/uploads/mechanic-service-car-garage-is-check-list-cars.jpg)">
+            <div class="mainsection" style="padding-top:80px; padding-bottom:80px;">
                 <v-container class="container pt-5 pb-5">
                     <v-row class="row">
-                        <v-col cols="12" md="6" class="my-auto">
+                        <v-col cols="12" class="text-center">
                             <div>
-                                <h1 class="main-heading pb-3">
-                                    THE BEST CAR REPAIR COMPANY IN <span>READING</span>
+                                <h1 class="main-heading pb-3 text-center text-white">
+                                    THE BEST CAR SERVICE COMPANY IN READING
                                 </h1>
-                                <p>Mntrinsicly redefine mission-critical quality vectors rather than cross functional
+                                <p class="text-white">Mntrinsicly redefine mission-critical quality vectors rather than cross functional
                                   technologies cultivate an expanded array.</p>
                             </div>
                         </v-col>
-                        <v-col cols="12" md="6">
+                        <v-col cols="12" class="text-center">
                           <car-reg-form-card id='home-reg-form'></car-reg-form-card>
                         </v-col>
                     </v-row>
@@ -393,10 +393,9 @@ export default {
 .mainsection {
     width: 100%;
     height: 100%;
-    // background-color: #7398f1f5;
-    // background: linear-gradient(94deg, rgba(13, 168, 199, 0.77), #0da8c7);
-    background-image: linear-gradient(to right, rgb(255, 255, 255) 38%, rgba(255, 255, 255, 0.9) 47%, rgba(255, 255,
-    255, 0.2) 66%, rgba(255, 255, 255, 0) 70%);
+    background-color: #707172e6;
+    // background-image: linear-gradient(to right, rgb(255, 255, 255) 38%, rgba(255, 255, 255, 0.9) 47%, rgba(255, 255,
+    // 255, 0.2) 66%, rgba(255, 255, 255, 0) 70%);
 }
 .main-section .mainsection h1 {
     font-size: 48px;
@@ -427,10 +426,9 @@ export default {
     color: #1e1313;
 }
 .mainsection {
-   
-    // background-image: linear-gradient(to right, rgb(255, 255, 255) 100%, rgba(255, 255, 255, 0.9) 100%, rgba(255, 255,
-    // 255, 0.2) 100%, rgba(255, 255, 255, 0) 100%);
-    background: linear-gradient(94deg, rgb(230 230 230 / 77%), #0da8c7);
+  
+    // background: linear-gradient(94deg, rgb(230 230 230 / 77%), #0da8c7);
+        background-color: #707172e6;
 }
 }
 
