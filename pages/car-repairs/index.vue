@@ -29,12 +29,42 @@
         backed up by a 12 month parts and labour warranty on all work done.
       </p>
       <h2 class="font-weight-600">
+        Many Autos: Your trusted car repair service.
+      </h2>
+      <p>
+        One of the most popular terms searched on google is “<strong>car repair garages near me</strong>” and “<strong>mechanic near me</strong>”. This may seem like a quick way to find someone to repair your car, however the process can be tiresome. If you want to find a garage that will look after your car and not charge you excessive prices you will need to spend some time searching the history of that garage. You will check their reviews, then get some quotes from them, then check the prices. You can save yourself all this hassle by using Many Autos, who check and authorise all our garages. We also offer the unique service of providing all our prices up front, so no one can try and pressure sell you services at overly inflated prices.       
+      </p>
+      <h2 class="font-weight-600">
+        Car repair near me
+      </h2>
+      <p>
+        Looking for car repairs near you? Look no further. Many Autos has locations across the UK. With all our locations checked and monitored for consistency, quality and customer care you can rest assured you will receive the same great service wherever you are in the UK.
+      </p>
+      <h2 class="font-weight-600">
+        How much should a car repair cost?
+      </h2>
+      <p>
+        Many Autos is taking the guess work out of car repairs. You are no longer bogged down with estimates from different garages which fluctuate when you get your car repaired. Many Autos has a clear pricing structure tailored to your exact vehicle, so the prices are final. Any additional work required is always sent to you to be authorised, so no work will be done until you have specifically understood and approved it. 
+      </p>
+      <h2 class="font-weight-600">
+        How can I get a car repair quote?
+      </h2>
+      <h2 class="font-weight-600">
         Will there be any surprise charges?
       </h2>
       <p>
         No. The final price you see is the final price for the quoted work. If any further work is identified you will
         be notified of each item of work, how serious or dangerous the work is and the cost. The final decision to carry
         out any extra work is always with you.
+      </p>
+      <p>
+        Simply enter your registration number on our website, select the services you require and proceed with your booking. As simple as that. With all the pricings up front you have nothing to worry about. Payment will be taken when all the work has been completed and the car is ready to be sent back to you.
+      </p>
+      <h2 class="font-weight-600">
+        What time do I have to drop off my car?
+      </h2>
+      <p>
+        You do not. With Many Autos all services, including MOT’s, include free collection and delivery. Vehicles are collected before 11am unless specifically agreed with you for another time. 99% of all work is done same day. The chances are you will have the car back with you by the end of the working day, if not before.
       </p>
       <h2 class="font-weight-600">
         How long will you keep my car?
