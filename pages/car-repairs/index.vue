@@ -7,7 +7,7 @@
     box-title='Book your car repair now'
     :faqs='faqs'
     faq-topic='Free collection and delivery with ManyAutos'
-    blog-topic='More about car repairs with Many Autos'
+    blog-topic='More about car repairs with ManyAutos'
     :list-menu='listMenu'
     redirect-to='/booking/create/parts'
     :has-repair-pages='false'
