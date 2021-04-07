@@ -4,12 +4,12 @@
     sub-heading="Keep your car safe, book a service now!"
     heading-bg='customer-v2/static-pages/allpics/brakepads1.jpg'
     heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
-    box-title='Book your car repair now'
+    box-title='Book your brake pads repair now'
     :faqs='faqs'
     faq-topic='Brake pads repair and replacement with ManyAutos'
     blog-topic='How the brake pads repair and replacement work with ManyAutos'
     :list-menu='listMenu'
-    redirect-to='/booking/create/parts'
+    redirect-to='/booking/create/search?keyword=pad'
     :has-repair-pages='false'
   >
     <template #overview>
@@ -48,8 +48,8 @@
       </h2>
       <p>
         When you press the brake pedals, pressurized brake fluid travels through the brake pipe into the pistons of the
-        callipers. The pistons will then force shut the calliper. The brake pads are fitted inside the <NuxtLink
-          to="/brake=caliper">brake caliper</NuxtLink> and have a friction compound. When the callipers are forced shut
+        callipers. The pistons will then force shut the calliper. The brake pads are fitted inside the 
+        <NuxtLink to="/brake-caliper">brake caliper</NuxtLink> and have a friction compound. When the callipers are forced shut
         via the pistons, the brake pads
         encounter the rotating car disc brake, causing it to either slow down or eventually come to a stop.
       </p>
