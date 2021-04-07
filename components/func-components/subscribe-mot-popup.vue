@@ -44,8 +44,8 @@
           </v-btn>
         </v-toolbar>
         <v-container>
-          <v-row>
-            <v-col cols="12" md="6" class="text-center letter-image">
+          <v-row justify="center">
+            <v-col cols="12" md="6" lg=5 class="text-center letter-image">
               <div class="for-desktop active d-none d-md-block">
                 <img
                   src="https://static.manyautosltd.com/uploads/mot-desktop.png"
@@ -65,6 +65,7 @@
             <v-col
               cols="12"
               md="6"
+              lg=4
               class="subscribe-section text-center pt-5 mb-12"
             >
               <div class="text-center d-inline-block">
@@ -76,9 +77,9 @@
                   <br />
                   Expiry Alerts & Updates
                 </h1>
-                <v-form class="myinput">
-                  <v-text-field label="Full Name" outlined></v-text-field>
-                  <v-text-field label="Email" outlined></v-text-field>
+                <v-form class="myinput" @submit.prevent="handleSubmit()">
+                  <v-text-field label="Full Name" outlined v-model='form.name'></v-text-field>
+                  <v-text-field label="Email" outlined v-model='form.email'></v-text-field>
                   <div class="text-center button">
                     <v-btn
                       class="subscribe-btn"
@@ -86,6 +87,8 @@
                       dark
                       x-large
                       block
+                      type='submit'
+                      :loading='isLoading'
                     >
                       Subscribe Now!
                     </v-btn>
@@ -112,6 +115,10 @@ export default {
       widgets: false,
       isLoading: false,
       isCurrentSubscribed: false,
+      form: {
+        name: '',
+        email: '',
+      },
     };
   },
   computed: {
@@ -143,16 +150,36 @@ export default {
       subscribeMOTAlerts(this.http, {
         model_id: this.modelId,
       })
-        .then((res) => {
-          if (res.status) {
-            toastr.success(res.message);
-            this.$store.commit("user/TOGGLE_SUBSCRIBE", true);
-            this.isCurrentSubscribed = true;
-          } else {
-            toastr.error(res.message);
-          }
-        })
-        .finally(() => (this.isLoading = false));
+      .then((res) => {
+        if (res.status) {
+          toastr.success(res.message);
+          this.$store.commit("user/TOGGLE_SUBSCRIBE", true);
+          this.isCurrentSubscribed = true;
+        } else {
+          toastr.error(res.message);
+        }
+      })
+      .finally(() => (this.isLoading = false));
+    },
+
+    handleSubmit() {
+      this.isLoading = true;
+
+      subscribeMOTAlerts(this.http, {
+        model_id: this.modelId,
+        ...this.form
+      })
+      .then((res) => {
+        if (res.status) {
+          toastr.success(res.message);
+          this.isCurrentSubscribed = true;
+          this.dialog = false;
+          this.$store.commit("user/TOGGLE_SUBSCRIBE", true);
+        } else {
+          toastr.error(res.message);
+        }
+      })
+      .finally(() => (this.isLoading = false));
     },
   },
 };
