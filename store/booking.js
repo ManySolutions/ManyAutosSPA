@@ -103,6 +103,11 @@ export const getters = {
       ? state.vehicle.Mfr + ' ' + state.vehicle.Range
       : null
   },
+  carReg(state) {
+    return state.vehicle
+      ? state.vehicle.RegistrationNumber.toLowerCase()
+      : null
+  },
 
   cart(state) {
     return state.cartContent.items;

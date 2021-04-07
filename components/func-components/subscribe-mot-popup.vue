@@ -1,6 +1,32 @@
 <template>
-  <v-row justify="center">
+  <span>
+    <v-btn
+      v-if='isSubscribed'
+      color="white"
+      dark
+      x-large
+      text
+      class='d-none'
+    >
+      <v-icon class='mr-2'>mdi-check-circle-outline</v-icon>
+      {{isCurrentSubscribed ? 'Successfully Subscribed' : 'Already Subscribed'}}
+    </v-btn>
+
+    <v-btn
+      v-else-if='isAuth'
+      color="secondary"
+      dark
+      x-large
+      @click='handleSubscribe'
+      :loading='isLoading'
+    >
+      <strong class='text-capitalize'>
+        Subscribe MOT Alert
+      </strong>
+    </v-btn>
+
     <v-dialog
+      v-else
       v-model="dialog"
       fullscreen
       hide-overlay
@@ -8,13 +34,15 @@
     >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
-          color="primary"
+          color="secondary"
           dark
-          large
+          x-large
           v-bind="attrs"
           v-on="on"
         >
-          MOT Alerts!
+          <strong class='text-capitalize'>
+            Subscribe MOT Alert!
+          </strong>
         </v-btn>
       </template>
       <v-card>
@@ -90,19 +118,50 @@
           </v-container>
       </v-card>
     </v-dialog>
-  </v-row>
+  </span>
 </template>
 <script>
-  export default {
-    data () {
-      return {
-        dialog: false,
-        notifications: false,
-        sound: true,
-        widgets: false,
-      }
+import {mapGetters, mapState} from 'vuex';
+import { subscribeMOTAlerts } from '~/api/user';
+import toastr from '~/node_modules/toastr/toastr';
+export default {
+  data () {
+    return {
+      dialog: false,
+      notifications: false,
+      sound: true,
+      widgets: false,
+      isLoading: false,
+      isCurrentSubscribed: false,
+    }
+  },
+  computed: {
+    ...mapGetters('user', ['isAuth']),
+    ...mapState('user', ['info']),
+    ...mapState('booking', ['modelId']),
+    
+    isSubscribed() {
+      return this.isCurrentSubscribed || (this.info && !!this.info.is_mot_subscribed);
+    },
+  },
+  methods: {
+    handleSubscribe() {
+      this.isLoading = true;
+
+      subscribeMOTAlerts(this.http, {
+        model_id: this.modelId
+      }).then(res => {
+        if (res.status) {
+          toastr.success(res.message)
+          this.$store.commit('user/TOGGLE_SUBSCRIBE', true);
+          this.isCurrentSubscribed = true;
+        } else {
+          toastr.error(res.message)
+        }
+      }).finally(() => this.isLoading = false)
     },
   }
+}
 </script>
 <style lang="scss" scoped>
 

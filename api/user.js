@@ -47,3 +47,7 @@ export async function verifyReferral(hash) {
 export async function forgotPassword(data) {
   return (await http.post(`/password/forgot`, data)).data
 }
+
+export async function subscribeMOTAlerts($http, data) {
+  return (await (http || $http).post(`/subscribe/mot-alert`, data)).data
+}

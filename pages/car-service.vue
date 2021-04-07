@@ -27,7 +27,7 @@
         service you want to carry out for your car. If you look at
         <strong>car services in UK</strong>, not all garages offer or have
         trained technicians to complete additional
-        <NuxtLink to="/oil-change">car services and repair</NuxtLink> that
+        <NuxtLink to="/car-repairs">car services and repair</NuxtLink> that
         are required or recommended from the 50- or 70-point checks
         completed. We at Many Autos offer
         <strong>premier car services</strong> to all our customers.

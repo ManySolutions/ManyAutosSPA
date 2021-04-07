@@ -26,6 +26,7 @@
       :color='color'
       :block='isMinDevice'
       :large='!small'
+      :x-large='xLarge'
       :class='cls'
       :loading='isLoading'
       @click='handleAdd'
@@ -50,6 +51,7 @@ export default {
     price: String,
     title: String,
     small: Boolean,
+    xLarge: Boolean,
     color: {
       type: String,
       default: 'primary'

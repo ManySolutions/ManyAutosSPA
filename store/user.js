@@ -17,6 +17,9 @@ export const mutations = {
   SET_ROLES(state, roles) {
     state.roles = roles;
   },
+  TOGGLE_SUBSCRIBE(state, status) {
+    state.info.is_mot_subscribed = status;
+  },
 };
 
 

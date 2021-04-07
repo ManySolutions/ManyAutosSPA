@@ -36,7 +36,7 @@
 
 <script>
 import PageLayout from '@/layouts/page-layout';
-import SubscribePopup from '~/components/func-components/subscribe-popup.vue';
+import SubscribePopup from '~/components/func-components/subscribe-mot-popup.vue';
 import RequestQuotePopup from '~/components/func-components/request-quote-popup.vue';
 
 const URL = 'window.location.href';

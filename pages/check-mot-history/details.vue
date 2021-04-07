@@ -1,16 +1,13 @@
 <template>
-  <div class="car-mot-details home-sec-gaps pt-0">
+  <div class="car-mot-details pt-0">
     <section
       class="mot-section-first text-white"
-      style="
-        background-image: url(https://static.manyautosltd.com/uploads/mechanic-service-car-garage-is-check-list-cars.jpg);
-      "
     >
-      <v-sheet class="section-first" color="#005469e0">
+      <v-sheet class="section-first home-sec-gaps pt-0" color="#005469e0">
         <v-container fluid>
           <v-row>
             <v-col cols="12" class="text-left">
-              <v-breadcrumbs :items="items" active-class class="pt-0">
+              <v-breadcrumbs :items="items" class="p-0">
                 <template v-slot:divider>
                   <v-icon color="white">mdi-chevron-right</v-icon>
                 </template>
@@ -21,73 +18,99 @@
         <!-- /breadcrumb -->
 
         <v-container>
-          <v-row>
-            <v-col cols="12" lg="8" class="m-auto text-white">
-              <v-row>
-                <v-col cols="12" sm="7" class="car-section">
-                  <v-skeleton-loader
-                    v-if='isLoading'
-                    type='heading, list-item, list-item, list-item'
-                  ></v-skeleton-loader>
-                  <template v-else-if='isValid'>
-                    <v-row>
-                      <v-col>
-                        <h4 class="mb-1"></h4>
-                        <strong>
-                          <h1>
-                            {{ vehicle.mot_history[0].make }}
-                            {{ vehicle.mot_history[0].model }}
-                          </h1>
-                        </strong>
-                      </v-col>
-                    </v-row>
-                    <v-row>
-                      <v-col>
-                        <h4 class="mb-1">Colour</h4>
-                        <h3>{{ vehicle.mot_history[0].primaryColour }}</h3>
-                      </v-col>
-                      <v-col>
-                        <h4 class="mb-1">Fuel Type</h4>
-                        <h3>{{ vehicle.mot_history[0].fuelType }}</h3>
-                      </v-col>
-                    </v-row>
-                    <v-row>
-                      <v-col>
-                        <h4 class="mb-1">Date Registered</h4>
-                        <h3>{{ vehicle.mot_history[0].firstUsedDate }}</h3>
-                      </v-col>
-                      <v-col>
-                        <h4 class="mb-1">MOT Valid Until</h4>
-                        <h3>{{ vehicle.expiry_date }}</h3>
-                      </v-col>
-                    </v-row>
-                  </template>
-                </v-col>
+          <v-row justify="center" align='center'>
+            <v-col cols="12" sm="7" lg=5 class="car-section text-white">
+              <v-skeleton-loader
+                v-if='isLoading'
+                type='heading, list-item, list-item, list-item'
+              ></v-skeleton-loader>
+              <template v-else-if='isValid'>
+                <v-row>
+                  <v-col>
+                    <h4 class="mb-1"></h4>
+                    <strong>
+                      <h1 class="heading__title">
+                        {{ vehicle.mot_history[0].make }}
+                        {{ vehicle.mot_history[0].model }}
+                      </h1>
+                    </strong>
+                  </v-col>
+                </v-row>
+                <v-row>
+                  <v-col>
+                    <h4 class="mb-1">Colour</h4>
+                    <h3 
+                      :class='`${carColor}--text`'
+                      :style='`color: ${carColor}`'
+                    >
+                      {{ vehicle.mot_history[0].primaryColour }}
+                    </h3>
+                  </v-col>
+                  <v-col>
+                    <h4 class="mb-1">Fuel Type</h4>
+                    <h3>{{ vehicle.mot_history[0].fuelType }}</h3>
+                  </v-col>
+                </v-row>
+                <v-row>
+                  <v-col>
+                    <h4 class="mb-1">Date Registered</h4>
+                    <h3>{{ vehicle.mot_history[0].firstUsedDate }}</h3>
+                  </v-col>
+                  <v-col>
+                    <h4 class="mb-1">MOT Valid Until</h4>
+                    <h3>{{ vehicle.expiry_date }}</h3>
+                  </v-col>
+                </v-row>
+              </template>
+            </v-col>
 
-                <v-col
-                  cols="12"
-                  sm="5"
-                  class="mot-section text-center mt-9 mb-9"
-                >
-                  <div class="sec2">
-                    <div class="heading mb-5">
-                      <v-icon color="white" x-large class="pb-3 pr-1">
-                        mdi-check-circle
-                      </v-icon>
-                      <span>MOT</span>
-                    </div>
-                    <p>Current MOT has</p>
-                    <v-skeleton-loader v-if='isLoading' type='heading' class='sk-center'></v-skeleton-loader>
-                    <template v-else-if='isValid'>
-                      <h2 class="mb-5">
-                        {{ vehicle.next_mot_pending_in }}
-                      </h2>
-                      <br />
-                      <subscribe-popup></subscribe-popup>
-                    </template>
+            <v-col
+              cols="12"
+              sm="5"
+              lg=5
+              xl=4
+              class=""
+            >
+              <v-sheet 
+                class="mot-section text-center text-white"
+                :color='boxColor'
+              >
+                <v-skeleton-loader v-if='isLoading' type='card' class='sk-center'></v-skeleton-loader>
+                <template v-else-if='isValid'>
+                  <div class="heading mb-5">
+                    <v-icon color="white" x-large class="pb-3 pr-1">
+                      {{ isCritical || isExpired ? 'mdi-alert' : 'mdi-check-circle'  }}
+                    </v-icon>
+                    <span v-html='boxTitle'></span>
                   </div>
-                </v-col>
-              </v-row>
+                  <p v-html='boxSubtitle'></p>
+                  <h2 class="mb-5" :class='`${boxTextColor}--text`'>
+                    {{ vehicle.next_mot_pending_in }}
+                  </h2>
+                  <br />
+                  <v-btn
+                    v-if='isBooked'
+                    x-large
+                    :color='isExpired ? `secondary lighten-2` : `primary`'
+                    class='text-capitalize black--text font-weight-600'
+                    to="/booking/create/collection-info"
+                  >
+                    Book MOT NOW
+                  </v-btn>
+                  <btn-add-service
+                    v-else-if='(isExpired || isCritical)'
+                    :color='isExpired ? `secondary lighten-2` : `primary`'
+                    cls='text-capitalize black--text font-weight-600'
+                    @added='$router.push("/booking/create/mot-and-servicing")'
+                    id="MOT"
+                    x-large
+                  >
+                    Book MOT Now
+                    <template #added>MOT Booked</template>
+                  </btn-add-service>
+                  <subscribe-popup></subscribe-popup>
+                </template>
+              </v-sheet>
             </v-col>
           </v-row>
         </v-container>
@@ -95,14 +118,14 @@
     </section>
     <!-- Section 2 -->
 
-    <v-container>
+    <v-container class=' home-sec-gaps'>
       <v-row>
         <v-col cols="12" class="mot-heading text-center">
           <div>
-            <h1>MOT History</h1>
+            <h1 class="heading__title">MOT History</h1>
           </div>
         </v-col>
-        <v-col cols="12" lg="8" class="m-auto">
+        <v-col cols="12" xl="8" class="m-auto">
           <v-skeleton-loader 
             v-if='isLoading' 
             type='list-item, list-item, list-item, list-item'
@@ -251,13 +274,17 @@
 </template>
 
 <script>
-import SubscribePopup from "~/components/func-components/subscribe-popup.vue";
+import SubscribePopup from "~/components/func-components/subscribe-mot-popup.vue";
 import toastr from 'toastr';
 import http from '~/utils/http';
+import { getVehicleDetails } from '~/api/vehicle';
+import { mapState, mapGetters} from 'vuex';
+import BtnAddService from '~/components/func-components/btn-add-service.vue';
 
 export default {
   components: {
     SubscribePopup,
+    BtnAddService,
   },
   data: () => ({
     items: [
@@ -277,10 +304,13 @@ export default {
       },
     ],
     vehicle: {},
-    isLoading: false,
+    isLoading: true,
     isNotFound: false,
+    isAddingMOT: false,
   }),
   computed: {
+    ...mapState('booking', ['modelId']),
+    ...mapGetters('booking', ['carReg', 'cart']),
     isValid() {
       const {vehicle} = this;
 
@@ -292,6 +322,80 @@ export default {
       return vehicle.mot_history[0]
         ? vehicle.mot_history[0].motTests
         : null
+    },
+    carColor() {
+      const {vehicle, isValid} = this;
+
+      return isValid 
+        ? vehicle.mot_history[0].primaryColour.toLowerCase()
+        : ''
+    },
+    isExpired() {
+      return !!this.vehicle.is_mot_expired;
+    },
+    isCritical() {
+      return !!this.vehicle.is_critical;
+    },
+    isExpiringFuture() {
+      return !!this.vehicle.is_expiring_in_future;
+    },
+    boxColor() {
+      const {isExpired, isCritical, isExpiringFuture} = this;
+
+      if (isExpired) {
+        return 'red darken-2';
+      } else if (isCritical) {
+        return 'orange darken-2'
+      } else if (isExpiringFuture) {
+        return 'primary darken-2'
+      } else {
+        return 'transparent'
+      }
+    },
+    boxTextColor() {
+      const {isExpired, isCritical} = this;
+
+      if (isExpired) {
+        return 'white';
+      } else if (isCritical) {
+        return 'white'
+      } else {
+        return 'secondary'
+      }
+    },
+    boxSubtitle() {
+      const {isExpired, isCritical} = this;
+
+      if (isExpired) {
+        return 'Last MOT had expired';
+      } else if (isCritical) {
+        return 'MOT will be expiring'
+      } else {
+        return 'Current MOT will expire in'
+      }
+    },
+    boxTitle() {
+      const {isExpired, isCritical} = this;
+
+      if (isExpired) {
+        return 'MOT EXPIRED';
+      } else if (isCritical) {
+        return 'MOT EXPIRING SOON'
+      } else {
+        return 'MOT'
+      }
+    },
+    isBooked() {
+      try {
+        return 'MOT' in this.cart;
+      } catch (error) {
+        return false;
+      }
+    }
+  },
+  watch: {
+    isNotFound(isNotFound) {
+      if (isNotFound) this.$router.push('/check-mot-history')
     }
   },
   mounted() {
@@ -316,7 +420,31 @@ export default {
           }
         })
         .finally(() => this.isLoading = false);
+
+      if (this.carReg != carReg) {
+        getVehicleDetails(carReg)
+          .then(res => {
+            this.$store.commit('booking/REGISTER_VEHICLE', {
+              vehicle: res.vehicle,
+              modelId: res.vehicle.Model_ID
+            });
+          })
+      }
     },
+    handleBookMOT() {
+      const {modelId} = this;
+      this.isAddingMOT = true;
+
+      this.$store.dispatch('booking/addToCart', {
+        id: 'MOT',
+        modelId
+      });
+
+      setTimeout(
+        () => this.$router.push('/booking/create/mot-and-servicing')
+        ,1000
+      )
+    }
   },
   // async asyncData({ app }) {
   //   const vehicle = await app.$axios.$get(
@@ -334,7 +462,6 @@ export default {
 
 .car-mot-details .mot-section {
   padding: 7% 0;
-  background: #088dafe0;
   opacity: 0.9;
   // border-left: 5px solid #fff;
   // border-right: 5px solid #fff;
@@ -349,6 +476,7 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  background-image: url('https://static.manyautosltd.com/uploads/mechanic-service-car-garage-is-check-list-cars.jpg');
 }
 .car-mot-details .section-first {
   width: 100%;
@@ -402,5 +530,17 @@ export default {
 }
 ::v-deep .sk-center > div {
   margin: auto;
+}
+::v-deep .sk-center .v-skeleton-loader__card-heading {
+    background: transparent;
+}
+.car-section, .car-section > div {
+    padding-top: 0;
+}
+@media (min-width:992px) {
+  .car-section h1 {margin-bottom: 10px;}
+  .car-section > .row {
+    padding-bottom: 10px;
+  }
 }
 </style>
