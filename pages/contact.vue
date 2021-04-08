@@ -102,7 +102,7 @@
           </span>
           <hr />
           <div class="col-12 margin-top-10">
-            <div class="col-12">
+            <!-- <div class="col-12">
               <p class="starts-from position-relative same-icon">
                 <v-icon
                   class="MoveFaLeft position-absolute"
@@ -112,7 +112,7 @@
                 <strong>Location</strong><br />Unit 4, Tunbridge Jones
                 Industrial Estate, Cradock Road, Reading, RG2 0JT
               </p>
-            </div>
+            </div> -->
             <div class="col-12">
               <p class="starts-from position-relative same-icon">
                 <v-icon
