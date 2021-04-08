@@ -150,6 +150,31 @@
                 <v-icon
                   class="MoveFaLeft position-absolute"
                   style="color: #00b4d8"
+                  >mdi-chat-outline</v-icon
+                >
+                <strong>Social Channels:</strong>
+              </p>
+              <p style='padding-left: 10px;'>
+                <v-btn
+                  v-for='(social, j) in socials'
+                  :key='j + 100'
+                  elevation='0'
+                  style='min-width: 0px'
+                  class='px-2 mr-2'
+                  :href='social.url'
+                  target="_blank"
+                  :color='social.color' 
+                  dark
+                >
+                  <v-icon v-text='social.icon'></v-icon>
+                </v-btn>
+              </p>
+            </div>
+            <div class="col-12">
+              <p class="starts-from position-relative same-icon">
+                <v-icon
+                  class="MoveFaLeft position-absolute"
+                  style="color: #00b4d8"
                   >mdi-clock</v-icon
                 >
                 <strong>Opening Hours</strong><br />
@@ -168,29 +193,6 @@
                   >Close</span
                 >
               </p>
-            </div>
-            <div class="col-12">
-              <p class="starts-from position-relative same-icon">
-                <v-icon
-                  class="MoveFaLeft position-absolute"
-                  style="color: #00b4d8"
-                  >mdi-clock</v-icon
-                >
-                <strong>Social Channels:</strong>
-              </p>
-              <v-btn
-                v-for='(social, j) in socials'
-                :key='j + 100'
-                elevation='0'
-                style='min-width: 0px'
-                class='px-2 mr-2'
-                :href='social.url'
-                target="_blank"
-                :color='social.color' 
-                dark
-              >
-                <v-icon v-text='social.icon'></v-icon>
-              </v-btn>
             </div>
           </div>
         </v-col>
