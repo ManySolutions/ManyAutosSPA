@@ -1,6 +1,8 @@
 <template>
-  <page-layout title="Contact Us"
-  headingBgStatic='https://static.manyautosltd.com/uploads/contact-us.jpg'
+  <page-layout 
+    title="Contact Us"
+    headingBgStatic='https://static.manyautosltd.com/uploads/contact-us.jpg'
+    :hasQuoteButton="false"
   >
     <v-container>
       <v-row justify="center">
@@ -9,7 +11,7 @@
             <v-card class="mx-auto mt-5" max-width="500">
               <v-card-text>
                 <h2 class="register-title text-center pt-5 mb-10">
-                  Submit your query with us now.
+                  Submit your query here.
                 </h2>
                 <v-alert v-if='alert.status' :type='alert.status'>
                   {{ alert.message }}
@@ -167,6 +169,29 @@
                 >
               </p>
             </div>
+            <div class="col-12">
+              <p class="starts-from position-relative same-icon">
+                <v-icon
+                  class="MoveFaLeft position-absolute"
+                  style="color: #00b4d8"
+                  >mdi-clock</v-icon
+                >
+                <strong>Social Channels:</strong>
+              </p>
+              <v-btn
+                v-for='(social, j) in socials'
+                :key='j + 100'
+                elevation='0'
+                style='min-width: 0px'
+                class='px-2 mr-2'
+                :href='social.url'
+                target="_blank"
+                :color='social.color' 
+                dark
+              >
+                <v-icon v-text='social.icon'></v-icon>
+              </v-btn>
+            </div>
           </div>
         </v-col>
       </v-row>
@@ -200,6 +225,28 @@ export default {
         status: null,
         message: '',
       },
+      socials: [
+        {
+          icon: 'mdi-facebook', 
+          url: 'https://www.facebook.com/manyautos.co.uk',
+          color: 'blue darken-1'
+        },
+        {
+          icon: 'mdi-instagram', 
+          url: 'https://www.instagram.com/manyauto/',
+          color: 'red darken-1'
+        },
+        {
+          icon: 'mdi-twitter', 
+          url: 'https://twitter.com/manyautos',
+          color: 'blue darken-3'
+        },
+        {
+          icon: 'mdi-youtube', 
+          url: 'https://www.youtube.com/channel/UCj5peOCn-mwfKkOplGkrD4w',
+          color: 'red darken-1'
+        },
+      ]
     };
   },
 
