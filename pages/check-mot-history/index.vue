@@ -58,11 +58,12 @@
             md="8"
             class="image-section text-center my-auto d-none d-md-block"
           >
-            <img
-              src="https://static.manyautosltd.com/uploads/Car battery & its working components.png"
-              alt="MOT Desktop"
+            <v-img
+              src='https://static.manyautosltd.com/uploads/Car battery & its working components.png'
+              alt='Check MOT History'
               class="center"
-            />
+              width="100%"
+            ></v-img>
           </v-col>
         </v-row>
       </v-container>
