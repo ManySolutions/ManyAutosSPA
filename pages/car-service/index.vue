@@ -11,6 +11,7 @@
     :listMenu='listMenu'
     redirect-to='/booking/create/mot-and-servicing#INTERIM_SERVICE'
     :has-service-pages='false'
+    :breadcrumbs='breadcrumbs'
   >
     <template #overview>
       <p>
@@ -177,6 +178,9 @@ export default {
       },
     ],
     listMenu: carServicePages,
+    breadcrumbs: [
+      { to: '/car-service', exact: true, text: 'Car Services'}
+    ]
   }),
 
   mounted() {

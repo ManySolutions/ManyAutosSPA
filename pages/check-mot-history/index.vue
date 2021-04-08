@@ -2,6 +2,19 @@
   <div class="home-sec-gaps">
     <div class="first-section">
       <v-container>
+        <v-row>
+          <v-col cols="12" class="text-left">
+            <v-breadcrumbs :items="breadcrumbs" class="p-0">
+              <template v-slot:divider>
+                <v-icon>mdi-chevron-right</v-icon>
+              </template>
+            </v-breadcrumbs>
+          </v-col>
+        </v-row>
+      </v-container>
+      <!-- /breadcrumb -->
+
+      <v-container>
         <v-row align="center">
           <v-col cols="12" md="4" class="mot-section pt-15 mb-12">
             <div class="d-inline-block">
@@ -225,6 +238,18 @@ export default {
   },
 
   data: () => ({
+    breadcrumbs: [
+      {
+        text: "Home",
+        to: "/",
+        exact: true,
+      },
+      {
+        text: "Check MOT History",
+        to: '/check-mot-history',
+        exact: true,
+      },
+    ],
     carReg: "",
     isLoading: false,
   }),

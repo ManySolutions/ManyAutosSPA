@@ -9,6 +9,7 @@
     faq-topic='How car MOT test works with ManyAutos'
     blog-topic='Things about MOT test that you should know'
     redirect-to='/booking/create/mot-and-servicing'
+    :breadcrumbs='breadcrumbs'
   >
     <template #overview>
       <p>
@@ -126,6 +127,9 @@ export default {
         title: 'Do you get a grace period for MOT?',
         content: 'No, there is no grace period after your MOT expires.  It is illegal to drive your vehicle once the certificate expires,  in doing so you will risk prosecution. You need to take your car for a test as soon as possible. It is also not possible to tax an automobile without a current MOT certificate.',
       },
+    ],
+    breadcrumbs: [
+      { to: '/mot', text: 'Book MOT'}
     ]
   }),
 

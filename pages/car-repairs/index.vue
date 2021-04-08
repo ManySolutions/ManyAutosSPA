@@ -11,6 +11,7 @@
     :list-menu='listMenu'
     redirect-to='/booking/create/parts'
     :has-repair-pages='false'
+    :breadcrumbs='breadcrumbs'
   >
     <template #overview>
       <p>
@@ -136,6 +137,9 @@ export default {
       },
     ],
     listMenu: carRepairPages,
+    breadcrumbs: [
+      { to: '/car-repairs', exact: true, text: 'Car Repairs'}
+    ]
   }),
 
   mounted() {

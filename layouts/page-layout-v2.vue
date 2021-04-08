@@ -1,6 +1,19 @@
 <template>
   <div class="page static-page home-sec-gaps pt-0 pb-0" :class="cls">
     <div class="static-page-heading" style="">
+      <v-container v-if='breadcrumbsList.length' class='static-page-breadcrumb'>
+        <v-row>
+          <v-col cols="12" class="text-left">
+            <v-breadcrumbs :items="breadcrumbsList" class="p-0" dark>
+              <template v-slot:divider>
+                <v-icon color='white'>mdi-chevron-right</v-icon>
+              </template>
+            </v-breadcrumbs>
+          </v-col>
+        </v-row>
+      </v-container>
+      <!-- /breadcrumb -->
+
       <template v-if="headingBg || headingBgStatic">
         <div
           class="bg-heading-overlay"
@@ -260,6 +273,25 @@ export default {
       type: Boolean,
       default: true,
     },
+    breadcrumbs: Array
+  },
+
+  computed: {
+    breadcrumbsList() {
+      const {breadcrumbs} = this;
+
+      if (!breadcrumbs) return [];
+
+      return [
+        {
+          to: '/',
+          text: 'Home',
+          exact: true,
+        },
+
+        ...breadcrumbs
+      ];
+    }
   },
 
   mounted() {
@@ -448,5 +480,13 @@ export default {
 .faq-right-reg {
     max-width: 530px;
     margin: auto;
+}
+
+.static-page-breadcrumb {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transform: translateX(-50%);
+    left: 50%;
 }
 </style>
