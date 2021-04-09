@@ -75,6 +75,7 @@ import { fbqLead } from '~/api/fbq';
 import { getVehicleDetails } from '~/api/vehicle';
 import indexActiveCar from "~/pages/__components/index-active-car.vue";
 import { mapState } from 'vuex';
+import $ from 'jquery';
 
 export default {
   components: { indexActiveCar }, 
@@ -94,15 +95,11 @@ export default {
     isLoading: false,
     error: false,
     errorMessage: null,
+    getBgImage: '',
   }),
 
   computed: {
     ...mapState('settings', ['redirect']),
-    getBgImage() {
-      return this.hasBgImage
-        ? `background-image: url(${this.assets("customer-v2/home-cover-bg.png")})`
-        : ''
-    },
     bgCls() {
       if (this.hasNoBg) return '';
 
@@ -118,6 +115,14 @@ export default {
 
       return clsx;
     }
+  },
+
+  mounted() {
+    $(document).ready(() => {
+      this.getBgImage = this.hasBgImage
+        ? `background-image: url(${this.assets("customer-v2/home-cover-bg.png")})`
+        : ''
+    });
   },
 
   methods: {

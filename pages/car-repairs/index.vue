@@ -33,7 +33,8 @@
         Many Autos: Your trusted car repair service.
       </h2>
       <p>
-        One of the most popular terms searched on google is “<strong>car repair garages near me</strong>” and “<strong>mechanic near me</strong>”. This may seem like a quick way to find someone to repair your car, however the process can be tiresome. If you want to find a garage that will look after your car and not charge you excessive prices you will need to spend some time searching the history of that garage. You will check their reviews, then get some quotes from them, then check the prices. You can save yourself all this hassle by using Many Autos, who check and authorise all our garages. We also offer the unique service of providing all our prices up front, so no one can try and pressure sell you services at overly inflated prices.       
+        One of the most popular terms searched on google is 
+        “<strong><NuxtLink to='/car-service'>car repair</NuxtLink> garages near me</strong>” and “<strong>mechanic near me</strong>”. This may seem like a quick way to find someone to repair your car, however the process can be tiresome. If you want to find a garage that will look after your car and not charge you excessive prices you will need to spend some time searching the history of that garage. You will check their reviews, then get some quotes from them, then check the prices. You can save yourself all this hassle by using Many Autos, who check and authorise all our garages. We also offer the unique service of providing all our prices up front, so no one can try and pressure sell you services at overly inflated prices.       
       </p>
       <h2 class="font-weight-600">
         Car repair near me

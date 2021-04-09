@@ -21,7 +21,6 @@
             headingBgStatic || assets(headingBg)
           }&quot;);`"
         ></div>
-        <img :src="headingBgStatic" :alt="title" class="d-none" />
       </template>
 
       <v-container>
@@ -30,7 +29,13 @@
             <h1>{{ subTitle || title }}</h1>
             <h4 v-if="subHeading" class='page-sub-heading'>{{ subHeading }}</h4>
             <div v-if='headingImg' class='text-center d-none d-lg-block'>
-              <img :src="headingImg" :alt="title" class='page-heading-img'>
+              <v-img 
+                :src="headingImg" 
+                :alt="title" 
+                class='page-heading-img'
+                max-height='260px'
+                contain
+              ></v-img>
             </div>
             <div class='d-lg-block d-none'>
               <base-info-icons></base-info-icons>
