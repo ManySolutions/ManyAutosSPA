@@ -10,7 +10,7 @@
 export default {
 
   middleware({ redirect }) {
-    return redirect('/car-repairs/brake-pads-repair-and-replacement')
+    return redirect(301, '/car-repairs/brake-pads-repair-and-replacement')
   },
 
 };
