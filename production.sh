@@ -4,3 +4,4 @@ npm install #install packages
 rm -rf "./node_modules/.cache/hard-source"
 npm run build # generate build
 pm2 start # start app
+pm2 start # start app
