@@ -307,12 +307,12 @@ export default {
     }
 
     if (headingBg || headingBgStatic) {
-      $(document).ready(() => {
+      setTimeout(() => {
         $('.bg-heading-overlay').css(
           'background-image',
           `url('${this.assets(headingBg) || headingBgStatic}')`
         )
-      })
+      }, 300)
     }
   },
   
