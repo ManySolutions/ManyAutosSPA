@@ -128,7 +128,7 @@ export default {
   data: () => ({
     popularServices: [
       {title: 'Car Services', url: '/car-service'},
-      {title: 'Brake Pad Repair & Replacement', url: '/brake-pads'},
+      {title: 'Brake Pad Repair & Replacement', url: '/car-repairs/brake-pads-repair-and-replacement'},
       {title: 'Brake Pad Sensor', url: '/brake-pad-sensor'},
       {title: 'Brake Discs', url: '/brake-disc'},
       {title: 'Brake Pipe', url: '/brake-pipe'},

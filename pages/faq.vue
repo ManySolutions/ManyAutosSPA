@@ -287,7 +287,7 @@
                 First, check for wear by looking at your brake pads through the spaces between the wheel spokes. The
                 outside pad will be pressed against a metal rotor. Generally, there should be at least 1/4 inch of pad.
                 If you see less than 1/4 inch of pad, you may want to have your brake pads inspected or replaced. For
-                more information please visit our website visit our brake page https://www.manyautosltd.com/brake-pads
+                more information please visit our website visit our brake page https://www.manyautosltd.com/car-repairs/brake-pads-repair-and-replacement
                 or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.
               </v-expansion-panel-content>
             </v-expansion-panel>

@@ -530,7 +530,7 @@ export const carRepairPages = [
   {title: 'Brake Hose Repair', url: '/brake-hose'},
   {title: 'Brake Master Cylinder Repair', url: '/brake-master-cylinder'},
   {title: 'Brake Pad Sensor Repair', url: '/brake-pad-sensor'},
-  {title: 'Brake Pads Repair', url: '/brake-pads'},
+  {title: 'Brake Pads Repair & Replacement', url: '/car-repairs/brake-pads-repair-and-replacement'},
   {title: 'Brake Pipe Repair', url: '/brake-pipe'},
   {title: 'Brake Service Repair', url: '/brake-service'},
   {title: 'Brake Servo Repair', url: '/brake-servo'},
