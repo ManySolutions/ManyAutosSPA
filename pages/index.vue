@@ -24,40 +24,27 @@
     </v-row>
     <!-- /first section for registration -->
     <v-row>
-      <!-- <index-how-it-works></index-how-it-works> -->
-      <index-welcome-garage></index-welcome-garage>
+      <index-service-icons></index-service-icons>
     </v-row>
     <!-- <index-section-2></index-section-2> -->
     <v-row>
-      <index-what-we-do></index-what-we-do>
+      <index-why-choose-us></index-why-choose-us>
     </v-row>
     <v-row>
-     <!--  <index-our-services></index-our-services> -->
-      <car-reg-form has-bg-image></car-reg-form>
-      <!-- <index-car-parts></index-car-parts> -->
-    </v-row>
-    <v-row>
-      <index-how-we-work></index-how-we-work>
-    </v-row>
-    <v-row>
-      <index-our-best-work></index-our-best-work>
+      <index-vehicle-serviced></index-vehicle-serviced>
     </v-row>
     <v-row>
       <car-reg-form has-bg-image></car-reg-form>
     </v-row>
     <v-row>
+      <index-auto-repair></index-auto-repair>
+    </v-row>
+     <v-row>
+      <index-testimonials></index-testimonials>
+    </v-row>
+   <!-- <v-row>
       <index-why-we-are-best></index-why-we-are-best>
-    </v-row>
-    <!-- <v-row class='my-12 my-lg-0'>
-      <index-online-booking></index-online-booking>
-      <index-pickup-and-delivery></index-pickup-and-delivery>
-    </v-row>
-    <v-row>
-      <car-reg-form has-bg-image></car-reg-form>
-      <index-reviews></index-reviews>
-      <index-faq></index-faq>
-    </v-row>  -->
-    <!-- <index-services></index-services> -->
+    </v-row> -->
   </v-container>
 </template>
 
@@ -67,8 +54,13 @@ import BaseTextSlider from "~/components/base-components/base-text-slider.vue";
 import IndexHowItWorks from "~/pages/__components/index-how-it-works.vue";
 import IndexHowWeWork from "~/pages/__components/index-how-we-work.vue";
 import IndexWelcomeGarage from "~/pages/__components/index-welcome-garage.vue";
+import IndexServiceIcons from "~/pages/__components/index-service-icons.vue";
+import IndexWhyChooseUs from "~/pages/__components/index-why-choose-us.vue";
+import IndexVehicleServiced from "~/pages/__components/index-vehicle-serviced.vue";
 import IndexWhatWeDo from "~/pages/__components/index-what-we-do.vue";
 import IndexOurBestWork from "~/pages/__components/index-our-best-work.vue";
+import IndexAutoRepair from "~/pages/__components/index-auto-repair.vue";
+import IndexTestimonials from "~/pages/__components/index-testimonials.vue";
 import IndexWhyWeAreBest from "~/pages/__components/index-why-we-are-best.vue";
 import IndexOurServices from "~/pages/__components/index-our-services.vue";
 import IndexCarParts from "~/pages/__components/index-car-parts.vue";
@@ -102,6 +94,11 @@ export default {
     IndexHowWeWork,
     IndexOurBestWork,
     IndexWhyWeAreBest,
+    IndexServiceIcons,
+    IndexWhyChooseUs,
+    IndexVehicleServiced,
+    IndexAutoRepair,
+    IndexTestimonials,
   },
 
   data: () => ({
@@ -393,7 +390,7 @@ export default {
 .mainsection {
     width: 100%;
     height: 100%;
-    background-color: #707172e6;
+    // background-color: #707172e6;
     // background-image: linear-gradient(to right, rgb(255, 255, 255) 38%, rgba(255, 255, 255, 0.9) 47%, rgba(255, 255,
     // 255, 0.2) 66%, rgba(255, 255, 255, 0) 70%);
 }
@@ -425,11 +422,10 @@ export default {
     text-align: center;
     color: #1e1313;
 }
-.mainsection {
+// .mainsection {
   
-    // background: linear-gradient(94deg, rgb(230 230 230 / 77%), #0da8c7);
-        background-color: #707172e6;
-}
+//         background-color: #707172e6;
+// }
 }
 
 </style>
