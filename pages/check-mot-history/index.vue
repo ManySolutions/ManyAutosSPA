@@ -166,6 +166,49 @@
           <v-expansion-panels popout>
             <v-expansion-panel class="icon">
               <v-expansion-panel-header class="card-header">
+                What are MOT checks?
+              </v-expansion-panel-header>
+              <v-expansion-panel-content eager class="card-header-body">
+                The checks carried out during the MOT are mandated by the government. 
+                They cover essential items such as the condition of the brakes. 
+                They also look at other items such as suspension and tyres. The list is not a full 
+                mechanical check of the vehicle but is an extensive list of items that must be checked/tested 
+                by the MOT tester.
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel class="icon">
+              <v-expansion-panel-header class="card-header">
+                Can I check my MOT online?
+              </v-expansion-panel-header>
+              <v-expansion-panel-content eager class="card-header-body">
+                Yes, you can. Simply use our online MOT checker and check your MOT online. 
+                You will receive all the information you need to check the MOT history of your vehicle. 
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel class="icon">
+              <v-expansion-panel-header class="card-header">
+                Can the police check the MOT of a vehicle?
+              </v-expansion-panel-header>
+              <v-expansion-panel-content eager class="card-header-body">
+                Yes, the police do not even need a PC or laptop to check your MOT. 
+                Most police cars are fitted with ANPR (Auto number plate recognition) cameras that instantly 
+                scan all vehicles that cross the path of the police car. 
+                The system will inform the police if you are driving with an expired MOT.
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel class="icon">
+              <v-expansion-panel-header class="card-header">
+                Where can I check MOT expiry date?
+              </v-expansion-panel-header>
+              <v-expansion-panel-content eager class="card-header-body">
+                Enter your reg on our system to check the MOT status of  your car.
+                 You will see your MOT history along with the dates your vehicle received the MOT tests.
+                  You will also see when your MOT will expire. You can use the same system to check when your
+                   MOT is due. We also have a feature to set up a reminder when it is time to get your MOT.
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel class="icon">
+              <v-expansion-panel-header class="card-header">
                 Do you do Class 7 MOTs?
               </v-expansion-panel-header>
               <v-expansion-panel-content eager class="card-header-body">
