@@ -60,12 +60,12 @@
           subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },
         {
-          avatar: 'https://static.manyautosltd.com/uploads/Oil-change-48x48.png',
+          avatar: 'https://static.manyautosltd.com/uploads/oil-change-2nd-option.png',
           title: 'FREE OIL CHANGE',
           subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },
         {
-          avatar: 'https://static.manyautosltd.com/uploads/engine-diagnostic-48x48.png',
+          avatar: 'https://static.manyautosltd.com/uploads/engine-diagnostics.png',
           title: 'ENGINE DIAGNOSTICS',
           subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },
@@ -80,7 +80,7 @@
           subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },
         {
-          avatar: 'https://static.manyautosltd.com/uploads/battery-repair-48x48.png',
+          avatar: 'https://static.manyautosltd.com/uploads/Car-battery-Repairs-2nd-Option.png',
           title: 'CAR BATTERY REPAIRS',
           subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },

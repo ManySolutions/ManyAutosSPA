@@ -7,8 +7,8 @@
         <v-col cols=12 sm=3 class='d-none d-lg-block'>
           <NuxtLink to="/">
             <v-img 
-              src="https://static.manyautosltd.com/uploads/Changed dimensions.png" 
-              max-width="250px"
+              src="https://static.manyautosltd.com/uploads/car-service-logo-for-desktop.png" 
+              max-width="300px"
             ></v-img>
           </NuxtLink>
         </v-col>
@@ -33,7 +33,7 @@
                 <span class='top-text text-capitalize fw-bold' style="color:black">
                   Call Us To Book
                 </span>
-                <span class='top-text-bottom' style="color:#ef0f3a">01189 876300</span>
+                <span class='top-text-bottom' style="color:#73767a">01189 876300</span>
               </span>
             </v-btn>
             <span class='d-none d-lg-inline-block'>

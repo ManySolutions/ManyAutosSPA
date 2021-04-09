@@ -12,7 +12,7 @@
               What would you like for your
             </span>
             <br>
-            <span class='text-primaryy' style="color:#0046e2;">
+            <span class='text-primaryy' style="color:#1e69b8;">
               {{ vehicleName }}
             </span>
             <br>
@@ -26,7 +26,7 @@
           <base-service-grid
             title='MOT & Servicing'
             btn-title='MOT & Servicing'
-            icon='MOT & Service icon (1).png'
+            icon='icon(MOT).png'
             url='./mot-and-servicing'
           >
             Book your MOT for<br>
@@ -43,7 +43,7 @@
           <base-service-grid
             title='Repairs'
             btn-title='Repair other parts'
-            icon='Car repair icon (1).png'
+            icon='icon(repair).png'
             url='./parts'
           >
             Get a quote for anyother repairs required for your car.
@@ -53,7 +53,7 @@
           <base-service-grid
             title='Diagnostic'
             btn-title='Diagnostic'
-            icon='icon diagnostic.png'
+            icon='icon(Disgnostic).png'
             url='./diagnostics'
           >
             Having problems? Book a diagnostic and we will 

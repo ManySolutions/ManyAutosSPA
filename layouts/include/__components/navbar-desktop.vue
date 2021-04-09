@@ -1,6 +1,6 @@
 <template>
   <v-sheet
-    color="#0046e2" 
+    color="primary" 
     dark
     elevation="3"
   >
@@ -8,7 +8,7 @@
       <v-row>
         <v-col class='p-0'>
           <v-app-bar 
-            color="#0046e2" 
+            color="primary" 
             dark
             elevation="0"
           >

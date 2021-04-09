@@ -21,7 +21,7 @@
           cols=12 
           md=6
         >
-          <span class='ma-si-price' style="color:#0046e2;">
+          <span class='ma-si-price' style="color:#1e69b8;">
             {{ currencySymbol }}
             {{ priceFormatted || '00.00' }}
           </span>
@@ -52,7 +52,7 @@
               <v-icon 
               color="primary"
               >
-              mdi-check-circle
+              mdi-check-circle-outline
               </v-icon>
               {{ i }}
             </li>

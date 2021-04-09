@@ -7,13 +7,13 @@
         <v-col class="section" cols='12' md="6" lg="4" order-md="3" order-lg="1">
           <div class="logo-footer1 ml-0 d-none d-md-block">
             <v-img 
-              src="https://static.manyautosltd.com/uploads/Changed dimensions.png" 
-              max-width="250px"
+              src="https://static.manyautosltd.com/uploads/car-service-logo-for-desktop.png" 
+              max-width="300px"
             ></v-img>
           </div>
           <div class="logo-footer2 ml-0 d-block d-md-none">
             <v-img 
-              src="https://static.manyautosltd.com/uploads/logo for mobile-01.png" 
+              src="https://static.manyautosltd.com/uploads/car-service-logo-for-Mobile.png" 
               max-width="250px"
             ></v-img>
           </div>
@@ -92,11 +92,11 @@
                   class='footer-lighter'
                 >
                   <v-list-item-icon>
-                    <v-icon v-text="item.icon" color="#0046e2"></v-icon>
+                    <v-icon v-text="item.icon" color="#1e69b8"></v-icon>
                   </v-list-item-icon>
                   <v-list-item-content>
-                    <v-list-item-title v-text="item.title" style="color:#0046e2"></v-list-item-title>
-                    <v-list-item-subtitle v-text='item.content' style="color:#0046e2"></v-list-item-subtitle>
+                    <v-list-item-title v-text="item.title" style="color:#1e69b8"></v-list-item-title>
+                    <v-list-item-subtitle v-text='item.content' style="color:#1e69b8"></v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
               </v-list-item-group>
@@ -203,13 +203,13 @@ export default {
 
 <style lang="scss" scoped>
 .footer-main{
-  background:#eff2f2;
+  background:#ffffff;
   margin-top: -12px;
   &::v-deep .v-list-item__icon:first-child {
     margin-right: 12px;
   }
   .footer-lighter {
-    background: white;
+    background: whitesmoke;
   }
   .logo-footer1{
     width: 300px;
@@ -240,7 +240,7 @@ export default {
       content: "";
       display: block;
       height: 2px;
-      background: #ef0f3a;
+      background: #73767a;
       position: absolute;
       bottom: 0px;
       width: 20%;
@@ -248,7 +248,7 @@ export default {
   }
 
   .footer-bottom {
-    background: white;
+    background: whitesmoke;
     padding-top: 0;
     padding-bottom: 0;
   }

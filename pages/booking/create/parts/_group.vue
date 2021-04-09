@@ -4,14 +4,14 @@
       <span class='font-weight-light'>
         Which
       </span>
-        <span style="color:#0046e2;">Exterior</span>
+        <span style="color:#1e69b8;">Exterior</span>
       <span class='font-weight-light'>
         part need to repaire
       </span>
       <br>
       <span class='font-weight-light'>For Your</span>
       <br>
-      <span class='text-primaryy' style="color:#0046e2;">
+      <span class='text-primaryy' style="color:#1e69b8;">
         {{ vehicleName }}
       </span>
     </template>

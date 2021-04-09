@@ -28,7 +28,7 @@
           class='text-center'
         >
           <img 
-            src="https://static.manyautosltd.com/uploads/logo for mobile-01.png" 
+            src="https://static.manyautosltd.com/uploads/car-service-logo-for-Mobile.png" 
             :alt="appTitle"
             class='logo'
             @click='$router.push("/")'

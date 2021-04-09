@@ -4,13 +4,13 @@
   >
     <h1 class='heading__title font-weight-300 text-center pb-10'>
       Book 
-      <strong class='font-weight-700' style="color:#0046e2;">
+      <strong class='font-weight-700' style="color:#1e69b8;">
         Servicing, Repairs, 
         <br>
         Diagnostic
       </strong>
       <span style='text-transform: initial'>or</span>
-      <strong class='font-weight-700' style="color:#0046e2;">MOT</strong>
+      <strong class='font-weight-700' style="color:#1e69b8;">MOT</strong>
       With {{ pageTitleName || 'Us Now' }}
     </h1>
     <car-reg-form-card id='servie-reg-form'></car-reg-form-card>
