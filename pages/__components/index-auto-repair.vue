@@ -110,7 +110,9 @@
     margin-top: 34px;
     color: #777;
   }
-
+.auto-repair-section .card-sec .white--text:hover{
+    opacity: 0.8;
+}
   .auto-repair-section .card-sec .card-1,.card-2,.card-3{
       padding: 0;
   }

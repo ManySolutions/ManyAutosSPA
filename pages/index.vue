@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="pt-0">
     <v-row>
-        <section class="main-section text-white" style="background-image: url(https://static.manyautosltd.com/uploads/mechanic-service-car-garage-is-check-list-cars.jpg)">
+        <section class="main-section text-white" style="background-image: url(https://static.manyautosltd.com/uploads/man-hand-car-white-background_800x310.jpg">
             <div class="mainsection" style="padding-top:80px; padding-bottom:80px;">
                 <v-container class="container pt-5 pb-5">
                     <v-row class="row">
@@ -42,9 +42,15 @@
      <v-row>
       <index-testimonials></index-testimonials>
     </v-row>
-   <!-- <v-row>
-      <index-why-we-are-best></index-why-we-are-best>
-    </v-row> -->
+   <v-row>
+      <index-company-overview></index-company-overview>
+    </v-row>
+    <v-row>
+      <car-reg-form has-bg-image></car-reg-form>
+    </v-row>
+   <v-row>
+      <index-our-mission></index-our-mission>
+    </v-row>
   </v-container>
 </template>
 
@@ -61,6 +67,8 @@ import IndexWhatWeDo from "~/pages/__components/index-what-we-do.vue";
 import IndexOurBestWork from "~/pages/__components/index-our-best-work.vue";
 import IndexAutoRepair from "~/pages/__components/index-auto-repair.vue";
 import IndexTestimonials from "~/pages/__components/index-testimonials.vue";
+import IndexCompanyOverview from "~/pages/__components/index-company-overview.vue";
+import IndexOurMission from "~/pages/__components/index-our-mission.vue";
 import IndexWhyWeAreBest from "~/pages/__components/index-why-we-are-best.vue";
 import IndexOurServices from "~/pages/__components/index-our-services.vue";
 import IndexCarParts from "~/pages/__components/index-car-parts.vue";
@@ -99,6 +107,8 @@ export default {
     IndexVehicleServiced,
     IndexAutoRepair,
     IndexTestimonials,
+    IndexCompanyOverview,
+    IndexOurMission,
   },
 
   data: () => ({
@@ -390,6 +400,7 @@ export default {
 .mainsection {
     width: 100%;
     height: 100%;
+    background-color: #807b7b94;
     // background-color: #707172e6;
     // background-image: linear-gradient(to right, rgb(255, 255, 255) 38%, rgba(255, 255, 255, 0.9) 47%, rgba(255, 255,
     // 255, 0.2) 66%, rgba(255, 255, 255, 0) 70%);

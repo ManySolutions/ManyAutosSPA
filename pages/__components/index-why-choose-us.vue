@@ -20,7 +20,7 @@
                           color="primary"
                           class="choose-icon pt-2"
                           >
-                              mdi-account-supervisor
+                              mdi-account-supervisor-outline
                           </v-icon>
                       </div>
                     </div>
@@ -42,7 +42,7 @@
                           color="primary"
                           class="choose-icon pt-2"
                           >
-                              mdi-tools
+                              mdi-wrench-outline
                           </v-icon>
                       </div>
                     </div>
@@ -64,7 +64,7 @@
                           color="primary"
                           class="choose-icon pt-2"
                           >
-                              mdi-tow-truck
+                              mdi-truck-outline
                           </v-icon>
                       </div>
                     </div>

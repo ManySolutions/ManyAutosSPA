@@ -204,6 +204,7 @@ export default {
 <style lang="scss" scoped>
 .footer-main{
   background:#eff2f2;
+  margin-top: -12px;
   &::v-deep .v-list-item__icon:first-child {
     margin-right: 12px;
   }
