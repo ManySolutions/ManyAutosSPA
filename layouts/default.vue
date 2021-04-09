@@ -28,9 +28,14 @@ export default {
 
   head: {
     script: [
+      // {
+      //   src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js',
+      //   async: true,
+      // },
       {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js',
+        src: 'https://static.manyautosltd.com/assets/smartsupp.js',
         async: true,
+        defer: true,
       },
     ]
   },
