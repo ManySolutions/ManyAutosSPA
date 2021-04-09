@@ -15,12 +15,7 @@
       <!-- /breadcrumb -->
 
       <template v-if="headingBg || headingBgStatic">
-        <div
-          class="bg-heading-overlay"
-          :style="`background-image: url(&quot;${
-            headingBgStatic || assets(headingBg)
-          }&quot;);`"
-        ></div>
+        <div class="bg-heading-overlay"></div>
       </template>
 
       <v-container>
@@ -300,10 +295,25 @@ export default {
   },
 
   mounted() {
-    this.$store.commit('settings/SET_REDIRECT', {
-      referrer: 'car-reg',
-      to: this.redirectTo
-    });
+    const {redirectTo, headingBg, headingBgStatic} = this;
+
+    if (redirectTo) {
+      this.$store.commit('settings/SET_REDIRECT', {
+        referrer: 'car-reg',
+        to: redirectTo
+      });
+    } else {
+      this.$store.commit('settings/RESET_REDIRECT');
+    }
+
+    if (headingBg || headingBgStatic) {
+      $(document).ready(() => {
+        $('.bg-heading-overlay').css(
+          'background-image',
+          `url('${this.assets(headingBg) || headingBgStatic}')`
+        )
+      })
+    }
   },
   
   head: {
