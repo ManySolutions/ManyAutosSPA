@@ -28,7 +28,7 @@
             <v-list-item-avatar 
               tile 
               size="60" 
-              >
+            >
             <v-img
               class="elevation-6"
               alt=""
@@ -40,7 +40,7 @@
                 <v-list-item-text 
                 class="inner-text"
                 >
-                {{item.subtitle}}
+                {{item.text}}
                 </v-list-item-text>
               </v-list-item-content>
             </v-list-item>
@@ -55,34 +55,34 @@
     data: () => ({
       items: [
         {
-          avatar: 'https://static.manyautosltd.com/uploads/car-audio-service-48x48.png',
+          avatar: 'https://static.manyautosltd.com/uploads/Audio.png',
           title: 'CAR AUDIO SERVICE',
-          subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
+          text: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },
         {
-          avatar: 'https://static.manyautosltd.com/uploads/oil-change-2nd-option.png',
+          avatar: 'https://static.manyautosltd.com/uploads/Oilchange(1).png',
           title: 'FREE OIL CHANGE',
-          subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
+          text: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },
         {
           avatar: 'https://static.manyautosltd.com/uploads/engine-diagnostics.png',
           title: 'ENGINE DIAGNOSTICS',
-          subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
+          text: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },
         {
-          avatar: 'https://static.manyautosltd.com/uploads/car-ac-recharge-48x48.png',
+          avatar: 'https://static.manyautosltd.com/uploads/AC-RECHARGE.png',
           title: 'CAR A/C RECHARGE',
-          subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
+          text: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },
         {
-          avatar: 'https://static.manyautosltd.com/uploads/sensor-callibration-48x48.png',
+          avatar: 'https://static.manyautosltd.com/uploads/sensor.png',
           title: 'PARKING SENSORS CALIBRATION',
-          subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
+          text: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },
         {
-          avatar: 'https://static.manyautosltd.com/uploads/Car-battery-Repairs-2nd-Option.png',
+          avatar: 'https://static.manyautosltd.com/uploads/Battery-Repairs.png',
           title: 'CAR BATTERY REPAIRS',
-          subtitle: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
+          text: `Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.`,
         },
       ],
     }),

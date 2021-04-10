@@ -98,11 +98,11 @@ export default {
 
   computed: {
     ...mapState('settings', ['redirect']),
-    getBgImage() {
-      return this.hasBgImage
-        ? `background-image: url(${this.assets("customer-v2/home-cover-bg.png")})`
-        : ''
-    },
+    // getBgImage() {
+    //   return this.hasBgImage
+    //     ? `background-image: url(${this.assets("customer-v2/home-cover-bg.png")})`
+    //     : ''
+    // },
     bgCls() {
       if (this.hasNoBg) return '';
 
@@ -196,7 +196,7 @@ export default {
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(15,116,136,.64);
+      background: #2a2b2d;
     }
     &:after {
       content: "";

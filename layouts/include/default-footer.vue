@@ -7,7 +7,7 @@
         <v-col class="section" cols='12' md="6" lg="4" order-md="3" order-lg="1">
           <div class="logo-footer1 ml-0 d-none d-md-block">
             <v-img 
-              src="https://static.manyautosltd.com/uploads/car-service-logo-for-desktop.png" 
+              src="https://static.manyautosltd.com/uploads/Variation.png" 
               max-width="300px"
             ></v-img>
           </div>

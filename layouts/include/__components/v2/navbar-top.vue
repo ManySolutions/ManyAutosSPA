@@ -7,7 +7,7 @@
         <v-col cols=12 sm=3 class='d-none d-lg-block'>
           <NuxtLink to="/">
             <v-img 
-              src="https://static.manyautosltd.com/uploads/car-service-logo-for-desktop.png" 
+              src="https://static.manyautosltd.com/uploads/Variation.png" 
               max-width="300px"
             ></v-img>
           </NuxtLink>

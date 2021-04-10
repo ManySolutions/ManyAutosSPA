@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="pt-0">
     <v-row>
-        <section class="main-section text-white" style="background-image: url(https://static.manyautosltd.com/uploads/man-hand-car-white-background_800x310.jpg">
+        <section class="main-section text-white" style="background-image: url(https://static.manyautosltd.com/uploads/man-hand-car-white-background_800x310.jpg)">
             <div class="mainsection" style="padding-top:80px; padding-bottom:80px;">
                 <v-container class="container pt-5 pb-5">
                     <v-row class="row">
