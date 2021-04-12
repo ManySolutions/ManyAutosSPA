@@ -83,7 +83,7 @@
                     >Check MOT history and current</span
                   >
                   <strong>MOT status</strong>
-                  <span style="font-weight: 200">with ManyAutos.co.uk</span>
+                  <span style="font-weight: 200">with ManyAutos</span>
                   <strong>free car check</strong>
                 </h2>
                 <p class="text-teal text-18 justify pb-5">

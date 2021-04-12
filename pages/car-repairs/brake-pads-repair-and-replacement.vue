@@ -189,7 +189,7 @@ export default {
       {
         hid: "og:url",
         property: "og:url",
-        content: process.env.APP_URL + '/car-repairs/brake-pads-repair-and-replacement',
+        content: process.env.APP_URL + '/brake-pads',
       },
       {
         hid: "og:image",

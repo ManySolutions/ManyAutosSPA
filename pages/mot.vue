@@ -117,7 +117,7 @@ export default {
     faqs: [
       {
         title: 'When is my MOT due?',
-        content: 'It is possible to forget the due date of your MOT. Now you can easily check if a car has an MOT certificate or when its MOT is due. You will require the car’s registration number to check the history of tests. Just enter the registration and benefit from our free service.',
+        content: 'It is possible to forget the due date of your MOT. Now you can <NuxtLink to="/check-mot-history">easily check</NuxtLink> if a car has an MOT certificate or when its MOT is due. You will require the car’s registration number to <NuxtLink to="/check-mot-history">check the history of tests</NuxtLink>. Just enter the registration and benefit from our free service.',
       },
       {
         title: 'How can you book an MOT?',

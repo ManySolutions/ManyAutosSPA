@@ -254,7 +254,7 @@ export default {
         {title: 'Brake Hose', url: '/brake-hose'},
         {title: 'Brake Master Cylinder', url: '/brake-master-cylinder'},
         {title: 'Brake Pad Sensor', url: '/brake-pad-sensor'},
-        {title: 'Brake Pads Repair & Replacement', url: '/car-repairs/brake-pads-repair-and-replacement'},
+        {title: 'Brake Pads Repair & Replacement', url: '/brake-pads'},
         {title: 'Brake Pipe', url: '/brake-pipe'},
         {title: 'Brake Service', url: '/brake-service'},
         {title: 'Brake Servo', url: '/brake-servo'},
