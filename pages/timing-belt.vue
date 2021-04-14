@@ -3,7 +3,6 @@
     title="Timing Belt Repair, Replacement and Service"
     sub-heading="Save your engine, book a service now."
     heading-bg-static='https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/timingbelt1.jpg'
-    heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
     box-title='Book your timing belt repair now'
     :faqs='faqs'
     faq-topic='How timing belt repair and replacement work with ManyAutos'

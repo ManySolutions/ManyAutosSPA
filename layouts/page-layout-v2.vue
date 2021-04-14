@@ -32,13 +32,15 @@
                 contain
               ></v-img>
             </div>
-            <div class='d-lg-block d-none'>
+            <div class='d-lg-block d-none'
+              :class='!headingImg ? "pt-15" : ""'
+            >
               <base-info-icons></base-info-icons>
             </div>
           </v-col>
           <v-col cols=12 lg=5 xl=4>
             <car-reg-form-card :title='boxTitle || "Book with us now"'></car-reg-form-card>
-            <div class='d-lg-none'>
+            <div class='d-lg-none pt-7'>
               <base-info-icons></base-info-icons>
             </div>
           </v-col>
@@ -310,7 +312,7 @@ export default {
       setTimeout(() => {
         $('.bg-heading-overlay').css(
           'background-image',
-          `url('${this.assets(headingBg) || headingBgStatic}')`
+          `url('${headingBgStatic || this.assets(headingBg)}')`
         )
       }, 300)
     }

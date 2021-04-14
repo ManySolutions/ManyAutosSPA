@@ -47,7 +47,7 @@
               type='submit'
               :loading='isLoading'
             >
-              {{ isMinDevice ? 'Fix' : 'Get instant quote' }}
+              {{ isMinDevice && !fullwidth ? 'Book' : 'Get instant quote' }}
             </v-btn>
           </v-col>
           <v-col
