@@ -15,27 +15,33 @@
       {{ notFoundMsg }}
     </v-alert>
     <p v-if='postcode'>
-      Showing result for: 
+      Select an address from the list below for: 
       <strong>
         {{ postcode }}
       </strong>
     </p>
-    <div class='entries-container' v-if='entries && entries.length'>
-      <v-list-item-group
-        v-model="model"
-      >
-        <v-list-item
-          v-for='(entry, i) in entries'
-          :key='i' 
+    <v-sheet 
+      v-if='entries && entries.length'
+      color='rgba(0, 0, 0, 0.06)'
+      rounded
+    >
+      <div class='entries-container' >
+        <v-list-item-group
+          v-model="model"
         >
-          <v-list-item-content>
-            <v-list-item-title>
-              {{ entry.formatted_address.join(' ') }}
-            </v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list-item-group>
-    </div>
+          <v-list-item
+            v-for='(entry, i) in entries'
+            :key='i' 
+          >
+            <v-list-item-content>
+              <v-list-item-title>
+                {{ entry.formatted_address.join(' ') }}
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list-item-group>
+      </div>
+    </v-sheet>
   </div>
 </template>
 
@@ -90,6 +96,7 @@ export default {
               return;
             }
 
+            this.notFoundMsg = null;
             this.entries = res.addresses;
             this.postcode = res.postcode;
             this.lat = res.latitude;
