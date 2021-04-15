@@ -153,7 +153,7 @@
                 <v-btn
                 color="primary"
                 large
-                class="mt-10 mb-10"
+                class="mt-10 mb-10 list-btn"
                 outlined
                 >
                 View Full List
@@ -171,12 +171,12 @@
   </div>
 </template>
 <style lang="scss" scoped>
-  .vehicle-serviced {
+.vehicle-serviced {
     background-color: #E5E5E5;
-  }
-  .row [class*=col-] {
+}
+.row [class*=col-] {
     padding: 0;
-  }
+}
 .vehicle-serviced .vehicle-service-1 img{
     vertical-align: bottom;
     height:100%;
@@ -251,4 +251,5 @@
     list-style-type: none;
     text-align: left;
   }
+
 </style>
