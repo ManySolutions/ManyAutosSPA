@@ -67,6 +67,7 @@
     <v-dialog
       v-model='cartDialog'
       max-width="400px"
+      transition="dialog-bottom-transition"
     >
       <client-only>
         <desktop-cart hasContinueBtn @continue='cartDialog=false'></desktop-cart>

@@ -1,5 +1,5 @@
 <template>
-  <div class='mini-cart'>
+  <div class='mini-cart' v-if='!isCartEmpty'>
     <template>
       <v-btn
         color="secondary"
@@ -7,19 +7,34 @@
         fixed
         bottom
         right
-        fab
         @click='drawer = true'
+        x-large
+        rounded
+        class='pl-1 btn-mini-cart text-capitalize'
       >
         <v-badge
           color="primary"
           overlap
           :content="cartCount"
           :value="cartCount"
-          offset-x='-10'
-          offset-y='-10'
+          offset-x='-5'
+          offset-y='10'
         >
-          <v-icon class='arrow-anim arrow-slide-up'>mdi-cart</v-icon>
-          <v-icon class='arrow-anim-next arrow-slide-down'>mdi-arrow-right</v-icon>
+          <v-btn
+            color="secondary darken-1"
+            dark
+            bottom
+            right
+            fab
+            @click='drawer = true'
+            small
+            elevation="0"
+            class='mr-2'
+          >
+            <v-icon class='arrow-anim arrow-slide-up'>mdi-cart</v-icon>
+            <v-icon class='arrow-anim-next arrow-slide-down'>mdi-arrow-right</v-icon>
+          </v-btn>
+          {{ btnText }}
         </v-badge>
       </v-btn>
 
@@ -28,6 +43,7 @@
         fixed
         bottom
         temporary
+        class='mini-cart-drawer'
       >
         <v-alert
           color='red'
@@ -48,7 +64,7 @@
           <v-card-title>
             Your services list
           </v-card-title>
-          <v-card-text>
+          <v-card-text class='mc-text-container'>
             <index-selected-payment-plan></index-selected-payment-plan>
             <v-skeleton-loader
               v-if='isCartLoading'
@@ -149,7 +165,7 @@
             <installment-plan-details v-if='hasPaymentPlan'></installment-plan-details>
             <!-- installments -->
           </v-card-text>
-          <v-card-actions>
+          <v-card-actions class='mc-actions'>
             <v-skeleton-loader
               v-if='isCartLoading'
               type='button'
@@ -193,6 +209,7 @@ export default {
     switchIcon: 10000,
     beforeCartSize: 0,
     showNextIco: false,
+    interval: null,
   }),
 
   computed: {
@@ -221,6 +238,14 @@ export default {
     hasBookNowBtn() {
       return this.$route.name != "booking-create-collection-info";
     },
+
+    btnText() {
+      if (this.$route.name == 'booking-create-collection-info') {
+        return 'Services List'
+      }
+
+      return 'Book Now';
+    }
   },
 
   watch: {
@@ -250,13 +275,19 @@ export default {
 
         this.switchIcon = 10000;
       }
+    },
+
+    isCartEmpty (isCartEmpty) {
+      if (isCartEmpty) this.drawer = false;
+    },
+
+    $route() {
+      this.bootstrap();
     }
   },
 
   mounted() {
-    setInterval(() => {
-      this.showNextIco = !this.showNextIco
-    }, this.switchIcon);
+    this.bootstrap();
   },
 
   methods: {
@@ -265,6 +296,16 @@ export default {
     handleRemove(id) {
       this.$store.dispatch('booking/removeFromCart', id)
     },
+
+    bootstrap() {
+      if ( !(this.$route.name == 'booking-create-collection-info') ) {
+        this.interval = setInterval(() => {
+          this.showNextIco = !this.showNextIco
+        }, this.switchIcon);
+      } else {
+        clearInterval(this.interval);
+      }
+    }
   }
 }
 </script>
@@ -293,5 +334,26 @@ i.arrow-slide-down {
 }
 i.arrow-anim {
   font-size: 0px;
+}
+.mini-cart-drawer {
+  z-index: 10000000000;
+  max-height: 60%;
+}
+.btn-mini-cart {
+  z-index: 1;
+  @media (min-width: 768px) {
+    bottom: 26px;
+  }
+}
+.mc-actions {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background: white;
+  border-top: 1px solid #e8e8e8;
+}
+.mc-text-container {
+  padding-bottom: 80px;
 }
 </style>

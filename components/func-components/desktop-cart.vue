@@ -136,7 +136,7 @@
           @click='$emit("continue")'
           class='text-capitalize font-weight-500 pl-2'
         >
-          Continue
+          Not Now
         </v-btn>
       </v-card-actions>
     </v-card>
