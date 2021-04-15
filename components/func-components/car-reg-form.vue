@@ -159,6 +159,7 @@ export default {
             if (!hasNoRedirect) {
               if (redirect.referrer == 'car-reg') {
                 this.$router.push(redirect.to);
+                this.$store.commit('booking/RESET_REDIRECT');
               } else {
                 this.$router.push('/booking/create/services');
               }
