@@ -11,6 +11,7 @@
     :listMenu='listMenu'
     redirect-to='/booking/create/mot-and-servicing#INTERIM_SERVICE'
     :has-service-pages='false'
+    :breadcrumbs='breadcrumbs'
   >
     <template #overview>
       <p>
@@ -41,6 +42,13 @@
         that a service is due. To be able to reset this warning, either an Interim or Full Service is required, 
         depending on the needs of the vehicle. If you are looking for an
         <strong>affordable car repair garage</strong>, then you have come to the right place.
+      </p>
+      <h2 class="font-weight-600">
+        Car service near me
+      </h2>
+      <p>
+        Looking for car service near you? Simply enter your details on our system, 
+        receive a quote and a local garage will collect your vehicle and carry out your repairs.
       </p>
       <h2 class="font-weight-600">
         What is an interim service?
@@ -177,6 +185,9 @@ export default {
       },
     ],
     listMenu: carServicePages,
+    breadcrumbs: [
+      { to: '/car-service', exact: true, text: 'Car Services'}
+    ]
   }),
 
   mounted() {

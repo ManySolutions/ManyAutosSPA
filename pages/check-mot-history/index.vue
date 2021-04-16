@@ -2,17 +2,31 @@
   <div class="home-sec-gaps">
     <div class="first-section">
       <v-container>
+        <v-row>
+          <v-col cols="12" class="text-left">
+            <v-breadcrumbs :items="breadcrumbs" class="p-0">
+              <template v-slot:divider>
+                <v-icon>mdi-chevron-right</v-icon>
+              </template>
+            </v-breadcrumbs>
+          </v-col>
+        </v-row>
+      </v-container>
+      <!-- /breadcrumb -->
+
+      <v-container>
         <v-row align="center">
           <v-col cols="12" md="4" class="mot-section pt-15 mb-12">
             <div class="d-inline-block">
               <h1 class="mb-8 d-block heading-title">
-                <span style="font-weight: 200">Check a car's</span>
-                <strong>MOT status</strong
-                ><span style="font-weight: 200"> & </span>
-                <strong>MOT history</strong>
+                <strong>Check MOT History</strong>
+                <span style="font-weight: 200">&</span>
+                <strong>Check MOT Status</strong>
               </h1>
               <p class="text-teal text-18 justify pb-8">
-                Curious about your MOT due date? Eager to know the MOT history
+                Curious about your MOT due date? Eager to know the 
+                <strong>MOT history</strong>
+                or <strong>MOT status</strong>
                 of your next purchase? You took the right decision by choosing
                 us.
               </p>
@@ -25,7 +39,7 @@
                 </v-text-field>
                 <div class="text-center button">
                   <v-btn
-                    class="subscribe-btn"
+                    class="subscribe-btn text-capitalize"
                     color="secondary"
                     dark
                     x-large
@@ -33,7 +47,7 @@
                     :loading="isLoading"
                     type="submit"
                   >
-                    Check Mot & Details
+                    Check Car MOT
                   </v-btn>
                 </div>
               </v-form>
@@ -44,11 +58,12 @@
             md="8"
             class="image-section text-center my-auto d-none d-md-block"
           >
-            <img
-              src="https://static.manyautosltd.com/uploads/Car battery & its working components.png"
-              alt="MOT Desktop"
+            <v-img
+              src='https://static.manyautosltd.com/uploads/Car battery & its working components.png'
+              alt='Check MOT History'
               class="center"
-            />
+              width="100%"
+            ></v-img>
           </v-col>
         </v-row>
       </v-container>
@@ -68,7 +83,7 @@
                     >Check MOT history and current</span
                   >
                   <strong>MOT status</strong>
-                  <span style="font-weight: 200">with ManyAutos.co.uk</span>
+                  <span style="font-weight: 200">with ManyAutos</span>
                   <strong>free car check</strong>
                 </h2>
                 <p class="text-teal text-18 justify pb-5">
@@ -76,7 +91,7 @@
                   to give the registration number and we will provide you with
                   all the relevant information regarding the vehicle you’ve
                   searched for. We can tell what you need to know. Do you want
-                  to know the expiry date of your Mot? Want to know why a
+                  to know the expiry date of your MOT? Want to know why a
                   vehicle failed the MOT? No problem, we will answer all your
                   queries.
                 </p>
@@ -98,7 +113,7 @@
                   without an MOT you could be fined up to £1000. Buying a car
                   without knowing its history could lead to several expensive
                   repairs. You can avoid all this hassle and complications with
-                  our online <strong>MOT check</strong>.
+                  our <strong>Check MOT online</strong> service.
                 </p>
               </div>
             </v-col>
@@ -149,6 +164,49 @@
         </v-col>
         <v-col cols="12" class="faq-section">
           <v-expansion-panels popout>
+            <v-expansion-panel class="icon">
+              <v-expansion-panel-header class="card-header">
+                What are MOT checks?
+              </v-expansion-panel-header>
+              <v-expansion-panel-content eager class="card-header-body">
+                The checks carried out during the MOT are mandated by the government. 
+                They cover essential items such as the condition of the brakes. 
+                They also look at other items such as suspension and tyres. The list is not a full 
+                mechanical check of the vehicle but is an extensive list of items that must be checked/tested 
+                by the MOT tester.
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel class="icon">
+              <v-expansion-panel-header class="card-header">
+                Can I check my MOT online?
+              </v-expansion-panel-header>
+              <v-expansion-panel-content eager class="card-header-body">
+                Yes, you can. Simply use our online MOT checker and check your MOT online. 
+                You will receive all the information you need to check the MOT history of your vehicle. 
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel class="icon">
+              <v-expansion-panel-header class="card-header">
+                Can the police check the MOT of a vehicle?
+              </v-expansion-panel-header>
+              <v-expansion-panel-content eager class="card-header-body">
+                Yes, the police do not even need a PC or laptop to check your MOT. 
+                Most police cars are fitted with ANPR (Auto number plate recognition) cameras that instantly 
+                scan all vehicles that cross the path of the police car. 
+                The system will inform the police if you are driving with an expired MOT.
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel class="icon">
+              <v-expansion-panel-header class="card-header">
+                Where can I check MOT expiry date?
+              </v-expansion-panel-header>
+              <v-expansion-panel-content eager class="card-header-body">
+                Enter your reg on our system to check the MOT status of  your car.
+                 You will see your MOT history along with the dates your vehicle received the MOT tests.
+                  You will also see when your MOT will expire. You can use the same system to check when your
+                   MOT is due. We also have a feature to set up a reminder when it is time to get your MOT.
+              </v-expansion-panel-content>
+            </v-expansion-panel>
             <v-expansion-panel class="icon">
               <v-expansion-panel-header class="card-header">
                 Do you do Class 7 MOTs?
@@ -224,6 +282,18 @@ export default {
   },
 
   data: () => ({
+    breadcrumbs: [
+      {
+        text: "Home",
+        to: "/",
+        exact: true,
+      },
+      {
+        text: "Check MOT History",
+        to: '/check-mot-history',
+        exact: true,
+      },
+    ],
     carReg: "",
     isLoading: false,
   }),
@@ -243,66 +313,66 @@ export default {
   },
 
   head: {
-    title: "MOT Car Check | ManyAutos LTD",
+    title: "Check MOT History | Check MOT Status | ManyAutosLTD",
 
-    // meta: [
-    //   {
-    //     hid: 'description', name: 'description',
-    //     content: 'Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300.'
-    //   },
-    //   {
-    //     name: 'keywords',
-    //     content: 'many autos ltd automotive service,car services,full car service,garage service'
-    //   },
-    //   {
-    //     property: "og:title",
-    //     content: "About Us | ManyAutos LTD"
-    //   },
-    //   {
-    //     property: "og:type",
-    //     content: "website"
-    //   },
-    //   {
-    //     property: "og:url",
-    //     content: URL
-    //   },
-    //   {
-    //     property: "og:image",
-    //     content: "logo-default.png"
-    //   },
-    //   {
-    //     property: "og:site_name",
-    //     content: "ManyAutos LTD"
-    //   },
-    //   {
-    //     hid: 'og:description',  property: 'og:description',
-    //     content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
-    //   },
-    //   {
-    //     name: "twitter:card",
-    //     content: "summary"
-    //   },
-    //   {
-    //     name: "twitter:title",
-    //     content: "About Us | ManyAutos LTD"
-    //   },
-    //   {
-    //     name: "twitter:description",
-    //     content: "Many Autos LTD, we took over Many Autos in 2001 and the business has developed and grown since then. Call us right now 01189 876300."
-    //   },
-    //   {
-    //     name: "twitter:image",
-    //     content: "logo-default.png"
-    //   },
-    //   {
-    //     itemprop: "image",
-    //     content: "logo-default.png"
-    //   },
-    //   {
-    //     property: "og:type",
-    //     content: "business.business"
-    //   },
-    // ]
+    meta: [
+      {
+        hid: 'description', name: 'description',
+        content: 'Check your MOT history and status online now for free. Quickly and easily check your MOT expiry and check MOT advisories in one place. '
+      },
+      {
+        name: 'keywords',
+        content: 'check mot, check mot history, check car mot, check mot status, check mot online, check mot uk, check mot date, check mot expiry'
+      },
+      {
+        property: "og:title",
+        content: "Check MOT History | Check MOT Status | ManyAutosLTD"
+      },
+      {
+        property: "og:type",
+        content: "website"
+      },
+      {
+        property: "og:url",
+        content: process.env.APP_URL + '/check-mot-history'
+      },
+      {
+        property: "og:image",
+        content: "https://static.manyautosltd.com/uploads/car-mot-tes-image.png"
+      },
+      {
+        property: "og:site_name",
+        content: "ManyAutos LTD"
+      },
+      {
+        hid: 'og:description',  property: 'og:description',
+        content: "Check your MOT history and status online now for free. Quickly and easily check your MOT expiry and check MOT advisories in one place. "
+      },
+      {
+        name: "twitter:card",
+        content: "summary"
+      },
+      {
+        name: "twitter:title",
+        content: "Check MOT History | Check MOT Status | ManyAutosLTD"
+      },
+      {
+        name: "twitter:description",
+        content: "Check your MOT history and status online now for free. Quickly and easily check your MOT expiry and check MOT advisories in one place. "
+      },
+      {
+        name: "twitter:image",
+        content: "https://static.manyautosltd.com/uploads/car-mot-tes-image.png"
+      },
+      {
+        itemprop: "image",
+        content: "https://static.manyautosltd.com/uploads/car-mot-tes-image.png"
+      },
+      {
+        property: "og:type",
+        content: "business.business"
+      },
+    ]
   },
 };
 </script>

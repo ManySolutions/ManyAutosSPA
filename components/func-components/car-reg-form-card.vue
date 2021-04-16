@@ -107,6 +107,7 @@ export default {
 
             if (redirect.referrer == 'car-reg') {
               this.$router.push(redirect.to);
+              this.$store.commit('settings/RESET_REDIRECT');
             } else {
               this.$router.push('/booking/create/services');
             }

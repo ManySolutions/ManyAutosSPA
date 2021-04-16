@@ -55,48 +55,35 @@
         </ul>
       </div>
 
-      <v-btn
-        v-if='isInCart'
-        text
-        :color='!isHover ? "success" : "error"'
-        small
-        class='mt-10'
-        @mouseover="isHover = true"
-        @click="handleRemove()"
-        @mouseleave="isHover = false"
-        :loading='isLoading'
-        :disabled='isCartLoading'
-      >
-        <v-icon class='mr-2' small>
-          {{ isHover ? 'mdi-close-circle' : 'mdi-check-circle-outline' }}
-        </v-icon>
-        <strong>
-          Added in cart
-        </strong>
-      </v-btn>
-      <v-btn
-        v-else
-        color='primary'
-        :block='isMinDevice'
-        large
-        class='mt-5'
-        :loading='isLoading'
-        @click='handleAdd'
-        :disabled='isCartLoading'
-      >
-        <strong>
-          Add to services
-        </strong>
-      </v-btn>
+      <btn-add-service
+        :id='id'
+        :price='price'
+        :title='title'
+        @added='handleAdded'
+        cls='mt-10'
+      ></btn-add-service>
     </div>
+
+    <v-dialog
+      v-model='cartDialog'
+      max-width="400px"
+      transition="dialog-bottom-transition"
+    >
+      <client-only>
+        <desktop-cart hasContinueBtn @continue='cartDialog=false'></desktop-cart>
+      </client-only>
+    </v-dialog>
   </div>
 </template>
 
 <script>
 import {mapState, mapGetters} from 'vuex';
 import { fbqAddToCart } from '~/api/fbq';
+import btnAddService from '../func-components/btn-add-service.vue';
+import DesktopCart from '../func-components/desktop-cart.vue';
 
 export default {
+  components: { btnAddService, DesktopCart },
   props: [
     'title', 'price', 'id', 'description', 'btntext',
     'ind', 'loading'
@@ -106,6 +93,7 @@ export default {
     currencySymbol: process.env.CURRENCY_SYMBOL,
     isLoading: false,
     isHover: false,
+    cartDialog: false,
   }),
   computed: {
     ...mapState('booking', ['isCartLoading', 'modelId']),
@@ -150,6 +138,12 @@ export default {
 
       this.$store.dispatch('booking/removeFromCart', this.id)
     },
+
+    handleAdded() {
+      if (this.$device.isMobile || this.isDevice.xs) {
+        this.cartDialog = true;
+      }
+    }
   },
 }
 </script>

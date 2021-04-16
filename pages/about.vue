@@ -34,9 +34,9 @@
       <p class="margin-bottom-10 text-justify text-teal">This website is owned and operated by <strong>ManyAutos</strong>, which is
         incorporated in England and Wales with registered number 09933100 whose registered address is 12 Elk Path, RG7
         1WE The registered VAT number is 251875292.</p>
-      <p>You can submit any complaints or contact us by using the following details</p>
+      <p>You can <NuxtLink to='/contact'>submit any complaints</NuxtLink> or contact us by using the following details</p>
       <ul>
-        <li>Email: info@manyautosltd.com</li>
+        <li>Email: <a href="mailto:info@manyautosltd.com">info@manyautosltd.com</a></li>
         <li>Address: 12 Elk Path, RG7 1WE</li>
       </ul>
       </div>
@@ -126,10 +126,10 @@ export default {
 
 <style lang="scss" scoped>
 h2{
-    color: #00b4d8;
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin-top: 40px;
+  margin-bottom: 17px;
+  font-size: 27px;
+  font-family: "Open Sans", sans-serif;
+  color: #00b4d8;
 }
 </style>

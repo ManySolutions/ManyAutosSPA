@@ -1,14 +1,21 @@
 <template>
   <div class="page static-page home-sec-gaps pt-0 pb-0" :class="cls">
     <div class="static-page-heading" style="">
+      <v-container v-if='breadcrumbsList.length' class='static-page-breadcrumb'>
+        <v-row>
+          <v-col cols="12" class="text-left">
+            <v-breadcrumbs :items="breadcrumbsList" class="p-0" dark>
+              <template v-slot:divider>
+                <v-icon color='white'>mdi-chevron-right</v-icon>
+              </template>
+            </v-breadcrumbs>
+          </v-col>
+        </v-row>
+      </v-container>
+      <!-- /breadcrumb -->
+
       <template v-if="headingBg || headingBgStatic">
-        <div
-          class="bg-heading-overlay"
-          :style="`background-image: url(&quot;${
-            headingBgStatic || assets(headingBg)
-          }&quot;);`"
-        ></div>
-        <img :src="headingBgStatic" :alt="title" class="d-none" />
+        <div class="bg-heading-overlay"></div>
       </template>
 
       <v-container>
@@ -17,15 +24,23 @@
             <h1>{{ subTitle || title }}</h1>
             <h4 v-if="subHeading" class='page-sub-heading'>{{ subHeading }}</h4>
             <div v-if='headingImg' class='text-center d-none d-lg-block'>
-              <img :src="headingImg" :alt="title" class='page-heading-img'>
+              <v-img 
+                :src="headingImg" 
+                :alt="title" 
+                class='page-heading-img'
+                max-height='260px'
+                contain
+              ></v-img>
             </div>
-            <div class='d-lg-block d-none'>
+            <div class='d-lg-block d-none'
+              :class='!headingImg ? "pt-15" : ""'
+            >
               <base-info-icons></base-info-icons>
             </div>
           </v-col>
           <v-col cols=12 lg=5 xl=4>
             <car-reg-form-card :title='boxTitle || "Book with us now"'></car-reg-form-card>
-            <div class='d-lg-none'>
+            <div class='d-lg-none pt-7'>
               <base-info-icons></base-info-icons>
             </div>
           </v-col>
@@ -260,13 +275,47 @@ export default {
       type: Boolean,
       default: true,
     },
+    breadcrumbs: Array
+  },
+
+  computed: {
+    breadcrumbsList() {
+      const {breadcrumbs} = this;
+
+      if (!breadcrumbs) return [];
+
+      return [
+        {
+          to: '/',
+          text: 'Home',
+          exact: true,
+        },
+
+        ...breadcrumbs
+      ];
+    }
   },
 
   mounted() {
-    this.$store.commit('settings/SET_REDIRECT', {
-      referrer: 'car-reg',
-      to: this.redirectTo
-    });
+    const {redirectTo, headingBg, headingBgStatic} = this;
+
+    if (redirectTo) {
+      this.$store.commit('settings/SET_REDIRECT', {
+        referrer: 'car-reg',
+        to: redirectTo
+      });
+    } else {
+      this.$store.commit('settings/RESET_REDIRECT');
+    }
+
+    if (headingBg || headingBgStatic) {
+      setTimeout(() => {
+        $('.bg-heading-overlay').css(
+          'background-image',
+          `url('${headingBgStatic || this.assets(headingBg)}')`
+        )
+      }, 300)
+    }
   },
   
   head: {
@@ -448,5 +497,13 @@ export default {
 .faq-right-reg {
     max-width: 530px;
     margin: auto;
+}
+
+.static-page-breadcrumb {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transform: translateX(-50%);
+    left: 50%;
 }
 </style>

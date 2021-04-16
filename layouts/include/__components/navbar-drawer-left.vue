@@ -98,8 +98,10 @@ export default {
     menu: [
       {title: 'Home', url: '/'},
       {title: 'Book Car MOT', url: '/mot'},
+      {title: 'Check MOT History', url: '/check-mot-history'},
       {title: 'Book Your Car Service', url: '/car-service'},
       {title: 'Book Your Car Repair', url: '/car-repairs'},
+      {title: 'Book Car Diagnostics', url: '/car-diagnostics'},
       {title: 'All Car Services', url: null, children: [
         {title: 'Audi Car Service', url: '/audi-service'},
         {title: 'BMW Car Service', url: '/BMW-service'},
@@ -140,7 +142,7 @@ export default {
         textColor: 'primary'
       },
       { 
-        title: "Covid19 Car Repair", 
+        title: "Covid19 Installment Plan", 
         url: "/car-repair-during-covid-19", 
         btn: true,
         rounded: true, 

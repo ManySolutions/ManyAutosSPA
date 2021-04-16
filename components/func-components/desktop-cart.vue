@@ -115,9 +115,10 @@
       </v-list-item>
 
       <v-card-actions>
+        <v-spacer v-if='hasContinueBtn'></v-spacer>
         <v-btn
           color='secondary'
-          block
+          :block='!hasContinueBtn'
           large
           to='/booking/create/collection-info'
           v-if='hasBookNowBtn'
@@ -127,6 +128,15 @@
             Book Now
           </strong>
           <v-icon>mdi-chevron-right</v-icon>
+        </v-btn>
+        <v-btn
+          v-if='hasContinueBtn'
+          color='primary'
+          text
+          @click='$emit("continue")'
+          class='text-capitalize font-weight-500 pl-2'
+        >
+          Not Now
         </v-btn>
       </v-card-actions>
     </v-card>
@@ -140,6 +150,9 @@ import InstallmentPlanDetails from './installment-plan-details.vue';
 
 export default {
   components: { indexSelectedPaymentPlan, InstallmentPlanDetails },
+  props: {
+    hasContinueBtn: Boolean,
+  },
   data: () => ({
     currencySymbol: process.env.CURRENCY_SYMBOL,
   }),

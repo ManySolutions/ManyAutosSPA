@@ -11,12 +11,6 @@
           <div v-html='req.description'></div>
         </v-col>
         <v-col cols=12 md=4 xl=3>
-          <div>
-            <div class="taggbox-container" style=" width:100%;height:100%;overflow: auto;margin-bottom:30px;">
-              <div class="taggbox-socialwall" data-wall-id="52496" view-url="https://widget.taggbox.com/52496"> </div>
-              <!-- <script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script> -->
-            </div>
-          </div>
           <v-card elevation="2" class='card-sticky'>
             <v-card-title>
               Book your service now
@@ -37,7 +31,6 @@
 <script>
 import CarRegForm from '~/components/func-components/car-reg-form.vue';
 import pageLayout from '~/layouts/page-layout.vue'
-import $ from 'jquery';
 
 export default {
   components: { pageLayout, CarRegForm },
@@ -49,12 +42,6 @@ export default {
   },
 
   mounted() {
-    $.ajax({
-        url: 'https://widget.taggbox.com/embed.min.js',
-        dataType: 'script',
-        // success: callback,
-        async: true
-    });
   },
 
   head() {

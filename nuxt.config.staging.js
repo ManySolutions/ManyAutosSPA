@@ -18,12 +18,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [
-      {
-        src: 'https://static.manyautosltd.com/assets/smartsupp.js',
-        async: true,
-      },
-    ]
+    script: []
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

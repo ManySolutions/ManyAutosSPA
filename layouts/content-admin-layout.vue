@@ -114,6 +114,11 @@
             { title: 'Create New', url: '/blogs/create' },
             { title: 'Trash', url: '/blogs/trash' },
           ] },
+          { title: 'Pages', icon: 'mdi-view-dashboard', children: [
+            { title: 'View All', url: '/pages/list' },
+            { title: 'Create New', url: '/pages/create' },
+            { title: 'Trash', url: '/pages/trash' },
+          ] },
         ],
         right: null,
       }
