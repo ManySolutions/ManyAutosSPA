@@ -1,256 +1,318 @@
 <template>
-  <page-layout title='Air Filter - Air Filter Replacement' heading-bg='customer-v2/static-pages/allpics/airfilterreplacement1 .jpg'>
-    <div class="container">
-      <div class="row">
-        <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
-          <div class="row">
-            <div class="col-12">
-              <p class="text-teal text-18 justify">Air filters prevent dirt and other materials from getting into
-                vehicles™ engines and should be changed or services annually to ensure trouble-free engine function.
-                Forgetting to change or service the air filters on your car can cause airborne debris such as leaves and
-                dust to find their way into the engine. This grime can then mix with the oil, which, when moved around
-                the engine, can slowly wear away engine components due to its abrasive nature. If left for a while, a
-                clogged and useless air filter can cause serious damage to your engine, reducing its performance and
-                costing you more money than the cost of a filter.</p>
-            </div>
-          </div>
-          <v-expansion-panels popout>
-            <v-expansion-panel  class="icon">
-              <v-expansion-panel-header class="card-header">
-                How often should you change your air filter in your car?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                The engine air filter should be replaced between 15,000 and 30,000 miles, depending on driving
-                conditions. If you drive on unpaved roads, it needs to be changed more often. If you don't drive a lot,
-                an air filter should be replaced at least every 3 years, as with age it becomes brittle.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                What happens if you dont change the air filter in your car?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                If your air filter gets too dirty or clogged, your engine won't be able to suck enough air into the
-                combustion chambers. The engine will then run rich (i.e. too much gas and not enough air). When this
-                happens, your car will lose power and run roughly. Your Check Engine light also may come on.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                What does a bad air filter cause?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                A dirty air filter prevents the necessary volume of clean air from reaching the engine which affects the
-                emission control systems of the car, reducing air flow and causing a too rich air-fuel mixture which can
-                foul the spark plugs. Fouled spark plugs can create an engine miss fire, rough idle and even starting
-                problems.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                How do I know if my air filter needs changing?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify">Make sure you know the warning signs of a failing filter, so you
-                  can have a better sense of when it should be replaced.</p>
-                <ul class="list">
-                  <li>Fuel Mileage. </li>
-                  <li>Misfiring. </li>
-                  <li>Unusual Engine Sounds. </li>
-                  <li>Service Engine Light.</li>
-                  <li>Reduced Horsepower.</li>
-                  <li>Black Smoke or Flames Exiting the Exhaust. </li>
-                  <li>Fuel Smell.</li>
-                </ul>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                What will a dirty air filter do to your car?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                When the air filter is blocked with dust and grime, air flow decreases, and clean oxygen can't mix with
-                the fuel. The fuel then becomes too rich, putting unnecessary stress on the engine. Gradually, you'll
-                notice your car start to drive rough. Your check engine light may also turn on.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel  class="icon">
-              <v-expansion-panel-header class="card-header">
-                Do car air filters need to be replaced?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                Your car's engine air filter should be replaced when it gets dusty or dirty enough. But don't let a
-                mechanic convince you to replace it too frequently. Over time, your car's engine air filter collects
-                dirt and debris even bugs and eventually needs to be replaced.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Does a new air filter improve car performance?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                In addition, changing a clogged air filter can potentially increase acceleration by 6 to 11 percent on
-                modern fuel-injected cars. Regardless of the exact figures, it is obvious that a clean air filter
-                improves air flow to the engine and increases engine performance and Fuel mileage.
+  <page-layout-v2
+    title="Air Filter Replacement"
+    sub-heading="Keep your car safe, book a service now!"
+    heading-bg='customer-v2/static-pages/allpics/airfilterreplacement1 .jpg'
+    heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
+    box-title='Book your air filter now'
+    :faqs='faqs'
+    faq-topic='How air filter replacement works with ManyAutos'
+    blog-topic='Things you should know about an Air Filter'
+    :list-menu='listMenu'
+    redirect-to='/booking/create/parts'
+    :has-repair-pages='false'
+  >
+    <template #overview>
+      <p>
+        The air filter is one of the many components on a vehicle that requires replacement with time. Although it might
+        not seem like something huge, it plays a major part in the proper functioning of your vehicle. Here at
+        Manyautos, we treat every repair and replacement with the same enthusiasm and care. Our professionals will take
+        a look at your vehicle and let you know if the air filter needs to be replaced. We only use authentic equipment
+        and parts for the replacements. . Our professionals will take a look at your vehicle and let you know if the air
+        filter needs to be replaced. We only use authentic equipment and parts for the replacements.
+      </p>
+    </template>
+    <template #blog>
+      <h2 class="font-weight-600">
+        What are the common signs of a clogged air filter?
+      </h2>
+      <p>
+        Common signs of a clogged and dirty air filter are:
+      </p>
+      <ul>
+        <li>Reduced fuel economy</li>
+        <li>A Misfiring engine</li>
+        <li>Weird and unusual engine sounds</li>
+        <li>The check engine light comes on</li>
+        <li>The air filter looks dirty</li>
+        <li>Experiences reduced horsepower</li>
+        <li>The smell of gasoline when starting the car</li>
+      </ul>
+      <h2 class="font-weight-600">
+       What happens if you don't change the air filter in a car?
+      </h2>
+      <p>
+          The first thing that will happen is your check engine light will turn on. It will not cause extreme damage but
+          if you ignore the air filter for too long, it will cause the engine to stop running. The dust and debris from
+          outside build up with time and cause damage to the combustion chamber. The engine would not be able to suck
+          enough air into the combustion chambers and the engine will run rich (i.e. more gas and less air).
+      </p>
+      <h2 class="font-weight-600">
+        What is the importance of replacing air filter?
+      </h2>
+      <strong>A dirty filter increases the maintenance costs</strong>
+      <p>
+        The damage done by a neglected filter will cause the car to break down and the repair cost would be way more
+        than the price of an air filter. If you pay attention to the cleaning and maintenance of the small parts of your
+        car, then you wouldn’t have to worry about replacing the whole components.
+      </p>
+      <strong>Increased fuel efficiency</strong>
+      <p>When you replace a dirty air filter, the fuel efficiency will automatically increase and also improve
+        acceleration. It depends on the make and model of your vehicle but replacing a clogged filter only benefits your
+        car.</p>
+      <h2 class="font-weight-600">
+        Does changing the car air filter make a difference?
+      </h2>
+      <p>
+        Clogged or dirty air filters reduce the flow of air to the engine, which changes the balance of air and fuel in
+        your vehicle. This imbalance can pollute spark plugs, and cause the engine to misfire. This will turn the
+        ‘Service Engine’ light on. It will also pollute your surroundings. Just replacing the air filter regularly can
+        help you to stay away from all these inconveniences.
+      </p>
+      <h2 class="font-weight-600">
+        Collection and delivery service 
+      </h2>
+      <p>
+        We know that everyone is busy nowadays and you hardly have time to take care of your vehicle and take it to the
+        garage for servicing. To make your life easy, we are offering the collection and delivery service free of cost.
+        If you have pre-booked our service, and your car is drivable, our team will collect your vehicle from a place of
+        your choice and then deliver it back to you after all the repairs are done.
+      </p>
+      <p>Many Autos operate a fleet of pool cars with a dedicated driver, so wherever we are collecting from, we need to
+        be able to leave one of our pool vehicles either in your work parking space or if in a residential area, we
+        would need to be able to leave our car either at your house or on the road with a permit if required.</p>
+    </template>
 
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                How important is a car air filter?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                As outside air flows through it, it becomes filled with pollen, dust and debris. A clogged air filter
-                won't allow enough air to enter the engine, and this can affect the performance of your vehicle over
-                time. Because the air filter sits inside a black box or a metal housing on older vehicles it's easy to
-                ignore.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Can a dirty air filter cause the check engine light to come on?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                In extreme cases, a contaminated air filter can turn on the check engine light. An extremely dirty air
-                filter restricts engine air intake. Engine misfire. A misfire results from incomplete combustion inside
-                the engine. A contaminated air filter can restrict engine airflow, resulting in a rich air and fuel
-                mixture.
-
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Air Filter Replacement Free Collection and Delivery
-
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
-                  bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
-                  service If you prearrange a collection, we will pick your car up from your home or place of work and
-                  drive it to our premises, carry out all the necessary work (having consulted you) and deliver it back
-                  to you at the end of the day.</p>
-                <p class="text-teal text-18 justify">We are able to tow, jump start or repair your vehicle if you are
-                  experiencing problems or broken down for a small fee. If we can't sadly start your vehicle, we can
-                  contact a local recovery firm to collect your vehicle for a very competitive price.</p>
-                <ul class="list mt-2 mb-2">
-                  <li>Don't want to waste your day off? </li>
-                  <li>You don't have the time to take your car in for a service or repairs? </li>
-                  <li>Have you got problems with getting to and from the garage? </li>
-                </ul>
-                <p class="text-teal text-18 justify">Here at Many Autos, we believe that we offer a valuable product
-                  with our Free Collection and Delivery Service, we can collect either from your place of work or from
-                  your home address. If you are unsure about whether the address you are considering having your vehicle
-                  collected from is not within our range, then please do contact us.<br></p>
-                <p class="text-teal text-18 justify">Many Autos operate a fleet of pool cars with a dedicated driver, so
-                  wherever we are collecting from, we need to be able to leave one of our pool vehicles either in your
-                  work car park / parking space, or if in a residential area, we would need to be able to leave our car
-                  either at your house or on the road with a permit if required. We would be grateful if you could bear
-                  this in mind when booking to use our free Collection and delivery service</p>
-
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-          </v-expansion-panels>
-
-        </section>
-
-      </div>
-    </div>
-  </page-layout>
+    <!-- <div style='padding-top: 50px;'>
+      <car-service-table></car-service-table>
+    </div> -->
+  </page-layout-v2>
 </template>
 
 <script>
-import PageLayout from '@/layouts/page-layout';
+import PageLayoutV2 from "@/layouts/page-layout-v2";
+import { carRepairPages } from '~/utils/vars';
 
 const URL = process.env.APP_URL;
 
 export default {
   components: {
-    PageLayout
+    PageLayoutV2,
+  },
+
+  data: () => ({
+    panel: 0,
+    faqs: [
+      {
+        title: "What are the recommendations for air filter replacement?",
+        content:
+          "The air filter of your vehicle should be changed between 15,000 and 30,000 miles. This also depends on the style of driving and your driving conditions. If you tend to drive more on unpaved roads or you have a turbocharged engine, you need to replace the air filter more often.",
+      },
+      {
+        title: "What is the cost of replacing the air filter?",
+        content:
+          "An air filter replacement cost depends on the make and model of your vehicle and on the fact that how accessible the air filter housing is. The cost of an air filter including the labour to install the filter can range from $20 to $60.",
+      },
+      {
+        title: "What does an air filter in a car do?",
+        content:
+          "As humans need oxygen to stay alive, a vehicle needs oxygen for performing the combustion process. The air filter helps in keeping the air clean. It prevents any dust, insects, particles, debris or sand from entering the engine. It keeps the mixture of air and fuel pure to support performance.",
+      },
+    ],
+    listMenu: carRepairPages,
+  }),
+
+  mounted() {
+    if (this.$device.ismobile) return (this.panel = null);
   },
 
   head: {
-    title: 'Air Filter - Air Filter Replacement',
+    title: "Car Air Filters| Air Filter Replacement",
 
     meta: [
       {
-        hid: 'description', name: 'description', 
-        content: 'We carry out air filter replacement and repairs for all vehicle makes and models, bring your car to expert car mechanic and Get a free quote today online or by phone. We only use Best quality part and our aim is to provide you the best prices and services throughout the UK.'
+        hid: "description",
+        name: "description",
+        content:
+          "Need air filter replacement for your car? You’ve come to the right place. Book a service now to replace the dirty air filter and keep your car in a good shape.",
       },
       {
-        name: 'keywords', 
-        content: 'air filter replacement, air filter, air filter service, air filter installation,air filter replacement, Expert car mechanic'
+        name: "keywords",
+        content:
+          "air filter replacement, air filter replacement cost",
       },
       {
-        hid: 'og:title',
-        property: "og:title", 
-        content: "Air Filter - Air Filter Replacement"
+        hid: "og:title",
+        property: "og:title",
+        content: "Car Air Filters| Air Filter Replacement",
       },
       {
-        hid: 'og:type',
-        property: "og:type", 
-        content: "website"
+        hid: "og:type",
+        property: "og:type",
+        content: "website",
       },
       {
-        hid: 'og:url',
-        property: "og:url", 
-        content: URL
+        hid: "og:url",
+        property: "og:url",
+        content: process.env.APP_URL + '/air-filter-replacement',
       },
       {
-        hid: 'og:image',
-        property: "og:image", 
-        content: "logo-default.png"
+        hid: "og:image",
+        property: "og:image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/airfilterreplacement1 .jpg",
       },
       {
-        hid: 'og:site_name',
-        property: "og:site_name", 
-        content: "ManyAutos LTD"
+        hid: "og:site_name",
+        property: "og:site_name",
+        content: "ManyAutos LTD",
       },
       {
-        hid: 'og:description',  property: 'og:description', 
-        content: "We carry out air filter replacement and repairs for all vehicle makes and models, bring your car to expert car mechanic and Get a free quote today online or by phone. We only use Best quality part and our aim is to provide you the best prices and services throughout the UK."
+        hid: "og:description",
+        property: "og:description",
+        content:
+          "Need air filter replacement for your car? You’ve come to the right place. Book a service now to replace the dirty air filter and keep your car in a good shape.",
       },
       {
-        name: "twitter:card", 
-        content: "summary"
+        name: "twitter:card",
+        content: "summary",
       },
       {
-        name: "twitter:title", 
-        content: "Air Filter - Air Filter Replacement"
+        name: "twitter:title",
+        content: "Car Air Filters| Air Filter Replacement",
       },
       {
-        name: "twitter:description", 
-        content: "We carry out air filter replacement and repairs for all vehicle makes and models, bring your car to expert car mechanic and Get a free quote today online or by phone. We only use Best quality part and our aim is to provide you the best prices and services throughout the UK."
+        name: "twitter:description",
+        content:
+          "Need air filter replacement for your car? You’ve come to the right place. Book a service now to replace the dirty air filter and keep your car in a good shape.",
       },
       {
-        name: "twitter:image", 
-        content: "logo-default.png"
+        name: "twitter:image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/airfilterreplacement1 .jpg",
       },
       {
-        itemprop: "image", 
-        content: "logo-default.png"
+        itemprop: "image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/airfilterreplacement1 .jpg",
       },
       {
-        hid: 'og:type',
-        property: "og:type", 
-        content: "business.business"
+        hid: "og:type",
+        property: "og:type",
+        content: "business.business",
       },
-    ]
-  }
-}
+    ],
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-.card-header{
-    background: whitesmoke;
-    border: 1px solid #ececec;
-    color: #1ea5c7;
-    padding: 18px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: normal;
+.container .myheading {
+  font-weight: 200;
+  padding-top: 50px;
+  color: black;
 }
-.card-header-body{
-    background-color: #fff;
-    padding-top: 16px;
+
+.accordion {
+  border: 0;
+  color: black;
+  display: block;
+  background-color: #efefef;
+  border: 1px solid #ececec;
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+h3 {
+  color: black;
+  font-weight: 200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.accordion:hover {
+  color: #17a2b8;
+  text-decoration: underline;
+}
+.h3-service-heading {
+  font-weight: 200;
+  font-size: 17px;
+}
+.h2-service-heading {
+  font-weight: 200;
+}
+.h2-service-heading-months {
+  font-weight: 250;
+}
+@media (min-width: 1265px) {
+  span.h5-service-heading.full.text-blue {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1265px) {
+  span.h5-service-heading.initial.text-blue {
+    margin-left: 25px;
+  }
+}
+.h5-service-heading {
+  color: #00b4d8;
+  font-size: 15px;
+}
+
+.fa {
+  color: #00b4d8;
+  font-size: 1.2em;
+}
+
+hr {
+  width: 100%;
+}
+h4 {
+  color: #00b4d8;
+  border: 0;
+  display: block;
+  background-color: whitesmoke;
+  border: 1px solid #ececec;
+  padding: 10px 20px;
+  font-size: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+a {
+  color: #00b4d8;
+}
+.service-side-bar-links a {
+  color: black;
+  text-decoration: underline;
+
+  font-weight: 200;
+}
+.service-side-bar-links a:hover {
+  color: #00b4d8;
+}
+
+.card-header {
+  background: whitesmoke;
+  border: 1px solid #ececec;
+  color: #1ea5c7;
+  padding: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+}
+.card-header-body {
+  background-color: #fff;
+  padding-top: 16px;
+}
+.v-expansion-panel-content__wrap {
+  padding: 0px;
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .landing-page-container .full1 {
+    margin-left: 24px;
+  }
 }
 </style>
