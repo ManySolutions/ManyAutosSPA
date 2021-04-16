@@ -5,7 +5,7 @@
           <h1 class='heading__title text-center'>
             How We Work
           </h1>
-          <p>Progressively enable pandemic markets for process-centric processes. Completely iterate resource maximizing process improvements.</p>
+          <!-- <p>Progressively enable pandemic markets for process-centric processes. Completely iterate resource maximizing process improvements.</p> -->
         </v-col>
     </v-row>
     <v-row class="text-center">
@@ -13,13 +13,14 @@
         <div class="steps mb-5 pb-3">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits'>1</em>
-            <v-img src="https://static.manyautosltd.com/uploads/process-img-3-1.jpg"
+            <v-img src="https://static.manyautosltd.com/uploads/booking-reading_303x303.jpg"
               alt="Book your Vehicle online or by phone" class='img'>
             </v-img>
           </span>
           <div class="step-content">
             <h6 class="fw-600">BOOKING</h6>
-            <p class="color-dark mb-0">Book your Vehicle online or by phone.</p>
+            <p class="color-dark mb-0">Book a service for your vehicle online or by phone. It takes less than five
+              minutes to book a service your vehicle needs.</p>
           </div>
         </div>
       </v-col>
@@ -28,13 +29,13 @@
         <div class="steps mb-5 pb-3 feature-step">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits-2'>2</em>
-            <v-img src="https://static.manyautosltd.com/uploads/process-img-3-1.jpg"
+            <v-img src="https://static.manyautosltd.com/uploads/collection-reading_303x303.jpg"
               alt="Have your car collected from wherever convenient" class='img'>
             </v-img>
           </span>
           <div class="step-content">
             <h6 class="fw-600">COLLECTION</h6>
-            <p class="color-dark mb-0">Have your car collected from wherever convenient.</p>
+            <p class="color-dark mb-0">Have your car collected from a place of your choice at a convenient time, for free.</p>
           </div>
         </div>
       </v-col>
@@ -43,14 +44,14 @@
         <div class="steps mb-5 pb-3">
           <span class='position-relative d-inline-block order-1' style="position: relative !important;">
             <em class='steps-digits-3'>3</em>
-            <v-img src="https://static.manyautosltd.com/uploads/process-img-3-1.jpg"
+            <v-img src="https://static.manyautosltd.com/uploads/service-reading_303x303.jpg"
               alt="We will keep you informed every step of the way" class='img'>
             </v-img>
           </span>
           <div class="step-content order-0">
             <h6 class="fw-600">SERVICE</h6>
-            <p class="color-dark mb-0">Sit back,relax and let us do the work.We will keep you informed every step of the
-              way.</p>
+            <p class="color-dark mb-0">Sit back, relax and let us put the life back into your vehicle. We will keep you
+              informed every step of the way.</p>
           </div>
         </div>
       </v-col>
@@ -59,13 +60,13 @@
         <div class="steps feature-step no-arrow">
           <span class='position-relative d-inline-block' style="position: relative !important;">
             <em class='steps-digits-4'>4</em>
-            <v-img src="https://static.manyautosltd.com/uploads/process-img-3-1.jpg"
+            <v-img src="https://static.manyautosltd.com/uploads/delivery-reading_303x303.jpg"
               alt="Have your car delivered and enjoy" class='img'>
             </v-img>
           </span>
           <div class="step-content">
             <h6 class="fw-600">DELIVERY</h6>
-            <p class="color-dark mb-0">Have your car delivered and enjoy.</p>
+            <p class="color-dark mb-0">Have your car delivered after it has been serviced and is good to be back on the road.</p>
           </div>
         </div>
       </v-col>
@@ -77,15 +78,15 @@
             <v-col cols="6">
               <span class='position-relative d-inline-block' style="position: relative !important;">
                 <em class='steps-digits'>1</em>
-                <v-img src="https://static.manyautosltd.com/uploads/process-img-3-1.jpg"
+                <v-img src="https://static.manyautosltd.com/uploads/booking-reading_303x303.jpg"
                   alt="Book your Vehicle online or by phone" class='img'>
                 </v-img>
               </span>
             </v-col>
-            <v-col cols="6"  class="my-auto">
+            <v-col cols="6"  class="my-auto pl-7">
               <div class="step-content">
                 <h6 class="fw-600">Booking</h6>
-                <p class="color-dark mb-0">Have your car collected from wherever convenient.</p>
+                <p class="color-dark mb-0">Book a service for your vehicle online or by phone. It takes less than five minutes to book a service your vehicle needs.</p>
               </div>
             </v-col>
           </v-row>
@@ -98,15 +99,15 @@
             <v-col cols="6">
               <span class='position-relative d-inline-block' style="position: relative !important;">
                 <em class='steps-digits-2'>2</em>
-                <v-img src="https://static.manyautosltd.com/uploads/process-img-3-1.jpg"
+                <v-img src="https://static.manyautosltd.com/uploads/collection-reading_303x303.jpg"
                   alt="Have your car collected from wherever convenient" class='img'>
                 </v-img>
               </span>
             </v-col>
-            <v-col cols="6" class="my-auto">
+            <v-col cols="6" class="my-auto pl-7">
               <div class="step-content">
                 <h6 class="fw-600">COLLECTION</h6>
-                <p class="color-dark mb-0">Have your car collected from wherever convenient.</p>
+                <p class="color-dark mb-0">Have your car collected from a place of your choice at a convenient time, for free.</p>
               </div>
             </v-col>
           </v-row>
@@ -119,14 +120,14 @@
             <v-col cols="6" class="my-auto">
               <div class="step-content">
                 <h6 class="service-heading">SERVICE</h6>
-                <p class="color-dark">Sit back,relax and let us do the work.We will keep you informed every step of the
-                  way.</p>
+                <p class="color-dark">Sit back, relax and let us put the life back into your vehicle. We will keep you
+                  informed every step of the way.</p>
               </div>
             </v-col>
             <v-col cols="6">
               <span class='position-relative d-inline-block' style="position: relative !important;">
                 <em class='steps-digits-3'>3</em>
-                <v-img src="https://static.manyautosltd.com/uploads/process-img-3-1.jpg"
+                <v-img src="https://static.manyautosltd.com/uploads/service-reading_303x303.jpg"
                   alt="We will keep you informed every step of the way" class='img'>
                 </v-img>
               </span>
@@ -142,13 +143,13 @@
               <div class="step-content-lg">
                 <h6 class="fw-600">DELIVERY
                 </h6>
-                <p class="color-dark">Have your car delivered and enjoy.</p>
+                <p class="color-dark">Have your car delivered after it has been serviced and is good to be back on the road.</p>
               </div>
             </v-col>
             <v-col cols="6">
               <span class='position-relative d-inline-block' style="position: relative !important;">
                 <em class='steps-digits-4'>4</em>
-                <v-img src="https://static.manyautosltd.com/uploads/process-img-3-1.jpg"
+                <v-img src="https://static.manyautosltd.com/uploads/delivery-reading_303x303.jpg"
                   alt="Have your car delivered and enjoy" class='img'>
                 </v-img>
               </span>

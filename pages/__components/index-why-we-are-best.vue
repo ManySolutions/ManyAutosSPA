@@ -8,10 +8,10 @@
             <v-row>
               <v-col cols=12 class="mb-7">
                 <h1 class='heading__title text-center'>
-                  WHY WE ARE BEST
+                  Why We Are Best
                 </h1>
-                <p class="text-center">Professionally transition focused e-commerce whereas open-source niche markets. Proactively mesh
-                  sustainable internal or "organic" sources.</p>
+                <!-- <p class="text-center">Professionally transition focused e-commerce whereas open-source niche markets. Proactively mesh
+                  sustainable internal or "organic" sources.</p> -->
               </v-col>
             </v-row>
             <v-row>
@@ -20,13 +20,17 @@
                   <div class="text-best-image">
                     <div class="featured-content media align-items-center">
                       <div class="media-icon"><span class="featured-icon">
-                          <v-icon color="white" x-large>
+                          <v-icon 
+                          color="white" 
+                          x-large
+                          class="pb-3"
+                          >
                             mdi-trophy-award
                           </v-icon>
                         </span>
                       </div>
                       <div class="media-body">
-                        <h2 class="featured-title">100% Guarantee</h2>
+                        <h2 class="featured-title">Our 12 Month warranty service</h2>
                       </div>
                     </div>
                   </div>
@@ -39,13 +43,17 @@
                   <div class="text-best-image">
                     <div class="featured-content media align-items-center">
                       <div class="media-icon"><span class="featured-icon">
-                          <v-icon color="white" x-large>
+                          <v-icon 
+                          color="white" 
+                          x-large
+                          class="pb-3"
+                          >
                             mdi-security-network
                           </v-icon>
                         </span>
                       </div>
                       <div class="media-body">
-                        <h2 class="featured-title">Security & Trust</h2>
+                        <h2 class="featured-title">Trust and Customer service</h2>
                       </div>
                     </div>
                   </div>
@@ -58,13 +66,17 @@
                   <div class="text-best-image">
                     <div class="featured-content media align-items-center">
                       <div class="media-icon"><span class="featured-icon">
-                          <v-icon color="white" x-large>
+                          <v-icon 
+                          color="white" 
+                          x-large
+                          class="pb-3"
+                          >
                             mdi-calculator-variant
                           </v-icon>
                         </span>
                       </div>
                       <div class="media-body">
-                        <h2 class="featured-title">Estimate & Quote</h2>
+                        <h2 class="featured-title">Fair pricing and Honesty</h2>
                       </div>
                     </div>
                   </div>
@@ -120,7 +132,7 @@
     padding: 30px 35px;
     z-index: 4;
     display: flex;
-    top: 183px;
+    top: 172px;
   }
 
   .featured-layout4 .featured-title {

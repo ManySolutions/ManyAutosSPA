@@ -7,13 +7,13 @@
         <v-col class="section" cols='12' md="6" lg="4" order-md="3" order-lg="1">
           <div class="logo-footer1 ml-0 d-none d-md-block">
             <v-img 
-              src="https://static.manyautosltd.com/uploads/Changed dimensions.png" 
+              src="https://static.manyautosltd.com/uploads/Changed-dimensions.png" 
               max-width="250px"
             ></v-img>
           </div>
           <div class="logo-footer2 ml-0 d-block d-md-none">
             <v-img 
-              src="https://static.manyautosltd.com/uploads/logo for mobile-01.png" 
+              src="https://static.manyautosltd.com/uploads/logo-for-mobile-01.png" 
               max-width="250px"
             ></v-img>
           </div>

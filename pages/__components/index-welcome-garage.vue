@@ -17,18 +17,18 @@
                 </div>
                 <div>
                     <p class="pt-5 pb-5">
-                        Collaboratively plagiarize extensible e-markets vis-a-vis business outsourcing. Progressively
-                        visualize team driven e-commerce before excellent technology. Enthusiastically simplify optimal
-                        vortals without open-source web services monotonectally supply efficient.
+                        Many Autos prides itself on providing great customer service, fair and competitive pricing along
+                        with great quality work that leaves you happy with the entire process. We regularly check our
+                        rates against the market to make sure we are providing our customers with some of the best
+                        labour and repair prices in the local area.
                     </p>
                 </div>
                 <div>
                     <ul class="pb-5">
-                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> 24 Month / 24,000km Nationwide Warranty monotone</li>
-                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> Customer Rewards Program and excellent technology</li>
-                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> 24-Hour Roadside Assistance plagiarize extensible</li>
-                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> Courtesy Local Shuttle Service progressively enable</li>
-                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> Courtesy Loaner Vehicle Completely iterate resource</li>
+                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> 12 Months warranty on all parts and labour.</li>
+                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> Recovery can be arranged with external companies if needed.</li>
+                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> Free collection and delivery – as long as the vehicle is drivable.</li>
+                        <li class="pb-2"><v-icon color="primary" small> mdi-car </v-icon> Available via email, phone and web chat for your convenience.</li>
                     </ul>
                 </div>
                 <div class="info-button mt-5">

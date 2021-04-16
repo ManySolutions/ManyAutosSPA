@@ -1,17 +1,17 @@
 <template>
   <v-container fluid class="pt-0">
     <v-row>
-        <section class="main-section text-white" style="background-image: url(https://static.manyautosltd.com/uploads/masked-mechanic-checks-car-service-station.jpg)">
+        <section class="main-section text-white" style="background-image: url(https://static.manyautosltd.com/uploads/asian-car-mechanic-is-removing-wheel-checking-brakes-suspension-car-service-with-forklift-repair-maintenance-center_800x534.jpg)">
             <div class="mainsection" style="padding-top:150px; padding-bottom:150px;">
                 <v-container class="container pt-5 pb-5">
                     <v-row class="row">
                         <v-col cols="12" md="6" class="my-auto">
                             <div>
                                 <h1 class="main-heading pb-3">
-                                    THE BEST CAR REPAIR COMPANY IN <span>READING</span>
+                                    THE BEST CAR COMPANY IN <span>READING</span>
                                 </h1>
-                                <p>Mntrinsicly redefine mission-critical quality vectors rather than cross functional
-                                  technologies cultivate an expanded array.</p>
+                                <p>We have been providing great customer care and quality repair work in the Reading
+                                  area for over 15 years.</p>
                             </div>
                         </v-col>
                         <v-col cols="12" md="6">
@@ -33,7 +33,7 @@
     </v-row>
     <v-row>
      <!--  <index-our-services></index-our-services> -->
-      <car-reg-form has-bg-image></car-reg-form>
+      <car-reg-form></car-reg-form>
       <!-- <index-car-parts></index-car-parts> -->
     </v-row>
     <v-row>
@@ -43,7 +43,7 @@
       <index-our-best-work></index-our-best-work>
     </v-row>
     <v-row>
-      <car-reg-form has-bg-image></car-reg-form>
+      <car-reg-form></car-reg-form>
     </v-row>
     <v-row>
       <index-why-we-are-best></index-why-we-are-best>

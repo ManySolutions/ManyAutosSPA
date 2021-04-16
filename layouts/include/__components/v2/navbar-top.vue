@@ -7,7 +7,7 @@
         <v-col cols=12 sm=3 class='d-none d-lg-block'>
           <NuxtLink to="/">
             <v-img 
-              src="https://static.manyautosltd.com/uploads/Changed dimensions.png" 
+              src="https://static.manyautosltd.com/uploads/Changed-dimensions.png" 
               max-width="250px"
             ></v-img>
           </NuxtLink>

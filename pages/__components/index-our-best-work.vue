@@ -5,15 +5,17 @@
         <v-col cols="12" md="6" class="our-best-work-detail my-auto">
           <div class="our-best-work-heading">
             <h1>
-              THERE ARE SOME BEST OF WORK DONE BY US
+              We care about our customers
             </h1>
           </div>
           <div>
             <p class="pt-5 pb-5">
-              Dramatically architect standards compliant core competencies without tactical supply chains.
-              Progressively productivate distributed bandwidth high-payoff intellectual capital. Distinctively
-              cultivate team building web services whereas global value. Interactively leverage other's
-              leading-edge e-business and fully researched strategic theme areas.
+              From our free collection and delivery of your vehicle to our 12 month warranty, we are here to make your
+              life easier and simpler. We have been in business for over 15 years and have extensive experience with all
+              makes and models. So any work that is required, we can do. We carry out all work, big or small from an MOT
+              to Head gaskets and engine replacements. We keep our prices fair and clear. We do not carry out any work
+              until we have had a chance to explain to you the issues and the costs of repairs, so you have no nasty
+              surprises.
             </p>
           </div>
           <div class="info-button mt-5">
@@ -179,6 +181,7 @@
     font-size: 40px;
     color: #01133c;
     text-align: left;
+    text-transform: capitalize;
   }
 
   .our-best-work-page .our-best-work-detail .our-best-work-heading span {

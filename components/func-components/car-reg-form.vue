@@ -209,7 +209,7 @@ export default {
     }
   }
   &.reg-bg-simple {
-    background: #f5f5f5;
+    background: #211d38;
   }
 
   .z-index-1 {

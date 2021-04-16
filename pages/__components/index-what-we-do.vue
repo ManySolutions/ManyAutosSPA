@@ -20,7 +20,7 @@
                 :key="i"
               >
                 <v-sheet
-                  height="96%"
+                  height="95%"
                   class='py-4 mx-3 my-3'
                   color="white"
                   elevation="3"
@@ -37,7 +37,7 @@
                         color="primary"
                         x-large
                         >
-                            mdi-tools
+                            {{review.icon}}
                         </v-icon>
                         <h2 class="text-center pt-2 pb-2" style="color:#01133c;">
                             {{review.title}}
@@ -67,27 +67,29 @@ export default {
     model: 0,
     reviews: [
       {
-        // icon:'mdi-tools',
-        title:'Free Loaner',
-        content: `Excellent MOT pick up and drop off service especially during this lockdown period. Would definitely recommend as it saves a lot of hassle having to wait while the MOT gets done. Will 100% use again.`,
+        icon:'mdi-tools',
+        title:'Services',
+        content: 'We offer all types of services. You can get the interim service or the full service depending on the condition of your vehicle.',
       },
       {
-        // icon:'mdi-tools',
-        title:'Free Loaner',
-        content: `Thank you for saving my Hyundai Getz from scrapping. Great team resolved my car problem for less than 24 hours. I highly recommend Many Autos.`,
+        icon:'mdi-car-defrost-front',
+        title:'Overheating Engine',
+        content: `We inspect the vehicle, diagnose the cause of overheating, and fix the issue in less than 24 hours.`,
       },
       {
-        // icon:'mdi-tools',
-        title:'Free Loaner',
-        content: `My car battery was completely drained today and left with no options. Lots of Thanks to Many Autos for the timely help. Very professional and definitely recommendable.`,
+        icon:'mdi-car-cog',
+        title:'Problem with the Engine',
+        content: `We tend to diagnose and resolve almost all the issues regarding the engine of your vehicle.`,
       },
       {
-          title:'Free Loaner',
-        content: `Many Autos have done my MOT 2 years in a row.  They are brilliant value with great customer service including offering a free drop off and pick up service.  I will be using them again next year as well.`,
+        icon:'mdi-car-multiple',
+        title:'Accident Repair',
+        content: `We repair all the parts of the vehicle damaged due to an accident and we also respray them.`,
       },
       {
-          title:'Free Loaner',
-        content: `Great customer service good prices very pleased`,
+        icon:'mdi-car-info',
+        title:'MOT',
+        content: `You can do an advance booking for your MOT. We have our own MOT centres with DVSA approved examiners.`,
       },
     ],
   })
