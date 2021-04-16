@@ -110,7 +110,11 @@
     height: 100%;
     background-color: #051335f5;
   }
-
+  @media (max-width:768px){
+    .best-bacground-image .heading__title {
+    font-size: 40px;
+  }
+  }
   .first-image {
     position: relative;
   }
