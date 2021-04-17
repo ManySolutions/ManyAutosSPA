@@ -9,123 +9,240 @@
     <v-form
       @submit.prevent="''"
     >
-      <v-stepper
-        v-model="step"
-        vertical
-      >
-        <!-- / step 1 started -->
-        
-        <v-stepper-step
-          :complete="step > 1"
-          step="1"
-          :editable='isStep1Valid'
-          :rules="step_errors.step1 ? [() => false] : []"
-        >
-          Choose collection date
-          <small>Our collection timing is between 09:00 to 11:00</small>
-        </v-stepper-step>
-
-        <v-stepper-content step="1">
+      <v-card class=''>
+        <div class='d-flex flex-no-wrap justify-space-between align-middle'>
+          <div>
+            <v-card-title>
+              <span v-if='isStep1Valid'>
+                <v-icon color='error' class='mr-2' v-if='step_errors.step1'>
+                  mdi-information-outline
+                </v-icon>
+                <v-icon v-else color='success' class='mr-2'>
+                  mdi-check-circle-outline
+                </v-icon>
+                Collection date
+              </span>
+              <span v-else>
+                <v-icon color='blue darken-2' class='mr-2'>
+                  mdi-circle-edit-outline
+                </v-icon>
+                Choose collection date
+              </span>
+            </v-card-title>
+            <v-card-subtitle class='pl-12'>
+              <span v-if='isStep1Valid' class='success--text'>
+                {{form.collection_date}}
+              </span>
+              <span v-else>
+                Collection date will be used to collect your vehicle
+              </span>
+            </v-card-subtitle>
+          </div>
+          <div v-if='isStep1Valid' class='ma-3'>
+            <v-btn
+              v-if='step == 1'
+              color='error'
+              @click='step = activeStep'
+              text
+              :x-large='isDevice.lg'
+              :small='isDevice.xs'
+            >
+              Cancel
+            </v-btn>
+            <v-btn
+              v-else
+              color='blue darken-2'
+              @click='step = 1'
+              text
+              :x-large='isDevice.lg'
+              :small='isDevice.xs'
+            >
+              Edit
+            </v-btn>
+          </div>
+        </div>
+        <v-card-text class='pt-0' :class='step == 1 ? `` : `d-none`'>
           <collection-info-date-picker
             @change='handleCollectionDateChange'
           ></collection-info-date-picker>
-          <v-btn
-            color="secondary"
-            @click="step = 2"
-            :disabled='!isStep1Valid'
-          >
-            Next
-          </v-btn>
-        </v-stepper-content>
+        </v-card-text>
+      </v-card>
+      <!-- /collection info -->
 
-        <!-- /step 1 ended -->
-
-        <v-stepper-step
-          :complete="step > 2"
-          step="2"
-          :editable='isStep2Valid'
-          :rules="step_errors.step2 ? [() => false] : []"
-        >
-          Select Collection Address
-        </v-stepper-step>
-
-        <v-stepper-content step="2">
+      <v-card class='mt-5' :disabled='!isStep1Valid'>
+        <div class='d-flex flex-no-wrap justify-space-between align-middle'>
+          <div>
+            <v-card-title>
+              <span v-if='isStep2Valid'>
+                <v-icon color='error' class='mr-2' v-if='step_errors.step2'>
+                  mdi-information-outline
+                </v-icon>
+                <v-icon v-else color='success' class='mr-2'>
+                  mdi-check-circle-outline
+                </v-icon>
+                Collection Address
+              </span>
+              <span v-else>
+                <v-icon color='blue darken-2' class='mr-2'>
+                  mdi-circle-edit-outline
+                </v-icon>
+                Your Postcode
+              </span>
+            </v-card-title>
+            <v-card-subtitle class='pl-12'>
+              <span v-if='isStep2Valid' class='success--text'>
+                {{form.address.formatted_address.join(' ')}}
+              </span>
+              <span v-else>
+                Enter your postcode and choose your collection address
+              </span>
+            </v-card-subtitle>
+          </div>
+          <div v-if='isStep2Valid' class='ma-3'>
+            <v-btn
+              v-if='step == 2'
+              color='error'
+              @click='step = activeStep'
+              text
+              :x-large='isDevice.lg'
+              :small='isDevice.xs'
+            >
+              Cancel
+            </v-btn>
+            <v-btn
+              v-else
+              color='blue darken-2'
+              @click='step = 2'
+              text
+              :x-large='isDevice.lg'
+              :small='isDevice.xs'
+            >
+              Edit
+            </v-btn>
+          </div>
+        </div>
+        <v-card-text class='pt-0' :class='step == 2 ? `` : `d-none`'>
           <collection-info-postcode
             @selected='handlePostcodeChange'
           ></collection-info-postcode>
-          <v-alert
-            color='success'
-            type="success"
-            v-if='Object.keys(form.address).length'
-          >
-            {{ form.address.formatted_address.join(' ') }}
-          </v-alert>
-          <v-btn
-            @click="step = 1"
-          >
-            Back
-          </v-btn>
-          <v-btn
-            color="secondary"
-            @click="step = 3"
-            :disabled='!isStep2Valid'
-          >
-            Next
-          </v-btn>
-        </v-stepper-content>
+        </v-card-text>
+      </v-card>
+      <!-- /postcode and address -->
 
-        <!-- / step 2 ended -->
-        
-        <v-stepper-step
-          :complete="step > 3"
-          step="3"
-          :editable='isStep3Valid'
-          :rules="step_errors.step3 ? [() => false] : []"
-        >
-          Personal Information
-        </v-stepper-step>
-
-        <v-stepper-content step="3">
+      <v-card class='mt-5' :disabled='!isStep2Valid'>
+        <div class='d-flex flex-no-wrap justify-space-between align-middle'>
+          <div>
+            <v-card-title>
+              <span v-if='isStep3Valid'>
+                <v-icon color='error' class='mr-2' v-if='step_errors.step3'>
+                  mdi-information-outline
+                </v-icon>
+                <v-icon v-else color='success' class='mr-2'>
+                  mdi-check-circle-outline
+                </v-icon>
+                Your Personal Info
+              </span>
+              <span v-else>
+                <v-icon color='blue darken-2' class='mr-2'>
+                  mdi-circle-edit-outline
+                </v-icon>
+                Your Personal Info
+              </span>
+            </v-card-title>
+            <v-card-subtitle class='pl-12'>
+              <span v-if='isAuth' class='success--text'>
+                Booking will be created using
+                <br>
+                <strong>{{ info ? info.email : '' }}</strong>
+              </span>
+              <span v-else-if='isStep3Valid' class='success--text'>
+                Your account will be created as 
+                <strong v-html='form.user.f_name + ` ` + form.user.s_name'></strong>
+              </span>
+              <span v-else>
+                Enter your personal information to create account.
+              </span>
+            </v-card-subtitle>
+          </div>
+          <div v-if='isStep3Valid && !isAuth' class='ma-3'>
+            <v-btn
+              v-if='step == 3'
+              color='error'
+              @click='step = activeStep'
+              text
+              :x-large='isDevice.lg'
+              :small='isDevice.xs'
+            >
+              Cancel
+            </v-btn>
+            <v-btn
+              v-else
+              color='blue darken-2'
+              @click='step = 3'
+              text
+              :x-large='isDevice.lg'
+              :small='isDevice.xs'
+            >
+              Edit
+            </v-btn>
+          </div>
+        </div>
+        <v-card-text class='pt-0' :class='step == 3 ? `` : `d-none`'>
           <collection-info-user
             @invalid='handleInvalidUser'
             @user='handleUser'
             :errors='errors'
             v-if='!isAuth'
           ></collection-info-user>
-          <v-alert v-else type='success'>
+          <v-alert v-else color='success' text>
             Your booking will be created as 
             <strong>{{ info ? info.email : '' }}</strong>
           </v-alert>
-          <v-btn
-            @click="step = 2"
-          >
-            Back
-          </v-btn>
-          <v-btn
-            color="secondary"
-            @click="step = 4"
-            :disabled='!isStep3Valid'
-          >
-            Next
-          </v-btn>
-        </v-stepper-content>
-        <!-- / step 3 ended -->
-        
-        <v-stepper-step
-          :complete="step > 4"
-          step="4"
-          :editable='isFormValid'
-          :rules="step_errors.step4 ? [() => false] : []"
-        >
-          Finish Booking
-        </v-stepper-step>
+        </v-card-text>
+      </v-card>
+      <!-- personal information -->
 
-        <v-stepper-content step="4">
+
+      <v-card class='mt-5' :disabled='!isStep3Valid'>
+        <div class='d-flex flex-no-wrap justify-space-between align-middle'>
+          <div>
+            <v-card-title>
+              <span v-if='isStep3Valid'>
+                <v-icon color='success' class='mr-2'>
+                  mdi-check-circle-outline
+                </v-icon>
+                Other Information
+              </span>
+              <span v-else>
+                <v-icon color='blue darken-2' class='mr-2'>
+                  mdi-circle-edit-outline
+                </v-icon>
+                Other Information
+              </span>
+            </v-card-title>
+            <v-card-subtitle class='pl-12'>
+              Click on the finish button to complete your booking
+            </v-card-subtitle>
+          </div>
+          <div v-if='isStep3Valid' class='ma-3'>
+            <v-btn
+              v-if='step != 4'
+              color='success'
+              @click='step = 4'
+              text
+              :x-large='isDevice.lg'
+              :small='isDevice.xs'
+            >
+              Finish
+            </v-btn>
+          </div>
+        </div>
+        <v-card-text class='pt-0' :class='step == 4 ? `` : `d-none`'>
           <collection-info-other
             @change='handleOtherChange'
           ></collection-info-other>
           <v-row justify="end">
-            <v-col v-if='errorMsg' cols=12 lg=6 xl=7>
+            <v-col v-if='errorMsg' cols=12 sm=6 md=6 lg=8 xl=9>
               <v-alert
                 color="red"
                 dense
@@ -135,16 +252,7 @@
                 {{ errorMsg }}
               </v-alert>
             </v-col>
-            <v-col cols=4 md=3 lg=2>
-              <v-btn
-                @click="step = 3"
-                large
-                :block='isDevice.md'
-              >
-                Back
-              </v-btn>
-            </v-col>
-            <v-col cols=8 md=6 lg=4 xl=3>
+            <v-col cols=12 sm=6 md=6 lg=4 xl=3>
               <v-btn
                 color="primary"
                 @click="handleSubmit"
@@ -153,14 +261,14 @@
                 :loading='isLoading'
                 type='submit'
               >
-                Finish
+                Finish Booking
               </v-btn>
             </v-col>
           </v-row>
-        </v-stepper-content>
-        <!-- / step 4 ended -->
-        
-      </v-stepper>
+        </v-card-text>
+      </v-card>
+
+
     </v-form>
 
     <v-dialog
@@ -197,6 +305,33 @@
             Login
           </v-btn>
         </v-card-actions>
+      </v-card>
+    </v-dialog>
+
+    <v-dialog
+      v-model="bookingDialog"
+      persistent
+      width="300"
+    >
+      <v-card
+        :color="successBooking ? `success` : `primary`"
+        dark
+      >
+        <v-card-text v-if='isLoading' class='text-center pt-3'>
+          please wait while we are processing your booking...
+          <br>
+          <v-progress-circular
+            indeterminate
+            color="white"
+            class="mb-0"
+          ></v-progress-circular>
+        </v-card-text>
+        <v-card-text v-if='successBooking' class='text-center pt-3'>
+          <v-icon x-large>mdi-check-circle</v-icon>
+          <br><br>
+          Your booking has been processed successfully, 
+          Redirecting to success page...
+        </v-card-text>
       </v-card>
     </v-dialog>
   </booking-layout>
@@ -248,6 +383,7 @@ export default {
     },
 
     step: 1,
+    activeStep: null,
 
     isLoading: false,
 
@@ -262,6 +398,9 @@ export default {
       step3: false,
       step4: false,
     },
+
+    successBooking: false,
+    bookingDialog: false,
   }),
 
   computed: {
@@ -279,12 +418,14 @@ export default {
     isStep2Valid() {
       const { postcode, lat, lng, address } = this.form;
 
-      return !!( postcode && lat && lng && Object.keys(address).length );
+      return this.isStep1Valid 
+        && !!( postcode && lat && lng && Object.keys(address).length );
     },
     isStep3Valid() {
       const { user } = this.form;
 
-      return this.isStep2Valid && ( Object.keys(user).length >= 4 || this.isAuth );
+      return this.isStep2Valid 
+        && ( Object.keys(user).length >= 4 || this.isAuth );
     },
     isFormValid() {
       const { isStep1Valid, isStep2Valid, isStep3Valid } = this;
@@ -302,8 +443,14 @@ export default {
       if (isValid) this.step = 2;
     },
     isStep2Valid(isValid) {
-      if (isValid) this.step = 3;
+      if (isValid) this.step = this.isAuth ? 4 : 3;
     },
+    $data: {
+      handler({ isLoading, successBooking }) {
+        this.bookingDialog = isLoading || successBooking;
+      },
+      deep: true,
+    }
   },
 
   mounted() {
@@ -326,15 +473,23 @@ export default {
   methods: {
     handleCollectionDateChange(date) {
       this.form.collection_date = date;
+      this.step = 2;
+      this.activeStep = 2;
     },
     handlePostcodeChange({ postcode, lat, lng, address}) {
       this.form = {
         ...this.form,
         postcode, lat, lng, address
       };
+
+      const nextStep = this.isAuth ? 4 : 3;
+      
+      this.step = nextStep;
+      this.activeStep = nextStep;
     },
     handleInvalidUser() {
       this.form.user = {};
+      this.activeStep = 3;
     },
     handleUser({ email, password, mobileNo, countryCode, name, s_name, f_name }) {
       this.form.user = {
@@ -347,12 +502,14 @@ export default {
         s_name,
         f_name,
       };
+      this.activeStep = 4;
+      this.step = 4;
     },
     handleOtherChange({ note }) {
       this.form.note = note;
     },
     handleSubmit() {
-      if (!this.isFormValid) return
+      if (!this.isFormValid || this.successBooking) return
 
       this.isLoading = true;
       this.errorMsg = null;
@@ -417,8 +574,10 @@ export default {
             });
           }
 
-          toastr.success(message);
-          window.location.href='/booking/create/success'
+          // toastr.success(message);
+          this.successBooking = true;
+          window.location.href='/booking/create/success';
+
         })
         .catch(err => toastr.error(err.response.body.message))
         .finally(() => this.isLoading = false);
@@ -426,3 +585,11 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+::v-deep .v-card__title {
+    word-break: unset;
+    font-size: 16px;
+    font-weight: 600;
+}
+</style>
