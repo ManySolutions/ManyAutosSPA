@@ -38,7 +38,7 @@ export default {
   plugins: [
     { src: '~/plugins/persistedState.client.js' },
     { src: '~/plugins/jsonld'},
-    { src: '~plugins/ga.js', mode: 'client' },
+    // { src: '~plugins/ga.js', mode: 'client' },
     { src: './plugins/vue-carousel.js', mode: 'client' }
   ],
 

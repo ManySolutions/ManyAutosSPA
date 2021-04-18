@@ -1,15 +1,15 @@
 <template>
   <page-layout-v2
     title="Brake Disc Replacement"
-    sub-heading="Keep your car safe, book a service now!"
+    sub-heading="Keep your car safe, book a brake disc repair now!"
     heading-bg='customer-v2/static-pages/allpics/brakedisc1.jpg'
     heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
-    box-title='Book your brake disc now'
+    box-title='Book your brake disc repair now'
     :faqs='faqs'
     faq-topic='Brake disc replacement with ManyAutos'
     blog-topic='Expand your knowledge about brake disc replacement'
     :list-menu='listMenu'
-    redirect-to='/booking/create/parts'
+    redirect-to='/booking/create/search?keyword=disc'
     :has-repair-pages='false'
   >
     <template #overview>
@@ -159,7 +159,7 @@ export default {
   },
 
   head: {
-    title: "Brake Disc Replacement| Brake Disc and Pads Replacement",
+    title: "Brake Disc Replacement | Brake Disc and Pads Replacement",
 
     meta: [
       {
@@ -176,7 +176,7 @@ export default {
       {
         hid: "og:title",
         property: "og:title",
-        content: "Brake Disc Replacement| Brake Disc and Pads Replacement",
+        content: "Brake Disc Replacement | Brake Disc and Pads Replacement",
       },
       {
         hid: "og:type",
@@ -210,7 +210,7 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Brake Disc Replacement| Brake Disc and Pads Replacement",
+        content: "Brake Disc Replacement | Brake Disc and Pads Replacement",
       },
       {
         name: "twitter:description",

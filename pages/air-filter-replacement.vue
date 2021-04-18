@@ -1,15 +1,14 @@
 <template>
   <page-layout-v2
     title="Air Filter Replacement"
-    sub-heading="Keep your car safe, book a service now!"
+    sub-heading="Keep your car safe, book a air filter replacement now!"
     heading-bg='customer-v2/static-pages/allpics/airfilterreplacement1 .jpg'
-    heading-img='https://static.manyautosltd.com/uploads/car-service-page-part-image.png'
-    box-title='Book your air filter now'
+    box-title='Book your air filter repair now'
     :faqs='faqs'
     faq-topic='How air filter replacement works with ManyAutos'
     blog-topic='Things you should know about an Air Filter'
     :list-menu='listMenu'
-    redirect-to='/booking/create/parts'
+    redirect-to='/booking/create/search?keyword=filter'
     :has-repair-pages='false'
   >
     <template #overview>
@@ -127,7 +126,7 @@ export default {
   },
 
   head: {
-    title: "Car Air Filters| Air Filter Replacement",
+    title: "Car Air Filters | Air Filter Replacement",
 
     meta: [
       {
@@ -144,7 +143,7 @@ export default {
       {
         hid: "og:title",
         property: "og:title",
-        content: "Car Air Filters| Air Filter Replacement",
+        content: "Car Air Filters | Air Filter Replacement",
       },
       {
         hid: "og:type",
@@ -178,7 +177,7 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Car Air Filters| Air Filter Replacement",
+        content: "Car Air Filters | Air Filter Replacement",
       },
       {
         name: "twitter:description",
