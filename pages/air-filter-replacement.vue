@@ -18,8 +18,8 @@
         not seem like something huge, it plays a major part in the proper functioning of your vehicle. Here at
         Manyautos, we treat every repair and replacement with the same enthusiasm and care. Our professionals will take
         a look at your vehicle and let you know if the air filter needs to be replaced. We only use authentic equipment
-        and parts for the replacements. . Our professionals will take a look at your vehicle and let you know if the air
-        filter needs to be replaced. We only use authentic equipment and parts for the replacements.
+        and parts for the replacements. Our professionals will take a look at your vehicle and let you know if the air
+        filter needs to be replaced.
       </p>
     </template>
     <template #blog>
