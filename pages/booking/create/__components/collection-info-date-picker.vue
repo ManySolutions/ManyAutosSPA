@@ -16,7 +16,7 @@
         <template v-slot:activator="{ on, attrs }">
           <v-text-field
             v-model="date"
-            label="Your Car Collection date"
+            label="Click Here To Choose Collection date *"
             prepend-icon="mdi-calendar"
             readonly
             v-bind="attrs"

@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-col v-if='$device.isDesktop' cols=12 md=4 lg=3 xl=2>
+      <v-col v-if='$device.isDesktop && isDevice.md' cols=12 md=4 lg=3 xl=2>
         <v-card
           height="400"
           width="256"

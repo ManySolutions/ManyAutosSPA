@@ -3,7 +3,7 @@
     <v-text-field
       v-model="search"
       :loading="isLoading"
-      label="Your Postcode"
+      label="Your Postcode *"
       placeholder="Enter your postcode i.e RG28UF"
       :filled='inputStyle == "rounded"'
       :rounded='inputStyle == "rounded"'
@@ -14,31 +14,29 @@
     <v-alert v-if='notFoundMsg' type='info' dense text>
       {{ notFoundMsg }}
     </v-alert>
-    <p v-if='postcode'>
-      Select an address from the list below for: 
-      <strong>
-        {{ postcode }}
-      </strong>
-    </p>
     <v-sheet 
       v-if='entries && entries.length'
-      color='rgba(0, 0, 0, 0.06)'
+      color='whitesmoke'
       rounded
+      outlined
     >
-      <div class='entries-container' >
+      <div class='entries-container'>
         <v-list-item-group
           v-model="model"
         >
-          <v-list-item
-            v-for='(entry, i) in entries'
-            :key='i' 
-          >
-            <v-list-item-content>
-              <v-list-item-title>
-                {{ entry.formatted_address.join(' ') }}
-              </v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
+          <template v-for='(entry, i) in entries'>
+            <v-divider :key='`${i}-1`' v-if='i > 0'></v-divider>
+            <v-list-item
+              :key='i' 
+              color='primary'
+            >
+              <v-list-item-content>
+                <v-list-item-title class='blue--text darken-2'>
+                  {{ entry.formatted_address.join(' ') }}
+                </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </template>
         </v-list-item-group>
       </div>
     </v-sheet>
