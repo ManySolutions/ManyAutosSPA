@@ -92,7 +92,7 @@
 .why-choose-us .heading-sec .choose-heading::after {
     display: block;
     content: "";
-    background: #1E69B8;
+    background: #00b4d8;
     width: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -117,16 +117,16 @@
     height: 66.97px;
     background-color: transparent;
     margin: 33.49px 0;
-    border-left: solid 2px #1E69B8;
-    border-right: solid 2px #1E69B8;
+    border-left: solid 2px #00b4d8;
+    border-right: solid 2px #00b4d8;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
 }
 .hexagon::before {
     bottom: 25.9878px;
-    border-top: solid 2.8284px #1E69B8;
-    border-right: solid 2.8284px #1E69B8;
+    border-top: solid 2.8284px #00b4d8;
+    border-right: solid 2.8284px #00b4d8;
 }
 .hexagon::before {
   content: "";
@@ -145,8 +145,8 @@
 }
 .hexagon::after {
     bottom: -41.0122px;
-    border-bottom: solid 2.8284px #1E69B8;
-    border-left: solid 2.8284px #1E69B8;
+    border-bottom: solid 2.8284px #00b4d8;
+    border-left: solid 2.8284px #00b4d8;
 }
 .hexagon::after {
   content: "";
@@ -173,7 +173,7 @@
 .why-choose-us .detail-sec .detail-sec-heading::after {
     display: block;
     content: "";
-    background: #1E69B8;
+    background: #00b4d8;
     width: 40px;
     height: 2px;
     margin-top: 10px;

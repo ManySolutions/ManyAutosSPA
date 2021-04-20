@@ -69,6 +69,9 @@
     <!-- <index-section-2></index-section-2> -->
     <index-mot-section></index-mot-section>
     <v-row>
+      <car-reg-form has-bg-image></car-reg-form>
+    </v-row>
+    <v-row>
       <index-auto-repairs></index-auto-repairs>
     </v-row>
     <!-- <v-row>
@@ -76,14 +79,26 @@
       <car-reg-form has-bg-image></car-reg-form>
       <index-car-parts></index-car-parts>
     </v-row> -->
-    <v-row class='my-12 my-lg-0'>
+    <v-row>
+      <car-reg-form has-bg-image></car-reg-form>
+    </v-row>
+    <v-row>
+      <index-why-us></index-why-us>
+    </v-row>
+    <v-row>
+      <index-testimonial></index-testimonial>
+    </v-row>
+    <!-- <v-row class='my-12 my-lg-0'>
       <index-online-booking></index-online-booking>
       <index-pickup-and-delivery></index-pickup-and-delivery>
     </v-row>
-    <v-row>
+     <v-row>
       <car-reg-form has-bg-image></car-reg-form>
       <index-reviews></index-reviews>
       <index-faq></index-faq>
+    </v-row> -->
+    <v-row>
+      <index-last></index-last>
     </v-row>
     <!-- <index-services></index-services> -->
   </v-container>
@@ -106,6 +121,9 @@ import IndexServices from "~/pages/__components/index-services.vue";
 import IndexBothServices from "~/pages/__components/index-both-services.vue";
 import IndexMotSection from "~/pages/__components/index-mot-section.vue";
 import IndexAutoRepairs from "~/pages/__components/index-auto-repairs.vue";
+import IndexWhyUs from "~/pages/__components/index-why-us.vue";
+import IndexTestimonial from "~/pages/__components/index-testimonial.vue";
+import IndexLast from "~/pages/__components/index-last.vue";
 
 const URL = process.env.APP_URL;
 
@@ -126,6 +144,9 @@ export default {
     IndexBothServices,
     IndexMotSection,
     IndexAutoRepairs,
+    IndexWhyUs,
+    IndexTestimonial,
+    IndexLast,
   },
 
   data: () => ({
