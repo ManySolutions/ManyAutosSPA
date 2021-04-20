@@ -1,5 +1,5 @@
 <template>
-  <v-row class="top-h-icons">
+  <v-row class="top-h-icons" :class='dark ? `black--text` : ``'>
     <v-col cols="4" class="top-hi">
       <span class="d-block">
         <v-icon>mdi-car-connected</v-icon>
@@ -22,7 +22,9 @@
 </template>
 <script>
 export default {
-  
+  props: {
+    dark: Boolean,
+  }
 }
 </script>
 <style lang="scss" scoped>
@@ -56,6 +58,9 @@ export default {
       font-size: 31px;
       color: white;
     }
+  }
+  &.black--text .top-hi span i {
+    color: rgba(0, 0, 0, 0.54);
   }
 }
 </style>

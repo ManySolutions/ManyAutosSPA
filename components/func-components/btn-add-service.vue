@@ -24,7 +24,7 @@
     <v-btn
       v-else
       :color='color'
-      :block='isMinDevice'
+      :block='isMinDevice || block'
       :large='!small'
       :x-large='xLarge'
       :class='cls'
@@ -52,6 +52,7 @@ export default {
     title: String,
     small: Boolean,
     xLarge: Boolean,
+    block: Boolean,
     color: {
       type: String,
       default: 'primary'
