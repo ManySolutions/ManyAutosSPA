@@ -27,13 +27,13 @@
               </v-btn>
             </div>
           </v-col>
-          <v-col cols="12" class="mot-service-sec-two text-center">
+          <!-- <v-col cols="12" class="mot-service-sec-two text-center">
             <h2 class="mot-service-heading-two">
               MOT Test changes
             </h2>
             <div class="mot_test mt-5">The MOT test changed on 20 May 2018 with new defect types introduced, stricter
               rules for diesel car emissions, and certain vehicles over 40 years old becoming exempt.</div>
-          </v-col>
+          </v-col> -->
         </v-row>
       </v-container>
     </div>
