@@ -181,7 +181,7 @@
     margin-right: auto;
 }
 .why-choose-us .detail-sec p {
-    font-size: 15px;
+    font-size: 1rem;
     margin-top: 20px;
     color: #777;
 }

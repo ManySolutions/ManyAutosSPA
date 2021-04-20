@@ -129,10 +129,10 @@
   color: #777;
 }
 .our-mission-sec .para-two p {
-  font-size: 15px;
-  line-height: 32px;
-  margin-top: 34px;
-  color: #777;
+    font-size: 1rem;
+    line-height: 32px;
+    margin-top: 34px;
+    color: #777;
 }
 .our-mission-sec .popular-heading {
   font-size: 22px;
