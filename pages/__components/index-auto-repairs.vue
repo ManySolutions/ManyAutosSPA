@@ -44,7 +44,7 @@
                   </v-col>
                   </v-row>
               </slide>
-            </carousel>
+            </carousel>                
           </client-only>
         </v-col>
         <v-col cols="12" class="text-center">
@@ -89,7 +89,7 @@ export default {
           name: 'BELTS AND HOSES',
         },
       ],
-  })
+  }),
 }
 </script>
 <style lang="scss" scoped>
