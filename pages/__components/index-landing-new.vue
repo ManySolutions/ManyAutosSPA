@@ -58,6 +58,7 @@ export default {
     },
 
     sheetBg() {
+      // return 'transparent';
       return this.isDevice.md 
         ? 'primary lighten-2' 
         : 'transparent'
@@ -117,8 +118,11 @@ export default {
     height: calc(100vh - 120px);
     position: relative;
     max-width: 1700px;
-    // background: #004758;
-    // color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media (min-width: 992px) {
+      height: auto;
+    }
 }
 
 .hs--text {
@@ -136,7 +140,9 @@ export default {
     }
     @media (min-width: 992px) {
       left: 0px;
-      transform: translateY(-50%);
+      top: 0px;
+      transform: none;
+      position: relative;
     }
 }
 
@@ -169,7 +175,7 @@ export default {
   opacity: 0.2;
   transform: translateY(-50%);
   @media (min-width: 992px) {
-    opacity: 1;
+    opacity: .9;
     max-width: 670px;
     right: 0;
     top: 50%;
