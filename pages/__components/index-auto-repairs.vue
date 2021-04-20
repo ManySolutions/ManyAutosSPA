@@ -52,6 +52,7 @@
             color="primary"
             x-large
             class="mt-5"
+            to="/sitemap"
             >
             View All Services
             <v-icon>

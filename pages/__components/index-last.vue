@@ -100,9 +100,9 @@
 </div>
 </template>
 <style lang="scss" scoped>
-.our-mission-sec {
-    background-color: #f4f4f4;
-}
+// .our-mission-sec {
+//     background-color: #f4f4f4;
+// }
 .our-mission-sec .mission-heading{
     font-size: 22px;
     line-height: 34px;
@@ -127,7 +127,7 @@
     color: #777;
 }
 .our-mission-sec .para-two p {
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 32px;
     margin-top: 34px;
     color: #777;
