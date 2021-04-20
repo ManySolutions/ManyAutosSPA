@@ -63,9 +63,11 @@
     </v-row>
     <!-- /first section for registration -->
     <v-row>
-      <index-how-it-works></index-how-it-works>
+      <!-- <index-how-it-works></index-how-it-works> -->
+      <index-both-services></index-both-services>
     </v-row>
-    <index-section-2></index-section-2>
+    <!-- <index-section-2></index-section-2> -->
+    <index-mot-section></index-mot-section>
     <v-row>
       <index-our-services></index-our-services>
       <car-reg-form has-bg-image></car-reg-form>
@@ -98,6 +100,8 @@ import IndexSection2 from "./__components/index-section-2.vue";
 import IndexOnlineBooking from "~/pages/__components/index-online-booking.vue";
 import IndexPickupAndDelivery from "~/pages/__components/index-pickup-and-delivery.vue";
 import IndexServices from "~/pages/__components/index-services.vue";
+import IndexBothServices from "~/pages/__components/index-both-services.vue";
+import IndexMotSection from "~/pages/__components/index-mot-section.vue";
 
 const URL = process.env.APP_URL;
 
@@ -115,6 +119,8 @@ export default {
     IndexOnlineBooking,
     IndexPickupAndDelivery,
     IndexServices,
+    IndexBothServices,
+    IndexMotSection,
   },
 
   data: () => ({
