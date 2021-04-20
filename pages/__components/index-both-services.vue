@@ -48,16 +48,14 @@
               </v-list-item-content>
             </v-list-item>
             <v-card-actions>
-              <btn-add-service
+              <v-btn
                 color='secondary'
-                id='FULL_SERVICE'
-                :price='``'
                 title='Full Service'
                 block
+                large
               >
                 Book Full Service
-                <template #added>Added</template>
-              </btn-add-service>
+              </v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
@@ -101,16 +99,14 @@
               </v-list-item-content>
             </v-list-item>
             <v-card-actions>
-              <btn-add-service
+              <v-btn
                 color='secondary'
-                id='INTERIM_SERVICE'
-                :price='``'
                 title='Interim Service'
                 block
+                large
               >
                 Book Interim Service
-                <template #added>Added</template>
-              </btn-add-service>
+              </v-btn>
             </v-card-actions>
           </v-card>
         </v-col>

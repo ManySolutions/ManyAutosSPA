@@ -2,6 +2,8 @@
   <v-card 
     class="reg-card" 
     :id='id'
+    :dark='dark'
+    :color="dark ? `primary` : `white`"
   >
     <v-card-title class="text-center d-block">
       <strong>
@@ -19,13 +21,20 @@
           :rules='[
             v => v.length >= 1 || `Enter your car reg no`
           ]'
+          :dark='dark'
         ></v-text-field>
         <small v-if="error" class="red--text">
           {{ errorMessage }}
           please try using
           <NuxtLink to="/">Manual Search</NuxtLink>
         </small>
-        <v-btn color="secondary" block large type="submit" :loading="isLoading"
+        <v-btn 
+          :color="dark ? `white` : `secondary`" 
+          :class='dark ? `primary--text` : ``'
+          block 
+          large 
+          type="submit" 
+          :loading="isLoading"
           :x-large='!isMinDevice'
         >
           Get instant quote
@@ -40,7 +49,7 @@
         or call us to book
         <v-btn
           text
-          color="primary"
+          :color="dark ? `white` : `primary`"
           class="py-0 px-0"
           style="height: auto"
           href="tel:01189876300"
@@ -69,6 +78,7 @@ export default {
       default: 'Book with us now',
       type: String
     },
+    dark: Boolean,
   },
   data: () => ({
     reg: '',
