@@ -110,7 +110,7 @@ export default {
             fbqLead(
               this.$fb, 
               this.reg, 
-              res.vehicle.Mfr +' '+ res.vehicle.Range
+              res.vehicle.Mfr +' '+ res.vehicle.Range + `(${this.reg})`
             );
 
             this.$store.commit('booking/REGISTER_VEHICLE', {

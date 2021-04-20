@@ -12,67 +12,71 @@
         </v-col>
       </v-row>
       <v-row class="inner-text-row" justify="center">
-        <v-col cols="12" sm="6" lg=4>
-          <v-card elevation="1" outlined>
-            <v-list-item-title class="headline mb-1 pl-3 pt-7 text-center">
-              <v-img
-                class="elevation-0 m-auto"
-                alt=""
-                src="https://static.manyautosltd.com/uploads/62x62.png"
-                max-width="80px"
-              >
-              </v-img>
-              <h3 class="mt-10 pb-3" style="font-weight: 700">Full Service</h3>
+        <v-col 
+          cols="12" sm="6" lg=6 order-sm='2' 
+          class='p-0'
+        >
+          <v-card 
+            class='full-card px-sm-8'
+            color='green lighten-5'
+            tile
+            elevation=0
+          >
+            <v-list-item-title class="headline mb-1 px-3 pt-10 text-left">
+              <!-- <i class="text-primary ico-ma-breakdown"></i> -->
+              <h3 class="pb-3">
+                Full Service
+              </h3>
               <h5 class="pb-3">Starting from</h5>
-              <h2 class='primary--text'>£59.99</h2>
+              <h2 class='secondary--text'>£59.99</h2>
             </v-list-item-title>
             <v-list-item three-line class='pb-7'>
-              <!-- <v-list-item-avatar tile size="60"> </v-list-item-avatar> -->
               <v-list-item-content>
-                <v-list-item-text class="inner-text">
+                <div class="inner-text">
                   <ul class='list-style-none'>
                     <li>
-                      <v-icon color="primary"> mdi-check-bold </v-icon>
+                      <v-icon color="secondary"> mdi-check </v-icon>
                       <span>70 point vehicle checks</span>
                     </li>
                     <li>
-                      <v-icon color="primary"> mdi-check-bold </v-icon>
+                      <v-icon color="secondary"> mdi-check </v-icon>
                       <span>Drive and Test</span>
                     </li>
                     <li>
-                      <v-icon color="primary"> mdi-check-bold </v-icon>
+                      <v-icon color="secondary"> mdi-check </v-icon>
                       <span>Collection and Delivery</span>
                     </li>
                   </ul>
-                </v-list-item-text>
+                </div>
               </v-list-item-content>
             </v-list-item>
-            <v-card-actions>
+            <v-card-actions class='px-3 pb-10 text-center'>
               <v-btn
                 color='secondary'
                 title='Full Service'
-                block
                 large
+                @click='handleClick(`FULL_SERVICE`)'
+                class='px-10'
               >
-                Book Full Service
+                Get Your Quote
               </v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
 
-        <v-col cols="12" sm="6" lg=4>
-          <v-card elevation="0" outlined>
-            <v-list-item-title
-              class="headline interim-sec mb-1 pl-3 pt-7 text-center"
-            >
-              <v-img
-                class="elevation-0 m-auto"
-                alt=""
-                src="https://static.manyautosltd.com/uploads/Interim-service-62x62.png"
-                max-width="80px"
-              >
-              </v-img>
-              <h3 class="mt-10 pb-3" style="font-weight: 700">
+        <v-col 
+          cols="12" sm="6" lg=6 order-sm='1' 
+          class='p-0'
+        >
+          <v-card 
+            class='full-card px-sm-8'
+            color='#f5f5f5'
+            tile
+            elevation=0
+          >
+            <v-list-item-title class="headline mb-1 px-3 pt-10 text-left">
+              <!-- <i class="text-primary ico-ma-breakdown"></i> -->
+              <h3 class="pb-3">
                 Interim Service
               </h3>
               <h5 class="pb-3">Starting from</h5>
@@ -80,8 +84,8 @@
             </v-list-item-title>
             <v-list-item three-line class='pb-7'>
               <v-list-item-content>
-                <v-list-item-text class="inner-text">
-                  <ul>
+                <div class="inner-text">
+                  <ul class='list-style-none'>
                     <li>
                       <v-icon color="primary"> mdi-check-bold </v-icon>
                       <span>50 point vehicle checks</span>
@@ -95,17 +99,18 @@
                       <span>Collection and Delivery</span>
                     </li>
                   </ul>
-                </v-list-item-text>
+                </div>
               </v-list-item-content>
             </v-list-item>
-            <v-card-actions>
+            <v-card-actions class='px-3 pb-10 text-center'>
               <v-btn
-                color='secondary'
-                title='Interim Service'
-                block
+                color='primary'
+                title='Full Service'
                 large
+                @click='handleClick(`INTERIM_SERVICE`)'
+                class='px-10'
               >
-                Book Interim Service
+                Get Your Quote
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -119,6 +124,17 @@ import BtnAddService from '~/components/func-components/btn-add-service.vue';
 export default {
   components: {
     BtnAddService,
+  },
+
+  methods: {
+    handleClick(param) {
+      this.$store.commit('settings/SET_REDIRECT', {
+        to: '/booking/create/mot-and-servicing#' + param,
+        referrer: 'car-reg'
+      });
+
+      this.$store.commit('booking/TOGGLE_REG_DIALOG', true);
+    }
   }
 };
 </script>
@@ -158,7 +174,7 @@ export default {
   font-size: 14px;
   line-height: 24px;
   color: #777;
-  text-align: center;
+  // text-align: center;
 }
 @media (max-width: 768px) {
   .company-service-sec .interim-sec {
@@ -169,15 +185,26 @@ export default {
 .company-service-sec ul {
   list-style-type: none;
   max-width: 295px;
-  margin: auto;
+  // margin: auto;
   padding-top: 15px;
-  display: inline-block;
+  display: block;
   text-align: left;
   padding-left: 0;
 }
 
 .inner-text-row .v-card {
-  max-width: 320px;
+  // max-width: 320px;
   margin: auto;
+}
+
+.headline i.text-primary {
+    font-size: 44px;
+}
+.headline > h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.full-card {
+  // transform: scale(1.1);
 }
 </style>

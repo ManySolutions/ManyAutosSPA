@@ -59,6 +59,8 @@
 import { getServices } from '~/api/vehicle';
 import BaseServiceItem from '~/components/base-components/base-service-item.vue'
 import BookingLayout from '~/layouts/booking-layout.vue';
+import $ from 'jquery';
+
 export default {
   components: {
     BaseServiceItem,
@@ -83,6 +85,18 @@ export default {
     isLoading: true,
     services: {},
   }),
+
+  watch: {
+    isLoading(isLoading) {
+      const { hash } = this.$route;
+      
+      if (hash && !isLoading) {
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 2000);
+      }
+    }
+  },
 
   mounted() {
     this.fetch();

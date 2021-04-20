@@ -47,7 +47,7 @@
               type='submit'
               :loading='isLoading'
             >
-              {{ isMinDevice && !fullwidth ? 'Book' : 'Get instant quote' }}
+              {{ isMinDevice && !fullwidth ? 'Get quote' : 'Get instant quote' }}
             </v-btn>
           </v-col>
           <v-col
@@ -88,6 +88,7 @@ export default {
     fullwidth: Boolean,
     title: String,
     hasNoRedirect: Boolean,
+    bgColor: String,
   },
 
   data: () => ({
@@ -111,7 +112,7 @@ export default {
       let clsx = this.bgCls;
 
       if (this.large) clsx += ' is-large-form'
-
+      if (this.bgColor) clsx += ` ${this.bgColor}`;
 
       return clsx;
     }
@@ -137,6 +138,7 @@ export default {
         .then(res => {
           if (res.no_reg_found) {
             this.$router.push('/search/vehicle?no_reg_found=true&reg_no='+this.reg)
+            this.$emit('notfound');
           }
           
           if (res.status && res.status == false) {
@@ -146,7 +148,7 @@ export default {
             fbqLead(
               this.$fb, 
               this.reg, 
-              res.vehicle.Mfr +' '+ res.vehicle.Range
+              res.vehicle.Mfr +' '+ res.vehicle.Range + `(${this.reg})`
             );
 
             this.$store.commit('booking/REGISTER_VEHICLE', {

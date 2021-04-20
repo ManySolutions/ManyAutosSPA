@@ -14,6 +14,7 @@
             :title='title'
             @success='handleSuccess'
             :hasNoRedirect="hasNoRedirect"
+            @notfound='handleDialogClose'
             large
           ></car-reg-form>
         </v-card-text>

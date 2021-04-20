@@ -37,6 +37,6 @@ export default {
 
 <style lang="scss" scoped>
 .navbar-container {
-  z-index: 2;
+  z-index: 12;
 }
 </style>

@@ -2,8 +2,12 @@
   <v-sheet :color='sheetBg' class='h-section-outer'>
     <v-container fluid class='h-section'>
       <div class='hs--text'>
-        <h1 v-html='headingText' :class='$route.query.offer ? `has-offer` : ``'></h1>
-        <h4>
+        <h1 
+          v-html='headingText' 
+          class='white--text'
+          :class='$route.query.offer ? `has-offer` : ``'
+        ></h1>
+        <h4 class='white--text'>
           Free collection and delivery <br> on your next
           <base-text-slider :options="[
             'MOT', 'Full Service', 'Interim Service',
@@ -58,7 +62,7 @@ export default {
     },
 
     sheetBg() {
-      // return 'transparent';
+      return 'primary darken-2';
       return this.isDevice.md 
         ? 'primary lighten-2' 
         : 'transparent'
@@ -111,6 +115,10 @@ export default {
       max-width: 180px;
     }
   }
+
+  #textSlider li {
+    color: #06d6a0;
+  }
 }
 
 .container.h-section {
@@ -122,6 +130,9 @@ export default {
     padding-bottom: 30px;
     @media (min-width: 992px) {
       height: auto;
+    }
+    @media (max-height: 600px) {
+      min-height: 630px;
     }
 }
 

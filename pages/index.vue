@@ -1,188 +1,59 @@
 <template>
-  <v-container fluid class="pt-0">
-    <v-row class="home-top">
-      <v-col>
-        <div class="img-container">
-          <v-img
-            v-for='(item, i) in slides'
-            :key='i' 
-            :class="'imgs-inner-' + i"
-            :src="'https://static.manyautosltd.com/uploads/' + item"
-            hidden
-            width='100%'
-            height='100%'
-          ></v-img>
-        </div>
-        <div class="home-sec-1">
-          <h1 class="text-center py-5">
-            <span class="text-lg">We offer</span>
-            <client-only>
-              <base-text-slider
-                :options="[
-                  'MOT',
-                  'Repairs',
-                  'Interim Service',
-                  'Full Service',
-                  'Diagnostic',
-                ]"
-              ></base-text-slider>
-              <template slot="placeholder">
-                <span class="text-primary">
-                  MOT, Car Repairs, Interim Service, Full Service and Car
-                  Diagnostics
-                </span>
-              </template>
-            </client-only>
-            <small class="text-sm"> for your car maintenance </small>
-          </h1>
+  <div>
+    <index-landing-new></index-landing-new>
 
-          <car-reg-form-card id='home-reg-form'></car-reg-form-card>
+    <v-sheet fluid color='#f5f5f5' class='py-3'>
+      <base-info-icons dark></base-info-icons>
+    </v-sheet>
 
-          <v-row class="top-h-icons">
-            <v-col cols="4" class="top-hi">
-              <span class="d-block">
-                <v-icon>mdi-car-connected</v-icon>
-                <span> FREE COLLECTION AND DELIVERY </span>
-              </span>
-            </v-col>
-            <v-col cols="4" class="top-hi">
-              <span class="d-block">
-                <v-icon>mdi-quality-high</v-icon>
-                <span> TRUSTED HIGH QUALITY GARAGES </span>
-              </span>
-            </v-col>
-            <v-col cols="4" class="top-hi">
-              <span class="d-block">
-                <v-icon>mdi-security</v-icon>
-                <span> 12 MONTH WARRANTY AND GUARANTEE </span>
-              </span>
-            </v-col>
-          </v-row>
-        </div>
-      </v-col>
-    </v-row>
-    <!-- /first section for registration -->
-    <v-row>
-      <!-- <index-how-it-works></index-how-it-works> -->
-      <index-both-services></index-both-services>
-    </v-row>
-    <!-- <index-section-2></index-section-2> -->
+    <index-both-services></index-both-services>
     <index-mot-section></index-mot-section>
-    <v-row>
-      <car-reg-form has-bg-image></car-reg-form>
-    </v-row>
-    <v-row>
-      <index-auto-repairs></index-auto-repairs>
-    </v-row>
-    <!-- <v-row>
-      <index-our-services></index-our-services>
-      <car-reg-form has-bg-image></car-reg-form>
-      <index-car-parts></index-car-parts>
-    </v-row> -->
-    <v-row>
-      <car-reg-form has-bg-image></car-reg-form>
-    </v-row>
-    <v-row>
-      <index-why-us></index-why-us>
-    </v-row>
-    <v-row>
-      <index-testimonial></index-testimonial>
-    </v-row>
-    <!-- <v-row class='my-12 my-lg-0'>
-      <index-online-booking></index-online-booking>
-      <index-pickup-and-delivery></index-pickup-and-delivery>
-    </v-row>
-     <v-row>
-      <car-reg-form has-bg-image></car-reg-form>
-      <index-reviews></index-reviews>
-      <index-faq></index-faq>
-    </v-row> -->
-    <v-row>
-      <index-last></index-last>
-    </v-row>
-    <!-- <index-services></index-services> -->
-  </v-container>
+    <!-- <car-reg-form bg-color='blue-grey darken-2'></car-reg-form> -->
+    <index-auto-repairs></index-auto-repairs>
+    <!-- <car-reg-form bg-color='blue-grey darken-2'></car-reg-form> -->
+    <!-- <index-why-us></index-why-us> -->
+    <index-testimonial></index-testimonial>
+    <index-last></index-last>
+  </div>
 </template>
 
 <script>
 import $ from 'jquery';
-import BaseTextSlider from "~/components/base-components/base-text-slider.vue";
-import IndexHowItWorks from "~/pages/__components/index-how-it-works.vue";
-import IndexOurServices from "~/pages/__components/index-our-services.vue";
-import IndexCarParts from "~/pages/__components/index-car-parts.vue";
-import IndexReviews from "~/pages/__components/index-reviews.vue";
-import IndexFaq from "~/pages/__components/index-faq.vue";
 import CarRegForm from "~/components/func-components/car-reg-form.vue";
-import CarRegFormCard from "~/components/func-components/car-reg-form-card.vue";
-import IndexSection2 from "./__components/index-section-2.vue";
-import IndexOnlineBooking from "~/pages/__components/index-online-booking.vue";
-import IndexPickupAndDelivery from "~/pages/__components/index-pickup-and-delivery.vue";
-import IndexServices from "~/pages/__components/index-services.vue";
 import IndexBothServices from "~/pages/__components/index-both-services.vue";
 import IndexMotSection from "~/pages/__components/index-mot-section.vue";
 import IndexAutoRepairs from "~/pages/__components/index-auto-repairs.vue";
 import IndexWhyUs from "~/pages/__components/index-why-us.vue";
 import IndexTestimonial from "~/pages/__components/index-testimonial.vue";
 import IndexLast from "~/pages/__components/index-last.vue";
-
-const URL = process.env.APP_URL;
+import IndexLandingNew from './__components/index-landing-new.vue';
+import BaseInfoIcons from '~/components/base-components/base-info-icons.vue';
 
 export default {
   components: {
-    BaseTextSlider,
-    IndexHowItWorks,
-    IndexOurServices,
-    IndexCarParts,
-    IndexReviews,
-    IndexFaq,
     CarRegForm,
-    CarRegFormCard,
-    IndexSection2,
-    IndexOnlineBooking,
-    IndexPickupAndDelivery,
-    IndexServices,
     IndexBothServices,
     IndexMotSection,
     IndexAutoRepairs,
     IndexWhyUs,
     IndexTestimonial,
     IndexLast,
+    IndexLandingNew,
+    BaseInfoIcons,
   },
 
-  data: () => ({
-    slides: [
-      'masked-mechanic-checks-car-service-station.jpg',
-      'mechanic-man-woman-customer-wearing-medical-face-mask-protection-coronavirus-check-car-condition-before-delivery.jpg',
-      'auto-mechanic-checking-car.jpg'
-    ],
-    slideCount: 0,
-    interval: null,
-  }),
+  data: () => ({}),
 
   watch: {
-    slideCount(slideCount) {
-      $('.img-container > div').fadeOut(500);
-      $('.img-container > .imgs-inner-' + slideCount).fadeIn(500);
-    }
   },
 
   beforeDestroy() {
-    clearInterval(this.interval);
   },
 
   mounted() {
-    this.slidesBg();
   },
 
   methods: {
-    slidesBg() {
-      this.interval = setInterval(() => {
-        if (this.slideCount >= 2)
-          this.slideCount = 0
-        else
-          this.slideCount++
-      }, 20000)
-    }
   },
 
   head: {
@@ -356,96 +227,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.img-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  background: black;
-  overflow: hidden;
-  &:before {
-    content: "";
-    background: rgb(69 90 100 / 86%);
-    // background: rgb(47 82 87 / 90%);
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+::v-deep {
+  .top-h-icons {
+    max-width: 760px;
   }
-}
-.text-lg {
-  font-size: 34px;
-  letter-spacing: 1px;
-  color: white;
-  @media (min-width: 960px) {
-    font-size: 44px;
-  }
-}
-.text-sm {
-  font-weight: 400;
-  font-size: 18px;
-  max-width: 90%;
-  display: block;
-  margin: auto;
-  text-align: center;
-  color: white;
-  @media (min-width: 960px) {
-    margin-top: 10px;
-    font-size: 22px;
-  }
-}
-
-.home-top {
-  padding-bottom: 20px;
-  // background-image: url("https://static.manyautosltd.com/uploads/black---mechanic-man-woman-customer-wearing-medical-face-mask-protection-coronavirus-check-car-condition-before-delivery.jpg") top center;
-  // background-size: cover;
-  position: relative;
-  @media (min-width: 960px) {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-}
-.home-sec-1 {
-  padding-bottom: 30px;
-  position: relative;
-  z-index: 1;
-}
-
-.top-h-icons {
-  padding-top: 30px;
-  max-width: 500px;
-  margin: 0px auto;
-  color: white;
-  .top-hi {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    position: relative;
-    &:not(:last-child):after {
-      content: "";
-      position: absolute;
-      right: 0;
-      height: 70%;
-      width: 1px;
-      background: #3636361a;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-    span {
-      font-size: 12px;
-      display: block;
-      max-width: 280px;
-      margin: 0px auto;
-    }
-    span i {
-      margin-bottom: 20px;
-      font-size: 31px;
-      color: white;
-    }
+  .top-h-icons .top-hi span {
+    max-width: 170px;
   }
 }
 </style>
