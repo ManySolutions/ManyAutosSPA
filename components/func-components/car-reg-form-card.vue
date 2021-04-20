@@ -1,5 +1,8 @@
 <template>
-  <v-card class="reg-card" :id='id'>
+  <v-card 
+    class="reg-card" 
+    :id='id'
+  >
     <v-card-title class="text-center d-block">
       <strong>
         {{ title }}
