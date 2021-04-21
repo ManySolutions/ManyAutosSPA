@@ -312,6 +312,7 @@ export default {
 
 <style lang="scss" scoped>
 .mini-cart {
+  z-index: 2147483648;
   &::v-deep .v-skeleton-loader__button {
     margin-left: 20px;
   }

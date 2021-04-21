@@ -125,13 +125,13 @@ export default {
     min-height: 550px;
     height: calc(100vh - 120px);
     position: relative;
-    max-width: 1700px;
+    // max-width: 1700px;
     padding-top: 30px;
     padding-bottom: 30px;
     @media (min-width: 992px) {
-      height: auto;
+      // height: auto;
     }
-    @media (max-height: 600px) {
+    @media (max-height: 610px) {
       min-height: 630px;
     }
 }
@@ -151,8 +151,7 @@ export default {
     }
     @media (min-width: 992px) {
       left: 0px;
-      top: 0px;
-      transform: none;
+      transform: translateY(-50%);
       position: relative;
     }
 }
@@ -185,6 +184,7 @@ export default {
   width: 100%;
   opacity: 0.2;
   transform: translateY(-50%);
+  max-height: 100%;
   @media (min-width: 992px) {
     opacity: .9;
     max-width: 670px;
@@ -206,7 +206,7 @@ h1.has-offer {
 
   ::v-deep .price {
     position: absolute;
-    text-shadow: 0px -1px 9px white;
+    // text-shadow: 0px -1px 9px white;
   }
 }
 </style>
