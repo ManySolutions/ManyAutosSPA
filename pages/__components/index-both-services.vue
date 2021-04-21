@@ -27,7 +27,9 @@
                 Full Service
               </h3>
               <h5 class="pb-3">Starting from</h5>
-              <h2 class='secondary--text'>£59.99</h2>
+              <h2 class='secondary--text'>
+                <small v-html='currencySymbol'></small>79.99
+              </h2>
             </v-list-item-title>
             <v-list-item three-line class='pb-7'>
               <v-list-item-content>
@@ -79,7 +81,9 @@
                 Interim Service
               </h3>
               <h5 class="pb-3">Starting from</h5>
-              <h2 class='primary--text'>£59.99</h2>
+              <h2 class='primary--text'>
+                <small v-html='currencySymbol'></small>59.99
+              </h2>
             </v-list-item-title>
             <v-list-item three-line class='pb-7'>
               <v-list-item-content>
