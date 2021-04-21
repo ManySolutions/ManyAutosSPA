@@ -93,12 +93,12 @@ export default {
 
   methods: {
     handleClick() {
+      this.$store.commit('booking/TOGGLE_REG_DIALOG', true);
+
       this.$store.commit('settings/SET_REDIRECT', {
         to: '/booking/create/parts',
         referrer: 'car-reg'
       });
-
-      this.$store.commit('booking/TOGGLE_REG_DIALOG', true);
     }
   }
 };

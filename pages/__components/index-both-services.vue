@@ -138,12 +138,12 @@ export default {
 
   methods: {
     handleClick(param) {
+      this.$store.commit('booking/TOGGLE_REG_DIALOG', true);
+      
       this.$store.commit('settings/SET_REDIRECT', {
         to: '/booking/create/mot-and-servicing#' + param,
         referrer: 'car-reg'
       });
-
-      this.$store.commit('booking/TOGGLE_REG_DIALOG', true);
     }
   }
 };
