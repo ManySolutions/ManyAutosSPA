@@ -29,6 +29,9 @@
 
 <script>
 export default {
+  data: () => ({
+    rendered: false,
+  }),
   computed: {
     headingText() {
       const {offer} = this.$route.query;
@@ -53,12 +56,14 @@ export default {
         text = `Book your next car repair with us now`;
       }
 
-      if (redirect) {
+      if (redirect && !this.rendered) {
         this.$store.commit('settings/SET_REDIRECT', {
           referrer: 'car-reg',
           to: redirect
         });
       }
+      
+      this.rendered = true;
 
       return text;
     },
