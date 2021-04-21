@@ -5,7 +5,7 @@
         <v-row>
           <v-col cols="12" class="mot-service-sec text-center">
             <h1 class="mot-service-heading">
-              Why not get your MOT done with us?
+              Get your MOT done with us
             </h1>
             <div class="text-center m-auto">
               <v-img
@@ -22,7 +22,7 @@
               </strong>
             </div>
             <div class="free_col_del mt-2 mb-8">
-              Free nationwide collection and delivery.
+              Free collection and delivery nationwide.
             </div>
             <div class="text-center">
               <v-btn color="secondary" x-large class="mt-5 mr-4 px-5" @click='handleClick'>
@@ -59,7 +59,7 @@ export default {
 }
 .mot-section .mot-service-sec .mot-service-heading {
   text-transform: capitalize;
-  font-size: 48px;
+  font-size: 45px;
   line-height: 54px;
   font-weight: 500;
   color: #333;

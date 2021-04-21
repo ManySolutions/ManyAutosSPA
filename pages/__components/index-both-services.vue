@@ -3,11 +3,10 @@
     <v-container>
       <v-row>
         <v-col cols="12" class="both-service-sec text-center">
-          <h1 class="both-service-heading">Our Services</h1>
+          <h1 class="index-heading">Our Services</h1>
           <p class='pb-8'>
-            We can help you with everything from an oil change to an engine
-            change.<br />
-            We can handle any problem on both foreign and domestic vehicles.
+            We are capable of fixing both foreign and domestic vehicles.<br />
+            We offer MOT, car services and repairs all at one place.
           </p>
         </v-col>
       </v-row>
@@ -37,15 +36,15 @@
                 <div class="inner-text">
                   <ul class='list-style-none'>
                     <li>
-                      <v-icon color="secondary"> mdi-check </v-icon>
+                      <v-icon color="secondary"> mdi-check-bold </v-icon>
                       <span>70 point vehicle checks</span>
                     </li>
                     <li>
-                      <v-icon color="secondary"> mdi-check </v-icon>
+                      <v-icon color="secondary"> mdi-check-bold </v-icon>
                       <span>Drive and Test</span>
                     </li>
                     <li>
-                      <v-icon color="secondary"> mdi-check </v-icon>
+                      <v-icon color="secondary"> mdi-check-bold </v-icon>
                       <span>Collection and Delivery</span>
                     </li>
                   </ul>
@@ -151,25 +150,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.company-service-sec .both-service-sec .both-service-heading {
-  text-transform: capitalize;
-  font-size: 33px;
-  line-height: 44px;
-  font-weight: 300;
-  color: #333;
-}
-
-.company-service-sec .both-service-sec .both-service-heading::after {
-  display: block;
-  content: "";
-  background: #00b4d8;
-  width: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  height: 2px;
-}
-
 .company-service-sec .both-service-sec p {
   font-size: 18px;
   font-weight: 300;
@@ -216,7 +196,7 @@ export default {
     font-size: 32px;
     text-transform: uppercase;
 }
-.full-card {
-  // transform: scale(1.1);
-}
+// .full-card {
+//   transform: scale(1.1);
+// }
 </style>
