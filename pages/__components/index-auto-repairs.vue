@@ -50,8 +50,7 @@
           </v-btn>
           <br>
           <nuxt-link to='/car-repairs' class='d-inline-block mt-2'>
-            Read More 
-            <v-icon small color='primary' class='d-inline-block'>mdi-chevron-double-right</v-icon>
+            Read More »
           </nuxt-link>
         </v-col>
       </v-row>
@@ -94,12 +93,12 @@ export default {
 
   methods: {
     handleClick() {
+      this.$store.commit('booking/TOGGLE_REG_DIALOG', true);
+
       this.$store.commit('settings/SET_REDIRECT', {
         to: '/booking/create/parts',
         referrer: 'car-reg'
       });
-
-      this.$store.commit('booking/TOGGLE_REG_DIALOG', true);
     }
   }
 };

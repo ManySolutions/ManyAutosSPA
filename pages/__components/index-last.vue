@@ -6,14 +6,12 @@
           <div class="text-left mb-10">
             <h3 class="mission-heading">OUR MISSION</h3>
           </div>
-          <div class="para-one">
+          <div class="para-two mb-10">
             <p>
               We are a one-stop shopping for all your automotive needs. We provide a huge range of car services and
               repairs. All the services are carried out by highly trained mechanics. We can handle any automotive
               problem.
             </p>
-          </div>
-          <div class="para-two">
             <p>
               We have always considered customers our highest priority and we want to provide them with the best
               services. It doesn’t matter what type of car do you own, whether it’s a SUV, a passenger’s car or a truck.
@@ -22,11 +20,11 @@
           </div>
           <div class="text-left mb-12 mb-md-0">
             <v-btn 
-            color="primary" 
-            x-large
-            to="contact"
+              color="primary" 
+              x-large
+              to="contact"
             >
-            Contact Us 
+              Contact Us 
             </v-btn>
           </div>
         </v-col>

@@ -25,6 +25,11 @@
             {{ currencySymbol }}
             {{ priceFormatted || '00.00' }}
           </span>
+          <span 
+            v-if='oldPrice' 
+            class='ma-si-old-price red--text'
+            v-html='currencySymbol + oldPrice'
+          ></span>
         </v-col>
         <div class="">
           <!-- <mot-alert
@@ -86,7 +91,7 @@ export default {
   components: { btnAddService, DesktopCart },
   props: [
     'title', 'price', 'id', 'description', 'btntext',
-    'ind', 'loading'
+    'ind', 'loading', 'oldPrice'
   ],
   data: () => ({
     INDKeys: ['IND0', 'IND1', 'IND2', 'IND3', 'IND4'],
@@ -200,5 +205,8 @@ export default {
     font-weight: 700;
     font-size: 15px;
   }
+}
+.ma-si-old-price {
+    text-decoration: line-through;
 }
 </style>

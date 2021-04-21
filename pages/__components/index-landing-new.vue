@@ -29,10 +29,13 @@
 
 <script>
 export default {
+  data: () => ({
+    rendered: false,
+  }),
   computed: {
     headingText() {
       const {offer} = this.$route.query;
-      let redirect = '/booking/create/services';
+      let redirect = null;
       let text = 'Save up to 60%, book your car repair now';
 
       if (offer == 'mot') {
@@ -45,7 +48,7 @@ export default {
         redirect = '/booking/create/mot-and-servicing#FULL_SERVICE';
 
         text = `Book your car service, starting from 
-          <span class='price secondary--text'>${this.currencySymbol}<span>89.99</span></span>`;
+          <span class='price secondary--text'>${this.currencySymbol}<span>59.99</span></span>`;
       }
       if (offer == 'car-repair') {
         redirect = '/booking/create/parts';
@@ -53,10 +56,14 @@ export default {
         text = `Book your next car repair with us now`;
       }
 
-      this.$store.commit('settings/SET_REDIRECT', {
-        referrer: 'car-reg',
-        to: redirect
-      });
+      if (redirect && !this.rendered) {
+        this.$store.commit('settings/SET_REDIRECT', {
+          referrer: 'car-reg',
+          to: redirect
+        });
+      }
+      
+      this.rendered = true;
 
       return text;
     },
