@@ -24,7 +24,8 @@
         <base-service-item
           :loading='isLoading'
           :title='`MOT`'
-          :price='motPrice'
+          :price='services.MOT ? services.MOT.price : "00.00"'
+          :oldPrice='services.MOT ? services.MOT.old_price : "00.00"'
           :id='`MOT`'
           :ind='["Free Retest", "Emissions and exhaust test", "Collection and delivery"]'
         ></base-service-item>
@@ -32,6 +33,7 @@
           :loading='isLoading'
           :title='`Interim Service`'
           :price='services.INTERIM_SERVICE ? services.INTERIM_SERVICE.price : "00.00"'
+          :oldPrice='services.INTERIM_SERVICE ? services.INTERIM_SERVICE.old_price : "00.00"'
           :id='`INTERIM_SERVICE`'
           :ind='[
             "Oil and Oil Filter", 
@@ -43,6 +45,7 @@
           :loading='isLoading'
           :title='`Full Service`'
           :price='services.FULL_SERVICE ? services.FULL_SERVICE.price : "00.00"'
+          :oldPrice='services.FULL_SERVICE ? services.FULL_SERVICE.old_price : "00.00"'
           :id='`FULL_SERVICE`'
           :ind='[
             "70 point vehicle checks", 
