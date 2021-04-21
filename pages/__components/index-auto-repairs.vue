@@ -80,13 +80,13 @@ export default {
       },
       {
         src:
-          "https://static.manyautosltd.com/uploads/hands-mechanic-using-diagnostic-tool_800x533.jpg",
-        name: "AIR SUSPENSION",
+          "https://static.manyautosltd.com/uploads/male-hands-holding-air-gun-car-wheel_800x533.jpg",
+        name: "TYRES MAINTENANCE",
       },
       {
         src:
-          "https://static.manyautosltd.com/uploads/closeup-old-timing-belt-with-many-cracks-engine-room_800x534.jpg",
-        name: "TYRES MAINTENANCE",
+          "https://static.manyautosltd.com/uploads/hand-technician-wearing-gloves-repairing-car-brake_800x533.jpg",
+        name: "AIR SUSPENSION",
       },
     ],
   }),
