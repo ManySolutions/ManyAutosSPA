@@ -119,6 +119,14 @@
           </v-card>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col cols=12 class='text-center'>
+          <nuxt-link class='d-inline-block mt-10' to='/car-service'>
+            Read More 
+            <v-icon small color='primary' class='d-inline-block'>mdi-chevron-double-right</v-icon>
+          </nuxt-link>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
