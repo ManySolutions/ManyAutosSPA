@@ -1,471 +1,357 @@
 <template>
-  <page-layout title='Oil Change' heading-bg='customer-v2/static-pages/allpics/oilchange1.jpg'>
-    <div class="container">
-      <div class="row">
-        <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
-          <div class="row">
-            <div class="col-12">
-              <p class="text-teal text-18 justify">The lifespan оf any vеhiсlе rеvоlvеѕ around ѕеvеrаl factors one оf
-                thеm is the mаintеnаnсе оf thе vehicle. Mоѕt people nеglесt thеir vehicles аnd when thеу rеаllу nееd it
-                the most, the vеhiсlе might ѕuddеnlу die. This саn hарреn nоt only to old саrѕ but tо nеw саrѕ аѕ well
-                аnd hence it’ѕ very important tо mаkе sure уоur vehicle iѕ in for a ѕсhеdulеd mаintеnаnсе check-up
-                оftеn. Consider thеѕе ѕеvеn reasons whу уоu should gеt your oil changed.</p>
-            </div>
-          </div>
-          <v-expansion-panels popout>
-            <v-expansion-panel  class="icon">
-              <v-expansion-panel-header class="card-header">
-                Common Rеаѕоnѕ fоr an Oil Change!
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <div class="panel-body">
-                  <p class="text-teal text-18 justify">Following аrе ѕоmе of thе main rеаѕоnѕ why one ѕhоuld gеt the оil
-                    changed rеgulаrlу, уоu саn dо ѕо bу hаving a ѕсhеdulеd mаintеnаnсе рlаn with уоur mесhаniс. This
-                    will inсrеаѕе the lifespan оf уоur vеhiсlе аnd уоu will bе in a lоt оf peace whеn уоu knоw уоu’rе
-                    vehicle iѕ funсtiоning wеll.</p>
-                  <ol>
-                    <li class="text-teal text-18">Longevity – If уоu аrе lооking to inсrеаѕе thе lifеѕраn of your
-                      vеhiсlе уоu will рrоbаblу wаnt tо gеt thiѕ dоnе. Gеtting your oil сhаngеd is not еxреnѕivе and by
-                      servicing уоu wоuld get an oil filter rерlасеmеnt with fresh оil thаt would keep your еnginе
-                      lubricated аnd perform орtimаllу.</li>
-                    <li class="text-teal text-18">Sludgе – Dо уоu knоw thаt уоur еnginе раrtѕ аrе ruinеd bесаuѕе оf
-                      dirty clogs аnd thеn аn еnginе build uр асiditу whiсh causes unnесеѕѕаrу damage tо thе internal
-                      раrtѕ of уоur vеhiсlе? Damaging thе engine would rеԛuirе a replacement оr rераir which iѕ much
-                      mоrе costly thаn a ѕimрlе рrосеѕѕ of оil change. </li>
-                    <li class="text-teal text-18">Strеѕѕ – If you аrе going оn a long road trip or gоing thrоugh the
-                      mountainous tеrrаin you will nееd аll the роѕѕiblе роwеr in thе engine tо gеt уоu through.
-                      Chаnging уоur oil rеgulаrlу will nоt givе you аnу рrоblеmѕ аnd your car will run juѕt fine. If уоu
-                      have not been doing a regular оil сhаngе уоu wоuld find thаt thе саr will hаvе a rеаl hard time
-                      gоing uр thе hills and engine could get оvеr hеаtеd.</li>
-                    <li class="text-teal text-18">Most vеhiсlеѕ especially during mild climate rеgiоnѕ ѕhоuld hаvе itѕ
-                      оil changed еvеrу 5000 milеѕ. And if уоu’rе living in an аrеа thаt iѕ раrtiсulаrlу dirtу оr duѕtу
-                      уоu will wаnt tо tаkе care оf this mоrе frequently. Dо nоt dеlау, аѕ this ѕhоuld nоt take lоng.
-                      Thiѕ is a ѕimрlе, inеxреnѕivе, аnd сruсiаl ѕеrviсе, so fоrgеtting to kеер uр with it саn lеаd to
-                      some ѕеriоuѕ setbacks. </li>
-                    <li class="text-teal text-18">Oil constantly burnѕ as wе drivе аnd ѕimрlу аdding fresh lubriсаnt
-                      bought frоm a ѕtоrе iѕ nоt gооd еnоugh fоr уоur саr’ѕ mоtоr. Ovеr timе, the oil inѕidе will turn
-                      blасk аnd ассumulаtе dirt and other debris. Aftеr a whilе thiѕ will likеlу сlоg уоur еnginе аnd
-                      саn lеаd to permanent damage. </li>
-                  </ol>
-                </div>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Engine Oils
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                Engine oil is the 'life blood' of your car. It's a vital component of the engine system, lubricating
-                moving parts and ensuring your car has a long and happy life.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                The Importance of Changing Your Engine Oil
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                The grade and type of oil you use can also impact your car's economy and emissions, so it is essential
-                that you use the correct grade of oil. Unlike blood, engine oils don't self-cleanse and after a short
-                amount of time will start to degrade and become progressively dirtier and less efficient.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                How often do you change your oil in a car?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                Change your engine oil at the vehicle manufacturer's recommended service interval that matches your
-                vehicle's operating conditions.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Are oil changes important?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                Over time, that oil breaks down and becomes contaminated with dust, dirt and debris from the engine as
-                well as the environment hence oil and filter change are so important to a car's well-being, it maintains
-                engine lubrication.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel  class="icon">
-              <v-expansion-panel-header class="card-header">
-                What happens if your car runs out of oil while driving?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                Any lack of engine oil in the system, or even dirty oil, will lead to extreme engine wear, and driving a
-                car low on oil can lead to some bad situations. If you run out of engine oil, your engine will fail. If
-                the engine runs out of oil, it will start to grind, and then seize up, stalling the vehicle.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Why do cars need oil changes?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                Car engines have many moving parts. As these parts move and rub against each other, the force of
-                friction creates heat. Oil lubricates the engine and absorbs heat, allowing the internal parts to work
-                together effectively without overheating.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                How do you know you need an oil change?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify">5 Signs That Indicate Your Oil Needs to Be Change. Fresh, clean oil
-                  optimizes your vehicle's performance by lubricating parts and keeping the engine clean and healthy.
-                </p>
-                <ul class="list mt-2 mb-2">
-                  <li>Dark and Dirty Oil</li>
-                  <li>Louder Engine Noise and Knocking</li>
-                  <li>Oil Change or Check Engine Light</li>
-                  <li>Exhaust Smoke</li>
-                  <li>Oil Smell Inside the Cabin</li>
-                </ul>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Is fully synthetic oil worth it?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                Synthetic oil costs more but has many advantages over conventional oil. Not every car needs it, however.
-                Synthetic lasts longer and thus require fewer changes.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                What are the benefits of an oil change?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <div class="panel-body">
-                  <p class="text-teal text-18 justify">Regular oil changes are necessary to ensure the proper
-                    performance of a car's engine. An oil change, which involves installing a new engine oil filter and
-                    draining old engine oil and replacing it with fresh, clean oil, offers a myriad of benefits. Oil
-                    changes help to keep car engines clean and running smoothly</p>
-                  <h4 class="text-darker-blue">Does oil change effect performance?</h4>
-                  <p class="text-teal text-18 justify">So, the basic answer to the question does oil change affect
-                    performance is pretty easy. Old oil will reduce engine performance, lower its horsepower, reduce its
-                    mileage and eventually shorten its Life.</p>
-                </div>
+  <page-layout-v2
+    title="Oil Change"
+    sub-heading="Have your oil changed. Book a service now!"
+    heading-bg='customer-v2/static-pages/allpics/oilchange1.jpg'
+    box-title='Book your oil change now'
+    :faqs='faqs'
+    faq-topic='Oil change with ManyAutos'
+    blog-topic='Learn more about oil change in vehicles'
+    :list-menu='listMenu'
+    redirect-to='/booking/create/search?keyword=filter'
+    :has-repair-pages='false'
+  >
+    <template #overview>
+      <p>
+        The life of a vehicle depends on multiple factors. One of the most important factors is the regular maintenance
+        of the car. People tend to ignore their vehicle and not provide the care and attention when they need it the
+        most. The most necessary maintenance is to change the oil regularly.
+      </p>
+      <p>
+        Our professional mechanics inspect your car and let you know when an oil change is required. You can get the <strong>oil
+        change service</strong> from a trusted garage like Manyautos, at an affordable price.
+      </p>
+    </template>
+    <template #blog>
+      <h2 class="font-weight-600">
+        What is engine oil?
+      </h2>
+      <p>
+        The main job of engine oil is to provide the proper amount of lubrication to all the engine parts, that are
+        always moving and can cause friction. The friction increases the wear and tear of the engine parts, which is why
+        lubricant is necessary to keep them in a good shape.
+      </p>
+      <h2 class="font-weight-600">
+       What happens if the engine oil is not topped up?
+      </h2>
+      <p>
+          The dirty oil will be more abrasive on the engine if the amount of oil is incredibly low. Replacing the old
+          and dirty oil with the new one allows the oil to perform its job efficiently of lubricating the car parts.
+          Another reason for changing the engine oil regularly is that the additive present in the oil that reduces
+          friction or fight rust run out quickly and the oil becomes useless.
+      </p>
+      <h2 class="font-weight-600">
+        Why do cars need oil changes?
+      </h2>
+      <p>
+        There are a lot of moving parts inside the car’s engine. As these parts move in sync and rub against each other,
+        heat is produced due to the friction. This heat can damage the said parts and affect the performance of the
+        vehicle. The oil act as a lubricant to reduce friction and also absorb the heat that is produced. This allows
+        the parts to work in harmony without overheating.
+      </p>
+      <h2 class="font-weight-600">
+        What happens if your car is low on oil while driving?
+      </h2>
+      <p>
+        Lack of engine oil, or contaminated oil will cause more engine wear and cause more problems. Running out of oil
+        can cause the engine to fail. It will seize up and also stall the vehicle.
+      </p>
+      <h2 class="font-weight-600">
+        Are oil changes important?
+      </h2>
+      <p>
+        The components of the oil break down over time and become dirty and contaminated by debris, dirt, and dust. It
+        becomes contaminated from the surroundings or the engine. That is the reason why an oil change is necessary to
+        maintain the engine lubrication and good performance. 
+      </p>
+      <h2 class="font-weight-600">
+        When should you get an oil and filter change?
+      </h2>
+      <p>
+        It is advised to change the oil and filter with every full service. However, the replacement depends on multiple
+        factors like the way of driving or the weather conditions. There was a time when it was compulsory to replace
+        the oil every 3000 miles but when it comes to the attest lubricants, they can be changed between 5,000 to 7,500
+        miles.
+      </p>
+      <h2 class="font-weight-600">
+        What are the benefits of an oil change?
+      </h2>
+      <p>
+        Regular oil and filter change are really important to ensure the perfect performance of the vehicle’s engine. An
+        oil change involves draining the old oil from the tank and putting in the fresh one and also replacing the used
+        oil filter. It benefits us in many ways. The clean oil provides the perfect lubrication to the components and
+        increases the efficiency of the car. 
+      </p>
+      <h2 class="font-weight-600">
+        Does oil change affect performance?
+      </h2>
+      <p>
+        Yes, the oil change affects the performance of the vehicle. Oil and dirty oil tends to lower horsepower, reduce
+        engine performance, reduce the vehicle’s mileage, and shortens its life. Just changing the oil can prevent all
+        these problems from happening. 
+      </p>
+      <h2 class="font-weight-600">
+        How long does a car oil change take?
+      </h2>
+      <p>
+        A <strong>car oil change</strong> can normally take between 15 to 45 minutes. You can either wait at the garage or leave your
+        vehicle with our trusted and professional mechanics, who will perform all the services responsibly.  
+      </p>
+      <h2 class="font-weight-600">
+        Free collection and delivery
+      </h2>
+      <p>
+        We know that everyone is busy nowadays and you hardly have time to take care of your vehicle and take it to the
+        garage for servicing. To make your life easy, we are offering the collection and delivery service free of cost.
+        All these years you might have been searching online for “the best garage offering <strong>oil change near me</strong>” but that
+        time is over now. If you have pre-booked our service, and your car is drivable, our team will collect your
+        vehicle from a place of your choice and then deliver it back to you after all the repairs are done.
+      </p>
+      <p>Many Autos operate a fleet of pool cars with a dedicated driver, so wherever we are collecting from, we need to
+        be able to leave one of our pool vehicles either in your work parking space or if in a residential area, we
+        would need to be able to leave our car either at your house or on the road with a permit if required. We would
+        be grateful if you could bear this in mind when booking to use our free Collection and delivery service.</p>
+    </template>
 
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Engine Oil Change Free Collection and Delivery
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify"> Sometimes, the worst part of getting your car fixed is having to
-                  bring it to the garage. We are therefore happy to offer our customers a free collection and delivery
-                  service If you prearrange a collection, we will pick your car up from your home or place of work and
-                  drive it to our premises, carry out all the necessary work (having consulted you) and deliver it back
-                  to you at the end of the day.</p>
-                <p class="text-teal text-18 justify">We are able to tow, jump start or repair your vehicle if you are
-                  experiencing problems or broken down for a small fee. If we can't sadly start your vehicle, we can
-                  contact a local recovery firm to collect your vehicle for a very competitive price.</p>
-                <ul class="list mt-2 mb-2">
-                  <li>Don't want to waste your day off? </li>
-                  <li>You don't have the time to take your car in for a service or repairs? </li>
-                  <li>Have you got problems with getting to and from the garage? </li>
-                </ul>
-                <p class="text-teal text-18 justify">Here at Many Autos, we believe that we offer a valuable product
-                  with our Free Collection and Delivery Service, we can collect either from your place of work or from
-                  your home address. If you are unsure about whether the address you are considering having your vehicle
-                  collected from is not within our range, then please do contact us.<br></p>
-                <p class="text-teal text-18 justify">Many Autos operate a fleet of pool cars with a dedicated driver, so
-                  wherever we are collecting from, we need to be able to leave one of our pool vehicles either in your
-                  work car park / parking space, or if in a residential area, we would need to be able to leave our car
-                  either at your house or on the road with a permit if required. We would be grateful if you could bear
-                  this in mind when booking to use our free Collection and delivery service</p>
-
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                How much does Oil & Oil Filter cost?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <div class="panel-body">
-                  <p class="text-teal text-18 justify">These estimates may include Engine oil and Engine oil filter</p>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Alfa Romeo Oil & Oil Filter Change Parts & Labour </div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Audi Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">BMW Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Cadillac Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Chevrolet Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Chrysler Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Citroen Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Dacia Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Daewoo Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Daihatsu Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Dodge Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">DS Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Fiat Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Ford Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Honda Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Hyundai Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Infiniti Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Jaguar Oil & Oil Filter Change & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Jeep Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Kia Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Land Rover Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Lexus Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Mazda Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Mercedes-Benz Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">MG Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Mini Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Mitsubishi Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£99.00</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Nissan Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£90-£150</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Peugeot Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£100-£140</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Proton Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£105-£130</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Renault Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£80-£140</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Rover Oil & Oil Filter Change & Labour</div>
-                    <div class="pull-right green2">£110-£140</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Saab Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£100-£155</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Seat Brake Pads Parts & Labour</div>
-                    <div class="pull-right green2">£125-£170</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Skoda Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£115-£170</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Smart Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£80-£130</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">SsangYong Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£125-£155</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Subaru Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£90-£135</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Suzuki Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£90-£135</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Toyota Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£105-£145</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Vauxhall Brake Pads Parts & Labour</div>
-                    <div class="pull-right green2">£110-£165</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Volkswagen Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£130-£195</div>
-                  </div>
-                  <div class="clearfix col-12 col-sm-6 price-item-in-panel-body">
-                    <div class="pull-left">Volvo Oil & Oil Filter Change Parts & Labour</div>
-                    <div class="pull-right green2">£130-£170</div>
-                  </div>
-                </div>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-          </v-expansion-panels>
-
-        </section>
-
-      </div>
-    </div>
-  </page-layout>
+    <!-- <div style='padding-top: 50px;'>
+      <car-service-table></car-service-table>
+    </div> -->
+  </page-layout-v2>
 </template>
 
 <script>
-import PageLayout from '@/layouts/page-layout';
+import PageLayoutV2 from "@/layouts/page-layout-v2";
+import { carRepairPages } from '~/utils/vars';
 
 const URL = process.env.APP_URL;
 
 export default {
   components: {
-    PageLayout
+    PageLayoutV2,
+  },
+
+  data: () => ({
+    panel: 0,
+    faqs: [
+      {
+        title: "How much should I pay for an oil change?",
+        content:
+          "The average price of an oil change is £102. It can range between £70 and £160 which is a lot cheaper than replacing the whole engine. So, getting the oil changed regularly will save you a good amount of money.",
+      },
+      {
+        title: "How do you know you need an oil change?",
+        content:         
+          `
+            Multiple signs show that your car needs an oil change to run smoothly. Some of them are:
+            <ul>
+              <li>Oil becomes dark and dirty. </li>
+              <li>Weird and loud engine noises and knocking.</li>
+              <li>Oil change warning light in on.</li>
+              <li>Excessive smoke produced by the exhaust.</li>
+              <li>The cabin smells like oil.</li>
+            </ul>
+          `,
+      },
+      {
+        title: "How long does a car oil change take?",
+        content:
+          "An oil change can normally take between 15 to 45 minutes. You can either wait at the garage or leave your vehicle with our trusted and professional mechanics, who will perform all the services responsibly.",
+      },
+    ],
+    listMenu: carRepairPages,
+  }),
+
+  mounted() {
+    if (this.$device.ismobile) return (this.panel = null);
   },
 
   head: {
-    title: 'Oil Change',
+    title: "Engine Oil and Filter Change| Oil Change Near Me",
 
     meta: [
       {
-        hid: 'description', name: 'description', 
-        content: 'Many Autos aim to provide you the best prices for the oil change throughout the UK.  Our centres are highly qualified for it we Also Provide Free Collection and Delivery Services in United Kingdom just call us or book Online for Oil replacement or for Oil Services in United Kingdom.'
+        hid: "description",
+        name: "description",
+        content:
+          "Looking for affordable oil change near you? Professional mechanics at Manyautos provide the best oil change service at a reasonable price.",
       },
       {
-        name: 'keywords', 
-        content: 'oil change, oil replacement, oil change in United Kingdom, oil replacement United Kingdom, oil service, oil service United Kingdom, car oil change, free collection and delivery'
+        name: "keywords",
+        content:
+          "oil change, oil change near me, oil and filter change, oil change service, car oil change",
       },
       {
-        hid: 'og:title',
-        property: "og:title", 
-        content: "Oil Change"
+        hid: "og:title",
+        property: "og:title",
+        content: "Engine Oil and Filter Change| Oil Change Near Me",
       },
       {
-        hid: 'og:type',
-        property: "og:type", 
-        content: "website"
+        hid: "og:type",
+        property: "og:type",
+        content: "website",
       },
       {
-        hid: 'og:url',
-        property: "og:url", 
-        content: URL
+        hid: "og:url",
+        property: "og:url",
+        content: process.env.APP_URL + '/oil-change',
       },
       {
-        hid: 'og:image',
-        property: "og:image", 
-        content: "logo-default.png"
+        hid: "og:image",
+        property: "og:image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/oilchange1.jpg",
       },
       {
-        hid: 'og:site_name',
-        property: "og:site_name", 
-        content: "ManyAutos LTD"
+        hid: "og:site_name",
+        property: "og:site_name",
+        content: "ManyAutos LTD",
       },
       {
-        hid: 'og:description',  property: 'og:description', 
-        content: "Many Autos aim to provide you the best prices for the oil change throughout the UK.  Our centres are highly qualified for it we Also Provide Free Collection and Delivery Services in United Kingdom just call us or book Online for Oil replacement or for Oil Services in United Kingdom."
+        hid: "og:description",
+        property: "og:description",
+        content:
+          "Looking for affordable oil change near you? Professional mechanics at Manyautos provide the best oil change service at a reasonable price.",
       },
       {
-        name: "twitter:card", 
-        content: "summary"
+        name: "twitter:card",
+        content: "summary",
       },
       {
-        name: "twitter:title", 
-        content: "Oil Change"
+        name: "twitter:title",
+        content: "Engine Oil and Filter Change| Oil Change Near Me",
       },
       {
-        name: "twitter:description", 
-        content: "Many Autos aim to provide you the best prices for the oil change throughout the UK.  Our centres are highly qualified for it we Also Provide Free Collection and Delivery Services in United Kingdom just call us or book Online for Oil replacement or for Oil Services in United Kingdom."
+        name: "twitter:description",
+        content:
+          "Looking for affordable oil change near you? Professional mechanics at Manyautos provide the best oil change service at a reasonable price.",
       },
       {
-        name: "twitter:image", 
-        content: "logo-default.png"
+        name: "twitter:image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/oilchange1.jpg",
       },
       {
-        itemprop: "image", 
-        content: "logo-default.png"
+        itemprop: "image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/oilchange1.jpg",
       },
       {
-        hid: 'og:type',
-        property: "og:type", 
-        content: "business.business"
+        hid: "og:type",
+        property: "og:type",
+        content: "business.business",
       },
-    ]
-  }
-}
+    ],
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-.card-header{
-    background: whitesmoke;
-    border: 1px solid #ececec;
-    color: #1ea5c7;
-    padding: 18px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: normal;
+.container .myheading {
+  font-weight: 200;
+  padding-top: 50px;
+  color: black;
 }
-.card-header-body{
-    background-color: #fff;
-    padding-top: 16px;
+
+.accordion {
+  border: 0;
+  color: black;
+  display: block;
+  background-color: #efefef;
+  border: 1px solid #ececec;
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+h3 {
+  color: black;
+  font-weight: 200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.accordion:hover {
+  color: #17a2b8;
+  text-decoration: underline;
+}
+.h3-service-heading {
+  font-weight: 200;
+  font-size: 17px;
+}
+.h2-service-heading {
+  font-weight: 200;
+}
+.h2-service-heading-months {
+  font-weight: 250;
+}
+@media (min-width: 1265px) {
+  span.h5-service-heading.full.text-blue {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1265px) {
+  span.h5-service-heading.initial.text-blue {
+    margin-left: 25px;
+  }
+}
+.h5-service-heading {
+  color: #00b4d8;
+  font-size: 15px;
+}
+
+.fa {
+  color: #00b4d8;
+  font-size: 1.2em;
+}
+
+hr {
+  width: 100%;
+}
+h4 {
+  color: #00b4d8;
+  border: 0;
+  display: block;
+  background-color: whitesmoke;
+  border: 1px solid #ececec;
+  padding: 10px 20px;
+  font-size: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+a {
+  color: #00b4d8;
+}
+.service-side-bar-links a {
+  color: black;
+  text-decoration: underline;
+
+  font-weight: 200;
+}
+.service-side-bar-links a:hover {
+  color: #00b4d8;
+}
+
+.card-header {
+  background: whitesmoke;
+  border: 1px solid #ececec;
+  color: #1ea5c7;
+  padding: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+}
+.card-header-body {
+  background-color: #fff;
+  padding-top: 16px;
+}
+.v-expansion-panel-content__wrap {
+  padding: 0px;
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .landing-page-container .full1 {
+    margin-left: 24px;
+  }
 }
 </style>
