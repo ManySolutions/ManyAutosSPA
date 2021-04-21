@@ -3,11 +3,10 @@
     <v-container>
       <v-row>
         <v-col cols="12" class="auto-sec text-center">
-          <h1 class="auto-heading">AUTO REPAIR SERVICES</h1>
+          <h1 class="index-heading">AUTO REPAIR SERVICES</h1>
           <p>
-            We offer a full range of garage services to vehicle owners located
-            in Tucson area.<br />
-            Our professinals know how to handle a wide range of car services.
+            Our mechanics can handle vehicles of every make and model.<br />
+            We offer professional auto service at affordable prices.
           </p>
         </v-col>
       </v-row>
@@ -80,12 +79,12 @@ export default {
       {
         src:
           "https://static.manyautosltd.com/uploads/hands-mechanic-using-diagnostic-tool_800x533.jpg",
-        name: "ENGINE DIAGNOSTICS",
+        name: "AIR SUSPENSION",
       },
       {
         src:
           "https://static.manyautosltd.com/uploads/closeup-old-timing-belt-with-many-cracks-engine-room_800x534.jpg",
-        name: "BELTS AND HOSES",
+        name: "TYRES MAINTENANCE",
       },
     ],
   }),
@@ -103,25 +102,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.auto-repair-section .auto-sec .auto-heading {
-  text-transform: capitalize;
-  font-size: 33px;
-  line-height: 44px;
-  font-weight: 300;
-  color: #333;
-}
-
-.auto-repair-section .auto-sec .auto-heading::after {
-  display: block;
-  content: "";
-  background: #00b4d8;
-  width: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  height: 2px;
-}
-
 .auto-repair-section .auto-sec p {
   font-size: 18px;
   font-weight: 300;

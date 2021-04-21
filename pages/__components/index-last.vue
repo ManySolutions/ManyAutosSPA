@@ -23,7 +23,13 @@
             </p>
           </div>
           <div class="text-left">
-            <v-btn color="primary" x-large> Read More </v-btn>
+            <v-btn 
+            color="primary" 
+            x-large
+            to="contact"
+            >
+            Contact Us 
+            </v-btn>
           </div>
         </v-col>
         <v-col cols="12" md="6">
