@@ -91,7 +91,7 @@
         },
         {
           icon: 'mdi-pencil-outline',
-          content: `Great customer service good prices very pleased`,
+          content: `Great customer service good prices very pleased.`,
           name: 'Asif Rashid',
           stars: 5,
         },
