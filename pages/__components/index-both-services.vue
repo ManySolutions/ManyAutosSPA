@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="12" class="both-service-sec text-center">
-          <h1 class="index-heading">Our Services</h1>
+          <h2 class="index-heading">Our Services</h2>
           <p class='pb-8'>
             We are capable of fixing both foreign and domestic vehicles.<br />
             We offer MOT, car services and repairs all at one place.

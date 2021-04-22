@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="12" class="auto-sec text-center">
-          <h1 class="index-heading">AUTO REPAIR SERVICES</h1>
+          <h2 class="index-heading">AUTO REPAIR SERVICES</h2>
           <p>
             Our mechanics can handle vehicles of every make and model.<br />
             We offer professional auto service at affordable prices.

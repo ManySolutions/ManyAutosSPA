@@ -1,6 +1,6 @@
 <template>
   <v-sheet color='white' class='py-16 my-5'>
-    <h3 class="mission-heading mb-10 mb-lg-15">Looking for an instant quote for your next repair?</h3>
+    <h2 class="mission-heading mb-10 mb-lg-15">Looking for an instant quote for your next repair?</h2>
     <car-reg-form-card title='' ></car-reg-form-card>
   </v-sheet>
 </template>
