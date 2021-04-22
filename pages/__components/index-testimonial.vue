@@ -34,7 +34,7 @@
                     <p class='text-center text-white mt-15 px-3 font-weight-300 font-19'>
                       "{{ review.content }}"
                     </p>
-                    <h5 class="text-h6 card-title text-center">
+                    <p class="text-h6 card-title text-center">
                       <span class='text-primaryy' style="color:white;">
                         {{ review.name }}
                       </span>
@@ -49,7 +49,7 @@
                         >
                         </v-rating>
                       </div>
-                    </h5>
+                    </p>
                   </v-col>
                 </v-row>
               </v-sheet>
