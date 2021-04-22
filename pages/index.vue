@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style='overflow-x: hidden;'>
     <index-landing-new></index-landing-new>
 
     <v-sheet fluid color='#f5f5f5' class='py-3'>
