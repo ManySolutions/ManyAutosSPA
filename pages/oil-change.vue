@@ -8,7 +8,7 @@
     faq-topic='Oil change with ManyAutos'
     blog-topic='Learn more about oil change in vehicles'
     :list-menu='listMenu'
-    redirect-to='/booking/create/search?keyword=filter'
+    redirect-to='/booking/create/parts'
     :has-repair-pages='false'
   >
     <template #overview>

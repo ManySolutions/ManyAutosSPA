@@ -4,7 +4,7 @@
     heading-bg='customer-v2/static-pages/allpics/basingstoke1.jpg'
     box-title='Book your service now'
     blog-topic='ManyAutos and Basingstoke'
-    redirect-to='/booking/create/search?keyword=filter'
+    redirect-to='/booking/create/services'
   >
     <template #overview>
       <p>
