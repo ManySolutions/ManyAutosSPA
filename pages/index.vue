@@ -14,6 +14,7 @@
     <!-- <index-why-us></index-why-us> -->
     <index-testimonial></index-testimonial>
     <index-last></index-last>
+    <index-bottom-reg></index-bottom-reg>
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import IndexTestimonial from "~/pages/__components/index-testimonial.vue";
 import IndexLast from "~/pages/__components/index-last.vue";
 import IndexLandingNew from './__components/index-landing-new.vue';
 import BaseInfoIcons from '~/components/base-components/base-info-icons.vue';
+import IndexBottomReg from './__components/index-bottom-reg.vue';
 
 export default {
   components: {
@@ -40,6 +42,7 @@ export default {
     IndexLast,
     IndexLandingNew,
     BaseInfoIcons,
+    IndexBottomReg,
   },
 
   data: () => ({}),
