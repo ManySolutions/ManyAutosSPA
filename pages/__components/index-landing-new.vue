@@ -138,8 +138,9 @@ export default {
     @media (min-width: 992px) {
       // height: auto;
     }
-    @media (max-height: 610px) {
+    @media (max-height: 720px) {
       min-height: 630px;
+      height: auto;
     }
 }
 
@@ -157,9 +158,17 @@ export default {
       max-width: 540px;
     }
     @media (min-width: 992px) {
-      left: 0px;
-      transform: translateY(-50%);
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      text-align: center;
+      max-width: 1060px;
+    }
+    @media (max-height: 720px) {
+      transform: none;
+      top: 0;
+      left: 0;
       position: relative;
+      margin: auto;
     }
 }
 
@@ -193,11 +202,11 @@ export default {
   transform: translateY(-50%);
   max-height: 100%;
   @media (min-width: 992px) {
-    opacity: .9;
-    max-width: 670px;
-    right: 0;
+    // opacity: 0.3;
+    // max-width: 670px;
+    left: 50%;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateX(-50%);
   }
   @media (min-width: 1250px) {
     max-width: 890px;
@@ -211,9 +220,9 @@ h1.has-offer {
   position: relative;
   font-weight: 700;
 
-  ::v-deep .price {
-    position: absolute;
-    // text-shadow: 0px -1px 9px white;
-  }
+  // ::v-deep .price {
+  //   // position: absolute;
+  //   // text-shadow: 0px -1px 9px white;
+  // }
 }
 </style>

@@ -31,12 +31,11 @@
           >
             Book your MOT for<br>
             only 
-            <strong style='font-size: 20px'>
-              {{ currencySymbol }}
-              {{ motPrice }}
+            <strong style='font-size: 20px' class='primary--text'>
+              {{ currencySymbol + motPrice }}
             </strong>
             or select servicing  for your 
-            {{ 'Ford' }}
+            {{ vehicleName }}
           </base-service-grid>
         </v-col>
         <v-col cols=12 md=4 lg=3 xl="2">
