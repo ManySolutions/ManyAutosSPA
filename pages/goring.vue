@@ -81,7 +81,7 @@
         Do you offer MOT tests in Goring? 
       </h2>
       <p>Yes, we provide MOT for all the vehicles present in Goring despite their make and model. An MOT is
-        compulsory and cannot be ignored, so if you are in Goring and require an MOT test, book online now!.
+        compulsory and cannot be ignored, so if you are in Goring and require an MOT test, book online now!
       </p>
       <h2 class="font-weight-600">
         How do we do this? 
