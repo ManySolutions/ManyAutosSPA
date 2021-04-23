@@ -136,15 +136,15 @@ export default {
       },
     ],
 
-    link: [
-      {
-        rel: "preload",
-        as: "image",
-        href: "https://static.manyautosltd.com/uploads/car-service-img.png",
-        imagesrcset: "1600w",
-        imagesizes: "50vw",
-      }
-    ]
+    // link: [
+    //   {
+    //     rel: "preload",
+    //     as: "image",
+    //     href: "https://static.manyautosltd.com/uploads/car-service-img.png",
+    //     imagesrcset: "wolf_400px.jpg 400w, wolf_800px.jpg 800w, wolf_1600px.jpg 1600w",
+    //     imagesizes: "50vw",
+    //   }
+    // ]
   },
 
   jsonld() {
