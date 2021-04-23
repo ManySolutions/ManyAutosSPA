@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="12" class="both-service-sec text-center">
-          <h1 class="index-heading">Our Services</h1>
+          <h2 class="index-heading">Our Services</h2>
           <p class='pb-8'>
             We are capable of fixing both foreign and domestic vehicles.<br />
             We offer MOT, car services and repairs all at one place.
@@ -27,9 +27,9 @@
                 Full Service
               </h3>
               <h5 class="pb-3">Starting from</h5>
-              <h2 class='secondary--text'>
+              <p class='secondary--text pricing'>
                 <small v-html='currencySymbol'></small>79.99
-              </h2>
+              </p>
             </v-list-item-title>
             <v-list-item three-line class='pb-7'>
               <v-list-item-content>
@@ -81,9 +81,9 @@
                 Interim Service
               </h3>
               <h5 class="pb-3">Starting from</h5>
-              <h2 class='primary--text'>
+              <p class='primary--text pricing'>
                 <small v-html='currencySymbol'></small>59.99
-              </h2>
+              </p>
             </v-list-item-title>
             <v-list-item three-line class='pb-7'>
               <v-list-item-content>
@@ -198,4 +198,9 @@ export default {
 // .full-card {
 //   transform: scale(1.1);
 // }
+p.pricing {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+}
 </style>

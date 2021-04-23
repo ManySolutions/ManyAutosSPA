@@ -4,9 +4,9 @@
       <v-container>
         <v-row>
           <v-col cols="12" class="mot-service-sec text-center">
-            <h1 class="mot-service-heading">
+            <h2 class="mot-service-heading">
               Get your MOT done with us
-            </h1>
+            </h2>
             <div class="text-center m-auto">
               <v-img
                 src="https://static.manyautosltd.com/uploads/mot-01.png"

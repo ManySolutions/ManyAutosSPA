@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style='overflow-x: hidden;'>
     <index-landing-new></index-landing-new>
 
     <v-sheet fluid color='#f5f5f5' class='py-3'>
@@ -14,6 +14,7 @@
     <!-- <index-why-us></index-why-us> -->
     <index-testimonial></index-testimonial>
     <index-last></index-last>
+    <index-bottom-reg></index-bottom-reg>
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import IndexTestimonial from "~/pages/__components/index-testimonial.vue";
 import IndexLast from "~/pages/__components/index-last.vue";
 import IndexLandingNew from './__components/index-landing-new.vue';
 import BaseInfoIcons from '~/components/base-components/base-info-icons.vue';
+import IndexBottomReg from './__components/index-bottom-reg.vue';
 
 export default {
   components: {
@@ -40,6 +42,7 @@ export default {
     IndexLast,
     IndexLandingNew,
     BaseInfoIcons,
+    IndexBottomReg,
   },
 
   data: () => ({}),
@@ -132,6 +135,16 @@ export default {
         content: "business.business",
       },
     ],
+
+    // link: [
+    //   {
+    //     rel: "preload",
+    //     as: "image",
+    //     href: "https://static.manyautosltd.com/uploads/car-service-img.png",
+    //     imagesrcset: "wolf_400px.jpg 400w, wolf_800px.jpg 800w, wolf_1600px.jpg 1600w",
+    //     imagesizes: "50vw",
+    //   }
+    // ]
   },
 
   jsonld() {

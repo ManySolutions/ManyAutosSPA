@@ -4,7 +4,7 @@
       <v-row justify="center">
         <v-col cols="12" md="6" class="">
           <div class="text-left mb-10">
-            <h3 class="mission-heading">OUR MISSION</h3>
+            <h2 class="mission-heading">OUR MISSION</h2>
           </div>
           <div class="para-two mb-10">
             <p>
@@ -30,7 +30,7 @@
         </v-col>
         <v-col cols="12" md="6">
           <div class="text-left mb-10 mt-3">
-            <h3 class="popular-heading">POPULAR QUESTIONS</h3>
+            <h2 class="popular-heading">POPULAR QUESTIONS</h2>
           </div>
           <v-expansion-panels class="text-left">
             <v-expansion-panel class="icon">
