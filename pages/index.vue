@@ -135,6 +135,16 @@ export default {
         content: "business.business",
       },
     ],
+
+    link: [
+      {
+        rel: "preload",
+        as: "image",
+        href: "https://static.manyautosltd.com/uploads/car-service-img.png",
+        imagesrcset: "1600w",
+        imagesizes: "50vw",
+      }
+    ]
   },
 
   jsonld() {
