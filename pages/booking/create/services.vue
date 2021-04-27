@@ -32,7 +32,7 @@
             Book your MOT for<br>
             only 
             <strong style='font-size: 20px' class='primary--text'>
-              {{ currencySymbol + motPrice }}
+             {{ currencySymbol + motPrice }}
             </strong>
             or select servicing  for your 
             {{ vehicleName }}
