@@ -98,7 +98,7 @@
         your car to the nearest Many Autos Centre and have it checked.
       </p>
       <h2 class="font-weight-600">
-        Do you offer free collection and delivery from Aldershot? 
+        Do you offer free collection and delivery from Aldershot?
       </h2>
       <p>
         Yes, we believe that we offer a valuable product with our Free Collection and Delivery <strong>car service in
