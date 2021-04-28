@@ -42,7 +42,7 @@ export default {
         redirect = '/booking/create/mot-and-servicing';
 
         text = `Book your MOT <br /> for only 
-          <span class='price secondary--text'>${this.currencySymbol}<span>34.99</span></span>`;
+          <span class='price secondary--text'>${this.currencySymbol}<span>19.99</span></span>`;
       }
       if (offer == 'car-service') {
         redirect = '/booking/create/mot-and-servicing#FULL_SERVICE';
