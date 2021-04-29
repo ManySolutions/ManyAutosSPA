@@ -45,7 +45,7 @@
                         {{ item.name }}
                       </td>
                       <td>
-                        {{ currencySymbol + item.price }}
+                        {{ currencySymbol + parseFloat(item.price).toFixed(2) }}
                       </td>
                       <td class='text-center'>
                         <v-btn
