@@ -34,7 +34,11 @@
             :price='service.price'
             :id='service.id'
             :ind='service.ind'
-          ></base-service-item>
+          >
+            <template v-if='service.id == "MOT"' #before-list>
+              <mot-with-services></mot-with-services>
+            </template>
+          </base-service-item>
         </div>
         <v-alert
           v-else-if='keyword'
@@ -63,13 +67,15 @@
 <script>
 import { getSearchPart } from '~/api/vehicle';
 import BaseServiceItem from '~/components/base-components/base-service-item.vue'
+import MotWithServices from '~/components/func-components/mot-with-services.vue';
 import BookingLayout from '~/layouts/booking-layout.vue';
 import GroupRequestAQuoteAlert from './__components/group-request-a-quote-alert.vue';
 export default {
   components: {
     BaseServiceItem,
     BookingLayout,
-    GroupRequestAQuoteAlert
+    GroupRequestAQuoteAlert,
+    MotWithServices
   },
   
   props: ['vehicleName', 'motPrice', 'modelId'],

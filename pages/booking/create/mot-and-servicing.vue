@@ -24,11 +24,15 @@
         <base-service-item
           :loading='isLoading'
           :title='`MOT`'
-          :price='services.MOT ? services.MOT.price : "00.00"'
+          :price='motPriceCalculated'
           :oldPrice='services.MOT ? services.MOT.old_price : "00.00"'
           :id='`MOT`'
           :ind='["Free Retest", "Emissions and exhaust test", "Collection and delivery"]'
-        ></base-service-item>
+        >
+          <template #before-list>
+            <mot-with-services></mot-with-services>
+          </template>
+        </base-service-item>
         <base-service-item
           :loading='isLoading'
           :title='`Interim Service`'
@@ -63,11 +67,14 @@ import { getServices } from '~/api/vehicle';
 import BaseServiceItem from '~/components/base-components/base-service-item.vue'
 import BookingLayout from '~/layouts/booking-layout.vue';
 import $ from 'jquery';
+import {mapGetters} from 'vuex';
+import MotWithServices from '~/components/func-components/mot-with-services.vue';
 
 export default {
   components: {
     BaseServiceItem,
-    BookingLayout
+    BookingLayout,
+    MotWithServices
   },
   
   props: ['vehicleName', 'motPrice', 'modelId'],
@@ -88,6 +95,25 @@ export default {
     isLoading: true,
     services: {},
   }),
+
+  computed: {
+    ...mapGetters('booking', ['cart']),
+
+    motPriceCalculated() {
+      const {services, cart} = this;
+
+      if (!services.MOT) return '00.00'
+
+      if ('INTERIM_SERVICE' in cart) {
+        return services.MOT.mot_with_interim;
+      }
+      if ('FULL_SERVICE' in cart) {
+        return services.MOT.mot_with_full;
+      }
+
+      return services.MOT.price;
+    }
+  },
 
   watch: {
     isLoading(isLoading) {

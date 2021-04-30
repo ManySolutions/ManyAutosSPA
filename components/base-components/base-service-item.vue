@@ -9,17 +9,24 @@
         <v-col 
           class='py-0' 
           cols=12 
-          md=6
+          md=7
         >
           <h2 class='ma-si-heading'>
             {{ title }}
+            <v-chip 
+              v-if='label' 
+              v-html='label' 
+              small
+              color='primary'
+              outlined
+            ></v-chip>
           </h2>
         </v-col>
         <v-col 
           class='py-0'
           :class='isDevice.md ? "text-right": ""' 
           cols=12 
-          md=6
+          md=5
         >
           <span class='ma-si-price'>
             {{ currencySymbol }}
@@ -41,10 +48,10 @@
       </v-row>
 
       <div class="si-sec" v-if='description'>
-        <p class="my-0">
-          {{ description }}
-        </p>
+        <p class="my-0" v-html="description"></p>
       </div>
+
+      <slot name='before-list'></slot>
 
       <div class="si-sec" v-if='ind && ind.length'>
         <ul class="list-group list-group-flush">
@@ -91,7 +98,7 @@ export default {
   components: { btnAddService, DesktopCart },
   props: [
     'title', 'price', 'id', 'description', 'btntext',
-    'ind', 'loading', 'oldPrice'
+    'ind', 'loading', 'oldPrice', 'label'
   ],
   data: () => ({
     INDKeys: ['IND0', 'IND1', 'IND2', 'IND3', 'IND4'],

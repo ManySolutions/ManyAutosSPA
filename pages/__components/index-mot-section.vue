@@ -18,7 +18,8 @@
             <div class="mot_price mt-8">
               Book your MOT now only for 
               <strong class='primary--text'>
-                {{ currencySymbol }}<strong>19.99</strong>
+                {{ currencySymbol }}
+                <strong v-html='$store.state.settings.motPrice'></strong>
               </strong>
             </div>
             <div class="free_col_del mt-2 mb-8">

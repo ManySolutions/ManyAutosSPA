@@ -11,7 +11,7 @@
                   <h5 class="starts-from position-relative same-icon">
                     <v-icon class="MoveFaLeft position-absolute" style="color: #00B4D8;">mdi-tag</v-icon> Anti Roll Bar
                     Link
-                    From<br> £19.99
+                    From<br> 34.99
                   </h5>
                 </div>
                 <div class="col-sm-4">

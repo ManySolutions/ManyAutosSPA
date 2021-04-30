@@ -28,11 +28,15 @@
 </template>
 
 <script>
+import {mapState} from 'vuex';
+
 export default {
   data: () => ({
     rendered: false,
   }),
   computed: {
+    ...mapState('settings', ['motPrice']),
+
     headingText() {
       const {offer} = this.$route.query;
       let redirect = null;
@@ -42,7 +46,10 @@ export default {
         redirect = '/booking/create/mot-and-servicing';
 
         text = `Book your MOT <br /> for only 
-          <span class='price secondary--text'>${this.currencySymbol}<span>19.99</span></span>`;
+          <span class='price secondary--text'>
+            ${this.currencySymbol}
+            <span>${this.motPrice}</span>
+          </span>`;
       }
       if (offer == 'car-service') {
         redirect = '/booking/create/mot-and-servicing#FULL_SERVICE';

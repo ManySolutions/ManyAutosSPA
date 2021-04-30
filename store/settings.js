@@ -1,5 +1,5 @@
 export const state = () => ({
-  motPrice: '19.99',
+  motPrice: '29.99',
   redirect: {
     to: null,
     referrer: null,
