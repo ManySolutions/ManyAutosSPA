@@ -6,7 +6,7 @@
     blog-topic='ManyAutos and Pang Bourne'
     redirect-to='/booking/create/services'
   >
-  <template #overview>
+<template #overview>
   <p>
     Pang Bourne is a large village and civil parish on the River Thames in the English county of
     Berkshire. It has its schools, shops and a parish school. It is the centre for selling
