@@ -1,315 +1,329 @@
 <template>
-  <page-layout
-    title='Woking'
+  <page-layout-v2
+    title="Get your car serviced in Woking"
     heading-bg='customer-v2/static-pages/allpics/woking1.jpg'
+    box-title='Book your service now'
+    blog-topic='ManyAutos and Woking'
+    redirect-to='/booking/create/services'
   >
-        <div class="container">
-      <div class="row">
-        <section class="col-12 col-lg-9 ma-page-main-side margin-bottom-20" style="padding-top: 40px;">
-          <div class="row">
-            <div class="col-12">
-              <p class="text-teal text-18 justify" style="padding-top: 30px;">We cover the Woking area for all car
-                servicing, MOT and repair needs. Full Service includes a comprehensive 70-point check, Interim Service
-                has a 50-point check. At Many Autos we use the latest equipment, allowing our qualified technicians and
-                mechanics to diagnose any problems quickly and efficiently. Forgetting to service the vehicle as per
-                manufacturer schedule can cause airborne debris such as leaves and dust to find their way into the
-                engine, in particular the cylinders. This grime can then mix with the engine oil, which, when moves
-                around the engine can slowly wear away engine components due to its abrasive nature. If left for a while
-                clogged filters can cause serious damage to engine, reducing its performance and costing you more money
-                than the cost of a normal service. At Many Autos we keep a range of different service parts in stock for
-                every make and model, so you can get the service you need to keep the vehicle engine running at the
-                highest possible standard. For more information please visit our<a
-                  href="https://www.manyautosltd.com/car-service"> website for car service and repairs</a> or live chat
-                support open from 9am to 5pm Monday to Saturday you can email us on <a
-                  href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
-                <strong>01189876300</strong> our team is very happy to help.</p>
-            </div>
-          </div>
-          <v-expansion-panels popout>
-            <v-expansion-panel  class="icon">
-              <v-expansion-panel-header class="card-header">
-                Do you offer free collection and delivery from Woking?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify">Yes, we believe that we offer a valuable product with our Free
-                  Collection and Delivery Service from Woking, we can collect either from your place of work or
-                  from your home address. If you are unsure about whether the address you are considering having your
-                  vehicle collected from is within our range, then please do contact us. Many Autos operate a fleet of
-                  pool cars with a dedicated driver, so wherever we are collecting from, we need to be able to leave one
-                  of our pool vehicles either in your work car park / parking space, or if in a residential area, we
-                  would need to be able to leave our car either at your house or on the road with a permit if required.
-                  We would be grateful if you could bear this in mind when booking to use our free Collection and
-                  delivery service. For more information please visit out <a
-                    href="https://www.manyautosltd.com/collection-and-delivery"> Collection & Delivery page</a> or live
-                  chat support open from 9am to 5pm Monday to Saturday you can email us on <a
-                    href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
-                  <strong>01189876300</strong> our team is very happy to help.</p>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                How does collection and delivery work from Woking?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                Many Autos operate a fleet of pool cars with a dedicated driver, so wherever in Woking we are
-                collecting from, we need to be able to leave one of our pool vehicles either in your work car park /
-                parking space, or if in a residential area, we would need to be able to leave our car either at your
-                house or on the road with a permit if required. We would be grateful if you could bear this in mind when
-                booking to use our free Collection and delivery service. For more information please visit our <a
-                  href="https://www.manyautosltd.com/collection-and-delivery">Collection & Delivery page</a> or live
-                chat support open from 9am to 5pm Monday to Saturday you can email us on <a
-                  href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
-                <strong>01189876300</strong> our team is very happy to help.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Do you provide finance for cars repair in Woking?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                Yes, you can pay for all or some of your car repair bill with car service and repair finance if you are
-                from Woking. From replacing car parts to a full transmission, engine, repair, service, mot repair
-                maintaining your vehicle can get costly. If you need help paying for routine service or urgent repairs,
-                Many Autos car service and repair could be the answer.
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                On what services is finance available from Woking?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify">Alternator Anti Roll Bar Link Air Suspension Brakes Cv Joint Car
-                  Service Catalytic Converter Crankshaft Clutch Coil Springs Drag Links Drive Shaft Exhaust Repair
-                  Flywheel Fuel Pump Fuel Injectors Glow Plug Handbrake Head Gasket New Tyre Starter Motor Suspension
-                  Services Radiator Rear Axle Steering Thermostat Vacuum Pump Water Pump Replacement Wheel Cylinder
-                  Finance on servicing and repair spread the cost over 3, 4, 5, or 6 months. You pay 25% of the bill
-                  when work is completed. The remaining 75% is spread over 3, 4, 5, or 6 months payments. You must have
-                  a valid UK debit card to arrange the payment. For more information please visit our <a
-                    href="https://www.manyautosltd.com/finance">Finance page</a> or live chat support open from 9am to
-                  5pm Monday to Saturday you can email us on <a
-                    href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
-                  <strong>01189876300</strong> our team is very happy to help.</p>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Do you do clutch repairs for cars in Woking?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify">A lot of happy customers from Woking have found out how Many
-                  Autos can eliminate the time and trouble of shopping around for the best clutch repair price. So,
-                  donâ€™t wait and sign up to our vehicle health check today and we can make you aware of any potential
-                  issue with your vehicle clutch. Clutch plate replacement and associated repairs are best left to an
-                  expert, so don't leave it to chance and book with us and we can put you back in the driving seat soon.
-                  For more information please visit our <a href="https://www.manyautosltd.com/clutch-replacement">Clutch
-                    repair/ replacement page</a> or live chat support open from 9am to 5pm Monday to Saturday you can
-                  email us on <a href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
-                  <strong>01189876300</strong> our team is very happy to help.</p>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel  class="icon">
-              <v-expansion-panel-header class="card-header">
-                Do you offer MOT tests in Woking?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify">MOT testing is required by law on all vehicles in the UK that are 3
-                  years old or more. The annual inspection follows strict criteria set out by the DVSA that determines
-                  if your car is fit for purpose and in roadworthy condition. The MOT test covers a broad range of
-                  vehicle safety checks including lights, tyres, seatbelts and emissions and can only be carried out by
-                  a MOT garage with DVSA-approved examiners. So if you are in Woking and require an MOT test, give
-                  us
-                  a call or book online now! For more information please visit our <a
-                    href="https://www.manyautosltd.com/mot">MOT page</a> or live chat support open from 9am to 5pm
-                  Monday to Saturday you can email us on <a
-                    href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
-                  <strong>01189876300</strong> our team is very happy to help.</p>
+  <template #overview>
+  <p>
+    Woking is a town in northwest Surrey, England. It is known as the house for multiple 
+    famous movies like the landing place for the aliens in H. G. Well's The War of the 
+    Worlds. The town has the country’s oldest mosque, the Shah Jahan. The school is in 
+    the area are good and have a good reputation. Overall the town is an ideal place to 
+    raise a happy family.
+  </p>    
+</template>
+    <template #blog>
+      <p>We cover the Woking area for all car servicing, MOT and repair needs. Manyautos is one-stop shopping for all
+        your automotive needs. we use the latest equipment, allowing our qualified technicians and mechanics to diagnose
+        any problems quickly and efficiently.</p>
+      <p>Forgetting to service the vehicle as per the manufacturer schedule can cause your car to get damaged and break
+        down. So, that is why it is necessary to stick to the schedule. We are here to ease your troubles and to keep
+        you on the road. Everyone can easily access our website a book car repair services in Woking. At Many Autos
+        we keep a range of different service parts in stock for every make and model, so you can get the service you
+        need to keep the vehicle engine running at the highest possible standard.</p>
+      <h2 class="font-weight-600">
+        How much does Full Service cost in Woking?
+      </h2>
+      <p>
+        The average cost of full service in Woking is £151. The price can range from £133 to £300, depending on the
+        make and model of your vehicle.
+      </p>
+      <h2 class="font-weight-600">
+        What do you think about when choosing a garage for your service?
+      </h2>
+      <p>
+        Choosing a garage is a really big responsibility. You need to look at multiple aspects and select a garage that
+        would be the best for your car. What is the most efficient way for you to choose a garage for regular
+        maintenance? Do you look at the online reviews or ask for your friends and family’s advice? It’s not ideal to
+        just pull up to some car repairing centre and hope that they would do the required work properly. Well, now you
+        don’t have to endure this torture of selecting the perfect garage, because we have taken that responsibility
+        upon ourselves. You just register on our site and book a service for your car, and leave the rest to us.
+        Manyautos is only here to provide you with the best. We will scout for <strong>garages in Woking</strong> and provide you
+        with the best garage that meets your needs in every way possible.
+      </p>
+      <h2 class="font-weight-600">
+        When should you get your car serviced?
+      </h2>
+      <p>
+        It is perfectly normal to forget when an MOT is due or when exactly your car should undergo a full service. For
+        the MOT, you can benefit from our “MOT check history service” and learn everything you need to know about the
+        previous MOT and the date of the upcoming one.
+      </p>
+      <p>As for the service, you can check the owner’s manual, it would have every bit of information in it. It is
+        extremely important to keep all the history and information of car servicing in the annual. It not only come in
+        handy when you forget the service date but also when you sell your car. The manual makes things easy for the
+        next buyer. The age, make, mileage and the average usage of the vehicle in a day plays an important role in the
+        servicing. Generally, a car is recommended to undergo interim service every 6000 miles (6-months) and a full
+        service every 12,000 miles (12-months).</p>
+      <h2 class="font-weight-600">
+        What car problems you need to look out for? 
+      </h2>
+      <p>
+        Many issues can arise while driving, you might be dealing with a locked steering or a broken air suspension. The
+        problems can occur due to several reasons; you must check the steering fluid for any leaks or you can look for a
+        slipped steering pump belt. As you must know that your vehicle is a complete system, if one thing gets damaged,
+        it affects the performance of other components as well. If you can’t identify the cause of the problem then
+        benefit from our car diagnostic service and get your vehicle inspected thoroughly.
+      </p>
+      <h2 class="font-weight-600">
+        What do you need from your garage? 
+      </h2>
+      <p>
+        The most common answer to this question is: you need a garage that can repair or service your vehicle at a
+        reassemble price. But there is more to it than you thought. You can’t just choose any garage in Woking, it
+        has to be a garage that calls for you. Leaving your car, your most valued possession with the garage requires
+        trust. You need to make sure that the garage is reliable and will perform all the services honestly. Other
+        aspects affect your decision as well, like the waiting area or the hospitality and professionalism of the staff
+        present at the garage.
+      </p>
+      <h2 class="font-weight-600">
+        Do you offer MOT tests in Woking? 
+      </h2>
+      <p>Yes, we provide MOT for all the vehicles present in Woking despite their make and model. An MOT is
+        compulsory and cannot be ignored, so if you are in Woking and require an MOT test, book online now!
+      </p>
+      <h2 class="font-weight-600">
+        How do we do this? 
+      </h2>
+      <p>
+        All our service, repair and diagnostic work are carried out to the highest of standards using only OE (original
+        equipment) parts and engine oil. We maintain a strict standard of work that means we can carry out service and
+        repair work even if your vehicle is within its manufacturer warranty. This saves you a trip to the manufacturer
+        for the service and saves you a lot of money. Not only do we have highly skilled technicians in the workshop,
+        but we also have all the latest servicing, wheel alignment, diagnostic and hybrid car servicing equipment. There
+        are several car maintenances measures that you must do to keep your car at its best, it is important to bring
+        your car to the nearest Many Autos Centre and have it checked.
+      </p>
+      <h2 class="font-weight-600">
+        Do you offer free collection and delivery from Woking?
+      </h2>
+      <p>
+        Yes, we believe that we offer a valuable product with our Free Collection and Delivery <strong>car service in
+        Woking</strong>. If your vehicle is drivable, we can collect it either from your place of work or from your home
+        address. If you are unsure about whether the address you are considering having your vehicle collected from is
+        within our range, then please do contact us.
+      </p>
+      <p>Many Autos operate a fleet of pool cars with a dedicated driver, so wherever we are collecting from, we need to
+        be able to leave one of our pool vehicles either in your work car parking space or if in a residential area, we
+        would need to be able to leave our car either at your house or on the road with a permit if required.</p>
+    </template>
 
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Do you provide alternator repair and replacement service for Woking?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify">We provide full alternator repair and replacement services in
-                  Woking. An automotive charging system is made up of three major components the battery, the
-                  voltage
-                  regulator and an alternator. The alternator works with the battery to generate power for the
-                  electrical components of a vehicle, like the interior and exterior lights, and the instrument panel.
-                  An alternator gets its name from the term alternating current (AC). Alternators are typically found
-                  near the front of the engine and are driven by the crankshaft, which converts the pistons' up-and-down
-                  movement into circular movement. For more information please visit our <a
-                    href="https://www.manyautosltd.com/alternator">Alternator page</a> or live chat support open from
-                  9am to 5pm Monday to Saturday you can email us on <a
-                    href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
-                  <strong>01189876300</strong> our team is very happy to help.</p>
-
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Do you provide Timing Belt/Cambelt changing service for Woking?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify">Timing Belt/Cambelt replacement according to your car manufacturer
-                  schedule is essential. A snapped Timing belt can cause serious damage to the engine. It is often
-                  cost-effective to replace your Water Pump at the same time so don't be surprised if we suggest it. We
-                  are able to check and replace timing belts/cambelts for all makes and models of vehicles in the
-                  Woking area. For more information please visit our <a
-                    href="https://www.manyautosltd.com/timing-belt">Timing belt page</a> or live chat support open from
-                  9am to 5pm Monday to Saturday you can email us on <a
-                    href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
-                  <strong>01189876300</strong> our team is very happy to help.</p>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                Can you do repairs to the head gasket if I am based in Woking?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify">We do head gasket repairs and replacements for the Woking
-                  area.
-                  Once the head gasket blows or becomes damaged, your car will officially become a time bomb of serious
-                  mechanical destruction. The longer your vehicle is operated with a blown head gasket, the more damage
-                  is likely to occur to the engine. Once the head gasket blows there will be an immediate loss of
-                  pressure in the engine. As mentioned above, the head gasket acts as a seal, maintaining pressure in
-                  the piston chamber. Once the head gasket blows, pressure can escape. Since the pressure in the
-                  combustion chamber is what keeps the pistons firing with force, the driver should notice an immediate
-                  loss of power and notice other performance issues such as decreased fuel efficiency. When the head
-                  gasket blows, the oil and coolant passageways will start to leak, allowing both liquids to enter
-                  places where they do not belong and causing more extensive damage. Coolant can enter the combustion
-                  chambers and mix with motor oil, causing dilution of the motor oil while at the same time robbing
-                  coolant from the cooling system, ultimately causing the engine to overheat. Coolant is not a
-                  lubricant, so the more coolant that mixes with the motor oil, the less lubricated are the moving parts
-                  of a car and the more quickly disaster is likely to happen. For more information please visit our <a
-                    href="https://www.manyautosltd.com/head-gasket">head gasket page</a> or live chat support open from
-                  9am to 5pm Monday to Saturday you can email us on <a
-                    href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or call us on
-                  <strong>01189876300</strong> our team is very happy to help.</p>
-
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-            <v-expansion-panel >
-              <v-expansion-panel-header class="card-header">
-                How do we do this?
-              </v-expansion-panel-header>
-              <v-expansion-panel-content eager class="card-header-body">
-                <p class="text-teal text-18 justify">All our service, repair and diagnostic work is carried out to the
-                  highest of standards using only OE (original equipment) parts and engine oil. We maintain a strict
-                  standard of work that means we can carry out service and repair work even if your vehicle is within
-                  its manufacturer warranty. This saves you a trip to the manufacturer for the service and saves you a
-                  lot of money. Not only do we have highly skilled technicians in the workshop, we also have all the
-                  latest servicing, wheel alignment, diagnostic and hybrid car servicing equipment. There are several
-                  car maintenances measures that you must do to keep your car at its best, it is important to bring
-                  your car to the nearest Many Autos Centre and have it checked. For more information please visit our
-                  <a href="https://www.manyautosltd.com/">website</a> or live chat support open from 9am to 5pm Monday
-                  to Saturday you can email us on <a href="mailto:info@manyautosltd.com">info@manyautosltd.com</a> or
-                  call us on <strong>01189876300</strong> our team is very happy to help.</p>
-
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-          </v-expansion-panels>
-
-        </section>
-
-      </div>
-    </div>
-  </page-layout>
+    <!-- <div style='padding-top: 50px;'>
+      <car-service-table></car-service-table>
+    </div> -->
+  </page-layout-v2>
 </template>
 
 <script>
-import PageLayout from '@/layouts/page-layout';
+import PageLayoutV2 from "@/layouts/page-layout-v2";
+import { carRepairPages } from '~/utils/vars';
 
 const URL = process.env.APP_URL;
 
 export default {
   components: {
-    PageLayout
+    PageLayoutV2,
+  },
+
+  data: () => ({
+    panel: 0,
+    listMenu: carRepairPages,
+  }),
+
+  mounted() {
+    if (this.$device.ismobile) return (this.panel = null);
   },
 
   head: {
-    title: 'Woking',
+    title: "Car Repair in Woking| Garage in Woking",
 
     meta: [
       {
-        hid: 'description', name: 'description', 
-        content: 'We repair and Service all makes and models off vehicle in Woking, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Woking.'
+        hid: "description",
+        name: "description",
+        content:
+          "Find the best garages in Woking for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
-        name: 'keywords', 
-        content: 'MOT and car repair services in Woking ,Car services in Woking , collection and delivery from Woking, finance for cars repair in Woking, clutch repairs in Woking, MOT tests in Woking, alternator repair and replacement in Woking, Cambelt changing service in Woking, head gasket repair in  Woking'
+        name: "keywords",
+        content:
+          "Woking, Car repairs in Woking, Garage in Woking, Car Service in Woking",
       },
       {
-        hid: 'og:title',
-        property: "og:title", 
-        content: "Woking | ManyAutos LTD"
+        hid: "og:title",
+        property: "og:title",
+        content: "Car Repair in Woking| Garage in Woking",
       },
       {
-        hid: 'og:type',
-        property: "og:type", 
-        content: "website"
+        hid: "og:type",
+        property: "og:type",
+        content: "website",
       },
       {
-        hid: 'og:url',
-        property: "og:url", 
-        content: URL
+        hid: "og:url",
+        property: "og:url",
+        content: process.env.APP_URL + '/woking',
       },
       {
-        hid: 'og:image',
-        property: "og:image", 
-        content: "logo-default.png"
+        hid: "og:image",
+        property: "og:image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/woking1.jpg",
       },
       {
-        hid: 'og:site_name',
-        property: "og:site_name", 
-        content: "ManyAutos LTD"
+        hid: "og:site_name",
+        property: "og:site_name",
+        content: "ManyAutos LTD",
       },
       {
-        hid: 'og:description',  property: 'og:description', 
-        content: "We repair and Service all makes and models off vehicle in Woking, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Woking."
+        hid: "og:description",
+        property: "og:description",
+        content:
+          "Find the best garages in Woking for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
-        name: "twitter:card", 
-        content: "summary"
+        name: "twitter:card",
+        content: "summary",
       },
       {
-        name: "twitter:title", 
-        content: "Woking | ManyAutos LTD"
+        name: "twitter:title",
+        content: "Car Repair in Woking| Garage in Woking",
       },
       {
-        name: "twitter:description", 
-        content: "We repair and Service all makes and models off vehicle in Woking, United Kingdom. We also provide free collection and Delivery service from your home or place of work in Woking."
+        name: "twitter:description",
+        content:
+          "Find the best garages in Woking for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
-        name: "twitter:image", 
-        content: "logo-default.png"
+        name: "twitter:image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/woking1.jpg",
       },
       {
-        itemprop: "image", 
-        content: "logo-default.png"
+        itemprop: "image",
+        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/woking1.jpg",
       },
       {
-        hid: 'og:type',
-        property: "og:type", 
-        content: "business.business"
+        hid: "og:type",
+        property: "og:type",
+        content: "business.business",
       },
-    ]
-  }
-}
+    ],
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-.card-header{
-    background: whitesmoke;
-    border: 1px solid #ececec;
-    color: #1ea5c7;
-    padding: 18px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: normal;
+.container .myheading {
+  font-weight: 200;
+  padding-top: 50px;
+  color: black;
 }
-.card-header-body{
-    background-color: #fff;
-    padding-top: 16px;
+
+.accordion {
+  border: 0;
+  color: black;
+  display: block;
+  background-color: #efefef;
+  border: 1px solid #ececec;
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+h3 {
+  color: black;
+  font-weight: 200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.accordion:hover {
+  color: #17a2b8;
+  text-decoration: underline;
+}
+.h3-service-heading {
+  font-weight: 200;
+  font-size: 17px;
+}
+.h2-service-heading {
+  font-weight: 200;
+}
+.h2-service-heading-months {
+  font-weight: 250;
+}
+@media (min-width: 1265px) {
+  span.h5-service-heading.full.text-blue {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1265px) {
+  span.h5-service-heading.initial.text-blue {
+    margin-left: 25px;
+  }
+}
+.h5-service-heading {
+  color: #00b4d8;
+  font-size: 15px;
+}
+
+.fa {
+  color: #00b4d8;
+  font-size: 1.2em;
+}
+
+hr {
+  width: 100%;
+}
+h4 {
+  color: #00b4d8;
+  border: 0;
+  display: block;
+  background-color: whitesmoke;
+  border: 1px solid #ececec;
+  padding: 10px 20px;
+  font-size: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+a {
+  color: #00b4d8;
+}
+.service-side-bar-links a {
+  color: black;
+  text-decoration: underline;
+
+  font-weight: 200;
+}
+.service-side-bar-links a:hover {
+  color: #00b4d8;
+}
+
+.card-header {
+  background: whitesmoke;
+  border: 1px solid #ececec;
+  color: #1ea5c7;
+  padding: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+}
+.card-header-body {
+  background-color: #fff;
+  padding-top: 16px;
+}
+.v-expansion-panel-content__wrap {
+  padding: 0px;
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .landing-page-container .full1 {
+    margin-left: 24px;
+  }
 }
 </style>
