@@ -24,7 +24,7 @@
                 <v-col class='py-0'>
                   <v-text-field
                     v-model="form.s_name"
-                    label="Name"
+                    label="Last Name"
                     placeholder="Your Last Name"
                     outlined
                     :error="!!errors.s_name"
