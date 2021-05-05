@@ -110,7 +110,7 @@ export const getters = {
   },
 
   cart(state) {
-    return state.cartContent.items;
+    return state.cartContent.items || {};
   },
 
   cartCount(state) {

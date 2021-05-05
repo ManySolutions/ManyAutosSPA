@@ -35,18 +35,6 @@
         </base-service-item>
         <base-service-item
           :loading='isLoading'
-          :title='`Interim Service`'
-          :price='services.INTERIM_SERVICE ? services.INTERIM_SERVICE.price : "00.00"'
-          :oldPrice='services.INTERIM_SERVICE ? services.INTERIM_SERVICE.old_price : "00.00"'
-          :id='`INTERIM_SERVICE`'
-          :ind='[
-            "Oil and Oil Filter", 
-            "50 point vehicle check", 
-            "Collection and delivery"
-          ]'
-        ></base-service-item>
-        <base-service-item
-          :loading='isLoading'
           :title='`Full Service`'
           :price='services.FULL_SERVICE ? services.FULL_SERVICE.price : "00.00"'
           :oldPrice='services.FULL_SERVICE ? services.FULL_SERVICE.old_price : "00.00"'
@@ -54,6 +42,18 @@
           :ind='[
             "70 point vehicle checks", 
             "Drive and Test", 
+            "Collection and delivery"
+          ]'
+        ></base-service-item>
+        <base-service-item
+          :loading='isLoading'
+          :title='`Interim Service`'
+          :price='services.INTERIM_SERVICE ? services.INTERIM_SERVICE.price : "00.00"'
+          :oldPrice='services.INTERIM_SERVICE ? services.INTERIM_SERVICE.old_price : "00.00"'
+          :id='`INTERIM_SERVICE`'
+          :ind='[
+            "Oil and Oil Filter", 
+            "50 point vehicle check", 
             "Collection and delivery"
           ]'
         ></base-service-item>
@@ -102,16 +102,20 @@ export default {
     motPriceCalculated() {
       const {services, cart} = this;
 
-      if (!services.MOT) return '00.00'
+      try {
+        if (!services.MOT) return '00.00'
 
-      if ('INTERIM_SERVICE' in cart) {
-        return services.MOT.mot_with_interim;
-      }
-      if ('FULL_SERVICE' in cart) {
-        return services.MOT.mot_with_full;
-      }
+        if ('INTERIM_SERVICE' in cart) {
+          return services.MOT.mot_with_interim;
+        }
+        if ('FULL_SERVICE' in cart) {
+          return services.MOT.mot_with_full;
+        }
 
-      return services.MOT.price;
+        return services.MOT.price;
+      } catch (error) {
+        return this.motPrice;
+      }
     }
   },
 

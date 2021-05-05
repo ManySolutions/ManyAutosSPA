@@ -17,7 +17,7 @@
       </v-icon>
       <slot name='added'>
         <strong>
-          Added in cart
+          Added in services
         </strong>
       </slot>
     </v-btn>

@@ -67,13 +67,17 @@
         </ul>
       </div>
 
-      <btn-add-service
-        :id='id'
-        :price='price'
-        :title='title'
-        @added='handleAdded'
-        cls='mt-10'
-      ></btn-add-service>
+      <template v-if='hasAddBtn'>
+        <btn-add-service
+          :id='id'
+          :price='price'
+          :title='title'
+          @added='handleAdded'
+          cls='mt-10'
+        ></btn-add-service>
+      </template>
+
+      <slot name='after'></slot>
     </div>
 
     <v-dialog
@@ -96,10 +100,22 @@ import DesktopCart from '../func-components/desktop-cart.vue';
 
 export default {
   components: { btnAddService, DesktopCart },
-  props: [
-    'title', 'price', 'id', 'description', 'btntext',
-    'ind', 'loading', 'oldPrice', 'label'
-  ],
+  props: {
+    title: String,
+    price: [String, Number],
+    id: [String, Number],
+    description: String,
+    btnText: String,
+    ind: [Array],
+    loading: Boolean,
+    oldPrice: [String, Number],
+    label: String,
+    hasNoBtn: Boolean,
+  },
+  // props: [
+  //   'title', 'price', 'id', 'description', 'btntext',
+  //   'ind', 'loading', 'oldPrice', 'label', 'hasNoBtn'
+  // ],
   data: () => ({
     INDKeys: ['IND0', 'IND1', 'IND2', 'IND3', 'IND4'],
     currencySymbol: process.env.CURRENCY_SYMBOL,
@@ -122,6 +138,10 @@ export default {
         return false;
       }
     },
+
+    hasAddBtn() {
+      return !this.hasNoBtn;
+    }
   },
   watch: {
     isCartLoading(isCartLoading) {

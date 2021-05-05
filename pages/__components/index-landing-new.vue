@@ -5,17 +5,25 @@
         <h1 
           v-html='headingText' 
           class='white--text'
-          :class='$route.query.offer ? `has-offer` : ``'
+          :class='typeAttr ? `has-offer` : ``'
         ></h1>
         <h4 class='white--text'>
-          Free collection and delivery <br> on your next
-          <base-text-slider :options="[
-            'MOT', 'Full Service', 'Interim Service',
-            'Car Repair', 'Diagnostics'
-          ]"></base-text-slider>
+          <template v-if='typeAttr == "mot"'>
+            Also take advantage of our 30% discount on our Full Service package
+          </template>
+          <template v-else>
+            Free collection and delivery <br> on your next
+            <base-text-slider :options="[
+              'MOT', 'Full Service', 'Interim Service',
+              'Car Repair', 'Diagnostics'
+            ]"></base-text-slider>
+          </template>
         </h4>
         <div>
-          <car-reg-form-card title=''></car-reg-form-card>
+          <car-reg-form-card 
+            title=''
+            :btn-text='quoteBtntext'
+          ></car-reg-form-card>
         </div>
       </div>
       <v-img 
@@ -31,33 +39,38 @@
 import {mapState} from 'vuex';
 
 export default {
+  props: {
+    type: String,
+  },
+  
   data: () => ({
     rendered: false,
   }),
+
   computed: {
     ...mapState('settings', ['motPrice']),
 
     headingText() {
-      const {offer} = this.$route.query;
+      const {typeAttr} = this;
       let redirect = null;
       let text = 'Save up to 60%, book your car repair now';
 
-      if (offer == 'mot') {
-        redirect = '/booking/create/mot-and-servicing';
+      if (typeAttr == 'mot') {
+        redirect = '/booking/create/free-mot-with-full-service';
 
-        text = `Book your MOT <br /> for only 
+        text = `Book
           <span class='price secondary--text'>
-            ${this.currencySymbol}
-            <span>${this.motPrice}</span>
-          </span>`;
+            FREE
+          </span>
+          MOT <br /> with Full Service`;
       }
-      if (offer == 'car-service') {
+      if (typeAttr == 'car-service') {
         redirect = '/booking/create/mot-and-servicing#FULL_SERVICE';
 
         text = `Book your car service, starting from 
           <span class='price secondary--text'>${this.currencySymbol}<span>59.99</span></span>`;
       }
-      if (offer == 'car-repair') {
+      if (typeAttr == 'car-repair') {
         redirect = '/booking/create/parts';
 
         text = `Book your next car repair with us now`;
@@ -75,11 +88,22 @@ export default {
       return text;
     },
 
+    quoteBtntext() {
+      if (this.typeAttr == 'mot')
+        return 'Get Free MOT Quote'
+      else
+        return 'Get Instant Quote'
+    },
+
     sheetBg() {
       return 'primary darken-2';
       return this.isDevice.md 
         ? 'primary lighten-2' 
         : 'transparent'
+    },
+    
+    typeAttr() {
+      return this.type || this.$route.query.offer;
     }
   },
 }

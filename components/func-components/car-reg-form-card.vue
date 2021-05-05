@@ -37,28 +37,30 @@
           :loading="isLoading"
           :x-large='!isMinDevice'
         >
-          Get instant quote
+          {{btnText}}
         </v-btn>
         <client-only>
           <index-active-car> </index-active-car>
         </client-only>
       </v-form>
     </v-card-text>
-    <v-card-actions class="px-4 d-block">
-      <span class="d-block call-us-txt text-center">
-        or call us to book
-        <v-btn
-          text
-          :color="dark ? `white` : `primary`"
-          class="py-0 px-0"
-          style="height: auto"
-          href="tel:01189876300"
-        >
-          <v-icon dark class="mr-1"> mdi-cellphone-basic </v-icon>
-          <span class="text-large"> 01189 876300 </span>
-        </v-btn>
-      </span>
-    </v-card-actions>
+    <template v-if='hasCallBtn'>
+      <v-card-actions class="px-4 d-block">
+        <span class="d-block call-us-txt text-center">
+          or call us to book
+          <v-btn
+            text
+            :color="dark ? `white` : `primary`"
+            class="py-0 px-0"
+            style="height: auto"
+            href="tel:01189876300"
+          >
+            <v-icon dark class="mr-1"> mdi-cellphone-basic </v-icon>
+            <span class="text-large"> 01189 876300 </span>
+          </v-btn>
+        </span>
+      </v-card-actions>
+    </template>
   </v-card>
 </template>
 
@@ -79,6 +81,14 @@ export default {
       type: String
     },
     dark: Boolean,
+    btnText: {
+      default: 'Get Instant Quote',
+      type: String,
+    },
+    hasCallBtn: {
+      default: true,
+      type: Boolean,
+    },
   },
   data: () => ({
     reg: '',

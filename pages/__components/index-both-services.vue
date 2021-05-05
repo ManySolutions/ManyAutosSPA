@@ -3,7 +3,10 @@
     <v-container>
       <v-row>
         <v-col cols="12" class="both-service-sec text-center">
-          <h2 class="index-heading">Our Services</h2>
+          <h2 
+            class="index-heading" 
+            v-html='title || "Our Services"'
+          ></h2>
           <p class='pb-8'>
             We are capable of fixing both foreign and domestic vehicles.<br />
             We offer MOT, car services and repairs all at one place.
@@ -132,6 +135,9 @@
 <script>
 import BtnAddService from '~/components/func-components/btn-add-service.vue';
 export default {
+  props: {
+    title: String,
+  },
   components: {
     BtnAddService,
   },
