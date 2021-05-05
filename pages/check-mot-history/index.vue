@@ -87,33 +87,35 @@
                   <strong>free car check</strong>
                 </h2>
                 <p class="text-teal text-18 justify pb-5">
-                  At Manyautos, we share the pride in your ride. You only need
-                  to give the registration number and we will provide you with
-                  all the relevant information regarding the vehicle you’ve
-                  searched for. We can tell what you need to know. Do you want
-                  to know the expiry date of your MOT? Want to know why a
-                  vehicle failed the MOT? No problem, we will answer all your
-                  queries.
+                  At Manyautos, we share the pride in your ride. You only need 
+                  to give the registration number and we will provide you with 
+                  all the relevant information regarding the vehicle you’ve 
+                  searched for. We can tell what you need to know. Do you want 
+                  to know the <strong>check MOT history</strong>, or the expiry date of your 
+                  MOT? Want to know why a vehicle failed the MOT? No problem, 
+                  we will answer all your queries and tell you your <strong>MOT status</strong>.
                 </p>
                 <p class="text-teal text-18 justify pb-5">
-                  You can even check the date at which the MOT was performed,
-                  the mileage that was recorded at the time, and also a list of
-                  defects or advisory that was issued.
+                  You can even check the date at which the MOT was performed, the 
+                  mileage that was recorded at the time, and also a list of defects 
+                  or advisory that was issued. It is pretty normal that you don’t 
+                  remember the results of your previous. Now you have another MOT 
+                  test nearing and you are trying to recall the results of last year. 
+                  Well, we can help you in a situation like this. Your entire <strong>MOT 
+                  history</strong> is just a few clicks away.
                 </p>
                 <p class="text-teal text-18 justify pb-5">
-                  It doesn’t matter if you have forgotten when your next MOT is
-                  due, or you would like to gather information about a vehicle
-                  that you’re planning to buy; we will help you. You can use our
-                  handy reminder tool to set a reminder when your MOT is next
-                  due.
+                  It doesn’t matter if you have forgotten when your next MOT is due, or 
+                  you would like to gather information about a vehicle that you’re planning 
+                  to buy; we will help you. You can use our handy reminder tool to set a 
+                  reminder when your MOT is next due.
                 </p>
                 <p class="text-teal text-18 justify pb-5">
-                  The advantage of an <strong>MOT checking service</strong> is
-                  that it saves a lot of your money. If you are caught driving
-                  without an MOT you could be fined up to £1000. Buying a car
-                  without knowing its history could lead to several expensive
-                  repairs. You can avoid all this hassle and complications with
-                  our <strong>Check MOT online</strong> service.
+                  The advantage of an <strong>MOT history checker</strong> is that it saves a lot of your money. 
+                  If you are caught driving without an MOT you could be fined up to £1000. 
+                  Buying a car without knowing its history could lead to several expensive 
+                  repairs. You can avoid all this hassle and complications with our <strong>Check MOT</strong> 
+                  online service
                 </p>
               </div>
             </v-col>
@@ -130,17 +132,17 @@
               </div>
               <div>
                 <p class="text-teal text-18 justify pt-2 pb-5">
-                  An MOT check is a great way to check whether the information
-                  you’re being told about a vehicle is true or not.
+                  A <NuxtLink to="/mot">check MOT status</NuxtLink> is a great way to 
+                  confirm whether the information you’re being told about a vehicle 
+                  is true or not.
                 </p>
                 <p class="text-teal text-18 justify pb-5">
-                  For instance; according to the industry authorities, 1 in
-                  every 20 vehicles that are sold has a mileage discrepancy.
-                  There is an odometer reading which does not match with the
-                  car’s history. This thing would be impossible to prove without
-                  an MOT certificate. So, a free MOT check gives you a chance to
-                  have a digital look back at every certificate that was once
-                  issued and also check if there have been any errors or
+                  For instance; according to the industry authorities, 1 in every 20 
+                  vehicles that are sold has a mileage discrepancy. There is an odometer 
+                  reading which does not match with the car’s history. This thing would 
+                  be impossible to prove without an MOT certificate. So, a free <strong>MOT history 
+                  check</strong> gives you a chance to have a digital look back at every certificate 
+                  that was once issued and also check if there have been any errors or 
                   adjustments made.
                 </p>
               </div>
@@ -322,7 +324,7 @@ export default {
       },
       {
         name: 'keywords',
-        content: 'check mot, check mot history, check car mot, check mot status, check mot online, check mot uk, check mot date, check mot expiry'
+        content: 'Mot history, check mot, check mot history, Mot history check, check Mot status, Mot status, check my mot history, Mot history checker'
       },
       {
         property: "og:title",
