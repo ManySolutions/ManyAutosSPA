@@ -202,7 +202,6 @@
       </v-card>
       <!-- personal information -->
 
-
       <v-card class='mt-5' :disabled='!isStep3Valid'>
         <div class='d-flex flex-no-wrap justify-space-between align-middle'>
           <div>
@@ -267,7 +266,6 @@
           </v-row>
         </v-card-text>
       </v-card>
-
 
     </v-form>
 
@@ -347,6 +345,7 @@ import CollectionInfoUser from './__components/collection-info-user';
 import { createBooking } from '~/api/booking';
 import BookingLayout from '~/layouts/booking-layout.vue';
 import { fbqInitiateCheckout, fbqPurchase } from '~/api/fbq';
+import http from '~/utils/http';
 
 export default {
   components: { 
@@ -369,7 +368,7 @@ export default {
         href: '#'
       },
     ],
-
+    
     form: {
       collection_date: new Date().toISOString().substr(0, 10),
       postcode: null,
@@ -504,6 +503,8 @@ export default {
       };
       this.activeStep = 4;
       this.step = 4;
+      
+      this.sendPreOrderRequest();
     },
     handleOtherChange({ note }) {
       this.form.note = note;
@@ -581,6 +582,17 @@ export default {
         })
         .catch(err => toastr.error(err.response.body.message))
         .finally(() => this.isLoading = false);
+    },
+
+    sendPreOrderRequest() {
+      const { form, cartKey } = this;
+
+      const data = {
+        ...form, 
+        key: cartKey
+        };       
+
+        http.post('/discarded/booking', data)
     }
   }
 }
