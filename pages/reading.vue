@@ -1,89 +1,97 @@
 <template>
   <page-layout-v2
-    title="Get your car serviced in Newbury"
-    heading-bg='customer-v2/static-pages/allpics/newbury1.jpg'
+    title="Get your car serviced in Reading"
+    headingBgStatic='https://static.manyautosltd.com/uploads/reading.jpg'
     box-title='Book your service now'
-    blog-topic='ManyAutos and Newbury'
+    blog-topic='ManyAutos and Reading'
     redirect-to='/booking/create/services'
   >
   <template #overview>
   <p>
-    Newbury is a market town in the county of Berkshire, England. It is home to the administrative 
-    headquarters of West Berkshire Council. It is well-known for its racecourse and also as the 
-    headquarter for Vodafone UK. Newbury is a splendid place for families. There are good schools,
-    easy access to shopping, countryside and culture. All the villages surrounding Newbury are nice
-    as well.
+    Reading is a historic market town in Berkshire, South East England on the Thames and Kennet rivers. It is the
+    biggest town in England situated in the Thames Valley. Reading is a major commercial centre. It has involvement in
+    insurance and information technology. Although it is closer to London, it has a large inward commuter flow. It is
+    also ranked as the UK’s top economic area in terms of wellbeing and economic success. It is the best place to settle
+    with family because of its beautiful neighbourhood and good schools and colleges.
   </p>    
 </template>
     <template #blog>
-      <p>We cover the Newbury area for all car servicing, MOT and repair needs. Manyautos is one-stop shopping for all
-        your automotive needs. we use the latest equipment, allowing our qualified technicians and mechanics to diagnose
-        any problems quickly and efficiently.</p>
+      <p>We provide automotive services like car servicing, MOT and repairs all over Reading. Manyautos is one-stop
+        shopping for all your automotive needs. We have trained mechanics who only use authentic and latest equipment to
+        diagnose and solve an issue.</p>
       <p>Forgetting to service the vehicle as per the manufacturer schedule can cause your car to get damaged and break
         down. So, that is why it is necessary to stick to the schedule. We are here to ease your troubles and to keep
-        you on the road. Everyone can easily access our website a book car repair services in Newbury. At Many Autos
+        you on the road. Everyone can easily access our website and book car repair services in Reading. At Many Autos
         we keep a range of different service parts in stock for every make and model, so you can get the service you
         need to keep the vehicle engine running at the highest possible standard.</p>
       <h2 class="font-weight-600">
-        How much does Full Service cost in Newbury?
+        How much does Full Service cost in Reading?
       </h2>
       <p>
-        The average cost of full service in Newbury is £151. The price can range from £133 to £300, depending on the
+        The average cost of full service in Reading is £151. The price can range from £133 to £300, depending on the
+        make and model of your vehicle.
+      </p>
+      <h2 class="font-weight-600">
+        How much does Full Service cost in Reading?
+      </h2>
+      <p>
+        The average cost of full service in Reading is £151. The price can range from £133 to £300, depending on the
         make and model of your vehicle.
       </p>
       <h2 class="font-weight-600">
         What do you think about when choosing a garage for your service?
       </h2>
       <p>
-        Choosing a garage is a really big responsibility. You need to look at multiple aspects and select a garage that
-        would be the best for your car. What is the most efficient way for you to choose a garage for regular
-        maintenance? Do you look at the online reviews or ask for your friends and family’s advice? It’s not ideal to
-        just pull up to some car repairing centre and hope that they would do the required work properly. Well, now you
-        don’t have to endure this torture of selecting the perfect garage, because we have taken that responsibility
-        upon ourselves. You just register on our site and book a service for your car, and leave the rest to us.
-        Manyautos is only here to provide you with the best. We will scout for <strong>garages in Newbury</strong> and provide you
-        with the best garage that meets your needs in every way possible.
+        Choosing the perfect garage for your vehicle is a big headache. You do your research and look through multiple
+        things before making a choice. What in your opinion is the most efficient way to choose a garage for regular
+        maintenance? Do you like to look at the online reviews or ask for your friends and family’s advice? It’s not
+        ideal to just pull up to some car repairing centre and hope that they would do the required work properly. Well,
+        now you don’t have to endure this torture of selecting the perfect garage, because we have taken that
+        responsibility upon ourselves. You just have to register on our site and book the desired service for your car,
+        and leave the rest to us. Manyautos is only here to provide you with the best. We are locally owned and
+        operated. The best among all the <strong>garages in Reading</strong>. We will service and repair your car at affordable prices.
       </p>
       <h2 class="font-weight-600">
         When should you get your car serviced?
       </h2>
       <p>
-        It is perfectly normal to forget when an MOT is due or when exactly your car should undergo a full service. For
-        the MOT, you can benefit from our “MOT check history service” and learn everything you need to know about the
-        previous MOT and the date of the upcoming one.
-      </p>
-      <p>As for the service, you can check the owner’s manual, it would have every bit of information in it. It is
-        extremely important to keep all the history and information of car servicing in the annual. It not only come in
-        handy when you forget the service date but also when you sell your car. The manual makes things easy for the
-        next buyer. The age, make, mileage and the average usage of the vehicle in a day plays an important role in the
+        It is okay and normal if you forget when an MOT is due or when you should take your car to undergo a full
+        service. For the MOT, you can take advantage from our “MOT check history service” and learn everything you need
+        to know. Not only the date of the upcoming MOT but also all the details about the previous MOT test.
+        As far as the service is concerned, we recommend you to check and follow the owner’s manual. It is supposed to
+        contain every information about the servicing and the replacements of car parts. It is compulsory that you save
+        the records of off the services that your car go through. This information will come handy when you forget the
+        date of the last service or when you wish to sell your car. It will insight of your car maintenance to the next
+        buyer. The age, make, mileage and the average usage of the vehicle in a day plays an important role in the
         servicing. Generally, a car is recommended to undergo interim service every 6000 miles (6-months) and a full
-        service every 12,000 miles (12-months).</p>
+        service every 12,000 miles (12-months).
+      </p>
       <h2 class="font-weight-600">
         What car problems you need to look out for? 
       </h2>
       <p>
         Many issues can arise while driving, you might be dealing with a locked steering or a broken air suspension. The
         problems can occur due to several reasons; you must check the steering fluid for any leaks or you can look for a
-        slipped steering pump belt. As you must know that your vehicle is a complete system, if one thing gets damaged,
-        it affects the performance of other components as well. If you can’t identify the cause of the problem then
-        benefit from our car diagnostic service and get your vehicle inspected thoroughly.
+        slipped steering pump belt. As you must know that your vehicle is a complete system. All the parts have to work
+        properly and in harmony for the car to run smoothly. If one thing gets damaged, it affects the performance of
+        other components as well. If you can’t identify the cause of the problem, then benefit from our car diagnostic
+        service and get your vehicle inspected thoroughly.
       </p>
       <h2 class="font-weight-600">
         What do you need from your garage? 
       </h2>
       <p>
-        The most common answer to this question is: you need a garage that can repair or service your vehicle at a
-        reassemble price. But there is more to it than you thought. You can’t just choose any garage in Newbury, it
-        has to be a garage that calls for you. Leaving your car, your most valued possession with the garage requires
-        trust. You need to make sure that the garage is reliable and will perform all the services honestly. Other
-        aspects affect your decision as well, like the waiting area or the hospitality and professionalism of the staff
-        present at the garage.
+        The reasonable answer is that we seek a garage that that can maintain and service your vehicle at affordable
+        prices. But it involves more things than that. You need to select a garage in reading that feels the most right
+        to you because you have to leave your most valued possession, your car with the garage. You need to make sure
+        that the garage is reliable and will perform all the services honestly. Other aspects affect your decision as
+        well, like the waiting area or the hospitality and professionalism of the staff present at the garage.
       </p>
       <h2 class="font-weight-600">
-        Do you offer MOT tests in Newbury? 
+        Do you offer MOT tests in Reading? 
       </h2>
-      <p>Yes, we provide MOT for all the vehicles present in Newbury despite their make and model. An MOT is
-        compulsory and cannot be ignored, so if you are in Newbury and require an MOT test, book online now!
+      <p>Yes, we provide MOT for all the vehicles present in Reading despite their make and model. An MOT is compulsory
+        and cannot be ignored, so if you are in Reading and require an MOT test, book online now!
       </p>
       <h2 class="font-weight-600">
         How do we do this? 
@@ -102,9 +110,10 @@
       </h2>
       <p>
         Yes, we believe that we offer a valuable product with our Free Collection and Delivery <strong>car service in
-        Newbury</strong>. If your vehicle is drivable, we can collect it either from your place of work or from your home
-        address. If you are unsure about whether the address you are considering having your vehicle collected from is
-        within our range, then please do contact us.
+        Reading</strong>.
+        If your vehicle is drivable, we can collect it either from your place of work or from your home address. If you
+        are unsure about whether the address you are considering having your vehicle collected from is within our range,
+        then please do contact us.
       </p>
       <p>Many Autos operate a fleet of pool cars with a dedicated driver, so wherever we are collecting from, we need to
         be able to leave one of our pool vehicles either in your work car parking space or if in a residential area, we
@@ -138,24 +147,24 @@ export default {
   },
 
   head: {
-    title: "Car Repair in Newbury| Garage in Newbury",
+    title: "Car Repair in Reading| Garage in Reading",
 
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Find the best garages in Newbury for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
+          "Find the best garages in Reading for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
         name: "keywords",
         content:
-          "Newbury, Car repairs in Newbury, Garage in Newbury, Car Service in Newbury",
+          "Reading, Car repairs in Reading, Garage in Reading, Car Service in Reading",
       },
       {
         hid: "og:title",
         property: "og:title",
-        content: "Car Repair in Newbury| Garage in Newbury",
+        content: "Car Repair in Reading| Garage in Reading",
       },
       {
         hid: "og:type",
@@ -165,12 +174,12 @@ export default {
       {
         hid: "og:url",
         property: "og:url",
-        content: process.env.APP_URL + '/newbury',
+        content: process.env.APP_URL + '/reading',
       },
       {
         hid: "og:image",
         property: "og:image",
-        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/newbury1.jpg",
+        content: "https://static.manyautosltd.com/uploads/reading.jpg",
       },
       {
         hid: "og:site_name",
@@ -181,7 +190,7 @@ export default {
         hid: "og:description",
         property: "og:description",
         content:
-          "Find the best garages in Newbury for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
+          "Find the best garages in Reading for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
         name: "twitter:card",
@@ -189,20 +198,20 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Car Repair in Newbury| Garage in Newbury",
+        content: "Car Repair in Reading| Garage in Reading",
       },
       {
         name: "twitter:description",
         content:
-          "Find the best garages in Newbury for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
+          "Find the best garages in Reading for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
         name: "twitter:image",
-        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/newbury1.jpg",
+        content: "https://static.manyautosltd.com/uploads/reading.jpg",
       },
       {
         itemprop: "image",
-        content: "https://app.manyautosltd.com/assets/customer-v2/static-pages/allpics/newbury1.jpg",
+        content: "https://static.manyautosltd.com/uploads/reading.jpg",
       },
       {
         hid: "og:type",
