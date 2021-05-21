@@ -58,6 +58,8 @@
         It is okay and normal if you forget when an MOT is due or when you should take your car to undergo a full
         service. For the MOT, you can take advantage from our “MOT check history service” and learn everything you need
         to know. Not only the date of the upcoming MOT but also all the details about the previous MOT test.
+      </p>
+      <p>
         As far as the service is concerned, we recommend you to check and follow the owner’s manual. It is supposed to
         contain every information about the servicing and the replacements of car parts. It is compulsory that you save
         the records of off the services that your car go through. This information will come handy when you forget the
@@ -106,7 +108,7 @@
         your car to the nearest Many Autos Centre and have it checked.
       </p>
       <h2 class="font-weight-600">
-        Do you offer free collection and delivery from Newbury?
+        Do you offer free collection and delivery from Reading?
       </h2>
       <p>
         Yes, we believe that we offer a valuable product with our Free Collection and Delivery <strong>car service in
