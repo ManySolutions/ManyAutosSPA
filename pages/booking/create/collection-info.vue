@@ -368,7 +368,7 @@ export default {
         href: '#'
       },
     ],
-    
+
     form: {
       collection_date: new Date().toISOString().substr(0, 10),
       postcode: null,
@@ -403,7 +403,7 @@ export default {
   }),
 
   computed: {
-    ...mapGetters('booking', ['isCartEmpty', 'cartCount', 'cart', 'cartKey']),
+    ...mapGetters('booking', ['isCartEmpty', 'cartCount', 'cart', 'cartKey', 'vehicleName', 'carReg']),
     ...mapGetters('user', ['isAuth']),
     ...mapState('user', ['info']),
     ...mapState('booking', ['cartContent', 'modelId', 'hasPaymentPlan', 'referralId']),
@@ -585,11 +585,13 @@ export default {
     },
 
     sendPreOrderRequest() {
-      const { form, cartKey } = this;
+      const { form, cartKey, vehicleName, carReg } = this;
 
       const data = {
         ...form, 
-        key: cartKey
+        key: cartKey,
+        car_reg: carReg,
+        vehicle_name: vehicleName,
         };       
 
         http.post('/discarded/booking', data)
