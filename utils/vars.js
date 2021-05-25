@@ -585,7 +585,7 @@ export const serviceLocationPages = [
     { title: 'Maidenhead', url: '/maidenhead' },
     { title: 'Newbury', url: '/newbury' },
     { title: 'Pangbourne', url: '/pangbourne' },
-    { title: 'Reading', url: '/reading' },
+    { title: 'Reading', url: '/car-service/reading' },
     { title: 'Sonning', url: '/sonning' },
     { title: 'Spencers Wood', url: '/spencers-wood' },
     { title: 'Thatcham', url: '/thatcham' },
