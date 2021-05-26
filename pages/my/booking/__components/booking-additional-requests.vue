@@ -65,7 +65,7 @@ export default {
       { text: 'Service Name', value: 'name', sortable: false },
       { text: 'Service Price', value: 'price', sortable: false },
       { text: 'Labour Cost', value: 'labour_cost', sortable: false },
-      { text: 'Total Cost (inc Yax)', value: 'total_cost', sortable: false },
+      { text: 'Total Cost (inc Tax)', value: 'total_cost', sortable: false },
       { text: 'Apply Action', value: 'action', sortable: false }
     ],
     isLoading: false,
