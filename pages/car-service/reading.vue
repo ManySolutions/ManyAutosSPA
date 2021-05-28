@@ -1,9 +1,9 @@
 <template>
   <page-layout-v2
-    title="Get your car serviced in Reading"
+    title="Car Service in Reading"
     headingBgStatic='https://static.manyautosltd.com/uploads/reading.jpg'
     box-title='Book your service now'
-    blog-topic='ManyAutos and Reading'
+    blog-topic='ManyAutos in Reading'
     redirect-to='/booking/create/services'
   >
   <template #overview>
@@ -13,9 +13,32 @@
     insurance and information technology. Although it is closer to London, it has a large inward commuter flow. It is
     also ranked as the UK’s top economic area in terms of wellbeing and economic success. It is the best place to settle
     with family because of its beautiful neighbourhood and good schools and colleges.
-  </p>    
+  </p>
+  <p>Reading is a major commercial centre with interests in information technology and insurance, and it has a net
+    inward commuter flow considering its proximity to London. According to factors such as jobs, health, profits, and
+    skills, it is the UK's top economic sector for economic growth and wellbeing. Reading is also home to the University
+    of Reading and is a major regional shopping centre serving a wide area of the Thames Valley. It hosts the Reading
+    Festival, one of England's largest music festivals, every year. Reading is home to several sports teams, including
+    Reading Football Club, a former English Premier League soccer team, and Reading Hockey Club, an eight-time national
+    field hockey champion. The Reading Half Marathon attracts over 15,000 runners per year.Reading is a major commercial
+    centre with interests in information technology and insurance, and it has a net inward commuter flow considering its
+    proximity to London. According to factors such as jobs, health, profits, and skills, it is the UK's top economic
+    sector for economic growth and wellbeing. Reading is also home to the University of Reading and is a major regional
+    shopping centre serving a wide area of the Thames Valley. It hosts the Reading Festival, one of England's largest
+    music festivals, every year. Reading is home to several sports teams, including Reading Football Club, a former
+    English Premier League soccer team, and Reading Hockey Club, an eight-time national field hockey champion. The
+    Reading Half Marathon attracts over 15,000 runners per year.</p>
+  <p>The Borough of Reading had 163,203 residents in 2018 and the larger metropolitan area had 344,810 residents in
+    2021, making it the largest town in the United Kingdom by population.</p>
+  <p>Two members of Parliament represent the borough, which has been represented in Parliament since 1295. Reading has
+    been the county town of Berkshire for ceremonial purposes since 1867, previously sharing this status with
+    Abingdon-On-Thames, which is now in Oxfordshire.</p>
 </template>
     <template #blog>
+      <p>Are you looking for a reputable and high-quality <strong>car garage in Reading</strong> ? Many Autos is your one-stop shop for
+        online garage services in Reading. We are a low-cost auto repair shop with locations all over the country. Our
+        certified car mechanics specialize in different mechanical systems of a car, so you can book online car repair
+        services with us with confidence.</p>
       <p>We provide automotive services like car servicing, MOT and repairs all over Reading. Manyautos is one-stop
         shopping for all your automotive needs. We have trained mechanics who only use authentic and latest equipment to
         diagnose and solve an issue.</p>
@@ -25,12 +48,26 @@
         we keep a range of different service parts in stock for every make and model, so you can get the service you
         need to keep the vehicle engine running at the highest possible standard.</p>
       <h2 class="font-weight-600">
-        How much does Full Service cost in Reading?
+        Why is it important to get your car serviced?
       </h2>
       <p>
-        The average cost of full service in Reading is £151. The price can range from £133 to £300, depending on the
-        make and model of your vehicle.
-      </p>
+        Routinely servicing and maintaining your vehicle will help it run more smoothly and effectively while also
+        reducing the inconvenience of your car breaking down and requiring expensive and unexpected car repair and
+        maintenance. It is possible that routine car maintenance may be missed in certain situations. This is
+        attributable to planned mileage necessitating minimal wear and tear repairs, which can easily escalate into a
+        costly major repair or replacement.</p>
+        <p>We also recommend the following services to be completed annually:</p>
+        <ul>
+          <li>Brake fluid service</li>
+          <li>Coolant service</li>
+          <li>Clutch fluid service</li>
+          <li>Spark plugs replacement (for petrol cars only)</li>
+          <li>Pollen filter replacement (also known as cabin filter)</li>
+        </ul>
+        <p class="pt-3">It is recommended to use car service near me while looking online for car repair and maintenance near me. The
+          explanation for this is that you will be able to access the website of the car repair to maintenance garage
+          and see if they have any deals that are applicable to the work you need, and some also have a free collection
+          and delivery service. <nuxt-link to="/service-booking">Click here</nuxt-link> for a quote</p>
       <h2 class="font-weight-600">
         How much does Full Service cost in Reading?
       </h2>
@@ -149,14 +186,14 @@ export default {
   },
 
   head: {
-    title: "Car Repair in Reading| Garage in Reading",
+    title: "Car Service in Reading | Book Full Service Online",
 
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Find the best garages in Reading for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
+          "Car Service in Reading - Find the best garages in Reading for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
         name: "keywords",
@@ -166,7 +203,7 @@ export default {
       {
         hid: "og:title",
         property: "og:title",
-        content: "Car Repair in Reading| Garage in Reading",
+        content: "Car Service in Reading | Book Full Service Online",
       },
       {
         hid: "og:type",
@@ -192,7 +229,7 @@ export default {
         hid: "og:description",
         property: "og:description",
         content:
-          "Find the best garages in Reading for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
+          "Car Service in Reading - Find the best garages in Reading for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
         name: "twitter:card",
@@ -200,12 +237,12 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Car Repair in Reading| Garage in Reading",
+        content: "Car Service in Reading | Book Full Service Online",
       },
       {
         name: "twitter:description",
         content:
-          "Find the best garages in Reading for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
+          "Car Service in Reading - Find the best garages in Reading for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
         name: "twitter:image",
