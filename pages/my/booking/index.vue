@@ -12,16 +12,26 @@
           :loading='isLoading'
           class="elevation-1"
         >
-        <template #item.services="{ item }">
+          <template #item.id="{ item }">
+            {{ item.id }}
+            <v-chip
+              v-if='item.is_discount'
+              color='yellow'
+              small
+            >
+              Discounted
+            </v-chip>
+          </template>
+          <template #item.services="{ item }">
             <v-chip
               :color="getColor(item.status)"
-               dark
-               small
+              dark
+              small
             >
-               {{ item.status }} 
+              {{ item.status }} 
             </v-chip>
-             {{ item.services }}
-        </template>
+            {{ item.services }}
+          </template>
           <template #item.actions='{ item }' >             
             <div :class="!item.has_payment_assist ? 'd-table' : 'py-2'">
               <div :class="!item.has_payment_assist ? 'd-table-cell' : 'pb-2'" v-if='item.is_payable'>

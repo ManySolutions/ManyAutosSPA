@@ -127,13 +127,25 @@
         <v-row>
           <v-col>
             Services List
+            <v-chip
+              v-if='booking.info.is_discount'
+              color='yellow'
+              small
+            >
+              Discounted
+            </v-chip>
           </v-col>
           <v-col>
             <div class='text-md-right'>
               <span>
                 Total Cost 
                 <span class='font-weight-700'>
-                  {{ currencySymbol + booking.total_cost }}
+                  <template v-if='booking.info.is_discount'>
+                    {{ currencySymbol + booking.total_cost }}
+                    <small class='text-decoration-line-through'>
+                      {{ currencySymbol + booking.total_cost_without_discount }}
+                    </small>
+                  </template>
                 </span>
               </span>
             </div>
@@ -149,6 +161,39 @@
           disable-filtering
           :loading='isServicesLoading'
         >
+          <template #item.price='{ item }'>
+            <span v-if='item.discounted'>
+              {{ item.discounted.price }}
+              <small class='text-decoration-line-through'>
+                {{ item.price }}
+              </small>
+            </span>
+            <span v-else>
+              {{ item.price }}
+            </span>
+          </template>
+          <template #item.labour_cost='{ item }'>
+            <span v-if='item.discounted'>
+              {{ item.discounted.labour_cost }}
+              <small class='text-decoration-line-through'>
+                {{ item.labour_cost }}
+              </small>
+            </span>
+            <span v-else>
+              {{ item.labour_cost }}
+            </span>
+          </template>
+          <template #item.total_cost='{ item }'>
+            <span v-if='item.discounted'>
+              {{ item.discounted.total_cost }}
+              <small class='text-decoration-line-through'>
+                {{ item.total_cost }}
+              </small>
+            </span>
+            <span v-else>
+              {{ item.total_cost }}
+            </span>
+          </template>
         </v-data-table>
       </v-card-text>
       <!-- /vehicle info -->
