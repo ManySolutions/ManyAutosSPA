@@ -145,6 +145,7 @@ export default {
       {title: 'Privacy Policy', url: '/privacy-policy'},
       {title: 'Contact Us', url: '/contact'},
       {title: 'Site Map', url: '/sitemap'},
+      {title: 'Reading', url: '/car-service/reading'},
       {title: 'Register as Garage', url: '/request-to-register-your-garage'},
       {title: 'Book a Service', url: '/service-booking'},
       {title: 'Login', url: '/login'},
