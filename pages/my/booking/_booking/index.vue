@@ -46,6 +46,7 @@
         <booking-additional-requests
           :items='booking.requests'
           :order-id='bookingId'
+          :order='booking.info'
           @approved='handleApproved'
         ></booking-additional-requests>
       </v-card-text>
