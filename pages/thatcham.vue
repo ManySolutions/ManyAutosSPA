@@ -4,7 +4,7 @@
 <script>
 export default {
   middleware({ redirect }) {
-    redirect('/car-service/thatchem');
+    redirect('/car-service/thatcham');
   }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <page-layout-v2
-    title="Car Serviced in Spencers Wood"
+    title="Car Service in Spencers Wood"
     heading-bg='customer-v2/static-pages/allpics/spencerswood1.jpg'
     box-title='Book your service now'
     blog-topic='ManyAutos and Spencers Wood'
@@ -137,14 +137,14 @@ export default {
   },
 
   head: {
-    title: "Car Serviced in Spencers Wood | Book Full Service Online",
+    title: "Car Service in Spencers Wood | Book Full Service Online",
 
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Car Serviced in Spencers Wood - Find the best garages in Spencers Wood for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
+          "Car Service in Spencers Wood - Find the best garages in Spencers Wood for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
         name: "keywords",
@@ -180,7 +180,7 @@ export default {
         hid: "og:description",
         property: "og:description",
         content:
-          "Car Serviced in Spencers Wood - Find the best garages in Spencers Wood for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
+          "Car Service in Spencers Wood - Find the best garages in Spencers Wood for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
         name: "twitter:card",
@@ -193,7 +193,7 @@ export default {
       {
         name: "twitter:description",
         content:
-          "Car Serviced in Spencers Wood - Find the best garages in Spencers Wood for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
+          "Car Service in Spencers Wood - Find the best garages in Spencers Wood for car services. MOT, vehicle repairs and all kind of services are offered at Manyautos.",
       },
       {
         name: "twitter:image",
